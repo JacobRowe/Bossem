@@ -1,0 +1,14655 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct InvokerActionInvoker2;
+template <typename T1, typename T2>
+struct InvokerActionInvoker2<T1*, T2>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2)
+	{
+		void* params[2] = { p1, &p2 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2>
+struct InvokerActionInvoker2<T1*, T2*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2* p2)
+	{
+		void* params[2] = { p1, p2 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InvokerActionInvoker3;
+template <typename T1, typename T2, typename T3>
+struct InvokerActionInvoker3<T1*, T2*, T3>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2* p2, T3 p3)
+	{
+		void* params[3] = { p1, p2, &p3 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InvokerActionInvoker3<T1*, T2*, T3*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2* p2, T3* p3)
+	{
+		void* params[3] = { p1, p2, p3 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+
+// System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>
+struct Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF;
+// System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>
+struct Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C;
+// System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>
+struct Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Func`1<System.Collections.IEnumerator>>
+struct Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Action>
+struct Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
+struct Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907;
+// System.EventHandler`1<System.Object>
+struct EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746;
+// System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>
+struct EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD;
+// System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>
+struct EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC;
+// System.Func`1<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>>
+struct Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB;
+// System.Func`1<UnityEngine.AudioClip>
+struct Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4;
+// System.Func`1<System.Boolean>
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457;
+// System.Func`1<System.Collections.IEnumerator>
+struct Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941;
+// System.Func`1<System.Int32Enum>
+struct Func_1_tA8F91C23675D323D5C9C1F3D2FAA8008CB1EF551;
+// System.Func`1<System.Object>
+struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4;
+// System.Func`1<System.String>
+struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C;
+// System.Func`1<UnityEngine.SystemLanguage>
+struct Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE;
+// System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>
+struct Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832;
+// System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>
+struct Func_1_t7082610092560C9628161A66480A08495185B4F7;
+// System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>
+struct Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF;
+// System.Func`2<Recognissimo.CallCondition,System.Boolean>
+struct Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F;
+// System.Func`2<System.Object,System.Boolean>
+struct Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00;
+// System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,System.Boolean>
+struct Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730;
+// System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,Recognissimo.Utils.Network.RemoteFile>
+struct Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772;
+// System.Func`2<Recognissimo.Components.StreamingAssetsLanguageModel,System.Boolean>
+struct Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA;
+// System.Func`2<Recognissimo.Components.VoiceControlCommand,System.Object>
+struct Func_2_t45E418EABF26C7AB471F4906B49C4369E5D9EC3A;
+// System.Func`2<Recognissimo.Components.VoiceControlCommand,System.String>
+struct Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5;
+// System.Func`2<Recognissimo.SpeechProcessorDependency/TaskData,System.Boolean>
+struct Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E;
+// System.Func`3<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>,System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>,System.Boolean>
+struct Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7;
+// System.Func`3<UnityEngine.AudioClip,UnityEngine.AudioClip,System.Boolean>
+struct Func_3_tD8D72C01E2A89B6AF8D90F9443965970E0ECE5B6;
+// System.Func`3<System.Int32Enum,System.Int32Enum,System.Boolean>
+struct Func_3_tE48B8474EE65D1530A10889B067677A4DDAB1DC5;
+// System.Func`3<System.Object,System.Object,System.Boolean>
+struct Func_3_tFCEB9D8CEAECBF6D0AD5440F96C6F9010270CE79;
+// System.Func`3<System.String,System.String,System.Boolean>
+struct Func_3_t0FFF2796668964ACABE470FF1DBB0508010292AB;
+// System.Func`3<UnityEngine.SystemLanguage,UnityEngine.SystemLanguage,System.Boolean>
+struct Func_3_t8695FF52278BB789E35AEE99A56D2FE109708165;
+// System.Collections.Generic.IEnumerable`1<Recognissimo.CallCondition>
+struct IEnumerable_1_t48BBABBA1427CD328FD22E03E751C0CFEF375C28;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+// System.Collections.Generic.IEnumerable`1<Recognissimo.Utils.Network.RemoteFile>
+struct IEnumerable_1_t13CFE69CE19D1155337AADD129FB7A8A94B3AA7C;
+// System.Collections.Generic.IEnumerable`1<Recognissimo.Components.RemoteLanguageModelArchive>
+struct IEnumerable_1_tF7AA9DED78B9021DD5D3E5C0EE43C8426A9B7780;
+// System.Collections.Generic.IEnumerable`1<Recognissimo.Components.StreamingAssetsLanguageModel>
+struct IEnumerable_1_t99924E7E6EC70728735EF5B93E0B496D9F6F41A6;
+// System.Collections.Generic.IEnumerable`1<System.String>
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
+// System.Collections.Generic.IEnumerable`1<Recognissimo.Components.VoiceControlCommand>
+struct IEnumerable_1_t64F146EC0343B0D0C8BDBA0CA0D8A46589B2DD0E;
+// System.Collections.Generic.IEnumerable`1<Recognissimo.SpeechProcessorDependency/TaskData>
+struct IEnumerable_1_tC503379BC36B10F4A806009416C3ADFE87AA1E4D;
+// System.Collections.Generic.IEnumerator`1<Recognissimo.SpeechProcessorDependency/TaskData>
+struct IEnumerator_1_t7EBFEB4F3350635190345B4798A7C5C1918249DE;
+// System.Collections.Generic.IEqualityComparer`1<System.Int32>
+struct IEqualityComparer_1_tDBFC8496F14612776AF930DBF84AFE7D06D1F0E9;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Func`1<System.Collections.IEnumerator>>
+struct KeyCollection_t9DDF47D561675C222D15974BC92CF1721EA10763;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Action>
+struct KeyCollection_t25493DF97B0537602A4277CBACBC938FE88D416B;
+// System.Collections.Generic.List`1<Recognissimo.Components.Alternative>
+struct List_1_t07835BACB1E80360FD9D599DA0E6E2D341CFDC57;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+// System.Collections.Generic.List`1<Recognissimo.Utils.Network.RemoteFile>
+struct List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980;
+// System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>
+struct List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2;
+// System.Collections.Generic.List`1<Recognissimo.Components.StreamingAssetsLanguageModel>
+struct List_1_tF56A590631DD0A17BC1DCC8A00336928D09FAE8E;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+// System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>
+struct List_1_t5DD84171740534E27980249B42B230DF269891A2;
+// System.Collections.Generic.List`1<Recognissimo.Components.Word>
+struct List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067;
+// System.Collections.Generic.List`1<Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription>
+struct List_1_tC5416CBBA2ACD6FF54AA639C13F7FEC0E4CEFFDE;
+// System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData>
+struct List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98;
+// System.Collections.Generic.Stack`1<System.Collections.IEnumerator>
+struct Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB;
+// System.Collections.Generic.Stack`1<System.Object>
+struct Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5;
+// UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException>
+struct UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053;
+// UnityEngine.Events.UnityEvent`1<System.Object>
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+// UnityEngine.Events.UnityEvent`1<Recognissimo.Components.PartialResult>
+struct UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC;
+// UnityEngine.Events.UnityEvent`1<Recognissimo.Components.Result>
+struct UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F;
+// UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException>
+struct UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Func`1<System.Collections.IEnumerator>>
+struct ValueCollection_t8CF1FC5706F2CAF8C512D849FC1FECA253F9653D;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Action>
+struct ValueCollection_t62CB850939CCE86CDC6238C219A6D8DB3065B543;
+// System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Func`1<System.Collections.IEnumerator>>[]
+struct EntryU5BU5D_tD35A530DB61880782D68CBBE55D5041DD422328C;
+// System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Action>[]
+struct EntryU5BU5D_t6D30E653DB87C3F84695847ACA92AE88FFCCD532;
+// Recognissimo.Components.Alternative[]
+struct AlternativeU5BU5D_t9CCA8B1706306A525B39D5C209CA3BDD998D1298;
+// Recognissimo.CallCondition[]
+struct CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// System.Collections.IEnumerator[]
+struct IEnumeratorU5BU5D_tC12A5EDF69B5926D22A47F36F800785CA737530A;
+// System.Int16[]
+struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.IntPtr[]
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+// Recognissimo.Utils.Network.RemoteFile[]
+struct RemoteFileU5BU5D_t0BB215993F57B7C07184BA34A84524292AF62312;
+// Recognissimo.Components.RemoteLanguageModelArchive[]
+struct RemoteLanguageModelArchiveU5BU5D_t7DA492BE5E1122F4C6D12EC22D31818E209C9728;
+// System.Single[]
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+// Recognissimo.Components.StreamingAssetsLanguageModel[]
+struct StreamingAssetsLanguageModelU5BU5D_tB6A3E36B2BD5349161BCB759E9B5EEDAA0177345;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// System.Type[]
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+// Recognissimo.Components.VoiceControlCommand[]
+struct VoiceControlCommandU5BU5D_t44F9838EE6B3F907398FCE6871AF5FC0877339B7;
+// Recognissimo.Components.Word[]
+struct WordU5BU5D_t6A28D0E90DBA4520837960570AC04E5701F8A994;
+// Recognissimo.SpeechProcessorDependency/TaskData[]
+struct TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7;
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+// Recognissimo.Core.Algorithm
+struct Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3;
+// Recognissimo.Core.AlgorithmHandle
+struct AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4;
+// System.ArgumentNullException
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+// UnityEngine.AudioClip
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+// Recognissimo.Components.AudioClipSpeechSource
+struct AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467;
+// Recognissimo.Components.AudioListenerSpeechSource
+struct AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B;
+// System.Reflection.Binder
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+// Recognissimo.CallCondition
+struct CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1;
+// Recognissimo.Core.Context
+struct Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0;
+// Recognissimo.Core.ContextHandle
+struct ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655;
+// UnityEngine.Coroutine
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+// System.Delegate
+struct Delegate_t;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// Recognissimo.DependencyInitializationException
+struct DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732;
+// Recognissimo.Utils.Network.DownloadFailedCallback
+struct DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8;
+// Recognissimo.Utils.Network.DownloadManager
+struct DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73;
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377;
+// System.EventHandler
+struct EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82;
+// System.Exception
+struct Exception_t;
+// System.IAsyncResult
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+// System.Collections.IDictionary
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// System.Collections.IEnumerator
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+// System.IO.IOException
+struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910;
+// Recognissimo.Utils.StreamingAssetsProvider.IStreamingAssetsProvider
+struct IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E;
+// Recognissimo.InitializationException
+struct InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645;
+// Recognissimo.InitializationFailedCallback
+struct InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68;
+// Recognissimo.InitializationTaskStartedCallback
+struct InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C;
+// Recognissimo.InternalInitializationException
+struct InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396;
+// Recognissimo.InternalRuntimeException
+struct InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E;
+// Recognissimo.InvalidAlgorithmInputException
+struct InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77;
+// Recognissimo.InvalidLanguageModelException
+struct InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1;
+// System.InvalidOperationException
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
+// Recognissimo.InvalidSampleRateException
+struct InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230;
+// UnityEngine.Events.InvokableCallList
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+// Recognissimo.LanguageModel
+struct LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD;
+// Recognissimo.LanguageModelProvider
+struct LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F;
+// Recognissimo.Core.LanguageModelResource
+struct LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376;
+// Recognissimo.Core.LanguageModelResourceHandle
+struct LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535;
+// System.Reflection.MemberFilter
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// Recognissimo.Components.MicrophoneSpeechSource
+struct MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+// Recognissimo.Components.PartialResultEvent
+struct PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E;
+// UnityEngine.Events.PersistentCallGroup
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+// Recognissimo.Components.RemoteLanguageModelProvider
+struct RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B;
+// Recognissimo.Components.ResultEvent
+struct ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183;
+// Recognissimo.RuntimeException
+struct RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F;
+// Recognissimo.RuntimeFailureEventArgs
+struct RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815;
+// System.Runtime.InteropServices.SafeHandle
+struct SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7;
+// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
+struct SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// Recognissimo.SamplesReadyEventArgs
+struct SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2;
+// Recognissimo.SpeechProcessor
+struct SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E;
+// Recognissimo.SpeechProcessorDependency
+struct SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F;
+// Recognissimo.SpeechProcessorException
+struct SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C;
+// Recognissimo.Components.SpeechRecognizer
+struct SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494;
+// Recognissimo.Core.SpeechRecognizerAlgorithm
+struct SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37;
+// Recognissimo.SpeechSource
+struct SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C;
+// Recognissimo.SpeechSourceRuntimeException
+struct SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34;
+// Recognissimo.Components.StreamingAssetsLanguageModelProvider
+struct StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88;
+// Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProvisionFailedCallback
+struct StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF;
+// System.String
+struct String_t;
+// System.Text.StringBuilder
+struct StringBuilder_t;
+// System.Type
+struct Type_t;
+// UnityEngine.Events.UnityAction
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F;
+// Recognissimo.Components.VoiceActivityDetector
+struct VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5;
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm
+struct VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80;
+// Recognissimo.Components.VoiceControl
+struct VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581;
+// Recognissimo.Core.VoiceControlAlgorithm
+struct VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// UnityEngine.AudioClip/PCMReaderCallback
+struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
+// UnityEngine.AudioClip/PCMSetPositionCallback
+struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
+// Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11
+struct U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A;
+// Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13
+struct U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B;
+// Recognissimo.CallCondition/<>c
+struct U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237;
+// Recognissimo.CallCondition/<>c__DisplayClass4_0
+struct U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8;
+// Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23
+struct U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1;
+// Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25
+struct U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6;
+// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0
+struct U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C;
+// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass6_0
+struct U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090;
+// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass7_0
+struct U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6;
+// Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10
+struct U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1;
+// Recognissimo.SpeechProcessor/<>c__DisplayClass39_0
+struct U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5;
+// Recognissimo.SpeechProcessor/<Initialize>d__39
+struct U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652;
+// Recognissimo.SpeechProcessorDependency/<Initialize>d__10
+struct U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7;
+// Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7
+struct U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4;
+// Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4
+struct U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24;
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504;
+// Recognissimo.Components.VoiceControl/<>c
+struct U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Error_t3A18A9E1231CF5B6AE905CC8735396AF9142AAA3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t7082610092560C9628161A66480A08495185B4F7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_tC503379BC36B10F4A806009416C3ADFE87AA1E4D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t7EBFEB4F3350635190345B4798A7C5C1918249DE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t5DD84171740534E27980249B42B230DF269891A2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StopMode_tEB7D4FA6A127D600C48E0FAD7EF4AC5E400D6499_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral04566402A4687E94CC7FF647BEF5F791A7957732;
+IL2CPP_EXTERN_C String_t* _stringLiteral06A38FE48E9ED08D2EFD37401469D0D9FB06283E;
+IL2CPP_EXTERN_C String_t* _stringLiteral0A29EDBC296E09AA7440FC5C1C740F04A0A6F182;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral3265D697440C1C43D7A305AF98E374586769551A;
+IL2CPP_EXTERN_C String_t* _stringLiteral3531A867BFD32A542B1A0D0070DECEF7D8B63FBA;
+IL2CPP_EXTERN_C String_t* _stringLiteral3952A7C46F2C9749F94659EC90D855DF03EE7B1A;
+IL2CPP_EXTERN_C String_t* _stringLiteral400955291A023F539F1FA11280FA0887622FDCCA;
+IL2CPP_EXTERN_C String_t* _stringLiteral442B854D2F522387E1BA1293D5CE0402C646C50C;
+IL2CPP_EXTERN_C String_t* _stringLiteral4AE6DEE61E3B2C26FE1CD8F6841CE412012A3076;
+IL2CPP_EXTERN_C String_t* _stringLiteral4FFC364B3F4E8C219F348CF3E8E69E552CE16515;
+IL2CPP_EXTERN_C String_t* _stringLiteral6939231E6BF1FFCD869DD1CEEC88AD634BA2DE0C;
+IL2CPP_EXTERN_C String_t* _stringLiteral6A4058706E2CE68A096819CAEB19CE49F524A3F8;
+IL2CPP_EXTERN_C String_t* _stringLiteral7EE837B2FC81E79F9F96BEFD9CD8B64870F5C628;
+IL2CPP_EXTERN_C String_t* _stringLiteral7FE8936CEACBF69AFF615BFB4A39FB49724C6AEA;
+IL2CPP_EXTERN_C String_t* _stringLiteral8026EFAC6EE56D121304148A4B8F78692F1A46B1;
+IL2CPP_EXTERN_C String_t* _stringLiteral889712558BD04FE6A653F0E3F5502528F3385149;
+IL2CPP_EXTERN_C String_t* _stringLiteral889933F0ACB2C349D0387348532C96DAEC60F544;
+IL2CPP_EXTERN_C String_t* _stringLiteral9A5EEDA8DE6FBFA64C540060EC331806CFF6FA21;
+IL2CPP_EXTERN_C String_t* _stringLiteral9C26C489B5719CB39EB39D576A282C588EEC9FBA;
+IL2CPP_EXTERN_C String_t* _stringLiteral9E559651D62D7DAFD5853C1620456995A86EAB80;
+IL2CPP_EXTERN_C String_t* _stringLiteralA15CF7E1CEFBD0C475E3A89A80B5393D417F8634;
+IL2CPP_EXTERN_C String_t* _stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73;
+IL2CPP_EXTERN_C String_t* _stringLiteralA42779B09629BCE81B76EF626A57A0B40F2AD827;
+IL2CPP_EXTERN_C String_t* _stringLiteralA9AF8D13B64E63A31A01386E007E5C9CF3A6CF5B;
+IL2CPP_EXTERN_C String_t* _stringLiteralAA0ADED665086D4BF731C1B6ADE286AF1FE24D99;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD90BFA21C582C7B3ED9633B73EB348212EBA854;
+IL2CPP_EXTERN_C String_t* _stringLiteralAF248E82BE9EBA1ADBF067429FAEE5A5B6E05A74;
+IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
+IL2CPP_EXTERN_C String_t* _stringLiteralBC9ADFE9B2FFFF1D173EB13A731D47BF6F72DFCE;
+IL2CPP_EXTERN_C String_t* _stringLiteralBDC17E0C2D6C173BDD1807361C418F4DDE66D37D;
+IL2CPP_EXTERN_C String_t* _stringLiteralBFDB7E574F9C18671BA02337ABCCC27533383C55;
+IL2CPP_EXTERN_C String_t* _stringLiteralC1399F49112BEB65FB61EA2C3082C828658586A0;
+IL2CPP_EXTERN_C String_t* _stringLiteralD2F55031859D42CCA7C8B0EA540877582ABE1AEA;
+IL2CPP_EXTERN_C String_t* _stringLiteralD696C0F2BB28480D6A3AA4A7E1C868ABD6A61910;
+IL2CPP_EXTERN_C String_t* _stringLiteralDDE3D2045506341D103BEDB063385BEC1D86B75C;
+IL2CPP_EXTERN_C String_t* _stringLiteralE9F3E5FA2DA95AD75A6AA85594B8F3F046A49E1D;
+IL2CPP_EXTERN_C String_t* _stringLiteralEDB83779390887261D68D61AF02B6F1F52C2006D;
+IL2CPP_EXTERN_C String_t* _stringLiteralF0AB94C928A783BE1AAC7FE99970D2920FE6A1D8;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClipSpeechSource_LoadAudio_m100E18A724AEC217E723A3AB0787C4F64FB165E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClipSpeechSource_U3COnEnableU3Eb__8_0_m4F199B3D5CC2CA1A8255B919885CC420EB98A63C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CallCondition_ValueChanged_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_mC603A9BCAAF4A7FCDDDA8882C39A985E95EDD8BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CallCondition_ValueChanged_TisString_t_mF21D8DA8263DDE5A47D227448B1EF48BB9E76C8A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Context__ctor_m1D0ABCB69C1A9D50954FBC273F3673973EBFDF8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m1C74602D83D4BBA2277CB152C24875A619840199_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m4D496BC9F7E41AE19694A54D83BBF2EDAAF6E6D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mCF4AB83443EAEBE5266CA7183799080C420809F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mF3102C0B0A37DB736838928BC56FF19F60D0412A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m1AC99E3ADC73E49AD4DB959D0DD87272825B0697_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m1F4D567D3F380947DD99B9FD103E365BF5DD83BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Any_TisCallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_mBEE451AC41E43CCC0DDD260DA039119F9DB9D2FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisString_t_mF2FFDE904F5406A231A218135727AD19EDCFBE98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_SequenceEqual_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_m38CB2815E3A518EAA97535F00355BED5977BDCEA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MicrophoneSpeechSource_CheckMicrophonePermissions_m64C0F0F404E1B0A21CB3CE90A503B16D5D383337_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MicrophoneSpeechSource_DetectSampleRate_m622F449A01B0E9C162CC723A0F32B7B41479BEBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MicrophoneSpeechSource_InitializeMicrophone_m0C94CC20586B84B69E95DB17137D556D6E10F4F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MicrophoneSpeechSource_U3COnEnableU3Eb__22_0_m19D8DE4DFA6430B1EFBA9F2E90FAA6CBFEEF830E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_LoadModel_mB5EFB21BBD57BDA4DEB79484FE8E5DC976539499_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_RemoveUnusedLanguageModels_m4090C47A07C66A356D351ABBD877857B8CD2520C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_U3CLoadModelU3Eb__10_0_mD18F0B2D99650E8D8D25A00C9CA6F42AEFC613CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_U3COnEnableU3Eb__5_0_mB4833A9CE1B8A5ECDDBA6829BBC716FEB82D5574_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_U3COnEnableU3Eb__5_1_m5FE992F2F8100B5998DDC3F589E15C671A16AA36_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_U3COnEnableU3Eb__5_2_m5F3A0AEAC09E2E0A097FF5035A0389DBD96FF34D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RemoteLanguageModelProvider_UpdateManifest_mEAC09983B16DBD1809302F987685C10E6F848421_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessorDependency_U3CInitializeU3Eb__10_0_m49628792A558182E1868B4C304DFBFBAB90867D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessor_SpeechSourceDriedEventHandler_m91279EDC298081DF05B0C0BABDEE3BC12E7F359C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessor_SpeechSourceRuntimeFailureEventHandler_m31AFBA415547D0EFD11B31E7CD928604D4C99548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessor_SpeechSourceSamplesReadyEventHandler_mA9970902447F52FCED76F2B890EC568FAAEAF57F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechProcessor_Update_m4694665322A05AD744DAF2303490C9687D3102BD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechRecognizer_OnResult_m426E3823B2D41595EB77621030BEAAF485FCD13C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpeechRecognizer_OnSetup_m693311B5E47AEE50FE62944D48A9E77A011DE978_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Stack_1_Peek_mB478B84AB35FBA331FF13DBABB9BE194C7186881_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Stack_1_Pop_mC456C42E8578B42F4B25CDB65F6B4E79D45CE19B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Stack_1__ctor_mF218547BE4368C5557FF1F40E220917E694CAFF0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Stack_1_get_Count_m20D4C6A9E28611C814D9D5305229E5FB3C501803_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StreamingAssetsLanguageModelProvider_LoadModel_m036AD45B9C18A3FE1C4B53AAF47007326030E225_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StreamingAssetsLanguageModelProvider_U3CLoadModelU3Eb__4_0_m5C4642E5CCDC26E165681F8F505969EA4AE5C7B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StreamingAssetsLanguageModelProvider_U3COnEnableU3Eb__3_0_mECDA39E175C46AB3DE2915A6B66AC3ED3A98DF39_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCheckMicrophonePermissionsU3Ed__23_System_Collections_IEnumerator_Reset_mB2A2E2E28EC815CE2FEB4C972E08983333A6853B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeMicrophoneU3Ed__25_MoveNext_m42BA429C10100CB51DEF511833C26DDA049715FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeMicrophoneU3Ed__25_System_Collections_IEnumerator_Reset_mF4AE88B19BBBC80467F367E90E692BD38EC97E20_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__10_MoveNext_mDEAB0734F7A8F6279409E0657FE2D43D652C146D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__10_System_Collections_IEnumerator_Reset_mEAD2EAF6B3FFDDFEAE888045210E58D29E17BFD4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__39_MoveNext_mB49D340482CB83F22FE5E5972E1A9CC28EF18412_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__39_System_Collections_IEnumerator_Reset_m37447D8DDA2A86B0E32483CC9FFD5CC3399F720A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadAudioU3Ed__11_MoveNext_m580FD0422F3F6653E5E5AFAB6F8F6F369544F0C5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadAudioU3Ed__11_System_Collections_IEnumerator_Reset_m34FB900740B25F759924EE8A47D9EA5551562564_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadModelU3Ed__10_MoveNext_m15BF5DD1E4EDB8CC911F1605232AEA2F973D3427_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadModelU3Ed__10_System_Collections_IEnumerator_Reset_mF8F6DDDA6D9DCA84E17DD2BE353382F2C8D24D2C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadModelU3Ed__4_MoveNext_mC3EE78525FCDAF8F32B38546FD323F1CB6A0C312_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadModelU3Ed__4_System_Collections_IEnumerator_Reset_m14D5A7229C1D880370E6830EA503FED8E8919BCA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CReadAudioSequentiallyU3Ed__13_System_Collections_IEnumerator_Reset_m31B79E168EC4D8A2428A7E7381B72ABD393460C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAggregateU3Eb__4_1_m978D5B84978D162ABFC80AC8024556B65A80068B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnSetupU3Eb__8_0_m5891B0BCE5E1382074C0063F114A013B21C0F46E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__7_0_mE3397409396A29285CEDB1D01380455A62CF112E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__7_1_m90BB25831BFE8D35C581DB52DA670F4C5E8BE5E0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass10_0_U3CLoadModelU3Eb__1_mE94DB3910CB242B707F759452AD70BE7B169ED1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass39_0_U3CInitializeU3Eb__1_mA7CB1C2804606D9BBB1D8AF380E7D465E01EEE5C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass4_0_U3CAggregateU3Eb__0_mDF4F14620EF82BB7892BBE6E4570940E8C3051A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CIsDownloadedU3Eb__0_mDB9AC966BA64946208E7DA62ABAC0542B500F77B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass7_0_U3CRemoveLanguageModelFilesU3Eb__0_m2E9A393FFA14BFCC067CB5278A9AE377C48FD649_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CWrapThrowingCoroutineU3Ed__7_System_Collections_IEnumerator_Reset_m4FC58412E41CDBA3B90CFC31692E25148DC96339_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_m41E556214EB6141900ED837D40BCD3B74146A678_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_m5665B78F91DA8A0C4A1B1E3930F2A2AF138C2E6E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VoiceActivityDetector_OnResult_m3BA1EEC38B0489880A0EFDAFDEC6B068BC65A6FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VoiceActivityDetector_OnSetup_mAEAE9A01F0B339187AA7DD50F2FC9F9EF23B4E44_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VoiceControl_OnResult_m666E842DB72B523998E46DE9B0A5B17668249FFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VoiceControl_OnSetup_mADBB7C70BFC73E83643EF5B890F1C4F82C6F86FE_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t;;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_com;;
+struct Exception_t_marshaled_pinvoke;
+struct Exception_t_marshaled_pinvoke;;
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504;;
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke;
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke;;
+
+struct CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_t0DC1E7770F0C9F72719C7649C4808F4181E2F71B 
+{
+};
+
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Func`1<System.Collections.IEnumerator>>
+struct Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_tD35A530DB61880782D68CBBE55D5041DD422328C* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t9DDF47D561675C222D15974BC92CF1721EA10763* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t8CF1FC5706F2CAF8C512D849FC1FECA253F9653D* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Action>
+struct Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t6D30E653DB87C3F84695847ACA92AE88FFCCD532* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t25493DF97B0537602A4277CBACBC938FE88D416B* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t62CB850939CCE86CDC6238C219A6D8DB3065B543* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.Components.Alternative>
+struct List_1_t07835BACB1E80360FD9D599DA0E6E2D341CFDC57  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	AlternativeU5BU5D_t9CCA8B1706306A525B39D5C209CA3BDD998D1298* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_t07835BACB1E80360FD9D599DA0E6E2D341CFDC57_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	AlternativeU5BU5D_t9CCA8B1706306A525B39D5C209CA3BDD998D1298* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.Utils.Network.RemoteFile>
+struct List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	RemoteFileU5BU5D_t0BB215993F57B7C07184BA34A84524292AF62312* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	RemoteFileU5BU5D_t0BB215993F57B7C07184BA34A84524292AF62312* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>
+struct List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	RemoteLanguageModelArchiveU5BU5D_t7DA492BE5E1122F4C6D12EC22D31818E209C9728* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	RemoteLanguageModelArchiveU5BU5D_t7DA492BE5E1122F4C6D12EC22D31818E209C9728* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.Components.StreamingAssetsLanguageModel>
+struct List_1_tF56A590631DD0A17BC1DCC8A00336928D09FAE8E  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StreamingAssetsLanguageModelU5BU5D_tB6A3E36B2BD5349161BCB759E9B5EEDAA0177345* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF56A590631DD0A17BC1DCC8A00336928D09FAE8E_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StreamingAssetsLanguageModelU5BU5D_tB6A3E36B2BD5349161BCB759E9B5EEDAA0177345* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>
+struct List_1_t5DD84171740534E27980249B42B230DF269891A2  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	VoiceControlCommandU5BU5D_t44F9838EE6B3F907398FCE6871AF5FC0877339B7* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_t5DD84171740534E27980249B42B230DF269891A2_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	VoiceControlCommandU5BU5D_t44F9838EE6B3F907398FCE6871AF5FC0877339B7* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.Components.Word>
+struct List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	WordU5BU5D_t6A28D0E90DBA4520837960570AC04E5701F8A994* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	WordU5BU5D_t6A28D0E90DBA4520837960570AC04E5701F8A994* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData>
+struct List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.Stack`1<System.Collections.IEnumerator>
+struct Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.Stack`1::_array
+	IEnumeratorU5BU5D_tC12A5EDF69B5926D22A47F36F800785CA737530A* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
+	int32_t ____size_1;
+	// System.Int32 System.Collections.Generic.Stack`1::_version
+	int32_t ____version_2;
+	// System.Object System.Collections.Generic.Stack`1::_syncRoot
+	RuntimeObject* ____syncRoot_3;
+};
+
+// System.Collections.Generic.Stack`1<System.Object>
+struct Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.Stack`1::_array
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
+	int32_t ____size_1;
+	// System.Int32 System.Collections.Generic.Stack`1::_version
+	int32_t ____version_2;
+	// System.Object System.Collections.Generic.Stack`1::_syncRoot
+	RuntimeObject* ____syncRoot_3;
+};
+
+// Recognissimo.Core.Algorithm
+struct Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3  : public RuntimeObject
+{
+	// Recognissimo.Core.AlgorithmHandle Recognissimo.Core.Algorithm::Handle
+	AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___Handle_0;
+};
+struct Il2CppArrayBounds;
+
+// Recognissimo.CallCondition
+struct CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1  : public RuntimeObject
+{
+	// System.Func`1<System.Boolean> Recognissimo.CallCondition::_condition
+	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ____condition_2;
+};
+
+struct CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields
+{
+	// Recognissimo.CallCondition Recognissimo.CallCondition::Once
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___Once_0;
+	// Recognissimo.CallCondition Recognissimo.CallCondition::Always
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___Always_1;
+};
+
+// Recognissimo.Core.Context
+struct Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0  : public RuntimeObject
+{
+	// Recognissimo.Core.ContextHandle Recognissimo.Core.Context::_handle
+	ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ____handle_0;
+};
+
+// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+struct CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9  : public RuntimeObject
+{
+};
+
+// System.Linq.Enumerable
+struct Enumerable_t372195206D92B3F390693F9449282C31FD564C09  : public RuntimeObject
+{
+};
+
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
+{
+};
+
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
+{
+	// System.EventArgs System.EventArgs::Empty
+	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
+};
+
+// Recognissimo.Core.Internal
+struct Internal_t867E42609B921ED0EAB143AF8D21CDB00E3E88E5  : public RuntimeObject
+{
+};
+
+// Recognissimo.LanguageModel
+struct LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD  : public RuntimeObject
+{
+	// Recognissimo.Core.LanguageModelResource Recognissimo.LanguageModel::Resource
+	LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* ___Resource_0;
+};
+
+// Recognissimo.Core.LanguageModelResource
+struct LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376  : public RuntimeObject
+{
+	// Recognissimo.Core.LanguageModelResourceHandle Recognissimo.Core.LanguageModelResource::Handle
+	LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* ___Handle_0;
+};
+
+// System.Reflection.MemberInfo
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+
+// Recognissimo.Core.PInvoke
+struct PInvoke_tA030DA81A0A42C23887E3B70505C3FEC38C8C014  : public RuntimeObject
+{
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.Text.StringBuilder
+struct StringBuilder_t  : public RuntimeObject
+{
+	// System.Char[] System.Text.StringBuilder::m_ChunkChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_ChunkChars_0;
+	// System.Text.StringBuilder System.Text.StringBuilder::m_ChunkPrevious
+	StringBuilder_t* ___m_ChunkPrevious_1;
+	// System.Int32 System.Text.StringBuilder::m_ChunkLength
+	int32_t ___m_ChunkLength_2;
+	// System.Int32 System.Text.StringBuilder::m_ChunkOffset
+	int32_t ___m_ChunkOffset_3;
+	// System.Int32 System.Text.StringBuilder::m_MaxCapacity
+	int32_t ___m_MaxCapacity_4;
+};
+
+// UnityEngine.Events.UnityEventBase
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	// UnityEngine.Events.InvokableCallList UnityEngine.Events.UnityEventBase::m_Calls
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls_0;
+	// UnityEngine.Events.PersistentCallGroup UnityEngine.Events.UnityEventBase::m_PersistentCalls
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls_1;
+	// System.Boolean UnityEngine.Events.UnityEventBase::m_CallsDirty
+	bool ___m_CallsDirty_2;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+
+// Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11
+struct U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Components.AudioClipSpeechSource Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::<>4__this
+	AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* ___U3CU3E4__this_2;
+};
+
+// Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13
+struct U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Components.AudioClipSpeechSource Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::<>4__this
+	AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* ___U3CU3E4__this_2;
+	// System.Int32 Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::<samplesLeft>5__2
+	int32_t ___U3CsamplesLeftU3E5__2_3;
+	// System.Int32 Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::<processedSamples>5__3
+	int32_t ___U3CprocessedSamplesU3E5__3_4;
+};
+
+// Recognissimo.CallCondition/<>c
+struct U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields
+{
+	// Recognissimo.CallCondition/<>c Recognissimo.CallCondition/<>c::<>9
+	U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* ___U3CU3E9_0;
+	// System.Func`2<Recognissimo.CallCondition,System.Boolean> Recognissimo.CallCondition/<>c::<>9__4_1
+	Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* ___U3CU3E9__4_1_1;
+};
+
+// Recognissimo.CallCondition/<>c__DisplayClass4_0
+struct U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8  : public RuntimeObject
+{
+	// Recognissimo.CallCondition[] Recognissimo.CallCondition/<>c__DisplayClass4_0::conditions
+	CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* ___conditions_0;
+};
+
+// Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23
+struct U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Components.MicrophoneSpeechSource Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::<>4__this
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* ___U3CU3E4__this_2;
+};
+
+// Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25
+struct U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Components.MicrophoneSpeechSource Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::<>4__this
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* ___U3CU3E4__this_2;
+};
+
+// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0
+struct U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C  : public RuntimeObject
+{
+	// System.Boolean Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0::didDownloadFail
+	bool ___didDownloadFail_0;
+	// Recognissimo.Components.RemoteLanguageModelProvider Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0::<>4__this
+	RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* ___U3CU3E4__this_1;
+};
+
+// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass6_0
+struct U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090  : public RuntimeObject
+{
+	// UnityEngine.SystemLanguage Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass6_0::downloadedLanguage
+	int32_t ___downloadedLanguage_0;
+};
+
+// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass7_0
+struct U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6  : public RuntimeObject
+{
+	// UnityEngine.SystemLanguage Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass7_0::removeLanguage
+	int32_t ___removeLanguage_0;
+};
+
+// Recognissimo.SpeechProcessor/<>c__DisplayClass39_0
+struct U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5  : public RuntimeObject
+{
+	// Recognissimo.SpeechProcessorDependency Recognissimo.SpeechProcessor/<>c__DisplayClass39_0::dependency
+	SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency_0;
+	// Recognissimo.SpeechProcessor Recognissimo.SpeechProcessor/<>c__DisplayClass39_0::<>4__this
+	SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* ___U3CU3E4__this_1;
+};
+
+// Recognissimo.SpeechProcessor/<Initialize>d__39
+struct U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.SpeechProcessor/<Initialize>d__39::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.SpeechProcessor/<Initialize>d__39::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.SpeechProcessor Recognissimo.SpeechProcessor/<Initialize>d__39::<>4__this
+	SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* ___U3CU3E4__this_2;
+};
+
+// Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7
+struct U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// System.Func`1<System.Collections.IEnumerator> Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::coroutine
+	Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* ___coroutine_2;
+	// Recognissimo.SpeechProcessorDependency Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::<>4__this
+	SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___U3CU3E4__this_3;
+	// System.Collections.Generic.Stack`1<System.Collections.IEnumerator> Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::<enumerators>5__2
+	Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* ___U3CenumeratorsU3E5__2_4;
+};
+
+// Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke
+struct PInvoke_t460770E1BC2ABDB1A80083B1476CAB21BFA5BEA5  : public RuntimeObject
+{
+};
+
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm/PInvoke
+struct PInvoke_t3FB4DB8ACCD29E5EA43D17E78973C4DC28337CB4  : public RuntimeObject
+{
+};
+
+// Recognissimo.Components.VoiceControl/<>c
+struct U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields
+{
+	// Recognissimo.Components.VoiceControl/<>c Recognissimo.Components.VoiceControl/<>c::<>9
+	U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE* ___U3CU3E9_0;
+	// System.Func`2<Recognissimo.Components.VoiceControlCommand,System.String> Recognissimo.Components.VoiceControl/<>c::<>9__8_0
+	Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* ___U3CU3E9__8_0_1;
+};
+
+// Recognissimo.Core.VoiceControlAlgorithm/PInvoke
+struct PInvoke_t5F4D80AD662658AF437D3169367900EBF619CA46  : public RuntimeObject
+{
+};
+
+// UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException>
+struct UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// UnityEngine.Events.UnityEvent`1<Recognissimo.Components.PartialResult>
+struct UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// UnityEngine.Events.UnityEvent`1<Recognissimo.Components.Result>
+struct UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException>
+struct UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// Recognissimo.Components.Alternative
+struct Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8 
+{
+	// System.Single Recognissimo.Components.Alternative::confidence
+	float ___confidence_0;
+	// System.String Recognissimo.Components.Alternative::text
+	String_t* ___text_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.Alternative
+struct Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_pinvoke
+{
+	float ___confidence_0;
+	char* ___text_1;
+};
+// Native definition for COM marshalling of Recognissimo.Components.Alternative
+struct Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_com
+{
+	float ___confidence_0;
+	Il2CppChar* ___text_1;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// Recognissimo.Core.ErrorReport
+struct ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF 
+{
+	// Recognissimo.Core.Error Recognissimo.Core.ErrorReport::Error
+	int32_t ___Error_0;
+	// System.String Recognissimo.Core.ErrorReport::Description
+	String_t* ___Description_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Core.ErrorReport
+struct ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_pinvoke
+{
+	int32_t ___Error_0;
+	char* ___Description_1;
+};
+// Native definition for COM marshalling of Recognissimo.Core.ErrorReport
+struct ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_com
+{
+	int32_t ___Error_0;
+	Il2CppChar* ___Description_1;
+};
+
+// System.Int16
+struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
+{
+	// System.Int16 System.Int16::m_value
+	int16_t ___m_value_0;
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// Recognissimo.Components.PartialResult
+struct PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B 
+{
+	// System.Collections.Generic.List`1<Recognissimo.Components.Word> Recognissimo.Components.PartialResult::result
+	List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067* ___result_0;
+	// System.String Recognissimo.Components.PartialResult::partial
+	String_t* ___partial_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.PartialResult
+struct PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_pinvoke
+{
+	List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067* ___result_0;
+	char* ___partial_1;
+};
+// Native definition for COM marshalling of Recognissimo.Components.PartialResult
+struct PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_com
+{
+	List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067* ___result_0;
+	Il2CppChar* ___partial_1;
+};
+
+// Recognissimo.Utils.Network.RemoteFile
+struct RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C 
+{
+	// System.String Recognissimo.Utils.Network.RemoteFile::url
+	String_t* ___url_0;
+	// System.String Recognissimo.Utils.Network.RemoteFile::version
+	String_t* ___version_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Utils.Network.RemoteFile
+struct RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_marshaled_pinvoke
+{
+	char* ___url_0;
+	char* ___version_1;
+};
+// Native definition for COM marshalling of Recognissimo.Utils.Network.RemoteFile
+struct RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_marshaled_com
+{
+	Il2CppChar* ___url_0;
+	Il2CppChar* ___version_1;
+};
+
+// Recognissimo.Utils.Network.RemoteFilesManifest
+struct RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 
+{
+	// System.Collections.Generic.List`1<Recognissimo.Utils.Network.RemoteFile> Recognissimo.Utils.Network.RemoteFilesManifest::content
+	List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* ___content_0;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Utils.Network.RemoteFilesManifest
+struct RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2_marshaled_pinvoke
+{
+	List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* ___content_0;
+};
+// Native definition for COM marshalling of Recognissimo.Utils.Network.RemoteFilesManifest
+struct RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2_marshaled_com
+{
+	List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* ___content_0;
+};
+
+// Recognissimo.Components.RemoteLanguageModelArchive
+struct RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA 
+{
+	// UnityEngine.SystemLanguage Recognissimo.Components.RemoteLanguageModelArchive::language
+	int32_t ___language_0;
+	// System.String Recognissimo.Components.RemoteLanguageModelArchive::url
+	String_t* ___url_1;
+	// System.String Recognissimo.Components.RemoteLanguageModelArchive::entry
+	String_t* ___entry_2;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.RemoteLanguageModelArchive
+struct RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_pinvoke
+{
+	int32_t ___language_0;
+	char* ___url_1;
+	char* ___entry_2;
+};
+// Native definition for COM marshalling of Recognissimo.Components.RemoteLanguageModelArchive
+struct RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_com
+{
+	int32_t ___language_0;
+	Il2CppChar* ___url_1;
+	Il2CppChar* ___entry_2;
+};
+
+// Recognissimo.Components.Result
+struct Result_t38EF4946810811DF344B77462AF54D398253E75A 
+{
+	// System.Collections.Generic.List`1<Recognissimo.Components.Word> Recognissimo.Components.Result::result
+	List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067* ___result_0;
+	// System.String Recognissimo.Components.Result::text
+	String_t* ___text_1;
+	// System.Collections.Generic.List`1<Recognissimo.Components.Alternative> Recognissimo.Components.Result::alternatives
+	List_1_t07835BACB1E80360FD9D599DA0E6E2D341CFDC57* ___alternatives_2;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.Result
+struct Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_pinvoke
+{
+	List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067* ___result_0;
+	char* ___text_1;
+	List_1_t07835BACB1E80360FD9D599DA0E6E2D341CFDC57* ___alternatives_2;
+};
+// Native definition for COM marshalling of Recognissimo.Components.Result
+struct Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_com
+{
+	List_1_tF190647716A77E2FF6D3F1C415AFBD959DE67067* ___result_0;
+	Il2CppChar* ___text_1;
+	List_1_t07835BACB1E80360FD9D599DA0E6E2D341CFDC57* ___alternatives_2;
+};
+
+// Recognissimo.RuntimeFailureEventArgs
+struct RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+{
+	// Recognissimo.SpeechSourceRuntimeException Recognissimo.RuntimeFailureEventArgs::<Exception>k__BackingField
+	SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* ___U3CExceptionU3Ek__BackingField_1;
+};
+
+// Recognissimo.SamplesReadyEventArgs
+struct SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+{
+	// System.Single[] Recognissimo.SamplesReadyEventArgs::<Samples>k__BackingField
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___U3CSamplesU3Ek__BackingField_1;
+	// System.Int32 Recognissimo.SamplesReadyEventArgs::<Length>k__BackingField
+	int32_t ___U3CLengthU3Ek__BackingField_2;
+};
+
+// System.Single
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+};
+
+// Recognissimo.Core.SpeechRecognizerAlgorithm
+struct SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37  : public Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3
+{
+	// System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result> Recognissimo.Core.SpeechRecognizerAlgorithm::_onResult
+	Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* ____onResult_1;
+	// System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings> Recognissimo.Core.SpeechRecognizerAlgorithm::_onSetup
+	Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* ____onSetup_2;
+};
+
+// Recognissimo.Components.StreamingAssetsLanguageModel
+struct StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D 
+{
+	// UnityEngine.SystemLanguage Recognissimo.Components.StreamingAssetsLanguageModel::language
+	int32_t ___language_0;
+	// System.String Recognissimo.Components.StreamingAssetsLanguageModel::path
+	String_t* ___path_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.StreamingAssetsLanguageModel
+struct StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_pinvoke
+{
+	int32_t ___language_0;
+	char* ___path_1;
+};
+// Native definition for COM marshalling of Recognissimo.Components.StreamingAssetsLanguageModel
+struct StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_com
+{
+	int32_t ___language_0;
+	Il2CppChar* ___path_1;
+};
+
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm
+struct VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80  : public Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3
+{
+	// System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result> Recognissimo.Core.VoiceActivityDetectorAlgorithm::_onResult
+	Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* ____onResult_1;
+	// System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings> Recognissimo.Core.VoiceActivityDetectorAlgorithm::_onSetup
+	Func_1_t7082610092560C9628161A66480A08495185B4F7* ____onSetup_2;
+};
+
+// Recognissimo.Core.VoiceControlAlgorithm
+struct VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28  : public Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3
+{
+	// System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result> Recognissimo.Core.VoiceControlAlgorithm::_onResult
+	Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* ____onResult_1;
+	// System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings> Recognissimo.Core.VoiceControlAlgorithm::_onSetup
+	Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* ____onSetup_2;
+};
+
+// Recognissimo.Components.VoiceControlCommand
+struct VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F 
+{
+	// System.String Recognissimo.Components.VoiceControlCommand::phrase
+	String_t* ___phrase_0;
+	// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceControlCommand::onSpoken
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSpoken_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.VoiceControlCommand
+struct VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_pinvoke
+{
+	char* ___phrase_0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSpoken_1;
+};
+// Native definition for COM marshalling of Recognissimo.Components.VoiceControlCommand
+struct VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_com
+{
+	Il2CppChar* ___phrase_0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSpoken_1;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// Recognissimo.Components.Word
+struct Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790 
+{
+	// System.Single Recognissimo.Components.Word::conf
+	float ___conf_0;
+	// System.Single Recognissimo.Components.Word::start
+	float ___start_1;
+	// System.Single Recognissimo.Components.Word::end
+	float ___end_2;
+	// System.String Recognissimo.Components.Word::word
+	String_t* ___word_3;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.Word
+struct Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_pinvoke
+{
+	float ___conf_0;
+	float ___start_1;
+	float ___end_2;
+	char* ___word_3;
+};
+// Native definition for COM marshalling of Recognissimo.Components.Word
+struct Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_com
+{
+	float ___conf_0;
+	float ___start_1;
+	float ___end_2;
+	Il2CppChar* ___word_3;
+};
+
+// Recognissimo.Utils.Network.DownloadManager/DownloadsCache
+struct DownloadsCache_t346A9413DFD2060825BDACF4524A748589896062 
+{
+	// System.Collections.Generic.List`1<Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription> Recognissimo.Utils.Network.DownloadManager/DownloadsCache::content
+	List_1_tC5416CBBA2ACD6FF54AA639C13F7FEC0E4CEFFDE* ___content_0;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Utils.Network.DownloadManager/DownloadsCache
+struct DownloadsCache_t346A9413DFD2060825BDACF4524A748589896062_marshaled_pinvoke
+{
+	List_1_tC5416CBBA2ACD6FF54AA639C13F7FEC0E4CEFFDE* ___content_0;
+};
+// Native definition for COM marshalling of Recognissimo.Utils.Network.DownloadManager/DownloadsCache
+struct DownloadsCache_t346A9413DFD2060825BDACF4524A748589896062_marshaled_com
+{
+	List_1_tC5416CBBA2ACD6FF54AA639C13F7FEC0E4CEFFDE* ___content_0;
+};
+
+// Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+struct RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C 
+{
+	// System.String Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings::deviceName
+	String_t* ___deviceName_0;
+	// System.Single Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings::timeSensitivity
+	float ___timeSensitivity_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+struct RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_pinvoke
+{
+	char* ___deviceName_0;
+	float ___timeSensitivity_1;
+};
+// Native definition for COM marshalling of Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+struct RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_com
+{
+	Il2CppChar* ___deviceName_0;
+	float ___timeSensitivity_1;
+};
+
+// Recognissimo.SpeechProcessor/LifecycleEvents
+struct LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D 
+{
+	// UnityEngine.Events.UnityEvent Recognissimo.SpeechProcessor/LifecycleEvents::started
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___started_0;
+	// UnityEngine.Events.UnityEvent Recognissimo.SpeechProcessor/LifecycleEvents::finished
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___finished_1;
+	// UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException> Recognissimo.SpeechProcessor/LifecycleEvents::initializationFailed
+	UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* ___initializationFailed_2;
+	// UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException> Recognissimo.SpeechProcessor/LifecycleEvents::runtimeFailed
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* ___runtimeFailed_3;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.SpeechProcessor/LifecycleEvents
+struct LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_pinvoke
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___started_0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___finished_1;
+	UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* ___initializationFailed_2;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* ___runtimeFailed_3;
+};
+// Native definition for COM marshalling of Recognissimo.SpeechProcessor/LifecycleEvents
+struct LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_com
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___started_0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___finished_1;
+	UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* ___initializationFailed_2;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* ___runtimeFailed_3;
+};
+
+// Recognissimo.SpeechProcessor/Settings
+struct Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D 
+{
+	// Recognissimo.LanguageModelProvider Recognissimo.SpeechProcessor/Settings::modelProvider
+	LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* ___modelProvider_0;
+	// Recognissimo.SpeechSource Recognissimo.SpeechProcessor/Settings::speechSource
+	SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* ___speechSource_1;
+	// System.Boolean Recognissimo.SpeechProcessor/Settings::autoStart
+	bool ___autoStart_2;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.SpeechProcessor/Settings
+struct Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_pinvoke
+{
+	LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* ___modelProvider_0;
+	SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* ___speechSource_1;
+	int32_t ___autoStart_2;
+};
+// Native definition for COM marshalling of Recognissimo.SpeechProcessor/Settings
+struct Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_com
+{
+	LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* ___modelProvider_0;
+	SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* ___speechSource_1;
+	int32_t ___autoStart_2;
+};
+
+// Recognissimo.SpeechProcessorDependency/InitializationState
+struct InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12 
+{
+	// System.Boolean Recognissimo.SpeechProcessorDependency/InitializationState::IsActive
+	bool ___IsActive_0;
+	// System.Exception Recognissimo.SpeechProcessorDependency/InitializationState::Exception
+	Exception_t* ___Exception_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.SpeechProcessorDependency/InitializationState
+struct InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_pinvoke
+{
+	int32_t ___IsActive_0;
+	Exception_t_marshaled_pinvoke* ___Exception_1;
+};
+// Native definition for COM marshalling of Recognissimo.SpeechProcessorDependency/InitializationState
+struct InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_com
+{
+	int32_t ___IsActive_0;
+	Exception_t_marshaled_com* ___Exception_1;
+};
+
+// Recognissimo.SpeechProcessorDependency/TaskData
+struct TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C 
+{
+	// System.Int32 Recognissimo.SpeechProcessorDependency/TaskData::ID
+	int32_t ___ID_0;
+	// System.String Recognissimo.SpeechProcessorDependency/TaskData::Name
+	String_t* ___Name_1;
+	// Recognissimo.SpeechProcessorDependency/CallableType Recognissimo.SpeechProcessorDependency/TaskData::Type
+	int32_t ___Type_2;
+	// Recognissimo.CallCondition Recognissimo.SpeechProcessorDependency/TaskData::Condition
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___Condition_3;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.SpeechProcessorDependency/TaskData
+struct TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_pinvoke
+{
+	int32_t ___ID_0;
+	char* ___Name_1;
+	int32_t ___Type_2;
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___Condition_3;
+};
+// Native definition for COM marshalling of Recognissimo.SpeechProcessorDependency/TaskData
+struct TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_com
+{
+	int32_t ___ID_0;
+	Il2CppChar* ___Name_1;
+	int32_t ___Type_2;
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___Condition_3;
+};
+
+// Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+struct SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31 
+{
+	// System.Collections.Generic.List`1<System.String> Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings::vocabulary
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___vocabulary_0;
+	// System.Boolean Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings::enableDetails
+	bool ___enableDetails_1;
+	// System.Int32 Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings::alternatives
+	int32_t ___alternatives_2;
+	// Recognissimo.Components.PartialResultEvent Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings::partialResultReady
+	PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* ___partialResultReady_3;
+	// Recognissimo.Components.ResultEvent Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings::resultReady
+	ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* ___resultReady_4;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+struct SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_pinvoke
+{
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___vocabulary_0;
+	int32_t ___enableDetails_1;
+	int32_t ___alternatives_2;
+	PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* ___partialResultReady_3;
+	ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* ___resultReady_4;
+};
+// Native definition for COM marshalling of Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+struct SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_com
+{
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___vocabulary_0;
+	int32_t ___enableDetails_1;
+	int32_t ___alternatives_2;
+	PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* ___partialResultReady_3;
+	ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* ___resultReady_4;
+};
+
+// Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+struct Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA 
+{
+	// Recognissimo.Core.SpeechRecognizerAlgorithm/ResultType Recognissimo.Core.SpeechRecognizerAlgorithm/Result::ResultType
+	int32_t ___ResultType_0;
+	// System.String Recognissimo.Core.SpeechRecognizerAlgorithm/Result::Data
+	String_t* ___Data_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+struct Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_pinvoke
+{
+	int32_t ___ResultType_0;
+	char* ___Data_1;
+};
+// Native definition for COM marshalling of Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+struct Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_com
+{
+	int32_t ___ResultType_0;
+	Il2CppChar* ___Data_1;
+};
+
+// Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+struct Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A 
+{
+	// System.String Recognissimo.Core.SpeechRecognizerAlgorithm/Settings::Vocabulary
+	String_t* ___Vocabulary_0;
+	// System.Boolean Recognissimo.Core.SpeechRecognizerAlgorithm/Settings::EnableDetails
+	bool ___EnableDetails_1;
+	// System.Int32 Recognissimo.Core.SpeechRecognizerAlgorithm/Settings::MaxAlternatives
+	int32_t ___MaxAlternatives_2;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+struct Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_pinvoke
+{
+	char* ___Vocabulary_0;
+	int32_t ___EnableDetails_1;
+	int32_t ___MaxAlternatives_2;
+};
+// Native definition for COM marshalling of Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+struct Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_com
+{
+	Il2CppChar* ___Vocabulary_0;
+	int32_t ___EnableDetails_1;
+	int32_t ___MaxAlternatives_2;
+};
+
+// Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+struct VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653 
+{
+	// System.Int32 Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings::timeoutMs
+	int32_t ___timeoutMs_0;
+	// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings::spoke
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___spoke_1;
+	// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings::silenced
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___silenced_2;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+struct VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_pinvoke
+{
+	int32_t ___timeoutMs_0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___spoke_1;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___silenced_2;
+};
+// Native definition for COM marshalling of Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+struct VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_com
+{
+	int32_t ___timeoutMs_0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___spoke_1;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___silenced_2;
+};
+
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 
+{
+	// System.Boolean Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result::IsActive
+	bool ___IsActive_0;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke
+{
+	int32_t ___IsActive_0;
+};
+// Native definition for COM marshalling of Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+struct Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_com
+{
+	int32_t ___IsActive_0;
+};
+
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings
+struct Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 
+{
+	// System.Int32 Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings::TimeoutMs
+	int32_t ___TimeoutMs_0;
+};
+
+// Recognissimo.Components.VoiceControl/VoiceControlSettings
+struct VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0 
+{
+	// System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand> Recognissimo.Components.VoiceControl/VoiceControlSettings::commands
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* ___commands_0;
+	// System.Boolean Recognissimo.Components.VoiceControl/VoiceControlSettings::asapMode
+	bool ___asapMode_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Components.VoiceControl/VoiceControlSettings
+struct VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_pinvoke
+{
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* ___commands_0;
+	int32_t ___asapMode_1;
+};
+// Native definition for COM marshalling of Recognissimo.Components.VoiceControl/VoiceControlSettings
+struct VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_com
+{
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* ___commands_0;
+	int32_t ___asapMode_1;
+};
+
+// Recognissimo.Core.VoiceControlAlgorithm/Result
+struct Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 
+{
+	// System.Int32 Recognissimo.Core.VoiceControlAlgorithm/Result::CommandIndex
+	int32_t ___CommandIndex_0;
+};
+
+// Recognissimo.Core.VoiceControlAlgorithm/Settings
+struct Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E 
+{
+	// System.String Recognissimo.Core.VoiceControlAlgorithm/Settings::Commands
+	String_t* ___Commands_0;
+	// System.Boolean Recognissimo.Core.VoiceControlAlgorithm/Settings::AsapMode
+	bool ___AsapMode_1;
+};
+// Native definition for P/Invoke marshalling of Recognissimo.Core.VoiceControlAlgorithm/Settings
+struct Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_pinvoke
+{
+	char* ___Commands_0;
+	int32_t ___AsapMode_1;
+};
+// Native definition for COM marshalling of Recognissimo.Core.VoiceControlAlgorithm/Settings
+struct Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_com
+{
+	Il2CppChar* ___Commands_0;
+	int32_t ___AsapMode_1;
+};
+
+// UnityEngine.Coroutine
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	// System.IntPtr UnityEngine.Coroutine::m_Ptr
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Coroutine
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Coroutine
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// Recognissimo.Utils.Network.DownloadManager
+struct DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73  : public RuntimeObject
+{
+	// System.String Recognissimo.Utils.Network.DownloadManager::_cacheFilePath
+	String_t* ____cacheFilePath_1;
+	// System.String Recognissimo.Utils.Network.DownloadManager::_downloadsDirectoryPath
+	String_t* ____downloadsDirectoryPath_2;
+	// Recognissimo.Utils.Network.DownloadManager/DownloadsCache Recognissimo.Utils.Network.DownloadManager::_downloadsCache
+	DownloadsCache_t346A9413DFD2060825BDACF4524A748589896062 ____downloadsCache_3;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// Recognissimo.Components.PartialResultEvent
+struct PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E  : public UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC
+{
+};
+
+// Recognissimo.Components.ResultEvent
+struct ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183  : public UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F
+{
+};
+
+// System.RuntimeTypeHandle
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+};
+
+// System.Runtime.InteropServices.SafeHandle
+struct SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7  : public CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9
+{
+	// System.IntPtr System.Runtime.InteropServices.SafeHandle::handle
+	intptr_t ___handle_0;
+	// System.Int32 System.Runtime.InteropServices.SafeHandle::_state
+	int32_t ____state_1;
+	// System.Boolean System.Runtime.InteropServices.SafeHandle::_ownsHandle
+	bool ____ownsHandle_2;
+	// System.Boolean System.Runtime.InteropServices.SafeHandle::_fullyInitialized
+	bool ____fullyInitialized_3;
+};
+
+// Recognissimo.Core.PInvoke/NativeErrorReport
+struct NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA 
+{
+	// Recognissimo.Core.Error Recognissimo.Core.PInvoke/NativeErrorReport::Error
+	int32_t ___Error_0;
+	// System.IntPtr Recognissimo.Core.PInvoke/NativeErrorReport::DescriptionPtr
+	intptr_t ___DescriptionPtr_1;
+};
+
+// Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10
+struct U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Components.RemoteLanguageModelProvider Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::<>4__this
+	RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* ___U3CU3E4__this_2;
+	// Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0 Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::<>8__1
+	U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* ___U3CU3E8__1_3;
+	// Recognissimo.Components.RemoteLanguageModelArchive Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::<model>5__2
+	RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA ___U3CmodelU3E5__2_4;
+	// Recognissimo.Utils.Network.RemoteFile Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::<remote>5__3
+	RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C ___U3CremoteU3E5__3_5;
+};
+
+// Recognissimo.SpeechProcessorDependency/<Initialize>d__10
+struct U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.SpeechProcessorDependency Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<>4__this
+	SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___U3CU3E4__this_2;
+	// Recognissimo.InitializationTaskStartedCallback Recognissimo.SpeechProcessorDependency/<Initialize>d__10::initializationTaskStartedCallback
+	InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* ___initializationTaskStartedCallback_3;
+	// Recognissimo.InitializationFailedCallback Recognissimo.SpeechProcessorDependency/<Initialize>d__10::initializationFailedCallback
+	InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* ___initializationFailedCallback_4;
+	// System.Collections.Generic.IEnumerator`1<Recognissimo.SpeechProcessorDependency/TaskData> Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<>7__wrap1
+	RuntimeObject* ___U3CU3E7__wrap1_5;
+	// Recognissimo.SpeechProcessorDependency/TaskData Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<task>5__3
+	TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C ___U3CtaskU3E5__3_6;
+};
+
+// Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4
+struct U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Components.StreamingAssetsLanguageModelProvider Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::<>4__this
+	StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* ___U3CU3E4__this_2;
+	// Recognissimo.Components.StreamingAssetsLanguageModel Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::<model>5__2
+	StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D ___U3CmodelU3E5__2_3;
+};
+
+// Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke/NativeResult
+struct NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9 
+{
+	// System.Int32 Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke/NativeResult::Complete
+	int32_t ___Complete_0;
+	// System.IntPtr Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke/NativeResult::Data
+	intptr_t ___Data_1;
+};
+
+// UnityEngine.AudioClip
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+	// UnityEngine.AudioClip/PCMReaderCallback UnityEngine.AudioClip::m_PCMReaderCallback
+	PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* ___m_PCMReaderCallback_4;
+	// UnityEngine.AudioClip/PCMSetPositionCallback UnityEngine.AudioClip::m_PCMSetPositionCallback
+	PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* ___m_PCMSetPositionCallback_5;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
+struct SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629  : public SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7
+{
+};
+
+// Recognissimo.SpeechProcessorException
+struct SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C  : public Exception_t
+{
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// System.Type
+struct Type_t  : public MemberInfo_t
+{
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+};
+
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>
+struct Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>
+struct Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>
+struct Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler`1<System.Object>
+struct EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>
+struct EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>
+struct EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>>
+struct Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<UnityEngine.AudioClip>
+struct Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.Boolean>
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.Collections.IEnumerator>
+struct Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.Object>
+struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.String>
+struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<UnityEngine.SystemLanguage>
+struct Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>
+struct Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>
+struct Func_1_t7082610092560C9628161A66480A08495185B4F7  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>
+struct Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<Recognissimo.CallCondition,System.Boolean>
+struct Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,System.Boolean>
+struct Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,Recognissimo.Utils.Network.RemoteFile>
+struct Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<Recognissimo.Components.StreamingAssetsLanguageModel,System.Boolean>
+struct Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<Recognissimo.Components.VoiceControlCommand,System.String>
+struct Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<Recognissimo.SpeechProcessorDependency/TaskData,System.Boolean>
+struct Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E  : public MulticastDelegate_t
+{
+};
+
+// System.Func`3<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>,System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>,System.Boolean>
+struct Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7  : public MulticastDelegate_t
+{
+};
+
+// System.Func`3<UnityEngine.AudioClip,UnityEngine.AudioClip,System.Boolean>
+struct Func_3_tD8D72C01E2A89B6AF8D90F9443965970E0ECE5B6  : public MulticastDelegate_t
+{
+};
+
+// System.Func`3<System.String,System.String,System.Boolean>
+struct Func_3_t0FFF2796668964ACABE470FF1DBB0508010292AB  : public MulticastDelegate_t
+{
+};
+
+// System.Func`3<UnityEngine.SystemLanguage,UnityEngine.SystemLanguage,System.Boolean>
+struct Func_3_t8695FF52278BB789E35AEE99A56D2FE109708165  : public MulticastDelegate_t
+{
+};
+
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+
+// Recognissimo.Core.AlgorithmHandle
+struct AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
+};
+
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// Recognissimo.Core.ContextHandle
+struct ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+
+// Recognissimo.Utils.Network.DownloadFailedCallback
+struct DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler
+struct EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82  : public MulticastDelegate_t
+{
+};
+
+// System.IO.IOException
+struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// Recognissimo.InitializationException
+struct InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645  : public SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C
+{
+};
+
+// Recognissimo.InitializationFailedCallback
+struct InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68  : public MulticastDelegate_t
+{
+};
+
+// Recognissimo.InitializationTaskStartedCallback
+struct InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C  : public MulticastDelegate_t
+{
+};
+
+// System.InvalidOperationException
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// Recognissimo.Core.LanguageModelResourceHandle
+struct LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// Recognissimo.RuntimeException
+struct RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F  : public SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C
+{
+};
+
+// Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProvisionFailedCallback
+struct StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Events.UnityAction
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
+{
+};
+
+// System.ArgumentNullException
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	// System.Object System.ArgumentOutOfRangeException::_actualValue
+	RuntimeObject* ____actualValue_19;
+};
+
+// Recognissimo.DependencyInitializationException
+struct DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732  : public InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645
+{
+	// Recognissimo.SpeechProcessorDependency Recognissimo.DependencyInitializationException::<Dependency>k__BackingField
+	SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___U3CDependencyU3Ek__BackingField_18;
+	// System.String Recognissimo.DependencyInitializationException::<InitializationTaskName>k__BackingField
+	String_t* ___U3CInitializationTaskNameU3Ek__BackingField_19;
+};
+
+// Recognissimo.InternalInitializationException
+struct InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396  : public InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645
+{
+};
+
+// Recognissimo.InternalRuntimeException
+struct InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E  : public RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F
+{
+};
+
+// Recognissimo.InvalidAlgorithmInputException
+struct InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77  : public InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645
+{
+};
+
+// Recognissimo.InvalidLanguageModelException
+struct InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1  : public InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645
+{
+};
+
+// Recognissimo.InvalidSampleRateException
+struct InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230  : public InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645
+{
+};
+
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// Recognissimo.SpeechSourceRuntimeException
+struct SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34  : public RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F
+{
+};
+
+// Recognissimo.SpeechProcessor
+struct SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Recognissimo.SpeechProcessor/Settings Recognissimo.SpeechProcessor::generalSettings
+	Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D ___generalSettings_4;
+	// Recognissimo.SpeechProcessor/LifecycleEvents Recognissimo.SpeechProcessor::lifecycleEvents
+	LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D ___lifecycleEvents_5;
+	// Recognissimo.Core.Algorithm Recognissimo.SpeechProcessor::_algorithm
+	Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* ____algorithm_6;
+	// Recognissimo.Core.Context Recognissimo.SpeechProcessor::_context
+	Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* ____context_7;
+	// UnityEngine.Coroutine Recognissimo.SpeechProcessor::_initializationCoroutine
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ____initializationCoroutine_8;
+	// Recognissimo.SpeechProcessorState Recognissimo.SpeechProcessor::<State>k__BackingField
+	int32_t ___U3CStateU3Ek__BackingField_9;
+};
+
+// Recognissimo.SpeechProcessorDependency
+struct SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Action> Recognissimo.SpeechProcessorDependency::_actions
+	Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* ____actions_4;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Func`1<System.Collections.IEnumerator>> Recognissimo.SpeechProcessorDependency::_coroutines
+	Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* ____coroutines_5;
+	// System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData> Recognissimo.SpeechProcessorDependency::_tasks
+	List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* ____tasks_6;
+	// Recognissimo.SpeechProcessorDependency/InitializationState Recognissimo.SpeechProcessorDependency::_initializationState
+	InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12 ____initializationState_7;
+	// System.Boolean Recognissimo.SpeechProcessorDependency::_isFirstRun
+	bool ____isFirstRun_8;
+	// System.Int32 Recognissimo.SpeechProcessorDependency::_taskRegistrationIndex
+	int32_t ____taskRegistrationIndex_9;
+};
+
+// Recognissimo.LanguageModelProvider
+struct LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F  : public SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F
+{
+	// Recognissimo.LanguageModel Recognissimo.LanguageModelProvider::_model
+	LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* ____model_10;
+};
+
+// Recognissimo.Components.SpeechRecognizer
+struct SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494  : public SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E
+{
+	// Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings Recognissimo.Components.SpeechRecognizer::settings
+	SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31 ___settings_10;
+};
+
+// Recognissimo.SpeechSource
+struct SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C  : public SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F
+{
+	// System.Int32 Recognissimo.SpeechSource::<SampleRate>k__BackingField
+	int32_t ___U3CSampleRateU3Ek__BackingField_10;
+	// System.EventHandler`1<Recognissimo.SamplesReadyEventArgs> Recognissimo.SpeechSource::SamplesReady
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* ___SamplesReady_11;
+	// System.EventHandler Recognissimo.SpeechSource::Dried
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___Dried_12;
+	// System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs> Recognissimo.SpeechSource::RuntimeFailure
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* ___RuntimeFailure_13;
+};
+
+// Recognissimo.Components.VoiceActivityDetector
+struct VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5  : public SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E
+{
+	// Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings Recognissimo.Components.VoiceActivityDetector::settings
+	VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653 ___settings_10;
+};
+
+// Recognissimo.Components.VoiceControl
+struct VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581  : public SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E
+{
+	// Recognissimo.Components.VoiceControl/VoiceControlSettings Recognissimo.Components.VoiceControl::settings
+	VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0 ___settings_10;
+};
+
+// Recognissimo.Components.AudioClipSpeechSource
+struct AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467  : public SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C
+{
+	// UnityEngine.AudioClip Recognissimo.Components.AudioClipSpeechSource::clip
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip_15;
+	// System.Boolean Recognissimo.Components.AudioClipSpeechSource::readSequentially
+	bool ___readSequentially_16;
+	// System.Single[] Recognissimo.Components.AudioClipSpeechSource::_buffer
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____buffer_17;
+	// System.Boolean Recognissimo.Components.AudioClipSpeechSource::_isProducing
+	bool ____isProducing_18;
+	// UnityEngine.Coroutine Recognissimo.Components.AudioClipSpeechSource::_producingCoroutine
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ____producingCoroutine_19;
+};
+
+// Recognissimo.Components.AudioListenerSpeechSource
+struct AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B  : public SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C
+{
+	// System.Int32 Recognissimo.Components.AudioListenerSpeechSource::channel
+	int32_t ___channel_16;
+	// System.Single[] Recognissimo.Components.AudioListenerSpeechSource::_buffer
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____buffer_17;
+	// System.Boolean Recognissimo.Components.AudioListenerSpeechSource::_isProducing
+	bool ____isProducing_18;
+	// System.Int32 Recognissimo.Components.AudioListenerSpeechSource::_minSamples
+	int32_t ____minSamples_19;
+	// System.Int32 Recognissimo.Components.AudioListenerSpeechSource::_samplesLeft
+	int32_t ____samplesLeft_20;
+};
+
+// Recognissimo.Components.MicrophoneSpeechSource
+struct MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D  : public SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C
+{
+	// Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings Recognissimo.Components.MicrophoneSpeechSource::recordingSettings
+	RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C ___recordingSettings_16;
+	// System.Single[] Recognissimo.Components.MicrophoneSpeechSource::_buffer
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____buffer_17;
+	// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::_isPaused
+	bool ____isPaused_18;
+	// System.Int32 Recognissimo.Components.MicrophoneSpeechSource::_prevPos
+	int32_t ____prevPos_19;
+	// System.Int32 Recognissimo.Components.MicrophoneSpeechSource::_recordingLength
+	int32_t ____recordingLength_20;
+	// UnityEngine.AudioClip Recognissimo.Components.MicrophoneSpeechSource::_clip
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ____clip_21;
+	// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::<IsRecording>k__BackingField
+	bool ___U3CIsRecordingU3Ek__BackingField_22;
+};
+
+// Recognissimo.Components.RemoteLanguageModelProvider
+struct RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B  : public LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F
+{
+	// UnityEngine.SystemLanguage Recognissimo.Components.RemoteLanguageModelProvider::language
+	int32_t ___language_12;
+	// System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive> Recognissimo.Components.RemoteLanguageModelProvider::languageModels
+	List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* ___languageModels_13;
+	// Recognissimo.Utils.Network.DownloadManager Recognissimo.Components.RemoteLanguageModelProvider::_downloadManager
+	DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* ____downloadManager_14;
+	// Recognissimo.Utils.Network.RemoteFilesManifest Recognissimo.Components.RemoteLanguageModelProvider::_manifest
+	RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 ____manifest_15;
+};
+
+// Recognissimo.Components.StreamingAssetsLanguageModelProvider
+struct StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88  : public LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F
+{
+	// UnityEngine.SystemLanguage Recognissimo.Components.StreamingAssetsLanguageModelProvider::language
+	int32_t ___language_11;
+	// System.Collections.Generic.List`1<Recognissimo.Components.StreamingAssetsLanguageModel> Recognissimo.Components.StreamingAssetsLanguageModelProvider::languageModels
+	List_1_tF56A590631DD0A17BC1DCC8A00336928D09FAE8E* ___languageModels_12;
+	// Recognissimo.Utils.StreamingAssetsProvider.IStreamingAssetsProvider Recognissimo.Components.StreamingAssetsLanguageModelProvider::_streamingAssetsProvider
+	RuntimeObject* ____streamingAssetsProvider_13;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Recognissimo.CallCondition[]
+struct CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49  : public RuntimeArray
+{
+	ALIGN_FIELD (8) CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* m_Items[1];
+
+	inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Single[]
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Delegate_t* m_Items[1];
+
+	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Int16[]
+struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int16_t m_Items[1];
+
+	inline int16_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int16_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int16_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int16_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int16_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int16_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// Recognissimo.SpeechProcessorDependency/TaskData[]
+struct TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C m_Items[1];
+
+	inline TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Name_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Condition_3), (void*)NULL);
+		#endif
+	}
+	inline TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Name_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Condition_3), (void*)NULL);
+		#endif
+	}
+};
+
+IL2CPP_EXTERN_C void Exception_t_marshal_pinvoke(const Exception_t& unmarshaled, Exception_t_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void Exception_t_marshal_pinvoke_back(const Exception_t_marshaled_pinvoke& marshaled, Exception_t& unmarshaled);
+IL2CPP_EXTERN_C void Exception_t_marshal_pinvoke_cleanup(Exception_t_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void Exception_t_marshal_com(const Exception_t& unmarshaled, Exception_t_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void Exception_t_marshal_com_back(const Exception_t_marshaled_com& marshaled, Exception_t& unmarshaled);
+IL2CPP_EXTERN_C void Exception_t_marshal_com_cleanup(Exception_t_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke(const Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504& unmarshaled, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke_back(const Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke& marshaled, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504& unmarshaled);
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke_cleanup(Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke& marshaled);
+
+// System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// TResult System.Func`1<System.Boolean>::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Func_1_Invoke_mBB7F37C468451AF57FAF31635C544D6B8C4373B2_gshared_inline (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Boolean System.Linq.Enumerable::Any<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Any_TisRuntimeObject_mDCE2755EF33EFD51A60E9238A1537E3B41351058_gshared (RuntimeObject* ___source0, Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___predicate1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(T0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___arg00, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler_1__ctor_mBA2E748CFBA7A0EEC0A373A6F634D3B5774EA370_gshared (EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_m8D77F4F05F69D0E52E8A445322811EEC25987525_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::Add(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_mAF1EF7DA16BD70E252EA5C4B0F74DE519A02CBCD_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_gshared_inline (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* __this, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C ___item0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2_gshared (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Stack`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stack_1__ctor_m70E8EDA96A608CE9BAB7FC8313B233AADA573BD4_gshared (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, const RuntimeMethod* method) ;
+// TResult System.Func`1<System.Object>::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_1_Invoke_m1412272198DFA4066C83206E5B43353AF10A2EEE_gshared_inline (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Stack`1<System.Object>::Push(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stack_1_Push_m709DD11BC1291A905814182CF9A367DE7399A778_gshared (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// T System.Collections.Generic.Stack`1<System.Object>::Peek()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Stack_1_Peek_mF0ECF6A61726B66E6D9B33D8C4DEAA47E586E6E4_gshared (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, const RuntimeMethod* method) ;
+// T System.Collections.Generic.Stack`1<System.Object>::Pop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Stack_1_Pop_m2AFF69249659372F07EE25817DBCAFE74E1CF778_gshared (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.Stack`1<System.Object>::get_Count()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Stack_1_get_Count_mD08AE71D49787D30DDD9D484BCD323D646744D2E_gshared_inline (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.SpeechProcessorDependency/TaskData,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m26DCE49D28101166951EEB5D5283A943204DCDD5_gshared (Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where<Recognissimo.SpeechProcessorDependency/TaskData>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5_gshared (RuntimeObject* ___source0, Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E* ___predicate1, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::get_Item(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_mC3FEA647E750C27367C990777D8890E0E712E514_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___key0, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<System.Object>::Invoke(System.Object,TEventArgs)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline (EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* __this, RuntimeObject* ___sender0, RuntimeObject* ___e1, const RuntimeMethod* method) ;
+// TResult System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A Func_1_Invoke_m42F6D3AE8491EF22A0615D6D6635EC672D819F56_gshared_inline (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>::Invoke(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mFE897E82D1C0190D5BF64D245D5013F2496FC98C_gshared_inline (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* __this, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA ___obj0, const RuntimeMethod* method) ;
+// TResult System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 Func_1_Invoke_mFE56932EA5CC06FDE64EBBC1AF2EC8725B177957_gshared_inline (Func_1_t7082610092560C9628161A66480A08495185B4F7* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>::Invoke(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mE75768D3CFBCED058F74C679063906A800F91CA2_gshared_inline (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* __this, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 ___obj0, const RuntimeMethod* method) ;
+// TResult System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E Func_1_Invoke_m1AE5F8C75D338F5B98A92AF18693544E3A064B40_gshared_inline (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>::Invoke(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m7A479917E2794FECA98A8D99C4A04CE20AD239CE_gshared_inline (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* __this, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 ___obj0, const RuntimeMethod* method) ;
+// System.Void System.Func`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// Recognissimo.CallCondition Recognissimo.CallCondition::ValueChanged<System.Object>(System.Func`1<T>,System.Func`3<T,T,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_ValueChanged_TisRuntimeObject_m537B3503D579A4139B870DD7E5476F6ECC819F1D_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___dependencyGetter0, Func_3_tFCEB9D8CEAECBF6D0AD5440F96C6F9010270CE79* ___equalityComparer1, const RuntimeMethod* method) ;
+// System.Void System.Array::Fill<System.Single>(T[],T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0_gshared (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___array0, float ___value1, const RuntimeMethod* method) ;
+// System.Void System.Func`3<System.Object,System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m00571BE1A999D918DAD5FA2E9BD5F28DDEF2F365_gshared (Func_3_tFCEB9D8CEAECBF6D0AD5440F96C6F9010270CE79* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Func`1<System.Int32Enum>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mB72E02E4A5EAA72E35D6DEBAE357C0AE7920088A_gshared (Func_1_tA8F91C23675D323D5C9C1F3D2FAA8008CB1EF551* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// Recognissimo.CallCondition Recognissimo.CallCondition::ValueChanged<System.Int32Enum>(System.Func`1<T>,System.Func`3<T,T,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_ValueChanged_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m15C1B8D3EFE60A342CFBE03816BE43A4FF23ACBD_gshared (Func_1_tA8F91C23675D323D5C9C1F3D2FAA8008CB1EF551* ___dependencyGetter0, Func_3_tE48B8474EE65D1530A10889B067677A4DDAB1DC5* ___equalityComparer1, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m281792AC70DFEAA12054D5F9E56ADC73114AA72C_gshared (Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// TSource System.Linq.Enumerable::SingleOrDefault<Recognissimo.Components.RemoteLanguageModelArchive>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_gshared (RuntimeObject* ___source0, Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* ___predicate1, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,Recognissimo.Utils.Network.RemoteFile>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m5F2FB99835FBD2D3B2B540639DB0060BEFBB4B08_gshared (Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<Recognissimo.Components.RemoteLanguageModelArchive,Recognissimo.Utils.Network.RemoteFile>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB_gshared (RuntimeObject* ___source0, Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772* ___selector1, const RuntimeMethod* method) ;
+// System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<Recognissimo.Utils.Network.RemoteFile>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7_gshared (List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* __this, const RuntimeMethod* method) ;
+// T Recognissimo.Utils.Json::Deserialize<Recognissimo.Components.PartialResult>(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6_gshared (String_t* ___json0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.PartialResult>::Invoke(T0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9_gshared (UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC* __this, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B ___arg00, const RuntimeMethod* method) ;
+// T Recognissimo.Utils.Json::Deserialize<Recognissimo.Components.Result>(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Result_t38EF4946810811DF344B77462AF54D398253E75A Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3_gshared (String_t* ___json0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.Result>::Invoke(T0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5_gshared (UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F* __this, Result_t38EF4946810811DF344B77462AF54D398253E75A ___arg00, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mC18E69769C722F6B6933AFEC5BCE2C1E93C34267_gshared (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mD8D64BEFFDEBFE3F83DD3D2A26498652A76D4F17_gshared (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.PartialResult>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D_gshared (UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.Result>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0_gshared (UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.StreamingAssetsLanguageModel,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m62643540EA2F65E46DA901D943B76215231B9D45_gshared (Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// TSource System.Linq.Enumerable::SingleOrDefault<Recognissimo.Components.StreamingAssetsLanguageModel>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8_gshared (RuntimeObject* ___source0, Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA* ___predicate1, const RuntimeMethod* method) ;
+// System.Void System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m9734A7A6A576692FB11CF71D964C96B3273F84FA_gshared (Func_1_t7082610092560C9628161A66480A08495185B4F7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m24AAFDCAC4DA2B638A8BAE5DA36A735CBA321E03_gshared (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// T System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606_gshared (List_1_t5DD84171740534E27980249B42B230DF269891A2* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51_gshared (List_1_t5DD84171740534E27980249B42B230DF269891A2* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.VoiceControlCommand,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m68715EAB887F82DF07A22E14949A440CA4FFF215_gshared (Func_2_t45E418EABF26C7AB471F4906B49C4369E5D9EC3A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<Recognissimo.Components.VoiceControlCommand,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisRuntimeObject_mE90FC75FF06424F03FFB84735129F44EC426ED8D_gshared (RuntimeObject* ___source0, Func_2_t45E418EABF26C7AB471F4906B49C4369E5D9EC3A* ___selector1, const RuntimeMethod* method) ;
+// System.Void System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mDDF7012AA1C5F2CA2BF7DF4F11A72C499DA587A9_gshared (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mDFAF37C772E877F9B5E098A671627CC399047AC0_gshared (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.CallCondition/<>c__DisplayClass4_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m5E922629F5C46D58F310D5269F6EE47AA22652F8 (U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22 (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Recognissimo.CallCondition::.ctor(System.Func`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* __this, Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___predicate0, const RuntimeMethod* method) ;
+// TResult System.Func`1<System.Boolean>::Invoke()
+inline bool Func_1_Invoke_mBB7F37C468451AF57FAF31635C544D6B8C4373B2_inline (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*, const RuntimeMethod*))Func_1_Invoke_mBB7F37C468451AF57FAF31635C544D6B8C4373B2_gshared_inline)(__this, method);
+}
+// System.Void System.Func`2<Recognissimo.CallCondition,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m424E8D83BA44FD33B7FF6C4232C9D1772925C2ED (Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Boolean System.Linq.Enumerable::Any<Recognissimo.CallCondition>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline bool Enumerable_Any_TisCallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_mBEE451AC41E43CCC0DDD260DA039119F9DB9D2FE (RuntimeObject* ___source0, Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F*, const RuntimeMethod*))Enumerable_Any_TisRuntimeObject_mDCE2755EF33EFD51A60E9238A1537E3B41351058_gshared)(___source0, ___predicate1, method);
+}
+// System.Void Recognissimo.CallCondition/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m66AC05D0BD2AAF977CB3DC2C6F29D6D43C52DFFC (U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* __this, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.CallCondition::Check()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CallCondition_Check_m47318CED6BAF11AD9312E8DA51D52535A340C48B (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* __this, const RuntimeMethod* method) ;
+// System.Void System.Exception::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void System.Exception::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9BC141AAB08F47C34B7ED40C1A6C0C1ADDEC5CB3 (Exception_t* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessorException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorException__ctor_m245242C086725A3AF632E9B3576CA9B3CE97C319 (SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessorException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorException__ctor_m6142FD20F48675B78B8DE712E3B809A3F1CCC9C0 (SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InitializationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationException__ctor_m2191B0EA7A7FAC25A6B352E7CAA5A6BA4355EACE (InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.String Recognissimo.DependencyInitializationException::PrettyMessage(Recognissimo.SpeechProcessorDependency,System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DependencyInitializationException_PrettyMessage_mE39184F9CAD99923824509C784EEB0BE4885ADE3 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency0, String_t* ___initializationTaskName1, Exception_t* ___innerException2, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InitializationException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationException__ctor_m7B90F556427DCB5B6B4FCD182D345B386DD803FA (InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) ;
+// System.Void System.Text.StringBuilder::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
+// System.Type System.Object::GetType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m9499958F4B0BB6089C75760AB647AB3CA4D55806 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// System.Void Recognissimo.RuntimeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeException__ctor_mE4D561F47191CB9BA67411C7C8D720691F3733FE (RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.RuntimeException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeException__ctor_mA6A19799258B3B076D2212199928F944FBCB727B (RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.LanguageModelResource::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelResource__ctor_m1F3425D564AD593ED28726F7F6C1DD54A3B75F3C (LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* __this, String_t* ___path0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.LanguageModelResource::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelResource_Dispose_mB4A633C07509A4C1DD1E491C3591EE83B692979A (LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.LanguageModel::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModel_Dispose_m902519803ADE82D820AA0478E5E886E1E7F4960B (LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessorDependency::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency__ctor_m722A928C76AF7BB927DDF58A45FEDF636505E85C (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, const RuntimeMethod* method) ;
+// Recognissimo.SpeechSource Recognissimo.SpeechProcessor::get_SpeechSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor::UnbindSpeechSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_UnbindSpeechSource_m483E11D169EFF8F19EB08105AFC11379B7C69BC8 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.SpeechProcessor::get_AutoStart()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpeechProcessor_get_AutoStart_m3B03538E6B345BA3D59BE92BF151FC2B59301327 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor::StartProcessing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// Recognissimo.SpeechProcessorState Recognissimo.SpeechProcessor::get_State()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// Recognissimo.Core.ContextEvent Recognissimo.Core.Context::NextEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Context_NextEvent_m8B79479AEDC6977DD20C5B63E1829F649D92E7C5 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor::set_State(Recognissimo.SpeechProcessorState)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// UnityEngine.Events.UnityEvent Recognissimo.SpeechProcessor::get_Started()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* SpeechProcessor_get_Started_m5CB31182EFC7B82FBCE7901539E1C8602B4A6A6F (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::Invoke()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+// UnityEngine.Events.UnityEvent Recognissimo.SpeechProcessor::get_Finished()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* SpeechProcessor_get_Finished_m6600CD1E34515265591DE6905B905D12C1FDA8A6 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// Recognissimo.Core.ErrorReport Recognissimo.Core.Context::LastError()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF Context_LastError_mAF432C98298C3B62D23784AE9879EF45BE7AF012 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor::Stop(Recognissimo.SpeechProcessor/StopMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, int32_t ___mode0, const RuntimeMethod* method) ;
+// UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException> Recognissimo.SpeechProcessor::get_InitializationFailed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* SpeechProcessor_get_InitializationFailed_mDFD20D49A914ECE34071738333592B5274AC87BF (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InvalidLanguageModelException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidLanguageModelException__ctor_mB1F1EDABF329CECA5ED7CCE9F6C3F79460F6DB76 (InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InvalidSampleRateException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidSampleRateException__ctor_m3B3010582CD2262A3CF40B2FE141272519CF1FB0 (InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InvalidAlgorithmInputException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidAlgorithmInputException__ctor_m1A7B70A9C3E867039D24C72A13D7251B7ABD8AF4 (InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InternalInitializationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalInitializationException__ctor_mC2D3A65AFEAEEBBDEEDDCA030A1E331BAEBE9007 (InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException>::Invoke(T0)
+inline void UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF (UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* __this, InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* ___arg00, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053*, InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+}
+// UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException> Recognissimo.SpeechProcessor::get_RuntimeFailed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* SpeechProcessor_get_RuntimeFailed_mCF154BDD13366DA7035B4279FB9F143E49255CBD (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InternalRuntimeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalRuntimeException__ctor_m55D1DFAB0B99290868C3CC2C3270A4C4107C217D (InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException>::Invoke(T0)
+inline void UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146 (UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* __this, RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F* ___arg00, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829*, RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+}
+// System.Void UnityEngine.Debug::LogWarning(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void System.ArgumentOutOfRangeException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mB596C51BFA864B65C2CED275458FAE90F7CD29C9 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Context::.ctor(Recognissimo.Core.Algorithm)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context__ctor_m1D0ABCB69C1A9D50954FBC273F3673973EBFDF8C (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* ___algorithm0, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Application::get_isEditor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isEditor_m0377DB707B566C8E21DA3CD99963210F6D57D234 (const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Context::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Dispose_m0D79CFF3952585C3356B23590E7DE131E8210EA3 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Algorithm::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Algorithm_Dispose_m8A77827C31D83E30A6800EACC2CCBFDFA2BD103F (Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* __this, const RuntimeMethod* method) ;
+// System.Single[] Recognissimo.SamplesReadyEventArgs::get_Samples()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* SamplesReadyEventArgs_get_Samples_mCB99C3B59102609A7C1FE678DE7E242CD517A965_inline (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, const RuntimeMethod* method) ;
+// System.Int32 Recognissimo.SamplesReadyEventArgs::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SamplesReadyEventArgs_get_Length_m703E44F02EF383CE791E6C6DE1BF8A7995B4E019_inline (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Context::EnqueueFloat32(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_EnqueueFloat32_m55EC569A20FC9D13EC7AFEE42AF3697CAF277185 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___buffer0, int32_t ___length1, const RuntimeMethod* method) ;
+// Recognissimo.SpeechSourceRuntimeException Recognissimo.RuntimeFailureEventArgs::get_Exception()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* RuntimeFailureEventArgs_get_Exception_mC1D0576834622F48AAE6A59C167556F6AF94F289_inline (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* __this, const RuntimeMethod* method) ;
+// System.Void System.InvalidOperationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// Recognissimo.LanguageModelProvider Recognissimo.SpeechProcessor::get_LanguageModelProvider()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator Recognissimo.SpeechProcessor::Initialize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechProcessor_Initialize_m98BE8CE969BFC76C97AF47BCDDD99BC60685D3C5 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Context::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Stop_mB88A29BD7511AC5764FA137A15C87BCDF3EFF635 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Context::Abort()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Abort_mD1E1D70C6448093E2EBA6FFD7D85A50796980DC5 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) ;
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.Object,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___paramName0, RuntimeObject* ___actualValue1, String_t* ___message2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___routine0, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>::.ctor(System.Object,System.IntPtr)
+inline void EventHandler_1__ctor_m7519D7A7E0F0890023502F7EE85C88DB6F62C20D (EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*, RuntimeObject*, intptr_t, const RuntimeMethod*))EventHandler_1__ctor_mBA2E748CFBA7A0EEC0A373A6F634D3B5774EA370_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Recognissimo.SpeechSource::add_SamplesReady(System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_add_SamplesReady_mEAF811D38525F4CB15BE63539A079E967DDE3CE0 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* ___value0, const RuntimeMethod* method) ;
+// System.Void System.EventHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler__ctor_m95444CE8D5A6F1AFC9793866C3FE884E732DCEB2 (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::add_Dried(System.EventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_add_Dried_m14FC5D1DEA0C294E2E1F51FC2D2AEB2003B5FCF8 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___value0, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>::.ctor(System.Object,System.IntPtr)
+inline void EventHandler_1__ctor_mD23EDD370E23B5FA0B9B603140D14C0F19CAA507 (EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*, RuntimeObject*, intptr_t, const RuntimeMethod*))EventHandler_1__ctor_mBA2E748CFBA7A0EEC0A373A6F634D3B5774EA370_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Recognissimo.SpeechSource::add_RuntimeFailure(System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_add_RuntimeFailure_m796451EC6E9025BCF2F69F64FEB45757A50DBE82 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* ___value0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::remove_SamplesReady(System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_remove_SamplesReady_m15AA39422981D392AC55B212652E3598A2C5E61E (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* ___value0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::remove_Dried(System.EventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_remove_Dried_m70B8CA6390DCFDF53FFC58987058512640C4F34D (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___value0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::remove_RuntimeFailure(System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_remove_RuntimeFailure_mBFF355656323AA7CF2C3D1CBF1BF8BD378A450F2 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* ___value0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor/<Initialize>d__39::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__39__ctor_mE2541EBA9934309F74098D342D3F18A7208736A8 (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException>::.ctor()
+inline void UnityEvent_1__ctor_m41E556214EB6141900ED837D40BCD3B74146A678 (UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* __this, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053*, const RuntimeMethod*))UnityEvent_1__ctor_m8D77F4F05F69D0E52E8A445322811EEC25987525_gshared)(__this, method);
+}
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException>::.ctor()
+inline void UnityEvent_1__ctor_m5665B78F91DA8A0C4A1B1E3930F2A2AF138C2E6E (UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* __this, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829*, const RuntimeMethod*))UnityEvent_1__ctor_m8D77F4F05F69D0E52E8A445322811EEC25987525_gshared)(__this, method);
+}
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor/<>c__DisplayClass39_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_mF03E4B000DC1B94445235058767A5C86AB2B8D42 (U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InitializationFailedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationFailedCallback__ctor_mB3B58E7D16F164E840BC59FFDABBEBA35A8A9E29 (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.DependencyInitializationException::.ctor(Recognissimo.SpeechProcessorDependency,System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DependencyInitializationException__ctor_m47F18D3169150AEE184966166012650E00456B96 (DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732* __this, SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency0, String_t* ___initializationTaskName1, Exception_t* ___innerException2, const RuntimeMethod* method) ;
+// Recognissimo.InitializationFailedCallback Recognissimo.SpeechProcessor::<Initialize>g__CreateCallback|39_0(Recognissimo.SpeechProcessorDependency)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* SpeechProcessor_U3CInitializeU3Eg__CreateCallbackU7C39_0_m2586A1F18853A21EB19EA5DD81513856F321A81E (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency0, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator Recognissimo.SpeechProcessorDependency::Initialize(Recognissimo.InitializationTaskStartedCallback,Recognissimo.InitializationFailedCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechProcessorDependency_Initialize_m64044F328F294DB2740A759AFAC673E2BAE2D66C (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* ___initializationTaskStartedCallback0, InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* ___initializationFailedCallback1, const RuntimeMethod* method) ;
+// Recognissimo.LanguageModel Recognissimo.LanguageModelProvider::get_Model()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* LanguageModelProvider_get_Model_mDCDE3EABAE100F518A18E8757AC4AF19D727E1D8_inline (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Context::Start(Recognissimo.Core.LanguageModelResource,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Start_m293ACA7EA42AE438ED724D46235EABBF5D304B37 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* ___modelResource0, int32_t ___sampleRate1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor::BindSpeechSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_BindSpeechSource_m75BE040FECB334C9203B41B73F9E90C8B0BD809C (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Void System.NotSupportedException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+// System.Void System.Action::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWrapThrowingCoroutineU3Ed__7__ctor_mF3F4FE2C11B87F9A57CADB75A4A98DDDDF995CB0 (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Action>::Add(TKey,TValue)
+inline void Dictionary_2_Add_m4D496BC9F7E41AE19694A54D83BBF2EDAAF6E6D5 (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* __this, int32_t ___key0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48*, int32_t, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, const RuntimeMethod*))Dictionary_2_Add_mAF1EF7DA16BD70E252EA5C4B0F74DE519A02CBCD_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Void System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData>::Add(T)
+inline void List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_inline (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* __this, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98*, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C, const RuntimeMethod*))List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_gshared_inline)(__this, ___item0, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Func`1<System.Collections.IEnumerator>>::Add(TKey,TValue)
+inline void Dictionary_2_Add_m1C74602D83D4BBA2277CB152C24875A619840199 (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* __this, int32_t ___key0, Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE*, int32_t, Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*, const RuntimeMethod*))Dictionary_2_Add_mAF1EF7DA16BD70E252EA5C4B0F74DE519A02CBCD_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10__ctor_m23BDA0C1D00A32A5548D3502CED6BEE6D3DF9D03 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Action>::.ctor()
+inline void Dictionary_2__ctor_mF3102C0B0A37DB736838928BC56FF19F60D0412A (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48*, const RuntimeMethod*))Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Func`1<System.Collections.IEnumerator>>::.ctor()
+inline void Dictionary_2__ctor_mCF4AB83443EAEBE5266CA7183799080C420809F9 (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE*, const RuntimeMethod*))Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1<Recognissimo.SpeechProcessorDependency/TaskData>::.ctor()
+inline void List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2 (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98*, const RuntimeMethod*))List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Stack`1<System.Collections.IEnumerator>::.ctor()
+inline void Stack_1__ctor_mF218547BE4368C5557FF1F40E220917E694CAFF0 (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB*, const RuntimeMethod*))Stack_1__ctor_m70E8EDA96A608CE9BAB7FC8313B233AADA573BD4_gshared)(__this, method);
+}
+// TResult System.Func`1<System.Collections.IEnumerator>::Invoke()
+inline RuntimeObject* Func_1_Invoke_mC8C2E075F688B1F6C0700B6DD0147A02A7AC1672_inline (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*, const RuntimeMethod*))Func_1_Invoke_m1412272198DFA4066C83206E5B43353AF10A2EEE_gshared_inline)(__this, method);
+}
+// System.Void System.Collections.Generic.Stack`1<System.Collections.IEnumerator>::Push(T)
+inline void Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* __this, RuntimeObject* ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB*, RuntimeObject*, const RuntimeMethod*))Stack_1_Push_m709DD11BC1291A905814182CF9A367DE7399A778_gshared)(__this, ___item0, method);
+}
+// T System.Collections.Generic.Stack`1<System.Collections.IEnumerator>::Peek()
+inline RuntimeObject* Stack_1_Peek_mB478B84AB35FBA331FF13DBABB9BE194C7186881 (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB*, const RuntimeMethod*))Stack_1_Peek_mF0ECF6A61726B66E6D9B33D8C4DEAA47E586E6E4_gshared)(__this, method);
+}
+// T System.Collections.Generic.Stack`1<System.Collections.IEnumerator>::Pop()
+inline RuntimeObject* Stack_1_Pop_mC456C42E8578B42F4B25CDB65F6B4E79D45CE19B (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB*, const RuntimeMethod*))Stack_1_Pop_m2AFF69249659372F07EE25817DBCAFE74E1CF778_gshared)(__this, method);
+}
+// System.Int32 System.Collections.Generic.Stack`1<System.Collections.IEnumerator>::get_Count()
+inline int32_t Stack_1_get_Count_m20D4C6A9E28611C814D9D5305229E5FB3C501803_inline (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB*, const RuntimeMethod*))Stack_1_get_Count_mD08AE71D49787D30DDD9D484BCD323D646744D2E_gshared_inline)(__this, method);
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10_U3CU3Em__Finally1_mD5F97A0684974A6F2C8F0AA1069C3E9A40B073A8 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10_System_IDisposable_Dispose_m0F2B67B7AF6E430B7A46EE6F9B567D880527C5C6 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.SpeechProcessorDependency/TaskData,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m26DCE49D28101166951EEB5D5283A943204DCDD5 (Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m26DCE49D28101166951EEB5D5283A943204DCDD5_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where<Recognissimo.SpeechProcessorDependency/TaskData>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline RuntimeObject* Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5 (RuntimeObject* ___source0, Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E*, const RuntimeMethod*))Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5_gshared)(___source0, ___predicate1, method);
+}
+// System.Void Recognissimo.InitializationTaskStartedCallback::Invoke(System.String,System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_inline (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.Dictionary`2<System.Int32,System.Action>::get_Item(TKey)
+inline Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* Dictionary_2_get_Item_m1F4D567D3F380947DD99B9FD103E365BF5DD83BF (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* (*) (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48*, int32_t, const RuntimeMethod*))Dictionary_2_get_Item_mC3FEA647E750C27367C990777D8890E0E712E514_gshared)(__this, ___key0, method);
+}
+// System.Void Recognissimo.SpeechProcessorDependency::WrapThrowingAction(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_WrapThrowingAction_m0ADE596016E9A9747DFE377066B8F22482683032 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.Dictionary`2<System.Int32,System.Func`1<System.Collections.IEnumerator>>::get_Item(TKey)
+inline Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* Dictionary_2_get_Item_m1AC99E3ADC73E49AD4DB959D0DD87272825B0697 (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* (*) (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE*, int32_t, const RuntimeMethod*))Dictionary_2_get_Item_mC3FEA647E750C27367C990777D8890E0E712E514_gshared)(__this, ___key0, method);
+}
+// System.Collections.IEnumerator Recognissimo.SpeechProcessorDependency::WrapThrowingCoroutine(System.Func`1<System.Collections.IEnumerator>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechProcessorDependency_WrapThrowingCoroutine_m853522332794BC34FA44B8B139B815E3F512D138 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* ___coroutine0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.InitializationFailedCallback::Invoke(System.String,System.Exception)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_inline (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method) ;
+// System.Void System.EventArgs::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3 (EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* __this, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>::Invoke(System.Object,TEventArgs)
+inline void EventHandler_1_Invoke_m139C6C78AC14EF9538D4612D090FD15B00129465_inline (EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* __this, RuntimeObject* ___sender0, SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* ___e1, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*, RuntimeObject*, SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2*, const RuntimeMethod*))EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline)(__this, ___sender0, ___e1, method);
+}
+// System.Void System.EventHandler::Invoke(System.Object,System.EventArgs)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* __this, RuntimeObject* ___sender0, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___e1, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>::Invoke(System.Object,TEventArgs)
+inline void EventHandler_1_Invoke_mE66DD424805D985125C68E710F45486AB82169D9_inline (EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* __this, RuntimeObject* ___sender0, RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* ___e1, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*, RuntimeObject*, RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815*, const RuntimeMethod*))EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline)(__this, ___sender0, ___e1, method);
+}
+// System.Void Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::.ctor(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89 (SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629* __this, bool ___ownsHandle0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::ReleaseAlgorithm(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_ReleaseAlgorithm_m81BEF6A2CD2416EE1D7BAA0E14E3303888766C66 (intptr_t ___algorithm0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.AlgorithmHandle::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlgorithmHandle__ctor_mCB8C45054789FBFA8E527F9E2EE4E20A9C70BB10 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.InteropServices.SafeHandle::DangerousAddRef(System.Boolean&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922 (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, bool* ___success0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.ContextHandle::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextHandle__ctor_m366B1F7CCCDE1305802BFC1B82482B32BF72510C (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.InteropServices.SafeHandle::DangerousRelease()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.LanguageModelResourceHandle::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelResourceHandle__ctor_mA5D23BA550B0ACA6E9515EBF81BA90D49D167498 (LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* __this, const RuntimeMethod* method) ;
+// Recognissimo.Core.AlgorithmHandle Recognissimo.Core.PInvoke::CreateAlgorithm(Recognissimo.Core.AlgorithmType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* PInvoke_CreateAlgorithm_mAFCF4A87212F0F83110906A6BC0303ABA1FE1F7C (int32_t ___type0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.InteropServices.SafeHandle::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3 (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::ReleaseContext(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_ReleaseContext_mDEC6AA9E6B4D9842C643E3B3479DA76B4EBF31BF (intptr_t ___contextHandle0, const RuntimeMethod* method) ;
+// Recognissimo.Core.ContextHandle Recognissimo.Core.PInvoke::CreateContext(Recognissimo.Core.AlgorithmHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* PInvoke_CreateContext_m5B2AFEE83D3C2332AFA892900459339AA443CA38 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithmHandle0, const RuntimeMethod* method) ;
+// System.Int32 Recognissimo.Core.PInvoke::Start(Recognissimo.Core.ContextHandle,Recognissimo.Core.LanguageModelResourceHandle,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PInvoke_Start_m4819288B5D003A16C6450CA253C419385E6D2450 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* ___modelResourceHandle1, int32_t ___sampleRate2, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::Stop(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_Stop_m0F4A18F730CAE7391E9AFC2D364052DF2FD0002C (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::Abort(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_Abort_m9D13F4D1259839F7A1BAB4328708DCA12B6F23B4 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) ;
+// Recognissimo.Core.PInvoke/NativeErrorReport Recognissimo.Core.PInvoke::LastError(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA PInvoke_LastError_mDC6C9E6DDD6F36EEEB1909296BA98D0F08F7BBDE (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) ;
+// System.String System.Runtime.InteropServices.Marshal::PtrToStringAnsi(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_m86CDF46D9E4810BD7DB9BB52C1036E24A7DD46EE (intptr_t ___ptr0, const RuntimeMethod* method) ;
+// Recognissimo.Core.ContextEvent Recognissimo.Core.PInvoke::NextEvent(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PInvoke_NextEvent_mA5414B181664EC7F45930CD89AEDC68AA6BEB9F7 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::EnqueueFloat32(Recognissimo.Core.ContextHandle,System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_EnqueueFloat32_m61F6C42F217C1C3B9B57983B57FD84EDA89B4B88 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples1, int32_t ___length2, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::EnqueuePcm16(Recognissimo.Core.ContextHandle,System.Int16[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_EnqueuePcm16_m993FFB5800F9998897061E6CE5A476A506F47D38 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___samples1, int32_t ___length2, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.PInvoke::ReleaseLanguageModel(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_ReleaseLanguageModel_mC28F672044C913EFD9E0AA09BE33DAB8DFD73D65 (intptr_t ___languageModelResource0, const RuntimeMethod* method) ;
+// Recognissimo.Core.LanguageModelResourceHandle Recognissimo.Core.PInvoke::CreateLanguageModel(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* PInvoke_CreateLanguageModel_m49A8D2DF33AD0092DFD80DE20F147F2FC0229C7D (String_t* ___path0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Core.Algorithm::.ctor(Recognissimo.Core.AlgorithmType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Algorithm__ctor_m5B793AC45A112B8BDB4C51DC659345C400161C77 (Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* __this, int32_t ___type0, const RuntimeMethod* method) ;
+// TResult System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>::Invoke()
+inline Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A Func_1_Invoke_m42F6D3AE8491EF22A0615D6D6635EC672D819F56_inline (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* __this, const RuntimeMethod* method)
+{
+	return ((  Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A (*) (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832*, const RuntimeMethod*))Func_1_Invoke_m42F6D3AE8491EF22A0615D6D6635EC672D819F56_gshared_inline)(__this, method);
+}
+// System.Boolean Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke::Setup(Recognissimo.Core.AlgorithmHandle,System.String,System.Boolean,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_Setup_mF4E3A79BD1C8926BA8FF5468C89A78B96AA104B5 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, String_t* ___vocabulary1, bool ___enableDetails2, int32_t ___maxAlternatives3, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke::TryGetResult(Recognissimo.Core.AlgorithmHandle,Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke/NativeResult&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_TryGetResult_m458B734B0B11A61C776EDE275308F933881BC5B1 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9* ___nativeResult1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>::Invoke(T)
+inline void Action_1_Invoke_mFE897E82D1C0190D5BF64D245D5013F2496FC98C_inline (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* __this, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA ___obj0, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF*, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA, const RuntimeMethod*))Action_1_Invoke_mFE897E82D1C0190D5BF64D245D5013F2496FC98C_gshared_inline)(__this, ___obj0, method);
+}
+// TResult System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>::Invoke()
+inline Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 Func_1_Invoke_mFE56932EA5CC06FDE64EBBC1AF2EC8725B177957_inline (Func_1_t7082610092560C9628161A66480A08495185B4F7* __this, const RuntimeMethod* method)
+{
+	return ((  Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 (*) (Func_1_t7082610092560C9628161A66480A08495185B4F7*, const RuntimeMethod*))Func_1_Invoke_mFE56932EA5CC06FDE64EBBC1AF2EC8725B177957_gshared_inline)(__this, method);
+}
+// System.Boolean Recognissimo.Core.VoiceActivityDetectorAlgorithm/PInvoke::Setup(Recognissimo.Core.AlgorithmHandle,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_Setup_m97AFCF381A149BB002B5315773D83ABB64F9C5D7 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, int32_t ___timeoutMs1, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Core.VoiceActivityDetectorAlgorithm/PInvoke::TryGetResult(Recognissimo.Core.AlgorithmHandle,Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_TryGetResult_m0A9024A70577CA53FAC2230DFF6FD3353DE17474 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504* ___result1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>::Invoke(T)
+inline void Action_1_Invoke_mE75768D3CFBCED058F74C679063906A800F91CA2_inline (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* __this, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 ___obj0, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C*, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504, const RuntimeMethod*))Action_1_Invoke_mE75768D3CFBCED058F74C679063906A800F91CA2_gshared_inline)(__this, ___obj0, method);
+}
+// TResult System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>::Invoke()
+inline Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E Func_1_Invoke_m1AE5F8C75D338F5B98A92AF18693544E3A064B40_inline (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* __this, const RuntimeMethod* method)
+{
+	return ((  Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E (*) (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF*, const RuntimeMethod*))Func_1_Invoke_m1AE5F8C75D338F5B98A92AF18693544E3A064B40_gshared_inline)(__this, method);
+}
+// System.Boolean Recognissimo.Core.VoiceControlAlgorithm/PInvoke::Setup(Recognissimo.Core.AlgorithmHandle,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_Setup_m72BA0CC85C64D4851005431C12914526749F097F (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, String_t* ___commands1, bool ___asapMode2, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Core.VoiceControlAlgorithm/PInvoke::TryGetResult(Recognissimo.Core.AlgorithmHandle,Recognissimo.Core.VoiceControlAlgorithm/Result&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_TryGetResult_m5B31F8CBC89762386F7313B449D6BBB1F51231B9 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2* ___result1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>::Invoke(T)
+inline void Action_1_Invoke_m7A479917E2794FECA98A8D99C4A04CE20AD239CE_inline (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* __this, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 ___obj0, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B*, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2, const RuntimeMethod*))Action_1_Invoke_m7A479917E2794FECA98A8D99C4A04CE20AD239CE_gshared_inline)(__this, ___obj0, method);
+}
+// System.Int32 UnityEngine.AudioClip::get_frequency()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`1<System.Collections.IEnumerator>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void System.Func`1<UnityEngine.AudioClip>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_mBE8724F192856213E95EE76603BD4F19726994E3 (Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___object0, ___method1, method);
+}
+// Recognissimo.CallCondition Recognissimo.CallCondition::ValueChanged<UnityEngine.AudioClip>(System.Func`1<T>,System.Func`3<T,T,System.Boolean>)
+inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_ValueChanged_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_mC603A9BCAAF4A7FCDDDA8882C39A985E95EDD8BF (Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4* ___dependencyGetter0, Func_3_tD8D72C01E2A89B6AF8D90F9443965970E0ECE5B6* ___equalityComparer1, const RuntimeMethod* method)
+{
+	return ((  CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* (*) (Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4*, Func_3_tD8D72C01E2A89B6AF8D90F9443965970E0ECE5B6*, const RuntimeMethod*))CallCondition_ValueChanged_TisRuntimeObject_m537B3503D579A4139B870DD7E5476F6ECC819F1D_gshared)(___dependencyGetter0, ___equalityComparer1, method);
+}
+// System.Void Recognissimo.SpeechProcessorDependency::RegisterInitializationTask(System.String,System.Func`1<System.Collections.IEnumerator>,Recognissimo.CallCondition)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, String_t* ___taskName0, Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* ___task1, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___callCondition2, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator Recognissimo.Components.AudioClipSpeechSource::ReadAudioSequentially()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AudioClipSpeechSource_ReadAudioSequentially_mCD2E8F6CC9F71E2BDD1D0412030536EC41F70CD5 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.AudioClipSpeechSource::ReadAudio()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClipSpeechSource_ReadAudio_m8B57A306018219A11E837CDBE4ABEBE7DBBA1526 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadAudioU3Ed__11__ctor_m1A9F6BA1E112B3DDB18AC2DFA4D4DD169D9770F8 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SamplesReadyEventArgs::.ctor(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4 (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___length1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::OnSamplesReady(Recognissimo.SamplesReadyEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* ___eventArgs0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::OnDried()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_OnDried_mCC48EA6826A47B78CBDF98CAF04EBBC903EF25AC (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadAudioSequentiallyU3Ed__13__ctor_mA0370B4EC226311AD41283575B3B2A319886BFE9 (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource__ctor_m84833D3DA5A6B824F4D1C68435D2CAA186FAF5AE (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AudioClip::LoadAudioData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_LoadAudioData_mF43E6195AA70C39045DCF08D01C61C9DAA6876DC (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
+// UnityEngine.AudioDataLoadState UnityEngine.AudioClip::get_loadState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_loadState_mD5E89ED3E6C1C706C021598FDF86FEB7BF5DE669 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AudioClip::get_channels()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
+// System.Void System.NotSupportedException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AudioClip::get_samples()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Math::Min(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m1F346FEDDC77AC1EC0C4EF1AC6BA59F0EC7980F8 (int32_t ___val10, int32_t ___val21, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AudioSettings::get_outputSampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_get_outputSampleRate_m501A11E8BE3508BBF1C1AB5E2643B3AC978C4B32 (const RuntimeMethod* method) ;
+// System.Single UnityEngine.Time::get_deltaTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D (const RuntimeMethod* method) ;
+// System.Void UnityEngine.AudioListener::GetOutputData(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetOutputData_m2D19BF8D3FBD53119E9D5DB7E0426E30A8F09041 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::get_IsRecording()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_get_IsRecording_m958E425DFC0FF445924DBA9515B8F40290353053_inline (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::WriteAvailableSamples(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_WriteAvailableSamples_mA32DA385519A9E641D85DEB2789D878F9249C1A1 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, bool ___greedy0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::WriteSilence(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_WriteSilence_m26F6B0A74F37C2B647F0E26771AFFF8E8E8B7B17 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, float ___duration0, const RuntimeMethod* method) ;
+// System.Boolean Estrada.Microphone::IsRecording(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m1ECA6B92D0FA684272B220C0A77F8A144B9AFA19 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSourceRuntimeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSourceRuntimeException__ctor_m440CA64669536B369C1296F1402BA6AF5FDBBDB4 (SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.RuntimeFailureEventArgs::.ctor(Recognissimo.SpeechSourceRuntimeException)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeFailureEventArgs__ctor_m72916B97B2284C63FE51EBF9CAFE69B7B77BC7E1 (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* __this, SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* ___exception0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechSource::OnRuntimeFailure(Recognissimo.RuntimeFailureEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_OnRuntimeFailure_mD2CC4A830D62597029E5C154C36C80AB3E7C88EE (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* ___eventArgs0, const RuntimeMethod* method) ;
+// System.Boolean Estrada.Microphone::RequiresPermission()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_RequiresPermission_m678E282E52F8B805D8CB70CDB8DB6349CAC2E08D (const RuntimeMethod* method) ;
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Func`1<System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___object0, ___method1, method);
+}
+// Recognissimo.CallCondition Recognissimo.CallCondition::ValueChanged<System.String>(System.Func`1<T>,System.Func`3<T,T,System.Boolean>)
+inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_ValueChanged_TisString_t_mF21D8DA8263DDE5A47D227448B1EF48BB9E76C8A (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* ___dependencyGetter0, Func_3_t0FFF2796668964ACABE470FF1DBB0508010292AB* ___equalityComparer1, const RuntimeMethod* method)
+{
+	return ((  CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* (*) (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*, Func_3_t0FFF2796668964ACABE470FF1DBB0508010292AB*, const RuntimeMethod*))CallCondition_ValueChanged_TisRuntimeObject_m537B3503D579A4139B870DD7E5476F6ECC819F1D_gshared)(___dependencyGetter0, ___equalityComparer1, method);
+}
+// System.Void Recognissimo.SpeechProcessorDependency::RegisterInitializationTask(System.String,System.Action,Recognissimo.CallCondition)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_RegisterInitializationTask_m12AEC96FC2A67FE66CBB12371722186D9E9DC757 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, String_t* ___taskName0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___task1, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___callCondition2, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckMicrophonePermissionsU3Ed__23__ctor_mD7F39B63A9FBB1BBA3BEB58F8875CF537875CE09 (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.String Recognissimo.Components.MicrophoneSpeechSource::get_DeviceName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MicrophoneSpeechSource_get_DeviceName_m98895B1C7AA368529B375E279DF91B8CFD11EEAD (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) ;
+// System.Void Estrada.Microphone::GetDeviceCaps(System.String,System.Int32&,System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_GetDeviceCaps_mEB72CB11147AB8C34D81D0A96A3BCD34E6E7F2BE (String_t* ___deviceName0, int32_t* ___minFreq1, int32_t* ___maxFreq2, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessorDependency::FailInitialization(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, Exception_t* ___exception0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeMicrophoneU3Ed__25__ctor_m9C204C39DEB23C7532669D344EE41D75CBC3CBAD (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Int32 Estrada.Microphone::GetPosition(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetPosition_m44750EC04BF2A86ADEFD2AA358AFA84701E7B529 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::get_IsPaused()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_get_IsPaused_m971D972C1956A63B28E3DC1E9E9B3B44DA1F84D1_inline (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::GetMicrophoneData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_GetMicrophoneData_mCE8EBBC887D1ED78813BB99A784BD406DFC8AD3B (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) ;
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D (const RuntimeMethod* method) ;
+// System.Boolean Estrada.Microphone::GetCurrentData(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_GetCurrentData_m2BCA27FB19E7F809D2C16115068B77EFD7F16B0A (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Mathf::CeilToInt(System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_m04999E3DEB696135EFD620A30F51503D700C1998_inline (float ___f0, const RuntimeMethod* method) ;
+// System.Void System.Array::Fill<System.Single>(T[],T)
+inline void Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___array0, float ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, float, const RuntimeMethod*))Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0_gshared)(___array0, ___value1, method);
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::set_IsRecording(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_set_IsRecording_m4BB4946DEFCD7ED35BED1A37F871B1014439DBF9_inline (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void Estrada.Microphone::End(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_End_mB43F241697D94303953685A26512E25B21365FF9 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+// System.String[] Estrada.Microphone::get_devices()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Microphone_get_devices_m0001F35D345C9AF300CB73F8FE36BD887D6CFD37 (const RuntimeMethod* method) ;
+// System.Collections.IEnumerator Estrada.Microphone::RequestPermission()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Microphone_RequestPermission_m310D8FFB3FEEFEC79E9503ACB36935F8CAAB910E (const RuntimeMethod* method) ;
+// System.Boolean Estrada.Microphone::HasPermission()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_HasPermission_m819100EA5B39967C2AAACDF47DBC6EF430098C64 (const RuntimeMethod* method) ;
+// System.Single Recognissimo.Components.MicrophoneSpeechSource::get_TimeSensitivity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MicrophoneSpeechSource_get_TimeSensitivity_m23F374165DA12D7A9DF01EBB23A1E0E61360F0B1 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) ;
+// System.Single System.Math::Max(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Max_mB1131EAD9E03519D13D246CE96B599561C784957 (float ___val10, float ___val21, const RuntimeMethod* method) ;
+// UnityEngine.AudioClip Estrada.Microphone::Start(System.String,System.Boolean,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F (String_t* ___deviceName0, bool ___loop1, int32_t ___lengthSec2, int32_t ___frequency3, const RuntimeMethod* method) ;
+// System.String UnityEngine.Application::get_persistentDataPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_m787EBC9B0862E7617DCD6CABD2147E61717EAC17 (const RuntimeMethod* method) ;
+// System.String System.IO.Path::Combine(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474 (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.Network.DownloadManager::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadManager__ctor_m9B80EB11A9F22F1BB98262792F49681F62A27C61 (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* __this, String_t* ___downloadsDirectoryPath0, const RuntimeMethod* method) ;
+// System.Void System.Func`1<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_m71C1180FCE9DDDD0655636CDD29A81306D233235 (Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void System.Func`3<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>,System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_3__ctor_mC3E3ED7EEF52970DA9A274CFABE75EA436D09BDE (Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_3__ctor_m00571BE1A999D918DAD5FA2E9BD5F28DDEF2F365_gshared)(__this, ___object0, ___method1, method);
+}
+// Recognissimo.CallCondition Recognissimo.CallCondition::ValueChanged<System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>>(System.Func`1<T>,System.Func`3<T,T,System.Boolean>)
+inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9 (Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB* ___dependencyGetter0, Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7* ___equalityComparer1, const RuntimeMethod* method)
+{
+	return ((  CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* (*) (Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB*, Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7*, const RuntimeMethod*))CallCondition_ValueChanged_TisRuntimeObject_m537B3503D579A4139B870DD7E5476F6ECC819F1D_gshared)(___dependencyGetter0, ___equalityComparer1, method);
+}
+// System.Void System.Func`1<UnityEngine.SystemLanguage>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_m6B15F4975FFB31159E4537579F75A0251928A9A3 (Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mB72E02E4A5EAA72E35D6DEBAE357C0AE7920088A_gshared)(__this, ___object0, ___method1, method);
+}
+// Recognissimo.CallCondition Recognissimo.CallCondition::ValueChanged<UnityEngine.SystemLanguage>(System.Func`1<T>,System.Func`3<T,T,System.Boolean>)
+inline CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F (Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE* ___dependencyGetter0, Func_3_t8695FF52278BB789E35AEE99A56D2FE109708165* ___equalityComparer1, const RuntimeMethod* method)
+{
+	return ((  CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* (*) (Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE*, Func_3_t8695FF52278BB789E35AEE99A56D2FE109708165*, const RuntimeMethod*))CallCondition_ValueChanged_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m15C1B8D3EFE60A342CFBE03816BE43A4FF23ACBD_gshared)(___dependencyGetter0, ___equalityComparer1, method);
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass6_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m817F30950222B0A2BD14F65CB9D070CC039276D6 (U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m281792AC70DFEAA12054D5F9E56ADC73114AA72C (Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m281792AC70DFEAA12054D5F9E56ADC73114AA72C_gshared)(__this, ___object0, ___method1, method);
+}
+// TSource System.Linq.Enumerable::SingleOrDefault<Recognissimo.Components.RemoteLanguageModelArchive>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6 (RuntimeObject* ___source0, Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA (*) (RuntimeObject*, Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730*, const RuntimeMethod*))Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_gshared)(___source0, ___predicate1, method);
+}
+// System.Boolean System.ValueType::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D (RuntimeObject* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+// Recognissimo.Utils.Network.RemoteFile Recognissimo.Components.RemoteLanguageModelProvider::RemoteLanguageModelArchiveToRemoteFile(Recognissimo.Components.RemoteLanguageModelArchive)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954 (RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA ___description0, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Utils.Network.DownloadManager::IsDownloaded(Recognissimo.Utils.Network.RemoteFile,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DownloadManager_IsDownloaded_m5D27E387E4D43D6AEED981A0E5E278154B099814 (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* __this, RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C ___remote0, bool ___checkLocalFiles1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass7_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mE82CBE7CF65F39BCB7D95A763458DD663A772152 (U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownload(Recognissimo.Utils.Network.RemoteFile)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadManager_RemoveDownload_m88ACC685B377FA6FFD619A378D1570FCFC71F25D (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* __this, RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C ___remote0, const RuntimeMethod* method) ;
+// Recognissimo.Utils.Network.RemoteFilesManifest Recognissimo.Components.RemoteLanguageModelProvider::AutoGenerateManifest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 RemoteLanguageModelProvider_AutoGenerateManifest_m67840D46B8EB90EE299B91A701AD9E83F4A2C076 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownloadsExcept(System.Collections.Generic.IEnumerable`1<Recognissimo.Utils.Network.RemoteFile>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadManager_RemoveDownloadsExcept_m847BB6160A02BC339ED847E127CAE39CC37AADF2 (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* __this, RuntimeObject* ___remotes0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__10__ctor_m8D8EE0E050B29438A34C110BD42C8ED05934EF14 (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.RemoteLanguageModelArchive,Recognissimo.Utils.Network.RemoteFile>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m5F2FB99835FBD2D3B2B540639DB0060BEFBB4B08 (Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m5F2FB99835FBD2D3B2B540639DB0060BEFBB4B08_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<Recognissimo.Components.RemoteLanguageModelArchive,Recognissimo.Utils.Network.RemoteFile>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB (RuntimeObject* ___source0, Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772*, const RuntimeMethod*))Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB_gshared)(___source0, ___selector1, method);
+}
+// System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<Recognissimo.Utils.Network.RemoteFile>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1 (RuntimeObject* ___source0, const RuntimeMethod* method)
+{
+	return ((  List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1_gshared)(___source0, method);
+}
+// System.Void System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive>::.ctor()
+inline void List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7 (List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2*, const RuntimeMethod*))List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7_gshared)(__this, method);
+}
+// System.Void Recognissimo.LanguageModelProvider::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelProvider__ctor_m49FA4F8102E88930B953BAD786A6F45AB90FDC57 (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, const RuntimeMethod* method) ;
+// System.Void System.IO.IOException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IOException__ctor_mE0612A16064F93C7EBB468D6874777BD70CB50CA (IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest::TryFindByUrl(System.String,Recognissimo.Utils.Network.RemoteFile&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RemoteFilesManifest_TryFindByUrl_m4D8B7CC302C276E2CA288395A9E2C77BFC752B32 (RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2* __this, String_t* ___url0, RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C* ___remoteFile1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_mE90C4823CAFA6576535C75CAD1E18D25F2AABE37 (U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.Network.DownloadFailedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadFailedCallback__ctor_mF38E0B91CA7ADCACF26E709F8CF9F5CDD21E1829 (DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::DownloadAndExtractZip(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadFailedCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DownloadManager_DownloadAndExtractZip_m1EB8B0B605A8E6091AB91EB74498A7A7204AD10A (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* __this, RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C ___remote0, DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8* ___downloadFailedCallback1, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Utils.Filesystem::RequiresSyncing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Filesystem_RequiresSyncing_m7E72268FAB5B97CC17D17B98CDB939D9E58EC044 (const RuntimeMethod* method) ;
+// System.Collections.IEnumerator Recognissimo.Utils.Filesystem::Commit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Filesystem_Commit_mA3183351FFF99525699344A7F012ED35A11F5FAB (const RuntimeMethod* method) ;
+// System.String Recognissimo.Utils.Network.DownloadManager::GetDownloadedItemPath(Recognissimo.Utils.Network.RemoteFile)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadManager_GetDownloadedItemPath_mB407C08FDAE016E5165812FF27BE5835DB8AC282 (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* __this, RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C ___remote0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.LanguageModel::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModel__ctor_m0AE2274D2DE26D08B3AF72A9904FB3A8AF0734FC (LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* __this, String_t* ___path0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.LanguageModelProvider::set_Model(Recognissimo.LanguageModel)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelProvider_set_Model_m2E6FCCFD10FB38E55ED6A666F73713A4610AC49D (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* ___value0, const RuntimeMethod* method) ;
+// System.String System.String::Join(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632 (String_t* ___separator0, RuntimeObject* ___values1, const RuntimeMethod* method) ;
+// System.String System.String::ToLower()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD (String_t* __this, const RuntimeMethod* method) ;
+// Recognissimo.Components.PartialResultEvent Recognissimo.Components.SpeechRecognizer::get_PartialResultReady()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* SpeechRecognizer_get_PartialResultReady_m2207DB6C32399BDF2203DB1F156F9B9AFC212BD9 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) ;
+// T Recognissimo.Utils.Json::Deserialize<Recognissimo.Components.PartialResult>(System.String)
+inline PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6 (String_t* ___json0, const RuntimeMethod* method)
+{
+	return ((  PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B (*) (String_t*, const RuntimeMethod*))Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6_gshared)(___json0, method);
+}
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.PartialResult>::Invoke(T0)
+inline void UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9 (UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC* __this, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B ___arg00, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC*, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B, const RuntimeMethod*))UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9_gshared)(__this, ___arg00, method);
+}
+// Recognissimo.Components.ResultEvent Recognissimo.Components.SpeechRecognizer::get_ResultReady()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* SpeechRecognizer_get_ResultReady_m9CAA3E5D499C27171EBBD0A4931166D0A6611B7F (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) ;
+// T Recognissimo.Utils.Json::Deserialize<Recognissimo.Components.Result>(System.String)
+inline Result_t38EF4946810811DF344B77462AF54D398253E75A Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3 (String_t* ___json0, const RuntimeMethod* method)
+{
+	return ((  Result_t38EF4946810811DF344B77462AF54D398253E75A (*) (String_t*, const RuntimeMethod*))Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3_gshared)(___json0, method);
+}
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.Result>::Invoke(T0)
+inline void UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5 (UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F* __this, Result_t38EF4946810811DF344B77462AF54D398253E75A ___arg00, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F*, Result_t38EF4946810811DF344B77462AF54D398253E75A, const RuntimeMethod*))UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5_gshared)(__this, ___arg00, method);
+}
+// System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
+inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+// System.String Recognissimo.Components.SpeechRecognizer::CreateVocabularyString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpeechRecognizer_CreateVocabularyString_m4A0AB42722A29854B1B23CED2366A9FD849AFAF1 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) ;
+// System.Boolean Recognissimo.Components.SpeechRecognizer::get_EnableDetails()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpeechRecognizer_get_EnableDetails_mCFF5CBCB4C8E64E7C78142FFBBE90616110AC8C7 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) ;
+// System.Int32 Recognissimo.Components.SpeechRecognizer::get_Alternatives()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechRecognizer_get_Alternatives_m5CBCAE038C78DCBB873208A16E664FDFC1D62E91 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_mC18E69769C722F6B6933AFEC5BCE2C1E93C34267 (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mC18E69769C722F6B6933AFEC5BCE2C1E93C34267_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mD8D64BEFFDEBFE3F83DD3D2A26498652A76D4F17 (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mD8D64BEFFDEBFE3F83DD3D2A26498652A76D4F17_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Recognissimo.Core.SpeechRecognizerAlgorithm::.ctor(System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>,System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizerAlgorithm__ctor_m841A86E53297A7156B6A45B51C2D134D2E3D19E0 (SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37* __this, Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* ___onSetup0, Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* ___onResult1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.PartialResultEvent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartialResultEvent__ctor_m121C05791C8DC8150E2E264519911326C3502859 (PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.ResultEvent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResultEvent__ctor_m635460B872CC45F0584B0DB57D8A99FB5C9262A0 (ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* __this, const RuntimeMethod* method) ;
+// System.Void Recognissimo.SpeechProcessor::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor__ctor_mE8A0759DFB7E44FCEF3971C1FFBBD5549AD51511 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.PartialResult>::.ctor()
+inline void UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D (UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC* __this, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tF2CE8BA4D5167D8282512E13D3EDB3E7E887A3EC*, const RuntimeMethod*))UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D_gshared)(__this, method);
+}
+// System.Void UnityEngine.Events.UnityEvent`1<Recognissimo.Components.Result>::.ctor()
+inline void UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0 (UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tCEA97CE0AE37B75C4D3231DA5624C4FD270C972F*, const RuntimeMethod*))UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0_gshared)(__this, method);
+}
+// Recognissimo.Utils.StreamingAssetsProvider.IStreamingAssetsProvider Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProviderFactory::MaybeCreate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StreamingAssetsProviderFactory_MaybeCreate_mE95519EFB896F73D0EEF6B3AD86ECEA0BFD3B798 (const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__4__ctor_m7FBAA710063903888843FE98EA1B771AC82C63AB (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<Recognissimo.Components.StreamingAssetsLanguageModel,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m62643540EA2F65E46DA901D943B76215231B9D45 (Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m62643540EA2F65E46DA901D943B76215231B9D45_gshared)(__this, ___object0, ___method1, method);
+}
+// TSource System.Linq.Enumerable::SingleOrDefault<Recognissimo.Components.StreamingAssetsLanguageModel>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8 (RuntimeObject* ___source0, Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D (*) (RuntimeObject*, Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA*, const RuntimeMethod*))Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8_gshared)(___source0, ___predicate1, method);
+}
+// System.String UnityEngine.Application::get_streamingAssetsPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath_m4DF6E61542E9D042CF1A5A1CEE75DB2D5631D4AD (const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProvisionFailedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingAssetsProvisionFailedCallback__ctor_m5CF2708C728F756E009473499AC88B8DB90575C0 (StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceActivityDetector::get_Silenced()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* VoiceActivityDetector_get_Silenced_mADD2CA539887F1199D8E28B7396548BA3FF2532D (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) ;
+// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceActivityDetector::get_Spoke()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* VoiceActivityDetector_get_Spoke_mED953844DD51C284EBEC618D6FC4FD4CBD2596D3 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) ;
+// System.Int32 Recognissimo.Components.VoiceActivityDetector::get_TimeoutMs()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VoiceActivityDetector_get_TimeoutMs_mA038028C3A78CA7178704EDE57A161BE98D68C72 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_m9734A7A6A576692FB11CF71D964C96B3273F84FA (Func_1_t7082610092560C9628161A66480A08495185B4F7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t7082610092560C9628161A66480A08495185B4F7*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m9734A7A6A576692FB11CF71D964C96B3273F84FA_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m24AAFDCAC4DA2B638A8BAE5DA36A735CBA321E03 (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m24AAFDCAC4DA2B638A8BAE5DA36A735CBA321E03_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Recognissimo.Core.VoiceActivityDetectorAlgorithm::.ctor(System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>,System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetectorAlgorithm__ctor_m76B28B20D973AA2ED44ED1CEDD8E2F6420E2C16B (VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80* __this, Func_1_t7082610092560C9628161A66480A08495185B4F7* ___onSetup0, Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* ___onResult1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.VoiceControlCommand::.ctor(System.String,UnityEngine.Events.UnityEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlCommand__ctor_mD09E00617EA8C6BF5B5559D0F4F3534963897892 (VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F* __this, String_t* ___phrase0, UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSpoken1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.VoiceControlCommand::.ctor(System.String,UnityEngine.Events.UnityAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlCommand__ctor_mBB7AEA5D9908198CED868CFC2107560BFB563DCD (VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F* __this, String_t* ___phrase0, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___action1, const RuntimeMethod* method) ;
+// T System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>::get_Item(System.Int32)
+inline VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606 (List_1_t5DD84171740534E27980249B42B230DF269891A2* __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	return ((  VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F (*) (List_1_t5DD84171740534E27980249B42B230DF269891A2*, int32_t, const RuntimeMethod*))List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606_gshared)(__this, ___index0, method);
+}
+// System.Void System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>::.ctor()
+inline void List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51 (List_1_t5DD84171740534E27980249B42B230DF269891A2* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t5DD84171740534E27980249B42B230DF269891A2*, const RuntimeMethod*))List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51_gshared)(__this, method);
+}
+// System.Void System.Func`2<Recognissimo.Components.VoiceControlCommand,System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m53A84F90B9102C6B2FF7B261644FABB35A636B1C (Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m68715EAB887F82DF07A22E14949A440CA4FFF215_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<Recognissimo.Components.VoiceControlCommand,System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisString_t_mF2FFDE904F5406A231A218135727AD19EDCFBE98 (RuntimeObject* ___source0, Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5*, const RuntimeMethod*))Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisRuntimeObject_mE90FC75FF06424F03FFB84735129F44EC426ED8D_gshared)(___source0, ___selector1, method);
+}
+// System.Void System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_mDDF7012AA1C5F2CA2BF7DF4F11A72C499DA587A9 (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mDDF7012AA1C5F2CA2BF7DF4F11A72C499DA587A9_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mDFAF37C772E877F9B5E098A671627CC399047AC0 (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mDFAF37C772E877F9B5E098A671627CC399047AC0_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Recognissimo.Core.VoiceControlAlgorithm::.ctor(System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>,System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlAlgorithm__ctor_mD0BE830B40CE4C574862C8C762A80101EC9ECFEC (VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28* __this, Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* ___onSetup0, Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* ___onResult1, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Components.VoiceControl/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m18FD86A4783553F8B0613CB989503523F4DAC170 (U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE* __this, const RuntimeMethod* method) ;
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void* DEFAULT_CALL Recognissimo_Algorithm_Create(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_Algorithm_Free(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void* DEFAULT_CALL Recognissimo_Context_Create(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_Context_Free(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_Context_Start(void*, void*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_Context_Stop(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_Context_Abort(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA DEFAULT_CALL Recognissimo_Context_LastError(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_Context_NextEvent(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_Context_EnqueueFloat32(void*, float*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_Context_EnqueuePCM16(void*, int16_t*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void* DEFAULT_CALL Recognissimo_LanguageModel_Create(char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Recognissimo_LanguageModel_Free(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_SpeechRecognizer_Setup(void*, char*, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_SpeechRecognizer_Result(void*, NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_VoiceActivityDetector_Setup(void*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_VoiceActivityDetector_Result(void*, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_VoiceControl_Setup(void*, char*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL Recognissimo_VoiceControl_Result(void*, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2*);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.CallCondition::.ctor(System.Func`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* __this, Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___predicate0, const RuntimeMethod* method) 
+{
+	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* G_B2_0 = NULL;
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* G_B2_1 = NULL;
+	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* G_B1_0 = NULL;
+	CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* G_B1_1 = NULL;
+	{
+		// public CallCondition(Func<bool> predicate)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// _condition = predicate ?? throw new ArgumentNullException(nameof(predicate));
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_0 = ___predicate0;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_1 = L_0;
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_2 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_2);
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7EE837B2FC81E79F9F96BEFD9CD8B64870F5C628)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B_RuntimeMethod_var)));
+	}
+
+IL_0017:
+	{
+		NullCheck(G_B2_1);
+		G_B2_1->____condition_2 = G_B2_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->____condition_2), (void*)G_B2_0);
+		// }
+		return;
+	}
+}
+// Recognissimo.CallCondition Recognissimo.CallCondition::Aggregate(Recognissimo.CallCondition[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* CallCondition_Aggregate_mB6EFB87DF3F947463DFF8D91734E0E2E277A3F1B (CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* ___conditions0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass4_0_U3CAggregateU3Eb__0_mDF4F14620EF82BB7892BBE6E4570940E8C3051A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* L_0 = (U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass4_0__ctor_m5E922629F5C46D58F310D5269F6EE47AA22652F8(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* L_1 = V_0;
+		CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* L_2 = ___conditions0;
+		NullCheck(L_1);
+		L_1->___conditions_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___conditions_0), (void*)L_2);
+		// if (conditions == null || conditions.Length == 0)
+		U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* L_3 = V_0;
+		NullCheck(L_3);
+		CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* L_4 = L_3->___conditions_0;
+		if (!L_4)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* L_5 = V_0;
+		NullCheck(L_5);
+		CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* L_6 = L_5->___conditions_0;
+		NullCheck(L_6);
+		if ((((RuntimeArray*)L_6)->max_length))
+		{
+			goto IL_0024;
+		}
+	}
+
+IL_001e:
+	{
+		// return Once;
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_7 = ((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Once_0;
+		return L_7;
+	}
+
+IL_0024:
+	{
+		// return new CallCondition(() => { return conditions.Any(cond => cond.Check()); });
+		U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* L_8 = V_0;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_9 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_9, L_8, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CAggregateU3Eb__0_mDF4F14620EF82BB7892BBE6E4570940E8C3051A7_RuntimeMethod_var), NULL);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_10 = (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1*)il2cpp_codegen_object_new(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B(L_10, L_9, NULL);
+		return L_10;
+	}
+}
+// System.Boolean Recognissimo.CallCondition::Check()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CallCondition_Check_m47318CED6BAF11AD9312E8DA51D52535A340C48B (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* __this, const RuntimeMethod* method) 
+{
+	{
+		// return _condition();
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_0 = __this->____condition_2;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Func_1_Invoke_mBB7F37C468451AF57FAF31635C544D6B8C4373B2_inline(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.CallCondition::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallCondition__cctor_mA879B0BDB3669FA8058A01E3467971401B5627F2 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_cctorU3Eb__7_0_mE3397409396A29285CEDB1D01380455A62CF112E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_cctorU3Eb__7_1_m90BB25831BFE8D35C581DB52DA670F4C5E8BE5E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static readonly CallCondition Once = new(() => false);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* L_0 = ((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_1 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_1, L_0, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__7_0_mE3397409396A29285CEDB1D01380455A62CF112E_RuntimeMethod_var), NULL);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_2 = (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1*)il2cpp_codegen_object_new(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B(L_2, L_1, NULL);
+		((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Once_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Once_0), (void*)L_2);
+		// public static readonly CallCondition Always = new(() => true);
+		U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* L_3 = ((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_4 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__7_1_m90BB25831BFE8D35C581DB52DA670F4C5E8BE5E0_RuntimeMethod_var), NULL);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_5 = (CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1*)il2cpp_codegen_object_new(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		CallCondition__ctor_mD690C2BF744FE16DEB6E4EF67597B4C42436959B(L_5, L_4, NULL);
+		((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Always_1 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Always_1), (void*)L_5);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.CallCondition/<>c__DisplayClass4_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m5E922629F5C46D58F310D5269F6EE47AA22652F8 (U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean Recognissimo.CallCondition/<>c__DisplayClass4_0::<Aggregate>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass4_0_U3CAggregateU3Eb__0_mDF4F14620EF82BB7892BBE6E4570940E8C3051A7 (U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Any_TisCallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_mBEE451AC41E43CCC0DDD260DA039119F9DB9D2FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAggregateU3Eb__4_1_m978D5B84978D162ABFC80AC8024556B65A80068B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* G_B2_0 = NULL;
+	CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* G_B2_1 = NULL;
+	Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* G_B1_0 = NULL;
+	CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* G_B1_1 = NULL;
+	{
+		// return new CallCondition(() => { return conditions.Any(cond => cond.Check()); });
+		CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* L_0 = __this->___conditions_0;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* L_1 = ((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9__4_1_1;
+		Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* L_2 = L_1;
+		G_B1_0 = L_2;
+		G_B1_1 = L_0;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_0;
+			goto IL_0025;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* L_3 = ((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* L_4 = (Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F*)il2cpp_codegen_object_new(Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Func_2__ctor_m424E8D83BA44FD33B7FF6C4232C9D1772925C2ED(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CAggregateU3Eb__4_1_m978D5B84978D162ABFC80AC8024556B65A80068B_RuntimeMethod_var), NULL);
+		Func_2_t792CD22EB980482573F1F39F8A8D54A49C779A3F* L_5 = L_4;
+		((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9__4_1_1 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9__4_1_1), (void*)L_5);
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0025:
+	{
+		bool L_6;
+		L_6 = Enumerable_Any_TisCallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_mBEE451AC41E43CCC0DDD260DA039119F9DB9D2FE((RuntimeObject*)G_B2_1, G_B2_0, Enumerable_Any_TisCallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_mBEE451AC41E43CCC0DDD260DA039119F9DB9D2FE_RuntimeMethod_var);
+		return L_6;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.CallCondition/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7FECD4B0932B4C9FBDE74AAB687DF093144AB5D1 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* L_0 = (U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237*)il2cpp_codegen_object_new(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__ctor_m66AC05D0BD2AAF977CB3DC2C6F29D6D43C52DFFC(L_0, NULL);
+		((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void Recognissimo.CallCondition/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m66AC05D0BD2AAF977CB3DC2C6F29D6D43C52DFFC (U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean Recognissimo.CallCondition/<>c::<Aggregate>b__4_1(Recognissimo.CallCondition)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CAggregateU3Eb__4_1_m978D5B84978D162ABFC80AC8024556B65A80068B (U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* __this, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___cond0, const RuntimeMethod* method) 
+{
+	{
+		// return new CallCondition(() => { return conditions.Any(cond => cond.Check()); });
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_0 = ___cond0;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = CallCondition_Check_m47318CED6BAF11AD9312E8DA51D52535A340C48B(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Boolean Recognissimo.CallCondition/<>c::<.cctor>b__7_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3C_cctorU3Eb__7_0_mE3397409396A29285CEDB1D01380455A62CF112E (U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* __this, const RuntimeMethod* method) 
+{
+	{
+		// public static readonly CallCondition Once = new(() => false);
+		return (bool)0;
+	}
+}
+// System.Boolean Recognissimo.CallCondition/<>c::<.cctor>b__7_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3C_cctorU3Eb__7_1_m90BB25831BFE8D35C581DB52DA670F4C5E8BE5E0 (U3CU3Ec_t90553D93524C2E7BFDA1A1603A01017B3800F237* __this, const RuntimeMethod* method) 
+{
+	{
+		// public static readonly CallCondition Always = new(() => true);
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechProcessorException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorException__ctor_m245242C086725A3AF632E9B3576CA9B3CE97C319 (SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// protected SpeechProcessorException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorException__ctor_m6142FD20F48675B78B8DE712E3B809A3F1CCC9C0 (SpeechProcessorException_t20814CFC89BFFFC0D52520A774EC2DC8C35AF16C* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// protected SpeechProcessorException(string message, Exception innerException) : base(message, innerException)
+		String_t* L_0 = ___message0;
+		Exception_t* L_1 = ___innerException1;
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9BC141AAB08F47C34B7ED40C1A6C0C1ADDEC5CB3(__this, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.InitializationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationException__ctor_m2191B0EA7A7FAC25A6B352E7CAA5A6BA4355EACE (InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// protected InitializationException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		SpeechProcessorException__ctor_m245242C086725A3AF632E9B3576CA9B3CE97C319(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.InitializationException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationException__ctor_m7B90F556427DCB5B6B4FCD182D345B386DD803FA (InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) 
+{
+	{
+		// protected InitializationException(string message, Exception innerException) : base(message, innerException)
+		String_t* L_0 = ___message0;
+		Exception_t* L_1 = ___innerException1;
+		SpeechProcessorException__ctor_m6142FD20F48675B78B8DE712E3B809A3F1CCC9C0(__this, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.InvalidLanguageModelException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidLanguageModelException__ctor_mB1F1EDABF329CECA5ED7CCE9F6C3F79460F6DB76 (InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// public InvalidLanguageModelException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		InitializationException__ctor_m2191B0EA7A7FAC25A6B352E7CAA5A6BA4355EACE(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.InvalidSampleRateException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidSampleRateException__ctor_m3B3010582CD2262A3CF40B2FE141272519CF1FB0 (InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// public InvalidSampleRateException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		InitializationException__ctor_m2191B0EA7A7FAC25A6B352E7CAA5A6BA4355EACE(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.InvalidAlgorithmInputException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidAlgorithmInputException__ctor_m1A7B70A9C3E867039D24C72A13D7251B7ABD8AF4 (InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// public InvalidAlgorithmInputException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		InitializationException__ctor_m2191B0EA7A7FAC25A6B352E7CAA5A6BA4355EACE(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.InternalInitializationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalInitializationException__ctor_mC2D3A65AFEAEEBBDEEDDCA030A1E331BAEBE9007 (InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// public InternalInitializationException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		InitializationException__ctor_m2191B0EA7A7FAC25A6B352E7CAA5A6BA4355EACE(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.DependencyInitializationException::.ctor(Recognissimo.SpeechProcessorDependency,System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DependencyInitializationException__ctor_m47F18D3169150AEE184966166012650E00456B96 (DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732* __this, SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency0, String_t* ___initializationTaskName1, Exception_t* ___innerException2, const RuntimeMethod* method) 
+{
+	{
+		// : base(PrettyMessage(dependency, initializationTaskName, innerException), innerException)
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_0 = ___dependency0;
+		String_t* L_1 = ___initializationTaskName1;
+		Exception_t* L_2 = ___innerException2;
+		String_t* L_3;
+		L_3 = DependencyInitializationException_PrettyMessage_mE39184F9CAD99923824509C784EEB0BE4885ADE3(L_0, L_1, L_2, NULL);
+		Exception_t* L_4 = ___innerException2;
+		InitializationException__ctor_m7B90F556427DCB5B6B4FCD182D345B386DD803FA(__this, L_3, L_4, NULL);
+		// Dependency = dependency;
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_5 = ___dependency0;
+		__this->___U3CDependencyU3Ek__BackingField_18 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDependencyU3Ek__BackingField_18), (void*)L_5);
+		// InitializationTaskName = initializationTaskName;
+		String_t* L_6 = ___initializationTaskName1;
+		__this->___U3CInitializationTaskNameU3Ek__BackingField_19 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInitializationTaskNameU3Ek__BackingField_19), (void*)L_6);
+		// }
+		return;
+	}
+}
+// Recognissimo.SpeechProcessorDependency Recognissimo.DependencyInitializationException::get_Dependency()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* DependencyInitializationException_get_Dependency_m8D702E7A726D57E9460CB90491AFE75F7B8499AF (DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732* __this, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechProcessorDependency Dependency { get; }
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_0 = __this->___U3CDependencyU3Ek__BackingField_18;
+		return L_0;
+	}
+}
+// System.String Recognissimo.DependencyInitializationException::get_InitializationTaskName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DependencyInitializationException_get_InitializationTaskName_m4E660F64BDD23A43FBCD77C40527B702A82AD25B (DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string InitializationTaskName { get; }
+		String_t* L_0 = __this->___U3CInitializationTaskNameU3Ek__BackingField_19;
+		return L_0;
+	}
+}
+// System.String Recognissimo.DependencyInitializationException::PrettyMessage(Recognissimo.SpeechProcessorDependency,System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DependencyInitializationException_PrettyMessage_mE39184F9CAD99923824509C784EEB0BE4885ADE3 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency0, String_t* ___initializationTaskName1, Exception_t* ___innerException2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04566402A4687E94CC7FF647BEF5F791A7957732);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t* V_0 = NULL;
+	{
+		// var stringBuilder = new StringBuilder();
+		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
+		V_0 = L_0;
+		// stringBuilder.Append($"{dependency.GetType()} failed to execute task \"{initializationTaskName}\".");
+		StringBuilder_t* L_1 = V_0;
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_2 = ___dependency0;
+		NullCheck(L_2);
+		Type_t* L_3;
+		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
+		String_t* L_4 = ___initializationTaskName1;
+		String_t* L_5;
+		L_5 = String_Format_m9499958F4B0BB6089C75760AB647AB3CA4D55806(_stringLiteral04566402A4687E94CC7FF647BEF5F791A7957732, L_3, L_4, NULL);
+		NullCheck(L_1);
+		StringBuilder_t* L_6;
+		L_6 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_1, L_5, NULL);
+		// if (innerException != null)
+		Exception_t* L_7 = ___innerException2;
+		if (!L_7)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		// stringBuilder.Append($" {innerException.Message}.");
+		StringBuilder_t* L_8 = V_0;
+		Exception_t* L_9 = ___innerException2;
+		NullCheck(L_9);
+		String_t* L_10;
+		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_9);
+		String_t* L_11;
+		L_11 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_10, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
+		NullCheck(L_8);
+		StringBuilder_t* L_12;
+		L_12 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_8, L_11, NULL);
+	}
+
+IL_003d:
+	{
+		// return stringBuilder.ToString();
+		StringBuilder_t* L_13 = V_0;
+		NullCheck(L_13);
+		String_t* L_14;
+		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_13);
+		return L_14;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.RuntimeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeException__ctor_mE4D561F47191CB9BA67411C7C8D720691F3733FE (RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// protected RuntimeException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		SpeechProcessorException__ctor_m245242C086725A3AF632E9B3576CA9B3CE97C319(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.RuntimeException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeException__ctor_mA6A19799258B3B076D2212199928F944FBCB727B (RuntimeException_t3DD1E88B37D09F5A83C2B54B22F1EFC03F8C1B4F* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) 
+{
+	{
+		// protected RuntimeException(string message, Exception innerException) : base(message, innerException)
+		String_t* L_0 = ___message0;
+		Exception_t* L_1 = ___innerException1;
+		SpeechProcessorException__ctor_m6142FD20F48675B78B8DE712E3B809A3F1CCC9C0(__this, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.InternalRuntimeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalRuntimeException__ctor_m55D1DFAB0B99290868C3CC2C3270A4C4107C217D (InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// public InternalRuntimeException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		RuntimeException__ctor_mE4D561F47191CB9BA67411C7C8D720691F3733FE(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechSourceRuntimeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSourceRuntimeException__ctor_m440CA64669536B369C1296F1402BA6AF5FDBBDB4 (SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechSourceRuntimeException(string message) : base(message)
+		String_t* L_0 = ___message0;
+		RuntimeException__ctor_mE4D561F47191CB9BA67411C7C8D720691F3733FE(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSourceRuntimeException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSourceRuntimeException__ctor_m21503F4E9C30FC485AAEA8DA6F048EA9508312B0 (SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechSourceRuntimeException(string message, Exception innerException) : base(message, innerException)
+		String_t* L_0 = ___message0;
+		Exception_t* L_1 = ___innerException1;
+		RuntimeException__ctor_mA6A19799258B3B076D2212199928F944FBCB727B(__this, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.LanguageModel::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModel__ctor_m0AE2274D2DE26D08B3AF72A9904FB3A8AF0734FC (LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* __this, String_t* ___path0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public LanguageModel(string path)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Resource = new LanguageModelResource(path);
+		String_t* L_0 = ___path0;
+		LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* L_1 = (LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376*)il2cpp_codegen_object_new(LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		LanguageModelResource__ctor_m1F3425D564AD593ED28726F7F6C1DD54A3B75F3C(L_1, L_0, NULL);
+		__this->___Resource_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Resource_0), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.LanguageModel::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModel_Dispose_m902519803ADE82D820AA0478E5E886E1E7F4960B (LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* __this, const RuntimeMethod* method) 
+{
+	LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* G_B2_0 = NULL;
+	LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* G_B1_0 = NULL;
+	{
+		// Resource?.Dispose();
+		LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* L_0 = __this->___Resource_0;
+		LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		NullCheck(G_B2_0);
+		LanguageModelResource_Dispose_mB4A633C07509A4C1DD1E491C3591EE83B692979A(G_B2_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Recognissimo.LanguageModel Recognissimo.LanguageModelProvider::get_Model()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* LanguageModelProvider_get_Model_mDCDE3EABAE100F518A18E8757AC4AF19D727E1D8 (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _model;
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_0 = __this->____model_10;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.LanguageModelProvider::set_Model(Recognissimo.LanguageModel)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelProvider_set_Model_m2E6FCCFD10FB38E55ED6A666F73713A4610AC49D (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* ___value0, const RuntimeMethod* method) 
+{
+	LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* G_B2_0 = NULL;
+	LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* G_B1_0 = NULL;
+	{
+		// _model?.Dispose();
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_0 = __this->____model_10;
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		goto IL_0011;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		LanguageModel_Dispose_m902519803ADE82D820AA0478E5E886E1E7F4960B(G_B2_0, NULL);
+	}
+
+IL_0011:
+	{
+		// _model = value;
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_2 = ___value0;
+		__this->____model_10 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____model_10), (void*)L_2);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.LanguageModelProvider::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelProvider__ctor_m49FA4F8102E88930B953BAD786A6F45AB90FDC57 (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, const RuntimeMethod* method) 
+{
+	{
+		SpeechProcessorDependency__ctor_m722A928C76AF7BB927DDF58A45FEDF636505E85C(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Recognissimo.SpeechProcessorState Recognissimo.SpeechProcessor::get_State()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechProcessorState State { get; private set; } = SpeechProcessorState.Inactive;
+		int32_t L_0 = __this->___U3CStateU3Ek__BackingField_9;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::set_State(Recognissimo.SpeechProcessorState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechProcessorState State { get; private set; } = SpeechProcessorState.Inactive;
+		int32_t L_0 = ___value0;
+		__this->___U3CStateU3Ek__BackingField_9 = L_0;
+		return;
+	}
+}
+// Recognissimo.LanguageModelProvider Recognissimo.SpeechProcessor::get_LanguageModelProvider()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => generalSettings.modelProvider;
+		Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D* L_0 = (&__this->___generalSettings_4);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_1 = L_0->___modelProvider_0;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::set_LanguageModelProvider(Recognissimo.LanguageModelProvider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_set_LanguageModelProvider_mD262B1DDF0CE092B5FABC80FED6D8128E5F8C853 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => generalSettings.modelProvider = value;
+		Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D* L_0 = (&__this->___generalSettings_4);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_1 = ___value0;
+		L_0->___modelProvider_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___modelProvider_0), (void*)L_1);
+		return;
+	}
+}
+// Recognissimo.SpeechSource Recognissimo.SpeechProcessor::get_SpeechSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => generalSettings.speechSource;
+		Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D* L_0 = (&__this->___generalSettings_4);
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_1 = L_0->___speechSource_1;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::set_SpeechSource(Recognissimo.SpeechSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_set_SpeechSource_mA9B6FE7D9CC62818DFB15C81A1EC1E834A3001F9 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (SpeechSource)
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_0;
+		L_0 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// UnbindSpeechSource();
+		SpeechProcessor_UnbindSpeechSource_m483E11D169EFF8F19EB08105AFC11379B7C69BC8(__this, NULL);
+	}
+
+IL_0013:
+	{
+		// generalSettings.speechSource = value;
+		Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D* L_2 = (&__this->___generalSettings_4);
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_3 = ___value0;
+		L_2->___speechSource_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___speechSource_1), (void*)L_3);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.SpeechProcessor::get_AutoStart()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpeechProcessor_get_AutoStart_m3B03538E6B345BA3D59BE92BF151FC2B59301327 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => generalSettings.autoStart;
+		Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D* L_0 = (&__this->___generalSettings_4);
+		bool L_1 = L_0->___autoStart_2;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::set_AutoStart(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_set_AutoStart_m6395FF378111784F97AFD27B0A8C05355375F735 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => generalSettings.autoStart = value;
+		Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D* L_0 = (&__this->___generalSettings_4);
+		bool L_1 = ___value0;
+		L_0->___autoStart_2 = L_1;
+		return;
+	}
+}
+// UnityEngine.Events.UnityEvent Recognissimo.SpeechProcessor::get_Started()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* SpeechProcessor_get_Started_m5CB31182EFC7B82FBCE7901539E1C8602B4A6A6F (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public UnityEvent Started => lifecycleEvents.started;
+		LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D* L_0 = (&__this->___lifecycleEvents_5);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___started_0;
+		return L_1;
+	}
+}
+// UnityEngine.Events.UnityEvent Recognissimo.SpeechProcessor::get_Finished()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* SpeechProcessor_get_Finished_m6600CD1E34515265591DE6905B905D12C1FDA8A6 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public UnityEvent Finished => lifecycleEvents.finished;
+		LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D* L_0 = (&__this->___lifecycleEvents_5);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___finished_1;
+		return L_1;
+	}
+}
+// UnityEngine.Events.UnityEvent`1<Recognissimo.InitializationException> Recognissimo.SpeechProcessor::get_InitializationFailed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* SpeechProcessor_get_InitializationFailed_mDFD20D49A914ECE34071738333592B5274AC87BF (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public UnityEvent<InitializationException> InitializationFailed => lifecycleEvents.initializationFailed;
+		LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D* L_0 = (&__this->___lifecycleEvents_5);
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_1 = L_0->___initializationFailed_2;
+		return L_1;
+	}
+}
+// UnityEngine.Events.UnityEvent`1<Recognissimo.RuntimeException> Recognissimo.SpeechProcessor::get_RuntimeFailed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* SpeechProcessor_get_RuntimeFailed_mCF154BDD13366DA7035B4279FB9F143E49255CBD (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public UnityEvent<RuntimeException> RuntimeFailed => lifecycleEvents.runtimeFailed;
+		LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D* L_0 = (&__this->___lifecycleEvents_5);
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_1 = L_0->___runtimeFailed_3;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_Start_mA60BEE449693E63B3D89E0C27A6271B85B09C486 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (AutoStart)
+		bool L_0;
+		L_0 = SpeechProcessor_get_AutoStart_m3B03538E6B345BA3D59BE92BF151FC2B59301327(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// StartProcessing();
+		SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6(__this, NULL);
+	}
+
+IL_000e:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_Update_m4694665322A05AD744DAF2303490C9687D3102BD (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Error_t3A18A9E1231CF5B6AE905CC8735396AF9142AAA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD90BFA21C582C7B3ED9633B73EB348212EBA854);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBDC17E0C2D6C173BDD1807361C418F4DDE66D37D);
+		s_Il2CppMethodInitialized = true;
+	}
+	ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* V_3 = NULL;
+	InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* V_4 = NULL;
+	int32_t V_5 = 0;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B6_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B9_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B8_0 = NULL;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* G_B24_0 = NULL;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* G_B23_0 = NULL;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* G_B27_0 = NULL;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* G_B26_0 = NULL;
+	{
+		// if (State == SpeechProcessorState.Inactive)
+		int32_t L_0;
+		L_0 = SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// switch (_context.NextEvent())
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_1 = __this->____context_7;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = Context_NextEvent_m8B79479AEDC6977DD20C5B63E1829F649D92E7C5(L_1, NULL);
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		switch (L_3)
+		{
+			case 0:
+			{
+				goto IL_01a0;
+			}
+			case 1:
+			{
+				goto IL_0034;
+			}
+			case 2:
+			{
+				goto IL_004c;
+			}
+			case 3:
+			{
+				goto IL_0064;
+			}
+			case 4:
+			{
+				goto IL_0169;
+			}
+		}
+	}
+	{
+		goto IL_019a;
+	}
+
+IL_0034:
+	{
+		// State = SpeechProcessorState.Processing;
+		SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline(__this, 2, NULL);
+		// Started?.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_4;
+		L_4 = SpeechProcessor_get_Started_m5CB31182EFC7B82FBCE7901539E1C8602B4A6A6F(__this, NULL);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_5 = L_4;
+		G_B5_0 = L_5;
+		if (L_5)
+		{
+			G_B6_0 = L_5;
+			goto IL_0046;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0046:
+	{
+		NullCheck(G_B6_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B6_0, NULL);
+		// break;
+		return;
+	}
+
+IL_004c:
+	{
+		// State = SpeechProcessorState.Inactive;
+		SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline(__this, 0, NULL);
+		// Finished?.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6;
+		L_6 = SpeechProcessor_get_Finished_m6600CD1E34515265591DE6905B905D12C1FDA8A6(__this, NULL);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_7 = L_6;
+		G_B8_0 = L_7;
+		if (L_7)
+		{
+			G_B9_0 = L_7;
+			goto IL_005e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_005e:
+	{
+		NullCheck(G_B9_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B9_0, NULL);
+		// break;
+		return;
+	}
+
+IL_0064:
+	{
+		// var errorReport = _context.LastError();
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_8 = __this->____context_7;
+		NullCheck(L_8);
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_9;
+		L_9 = Context_LastError_mAF432C98298C3B62D23784AE9879EF45BE7AF012(L_8, NULL);
+		V_0 = L_9;
+		// var errorAssociatedState = State;
+		int32_t L_10;
+		L_10 = SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline(__this, NULL);
+		// Stop(StopMode.Hard);
+		SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2(__this, 1, NULL);
+		// switch (errorAssociatedState)
+		V_2 = L_10;
+		int32_t L_11 = V_2;
+		switch (L_11)
+		{
+			case 0:
+			{
+				goto IL_01a0;
+			}
+			case 1:
+			{
+				goto IL_0095;
+			}
+			case 2:
+			{
+				goto IL_0113;
+			}
+			case 3:
+			{
+				goto IL_0138;
+			}
+		}
+	}
+	{
+		return;
+	}
+
+IL_0095:
+	{
+		// InitializationFailed?.Invoke(errorReport.Error switch
+		// {
+		//     Error.InvalidLanguageModel =>
+		//         new InvalidLanguageModelException(errorReport.Description),
+		//     Error.InvalidSampleRate => new InvalidSampleRateException(errorReport.Description),
+		//     Error.Algorithm => new InvalidAlgorithmInputException(errorReport.Description),
+		//     Error.Internal => new InternalInitializationException(errorReport.Description),
+		//     _ => throw new ArgumentOutOfRangeException(nameof(errorReport))
+		// });
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_12;
+		L_12 = SpeechProcessor_get_InitializationFailed_mDFD20D49A914ECE34071738333592B5274AC87BF(__this, NULL);
+		V_3 = L_12;
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_01a0;
+		}
+	}
+	{
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_14 = V_0;
+		int32_t L_15 = L_14.___Error_0;
+		V_5 = L_15;
+		int32_t L_16 = V_5;
+		switch (L_16)
+		{
+			case 0:
+			{
+				goto IL_00c3;
+			}
+			case 1:
+			{
+				goto IL_00d2;
+			}
+			case 2:
+			{
+				goto IL_00e1;
+			}
+			case 3:
+			{
+				goto IL_00f0;
+			}
+		}
+	}
+	{
+		goto IL_00ff;
+	}
+
+IL_00c3:
+	{
+		// new InvalidLanguageModelException(errorReport.Description),
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_17 = V_0;
+		String_t* L_18 = L_17.___Description_1;
+		InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1* L_19 = (InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1*)il2cpp_codegen_object_new(InvalidLanguageModelException_tC3BA161404BA40EA2040D1684C3C5966808759B1_il2cpp_TypeInfo_var);
+		NullCheck(L_19);
+		InvalidLanguageModelException__ctor_mB1F1EDABF329CECA5ED7CCE9F6C3F79460F6DB76(L_19, L_18, NULL);
+		V_4 = L_19;
+		goto IL_010a;
+	}
+
+IL_00d2:
+	{
+		// Error.InvalidSampleRate => new InvalidSampleRateException(errorReport.Description),
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_20 = V_0;
+		String_t* L_21 = L_20.___Description_1;
+		InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230* L_22 = (InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230*)il2cpp_codegen_object_new(InvalidSampleRateException_t4F0F363DD914C76D0D4D64939E9060A035819230_il2cpp_TypeInfo_var);
+		NullCheck(L_22);
+		InvalidSampleRateException__ctor_m3B3010582CD2262A3CF40B2FE141272519CF1FB0(L_22, L_21, NULL);
+		V_4 = L_22;
+		goto IL_010a;
+	}
+
+IL_00e1:
+	{
+		// Error.Algorithm => new InvalidAlgorithmInputException(errorReport.Description),
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_23 = V_0;
+		String_t* L_24 = L_23.___Description_1;
+		InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77* L_25 = (InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77*)il2cpp_codegen_object_new(InvalidAlgorithmInputException_tCE2CCEFE0BABB8C3D5DC99C5B75E72F28F15DC77_il2cpp_TypeInfo_var);
+		NullCheck(L_25);
+		InvalidAlgorithmInputException__ctor_m1A7B70A9C3E867039D24C72A13D7251B7ABD8AF4(L_25, L_24, NULL);
+		V_4 = L_25;
+		goto IL_010a;
+	}
+
+IL_00f0:
+	{
+		// Error.Internal => new InternalInitializationException(errorReport.Description),
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_26 = V_0;
+		String_t* L_27 = L_26.___Description_1;
+		InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396* L_28 = (InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396*)il2cpp_codegen_object_new(InternalInitializationException_t8B32D497DA3AE46B2EB9401FDF1CDEE3F8C78396_il2cpp_TypeInfo_var);
+		NullCheck(L_28);
+		InternalInitializationException__ctor_mC2D3A65AFEAEEBBDEEDDCA030A1E331BAEBE9007(L_28, L_27, NULL);
+		V_4 = L_28;
+		goto IL_010a;
+	}
+
+IL_00ff:
+	{
+		// _ => throw new ArgumentOutOfRangeException(nameof(errorReport))
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_29 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_29);
+		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_29, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE9F3E5FA2DA95AD75A6AA85594B8F3F046A49E1D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechProcessor_Update_m4694665322A05AD744DAF2303490C9687D3102BD_RuntimeMethod_var)));
+	}
+
+IL_010a:
+	{
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_30 = V_3;
+		InitializationException_tF416ADAEEDC47C25FFBCAD531201FFADE402F645* L_31 = V_4;
+		NullCheck(L_30);
+		UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF(L_30, L_31, UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0113:
+	{
+		// case SpeechProcessorState.Processing when errorReport.Error == Error.Internal:
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_32 = V_0;
+		int32_t L_33 = L_32.___Error_0;
+		if ((!(((uint32_t)L_33) == ((uint32_t)3))))
+		{
+			goto IL_0138;
+		}
+	}
+	{
+		// RuntimeFailed?.Invoke(new InternalRuntimeException(errorReport.Description));
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_34;
+		L_34 = SpeechProcessor_get_RuntimeFailed_mCF154BDD13366DA7035B4279FB9F143E49255CBD(__this, NULL);
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_35 = L_34;
+		G_B23_0 = L_35;
+		if (L_35)
+		{
+			G_B24_0 = L_35;
+			goto IL_0127;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0127:
+	{
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_36 = V_0;
+		String_t* L_37 = L_36.___Description_1;
+		InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E* L_38 = (InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E*)il2cpp_codegen_object_new(InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E_il2cpp_TypeInfo_var);
+		NullCheck(L_38);
+		InternalRuntimeException__ctor_m55D1DFAB0B99290868C3CC2C3270A4C4107C217D(L_38, L_37, NULL);
+		NullCheck(G_B24_0);
+		UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146(G_B24_0, L_38, UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0138:
+	{
+		// RuntimeFailed?.Invoke(new InternalRuntimeException(
+		//     $"Unexpected state: error of type {errorReport.Error} ({errorReport.Description}) occured at runtime"));
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_39;
+		L_39 = SpeechProcessor_get_RuntimeFailed_mCF154BDD13366DA7035B4279FB9F143E49255CBD(__this, NULL);
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_40 = L_39;
+		G_B26_0 = L_40;
+		if (L_40)
+		{
+			G_B27_0 = L_40;
+			goto IL_0143;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0143:
+	{
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_41 = V_0;
+		int32_t L_42 = L_41.___Error_0;
+		int32_t L_43 = L_42;
+		RuntimeObject* L_44 = Box(Error_t3A18A9E1231CF5B6AE905CC8735396AF9142AAA3_il2cpp_TypeInfo_var, &L_43);
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_45 = V_0;
+		String_t* L_46 = L_45.___Description_1;
+		String_t* L_47;
+		L_47 = String_Format_m9499958F4B0BB6089C75760AB647AB3CA4D55806(_stringLiteralBDC17E0C2D6C173BDD1807361C418F4DDE66D37D, L_44, L_46, NULL);
+		InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E* L_48 = (InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E*)il2cpp_codegen_object_new(InternalRuntimeException_t38139AAAF286CE496AC042AD63130BCE8E68413E_il2cpp_TypeInfo_var);
+		NullCheck(L_48);
+		InternalRuntimeException__ctor_m55D1DFAB0B99290868C3CC2C3270A4C4107C217D(L_48, L_47, NULL);
+		NullCheck(G_B27_0);
+		UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146(G_B27_0, L_48, UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0169:
+	{
+		// if (State is SpeechProcessorState.Processing or SpeechProcessorState.Finalizing)
+		int32_t L_49;
+		L_49 = SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline(__this, NULL);
+		V_2 = L_49;
+		int32_t L_50 = V_2;
+		if ((((int32_t)L_50) == ((int32_t)2)))
+		{
+			goto IL_0178;
+		}
+	}
+	{
+		int32_t L_51 = V_2;
+		if ((!(((uint32_t)L_51) == ((uint32_t)3))))
+		{
+			goto IL_0184;
+		}
+	}
+
+IL_0178:
+	{
+		// _algorithm.LoadResult();
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_52 = __this->____algorithm_6;
+		NullCheck(L_52);
+		VirtualActionInvoker0::Invoke(6 /* System.Void Recognissimo.Core.Algorithm::LoadResult() */, L_52);
+		return;
+	}
+
+IL_0184:
+	{
+		// Debug.LogWarning("SpeechProcessor disposed result");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(_stringLiteralAD90BFA21C582C7B3ED9633B73EB348212EBA854, NULL);
+		// _algorithm.DisposeResult();
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_53 = __this->____algorithm_6;
+		NullCheck(L_53);
+		VirtualActionInvoker0::Invoke(7 /* System.Void Recognissimo.Core.Algorithm::DisposeResult() */, L_53);
+		// break;
+		return;
+	}
+
+IL_019a:
+	{
+		// throw new ArgumentOutOfRangeException();
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_54 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_54);
+		ArgumentOutOfRangeException__ctor_mB596C51BFA864B65C2CED275458FAE90F7CD29C9(L_54, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_54, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechProcessor_Update_m4694665322A05AD744DAF2303490C9687D3102BD_RuntimeMethod_var)));
+	}
+
+IL_01a0:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_OnEnable_m9318B6283724A82E0C828C121725F4DC72F3A98C (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _algorithm = CreateAlgorithm();
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_0;
+		L_0 = VirtualFuncInvoker0< Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* >::Invoke(4 /* Recognissimo.Core.Algorithm Recognissimo.SpeechProcessor::CreateAlgorithm() */, __this);
+		__this->____algorithm_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____algorithm_6), (void*)L_0);
+		// _context = new Context(_algorithm);
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_1 = __this->____algorithm_6;
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_2 = (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0*)il2cpp_codegen_object_new(Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		Context__ctor_m1D0ABCB69C1A9D50954FBC273F3673973EBFDF8C(L_2, L_1, NULL);
+		__this->____context_7 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____context_7), (void*)L_2);
+		// if (Application.isEditor && State != SpeechProcessorState.Inactive)
+		bool L_3;
+		L_3 = Application_get_isEditor_m0377DB707B566C8E21DA3CD99963210F6D57D234(NULL);
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		int32_t L_4;
+		L_4 = SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline(__this, NULL);
+		if (!L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		// StartProcessing();
+		SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6(__this, NULL);
+	}
+
+IL_0032:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::OnDestroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_OnDestroy_m2070744697000C9762ADE6FF523060EB4BB1B89B (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// Stop(StopMode.Hard);
+		SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2(__this, 1, NULL);
+		// _context.Dispose();
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_0 = __this->____context_7;
+		NullCheck(L_0);
+		Context_Dispose_m0D79CFF3952585C3356B23590E7DE131E8210EA3(L_0, NULL);
+		// _algorithm.Dispose();
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_1 = __this->____algorithm_6;
+		NullCheck(L_1);
+		Algorithm_Dispose_m8A77827C31D83E30A6800EACC2CCBFDFA2BD103F(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::SpeechSourceSamplesReadyEventHandler(System.Object,Recognissimo.SamplesReadyEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_SpeechSourceSamplesReadyEventHandler_mA9970902447F52FCED76F2B890EC568FAAEAF57F (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, RuntimeObject* ___sender0, SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* ___eventArgs1, const RuntimeMethod* method) 
+{
+	{
+		// _context.EnqueueFloat32(eventArgs.Samples, eventArgs.Length);
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_0 = __this->____context_7;
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_1 = ___eventArgs1;
+		NullCheck(L_1);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2;
+		L_2 = SamplesReadyEventArgs_get_Samples_mCB99C3B59102609A7C1FE678DE7E242CD517A965_inline(L_1, NULL);
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_3 = ___eventArgs1;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = SamplesReadyEventArgs_get_Length_m703E44F02EF383CE791E6C6DE1BF8A7995B4E019_inline(L_3, NULL);
+		NullCheck(L_0);
+		Context_EnqueueFloat32_m55EC569A20FC9D13EC7AFEE42AF3697CAF277185(L_0, L_2, L_4, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::SpeechSourceDriedEventHandler(System.Object,System.EventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_SpeechSourceDriedEventHandler_m91279EDC298081DF05B0C0BABDEE3BC12E7F359C (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, RuntimeObject* ___sender0, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___eventArgs1, const RuntimeMethod* method) 
+{
+	{
+		// Stop();
+		SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2(__this, 0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::SpeechSourceRuntimeFailureEventHandler(System.Object,Recognissimo.RuntimeFailureEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_SpeechSourceRuntimeFailureEventHandler_m31AFBA415547D0EFD11B31E7CD928604D4C99548 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, RuntimeObject* ___sender0, RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* ___eventArgs1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* G_B2_0 = NULL;
+	UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* G_B1_0 = NULL;
+	{
+		// Stop(StopMode.Hard);
+		SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2(__this, 1, NULL);
+		// RuntimeFailed?.Invoke(eventArgs.Exception);
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_0;
+		L_0 = SpeechProcessor_get_RuntimeFailed_mCF154BDD13366DA7035B4279FB9F143E49255CBD(__this, NULL);
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* L_2 = ___eventArgs1;
+		NullCheck(L_2);
+		SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* L_3;
+		L_3 = RuntimeFailureEventArgs_get_Exception_mC1D0576834622F48AAE6A59C167556F6AF94F289_inline(L_2, NULL);
+		NullCheck(G_B2_0);
+		UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146(G_B2_0, L_3, UnityEvent_1_Invoke_m2DC72AA7E9884558236D2661F06573DE40080146_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::StartProcessing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!SpeechSource)
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_0;
+		L_0 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		// throw new InvalidOperationException("SpeechSource is not set.");
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_2);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEDB83779390887261D68D61AF02B6F1F52C2006D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6_RuntimeMethod_var)));
+	}
+
+IL_0018:
+	{
+		// if (!LanguageModelProvider)
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_3;
+		L_3 = SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		// throw new InvalidOperationException("LanguageModelProvider is not set.");
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_5);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6A4058706E2CE68A096819CAEB19CE49F524A3F8)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechProcessor_StartProcessing_m628283D7C8B9B924D5453446D3F5F4E153EB86C6_RuntimeMethod_var)));
+	}
+
+IL_0030:
+	{
+		// if (State != SpeechProcessorState.Inactive)
+		int32_t L_6;
+		L_6 = SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline(__this, NULL);
+		if (!L_6)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		// Stop(StopMode.Hard);
+		SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2(__this, 1, NULL);
+	}
+
+IL_003f:
+	{
+		// _initializationCoroutine = StartCoroutine(Initialize());
+		RuntimeObject* L_7;
+		L_7 = SpeechProcessor_Initialize_m98BE8CE969BFC76C97AF47BCDDD99BC60685D3C5(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
+		L_8 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_7, NULL);
+		__this->____initializationCoroutine_8 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializationCoroutine_8), (void*)L_8);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::StopProcessing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_StopProcessing_m6B940E9AC0C715F636B40DA91CA633669B5604B2 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// Stop();
+		SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2(__this, 0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::Stop(Recognissimo.SpeechProcessor/StopMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, int32_t ___mode0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___mode0;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		int32_t L_1 = ___mode0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		goto IL_0031;
+	}
+
+IL_0009:
+	{
+		// State = SpeechProcessorState.Finalizing;
+		SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline(__this, 3, NULL);
+		// _context.Stop();
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_2 = __this->____context_7;
+		NullCheck(L_2);
+		Context_Stop_mB88A29BD7511AC5764FA137A15C87BCDF3EFF635(L_2, NULL);
+		// break;
+		goto IL_0043;
+	}
+
+IL_001d:
+	{
+		// State = SpeechProcessorState.Inactive;
+		SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline(__this, 0, NULL);
+		// _context.Abort();
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_3 = __this->____context_7;
+		NullCheck(L_3);
+		Context_Abort_mD1E1D70C6448093E2EBA6FFD7D85A50796980DC5(L_3, NULL);
+		// break;
+		goto IL_0043;
+	}
+
+IL_0031:
+	{
+		// throw new ArgumentOutOfRangeException(nameof(mode), mode, null);
+		int32_t L_4 = ___mode0;
+		int32_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StopMode_tEB7D4FA6A127D600C48E0FAD7EF4AC5E400D6499_il2cpp_TypeInfo_var)), &L_5);
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_7 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_7);
+		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAF248E82BE9EBA1ADBF067429FAEE5A5B6E05A74)), L_6, (String_t*)NULL, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechProcessor_Stop_m5D75684F39BADB188432C3A76A5E97FDE7EBAEA2_RuntimeMethod_var)));
+	}
+
+IL_0043:
+	{
+		// if (SpeechSource)
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_8;
+		L_8 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		// UnbindSpeechSource();
+		SpeechProcessor_UnbindSpeechSource_m483E11D169EFF8F19EB08105AFC11379B7C69BC8(__this, NULL);
+		// SpeechSource.StopProducing();
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_10;
+		L_10 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		NullCheck(L_10);
+		VirtualActionInvoker0::Invoke(7 /* System.Void Recognissimo.SpeechSource::StopProducing() */, L_10);
+	}
+
+IL_0061:
+	{
+		// if (_initializationCoroutine != null)
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11 = __this->____initializationCoroutine_8;
+		if (!L_11)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		// StopCoroutine(_initializationCoroutine);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12 = __this->____initializationCoroutine_8;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_12, NULL);
+	}
+
+IL_0075:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::BindSpeechSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_BindSpeechSource_m75BE040FECB334C9203B41B73F9E90C8B0BD809C (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessor_SpeechSourceDriedEventHandler_m91279EDC298081DF05B0C0BABDEE3BC12E7F359C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessor_SpeechSourceRuntimeFailureEventHandler_m31AFBA415547D0EFD11B31E7CD928604D4C99548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessor_SpeechSourceSamplesReadyEventHandler_mA9970902447F52FCED76F2B890EC568FAAEAF57F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SpeechSource.SamplesReady += SpeechSourceSamplesReadyEventHandler;
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_0;
+		L_0 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_1 = (EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)il2cpp_codegen_object_new(EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		EventHandler_1__ctor_m7519D7A7E0F0890023502F7EE85C88DB6F62C20D(L_1, __this, (intptr_t)((void*)SpeechProcessor_SpeechSourceSamplesReadyEventHandler_mA9970902447F52FCED76F2B890EC568FAAEAF57F_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		SpeechSource_add_SamplesReady_mEAF811D38525F4CB15BE63539A079E967DDE3CE0(L_0, L_1, NULL);
+		// SpeechSource.Dried += SpeechSourceDriedEventHandler;
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_2;
+		L_2 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_3 = (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)il2cpp_codegen_object_new(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		EventHandler__ctor_m95444CE8D5A6F1AFC9793866C3FE884E732DCEB2(L_3, __this, (intptr_t)((void*)SpeechProcessor_SpeechSourceDriedEventHandler_m91279EDC298081DF05B0C0BABDEE3BC12E7F359C_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		SpeechSource_add_Dried_m14FC5D1DEA0C294E2E1F51FC2D2AEB2003B5FCF8(L_2, L_3, NULL);
+		// SpeechSource.RuntimeFailure += SpeechSourceRuntimeFailureEventHandler;
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_4;
+		L_4 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_5 = (EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)il2cpp_codegen_object_new(EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		EventHandler_1__ctor_mD23EDD370E23B5FA0B9B603140D14C0F19CAA507(L_5, __this, (intptr_t)((void*)SpeechProcessor_SpeechSourceRuntimeFailureEventHandler_m31AFBA415547D0EFD11B31E7CD928604D4C99548_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		SpeechSource_add_RuntimeFailure_m796451EC6E9025BCF2F69F64FEB45757A50DBE82(L_4, L_5, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::UnbindSpeechSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor_UnbindSpeechSource_m483E11D169EFF8F19EB08105AFC11379B7C69BC8 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessor_SpeechSourceDriedEventHandler_m91279EDC298081DF05B0C0BABDEE3BC12E7F359C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessor_SpeechSourceRuntimeFailureEventHandler_m31AFBA415547D0EFD11B31E7CD928604D4C99548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessor_SpeechSourceSamplesReadyEventHandler_mA9970902447F52FCED76F2B890EC568FAAEAF57F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SpeechSource.SamplesReady -= SpeechSourceSamplesReadyEventHandler;
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_0;
+		L_0 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_1 = (EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)il2cpp_codegen_object_new(EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		EventHandler_1__ctor_m7519D7A7E0F0890023502F7EE85C88DB6F62C20D(L_1, __this, (intptr_t)((void*)SpeechProcessor_SpeechSourceSamplesReadyEventHandler_mA9970902447F52FCED76F2B890EC568FAAEAF57F_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		SpeechSource_remove_SamplesReady_m15AA39422981D392AC55B212652E3598A2C5E61E(L_0, L_1, NULL);
+		// SpeechSource.Dried -= SpeechSourceDriedEventHandler;
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_2;
+		L_2 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_3 = (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)il2cpp_codegen_object_new(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		EventHandler__ctor_m95444CE8D5A6F1AFC9793866C3FE884E732DCEB2(L_3, __this, (intptr_t)((void*)SpeechProcessor_SpeechSourceDriedEventHandler_m91279EDC298081DF05B0C0BABDEE3BC12E7F359C_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		SpeechSource_remove_Dried_m70B8CA6390DCFDF53FFC58987058512640C4F34D(L_2, L_3, NULL);
+		// SpeechSource.RuntimeFailure -= SpeechSourceRuntimeFailureEventHandler;
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_4;
+		L_4 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(__this, NULL);
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_5 = (EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)il2cpp_codegen_object_new(EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		EventHandler_1__ctor_mD23EDD370E23B5FA0B9B603140D14C0F19CAA507(L_5, __this, (intptr_t)((void*)SpeechProcessor_SpeechSourceRuntimeFailureEventHandler_m31AFBA415547D0EFD11B31E7CD928604D4C99548_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		SpeechSource_remove_RuntimeFailure_mBFF355656323AA7CF2C3D1CBF1BF8BD378A450F2(L_4, L_5, NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.SpeechProcessor::Initialize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechProcessor_Initialize_m98BE8CE969BFC76C97AF47BCDDD99BC60685D3C5 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* L_0 = (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652*)il2cpp_codegen_object_new(U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CInitializeU3Ed__39__ctor_mE2541EBA9934309F74098D342D3F18A7208736A8(L_0, 0, NULL);
+		U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessor__ctor_mE8A0759DFB7E44FCEF3971C1FFBBD5549AD51511 (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_m41E556214EB6141900ED837D40BCD3B74146A678_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_m5665B78F91DA8A0C4A1B1E3930F2A2AF138C2E6E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// private LifecycleEvents lifecycleEvents = new()
+		// {
+		//     started = new UnityEvent(),
+		//     finished = new UnityEvent(),
+		//     initializationFailed = new UnityEvent<InitializationException>(),
+		//     runtimeFailed = new UnityEvent<RuntimeException>()
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D));
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
+		(&V_0)->___started_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___started_0), (void*)L_0);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
+		(&V_0)->___finished_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___finished_1), (void*)L_1);
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_2 = (UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053*)il2cpp_codegen_object_new(UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		UnityEvent_1__ctor_m41E556214EB6141900ED837D40BCD3B74146A678(L_2, UnityEvent_1__ctor_m41E556214EB6141900ED837D40BCD3B74146A678_RuntimeMethod_var);
+		(&V_0)->___initializationFailed_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___initializationFailed_2), (void*)L_2);
+		UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829* L_3 = (UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829*)il2cpp_codegen_object_new(UnityEvent_1_t412EBBCCB2CFC3B851E96C2B6623CC77BB967829_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		UnityEvent_1__ctor_m5665B78F91DA8A0C4A1B1E3930F2A2AF138C2E6E(L_3, UnityEvent_1__ctor_m5665B78F91DA8A0C4A1B1E3930F2A2AF138C2E6E_RuntimeMethod_var);
+		(&V_0)->___runtimeFailed_3 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___runtimeFailed_3), (void*)L_3);
+		LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D L_4 = V_0;
+		__this->___lifecycleEvents_5 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___lifecycleEvents_5))->___started_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___lifecycleEvents_5))->___finished_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___lifecycleEvents_5))->___initializationFailed_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___lifecycleEvents_5))->___runtimeFailed_3), (void*)NULL);
+		#endif
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Recognissimo.InitializationFailedCallback Recognissimo.SpeechProcessor::<Initialize>g__CreateCallback|39_0(Recognissimo.SpeechProcessorDependency)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* SpeechProcessor_U3CInitializeU3Eg__CreateCallbackU7C39_0_m2586A1F18853A21EB19EA5DD81513856F321A81E (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* ___dependency0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass39_0_U3CInitializeU3Eb__1_mA7CB1C2804606D9BBB1D8AF380E7D465E01EEE5C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5* L_0 = (U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass39_0__ctor_mF03E4B000DC1B94445235058767A5C86AB2B8D42(L_0, NULL);
+		U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_1 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_1), (void*)__this);
+		U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5* L_2 = L_1;
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_3 = ___dependency0;
+		NullCheck(L_2);
+		L_2->___dependency_0 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___dependency_0), (void*)L_3);
+		// return (initializationTaskName, exception) =>
+		// {
+		//     State = SpeechProcessorState.Inactive;
+		// 
+		//     StopCoroutine(_initializationCoroutine);
+		// 
+		//     InitializationFailed?.Invoke(
+		//         new DependencyInitializationException(dependency, initializationTaskName, exception));
+		// };
+		InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* L_4 = (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68*)il2cpp_codegen_object_new(InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		InitializationFailedCallback__ctor_mB3B58E7D16F164E840BC59FFDABBEBA35A8A9E29(L_4, L_2, (intptr_t)((void*)U3CU3Ec__DisplayClass39_0_U3CInitializeU3Eb__1_mA7CB1C2804606D9BBB1D8AF380E7D465E01EEE5C_RuntimeMethod_var), NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessor/Settings
+IL2CPP_EXTERN_C void Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshal_pinvoke(const Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D& unmarshaled, Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___modelProvider_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'modelProvider' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___modelProvider_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshal_pinvoke_back(const Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_pinvoke& marshaled, Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D& unmarshaled)
+{
+	Exception_t* ___modelProvider_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'modelProvider' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___modelProvider_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessor/Settings
+IL2CPP_EXTERN_C void Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshal_pinvoke_cleanup(Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessor/Settings
+IL2CPP_EXTERN_C void Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshal_com(const Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D& unmarshaled, Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_com& marshaled)
+{
+	Exception_t* ___modelProvider_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'modelProvider' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___modelProvider_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshal_com_back(const Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_com& marshaled, Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D& unmarshaled)
+{
+	Exception_t* ___modelProvider_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'modelProvider' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___modelProvider_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessor/Settings
+IL2CPP_EXTERN_C void Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshal_com_cleanup(Settings_t39A6CDB7668341E42D9C5AA6C7DD7F518D86B37D_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessor/LifecycleEvents
+IL2CPP_EXTERN_C void LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshal_pinvoke(const LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D& unmarshaled, LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___started_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'started' of type 'LifecycleEvents': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___started_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshal_pinvoke_back(const LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_pinvoke& marshaled, LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D& unmarshaled)
+{
+	Exception_t* ___started_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'started' of type 'LifecycleEvents': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___started_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessor/LifecycleEvents
+IL2CPP_EXTERN_C void LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshal_pinvoke_cleanup(LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessor/LifecycleEvents
+IL2CPP_EXTERN_C void LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshal_com(const LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D& unmarshaled, LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_com& marshaled)
+{
+	Exception_t* ___started_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'started' of type 'LifecycleEvents': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___started_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshal_com_back(const LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_com& marshaled, LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D& unmarshaled)
+{
+	Exception_t* ___started_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'started' of type 'LifecycleEvents': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___started_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessor/LifecycleEvents
+IL2CPP_EXTERN_C void LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshal_com_cleanup(LifecycleEvents_t38792924F140A2035FDB0F5502F523203277243D_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechProcessor/<>c__DisplayClass39_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_mF03E4B000DC1B94445235058767A5C86AB2B8D42 (U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor/<>c__DisplayClass39_0::<Initialize>b__1(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CInitializeU3Eb__1_mA7CB1C2804606D9BBB1D8AF380E7D465E01EEE5C (U3CU3Ec__DisplayClass39_0_t3E7722F7064D2789BE51DE1A0CF9F17ED9D3F9B5* __this, String_t* ___initializationTaskName0, Exception_t* ___exception1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* G_B2_0 = NULL;
+	UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* G_B1_0 = NULL;
+	{
+		// State = SpeechProcessorState.Inactive;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_0 = __this->___U3CU3E4__this_1;
+		NullCheck(L_0);
+		SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline(L_0, 0, NULL);
+		// StopCoroutine(_initializationCoroutine);
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_1 = __this->___U3CU3E4__this_1;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_2 = __this->___U3CU3E4__this_1;
+		NullCheck(L_2);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = L_2->____initializationCoroutine_8;
+		NullCheck(L_1);
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(L_1, L_3, NULL);
+		// InitializationFailed?.Invoke(
+		//     new DependencyInitializationException(dependency, initializationTaskName, exception));
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_4 = __this->___U3CU3E4__this_1;
+		NullCheck(L_4);
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_5;
+		L_5 = SpeechProcessor_get_InitializationFailed_mDFD20D49A914ECE34071738333592B5274AC87BF(L_4, NULL);
+		UnityEvent_1_t8A1B4F9E74FE769A2706571CB103D47D42733053* L_6 = L_5;
+		G_B1_0 = L_6;
+		if (L_6)
+		{
+			G_B2_0 = L_6;
+			goto IL_0032;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0032:
+	{
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_7 = __this->___dependency_0;
+		String_t* L_8 = ___initializationTaskName0;
+		Exception_t* L_9 = ___exception1;
+		DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732* L_10 = (DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732*)il2cpp_codegen_object_new(DependencyInitializationException_tD340D889F2C588FC3D9036F65C11A33AF50F3732_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		DependencyInitializationException__ctor_m47F18D3169150AEE184966166012650E00456B96(L_10, L_7, L_8, L_9, NULL);
+		NullCheck(G_B2_0);
+		UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF(G_B2_0, L_10, UnityEvent_1_Invoke_m94CAB152DB3DC8484A861AAE9606B4B2F1BCA1CF_RuntimeMethod_var);
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechProcessor/<Initialize>d__39::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__39__ctor_mE2541EBA9934309F74098D342D3F18A7208736A8 (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor/<Initialize>d__39::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__39_System_IDisposable_Dispose_mBF944630B7392A21D642086A50061D311BF44352 (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.SpeechProcessor/<Initialize>d__39::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__39_MoveNext_mB49D340482CB83F22FE5E5972E1A9CC28EF18412 (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0026;
+			}
+			case 1:
+			{
+				goto IL_0044;
+			}
+			case 2:
+			{
+				goto IL_0072;
+			}
+			case 3:
+			{
+				goto IL_00cd;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// State = SpeechProcessorState.Initializing;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_3 = V_1;
+		NullCheck(L_3);
+		SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline(L_3, 1, NULL);
+		// yield return null;
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0044:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// yield return LanguageModelProvider.Initialize(null, CreateCallback(LanguageModelProvider));
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_4 = V_1;
+		NullCheck(L_4);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_5;
+		L_5 = SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26(L_4, NULL);
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_6 = V_1;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_7 = V_1;
+		NullCheck(L_7);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_8;
+		L_8 = SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26(L_7, NULL);
+		NullCheck(L_6);
+		InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* L_9;
+		L_9 = SpeechProcessor_U3CInitializeU3Eg__CreateCallbackU7C39_0_m2586A1F18853A21EB19EA5DD81513856F321A81E(L_6, L_8, NULL);
+		NullCheck(L_5);
+		RuntimeObject* L_10;
+		L_10 = SpeechProcessorDependency_Initialize_m64044F328F294DB2740A759AFAC673E2BAE2D66C(L_5, (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C*)NULL, L_9, NULL);
+		__this->___U3CU3E2__current_1 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_10);
+		__this->___U3CU3E1__state_0 = 2;
+		return (bool)1;
+	}
+
+IL_0072:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (LanguageModelProvider.Model == null)
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_11 = V_1;
+		NullCheck(L_11);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_12;
+		L_12 = SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26(L_11, NULL);
+		NullCheck(L_12);
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_13;
+		L_13 = LanguageModelProvider_get_Model_mDCDE3EABAE100F518A18E8757AC4AF19D727E1D8_inline(L_12, NULL);
+		if (L_13)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		// throw new InvalidOperationException(
+		//     $"{LanguageModelProvider.GetType().Name} provided null language model.");
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_14 = V_1;
+		NullCheck(L_14);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_15;
+		L_15 = SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26(L_14, NULL);
+		NullCheck(L_15);
+		Type_t* L_16;
+		L_16 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_15, NULL);
+		NullCheck(L_16);
+		String_t* L_17;
+		L_17 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_16);
+		String_t* L_18;
+		L_18 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_17, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9A5EEDA8DE6FBFA64C540060EC331806CFF6FA21)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_19);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeU3Ed__39_MoveNext_mB49D340482CB83F22FE5E5972E1A9CC28EF18412_RuntimeMethod_var)));
+	}
+
+IL_00a6:
+	{
+		// yield return SpeechSource.Initialize(null, CreateCallback(SpeechSource));
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_20 = V_1;
+		NullCheck(L_20);
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_21;
+		L_21 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(L_20, NULL);
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_22 = V_1;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_23 = V_1;
+		NullCheck(L_23);
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_24;
+		L_24 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(L_23, NULL);
+		NullCheck(L_22);
+		InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* L_25;
+		L_25 = SpeechProcessor_U3CInitializeU3Eg__CreateCallbackU7C39_0_m2586A1F18853A21EB19EA5DD81513856F321A81E(L_22, L_24, NULL);
+		NullCheck(L_21);
+		RuntimeObject* L_26;
+		L_26 = SpeechProcessorDependency_Initialize_m64044F328F294DB2740A759AFAC673E2BAE2D66C(L_21, (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C*)NULL, L_25, NULL);
+		__this->___U3CU3E2__current_1 = L_26;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_26);
+		__this->___U3CU3E1__state_0 = 3;
+		return (bool)1;
+	}
+
+IL_00cd:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// _algorithm.Setup();
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_27 = V_1;
+		NullCheck(L_27);
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_28 = L_27->____algorithm_6;
+		NullCheck(L_28);
+		bool L_29;
+		L_29 = VirtualFuncInvoker0< bool >::Invoke(5 /* System.Boolean Recognissimo.Core.Algorithm::Setup() */, L_28);
+		// _context.Start(LanguageModelProvider.Model.Resource, SpeechSource.SampleRate);
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_30 = V_1;
+		NullCheck(L_30);
+		Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* L_31 = L_30->____context_7;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_32 = V_1;
+		NullCheck(L_32);
+		LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* L_33;
+		L_33 = SpeechProcessor_get_LanguageModelProvider_mAEA5EAF43D9232C88A73AB15331C7BBF82194F26(L_32, NULL);
+		NullCheck(L_33);
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_34;
+		L_34 = LanguageModelProvider_get_Model_mDCDE3EABAE100F518A18E8757AC4AF19D727E1D8_inline(L_33, NULL);
+		NullCheck(L_34);
+		LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* L_35 = L_34->___Resource_0;
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_36 = V_1;
+		NullCheck(L_36);
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_37;
+		L_37 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(L_36, NULL);
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 Recognissimo.SpeechSource::get_SampleRate() */, L_37);
+		NullCheck(L_31);
+		Context_Start_m293ACA7EA42AE438ED724D46235EABBF5D304B37(L_31, L_35, L_38, NULL);
+		// UnbindSpeechSource();
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_39 = V_1;
+		NullCheck(L_39);
+		SpeechProcessor_UnbindSpeechSource_m483E11D169EFF8F19EB08105AFC11379B7C69BC8(L_39, NULL);
+		// BindSpeechSource();
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_40 = V_1;
+		NullCheck(L_40);
+		SpeechProcessor_BindSpeechSource_m75BE040FECB334C9203B41B73F9E90C8B0BD809C(L_40, NULL);
+		// SpeechSource.StartProducing();
+		SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* L_41 = V_1;
+		NullCheck(L_41);
+		SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* L_42;
+		L_42 = SpeechProcessor_get_SpeechSource_m127DB697A2A9C4DCB71208A49F26AF325648CE59(L_41, NULL);
+		NullCheck(L_42);
+		VirtualActionInvoker0::Invoke(6 /* System.Void Recognissimo.SpeechSource::StartProducing() */, L_42);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.SpeechProcessor/<Initialize>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC0CF2E1CD578666051E6D10B112683A0E2D0F825 (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.SpeechProcessor/<Initialize>d__39::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__39_System_Collections_IEnumerator_Reset_m37447D8DDA2A86B0E32483CC9FFD5CC3399F720A (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeU3Ed__39_System_Collections_IEnumerator_Reset_m37447D8DDA2A86B0E32483CC9FFD5CC3399F720A_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.SpeechProcessor/<Initialize>d__39::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeU3Ed__39_System_Collections_IEnumerator_get_Current_m786B529122C2596262CE84DDBAB8762E93DE24FA (U3CInitializeU3Ed__39_tA583515237CFDCEB3E6C771B764DB100B6B2B652* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_Multicast(InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* currentDelegate = reinterpret_cast<InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, Exception_t*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___failedTaskName0, ___exception1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_OpenInst(InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method)
+{
+	NullCheck(___failedTaskName0);
+	typedef void (*FunctionPointerType) (String_t*, Exception_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___failedTaskName0, ___exception1, method);
+}
+void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_OpenStatic(InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (String_t*, Exception_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___failedTaskName0, ___exception1, method);
+}
+void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_OpenStaticInvoker(InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< String_t*, Exception_t* >::Invoke(__this->___method_ptr_0, method, NULL, ___failedTaskName0, ___exception1);
+}
+void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_ClosedStaticInvoker(InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, String_t*, Exception_t* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___failedTaskName0, ___exception1);
+}
+// System.Void Recognissimo.InitializationFailedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationFailedCallback__ctor_mB3B58E7D16F164E840BC59FFDABBEBA35A8A9E29 (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		bool isOpen = parameterCount == 1;
+		if (isOpen)
+		{
+			__this->___invoke_impl_1 = (intptr_t)&InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_OpenInst;
+		}
+		else
+		{
+			if (___object0 == NULL)
+				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+		}
+	}
+	__this->___extra_arg_5 = (intptr_t)&InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_Multicast;
+}
+// System.Void Recognissimo.InitializationFailedCallback::Invoke(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3 (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, Exception_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___failedTaskName0, ___exception1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Recognissimo.InitializationFailedCallback::BeginInvoke(System.String,System.Exception,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InitializationFailedCallback_BeginInvoke_mDF36177A864E525F83C3E8818C9AFA6458F45BD0 (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+{
+	void *__d_args[3] = {0};
+	__d_args[0] = ___failedTaskName0;
+	__d_args[1] = ___exception1;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void Recognissimo.InitializationFailedCallback::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationFailedCallback_EndInvoke_m41010B13796CD7C49C0FDBBA0C4B7699FB05E075 (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_Multicast(InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* currentDelegate = reinterpret_cast<InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, bool, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___taskName0, ___isLongRunning1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_OpenInst(InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method)
+{
+	NullCheck(___taskName0);
+	typedef void (*FunctionPointerType) (String_t*, bool, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___taskName0, ___isLongRunning1, method);
+}
+void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_OpenStatic(InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (String_t*, bool, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___taskName0, ___isLongRunning1, method);
+}
+void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_OpenStaticInvoker(InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< String_t*, bool >::Invoke(__this->___method_ptr_0, method, NULL, ___taskName0, ___isLongRunning1);
+}
+void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_ClosedStaticInvoker(InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, String_t*, bool >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___taskName0, ___isLongRunning1);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(char*, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Marshaling of parameter '___taskName0' to native representation
+	char* ____taskName0_marshaled = NULL;
+	____taskName0_marshaled = il2cpp_codegen_marshal_string(___taskName0);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____taskName0_marshaled, static_cast<int32_t>(___isLongRunning1));
+
+	// Marshaling cleanup of parameter '___taskName0' native representation
+	il2cpp_codegen_marshal_free(____taskName0_marshaled);
+	____taskName0_marshaled = NULL;
+
+}
+// System.Void Recognissimo.InitializationTaskStartedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationTaskStartedCallback__ctor_mDF9F266B307A679F63BC1BD029B9AA2083A3F1C8 (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		bool isOpen = parameterCount == 1;
+		if (isOpen)
+		{
+			__this->___invoke_impl_1 = (intptr_t)&InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_OpenInst;
+		}
+		else
+		{
+			if (___object0 == NULL)
+				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+		}
+	}
+	__this->___extra_arg_5 = (intptr_t)&InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_Multicast;
+}
+// System.Void Recognissimo.InitializationTaskStartedCallback::Invoke(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6 (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, bool, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___taskName0, ___isLongRunning1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Recognissimo.InitializationTaskStartedCallback::BeginInvoke(System.String,System.Boolean,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InitializationTaskStartedCallback_BeginInvoke_mCDA780B5188B65EF6C193082E8F0CBA2E15BA108 (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = ___taskName0;
+	__d_args[1] = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &___isLongRunning1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void Recognissimo.InitializationTaskStartedCallback::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationTaskStartedCallback_EndInvoke_m36C9CCA196C88916AA19BDEC3107FD70A81D4D52 (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechProcessorDependency::WrapThrowingAction(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_WrapThrowingAction_m0ADE596016E9A9747DFE377066B8F22482683032 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) 
+{
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{// begin try (depth: 1)
+		// action.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___action0;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
+		// }
+		goto IL_0017;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0008;
+		}
+		throw e;
+	}
+
+CATCH_0008:
+	{// begin catch(System.Exception)
+		// catch (Exception exception)
+		V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		// _initializationState.Exception = exception;
+		InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12* L_1 = (&__this->____initializationState_7);
+		Exception_t* L_2 = V_0;
+		L_1->___Exception_1 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___Exception_1), (void*)L_2);
+		// }
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0017;
+	}// end catch (depth: 1)
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.SpeechProcessorDependency::WrapThrowingCoroutine(System.Func`1<System.Collections.IEnumerator>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechProcessorDependency_WrapThrowingCoroutine_m853522332794BC34FA44B8B139B815E3F512D138 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* ___coroutine0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* L_0 = (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4*)il2cpp_codegen_object_new(U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CWrapThrowingCoroutineU3Ed__7__ctor_mF3F4FE2C11B87F9A57CADB75A4A98DDDDF995CB0(L_0, 0, NULL);
+		U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_3 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
+		U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* L_2 = L_1;
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_3 = ___coroutine0;
+		NullCheck(L_2);
+		L_2->___coroutine_2 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___coroutine_2), (void*)L_3);
+		return L_2;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency::RegisterInitializationTask(System.String,System.Action,Recognissimo.CallCondition)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_RegisterInitializationTask_m12AEC96FC2A67FE66CBB12371722186D9E9DC757 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, String_t* ___taskName0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___task1, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___callCondition2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m4D496BC9F7E41AE19694A54D83BBF2EDAAF6E6D5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		// _isFirstRun = true;
+		__this->____isFirstRun_8 = (bool)1;
+		// var id = _taskRegistrationIndex++;
+		int32_t L_0 = __this->____taskRegistrationIndex_9;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		__this->____taskRegistrationIndex_9 = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		int32_t L_2 = V_1;
+		V_0 = L_2;
+		// _actions.Add(id, task);
+		Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* L_3 = __this->____actions_4;
+		int32_t L_4 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ___task1;
+		NullCheck(L_3);
+		Dictionary_2_Add_m4D496BC9F7E41AE19694A54D83BBF2EDAAF6E6D5(L_3, L_4, L_5, Dictionary_2_Add_m4D496BC9F7E41AE19694A54D83BBF2EDAAF6E6D5_RuntimeMethod_var);
+		// _tasks.Add(new TaskData
+		// {
+		//     ID = id,
+		//     Name = taskName,
+		//     Type = CallableType.Action,
+		//     Condition = callCondition
+		// });
+		List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* L_6 = __this->____tasks_6;
+		il2cpp_codegen_initobj((&V_2), sizeof(TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C));
+		int32_t L_7 = V_0;
+		(&V_2)->___ID_0 = L_7;
+		String_t* L_8 = ___taskName0;
+		(&V_2)->___Name_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___Name_1), (void*)L_8);
+		(&V_2)->___Type_2 = 0;
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_9 = ___callCondition2;
+		(&V_2)->___Condition_3 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___Condition_3), (void*)L_9);
+		TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C L_10 = V_2;
+		NullCheck(L_6);
+		List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_inline(L_6, L_10, List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency::RegisterInitializationTask(System.String,System.Func`1<System.Collections.IEnumerator>,Recognissimo.CallCondition)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, String_t* ___taskName0, Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* ___task1, CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* ___callCondition2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m1C74602D83D4BBA2277CB152C24875A619840199_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		// _isFirstRun = true;
+		__this->____isFirstRun_8 = (bool)1;
+		// var id = _taskRegistrationIndex++;
+		int32_t L_0 = __this->____taskRegistrationIndex_9;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		__this->____taskRegistrationIndex_9 = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		int32_t L_2 = V_1;
+		V_0 = L_2;
+		// _coroutines.Add(id, task);
+		Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* L_3 = __this->____coroutines_5;
+		int32_t L_4 = V_0;
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_5 = ___task1;
+		NullCheck(L_3);
+		Dictionary_2_Add_m1C74602D83D4BBA2277CB152C24875A619840199(L_3, L_4, L_5, Dictionary_2_Add_m1C74602D83D4BBA2277CB152C24875A619840199_RuntimeMethod_var);
+		// _tasks.Add(new TaskData
+		// {
+		//     ID = id,
+		//     Name = taskName,
+		//     Type = CallableType.Coroutine,
+		//     Condition = callCondition
+		// });
+		List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* L_6 = __this->____tasks_6;
+		il2cpp_codegen_initobj((&V_2), sizeof(TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C));
+		int32_t L_7 = V_0;
+		(&V_2)->___ID_0 = L_7;
+		String_t* L_8 = ___taskName0;
+		(&V_2)->___Name_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___Name_1), (void*)L_8);
+		(&V_2)->___Type_2 = 1;
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_9 = ___callCondition2;
+		(&V_2)->___Condition_3 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___Condition_3), (void*)L_9);
+		TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C L_10 = V_2;
+		NullCheck(L_6);
+		List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_inline(L_6, L_10, List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.SpeechProcessorDependency::Initialize(Recognissimo.InitializationTaskStartedCallback,Recognissimo.InitializationFailedCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechProcessorDependency_Initialize_m64044F328F294DB2740A759AFAC673E2BAE2D66C (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* ___initializationTaskStartedCallback0, InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* ___initializationFailedCallback1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* L_0 = (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7*)il2cpp_codegen_object_new(U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CInitializeU3Ed__10__ctor_m23BDA0C1D00A32A5548D3502CED6BEE6D3DF9D03(L_0, 0, NULL);
+		U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* L_2 = L_1;
+		InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* L_3 = ___initializationTaskStartedCallback0;
+		NullCheck(L_2);
+		L_2->___initializationTaskStartedCallback_3 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___initializationTaskStartedCallback_3), (void*)L_3);
+		U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* L_4 = L_2;
+		InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* L_5 = ___initializationFailedCallback1;
+		NullCheck(L_4);
+		L_4->___initializationFailedCallback_4 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___initializationFailedCallback_4), (void*)L_5);
+		return L_4;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency::FailInitialization(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, Exception_t* ___exception0, const RuntimeMethod* method) 
+{
+	{
+		// if (!_initializationState.IsActive)
+		InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12* L_0 = (&__this->____initializationState_7);
+		bool L_1 = L_0->___IsActive_0;
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		// throw new InvalidOperationException(
+		//     $"Method {nameof(FailInitialization)} must be called during initialization.");
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_2);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8026EFAC6EE56D121304148A4B8F78692F1A46B1)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21_RuntimeMethod_var)));
+	}
+
+IL_0018:
+	{
+		// _initializationState.Exception = exception;
+		InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12* L_3 = (&__this->____initializationState_7);
+		Exception_t* L_4 = ___exception0;
+		L_3->___Exception_1 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___Exception_1), (void*)L_4);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechProcessorDependency__ctor_m722A928C76AF7BB927DDF58A45FEDF636505E85C (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mCF4AB83443EAEBE5266CA7183799080C420809F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mF3102C0B0A37DB736838928BC56FF19F60D0412A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private readonly Dictionary<int, Action> _actions = new();
+		Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* L_0 = (Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48*)il2cpp_codegen_object_new(Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Dictionary_2__ctor_mF3102C0B0A37DB736838928BC56FF19F60D0412A(L_0, Dictionary_2__ctor_mF3102C0B0A37DB736838928BC56FF19F60D0412A_RuntimeMethod_var);
+		__this->____actions_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____actions_4), (void*)L_0);
+		// private readonly Dictionary<int, Func<IEnumerator>> _coroutines = new();
+		Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* L_1 = (Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE*)il2cpp_codegen_object_new(Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Dictionary_2__ctor_mCF4AB83443EAEBE5266CA7183799080C420809F9(L_1, Dictionary_2__ctor_mCF4AB83443EAEBE5266CA7183799080C420809F9_RuntimeMethod_var);
+		__this->____coroutines_5 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____coroutines_5), (void*)L_1);
+		// private readonly List<TaskData> _tasks = new();
+		List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* L_2 = (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98*)il2cpp_codegen_object_new(List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2(L_2, List_1__ctor_mCBF42163E69C961EAA1B4DF5DCF7503BBD2B96C2_RuntimeMethod_var);
+		__this->____tasks_6 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tasks_6), (void*)L_2);
+		// private bool _isFirstRun = true;
+		__this->____isFirstRun_8 = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Boolean Recognissimo.SpeechProcessorDependency::<Initialize>b__10_0(Recognissimo.SpeechProcessorDependency/TaskData)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpeechProcessorDependency_U3CInitializeU3Eb__10_0_m49628792A558182E1868B4C304DFBFBAB90867D5 (SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* __this, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C ___task0, const RuntimeMethod* method) 
+{
+	{
+		// var readyTasks = _tasks.Where(task => task.Condition.Check() || _isFirstRun);
+		TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C L_0 = ___task0;
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_1 = L_0.___Condition_3;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = CallCondition_Check_m47318CED6BAF11AD9312E8DA51D52535A340C48B(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		bool L_3 = __this->____isFirstRun_8;
+		return L_3;
+	}
+
+IL_0014:
+	{
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessorDependency/InitializationState
+IL2CPP_EXTERN_C void InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshal_pinvoke(const InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12& unmarshaled, InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___Exception_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Exception' of type 'InitializationState': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Exception_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshal_pinvoke_back(const InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_pinvoke& marshaled, InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12& unmarshaled)
+{
+	Exception_t* ___Exception_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Exception' of type 'InitializationState': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Exception_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessorDependency/InitializationState
+IL2CPP_EXTERN_C void InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshal_pinvoke_cleanup(InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_pinvoke& marshaled)
+{
+}
+
+
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessorDependency/InitializationState
+IL2CPP_EXTERN_C void InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshal_com(const InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12& unmarshaled, InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_com& marshaled)
+{
+	Exception_t* ___Exception_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Exception' of type 'InitializationState': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Exception_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshal_com_back(const InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_com& marshaled, InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12& unmarshaled)
+{
+	Exception_t* ___Exception_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Exception' of type 'InitializationState': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Exception_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessorDependency/InitializationState
+IL2CPP_EXTERN_C void InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshal_com_cleanup(InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessorDependency/TaskData
+IL2CPP_EXTERN_C void TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshal_pinvoke(const TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C& unmarshaled, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___Condition_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Condition' of type 'TaskData': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Condition_3Exception, NULL);
+}
+IL2CPP_EXTERN_C void TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshal_pinvoke_back(const TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_pinvoke& marshaled, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C& unmarshaled)
+{
+	Exception_t* ___Condition_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Condition' of type 'TaskData': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Condition_3Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessorDependency/TaskData
+IL2CPP_EXTERN_C void TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshal_pinvoke_cleanup(TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.SpeechProcessorDependency/TaskData
+IL2CPP_EXTERN_C void TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshal_com(const TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C& unmarshaled, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_com& marshaled)
+{
+	Exception_t* ___Condition_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Condition' of type 'TaskData': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Condition_3Exception, NULL);
+}
+IL2CPP_EXTERN_C void TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshal_com_back(const TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_com& marshaled, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C& unmarshaled)
+{
+	Exception_t* ___Condition_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Condition' of type 'TaskData': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Condition_3Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.SpeechProcessorDependency/TaskData
+IL2CPP_EXTERN_C void TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshal_com_cleanup(TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWrapThrowingCoroutineU3Ed__7__ctor_mF3F4FE2C11B87F9A57CADB75A4A98DDDDF995CB0 (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWrapThrowingCoroutineU3Ed__7_System_IDisposable_Dispose_mFF16A06417C403C42CBEC6B0DE22219809C64927 (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWrapThrowingCoroutineU3Ed__7_MoveNext_m0B6BAA15A6A590FF260D84C7580EBA2E3873FE2F (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stack_1_Peek_mB478B84AB35FBA331FF13DBABB9BE194C7186881_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stack_1_Pop_mC456C42E8578B42F4B25CDB65F6B4E79D45CE19B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stack_1__ctor_mF218547BE4368C5557FF1F40E220917E694CAFF0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stack_1_get_Count_m20D4C6A9E28611C814D9D5305229E5FB3C501803_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* V_2 = NULL;
+	RuntimeObject* V_3 = NULL;
+	RuntimeObject* V_4 = NULL;
+	RuntimeObject* V_5 = NULL;
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_1 = L_0;
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_1 = __this->___U3CU3E4__this_3;
+		V_2 = L_1;
+		int32_t L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_1;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// var enumerators = new Stack<IEnumerator>();
+		Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* L_4 = (Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB*)il2cpp_codegen_object_new(Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Stack_1__ctor_mF218547BE4368C5557FF1F40E220917E694CAFF0(L_4, Stack_1__ctor_mF218547BE4368C5557FF1F40E220917E694CAFF0_RuntimeMethod_var);
+		__this->___U3CenumeratorsU3E5__2_4 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CenumeratorsU3E5__2_4), (void*)L_4);
+		// enumerators.Push(coroutine());
+		Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* L_5 = __this->___U3CenumeratorsU3E5__2_4;
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_6 = __this->___coroutine_2;
+		NullCheck(L_6);
+		RuntimeObject* L_7;
+		L_7 = Func_1_Invoke_mC8C2E075F688B1F6C0700B6DD0147A02A7AC1672_inline(L_6, NULL);
+		NullCheck(L_5);
+		Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF(L_5, L_7, Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF_RuntimeMethod_var);
+		goto IL_00b7;
+	}
+
+IL_0044:
+	{
+		// var currentEnumerator = enumerators.Peek();
+		Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* L_8 = __this->___U3CenumeratorsU3E5__2_4;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = Stack_1_Peek_mB478B84AB35FBA331FF13DBABB9BE194C7186881(L_8, Stack_1_Peek_mB478B84AB35FBA331FF13DBABB9BE194C7186881_RuntimeMethod_var);
+		V_3 = L_9;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			// if (!currentEnumerator.MoveNext())
+			RuntimeObject* L_10 = V_3;
+			NullCheck(L_10);
+			bool L_11;
+			L_11 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_10);
+			if (L_11)
+			{
+				goto IL_0066_1;
+			}
+		}
+		{
+			// enumerators.Pop();
+			Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* L_12 = __this->___U3CenumeratorsU3E5__2_4;
+			NullCheck(L_12);
+			RuntimeObject* L_13;
+			L_13 = Stack_1_Pop_mC456C42E8578B42F4B25CDB65F6B4E79D45CE19B(L_12, Stack_1_Pop_mC456C42E8578B42F4B25CDB65F6B4E79D45CE19B_RuntimeMethod_var);
+			// continue;
+			goto IL_00b7;
+		}
+
+IL_0066_1:
+		{
+			// currentYielded = currentEnumerator.Current;
+			RuntimeObject* L_14 = V_3;
+			NullCheck(L_14);
+			RuntimeObject* L_15;
+			L_15 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_14);
+			V_4 = L_15;
+			// }
+			goto IL_0083;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0070;
+		}
+		throw e;
+	}
+
+CATCH_0070:
+	{// begin catch(System.Exception)
+		// catch (Exception exception)
+		V_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		// _initializationState.Exception = exception;
+		SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_16 = V_2;
+		NullCheck(L_16);
+		InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12* L_17 = (&L_16->____initializationState_7);
+		Exception_t* L_18 = V_6;
+		L_17->___Exception_1 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&L_17->___Exception_1), (void*)L_18);
+		// yield break;
+		V_0 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_00ca;
+	}// end catch (depth: 1)
+
+IL_0083:
+	{
+		// if (currentYielded is IEnumerator yieldedAsEnumerator)
+		RuntimeObject* L_19 = V_4;
+		V_5 = ((RuntimeObject*)IsInst((RuntimeObject*)L_19, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var));
+		RuntimeObject* L_20 = V_5;
+		if (!L_20)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		// enumerators.Push(yieldedAsEnumerator);
+		Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* L_21 = __this->___U3CenumeratorsU3E5__2_4;
+		RuntimeObject* L_22 = V_5;
+		NullCheck(L_21);
+		Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF(L_21, L_22, Stack_1_Push_m239291822C02AB16175907B3016054EC207D43FF_RuntimeMethod_var);
+		goto IL_00b7;
+	}
+
+IL_009f:
+	{
+		// yield return currentYielded;
+		RuntimeObject* L_23 = V_4;
+		__this->___U3CU3E2__current_1 = L_23;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_23);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_00b0:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_00b7:
+	{
+		// while (enumerators.Count > 0)
+		Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB* L_24 = __this->___U3CenumeratorsU3E5__2_4;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = Stack_1_get_Count_m20D4C6A9E28611C814D9D5305229E5FB3C501803_inline(L_24, Stack_1_get_Count_m20D4C6A9E28611C814D9D5305229E5FB3C501803_RuntimeMethod_var);
+		if ((((int32_t)L_25) > ((int32_t)0)))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		// }
+		return (bool)0;
+	}
+
+IL_00ca:
+	{
+		bool L_26 = V_0;
+		return L_26;
+	}
+}
+// System.Object Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWrapThrowingCoroutineU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDC0F86F6CA8E6791538753139FAD954175EBF38D (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWrapThrowingCoroutineU3Ed__7_System_Collections_IEnumerator_Reset_m4FC58412E41CDBA3B90CFC31692E25148DC96339 (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWrapThrowingCoroutineU3Ed__7_System_Collections_IEnumerator_Reset_m4FC58412E41CDBA3B90CFC31692E25148DC96339_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.SpeechProcessorDependency/<WrapThrowingCoroutine>d__7::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWrapThrowingCoroutineU3Ed__7_System_Collections_IEnumerator_get_Current_m25E3E1DC94AD96E09FC7F5BEFBC792D76260E165 (U3CWrapThrowingCoroutineU3Ed__7_tC2E0DE69664F058DB43001B40883D9AADBDCC5B4* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10__ctor_m23BDA0C1D00A32A5548D3502CED6BEE6D3DF9D03 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10_System_IDisposable_Dispose_m0F2B67B7AF6E430B7A46EE6F9B567D880527C5C6 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)((int32_t)-3))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_001a;
+		}
+	}
+
+IL_0010:
+	{
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0013:
+			{// begin finally (depth: 1)
+				U3CInitializeU3Ed__10_U3CU3Em__Finally1_mD5F97A0684974A6F2C8F0AA1069C3E9A40B073A8(__this, NULL);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			goto IL_001a;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.SpeechProcessorDependency/<Initialize>d__10::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__10_MoveNext_mDEAB0734F7A8F6279409E0657FE2D43D652C146D (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1AC99E3ADC73E49AD4DB959D0DD87272825B0697_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1F4D567D3F380947DD99B9FD103E365BF5DD83BF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerable_1_tC503379BC36B10F4A806009416C3ADFE87AA1E4D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t7EBFEB4F3350635190345B4798A7C5C1918249DE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessorDependency_U3CInitializeU3Eb__10_0_m49628792A558182E1868B4C304DFBFBAB90867D5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* V_2 = NULL;
+	RuntimeObject* V_3 = NULL;
+	InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* G_B6_0 = NULL;
+	InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* G_B5_0 = NULL;
+	InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* G_B17_0 = NULL;
+	InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* G_B16_0 = NULL;
+	{
+		auto __finallyBlock = il2cpp::utils::Fault([&]
+		{
+
+FAULT_01b7:
+			{// begin fault (depth: 1)
+				U3CInitializeU3Ed__10_System_IDisposable_Dispose_m0F2B67B7AF6E430B7A46EE6F9B567D880527C5C6(__this, NULL);
+				return;
+			}// end fault
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				int32_t L_0 = __this->___U3CU3E1__state_0;
+				V_1 = L_0;
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_1 = __this->___U3CU3E4__this_2;
+				V_2 = L_1;
+				int32_t L_2 = V_1;
+				if (!L_2)
+				{
+					goto IL_001f_1;
+				}
+			}
+			{
+				int32_t L_3 = V_1;
+				if ((((int32_t)L_3) == ((int32_t)1)))
+				{
+					goto IL_0118_1;
+				}
+			}
+			{
+				V_0 = (bool)0;
+				goto IL_01be;
+			}
+
+IL_001f_1:
+			{
+				__this->___U3CU3E1__state_0 = (-1);
+				// _initializationState = new InitializationState
+				// {
+				//     IsActive = true,
+				//     Exception = null
+				// };
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_4 = V_2;
+				il2cpp_codegen_initobj((&V_4), sizeof(InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12));
+				(&V_4)->___IsActive_0 = (bool)1;
+				(&V_4)->___Exception_1 = (Exception_t*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&(&V_4)->___Exception_1), (void*)(Exception_t*)NULL);
+				InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12 L_5 = V_4;
+				NullCheck(L_4);
+				L_4->____initializationState_7 = L_5;
+				Il2CppCodeGenWriteBarrier((void**)&(((&L_4->____initializationState_7))->___Exception_1), (void*)NULL);
+				// var readyTasks = _tasks.Where(task => task.Condition.Check() || _isFirstRun);
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_6 = V_2;
+				NullCheck(L_6);
+				List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* L_7 = L_6->____tasks_6;
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_8 = V_2;
+				Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E* L_9 = (Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E*)il2cpp_codegen_object_new(Func_2_tEE10BBD94DCB62ADDD167B28D115AD35340E464E_il2cpp_TypeInfo_var);
+				NullCheck(L_9);
+				Func_2__ctor_m26DCE49D28101166951EEB5D5283A943204DCDD5(L_9, L_8, (intptr_t)((void*)SpeechProcessorDependency_U3CInitializeU3Eb__10_0_m49628792A558182E1868B4C304DFBFBAB90867D5_RuntimeMethod_var), NULL);
+				RuntimeObject* L_10;
+				L_10 = Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5(L_7, L_9, Enumerable_Where_TisTaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C_m211B1E1F9E814F55F01A3DCC8EEA0DE2371F46A5_RuntimeMethod_var);
+				V_3 = L_10;
+				// foreach (var task in readyTasks)
+				RuntimeObject* L_11 = V_3;
+				NullCheck(L_11);
+				RuntimeObject* L_12;
+				L_12 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Recognissimo.SpeechProcessorDependency/TaskData>::GetEnumerator() */, IEnumerable_1_tC503379BC36B10F4A806009416C3ADFE87AA1E4D_il2cpp_TypeInfo_var, L_11);
+				__this->___U3CU3E7__wrap1_5 = L_12;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_5), (void*)L_12);
+				__this->___U3CU3E1__state_0 = ((int32_t)-3);
+				goto IL_0165_1;
+			}
+
+IL_0077_1:
+			{
+				// foreach (var task in readyTasks)
+				RuntimeObject* L_13 = __this->___U3CU3E7__wrap1_5;
+				NullCheck(L_13);
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C L_14;
+				L_14 = InterfaceFuncInvoker0< TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Recognissimo.SpeechProcessorDependency/TaskData>::get_Current() */, IEnumerator_1_t7EBFEB4F3350635190345B4798A7C5C1918249DE_il2cpp_TypeInfo_var, L_13);
+				__this->___U3CtaskU3E5__3_6 = L_14;
+				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CtaskU3E5__3_6))->___Name_1), (void*)NULL);
+				#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CtaskU3E5__3_6))->___Condition_3), (void*)NULL);
+				#endif
+				// initializationTaskStartedCallback?.Invoke(task.Name, task.Type == CallableType.Coroutine);
+				InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* L_15 = __this->___initializationTaskStartedCallback_3;
+				InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* L_16 = L_15;
+				G_B5_0 = L_16;
+				if (L_16)
+				{
+					G_B6_0 = L_16;
+					goto IL_0094_1;
+				}
+			}
+			{
+				goto IL_00b2_1;
+			}
+
+IL_0094_1:
+			{
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* L_17 = (&__this->___U3CtaskU3E5__3_6);
+				String_t* L_18 = L_17->___Name_1;
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* L_19 = (&__this->___U3CtaskU3E5__3_6);
+				int32_t L_20 = L_19->___Type_2;
+				NullCheck(G_B6_0);
+				InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_inline(G_B6_0, L_18, (bool)((((int32_t)L_20) == ((int32_t)1))? 1 : 0), NULL);
+			}
+
+IL_00b2_1:
+			{
+				// switch (task.Type)
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* L_21 = (&__this->___U3CtaskU3E5__3_6);
+				int32_t L_22 = L_21->___Type_2;
+				V_5 = L_22;
+				int32_t L_23 = V_5;
+				if (!L_23)
+				{
+					goto IL_00ca_1;
+				}
+			}
+			{
+				int32_t L_24 = V_5;
+				if ((((int32_t)L_24) == ((int32_t)1)))
+				{
+					goto IL_00e8_1;
+				}
+			}
+			{
+				goto IL_0122_1;
+			}
+
+IL_00ca_1:
+			{
+				// WrapThrowingAction(_actions[task.ID]);
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_25 = V_2;
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_26 = V_2;
+				NullCheck(L_26);
+				Dictionary_2_t9E7483E73237E81F9DA6D865FCC04ADE2AB22F48* L_27 = L_26->____actions_4;
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* L_28 = (&__this->___U3CtaskU3E5__3_6);
+				int32_t L_29 = L_28->___ID_0;
+				NullCheck(L_27);
+				Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_30;
+				L_30 = Dictionary_2_get_Item_m1F4D567D3F380947DD99B9FD103E365BF5DD83BF(L_27, L_29, Dictionary_2_get_Item_m1F4D567D3F380947DD99B9FD103E365BF5DD83BF_RuntimeMethod_var);
+				NullCheck(L_25);
+				SpeechProcessorDependency_WrapThrowingAction_m0ADE596016E9A9747DFE377066B8F22482683032(L_25, L_30, NULL);
+				// break;
+				goto IL_012d_1;
+			}
+
+IL_00e8_1:
+			{
+				// yield return WrapThrowingCoroutine(_coroutines[task.ID]);
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_31 = V_2;
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_32 = V_2;
+				NullCheck(L_32);
+				Dictionary_2_tA6DC8C0F03275A94487E0C8148E65A9BFE71CFCE* L_33 = L_32->____coroutines_5;
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* L_34 = (&__this->___U3CtaskU3E5__3_6);
+				int32_t L_35 = L_34->___ID_0;
+				NullCheck(L_33);
+				Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_36;
+				L_36 = Dictionary_2_get_Item_m1AC99E3ADC73E49AD4DB959D0DD87272825B0697(L_33, L_35, Dictionary_2_get_Item_m1AC99E3ADC73E49AD4DB959D0DD87272825B0697_RuntimeMethod_var);
+				NullCheck(L_31);
+				RuntimeObject* L_37;
+				L_37 = SpeechProcessorDependency_WrapThrowingCoroutine_m853522332794BC34FA44B8B139B815E3F512D138(L_31, L_36, NULL);
+				__this->___U3CU3E2__current_1 = L_37;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_37);
+				__this->___U3CU3E1__state_0 = 1;
+				V_0 = (bool)1;
+				goto IL_01be;
+			}
+
+IL_0118_1:
+			{
+				__this->___U3CU3E1__state_0 = ((int32_t)-3);
+				// break;
+				goto IL_012d_1;
+			}
+
+IL_0122_1:
+			{
+				// throw new ArgumentOutOfRangeException(nameof(task.Type));
+				ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_38 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+				NullCheck(L_38);
+				ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_38, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA15CF7E1CEFBD0C475E3A89A80B5393D417F8634)), NULL);
+				IL2CPP_RAISE_MANAGED_EXCEPTION(L_38, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeU3Ed__10_MoveNext_mDEAB0734F7A8F6279409E0657FE2D43D652C146D_RuntimeMethod_var)));
+			}
+
+IL_012d_1:
+			{
+				// if (_initializationState.Exception == null)
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_39 = V_2;
+				NullCheck(L_39);
+				InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12* L_40 = (&L_39->____initializationState_7);
+				Exception_t* L_41 = L_40->___Exception_1;
+				if (!L_41)
+				{
+					goto IL_0165_1;
+				}
+			}
+			{
+				// initializationFailedCallback?.Invoke(task.Name, _initializationState.Exception);
+				InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* L_42 = __this->___initializationFailedCallback_4;
+				InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* L_43 = L_42;
+				G_B16_0 = L_43;
+				if (L_43)
+				{
+					G_B17_0 = L_43;
+					goto IL_0146_1;
+				}
+			}
+			{
+				goto IL_0161_1;
+			}
+
+IL_0146_1:
+			{
+				TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C* L_44 = (&__this->___U3CtaskU3E5__3_6);
+				String_t* L_45 = L_44->___Name_1;
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_46 = V_2;
+				NullCheck(L_46);
+				InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12* L_47 = (&L_46->____initializationState_7);
+				Exception_t* L_48 = L_47->___Exception_1;
+				NullCheck(G_B17_0);
+				InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_inline(G_B17_0, L_45, L_48, NULL);
+			}
+
+IL_0161_1:
+			{
+				// yield break;
+				V_0 = (bool)0;
+				goto IL_017d_1;
+			}
+
+IL_0165_1:
+			{
+				// foreach (var task in readyTasks)
+				RuntimeObject* L_49 = __this->___U3CU3E7__wrap1_5;
+				NullCheck(L_49);
+				bool L_50;
+				L_50 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_49);
+				if (L_50)
+				{
+					goto IL_0077_1;
+				}
+			}
+			{
+				U3CInitializeU3Ed__10_U3CU3Em__Finally1_mD5F97A0684974A6F2C8F0AA1069C3E9A40B073A8(__this, NULL);
+				goto IL_0185_1;
+			}
+
+IL_017d_1:
+			{
+				U3CInitializeU3Ed__10_U3CU3Em__Finally1_mD5F97A0684974A6F2C8F0AA1069C3E9A40B073A8(__this, NULL);
+				goto IL_01be;
+			}
+
+IL_0185_1:
+			{
+				__this->___U3CU3E7__wrap1_5 = (RuntimeObject*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_5), (void*)(RuntimeObject*)NULL);
+				// _isFirstRun = false;
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_51 = V_2;
+				NullCheck(L_51);
+				L_51->____isFirstRun_8 = (bool)0;
+				// _initializationState = new InitializationState
+				// {
+				//     IsActive = false,
+				//     Exception = null
+				// };
+				SpeechProcessorDependency_t726BCA847289384E4E68E342D833B1BB20D27A7F* L_52 = V_2;
+				il2cpp_codegen_initobj((&V_4), sizeof(InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12));
+				(&V_4)->___IsActive_0 = (bool)0;
+				(&V_4)->___Exception_1 = (Exception_t*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&(&V_4)->___Exception_1), (void*)(Exception_t*)NULL);
+				InitializationState_t463C006C186B4352E18AB125AE6CBF39DA0A7D12 L_53 = V_4;
+				NullCheck(L_52);
+				L_52->____initializationState_7 = L_53;
+				Il2CppCodeGenWriteBarrier((void**)&(((&L_52->____initializationState_7))->___Exception_1), (void*)NULL);
+				// }
+				V_0 = (bool)0;
+				goto IL_01be;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_01be:
+	{
+		bool L_54 = V_0;
+		return L_54;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10_U3CU3Em__Finally1_mD5F97A0684974A6F2C8F0AA1069C3E9A40B073A8 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		RuntimeObject* L_0 = __this->___U3CU3E7__wrap1_5;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject* L_1 = __this->___U3CU3E7__wrap1_5;
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_1);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Object Recognissimo.SpeechProcessorDependency/<Initialize>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE7109BD79505B5CD28811DEB55EBA4D33153CFAA (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.SpeechProcessorDependency/<Initialize>d__10::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeU3Ed__10_System_Collections_IEnumerator_Reset_mEAD2EAF6B3FFDDFEAE888045210E58D29E17BFD4 (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeU3Ed__10_System_Collections_IEnumerator_Reset_mEAD2EAF6B3FFDDFEAE888045210E58D29E17BFD4_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.SpeechProcessorDependency/<Initialize>d__10::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeU3Ed__10_System_Collections_IEnumerator_get_Current_mC9CAD633E06DC477449654BB61BDA53971588A1D (U3CInitializeU3Ed__10_t35DD17355DA1AB6B60DDA6137A20E9BAAB0A45D7* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.SamplesReadyEventArgs::.ctor(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4 (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___length1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public SamplesReadyEventArgs(float[] samples, int length)
+		il2cpp_codegen_runtime_class_init_inline(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3(__this, NULL);
+		// Samples = samples;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___samples0;
+		__this->___U3CSamplesU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSamplesU3Ek__BackingField_1), (void*)L_0);
+		// Length = length;
+		int32_t L_1 = ___length1;
+		__this->___U3CLengthU3Ek__BackingField_2 = L_1;
+		// }
+		return;
+	}
+}
+// System.Single[] Recognissimo.SamplesReadyEventArgs::get_Samples()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* SamplesReadyEventArgs_get_Samples_mCB99C3B59102609A7C1FE678DE7E242CD517A965 (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float[] Samples { get; }
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = __this->___U3CSamplesU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Int32 Recognissimo.SamplesReadyEventArgs::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SamplesReadyEventArgs_get_Length_m703E44F02EF383CE791E6C6DE1BF8A7995B4E019 (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int Length { get; }
+		int32_t L_0 = __this->___U3CLengthU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.RuntimeFailureEventArgs::.ctor(Recognissimo.SpeechSourceRuntimeException)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeFailureEventArgs__ctor_m72916B97B2284C63FE51EBF9CAFE69B7B77BC7E1 (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* __this, SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* ___exception0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public RuntimeFailureEventArgs(SpeechSourceRuntimeException exception)
+		il2cpp_codegen_runtime_class_init_inline(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3(__this, NULL);
+		// Exception = exception;
+		SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* L_0 = ___exception0;
+		__this->___U3CExceptionU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField_1), (void*)L_0);
+		// }
+		return;
+	}
+}
+// Recognissimo.SpeechSourceRuntimeException Recognissimo.RuntimeFailureEventArgs::get_Exception()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* RuntimeFailureEventArgs_get_Exception_mC1D0576834622F48AAE6A59C167556F6AF94F289 (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* __this, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechSourceRuntimeException Exception { get; }
+		SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* L_0 = __this->___U3CExceptionU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Recognissimo.SpeechSource::get_SampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechSource_get_SampleRate_mE36BEE2C96F4FA25D1069640DDC7DA9B522B6E26 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, const RuntimeMethod* method) 
+{
+	{
+		// public virtual int SampleRate { get; protected set; }
+		int32_t L_0 = __this->___U3CSampleRateU3Ek__BackingField_10;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.SpeechSource::set_SampleRate(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_set_SampleRate_mC4A70DEDEA4601BED996476BA24D58DED3DC611C (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public virtual int SampleRate { get; protected set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CSampleRateU3Ek__BackingField_10 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::add_SamplesReady(System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_add_SamplesReady_mEAF811D38525F4CB15BE63539A079E967DDE3CE0 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* V_0 = NULL;
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* V_1 = NULL;
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* V_2 = NULL;
+	{
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_0 = __this->___SamplesReady_11;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_2 = V_1;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		V_2 = ((EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)Castclass((RuntimeObject*)L_4, EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var));
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC** L_5 = (&__this->___SamplesReady_11);
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_6 = V_2;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_7 = V_1;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_9 = V_0;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)L_9) == ((RuntimeObject*)(EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::remove_SamplesReady(System.EventHandler`1<Recognissimo.SamplesReadyEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_remove_SamplesReady_m15AA39422981D392AC55B212652E3598A2C5E61E (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* V_0 = NULL;
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* V_1 = NULL;
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* V_2 = NULL;
+	{
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_0 = __this->___SamplesReady_11;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_2 = V_1;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		V_2 = ((EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)Castclass((RuntimeObject*)L_4, EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC_il2cpp_TypeInfo_var));
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC** L_5 = (&__this->___SamplesReady_11);
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_6 = V_2;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_7 = V_1;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_9 = V_0;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)L_9) == ((RuntimeObject*)(EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::add_Dried(System.EventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_add_Dried_m14FC5D1DEA0C294E2E1F51FC2D2AEB2003B5FCF8 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* V_0 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* V_1 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* V_2 = NULL;
+	{
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_0 = __this->___Dried_12;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_2 = V_1;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		V_2 = ((EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)CastclassSealed((RuntimeObject*)L_4, EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var));
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82** L_5 = (&__this->___Dried_12);
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_6 = V_2;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_7 = V_1;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_9 = V_0;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)L_9) == ((RuntimeObject*)(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::remove_Dried(System.EventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_remove_Dried_m70B8CA6390DCFDF53FFC58987058512640C4F34D (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* V_0 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* V_1 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* V_2 = NULL;
+	{
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_0 = __this->___Dried_12;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_2 = V_1;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		V_2 = ((EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)CastclassSealed((RuntimeObject*)L_4, EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82_il2cpp_TypeInfo_var));
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82** L_5 = (&__this->___Dried_12);
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_6 = V_2;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_7 = V_1;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_9 = V_0;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)L_9) == ((RuntimeObject*)(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::add_RuntimeFailure(System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_add_RuntimeFailure_m796451EC6E9025BCF2F69F64FEB45757A50DBE82 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* V_0 = NULL;
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* V_1 = NULL;
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* V_2 = NULL;
+	{
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_0 = __this->___RuntimeFailure_13;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_2 = V_1;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		V_2 = ((EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)Castclass((RuntimeObject*)L_4, EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var));
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD** L_5 = (&__this->___RuntimeFailure_13);
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_6 = V_2;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_7 = V_1;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_9 = V_0;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)L_9) == ((RuntimeObject*)(EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::remove_RuntimeFailure(System.EventHandler`1<Recognissimo.RuntimeFailureEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_remove_RuntimeFailure_mBFF355656323AA7CF2C3D1CBF1BF8BD378A450F2 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* V_0 = NULL;
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* V_1 = NULL;
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* V_2 = NULL;
+	{
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_0 = __this->___RuntimeFailure_13;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_2 = V_1;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		V_2 = ((EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)Castclass((RuntimeObject*)L_4, EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD_il2cpp_TypeInfo_var));
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD** L_5 = (&__this->___RuntimeFailure_13);
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_6 = V_2;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_7 = V_1;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_9 = V_0;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)L_9) == ((RuntimeObject*)(EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::OnSamplesReady(Recognissimo.SamplesReadyEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049 (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* ___eventArgs0, const RuntimeMethod* method) 
+{
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* G_B2_0 = NULL;
+	EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* G_B1_0 = NULL;
+	{
+		// SamplesReady?.Invoke(this, eventArgs);
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_0 = __this->___SamplesReady_11;
+		EventHandler_1_t5BF7550A656D93F8D774FAA92B1B122D201639EC* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_2 = ___eventArgs0;
+		NullCheck(G_B2_0);
+		EventHandler_1_Invoke_m139C6C78AC14EF9538D4612D090FD15B00129465_inline(G_B2_0, __this, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::OnDried()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_OnDried_mCC48EA6826A47B78CBDF98CAF04EBBC903EF25AC (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* G_B2_0 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* G_B1_0 = NULL;
+	{
+		// Dried?.Invoke(this, EventArgs.Empty);
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_0 = __this->___Dried_12;
+		EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* L_2 = ((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields*)il2cpp_codegen_static_fields_for(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var))->___Empty_0;
+		NullCheck(G_B2_0);
+		EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline(G_B2_0, __this, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::OnRuntimeFailure(Recognissimo.RuntimeFailureEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource_OnRuntimeFailure_mD2CC4A830D62597029E5C154C36C80AB3E7C88EE (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* ___eventArgs0, const RuntimeMethod* method) 
+{
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* G_B2_0 = NULL;
+	EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* G_B1_0 = NULL;
+	{
+		// RuntimeFailure?.Invoke(this, eventArgs);
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_0 = __this->___RuntimeFailure_13;
+		EventHandler_1_tFD55C556B21539546A90596D7E6348C2DA54F1CD* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* L_2 = ___eventArgs0;
+		NullCheck(G_B2_0);
+		EventHandler_1_Invoke_mE66DD424805D985125C68E710F45486AB82169D9_inline(G_B2_0, __this, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.SpeechSource::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSource__ctor_m84833D3DA5A6B824F4D1C68435D2CAA186FAF5AE (SpeechSource_tDC716CBD3D87242973A29DCB9A1A9CE56FD6116C* __this, const RuntimeMethod* method) 
+{
+	{
+		SpeechProcessorDependency__ctor_m722A928C76AF7BB927DDF58A45FEDF636505E85C(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.AlgorithmHandle::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlgorithmHandle__ctor_mCB8C45054789FBFA8E527F9E2EE4E20A9C70BB10 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* __this, const RuntimeMethod* method) 
+{
+	{
+		// public AlgorithmHandle() : base(true)
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Core.AlgorithmHandle::ReleaseHandle()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AlgorithmHandle_ReleaseHandle_m5BE454FE55DD1EB0D717A72684061359E768B3DE (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{// begin try (depth: 1)
+		// PInvoke.ReleaseAlgorithm(handle);
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle_0;
+		PInvoke_ReleaseAlgorithm_m81BEF6A2CD2416EE1D7BAA0E14E3303888766C66(L_0, NULL);
+		// return true;
+		V_0 = (bool)1;
+		goto IL_0014;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_000f;
+		}
+		throw e;
+	}
+
+CATCH_000f:
+	{// begin catch(System.Object)
+		// catch
+		// return false;
+		V_0 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0014;
+	}// end catch (depth: 1)
+
+IL_0014:
+	{
+		// }
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Recognissimo.Core.AlgorithmHandle Recognissimo.Core.PInvoke::CreateAlgorithm(Recognissimo.Core.AlgorithmType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* PInvoke_CreateAlgorithm_mAFCF4A87212F0F83110906A6BC0303ABA1FE1F7C (int32_t ___type0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	typedef void* (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Algorithm_Create", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	void* returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_Algorithm_Create)(___type0);
+	#else
+	void* returnValue = il2cppPInvokeFunc(___type0);
+	#endif
+
+	// Marshaling of return value back from native representation
+	AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* _returnValue_unmarshaled = (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4*)il2cpp_codegen_object_new(AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4_il2cpp_TypeInfo_var);
+	AlgorithmHandle__ctor_mCB8C45054789FBFA8E527F9E2EE4E20A9C70BB10(_returnValue_unmarshaled, NULL);
+	intptr_t _returnValue_unmarshaled_handle_temp;
+	_returnValue_unmarshaled_handle_temp = (intptr_t)returnValue;
+	(_returnValue_unmarshaled)->___handle_0 = _returnValue_unmarshaled_handle_temp;
+
+	return _returnValue_unmarshaled;
+}
+// System.Void Recognissimo.Core.PInvoke::ReleaseAlgorithm(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_ReleaseAlgorithm_m81BEF6A2CD2416EE1D7BAA0E14E3303888766C66 (intptr_t ___algorithm0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Algorithm_Free", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_Algorithm_Free)(___algorithm0);
+	#else
+	il2cppPInvokeFunc(___algorithm0);
+	#endif
+
+}
+// Recognissimo.Core.ContextHandle Recognissimo.Core.PInvoke::CreateContext(Recognissimo.Core.AlgorithmHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* PInvoke_CreateContext_m5B2AFEE83D3C2332AFA892900459339AA443CA38 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithmHandle0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	typedef void* (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_Create", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithmHandle0' to native representation
+	void* ____algorithmHandle0_marshaled = NULL;
+	if (___algorithmHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithmHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithmHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithmHandle0, (&___safeHandle_reference_incremented_for____algorithmHandle0), NULL);
+	____algorithmHandle0_marshaled = reinterpret_cast<void*>((___algorithmHandle0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	void* returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_Context_Create)(____algorithmHandle0_marshaled);
+	#else
+	void* returnValue = il2cppPInvokeFunc(____algorithmHandle0_marshaled);
+	#endif
+
+	// Marshaling of return value back from native representation
+	ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* _returnValue_unmarshaled = (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655*)il2cpp_codegen_object_new(ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655_il2cpp_TypeInfo_var);
+	ContextHandle__ctor_m366B1F7CCCDE1305802BFC1B82482B32BF72510C(_returnValue_unmarshaled, NULL);
+	intptr_t _returnValue_unmarshaled_handle_temp;
+	_returnValue_unmarshaled_handle_temp = (intptr_t)returnValue;
+	(_returnValue_unmarshaled)->___handle_0 = _returnValue_unmarshaled_handle_temp;
+
+	// Marshaling cleanup of parameter '___algorithmHandle0' native representation
+	if (___safeHandle_reference_incremented_for____algorithmHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithmHandle0, NULL);
+	}
+
+	return _returnValue_unmarshaled;
+}
+// System.Void Recognissimo.Core.PInvoke::ReleaseContext(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_ReleaseContext_mDEC6AA9E6B4D9842C643E3B3479DA76B4EBF31BF (intptr_t ___contextHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_Free", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_Context_Free)(___contextHandle0);
+	#else
+	il2cppPInvokeFunc(___contextHandle0);
+	#endif
+
+}
+// System.Int32 Recognissimo.Core.PInvoke::Start(Recognissimo.Core.ContextHandle,Recognissimo.Core.LanguageModelResourceHandle,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PInvoke_Start_m4819288B5D003A16C6450CA253C419385E6D2450 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* ___modelResourceHandle1, int32_t ___sampleRate2, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, void*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_Start", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Marshaling of parameter '___modelResourceHandle1' to native representation
+	void* ____modelResourceHandle1_marshaled = NULL;
+	if (___modelResourceHandle1 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("modelResourceHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____modelResourceHandle1 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___modelResourceHandle1, (&___safeHandle_reference_incremented_for____modelResourceHandle1), NULL);
+	____modelResourceHandle1_marshaled = reinterpret_cast<void*>((___modelResourceHandle1)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_Context_Start)(____contextHandle0_marshaled, ____modelResourceHandle1_marshaled, ___sampleRate2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____contextHandle0_marshaled, ____modelResourceHandle1_marshaled, ___sampleRate2);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+	// Marshaling cleanup of parameter '___modelResourceHandle1' native representation
+	if (___safeHandle_reference_incremented_for____modelResourceHandle1)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___modelResourceHandle1, NULL);
+	}
+
+	return returnValue;
+}
+// System.Void Recognissimo.Core.PInvoke::Stop(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_Stop_m0F4A18F730CAE7391E9AFC2D364052DF2FD0002C (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_Stop", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_Context_Stop)(____contextHandle0_marshaled);
+	#else
+	il2cppPInvokeFunc(____contextHandle0_marshaled);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+}
+// System.Void Recognissimo.Core.PInvoke::Abort(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_Abort_m9D13F4D1259839F7A1BAB4328708DCA12B6F23B4 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_Abort", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_Context_Abort)(____contextHandle0_marshaled);
+	#else
+	il2cppPInvokeFunc(____contextHandle0_marshaled);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+}
+// Recognissimo.Core.PInvoke/NativeErrorReport Recognissimo.Core.PInvoke::LastError(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA PInvoke_LastError_mDC6C9E6DDD6F36EEEB1909296BA98D0F08F7BBDE (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) 
+{
+	typedef NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_LastError", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_Context_LastError)(____contextHandle0_marshaled);
+	#else
+	NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA returnValue = il2cppPInvokeFunc(____contextHandle0_marshaled);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+	return returnValue;
+}
+// Recognissimo.Core.ContextEvent Recognissimo.Core.PInvoke::NextEvent(Recognissimo.Core.ContextHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PInvoke_NextEvent_mA5414B181664EC7F45930CD89AEDC68AA6BEB9F7 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_NextEvent", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_Context_NextEvent)(____contextHandle0_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____contextHandle0_marshaled);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+	return returnValue;
+}
+// System.Void Recognissimo.Core.PInvoke::EnqueueFloat32(Recognissimo.Core.ContextHandle,System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_EnqueueFloat32_m61F6C42F217C1C3B9B57983B57FD84EDA89B4B88 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples1, int32_t ___length2, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, float*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_EnqueueFloat32", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Marshaling of parameter '___samples1' to native representation
+	float* ____samples1_marshaled = NULL;
+	if (___samples1 != NULL)
+	{
+		____samples1_marshaled = reinterpret_cast<float*>((___samples1)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_Context_EnqueueFloat32)(____contextHandle0_marshaled, ____samples1_marshaled, ___length2);
+	#else
+	il2cppPInvokeFunc(____contextHandle0_marshaled, ____samples1_marshaled, ___length2);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+}
+// System.Void Recognissimo.Core.PInvoke::EnqueuePcm16(Recognissimo.Core.ContextHandle,System.Int16[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_EnqueuePcm16_m993FFB5800F9998897061E6CE5A476A506F47D38 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* ___contextHandle0, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___samples1, int32_t ___length2, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int16_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_Context_EnqueuePCM16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___contextHandle0' to native representation
+	void* ____contextHandle0_marshaled = NULL;
+	if (___contextHandle0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("contextHandle"), NULL);
+	bool ___safeHandle_reference_incremented_for____contextHandle0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___contextHandle0, (&___safeHandle_reference_incremented_for____contextHandle0), NULL);
+	____contextHandle0_marshaled = reinterpret_cast<void*>((___contextHandle0)->___handle_0);
+
+	// Marshaling of parameter '___samples1' to native representation
+	int16_t* ____samples1_marshaled = NULL;
+	if (___samples1 != NULL)
+	{
+		____samples1_marshaled = reinterpret_cast<int16_t*>((___samples1)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_Context_EnqueuePCM16)(____contextHandle0_marshaled, ____samples1_marshaled, ___length2);
+	#else
+	il2cppPInvokeFunc(____contextHandle0_marshaled, ____samples1_marshaled, ___length2);
+	#endif
+
+	// Marshaling cleanup of parameter '___contextHandle0' native representation
+	if (___safeHandle_reference_incremented_for____contextHandle0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___contextHandle0, NULL);
+	}
+
+}
+// Recognissimo.Core.LanguageModelResourceHandle Recognissimo.Core.PInvoke::CreateLanguageModel(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* PInvoke_CreateLanguageModel_m49A8D2DF33AD0092DFD80DE20F147F2FC0229C7D (String_t* ___path0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	typedef void* (DEFAULT_CALL *PInvokeFunc) (char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_LanguageModel_Create", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___path0' to native representation
+	char* ____path0_marshaled = NULL;
+	____path0_marshaled = il2cpp_codegen_marshal_string(___path0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	void* returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_LanguageModel_Create)(____path0_marshaled);
+	#else
+	void* returnValue = il2cppPInvokeFunc(____path0_marshaled);
+	#endif
+
+	// Marshaling of return value back from native representation
+	LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* _returnValue_unmarshaled = (LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535*)il2cpp_codegen_object_new(LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535_il2cpp_TypeInfo_var);
+	LanguageModelResourceHandle__ctor_mA5D23BA550B0ACA6E9515EBF81BA90D49D167498(_returnValue_unmarshaled, NULL);
+	intptr_t _returnValue_unmarshaled_handle_temp;
+	_returnValue_unmarshaled_handle_temp = (intptr_t)returnValue;
+	(_returnValue_unmarshaled)->___handle_0 = _returnValue_unmarshaled_handle_temp;
+
+	// Marshaling cleanup of parameter '___path0' native representation
+	il2cpp_codegen_marshal_free(____path0_marshaled);
+	____path0_marshaled = NULL;
+
+	return _returnValue_unmarshaled;
+}
+// System.Void Recognissimo.Core.PInvoke::ReleaseLanguageModel(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PInvoke_ReleaseLanguageModel_mC28F672044C913EFD9E0AA09BE33DAB8DFD73D65 (intptr_t ___languageModelResource0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_LanguageModel_Free", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Recognissimo_LanguageModel_Free)(___languageModelResource0);
+	#else
+	il2cppPInvokeFunc(___languageModelResource0);
+	#endif
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.Algorithm::.ctor(Recognissimo.Core.AlgorithmType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Algorithm__ctor_m5B793AC45A112B8BDB4C51DC659345C400161C77 (Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* __this, int32_t ___type0, const RuntimeMethod* method) 
+{
+	{
+		// internal Algorithm(AlgorithmType type)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Handle = PInvoke.CreateAlgorithm(type);
+		int32_t L_0 = ___type0;
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_1;
+		L_1 = PInvoke_CreateAlgorithm_mAFCF4A87212F0F83110906A6BC0303ABA1FE1F7C(L_0, NULL);
+		__this->___Handle_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Handle_0), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.Algorithm::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Algorithm_Dispose_m8A77827C31D83E30A6800EACC2CCBFDFA2BD103F (Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* __this, const RuntimeMethod* method) 
+{
+	AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* V_0 = NULL;
+	AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* G_B4_0 = NULL;
+	AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* G_B3_0 = NULL;
+	{
+		// if (Handle is {IsInvalid: false})
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = __this->___Handle_0;
+		V_0 = L_0;
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_2 = V_0;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(5 /* System.Boolean System.Runtime.InteropServices.SafeHandle::get_IsInvalid() */, L_2);
+		if (L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// Handle?.Dispose();
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_4 = __this->___Handle_0;
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_5 = L_4;
+		G_B3_0 = L_5;
+		if (L_5)
+		{
+			G_B4_0 = L_5;
+			goto IL_001d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001d:
+	{
+		NullCheck(G_B4_0);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(G_B4_0, NULL);
+	}
+
+IL_0022:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.ContextHandle::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextHandle__ctor_m366B1F7CCCDE1305802BFC1B82482B32BF72510C (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ContextHandle() : base(true)
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Core.ContextHandle::ReleaseHandle()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ContextHandle_ReleaseHandle_mB56BA39DED508C8270FC3A8FFD9FF595C3594C57 (ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{// begin try (depth: 1)
+		// PInvoke.ReleaseContext(handle);
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle_0;
+		PInvoke_ReleaseContext_mDEC6AA9E6B4D9842C643E3B3479DA76B4EBF31BF(L_0, NULL);
+		// return true;
+		V_0 = (bool)1;
+		goto IL_0014;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_000f;
+		}
+		throw e;
+	}
+
+CATCH_000f:
+	{// begin catch(System.Object)
+		// catch
+		// return false;
+		V_0 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0014;
+	}// end catch (depth: 1)
+
+IL_0014:
+	{
+		// }
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Core.ErrorReport
+IL2CPP_EXTERN_C void ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshal_pinvoke(const ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF& unmarshaled, ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Error_0 = unmarshaled.___Error_0;
+	marshaled.___Description_1 = il2cpp_codegen_marshal_string(unmarshaled.___Description_1);
+}
+IL2CPP_EXTERN_C void ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshal_pinvoke_back(const ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_pinvoke& marshaled, ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF& unmarshaled)
+{
+	int32_t unmarshaledError_temp_0 = 0;
+	unmarshaledError_temp_0 = marshaled.___Error_0;
+	unmarshaled.___Error_0 = unmarshaledError_temp_0;
+	unmarshaled.___Description_1 = il2cpp_codegen_marshal_string_result(marshaled.___Description_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Description_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___Description_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.ErrorReport
+IL2CPP_EXTERN_C void ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshal_pinvoke_cleanup(ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___Description_1);
+	marshaled.___Description_1 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Core.ErrorReport
+IL2CPP_EXTERN_C void ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshal_com(const ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF& unmarshaled, ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_com& marshaled)
+{
+	marshaled.___Error_0 = unmarshaled.___Error_0;
+	marshaled.___Description_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___Description_1);
+}
+IL2CPP_EXTERN_C void ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshal_com_back(const ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_com& marshaled, ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF& unmarshaled)
+{
+	int32_t unmarshaledError_temp_0 = 0;
+	unmarshaledError_temp_0 = marshaled.___Error_0;
+	unmarshaled.___Error_0 = unmarshaledError_temp_0;
+	unmarshaled.___Description_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___Description_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Description_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___Description_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.ErrorReport
+IL2CPP_EXTERN_C void ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshal_com_cleanup(ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___Description_1);
+	marshaled.___Description_1 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.Context::.ctor(Recognissimo.Core.Algorithm)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context__ctor_m1D0ABCB69C1A9D50954FBC273F3673973EBFDF8C (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* ___algorithm0, const RuntimeMethod* method) 
+{
+	{
+		// public Context(Algorithm algorithm)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// if (algorithm == null)
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_0 = ___algorithm0;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		// throw new ArgumentNullException(nameof(algorithm));
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_1);
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA9AF8D13B64E63A31A01386E007E5C9CF3A6CF5B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Context__ctor_m1D0ABCB69C1A9D50954FBC273F3673973EBFDF8C_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		// _handle = PInvoke.CreateContext(algorithm.Handle);
+		Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* L_2 = ___algorithm0;
+		NullCheck(L_2);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_3 = L_2->___Handle_0;
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_4;
+		L_4 = PInvoke_CreateContext_m5B2AFEE83D3C2332AFA892900459339AA443CA38(L_3, NULL);
+		__this->____handle_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____handle_0), (void*)L_4);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.Context::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Dispose_m0D79CFF3952585C3356B23590E7DE131E8210EA3 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (_handle != null && !_handle.IsInvalid)
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_1 = __this->____handle_0;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5 /* System.Boolean System.Runtime.InteropServices.SafeHandle::get_IsInvalid() */, L_1);
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// _handle.Dispose();
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_3 = __this->____handle_0;
+		NullCheck(L_3);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(L_3, NULL);
+	}
+
+IL_0020:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.Context::Start(Recognissimo.Core.LanguageModelResource,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Start_m293ACA7EA42AE438ED724D46235EABBF5D304B37 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* ___modelResource0, int32_t ___sampleRate1, const RuntimeMethod* method) 
+{
+	{
+		// PInvoke.Start(_handle, modelResource.Handle, sampleRate);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* L_1 = ___modelResource0;
+		NullCheck(L_1);
+		LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* L_2 = L_1->___Handle_0;
+		int32_t L_3 = ___sampleRate1;
+		int32_t L_4;
+		L_4 = PInvoke_Start_m4819288B5D003A16C6450CA253C419385E6D2450(L_0, L_2, L_3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.Context::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Stop_mB88A29BD7511AC5764FA137A15C87BCDF3EFF635 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) 
+{
+	{
+		// PInvoke.Stop(_handle);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		PInvoke_Stop_m0F4A18F730CAE7391E9AFC2D364052DF2FD0002C(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.Context::Abort()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_Abort_mD1E1D70C6448093E2EBA6FFD7D85A50796980DC5 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) 
+{
+	{
+		// PInvoke.Abort(_handle);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		PInvoke_Abort_m9D13F4D1259839F7A1BAB4328708DCA12B6F23B4(L_0, NULL);
+		// }
+		return;
+	}
+}
+// Recognissimo.Core.ErrorReport Recognissimo.Core.Context::LastError()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF Context_LastError_mAF432C98298C3B62D23784AE9879EF45BE7AF012 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// var nativeReport = PInvoke.LastError(_handle);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA L_1;
+		L_1 = PInvoke_LastError_mDC6C9E6DDD6F36EEEB1909296BA98D0F08F7BBDE(L_0, NULL);
+		V_0 = L_1;
+		// return new ErrorReport
+		// {
+		//     Error = nativeReport.Error,
+		//     Description = Marshal.PtrToStringAnsi(nativeReport.DescriptionPtr)
+		// };
+		il2cpp_codegen_initobj((&V_1), sizeof(ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF));
+		NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA L_2 = V_0;
+		int32_t L_3 = L_2.___Error_0;
+		(&V_1)->___Error_0 = L_3;
+		NativeErrorReport_t1D9E48B0196205D1B0F176B95F70C7873F3716BA L_4 = V_0;
+		intptr_t L_5 = L_4.___DescriptionPtr_1;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_6;
+		L_6 = Marshal_PtrToStringAnsi_m86CDF46D9E4810BD7DB9BB52C1036E24A7DD46EE(L_5, NULL);
+		(&V_1)->___Description_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Description_1), (void*)L_6);
+		ErrorReport_tEF3185A684AB0805D96621C6155B82DC08CA16DF L_7 = V_1;
+		return L_7;
+	}
+}
+// Recognissimo.Core.ContextEvent Recognissimo.Core.Context::NextEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Context_NextEvent_m8B79479AEDC6977DD20C5B63E1829F649D92E7C5 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, const RuntimeMethod* method) 
+{
+	{
+		// return PInvoke.NextEvent(_handle);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		int32_t L_1;
+		L_1 = PInvoke_NextEvent_mA5414B181664EC7F45930CD89AEDC68AA6BEB9F7(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Core.Context::EnqueueFloat32(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_EnqueueFloat32_m55EC569A20FC9D13EC7AFEE42AF3697CAF277185 (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___buffer0, int32_t ___length1, const RuntimeMethod* method) 
+{
+	{
+		// PInvoke.EnqueueFloat32(_handle, buffer, length);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___buffer0;
+		int32_t L_2 = ___length1;
+		PInvoke_EnqueueFloat32_m61F6C42F217C1C3B9B57983B57FD84EDA89B4B88(L_0, L_1, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.Context::EnqueuePcm16(System.Int16[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Context_EnqueuePcm16_m01943453AAEC83D33536DD70A206B3D91BC2584E (Context_t0E9A624FFDEC08B3EBF5ADEA5A2C75D59C047FA0* __this, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___buffer0, int32_t ___length1, const RuntimeMethod* method) 
+{
+	{
+		// PInvoke.EnqueuePcm16(_handle, buffer, length);
+		ContextHandle_tB40C8F0828F99FB0B3B0B0C036466E1C3317E655* L_0 = __this->____handle_0;
+		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_1 = ___buffer0;
+		int32_t L_2 = ___length1;
+		PInvoke_EnqueuePcm16_m993FFB5800F9998897061E6CE5A476A506F47D38(L_0, L_1, L_2, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.LanguageModelResourceHandle::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelResourceHandle__ctor_mA5D23BA550B0ACA6E9515EBF81BA90D49D167498 (LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* __this, const RuntimeMethod* method) 
+{
+	{
+		// public LanguageModelResourceHandle() : base(true)
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Core.LanguageModelResourceHandle::ReleaseHandle()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LanguageModelResourceHandle_ReleaseHandle_mDF00173EB0E52B74A962BAD80AA31FB949A9EA59 (LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{// begin try (depth: 1)
+		// PInvoke.ReleaseLanguageModel(handle);
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle_0;
+		PInvoke_ReleaseLanguageModel_mC28F672044C913EFD9E0AA09BE33DAB8DFD73D65(L_0, NULL);
+		// return true;
+		V_0 = (bool)1;
+		goto IL_0014;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_000f;
+		}
+		throw e;
+	}
+
+CATCH_000f:
+	{// begin catch(System.Object)
+		// catch
+		// return false;
+		V_0 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0014;
+	}// end catch (depth: 1)
+
+IL_0014:
+	{
+		// }
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.LanguageModelResource::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelResource__ctor_m1F3425D564AD593ED28726F7F6C1DD54A3B75F3C (LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* __this, String_t* ___path0, const RuntimeMethod* method) 
+{
+	{
+		// public LanguageModelResource(string path)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Handle = PInvoke.CreateLanguageModel(path);
+		String_t* L_0 = ___path0;
+		LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* L_1;
+		L_1 = PInvoke_CreateLanguageModel_m49A8D2DF33AD0092DFD80DE20F147F2FC0229C7D(L_0, NULL);
+		__this->___Handle_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Handle_0), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.LanguageModelResource::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageModelResource_Dispose_mB4A633C07509A4C1DD1E491C3591EE83B692979A (LanguageModelResource_t72F45E47C51A0C723A6D3BE845F49A9867BF1376* __this, const RuntimeMethod* method) 
+{
+	LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* V_0 = NULL;
+	{
+		// if (Handle is {IsInvalid: false})
+		LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* L_0 = __this->___Handle_0;
+		V_0 = L_0;
+		LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* L_2 = V_0;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(5 /* System.Boolean System.Runtime.InteropServices.SafeHandle::get_IsInvalid() */, L_2);
+		if (L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// Handle.Dispose();
+		LanguageModelResourceHandle_t7DC17E4089895F7D33AF44BED4998D112B07D535* L_4 = __this->___Handle_0;
+		NullCheck(L_4);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(L_4, NULL);
+	}
+
+IL_001d:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.SpeechRecognizerAlgorithm::.ctor(System.Func`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Settings>,System.Action`1<Recognissimo.Core.SpeechRecognizerAlgorithm/Result>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizerAlgorithm__ctor_m841A86E53297A7156B6A45B51C2D134D2E3D19E0 (SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37* __this, Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* ___onSetup0, Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* ___onResult1, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechRecognizerAlgorithm(Func<Settings> onSetup, Action<Result> onResult) : base(AlgorithmType
+		//     .SpeechRecognizer)
+		Algorithm__ctor_m5B793AC45A112B8BDB4C51DC659345C400161C77(__this, 0, NULL);
+		// _onSetup = onSetup;
+		Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* L_0 = ___onSetup0;
+		__this->____onSetup_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSetup_2), (void*)L_0);
+		// _onResult = onResult;
+		Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* L_1 = ___onResult1;
+		__this->____onResult_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onResult_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Core.SpeechRecognizerAlgorithm::Setup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpeechRecognizerAlgorithm_Setup_mB638EB533C05DB59ACB3E17B83BAF21B81B4F37E (SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37* __this, const RuntimeMethod* method) 
+{
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var settings = _onSetup();
+		Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* L_0 = __this->____onSetup_2;
+		NullCheck(L_0);
+		Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A L_1;
+		L_1 = Func_1_Invoke_m42F6D3AE8491EF22A0615D6D6635EC672D819F56_inline(L_0, NULL);
+		V_0 = L_1;
+		// return PInvoke.Setup(Handle, settings.Vocabulary, settings.EnableDetails, settings.MaxAlternatives);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_2 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A L_3 = V_0;
+		String_t* L_4 = L_3.___Vocabulary_0;
+		Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A L_5 = V_0;
+		bool L_6 = L_5.___EnableDetails_1;
+		Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A L_7 = V_0;
+		int32_t L_8 = L_7.___MaxAlternatives_2;
+		bool L_9;
+		L_9 = PInvoke_Setup_mF4E3A79BD1C8926BA8FF5468C89A78B96AA104B5(L_2, L_4, L_6, L_8, NULL);
+		return L_9;
+	}
+}
+// System.Void Recognissimo.Core.SpeechRecognizerAlgorithm::LoadResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizerAlgorithm_LoadResult_m109A089F188A7E26CE64AE1F969F3481C0B360FB (SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// if (!PInvoke.TryGetResult(Handle, out var nativeResult))
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		bool L_1;
+		L_1 = PInvoke_TryGetResult_m458B734B0B11A61C776EDE275308F933881BC5B1(L_0, (&V_0), NULL);
+		if (L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0010:
+	{
+		// _onResult(new Result
+		// {
+		//     Data = Marshal.PtrToStringAnsi(nativeResult.Data),
+		//     ResultType = (ResultType) nativeResult.Complete
+		// });
+		Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* L_2 = __this->____onResult_1;
+		il2cpp_codegen_initobj((&V_1), sizeof(Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA));
+		NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9 L_3 = V_0;
+		intptr_t L_4 = L_3.___Data_1;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_5;
+		L_5 = Marshal_PtrToStringAnsi_m86CDF46D9E4810BD7DB9BB52C1036E24A7DD46EE(L_4, NULL);
+		(&V_1)->___Data_1 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Data_1), (void*)L_5);
+		NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9 L_6 = V_0;
+		int32_t L_7 = L_6.___Complete_0;
+		(&V_1)->___ResultType_0 = L_7;
+		Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA L_8 = V_1;
+		NullCheck(L_2);
+		Action_1_Invoke_mFE897E82D1C0190D5BF64D245D5013F2496FC98C_inline(L_2, L_8, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.SpeechRecognizerAlgorithm::DisposeResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizerAlgorithm_DisposeResult_m6575891667FC5D687331EC5D9A6CD8E41929167A (SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37* __this, const RuntimeMethod* method) 
+{
+	NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// PInvoke.TryGetResult(Handle, out _);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		bool L_1;
+		L_1 = PInvoke_TryGetResult_m458B734B0B11A61C776EDE275308F933881BC5B1(L_0, (&V_0), NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshal_pinvoke(const Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A& unmarshaled, Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Vocabulary_0 = il2cpp_codegen_marshal_string(unmarshaled.___Vocabulary_0);
+	marshaled.___EnableDetails_1 = static_cast<int32_t>(unmarshaled.___EnableDetails_1);
+	marshaled.___MaxAlternatives_2 = unmarshaled.___MaxAlternatives_2;
+}
+IL2CPP_EXTERN_C void Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshal_pinvoke_back(const Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_pinvoke& marshaled, Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A& unmarshaled)
+{
+	unmarshaled.___Vocabulary_0 = il2cpp_codegen_marshal_string_result(marshaled.___Vocabulary_0);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Vocabulary_0), (void*)il2cpp_codegen_marshal_string_result(marshaled.___Vocabulary_0));
+	bool unmarshaledEnableDetails_temp_1 = false;
+	unmarshaledEnableDetails_temp_1 = static_cast<bool>(marshaled.___EnableDetails_1);
+	unmarshaled.___EnableDetails_1 = unmarshaledEnableDetails_temp_1;
+	int32_t unmarshaledMaxAlternatives_temp_2 = 0;
+	unmarshaledMaxAlternatives_temp_2 = marshaled.___MaxAlternatives_2;
+	unmarshaled.___MaxAlternatives_2 = unmarshaledMaxAlternatives_temp_2;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshal_pinvoke_cleanup(Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___Vocabulary_0);
+	marshaled.___Vocabulary_0 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshal_com(const Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A& unmarshaled, Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_com& marshaled)
+{
+	marshaled.___Vocabulary_0 = il2cpp_codegen_marshal_bstring(unmarshaled.___Vocabulary_0);
+	marshaled.___EnableDetails_1 = static_cast<int32_t>(unmarshaled.___EnableDetails_1);
+	marshaled.___MaxAlternatives_2 = unmarshaled.___MaxAlternatives_2;
+}
+IL2CPP_EXTERN_C void Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshal_com_back(const Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_com& marshaled, Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A& unmarshaled)
+{
+	unmarshaled.___Vocabulary_0 = il2cpp_codegen_marshal_bstring_result(marshaled.___Vocabulary_0);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Vocabulary_0), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___Vocabulary_0));
+	bool unmarshaledEnableDetails_temp_1 = false;
+	unmarshaledEnableDetails_temp_1 = static_cast<bool>(marshaled.___EnableDetails_1);
+	unmarshaled.___EnableDetails_1 = unmarshaledEnableDetails_temp_1;
+	int32_t unmarshaledMaxAlternatives_temp_2 = 0;
+	unmarshaledMaxAlternatives_temp_2 = marshaled.___MaxAlternatives_2;
+	unmarshaled.___MaxAlternatives_2 = unmarshaledMaxAlternatives_temp_2;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshal_com_cleanup(Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___Vocabulary_0);
+	marshaled.___Vocabulary_0 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+IL2CPP_EXTERN_C void Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshal_pinvoke(const Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA& unmarshaled, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_pinvoke& marshaled)
+{
+	marshaled.___ResultType_0 = unmarshaled.___ResultType_0;
+	marshaled.___Data_1 = il2cpp_codegen_marshal_string(unmarshaled.___Data_1);
+}
+IL2CPP_EXTERN_C void Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshal_pinvoke_back(const Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_pinvoke& marshaled, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA& unmarshaled)
+{
+	int32_t unmarshaledResultType_temp_0 = 0;
+	unmarshaledResultType_temp_0 = marshaled.___ResultType_0;
+	unmarshaled.___ResultType_0 = unmarshaledResultType_temp_0;
+	unmarshaled.___Data_1 = il2cpp_codegen_marshal_string_result(marshaled.___Data_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Data_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___Data_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+IL2CPP_EXTERN_C void Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshal_pinvoke_cleanup(Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___Data_1);
+	marshaled.___Data_1 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+IL2CPP_EXTERN_C void Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshal_com(const Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA& unmarshaled, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_com& marshaled)
+{
+	marshaled.___ResultType_0 = unmarshaled.___ResultType_0;
+	marshaled.___Data_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___Data_1);
+}
+IL2CPP_EXTERN_C void Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshal_com_back(const Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_com& marshaled, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA& unmarshaled)
+{
+	int32_t unmarshaledResultType_temp_0 = 0;
+	unmarshaledResultType_temp_0 = marshaled.___ResultType_0;
+	unmarshaled.___ResultType_0 = unmarshaledResultType_temp_0;
+	unmarshaled.___Data_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___Data_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Data_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___Data_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.SpeechRecognizerAlgorithm/Result
+IL2CPP_EXTERN_C void Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshal_com_cleanup(Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___Data_1);
+	marshaled.___Data_1 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke::Setup(Recognissimo.Core.AlgorithmHandle,System.String,System.Boolean,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_Setup_mF4E3A79BD1C8926BA8FF5468C89A78B96AA104B5 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, String_t* ___vocabulary1, bool ___enableDetails2, int32_t ___maxAlternatives3, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(char*) + 4 + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_SpeechRecognizer_Setup", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithm0' to native representation
+	void* ____algorithm0_marshaled = NULL;
+	if (___algorithm0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithm"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithm0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithm0, (&___safeHandle_reference_incremented_for____algorithm0), NULL);
+	____algorithm0_marshaled = reinterpret_cast<void*>((___algorithm0)->___handle_0);
+
+	// Marshaling of parameter '___vocabulary1' to native representation
+	char* ____vocabulary1_marshaled = NULL;
+	____vocabulary1_marshaled = il2cpp_codegen_marshal_string(___vocabulary1);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_SpeechRecognizer_Setup)(____algorithm0_marshaled, ____vocabulary1_marshaled, static_cast<int32_t>(___enableDetails2), ___maxAlternatives3);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____algorithm0_marshaled, ____vocabulary1_marshaled, static_cast<int32_t>(___enableDetails2), ___maxAlternatives3);
+	#endif
+
+	// Marshaling cleanup of parameter '___algorithm0' native representation
+	if (___safeHandle_reference_incremented_for____algorithm0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithm0, NULL);
+	}
+
+	// Marshaling cleanup of parameter '___vocabulary1' native representation
+	il2cpp_codegen_marshal_free(____vocabulary1_marshaled);
+	____vocabulary1_marshaled = NULL;
+
+	return static_cast<bool>(returnValue);
+}
+// System.Boolean Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke::TryGetResult(Recognissimo.Core.AlgorithmHandle,Recognissimo.Core.SpeechRecognizerAlgorithm/PInvoke/NativeResult&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_TryGetResult_m458B734B0B11A61C776EDE275308F933881BC5B1 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9* ___nativeResult1, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(NativeResult_t8735746D3D094FE81E61A3488AD1934373CE12C9*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_SpeechRecognizer_Result", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithm0' to native representation
+	void* ____algorithm0_marshaled = NULL;
+	if (___algorithm0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithm"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithm0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithm0, (&___safeHandle_reference_incremented_for____algorithm0), NULL);
+	____algorithm0_marshaled = reinterpret_cast<void*>((___algorithm0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_SpeechRecognizer_Result)(____algorithm0_marshaled, ___nativeResult1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____algorithm0_marshaled, ___nativeResult1);
+	#endif
+
+	// Marshaling cleanup of parameter '___algorithm0' native representation
+	if (___safeHandle_reference_incremented_for____algorithm0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithm0, NULL);
+	}
+
+	return static_cast<bool>(returnValue);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.VoiceActivityDetectorAlgorithm::.ctor(System.Func`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings>,System.Action`1<Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetectorAlgorithm__ctor_m76B28B20D973AA2ED44ED1CEDD8E2F6420E2C16B (VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80* __this, Func_1_t7082610092560C9628161A66480A08495185B4F7* ___onSetup0, Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* ___onResult1, const RuntimeMethod* method) 
+{
+	{
+		// : base(AlgorithmType.VoiceActivityDetector)
+		Algorithm__ctor_m5B793AC45A112B8BDB4C51DC659345C400161C77(__this, 1, NULL);
+		// _onSetup = onSetup;
+		Func_1_t7082610092560C9628161A66480A08495185B4F7* L_0 = ___onSetup0;
+		__this->____onSetup_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSetup_2), (void*)L_0);
+		// _onResult = onResult;
+		Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* L_1 = ___onResult1;
+		__this->____onResult_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onResult_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Core.VoiceActivityDetectorAlgorithm::Setup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceActivityDetectorAlgorithm_Setup_m374605C60C6554AE923267EFD6A48EF1579FEDC4 (VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80* __this, const RuntimeMethod* method) 
+{
+	Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var settings = _onSetup();
+		Func_1_t7082610092560C9628161A66480A08495185B4F7* L_0 = __this->____onSetup_2;
+		NullCheck(L_0);
+		Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 L_1;
+		L_1 = Func_1_Invoke_mFE56932EA5CC06FDE64EBBC1AF2EC8725B177957_inline(L_0, NULL);
+		V_0 = L_1;
+		// return PInvoke.Setup(Handle, settings.TimeoutMs);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_2 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 L_3 = V_0;
+		int32_t L_4 = L_3.___TimeoutMs_0;
+		bool L_5;
+		L_5 = PInvoke_Setup_m97AFCF381A149BB002B5315773D83ABB64F9C5D7(L_2, L_4, NULL);
+		return L_5;
+	}
+}
+// System.Void Recognissimo.Core.VoiceActivityDetectorAlgorithm::LoadResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetectorAlgorithm_LoadResult_mD0D97A74663727E4F07160962EE9AC81E980C43F (VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80* __this, const RuntimeMethod* method) 
+{
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// if (PInvoke.TryGetResult(Handle, out var result))
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		bool L_1;
+		L_1 = PInvoke_TryGetResult_m0A9024A70577CA53FAC2230DFF6FD3353DE17474(L_0, (&V_0), NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// _onResult(result);
+		Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* L_2 = __this->____onResult_1;
+		Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_mE75768D3CFBCED058F74C679063906A800F91CA2_inline(L_2, L_3, NULL);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.VoiceActivityDetectorAlgorithm::DisposeResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetectorAlgorithm_DisposeResult_m505F9A3D8988548802A8154DF533671E2AE26973 (VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80* __this, const RuntimeMethod* method) 
+{
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// PInvoke.TryGetResult(Handle, out _);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		bool L_1;
+		L_1 = PInvoke_TryGetResult_m0A9024A70577CA53FAC2230DFF6FD3353DE17474(L_0, (&V_0), NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke(const Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504& unmarshaled, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke& marshaled)
+{
+	marshaled.___IsActive_0 = static_cast<int32_t>(unmarshaled.___IsActive_0);
+}
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke_back(const Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke& marshaled, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504& unmarshaled)
+{
+	bool unmarshaledIsActive_temp_0 = false;
+	unmarshaledIsActive_temp_0 = static_cast<bool>(marshaled.___IsActive_0);
+	unmarshaled.___IsActive_0 = unmarshaledIsActive_temp_0;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke_cleanup(Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_com(const Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504& unmarshaled, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_com& marshaled)
+{
+	marshaled.___IsActive_0 = static_cast<int32_t>(unmarshaled.___IsActive_0);
+}
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_com_back(const Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_com& marshaled, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504& unmarshaled)
+{
+	bool unmarshaledIsActive_temp_0 = false;
+	unmarshaledIsActive_temp_0 = static_cast<bool>(marshaled.___IsActive_0);
+	unmarshaled.___IsActive_0 = unmarshaledIsActive_temp_0;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result
+IL2CPP_EXTERN_C void Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_com_cleanup(Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean Recognissimo.Core.VoiceActivityDetectorAlgorithm/PInvoke::Setup(Recognissimo.Core.AlgorithmHandle,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_Setup_m97AFCF381A149BB002B5315773D83ABB64F9C5D7 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, int32_t ___timeoutMs1, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_VoiceActivityDetector_Setup", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithm0' to native representation
+	void* ____algorithm0_marshaled = NULL;
+	if (___algorithm0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithm"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithm0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithm0, (&___safeHandle_reference_incremented_for____algorithm0), NULL);
+	____algorithm0_marshaled = reinterpret_cast<void*>((___algorithm0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_VoiceActivityDetector_Setup)(____algorithm0_marshaled, ___timeoutMs1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____algorithm0_marshaled, ___timeoutMs1);
+	#endif
+
+	// Marshaling cleanup of parameter '___algorithm0' native representation
+	if (___safeHandle_reference_incremented_for____algorithm0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithm0, NULL);
+	}
+
+	return static_cast<bool>(returnValue);
+}
+// System.Boolean Recognissimo.Core.VoiceActivityDetectorAlgorithm/PInvoke::TryGetResult(Recognissimo.Core.AlgorithmHandle,Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_TryGetResult_m0A9024A70577CA53FAC2230DFF6FD3353DE17474 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504* ___result1, const RuntimeMethod* method) 
+{
+
+
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_VoiceActivityDetector_Result", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithm0' to native representation
+	void* ____algorithm0_marshaled = NULL;
+	if (___algorithm0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithm"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithm0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithm0, (&___safeHandle_reference_incremented_for____algorithm0), NULL);
+	____algorithm0_marshaled = reinterpret_cast<void*>((___algorithm0)->___handle_0);
+
+	// Marshaling of parameter '___result1' to native representation
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke ____result1_empty = {};
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshaled_pinvoke* ____result1_marshaled = &____result1_empty;
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_VoiceActivityDetector_Result)(____algorithm0_marshaled, ____result1_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____algorithm0_marshaled, ____result1_marshaled);
+	#endif
+
+	// Marshaling cleanup of parameter '___algorithm0' native representation
+	if (___safeHandle_reference_incremented_for____algorithm0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithm0, NULL);
+	}
+
+	// Marshaling of parameter '___result1' back from native representation
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 _____result1_marshaled_unmarshaled_dereferenced;
+	memset((&_____result1_marshaled_unmarshaled_dereferenced), 0, sizeof(_____result1_marshaled_unmarshaled_dereferenced));
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke_back(*____result1_marshaled, _____result1_marshaled_unmarshaled_dereferenced);
+	*___result1 = _____result1_marshaled_unmarshaled_dereferenced;
+
+	// Marshaling cleanup of parameter '___result1' native representation
+	Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504_marshal_pinvoke_cleanup(*____result1_marshaled);
+
+	return static_cast<bool>(returnValue);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Core.VoiceControlAlgorithm::.ctor(System.Func`1<Recognissimo.Core.VoiceControlAlgorithm/Settings>,System.Action`1<Recognissimo.Core.VoiceControlAlgorithm/Result>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlAlgorithm__ctor_mD0BE830B40CE4C574862C8C762A80101EC9ECFEC (VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28* __this, Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* ___onSetup0, Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* ___onResult1, const RuntimeMethod* method) 
+{
+	{
+		// public VoiceControlAlgorithm(Func<Settings> onSetup, Action<Result> onResult) : base(AlgorithmType.VoiceControl)
+		Algorithm__ctor_m5B793AC45A112B8BDB4C51DC659345C400161C77(__this, 2, NULL);
+		// _onSetup = onSetup;
+		Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* L_0 = ___onSetup0;
+		__this->____onSetup_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSetup_2), (void*)L_0);
+		// _onResult = onResult;
+		Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* L_1 = ___onResult1;
+		__this->____onResult_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onResult_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Core.VoiceControlAlgorithm::Setup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceControlAlgorithm_Setup_mD948926D635E3E717628A46A9C5BC3BEE75FD115 (VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28* __this, const RuntimeMethod* method) 
+{
+	Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var settings = _onSetup();
+		Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* L_0 = __this->____onSetup_2;
+		NullCheck(L_0);
+		Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E L_1;
+		L_1 = Func_1_Invoke_m1AE5F8C75D338F5B98A92AF18693544E3A064B40_inline(L_0, NULL);
+		V_0 = L_1;
+		// return PInvoke.Setup(Handle, settings.Commands, settings.AsapMode);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_2 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E L_3 = V_0;
+		String_t* L_4 = L_3.___Commands_0;
+		Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E L_5 = V_0;
+		bool L_6 = L_5.___AsapMode_1;
+		bool L_7;
+		L_7 = PInvoke_Setup_m72BA0CC85C64D4851005431C12914526749F097F(L_2, L_4, L_6, NULL);
+		return L_7;
+	}
+}
+// System.Void Recognissimo.Core.VoiceControlAlgorithm::LoadResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlAlgorithm_LoadResult_m2F94DC325D0769C3F87496ACE3214C81542DFA6F (VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28* __this, const RuntimeMethod* method) 
+{
+	Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// if (PInvoke.TryGetResult(Handle, out var result))
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		bool L_1;
+		L_1 = PInvoke_TryGetResult_m5B31F8CBC89762386F7313B449D6BBB1F51231B9(L_0, (&V_0), NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// _onResult(result);
+		Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* L_2 = __this->____onResult_1;
+		Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m7A479917E2794FECA98A8D99C4A04CE20AD239CE_inline(L_2, L_3, NULL);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Core.VoiceControlAlgorithm::DisposeResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlAlgorithm_DisposeResult_m76143F584EB8A51A59B55E17B467BEE041F2EC11 (VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28* __this, const RuntimeMethod* method) 
+{
+	Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// PInvoke.TryGetResult(Handle, out _);
+		AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* L_0 = ((Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3*)__this)->___Handle_0;
+		bool L_1;
+		L_1 = PInvoke_TryGetResult_m5B31F8CBC89762386F7313B449D6BBB1F51231B9(L_0, (&V_0), NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Core.VoiceControlAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshal_pinvoke(const Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E& unmarshaled, Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Commands_0 = il2cpp_codegen_marshal_string(unmarshaled.___Commands_0);
+	marshaled.___AsapMode_1 = static_cast<int32_t>(unmarshaled.___AsapMode_1);
+}
+IL2CPP_EXTERN_C void Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshal_pinvoke_back(const Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_pinvoke& marshaled, Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E& unmarshaled)
+{
+	unmarshaled.___Commands_0 = il2cpp_codegen_marshal_string_result(marshaled.___Commands_0);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Commands_0), (void*)il2cpp_codegen_marshal_string_result(marshaled.___Commands_0));
+	bool unmarshaledAsapMode_temp_1 = false;
+	unmarshaledAsapMode_temp_1 = static_cast<bool>(marshaled.___AsapMode_1);
+	unmarshaled.___AsapMode_1 = unmarshaledAsapMode_temp_1;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.VoiceControlAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshal_pinvoke_cleanup(Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___Commands_0);
+	marshaled.___Commands_0 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Core.VoiceControlAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshal_com(const Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E& unmarshaled, Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_com& marshaled)
+{
+	marshaled.___Commands_0 = il2cpp_codegen_marshal_bstring(unmarshaled.___Commands_0);
+	marshaled.___AsapMode_1 = static_cast<int32_t>(unmarshaled.___AsapMode_1);
+}
+IL2CPP_EXTERN_C void Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshal_com_back(const Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_com& marshaled, Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E& unmarshaled)
+{
+	unmarshaled.___Commands_0 = il2cpp_codegen_marshal_bstring_result(marshaled.___Commands_0);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___Commands_0), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___Commands_0));
+	bool unmarshaledAsapMode_temp_1 = false;
+	unmarshaledAsapMode_temp_1 = static_cast<bool>(marshaled.___AsapMode_1);
+	unmarshaled.___AsapMode_1 = unmarshaledAsapMode_temp_1;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Core.VoiceControlAlgorithm/Settings
+IL2CPP_EXTERN_C void Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshal_com_cleanup(Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___Commands_0);
+	marshaled.___Commands_0 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean Recognissimo.Core.VoiceControlAlgorithm/PInvoke::Setup(Recognissimo.Core.AlgorithmHandle,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_Setup_m72BA0CC85C64D4851005431C12914526749F097F (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, String_t* ___commands1, bool ___asapMode2, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(char*) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_VoiceControl_Setup", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithm0' to native representation
+	void* ____algorithm0_marshaled = NULL;
+	if (___algorithm0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithm"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithm0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithm0, (&___safeHandle_reference_incremented_for____algorithm0), NULL);
+	____algorithm0_marshaled = reinterpret_cast<void*>((___algorithm0)->___handle_0);
+
+	// Marshaling of parameter '___commands1' to native representation
+	char* ____commands1_marshaled = NULL;
+	____commands1_marshaled = il2cpp_codegen_marshal_string(___commands1);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_VoiceControl_Setup)(____algorithm0_marshaled, ____commands1_marshaled, static_cast<int32_t>(___asapMode2));
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____algorithm0_marshaled, ____commands1_marshaled, static_cast<int32_t>(___asapMode2));
+	#endif
+
+	// Marshaling cleanup of parameter '___algorithm0' native representation
+	if (___safeHandle_reference_incremented_for____algorithm0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithm0, NULL);
+	}
+
+	// Marshaling cleanup of parameter '___commands1' native representation
+	il2cpp_codegen_marshal_free(____commands1_marshaled);
+	____commands1_marshaled = NULL;
+
+	return static_cast<bool>(returnValue);
+}
+// System.Boolean Recognissimo.Core.VoiceControlAlgorithm/PInvoke::TryGetResult(Recognissimo.Core.AlgorithmHandle,Recognissimo.Core.VoiceControlAlgorithm/Result&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PInvoke_TryGetResult_m5B31F8CBC89762386F7313B449D6BBB1F51231B9 (AlgorithmHandle_t6BEB4AF0910418ECCE85302F889EF1F3C17C0DF4* ___algorithm0, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2* ___result1, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_libRecognissimo_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(Result_t83905C5F8D328446E559FD572A22B16E4ED938F2*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libRecognissimo"), "Recognissimo_VoiceControl_Result", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___algorithm0' to native representation
+	void* ____algorithm0_marshaled = NULL;
+	if (___algorithm0 == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("algorithm"), NULL);
+	bool ___safeHandle_reference_incremented_for____algorithm0 = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___algorithm0, (&___safeHandle_reference_incremented_for____algorithm0), NULL);
+	____algorithm0_marshaled = reinterpret_cast<void*>((___algorithm0)->___handle_0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_libRecognissimo_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Recognissimo_VoiceControl_Result)(____algorithm0_marshaled, ___result1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____algorithm0_marshaled, ___result1);
+	#endif
+
+	// Marshaling cleanup of parameter '___algorithm0' native representation
+	if (___safeHandle_reference_incremented_for____algorithm0)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___algorithm0, NULL);
+	}
+
+	return static_cast<bool>(returnValue);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Recognissimo.Components.AudioClipSpeechSource::get_SampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClipSpeechSource_get_SampleRate_mFCF79C49F06F5DAB4FF35060B2FA2D309ADBC925 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	{
+		// public override int SampleRate => clip.frequency;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___clip_15;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClipSpeechSource_OnEnable_mA89634138A99DDB0CAEC8EDE8B9CE6BC225F96BE (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClipSpeechSource_LoadAudio_m100E18A724AEC217E723A3AB0787C4F64FB165E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClipSpeechSource_U3COnEnableU3Eb__8_0_m4F199B3D5CC2CA1A8255B919885CC420EB98A63C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_ValueChanged_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_mC603A9BCAAF4A7FCDDDA8882C39A985E95EDD8BF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0A29EDBC296E09AA7440FC5C1C740F04A0A6F182);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// RegisterInitializationTask("Load audio clip", LoadAudio, CallCondition.ValueChanged(() => clip));
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_0 = (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*)il2cpp_codegen_object_new(Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC(L_0, __this, (intptr_t)((void*)AudioClipSpeechSource_LoadAudio_m100E18A724AEC217E723A3AB0787C4F64FB165E7_RuntimeMethod_var), NULL);
+		Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4* L_1 = (Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4*)il2cpp_codegen_object_new(Func_1_tEE2029D33CA84B64B85C04961E4B57C83BC60FA4_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Func_1__ctor_mBE8724F192856213E95EE76603BD4F19726994E3(L_1, __this, (intptr_t)((void*)AudioClipSpeechSource_U3COnEnableU3Eb__8_0_m4F199B3D5CC2CA1A8255B919885CC420EB98A63C_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_2;
+		L_2 = CallCondition_ValueChanged_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_mC603A9BCAAF4A7FCDDDA8882C39A985E95EDD8BF(L_1, (Func_3_tD8D72C01E2A89B6AF8D90F9443965970E0ECE5B6*)NULL, CallCondition_ValueChanged_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_mC603A9BCAAF4A7FCDDDA8882C39A985E95EDD8BF_RuntimeMethod_var);
+		SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC(__this, _stringLiteral0A29EDBC296E09AA7440FC5C1C740F04A0A6F182, L_0, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource::StartProducing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClipSpeechSource_StartProducing_m5D53FEF74F0F7347BE67D9008CF3130414DB46FF (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	{
+		// _isProducing = true;
+		__this->____isProducing_18 = (bool)1;
+		// if (readSequentially)
+		bool L_0 = __this->___readSequentially_16;
+		if (!L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// StartCoroutine(ReadAudioSequentially());
+		RuntimeObject* L_1;
+		L_1 = AudioClipSpeechSource_ReadAudioSequentially_mCD2E8F6CC9F71E2BDD1D0412030536EC41F70CD5(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
+		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
+		return;
+	}
+
+IL_001d:
+	{
+		// ReadAudio();
+		AudioClipSpeechSource_ReadAudio_m8B57A306018219A11E837CDBE4ABEBE7DBBA1526(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource::StopProducing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClipSpeechSource_StopProducing_m1855B8FFC60EC0E68E45BEFC348C36A3078D70C5 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	{
+		// _isProducing = false;
+		__this->____isProducing_18 = (bool)0;
+		// if (_producingCoroutine != null)
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->____producingCoroutine_19;
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// StopCoroutine(_producingCoroutine);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->____producingCoroutine_19;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.Components.AudioClipSpeechSource::LoadAudio()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AudioClipSpeechSource_LoadAudio_m100E18A724AEC217E723A3AB0787C4F64FB165E7 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* L_0 = (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A*)il2cpp_codegen_object_new(U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CLoadAudioU3Ed__11__ctor_m1A9F6BA1E112B3DDB18AC2DFA4D4DD169D9770F8(L_0, 0, NULL);
+		U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource::ReadAudio()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClipSpeechSource_ReadAudio_m8B57A306018219A11E837CDBE4ABEBE7DBBA1526 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// clip.GetData(_buffer, 0);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___clip_15;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = __this->____buffer_17;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D(L_0, L_1, 0, NULL);
+		// OnSamplesReady(new SamplesReadyEventArgs(_buffer, _buffer.Length));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = __this->____buffer_17;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->____buffer_17;
+		NullCheck(L_4);
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_5 = (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2*)il2cpp_codegen_object_new(SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4(L_5, L_3, ((int32_t)(((RuntimeArray*)L_4)->max_length)), NULL);
+		SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049(__this, L_5, NULL);
+		// OnDried();
+		SpeechSource_OnDried_mCC48EA6826A47B78CBDF98CAF04EBBC903EF25AC(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.Components.AudioClipSpeechSource::ReadAudioSequentially()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AudioClipSpeechSource_ReadAudioSequentially_mCD2E8F6CC9F71E2BDD1D0412030536EC41F70CD5 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* L_0 = (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B*)il2cpp_codegen_object_new(U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CReadAudioSequentiallyU3Ed__13__ctor_mA0370B4EC226311AD41283575B3B2A319886BFE9(L_0, 0, NULL);
+		U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClipSpeechSource__ctor_m8057319ABDFECDA3E7B062ECE24799878325B101 (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	{
+		SpeechSource__ctor_m84833D3DA5A6B824F4D1C68435D2CAA186FAF5AE(__this, NULL);
+		return;
+	}
+}
+// UnityEngine.AudioClip Recognissimo.Components.AudioClipSpeechSource::<OnEnable>b__8_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* AudioClipSpeechSource_U3COnEnableU3Eb__8_0_m4F199B3D5CC2CA1A8255B919885CC420EB98A63C (AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* __this, const RuntimeMethod* method) 
+{
+	{
+		// RegisterInitializationTask("Load audio clip", LoadAudio, CallCondition.ValueChanged(() => clip));
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___clip_15;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadAudioU3Ed__11__ctor_m1A9F6BA1E112B3DDB18AC2DFA4D4DD169D9770F8 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadAudioU3Ed__11_System_IDisposable_Dispose_m2BE3C8D0537869015BE6F1D167FA65C2C49A3D20 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadAudioU3Ed__11_MoveNext_m580FD0422F3F6653E5E5AFAB6F8F6F369544F0C5 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// clip.LoadAudioData();
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_4 = V_1;
+		NullCheck(L_4);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = L_4->___clip_15;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = AudioClip_LoadAudioData_mF43E6195AA70C39045DCF08D01C61C9DAA6876DC(L_5, NULL);
+		goto IL_0043;
+	}
+
+IL_002c:
+	{
+		// yield return null;
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_003c:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_0043:
+	{
+		// while (clip.loadState == AudioDataLoadState.Loading)
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_7 = V_1;
+		NullCheck(L_7);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_8 = L_7->___clip_15;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = AudioClip_get_loadState_mD5E89ED3E6C1C706C021598FDF86FEB7BF5DE669(L_8, NULL);
+		if ((((int32_t)L_9) == ((int32_t)1)))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		// if (clip.channels > 1)
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_10 = V_1;
+		NullCheck(L_10);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_11 = L_10->___clip_15;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_11, NULL);
+		if ((((int32_t)L_12) <= ((int32_t)1)))
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		// throw new NotSupportedException("Reading non-mono AudioClip is not supported yet.");
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_13 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_13);
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7FE8936CEACBF69AFF615BFB4A39FB49724C6AEA)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadAudioU3Ed__11_MoveNext_m580FD0422F3F6653E5E5AFAB6F8F6F369544F0C5_RuntimeMethod_var)));
+	}
+
+IL_006a:
+	{
+		// if (readSequentially)
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_14 = V_1;
+		NullCheck(L_14);
+		bool L_15 = L_14->___readSequentially_16;
+		if (!L_15)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		// _buffer ??= new float[DefaultBufferSize];
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_16 = V_1;
+		NullCheck(L_16);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = L_16->____buffer_17;
+		if (L_17)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_18 = V_1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)8192));
+		NullCheck(L_18);
+		L_18->____buffer_17 = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&L_18->____buffer_17), (void*)L_19);
+	}
+
+IL_008a:
+	{
+		// yield break;
+		return (bool)0;
+	}
+
+IL_008c:
+	{
+		// if (_buffer == null || _buffer.Length != clip.samples)
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_20 = V_1;
+		NullCheck(L_20);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = L_20->____buffer_17;
+		if (!L_21)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_22 = V_1;
+		NullCheck(L_22);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_23 = L_22->____buffer_17;
+		NullCheck(L_23);
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_24 = V_1;
+		NullCheck(L_24);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_25 = L_24->___clip_15;
+		NullCheck(L_25);
+		int32_t L_26;
+		L_26 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_25, NULL);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length))) == ((int32_t)L_26)))
+		{
+			goto IL_00bf;
+		}
+	}
+
+IL_00a9:
+	{
+		// _buffer = new float[clip.samples];
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_27 = V_1;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_28 = V_1;
+		NullCheck(L_28);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_29 = L_28->___clip_15;
+		NullCheck(L_29);
+		int32_t L_30;
+		L_30 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_29, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_31 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_30);
+		NullCheck(L_27);
+		L_27->____buffer_17 = L_31;
+		Il2CppCodeGenWriteBarrier((void**)(&L_27->____buffer_17), (void*)L_31);
+	}
+
+IL_00bf:
+	{
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadAudioU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m33715A9E1F7DB3280C2ACECD097FC3DE024C6314 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadAudioU3Ed__11_System_Collections_IEnumerator_Reset_m34FB900740B25F759924EE8A47D9EA5551562564 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadAudioU3Ed__11_System_Collections_IEnumerator_Reset_m34FB900740B25F759924EE8A47D9EA5551562564_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Components.AudioClipSpeechSource/<LoadAudio>d__11::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadAudioU3Ed__11_System_Collections_IEnumerator_get_Current_m9A63B9D76807A71C5A45E16E7996BC7BB4269029 (U3CLoadAudioU3Ed__11_t4643B5D86B9108D2762C8E2C9F86B1AE6A36AF9A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadAudioSequentiallyU3Ed__13__ctor_mA0370B4EC226311AD41283575B3B2A319886BFE9 (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadAudioSequentiallyU3Ed__13_System_IDisposable_Dispose_m22CE7877716F0B16547AC0266A5EB0952C60B419 (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CReadAudioSequentiallyU3Ed__13_MoveNext_m964E5B502168B067E83B78899B84635B47DE089A (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// var samplesLeft = clip.samples;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_4 = V_1;
+		NullCheck(L_4);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = L_4->___clip_15;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_5, NULL);
+		__this->___U3CsamplesLeftU3E5__2_3 = L_6;
+		// var processedSamples = 0;
+		__this->___U3CprocessedSamplesU3E5__3_4 = 0;
+		goto IL_00ac;
+	}
+
+IL_003b:
+	{
+		// var requestedSamples = Math.Min(samplesLeft, _buffer.Length);
+		int32_t L_7 = __this->___U3CsamplesLeftU3E5__2_3;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_8 = V_1;
+		NullCheck(L_8);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = L_8->____buffer_17;
+		NullCheck(L_9);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_10;
+		L_10 = Math_Min_m1F346FEDDC77AC1EC0C4EF1AC6BA59F0EC7980F8(L_7, ((int32_t)(((RuntimeArray*)L_9)->max_length)), NULL);
+		V_2 = L_10;
+		// clip.GetData(_buffer, processedSamples);
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_11 = V_1;
+		NullCheck(L_11);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_12 = L_11->___clip_15;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_13 = V_1;
+		NullCheck(L_13);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14 = L_13->____buffer_17;
+		int32_t L_15 = __this->___U3CprocessedSamplesU3E5__3_4;
+		NullCheck(L_12);
+		bool L_16;
+		L_16 = AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D(L_12, L_14, L_15, NULL);
+		// OnSamplesReady(new SamplesReadyEventArgs(_buffer, requestedSamples));
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_17 = V_1;
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_18 = V_1;
+		NullCheck(L_18);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = L_18->____buffer_17;
+		int32_t L_20 = V_2;
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_21 = (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2*)il2cpp_codegen_object_new(SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
+		SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4(L_21, L_19, L_20, NULL);
+		NullCheck(L_17);
+		SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049(L_17, L_21, NULL);
+		// samplesLeft -= requestedSamples;
+		int32_t L_22 = __this->___U3CsamplesLeftU3E5__2_3;
+		int32_t L_23 = V_2;
+		__this->___U3CsamplesLeftU3E5__2_3 = ((int32_t)il2cpp_codegen_subtract(L_22, L_23));
+		// processedSamples += requestedSamples;
+		int32_t L_24 = __this->___U3CprocessedSamplesU3E5__3_4;
+		int32_t L_25 = V_2;
+		__this->___U3CprocessedSamplesU3E5__3_4 = ((int32_t)il2cpp_codegen_add(L_24, L_25));
+		// yield return null;
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_00a5:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_00ac:
+	{
+		// while (_isProducing && samplesLeft > 0)
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_26 = V_1;
+		NullCheck(L_26);
+		bool L_27 = L_26->____isProducing_18;
+		if (!L_27)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		int32_t L_28 = __this->___U3CsamplesLeftU3E5__2_3;
+		if ((((int32_t)L_28) > ((int32_t)0)))
+		{
+			goto IL_003b;
+		}
+	}
+
+IL_00c0:
+	{
+		// if (_isProducing)
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_29 = V_1;
+		NullCheck(L_29);
+		bool L_30 = L_29->____isProducing_18;
+		if (!L_30)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		// OnDried();
+		AudioClipSpeechSource_t3C3BEAA6D19DF2A319A1C0699F999F0A6C700467* L_31 = V_1;
+		NullCheck(L_31);
+		SpeechSource_OnDried_mCC48EA6826A47B78CBDF98CAF04EBBC903EF25AC(L_31, NULL);
+	}
+
+IL_00ce:
+	{
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadAudioSequentiallyU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1419AE5B23B87584E440A95088E45CF57F8CC2D5 (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadAudioSequentiallyU3Ed__13_System_Collections_IEnumerator_Reset_m31B79E168EC4D8A2428A7E7381B72ABD393460C0 (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CReadAudioSequentiallyU3Ed__13_System_Collections_IEnumerator_Reset_m31B79E168EC4D8A2428A7E7381B72ABD393460C0_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Components.AudioClipSpeechSource/<ReadAudioSequentially>d__13::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadAudioSequentiallyU3Ed__13_System_Collections_IEnumerator_get_Current_mAC988D81D30DD03B042BD9B6CEF0562775D8CAD3 (U3CReadAudioSequentiallyU3Ed__13_tF3809A2F9FF98E04690162A45E7E8A1594701A1B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Recognissimo.Components.AudioListenerSpeechSource::get_SampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioListenerSpeechSource_get_SampleRate_m6C3DA31C412F7404FE3AC9090ACF1CE4C17655E0 (AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public override int SampleRate => AudioSettings.outputSampleRate;
+		int32_t L_0;
+		L_0 = AudioSettings_get_outputSampleRate_m501A11E8BE3508BBF1C1AB5E2643B3AC978C4B32(NULL);
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.AudioListenerSpeechSource::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListenerSpeechSource_Update_mCF99644CDCDC573AEB19231AD62683303A7859EF (AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// if (!_isProducing)
+		bool L_0 = __this->____isProducing_18;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// _samplesLeft += (int) Math.Floor(SampleRate * Time.deltaTime);
+		int32_t L_1 = __this->____samplesLeft_20;
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 Recognissimo.SpeechSource::get_SampleRate() */, __this);
+		float L_3;
+		L_3 = Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_4;
+		L_4 = floor(((double)((float)il2cpp_codegen_multiply(((float)L_2), L_3))));
+		__this->____samplesLeft_20 = ((int32_t)il2cpp_codegen_add(L_1, il2cpp_codegen_cast_double_to_int<int32_t>(L_4)));
+		// if (_samplesLeft < _minSamples)
+		int32_t L_5 = __this->____samplesLeft_20;
+		int32_t L_6 = __this->____minSamples_19;
+		if ((((int32_t)L_5) >= ((int32_t)L_6)))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0039:
+	{
+		// var availableSamples = Math.Min(_samplesLeft, _buffer.Length);
+		int32_t L_7 = __this->____samplesLeft_20;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = __this->____buffer_17;
+		NullCheck(L_8);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_9;
+		L_9 = Math_Min_m1F346FEDDC77AC1EC0C4EF1AC6BA59F0EC7980F8(L_7, ((int32_t)(((RuntimeArray*)L_8)->max_length)), NULL);
+		V_0 = L_9;
+		// AudioListener.GetOutputData(_buffer, channel);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = __this->____buffer_17;
+		int32_t L_11 = __this->___channel_16;
+		AudioListener_GetOutputData_m2D19BF8D3FBD53119E9D5DB7E0426E30A8F09041(L_10, L_11, NULL);
+		// OnSamplesReady(new SamplesReadyEventArgs(_buffer, availableSamples));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = __this->____buffer_17;
+		int32_t L_13 = V_0;
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_14 = (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2*)il2cpp_codegen_object_new(SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4(L_14, L_12, L_13, NULL);
+		SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049(__this, L_14, NULL);
+		// _samplesLeft -= availableSamples;
+		int32_t L_15 = __this->____samplesLeft_20;
+		int32_t L_16 = V_0;
+		__this->____samplesLeft_20 = ((int32_t)il2cpp_codegen_subtract(L_15, L_16));
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioListenerSpeechSource::StartProducing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListenerSpeechSource_StartProducing_m3E05CFC0BB5A2090151A4BC9492B5245C83EEBEC (AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _minSamples = (int) Math.Floor(SampleRate * TimeSensitivity);
+		int32_t L_0;
+		L_0 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 Recognissimo.SpeechSource::get_SampleRate() */, __this);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)((float)il2cpp_codegen_multiply(((float)L_0), (0.25f)))));
+		__this->____minSamples_19 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		// _isProducing = true;
+		__this->____isProducing_18 = (bool)1;
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioListenerSpeechSource::StopProducing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListenerSpeechSource_StopProducing_m750F2A6A3D520F6747B2304815913955B0329697 (AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B* __this, const RuntimeMethod* method) 
+{
+	{
+		// _isProducing = false;
+		__this->____isProducing_18 = (bool)0;
+		// _samplesLeft = 0;
+		__this->____samplesLeft_20 = 0;
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.AudioListenerSpeechSource::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListenerSpeechSource__ctor_mBE6023E7FF2D5ADDE5AF4B9BE92BBEC51C3C9EA2 (AudioListenerSpeechSource_tAA4C7208DDC56369485CDCFA36FF193A15B6296B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private readonly float[] _buffer = new float[DefaultBufferSize];
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)8192));
+		__this->____buffer_17 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_17), (void*)L_0);
+		SpeechSource__ctor_m84833D3DA5A6B824F4D1C68435D2CAA186FAF5AE(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Recognissimo.Components.MicrophoneSpeechSource::get_DeviceName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MicrophoneSpeechSource_get_DeviceName_m98895B1C7AA368529B375E279DF91B8CFD11EEAD (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => recordingSettings.deviceName;
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		String_t* L_1 = L_0->___deviceName_0;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::set_DeviceName(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_set_DeviceName_mB4145ACF559BDCE3DE729790FE37F2044CCEDD4A (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => recordingSettings.deviceName = value;
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		String_t* L_1 = ___value0;
+		L_0->___deviceName_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___deviceName_0), (void*)L_1);
+		return;
+	}
+}
+// System.Single Recognissimo.Components.MicrophoneSpeechSource::get_TimeSensitivity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MicrophoneSpeechSource_get_TimeSensitivity_m23F374165DA12D7A9DF01EBB23A1E0E61360F0B1 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => recordingSettings.timeSensitivity;
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		float L_1 = L_0->___timeSensitivity_1;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::set_TimeSensitivity(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_set_TimeSensitivity_mF385B89F68424AB32F6082F254E06E103E13AC59 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => recordingSettings.timeSensitivity = value;
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		float L_1 = ___value0;
+		L_0->___timeSensitivity_1 = L_1;
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::get_IsRecording()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_get_IsRecording_m958E425DFC0FF445924DBA9515B8F40290353053 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsRecording { get; private set; }
+		bool L_0 = __this->___U3CIsRecordingU3Ek__BackingField_22;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::set_IsRecording(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_set_IsRecording_m4BB4946DEFCD7ED35BED1A37F871B1014439DBF9 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsRecording { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsRecordingU3Ek__BackingField_22 = L_0;
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::get_IsPaused()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_get_IsPaused_m971D972C1956A63B28E3DC1E9E9B3B44DA1F84D1 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _isPaused;
+		bool L_0 = __this->____isPaused_18;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::set_IsPaused(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_set_IsPaused_m4A6644E1EC272DBE5363D02E7A8236749DD330F0 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// if (_isPaused == value)
+		bool L_0 = __this->____isPaused_18;
+		bool L_1 = ___value0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000a:
+	{
+		// if (value && IsRecording)
+		bool L_2 = ___value0;
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		bool L_3;
+		L_3 = MicrophoneSpeechSource_get_IsRecording_m958E425DFC0FF445924DBA9515B8F40290353053_inline(__this, NULL);
+		if (!L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		// WriteAvailableSamples(true);
+		MicrophoneSpeechSource_WriteAvailableSamples_mA32DA385519A9E641D85DEB2789D878F9249C1A1(__this, (bool)1, NULL);
+		// WriteSilence(DefaultSilenceAdditionDuration);
+		MicrophoneSpeechSource_WriteSilence_m26F6B0A74F37C2B647F0E26771AFFF8E8E8B7B17(__this, (1.5f), NULL);
+	}
+
+IL_0027:
+	{
+		// _isPaused = value;
+		bool L_4 = ___value0;
+		__this->____isPaused_18 = L_4;
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_Update_m3F9C134D19F1A115E9E86C9F9E8B10D29AF34985 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral442B854D2F522387E1BA1293D5CE0402C646C50C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!IsRecording)
+		bool L_0;
+		L_0 = MicrophoneSpeechSource_get_IsRecording_m958E425DFC0FF445924DBA9515B8F40290353053_inline(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// if (!Microphone.IsRecording(recordingSettings.deviceName))
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_1 = (&__this->___recordingSettings_16);
+		String_t* L_2 = L_1->___deviceName_0;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Microphone_IsRecording_m1ECA6B92D0FA684272B220C0A77F8A144B9AFA19(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		// OnRuntimeFailure(
+		//     new RuntimeFailureEventArgs(new SpeechSourceRuntimeException("Cannot access microphone")));
+		SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* L_4 = (SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34*)il2cpp_codegen_object_new(SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		SpeechSourceRuntimeException__ctor_m440CA64669536B369C1296F1402BA6AF5FDBBDB4(L_4, _stringLiteral442B854D2F522387E1BA1293D5CE0402C646C50C, NULL);
+		RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* L_5 = (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815*)il2cpp_codegen_object_new(RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		RuntimeFailureEventArgs__ctor_m72916B97B2284C63FE51EBF9CAFE69B7B77BC7E1(L_5, L_4, NULL);
+		SpeechSource_OnRuntimeFailure_mD2CC4A830D62597029E5C154C36C80AB3E7C88EE(__this, L_5, NULL);
+		// return;
+		return;
+	}
+
+IL_0031:
+	{
+		// WriteAvailableSamples();
+		MicrophoneSpeechSource_WriteAvailableSamples_mA32DA385519A9E641D85DEB2789D878F9249C1A1(__this, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_OnEnable_m638FCF40C60E9132F1B2AEB23B4F0624B0AEB857 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_ValueChanged_TisString_t_mF21D8DA8263DDE5A47D227448B1EF48BB9E76C8A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MicrophoneSpeechSource_CheckMicrophonePermissions_m64C0F0F404E1B0A21CB3CE90A503B16D5D383337_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MicrophoneSpeechSource_DetectSampleRate_m622F449A01B0E9C162CC723A0F32B7B41479BEBF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MicrophoneSpeechSource_InitializeMicrophone_m0C94CC20586B84B69E95DB17137D556D6E10F4F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MicrophoneSpeechSource_U3COnEnableU3Eb__22_0_m19D8DE4DFA6430B1EFBA9F2E90FAA6CBFEEF830E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral400955291A023F539F1FA11280FA0887622FDCCA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6939231E6BF1FFCD869DD1CEEC88AD634BA2DE0C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBFDB7E574F9C18671BA02337ABCCC27533383C55);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (Microphone.RequiresPermission())
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = Microphone_RequiresPermission_m678E282E52F8B805D8CB70CDB8DB6349CAC2E08D(NULL);
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		// RegisterInitializationTask("Check microphone permissions", CheckMicrophonePermissions,
+		//     CallCondition.Always);
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_1 = (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*)il2cpp_codegen_object_new(Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC(L_1, __this, (intptr_t)((void*)MicrophoneSpeechSource_CheckMicrophonePermissions_m64C0F0F404E1B0A21CB3CE90A503B16D5D383337_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_2 = ((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Always_1;
+		SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC(__this, _stringLiteral6939231E6BF1FFCD869DD1CEEC88AD634BA2DE0C, L_1, L_2, NULL);
+	}
+
+IL_0023:
+	{
+		// RegisterInitializationTask("Detect sample rate", DetectSampleRate,
+		//     CallCondition.ValueChanged(() => DeviceName));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)MicrophoneSpeechSource_DetectSampleRate_m622F449A01B0E9C162CC723A0F32B7B41479BEBF_RuntimeMethod_var), NULL);
+		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_4 = (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*)il2cpp_codegen_object_new(Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B(L_4, __this, (intptr_t)((void*)MicrophoneSpeechSource_U3COnEnableU3Eb__22_0_m19D8DE4DFA6430B1EFBA9F2E90FAA6CBFEEF830E_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_5;
+		L_5 = CallCondition_ValueChanged_TisString_t_mF21D8DA8263DDE5A47D227448B1EF48BB9E76C8A(L_4, (Func_3_t0FFF2796668964ACABE470FF1DBB0508010292AB*)NULL, CallCondition_ValueChanged_TisString_t_mF21D8DA8263DDE5A47D227448B1EF48BB9E76C8A_RuntimeMethod_var);
+		SpeechProcessorDependency_RegisterInitializationTask_m12AEC96FC2A67FE66CBB12371722186D9E9DC757(__this, _stringLiteralBFDB7E574F9C18671BA02337ABCCC27533383C55, L_3, L_5, NULL);
+		// RegisterInitializationTask("Initialize microphone", InitializeMicrophone,
+		//     CallCondition.Always);
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_6 = (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*)il2cpp_codegen_object_new(Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC(L_6, __this, (intptr_t)((void*)MicrophoneSpeechSource_InitializeMicrophone_m0C94CC20586B84B69E95DB17137D556D6E10F4F8_RuntimeMethod_var), NULL);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_7 = ((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Always_1;
+		SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC(__this, _stringLiteral400955291A023F539F1FA11280FA0887622FDCCA, L_6, L_7, NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.Components.MicrophoneSpeechSource::CheckMicrophonePermissions()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MicrophoneSpeechSource_CheckMicrophonePermissions_m64C0F0F404E1B0A21CB3CE90A503B16D5D383337 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* L_0 = (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1*)il2cpp_codegen_object_new(U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CCheckMicrophonePermissionsU3Ed__23__ctor_mD7F39B63A9FBB1BBA3BEB58F8875CF537875CE09(L_0, 0, NULL);
+		U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::DetectSampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_DetectSampleRate_m622F449A01B0E9C162CC723A0F32B7B41479BEBF (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3531A867BFD32A542B1A0D0070DECEF7D8B63FBA);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t G_B3_0 = 0;
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* G_B10_0 = NULL;
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* G_B9_0 = NULL;
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* G_B11_0 = NULL;
+	int32_t G_B12_0 = 0;
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* G_B12_1 = NULL;
+	{
+		// Microphone.GetDeviceCaps(DeviceName, out var minFreq, out var maxFreq);
+		String_t* L_0;
+		L_0 = MicrophoneSpeechSource_get_DeviceName_m98895B1C7AA368529B375E279DF91B8CFD11EEAD(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		Microphone_GetDeviceCaps_mEB72CB11147AB8C34D81D0A96A3BCD34E6E7F2BE(L_0, (&V_0), (&V_1), NULL);
+		// var supportsAnySampleRate = minFreq == 0 && maxFreq == 0;
+		int32_t L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		int32_t L_2 = V_1;
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_0019;
+	}
+
+IL_0018:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0019:
+	{
+		// if (supportsAnySampleRate)
+		if (!G_B3_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		// SampleRate = targetSampleRate;
+		VirtualActionInvoker1< int32_t >::Invoke(5 /* System.Void Recognissimo.SpeechSource::set_SampleRate(System.Int32) */, __this, ((int32_t)16000));
+		// return;
+		return;
+	}
+
+IL_0027:
+	{
+		// if (minFreq < minSupportedSampleRate && maxFreq < minSupportedSampleRate)
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) >= ((int32_t)((int32_t)16000))))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		int32_t L_4 = V_1;
+		if ((((int32_t)L_4) >= ((int32_t)((int32_t)16000))))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		// FailInitialization(
+		//     new InvalidOperationException(
+		//         "Available sample rates are less than the minimum supported 16000 Hz"));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_5, _stringLiteral3531A867BFD32A542B1A0D0070DECEF7D8B63FBA, NULL);
+		SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21(__this, L_5, NULL);
+		// return;
+		return;
+	}
+
+IL_0048:
+	{
+		// SampleRate = minFreq <= targetSampleRate && targetSampleRate <= maxFreq
+		//     ? targetSampleRate
+		//     : minFreq;
+		int32_t L_6 = V_0;
+		G_B9_0 = __this;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)16000))))
+		{
+			G_B10_0 = __this;
+			goto IL_0059;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		G_B10_0 = G_B9_0;
+		if ((((int32_t)((int32_t)16000)) <= ((int32_t)L_7)))
+		{
+			G_B11_0 = G_B9_0;
+			goto IL_005c;
+		}
+	}
+
+IL_0059:
+	{
+		int32_t L_8 = V_0;
+		G_B12_0 = L_8;
+		G_B12_1 = G_B10_0;
+		goto IL_0061;
+	}
+
+IL_005c:
+	{
+		G_B12_0 = ((int32_t)16000);
+		G_B12_1 = G_B11_0;
+	}
+
+IL_0061:
+	{
+		NullCheck(G_B12_1);
+		VirtualActionInvoker1< int32_t >::Invoke(5 /* System.Void Recognissimo.SpeechSource::set_SampleRate(System.Int32) */, G_B12_1, G_B12_0);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.Components.MicrophoneSpeechSource::InitializeMicrophone()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MicrophoneSpeechSource_InitializeMicrophone_m0C94CC20586B84B69E95DB17137D556D6E10F4F8 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* L_0 = (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6*)il2cpp_codegen_object_new(U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CInitializeMicrophoneU3Ed__25__ctor_m9C204C39DEB23C7532669D344EE41D75CBC3CBAD(L_0, 0, NULL);
+		U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::WriteAvailableSamples(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_WriteAvailableSamples_mA32DA385519A9E641D85DEB2789D878F9249C1A1 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, bool ___greedy0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C26C489B5719CB39EB39D576A282C588EEC9FBA);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		// var currPos = Microphone.GetPosition(recordingSettings.deviceName);
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		String_t* L_1 = L_0->___deviceName_0;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = Microphone_GetPosition_m44750EC04BF2A86ADEFD2AA358AFA84701E7B529(L_1, NULL);
+		V_0 = L_2;
+		// if (IsPaused)
+		bool L_3;
+		L_3 = MicrophoneSpeechSource_get_IsPaused_m971D972C1956A63B28E3DC1E9E9B3B44DA1F84D1_inline(__this, NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		// _prevPos = currPos;
+		int32_t L_4 = V_0;
+		__this->____prevPos_19 = L_4;
+		// return;
+		return;
+	}
+
+IL_0021:
+	{
+		// var bufferLength = _buffer.Length;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = __this->____buffer_17;
+		NullCheck(L_5);
+		V_1 = ((int32_t)(((RuntimeArray*)L_5)->max_length));
+		// var availableSamples = (currPos - _prevPos + _recordingLength) % _recordingLength;
+		int32_t L_6 = V_0;
+		int32_t L_7 = __this->____prevPos_19;
+		int32_t L_8 = __this->____recordingLength_20;
+		int32_t L_9 = __this->____recordingLength_20;
+		V_2 = ((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_6, L_7)), L_8))%L_9));
+		goto IL_0094;
+	}
+
+IL_0043:
+	{
+		// if (!GetMicrophoneData())
+		bool L_10;
+		L_10 = MicrophoneSpeechSource_GetMicrophoneData_mCE8EBBC887D1ED78813BB99A784BD406DFC8AD3B(__this, NULL);
+		if (L_10)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		// OnRuntimeFailure(
+		//     new RuntimeFailureEventArgs(new SpeechSourceRuntimeException("Cannot access microphone data")));
+		SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* L_11 = (SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34*)il2cpp_codegen_object_new(SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		SpeechSourceRuntimeException__ctor_m440CA64669536B369C1296F1402BA6AF5FDBBDB4(L_11, _stringLiteral9C26C489B5719CB39EB39D576A282C588EEC9FBA, NULL);
+		RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* L_12 = (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815*)il2cpp_codegen_object_new(RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
+		RuntimeFailureEventArgs__ctor_m72916B97B2284C63FE51EBF9CAFE69B7B77BC7E1(L_12, L_11, NULL);
+		SpeechSource_OnRuntimeFailure_mD2CC4A830D62597029E5C154C36C80AB3E7C88EE(__this, L_12, NULL);
+		// return;
+		return;
+	}
+
+IL_0061:
+	{
+		// var written = Math.Min(availableSamples, bufferLength);
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_15;
+		L_15 = Math_Min_m1F346FEDDC77AC1EC0C4EF1AC6BA59F0EC7980F8(L_13, L_14, NULL);
+		V_3 = L_15;
+		// OnSamplesReady(new SamplesReadyEventArgs(_buffer, written));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_16 = __this->____buffer_17;
+		int32_t L_17 = V_3;
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_18 = (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2*)il2cpp_codegen_object_new(SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		NullCheck(L_18);
+		SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4(L_18, L_16, L_17, NULL);
+		SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049(__this, L_18, NULL);
+		// _prevPos = (_prevPos + written) % _recordingLength;
+		int32_t L_19 = __this->____prevPos_19;
+		int32_t L_20 = V_3;
+		int32_t L_21 = __this->____recordingLength_20;
+		__this->____prevPos_19 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_19, L_20))%L_21));
+		// availableSamples -= written;
+		int32_t L_22 = V_2;
+		int32_t L_23 = V_3;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_22, L_23));
+	}
+
+IL_0094:
+	{
+		// while (availableSamples >= bufferLength || (greedy && availableSamples > 0))
+		int32_t L_24 = V_2;
+		int32_t L_25 = V_1;
+		if ((((int32_t)L_24) >= ((int32_t)L_25)))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		bool L_26 = ___greedy0;
+		if (!L_26)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		if ((((int32_t)L_27) > ((int32_t)0)))
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_009f:
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource::GetMicrophoneData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_GetMicrophoneData_mCE8EBBC887D1ED78813BB99A784BD406DFC8AD3B (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return Application.platform == RuntimePlatform.WebGLPlayer
+		//     ? Microphone.GetCurrentData(_buffer, _prevPos)
+		//     : _clip.GetData(_buffer, _prevPos);
+		int32_t L_0;
+		L_0 = Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D(NULL);
+		if ((((int32_t)L_0) == ((int32_t)((int32_t)17))))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->____clip_21;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = __this->____buffer_17;
+		int32_t L_3 = __this->____prevPos_19;
+		NullCheck(L_1);
+		bool L_4;
+		L_4 = AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D(L_1, L_2, L_3, NULL);
+		return L_4;
+	}
+
+IL_0021:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = __this->____buffer_17;
+		int32_t L_6 = __this->____prevPos_19;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Microphone_GetCurrentData_m2BCA27FB19E7F809D2C16115068B77EFD7F16B0A(L_5, L_6, NULL);
+		return L_7;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::WriteSilence(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_WriteSilence_m26F6B0A74F37C2B647F0E26771AFFF8E8E8B7B17 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, float ___duration0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		// if (duration == 0)
+		float L_0 = ___duration0;
+		if ((!(((float)L_0) == ((float)(0.0f)))))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// var bufferLength = _buffer.Length;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = __this->____buffer_17;
+		NullCheck(L_1);
+		V_0 = ((int32_t)(((RuntimeArray*)L_1)->max_length));
+		// var silenceSamples = Mathf.CeilToInt(duration * SampleRate);
+		float L_2 = ___duration0;
+		int32_t L_3;
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 Recognissimo.SpeechSource::get_SampleRate() */, __this);
+		int32_t L_4;
+		L_4 = Mathf_CeilToInt_m04999E3DEB696135EFD620A30F51503D700C1998_inline(((float)il2cpp_codegen_multiply(L_2, ((float)L_3))), NULL);
+		V_1 = L_4;
+		// Array.Fill(_buffer, 0);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = __this->____buffer_17;
+		Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0(L_5, (0.0f), Array_Fill_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3B3A8973DA6368C5EAD566D9083AE5C0BDB7F1D0_RuntimeMethod_var);
+		goto IL_0050;
+	}
+
+IL_0033:
+	{
+		// OnSamplesReady(new SamplesReadyEventArgs(_buffer, _buffer.Length));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = __this->____buffer_17;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = __this->____buffer_17;
+		NullCheck(L_7);
+		SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* L_8 = (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2*)il2cpp_codegen_object_new(SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		SamplesReadyEventArgs__ctor_m8F30F0FBC304AD2992C8938169D65A71B0D214E4(L_8, L_6, ((int32_t)(((RuntimeArray*)L_7)->max_length)), NULL);
+		SpeechSource_OnSamplesReady_m4BACF9C5796239D82947B4C0E253ABB9CFBFE049(__this, L_8, NULL);
+		// silenceSamples -= bufferLength;
+		int32_t L_9 = V_1;
+		int32_t L_10 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, L_10));
+	}
+
+IL_0050:
+	{
+		// while (silenceSamples > 0)
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) > ((int32_t)0)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::StartProducing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_StartProducing_m4035EBE811441A8FC159C6CDC04548145EA361D6 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// IsRecording = true;
+		MicrophoneSpeechSource_set_IsRecording_m4BB4946DEFCD7ED35BED1A37F871B1014439DBF9_inline(__this, (bool)1, NULL);
+		// _prevPos = Microphone.GetPosition(recordingSettings.deviceName);
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		String_t* L_1 = L_0->___deviceName_0;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = Microphone_GetPosition_m44750EC04BF2A86ADEFD2AA358AFA84701E7B529(L_1, NULL);
+		__this->____prevPos_19 = L_2;
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::StopProducing()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_StopProducing_m60C875D9D69833E4F2F70D5776CEBB53C4160DD7 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// IsRecording = false;
+		MicrophoneSpeechSource_set_IsRecording_m4BB4946DEFCD7ED35BED1A37F871B1014439DBF9_inline(__this, (bool)0, NULL);
+		// Microphone.End(recordingSettings.deviceName);
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_0 = (&__this->___recordingSettings_16);
+		String_t* L_1 = L_0->___deviceName_0;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		Microphone_End_mB43F241697D94303953685A26512E25B21365FF9(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.String[] Recognissimo.Components.MicrophoneSpeechSource::Devices()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* MicrophoneSpeechSource_Devices_m939A54905B881FC0EB1437D1C128F1E6EEDFEE02 (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return Microphone.devices;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
+		L_0 = Microphone_get_devices_m0001F35D345C9AF300CB73F8FE36BD887D6CFD37(NULL);
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicrophoneSpeechSource__ctor_mF93E971C13C8957B1BE9C5FD357FA2AD0195847A (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// private RecordingSettings recordingSettings = new()
+		// {
+		//     deviceName = null,
+		//     timeSensitivity = 0.25f
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C));
+		(&V_0)->___deviceName_0 = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___deviceName_0), (void*)(String_t*)NULL);
+		(&V_0)->___timeSensitivity_1 = (0.25f);
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C L_0 = V_0;
+		__this->___recordingSettings_16 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___recordingSettings_16))->___deviceName_0), (void*)NULL);
+		SpeechSource__ctor_m84833D3DA5A6B824F4D1C68435D2CAA186FAF5AE(__this, NULL);
+		return;
+	}
+}
+// System.String Recognissimo.Components.MicrophoneSpeechSource::<OnEnable>b__22_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MicrophoneSpeechSource_U3COnEnableU3Eb__22_0_m19D8DE4DFA6430B1EFBA9F2E90FAA6CBFEEF830E (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// CallCondition.ValueChanged(() => DeviceName));
+		String_t* L_0;
+		L_0 = MicrophoneSpeechSource_get_DeviceName_m98895B1C7AA368529B375E279DF91B8CFD11EEAD(__this, NULL);
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+IL2CPP_EXTERN_C void RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshal_pinvoke(const RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C& unmarshaled, RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_pinvoke& marshaled)
+{
+	marshaled.___deviceName_0 = il2cpp_codegen_marshal_string(unmarshaled.___deviceName_0);
+	marshaled.___timeSensitivity_1 = unmarshaled.___timeSensitivity_1;
+}
+IL2CPP_EXTERN_C void RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshal_pinvoke_back(const RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_pinvoke& marshaled, RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C& unmarshaled)
+{
+	unmarshaled.___deviceName_0 = il2cpp_codegen_marshal_string_result(marshaled.___deviceName_0);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___deviceName_0), (void*)il2cpp_codegen_marshal_string_result(marshaled.___deviceName_0));
+	float unmarshaledtimeSensitivity_temp_1 = 0.0f;
+	unmarshaledtimeSensitivity_temp_1 = marshaled.___timeSensitivity_1;
+	unmarshaled.___timeSensitivity_1 = unmarshaledtimeSensitivity_temp_1;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+IL2CPP_EXTERN_C void RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshal_pinvoke_cleanup(RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___deviceName_0);
+	marshaled.___deviceName_0 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+IL2CPP_EXTERN_C void RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshal_com(const RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C& unmarshaled, RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_com& marshaled)
+{
+	marshaled.___deviceName_0 = il2cpp_codegen_marshal_bstring(unmarshaled.___deviceName_0);
+	marshaled.___timeSensitivity_1 = unmarshaled.___timeSensitivity_1;
+}
+IL2CPP_EXTERN_C void RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshal_com_back(const RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_com& marshaled, RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C& unmarshaled)
+{
+	unmarshaled.___deviceName_0 = il2cpp_codegen_marshal_bstring_result(marshaled.___deviceName_0);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___deviceName_0), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___deviceName_0));
+	float unmarshaledtimeSensitivity_temp_1 = 0.0f;
+	unmarshaledtimeSensitivity_temp_1 = marshaled.___timeSensitivity_1;
+	unmarshaled.___timeSensitivity_1 = unmarshaledtimeSensitivity_temp_1;
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+IL2CPP_EXTERN_C void RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshal_com_cleanup(RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___deviceName_0);
+	marshaled.___deviceName_0 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckMicrophonePermissionsU3Ed__23__ctor_mD7F39B63A9FBB1BBA3BEB58F8875CF537875CE09 (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckMicrophonePermissionsU3Ed__23_System_IDisposable_Dispose_mCA0A400EA84814BA4D2EA47D0C2491BC5D2FBB7F (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCheckMicrophonePermissionsU3Ed__23_MoveNext_m68FC8A14E4945A05AB86B22477DD55703B8F9A34 (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral889712558BD04FE6A653F0E3F5502528F3385149);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// yield return Microphone.RequestPermission();
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		RuntimeObject* L_4;
+		L_4 = Microphone_RequestPermission_m310D8FFB3FEEFEC79E9503ACB36935F8CAAB910E(NULL);
+		__this->___U3CU3E2__current_1 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_4);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0032:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (!Microphone.HasPermission())
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Microphone_HasPermission_m819100EA5B39967C2AAACDF47DBC6EF430098C64(NULL);
+		if (L_5)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		// FailInitialization(new InvalidOperationException("Permission to use a microphone is denied"));
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_6 = V_1;
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_7 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_7, _stringLiteral889712558BD04FE6A653F0E3F5502528F3385149, NULL);
+		NullCheck(L_6);
+		SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21(L_6, L_7, NULL);
+	}
+
+IL_0050:
+	{
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckMicrophonePermissionsU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m164FFBB36C126DC2C0404A9E88724D70BF4B2CA9 (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckMicrophonePermissionsU3Ed__23_System_Collections_IEnumerator_Reset_mB2A2E2E28EC815CE2FEB4C972E08983333A6853B (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCheckMicrophonePermissionsU3Ed__23_System_Collections_IEnumerator_Reset_mB2A2E2E28EC815CE2FEB4C972E08983333A6853B_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Components.MicrophoneSpeechSource/<CheckMicrophonePermissions>d__23::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckMicrophonePermissionsU3Ed__23_System_Collections_IEnumerator_get_Current_mF26722C2A68DDB6BB9B98EA268DD930B7222114C (U3CCheckMicrophonePermissionsU3Ed__23_t200043DB82325D057D1054AA360279FD057942D1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeMicrophoneU3Ed__25__ctor_m9C204C39DEB23C7532669D344EE41D75CBC3CBAD (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeMicrophoneU3Ed__25_System_IDisposable_Dispose_m50276F48B47BD3DB2EBB8D79CA6EE6F4962B85D7 (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeMicrophoneU3Ed__25_MoveNext_m42BA429C10100CB51DEF511833C26DDA049715FD (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_00bc;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (TimeSensitivity == 0f)
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5;
+		L_5 = MicrophoneSpeechSource_get_TimeSensitivity_m23F374165DA12D7A9DF01EBB23A1E0E61360F0B1(L_4, NULL);
+		if ((!(((float)L_5) == ((float)(0.0f)))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		// throw new InvalidOperationException($"{nameof(TimeSensitivity)} must be greater than zero");
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_6);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3265D697440C1C43D7A305AF98E374586769551A)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeMicrophoneU3Ed__25_MoveNext_m42BA429C10100CB51DEF511833C26DDA049715FD_RuntimeMethod_var)));
+	}
+
+IL_0039:
+	{
+		// var maxRecordingTime = (int) Math.Max(TimeSensitivity + secondsReserve, DefaultMaxRecordingTime);
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_7 = V_1;
+		NullCheck(L_7);
+		float L_8;
+		L_8 = MicrophoneSpeechSource_get_TimeSensitivity_m23F374165DA12D7A9DF01EBB23A1E0E61360F0B1(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_9;
+		L_9 = Math_Max_mB1131EAD9E03519D13D246CE96B599561C784957(((float)il2cpp_codegen_add(L_8, (1.0f))), (2.0f), NULL);
+		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(L_9);
+		// _clip = Microphone.Start(DeviceName, true, maxRecordingTime,
+		//     SampleRate);
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_10 = V_1;
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_11 = V_1;
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = MicrophoneSpeechSource_get_DeviceName_m98895B1C7AA368529B375E279DF91B8CFD11EEAD(L_11, NULL);
+		int32_t L_13 = V_2;
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 Recognissimo.SpeechSource::get_SampleRate() */, L_14);
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_16;
+		L_16 = Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F(L_12, (bool)1, L_13, L_15, NULL);
+		NullCheck(L_10);
+		L_10->____clip_21 = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&L_10->____clip_21), (void*)L_16);
+		// _recordingLength = _clip.samples;
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_17 = V_1;
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_18 = V_1;
+		NullCheck(L_18);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_19 = L_18->____clip_21;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_19, NULL);
+		NullCheck(L_17);
+		L_17->____recordingLength_20 = L_20;
+		// var bufferLength = (int) (TimeSensitivity * SampleRate);
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_21 = V_1;
+		NullCheck(L_21);
+		float L_22;
+		L_22 = MicrophoneSpeechSource_get_TimeSensitivity_m23F374165DA12D7A9DF01EBB23A1E0E61360F0B1(L_21, NULL);
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_23 = V_1;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 Recognissimo.SpeechSource::get_SampleRate() */, L_23);
+		V_3 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_22, ((float)L_24))));
+		// if (_buffer == null || _buffer.Length != bufferLength)
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_25 = V_1;
+		NullCheck(L_25);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = L_25->____buffer_17;
+		if (!L_26)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_27 = V_1;
+		NullCheck(L_27);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_28 = L_27->____buffer_17;
+		NullCheck(L_28);
+		int32_t L_29 = V_3;
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length))) == ((int32_t)L_29)))
+		{
+			goto IL_00c3;
+		}
+	}
+
+IL_009e:
+	{
+		// _buffer = new float[bufferLength];
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_30 = V_1;
+		int32_t L_31 = V_3;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_32 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_31);
+		NullCheck(L_30);
+		L_30->____buffer_17 = L_32;
+		Il2CppCodeGenWriteBarrier((void**)(&L_30->____buffer_17), (void*)L_32);
+		goto IL_00c3;
+	}
+
+IL_00ac:
+	{
+		// yield return null;
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_00bc:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_00c3:
+	{
+		// while (Microphone.GetPosition(recordingSettings.deviceName) == 0)
+		MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* L_33 = V_1;
+		NullCheck(L_33);
+		RecordingSettings_tEC4A4228A4BC8A74FB039442CBB7EF8F9886DE8C* L_34 = (&L_33->___recordingSettings_16);
+		String_t* L_35 = L_34->___deviceName_0;
+		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
+		int32_t L_36;
+		L_36 = Microphone_GetPosition_m44750EC04BF2A86ADEFD2AA358AFA84701E7B529(L_35, NULL);
+		if (!L_36)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeMicrophoneU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE42CE688E537E892936189EA3F84CB3983D0ACD4 (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeMicrophoneU3Ed__25_System_Collections_IEnumerator_Reset_mF4AE88B19BBBC80467F367E90E692BD38EC97E20 (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeMicrophoneU3Ed__25_System_Collections_IEnumerator_Reset_mF4AE88B19BBBC80467F367E90E692BD38EC97E20_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Components.MicrophoneSpeechSource/<InitializeMicrophone>d__25::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeMicrophoneU3Ed__25_System_Collections_IEnumerator_get_Current_m89F762FE6606EF023809153FAA71C308CA8DD3C3 (U3CInitializeMicrophoneU3Ed__25_tFD12568F08D523E288DF18218E53BCC22CA36CE6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.RemoteLanguageModelArchive
+IL2CPP_EXTERN_C void RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshal_pinvoke(const RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA& unmarshaled, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_pinvoke& marshaled)
+{
+	marshaled.___language_0 = unmarshaled.___language_0;
+	marshaled.___url_1 = il2cpp_codegen_marshal_string(unmarshaled.___url_1);
+	marshaled.___entry_2 = il2cpp_codegen_marshal_string(unmarshaled.___entry_2);
+}
+IL2CPP_EXTERN_C void RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshal_pinvoke_back(const RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_pinvoke& marshaled, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA& unmarshaled)
+{
+	int32_t unmarshaledlanguage_temp_0 = 0;
+	unmarshaledlanguage_temp_0 = marshaled.___language_0;
+	unmarshaled.___language_0 = unmarshaledlanguage_temp_0;
+	unmarshaled.___url_1 = il2cpp_codegen_marshal_string_result(marshaled.___url_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___url_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___url_1));
+	unmarshaled.___entry_2 = il2cpp_codegen_marshal_string_result(marshaled.___entry_2);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___entry_2), (void*)il2cpp_codegen_marshal_string_result(marshaled.___entry_2));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.RemoteLanguageModelArchive
+IL2CPP_EXTERN_C void RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshal_pinvoke_cleanup(RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___url_1);
+	marshaled.___url_1 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___entry_2);
+	marshaled.___entry_2 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Components.RemoteLanguageModelArchive
+IL2CPP_EXTERN_C void RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshal_com(const RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA& unmarshaled, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_com& marshaled)
+{
+	marshaled.___language_0 = unmarshaled.___language_0;
+	marshaled.___url_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___url_1);
+	marshaled.___entry_2 = il2cpp_codegen_marshal_bstring(unmarshaled.___entry_2);
+}
+IL2CPP_EXTERN_C void RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshal_com_back(const RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_com& marshaled, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA& unmarshaled)
+{
+	int32_t unmarshaledlanguage_temp_0 = 0;
+	unmarshaledlanguage_temp_0 = marshaled.___language_0;
+	unmarshaled.___language_0 = unmarshaledlanguage_temp_0;
+	unmarshaled.___url_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___url_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___url_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___url_1));
+	unmarshaled.___entry_2 = il2cpp_codegen_marshal_bstring_result(marshaled.___entry_2);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___entry_2), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___entry_2));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.RemoteLanguageModelArchive
+IL2CPP_EXTERN_C void RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshal_com_cleanup(RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___url_1);
+	marshaled.___url_1 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___entry_2);
+	marshaled.___entry_2 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteLanguageModelProvider_OnEnable_m77184E8134B49A2CED5704693D52C70A3F0E3DB5 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_SequenceEqual_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_m38CB2815E3A518EAA97535F00355BED5977BDCEA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_LoadModel_mB5EFB21BBD57BDA4DEB79484FE8E5DC976539499_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_RemoveUnusedLanguageModels_m4090C47A07C66A356D351ABBD877857B8CD2520C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_U3COnEnableU3Eb__5_0_mB4833A9CE1B8A5ECDDBA6829BBC716FEB82D5574_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_U3COnEnableU3Eb__5_1_m5FE992F2F8100B5998DDC3F589E15C671A16AA36_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_U3COnEnableU3Eb__5_2_m5F3A0AEAC09E2E0A097FF5035A0389DBD96FF34D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_UpdateManifest_mEAC09983B16DBD1809302F987685C10E6F848421_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9E559651D62D7DAFD5853C1620456995A86EAB80);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAA0ADED665086D4BF731C1B6ADE286AF1FE24D99);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD2F55031859D42CCA7C8B0EA540877582ABE1AEA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD696C0F2BB28480D6A3AA4A7E1C868ABD6A61910);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// var downloadsDirectoryPath = Path.Combine(Application.persistentDataPath, DownloadsDirectoryName);
+		String_t* L_0;
+		L_0 = Application_get_persistentDataPath_m787EBC9B0862E7617DCD6CABD2147E61717EAC17(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_1;
+		L_1 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_0, _stringLiteral9E559651D62D7DAFD5853C1620456995A86EAB80, NULL);
+		V_0 = L_1;
+		// _downloadManager = new DownloadManager(downloadsDirectoryPath);
+		String_t* L_2 = V_0;
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_3 = (DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73*)il2cpp_codegen_object_new(DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		DownloadManager__ctor_m9B80EB11A9F22F1BB98262792F49681F62A27C61(L_3, L_2, NULL);
+		__this->____downloadManager_14 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____downloadManager_14), (void*)L_3);
+		// RegisterInitializationTask("Update list of remote files", UpdateManifest,
+		//     CallCondition.ValueChanged(() => languageModels, Enumerable.SequenceEqual));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)RemoteLanguageModelProvider_UpdateManifest_mEAC09983B16DBD1809302F987685C10E6F848421_RuntimeMethod_var), NULL);
+		Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB* L_5 = (Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB*)il2cpp_codegen_object_new(Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Func_1__ctor_m71C1180FCE9DDDD0655636CDD29A81306D233235(L_5, __this, (intptr_t)((void*)RemoteLanguageModelProvider_U3COnEnableU3Eb__5_0_mB4833A9CE1B8A5ECDDBA6829BBC716FEB82D5574_RuntimeMethod_var), NULL);
+		Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7* L_6 = (Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7*)il2cpp_codegen_object_new(Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Func_3__ctor_mC3E3ED7EEF52970DA9A274CFABE75EA436D09BDE(L_6, NULL, (intptr_t)((void*)Enumerable_SequenceEqual_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_m38CB2815E3A518EAA97535F00355BED5977BDCEA_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_7;
+		L_7 = CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9(L_5, L_6, CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9_RuntimeMethod_var);
+		SpeechProcessorDependency_RegisterInitializationTask_m12AEC96FC2A67FE66CBB12371722186D9E9DC757(__this, _stringLiteralAA0ADED665086D4BF731C1B6ADE286AF1FE24D99, L_4, L_7, NULL);
+		// RegisterInitializationTask("Remove unused language models", RemoveUnusedLanguageModels,
+		//     CallCondition.ValueChanged(() => languageModels, Enumerable.SequenceEqual));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, __this, (intptr_t)((void*)RemoteLanguageModelProvider_RemoveUnusedLanguageModels_m4090C47A07C66A356D351ABBD877857B8CD2520C_RuntimeMethod_var), NULL);
+		Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB* L_9 = (Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB*)il2cpp_codegen_object_new(Func_1_t8621650C918E971414D2200C3D11F3C4D3FC60BB_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Func_1__ctor_m71C1180FCE9DDDD0655636CDD29A81306D233235(L_9, __this, (intptr_t)((void*)RemoteLanguageModelProvider_U3COnEnableU3Eb__5_1_m5FE992F2F8100B5998DDC3F589E15C671A16AA36_RuntimeMethod_var), NULL);
+		Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7* L_10 = (Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7*)il2cpp_codegen_object_new(Func_3_tEF9BFC6D3B99E06040308EB96328A36B800248D7_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		Func_3__ctor_mC3E3ED7EEF52970DA9A274CFABE75EA436D09BDE(L_10, NULL, (intptr_t)((void*)Enumerable_SequenceEqual_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_m38CB2815E3A518EAA97535F00355BED5977BDCEA_RuntimeMethod_var), NULL);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_11;
+		L_11 = CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9(L_9, L_10, CallCondition_ValueChanged_TisList_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_mF67CDEA045FDC7E75ABD0EB247168696C71A4CC9_RuntimeMethod_var);
+		SpeechProcessorDependency_RegisterInitializationTask_m12AEC96FC2A67FE66CBB12371722186D9E9DC757(__this, _stringLiteralD696C0F2BB28480D6A3AA4A7E1C868ABD6A61910, L_8, L_11, NULL);
+		// RegisterInitializationTask("Load language model", LoadModel, CallCondition.ValueChanged(() => language));
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_12 = (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*)il2cpp_codegen_object_new(Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
+		Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC(L_12, __this, (intptr_t)((void*)RemoteLanguageModelProvider_LoadModel_mB5EFB21BBD57BDA4DEB79484FE8E5DC976539499_RuntimeMethod_var), NULL);
+		Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE* L_13 = (Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE*)il2cpp_codegen_object_new(Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Func_1__ctor_m6B15F4975FFB31159E4537579F75A0251928A9A3(L_13, __this, (intptr_t)((void*)RemoteLanguageModelProvider_U3COnEnableU3Eb__5_2_m5F3A0AEAC09E2E0A097FF5035A0389DBD96FF34D_RuntimeMethod_var), NULL);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_14;
+		L_14 = CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F(L_13, (Func_3_t8695FF52278BB789E35AEE99A56D2FE109708165*)NULL, CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F_RuntimeMethod_var);
+		SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC(__this, _stringLiteralD2F55031859D42CCA7C8B0EA540877582ABE1AEA, L_12, L_14, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.RemoteLanguageModelProvider::IsDownloaded(UnityEngine.SystemLanguage)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RemoteLanguageModelProvider_IsDownloaded_m90491C75C45B42DDAF88BFC4A5D01CF516AAF0A1 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, int32_t ___downloadedLanguage0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_U3CIsDownloadedU3Eb__0_mDB9AC966BA64946208E7DA62ABAC0542B500F77B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* V_0 = NULL;
+	RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* L_0 = (U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass6_0__ctor_m817F30950222B0A2BD14F65CB9D070CC039276D6(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* L_1 = V_0;
+		int32_t L_2 = ___downloadedLanguage0;
+		NullCheck(L_1);
+		L_1->___downloadedLanguage_0 = L_2;
+		// if (languageModels == null)
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_3 = __this->___languageModels_13;
+		if (L_3)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// return false;
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == downloadedLanguage);
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_4 = __this->___languageModels_13;
+		U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* L_5 = V_0;
+		Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* L_6 = (Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730*)il2cpp_codegen_object_new(Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Func_2__ctor_m281792AC70DFEAA12054D5F9E56ADC73114AA72C(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass6_0_U3CIsDownloadedU3Eb__0_mDB9AC966BA64946208E7DA62ABAC0542B500F77B_RuntimeMethod_var), NULL);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_7;
+		L_7 = Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6(L_4, L_6, Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var);
+		V_1 = L_7;
+		// return !model.Equals(default) &&
+		//        _downloadManager.IsDownloaded(RemoteLanguageModelArchiveToRemoteFile(model), true);
+		Il2CppFakeBox<RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA> L_8(RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var, (&V_1));
+		bool L_9;
+		L_9 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_8), NULL, NULL);
+		if (L_9)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_10 = __this->____downloadManager_14;
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_11 = V_1;
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C L_12;
+		L_12 = RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954(L_11, NULL);
+		NullCheck(L_10);
+		bool L_13;
+		L_13 = DownloadManager_IsDownloaded_m5D27E387E4D43D6AEED981A0E5E278154B099814(L_10, L_12, (bool)1, NULL);
+		return L_13;
+	}
+
+IL_0052:
+	{
+		return (bool)0;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider::RemoveLanguageModelFiles(UnityEngine.SystemLanguage)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteLanguageModelProvider_RemoveLanguageModelFiles_mB06310C25378ECAF1A59BC92EA269EC6302D6D01 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, int32_t ___removeLanguage0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass7_0_U3CRemoveLanguageModelFilesU3Eb__0_m2E9A393FFA14BFCC067CB5278A9AE377C48FD649_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* V_0 = NULL;
+	RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* L_0 = (U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass7_0__ctor_mE82CBE7CF65F39BCB7D95A763458DD663A772152(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* L_1 = V_0;
+		int32_t L_2 = ___removeLanguage0;
+		NullCheck(L_1);
+		L_1->___removeLanguage_0 = L_2;
+		// var model = languageModels.SingleOrDefault(model => model.language == removeLanguage);
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_3 = __this->___languageModels_13;
+		U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* L_4 = V_0;
+		Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* L_5 = (Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730*)il2cpp_codegen_object_new(Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Func_2__ctor_m281792AC70DFEAA12054D5F9E56ADC73114AA72C(L_5, L_4, (intptr_t)((void*)U3CU3Ec__DisplayClass7_0_U3CRemoveLanguageModelFilesU3Eb__0_m2E9A393FFA14BFCC067CB5278A9AE377C48FD649_RuntimeMethod_var), NULL);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_6;
+		L_6 = Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6(L_3, L_5, Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var);
+		V_1 = L_6;
+		// if (model.Equals(default))
+		Il2CppFakeBox<RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA> L_7(RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var, (&V_1));
+		bool L_8;
+		L_8 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_7), NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0036:
+	{
+		// _downloadManager.RemoveDownload(RemoteLanguageModelArchiveToRemoteFile(model));
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_9 = __this->____downloadManager_14;
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_10 = V_1;
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C L_11;
+		L_11 = RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954(L_10, NULL);
+		NullCheck(L_9);
+		DownloadManager_RemoveDownload_m88ACC685B377FA6FFD619A378D1570FCFC71F25D(L_9, L_11, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider::UpdateManifest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteLanguageModelProvider_UpdateManifest_mEAC09983B16DBD1809302F987685C10E6F848421 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	{
+		// _manifest = AutoGenerateManifest();
+		RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 L_0;
+		L_0 = RemoteLanguageModelProvider_AutoGenerateManifest_m67840D46B8EB90EE299B91A701AD9E83F4A2C076(__this, NULL);
+		__this->____manifest_15 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____manifest_15))->___content_0), (void*)NULL);
+		// }
+		return;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider::RemoveUnusedLanguageModels()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteLanguageModelProvider_RemoveUnusedLanguageModels_m4090C47A07C66A356D351ABBD877857B8CD2520C (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (_manifest.content == null)
+		RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2* L_0 = (&__this->____manifest_15);
+		List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* L_1 = L_0->___content_0;
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000e:
+	{
+		// _downloadManager.RemoveDownloadsExcept(_manifest.content);
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_2 = __this->____downloadManager_14;
+		RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2* L_3 = (&__this->____manifest_15);
+		List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* L_4 = L_3->___content_0;
+		NullCheck(L_2);
+		DownloadManager_RemoveDownloadsExcept_m847BB6160A02BC339ED847E127CAE39CC37AADF2(L_2, L_4, NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.Components.RemoteLanguageModelProvider::LoadModel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RemoteLanguageModelProvider_LoadModel_mB5EFB21BBD57BDA4DEB79484FE8E5DC976539499 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* L_0 = (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1*)il2cpp_codegen_object_new(U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CLoadModelU3Ed__10__ctor_m8D8EE0E050B29438A34C110BD42C8ED05934EF14(L_0, 0, NULL);
+		U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// Recognissimo.Utils.Network.RemoteFilesManifest Recognissimo.Components.RemoteLanguageModelProvider::AutoGenerateManifest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 RemoteLanguageModelProvider_AutoGenerateManifest_m67840D46B8EB90EE299B91A701AD9E83F4A2C076 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new RemoteFilesManifest
+		// {
+		//     content = languageModels
+		//         .Select(RemoteLanguageModelArchiveToRemoteFile)
+		//         .ToList()
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2));
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_0 = __this->___languageModels_13;
+		Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772* L_1 = (Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772*)il2cpp_codegen_object_new(Func_2_t572D376C6B0C1BB8E1807B1C1F38A776725D4772_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Func_2__ctor_m5F2FB99835FBD2D3B2B540639DB0060BEFBB4B08(L_1, NULL, (intptr_t)((void*)RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954_RuntimeMethod_var), NULL);
+		RuntimeObject* L_2;
+		L_2 = Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB(L_0, L_1, Enumerable_Select_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m9FF43FC648872E7BC7A329901728CD687C807CEB_RuntimeMethod_var);
+		List_1_tDD1A8329D04849E843F3F19412F8F4D6A30D6980* L_3;
+		L_3 = Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1(L_2, Enumerable_ToList_TisRemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C_m3926EEB8173337CDB4EEAD44FF13526D0567AFF1_RuntimeMethod_var);
+		(&V_0)->___content_0 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___content_0), (void*)L_3);
+		RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2 L_4 = V_0;
+		return L_4;
+	}
+}
+// Recognissimo.Utils.Network.RemoteFile Recognissimo.Components.RemoteLanguageModelProvider::RemoteLanguageModelArchiveToRemoteFile(Recognissimo.Components.RemoteLanguageModelArchive)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C RemoteLanguageModelProvider_RemoteLanguageModelArchiveToRemoteFile_m8A7C57AF103580956303DF95517A6997D085C954 (RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA ___description0, const RuntimeMethod* method) 
+{
+	RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new RemoteFile {url = description.url, version = description.url};
+		il2cpp_codegen_initobj((&V_0), sizeof(RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C));
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_0 = ___description0;
+		String_t* L_1 = L_0.___url_1;
+		(&V_0)->___url_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___url_0), (void*)L_1);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_2 = ___description0;
+		String_t* L_3 = L_2.___url_1;
+		(&V_0)->___version_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___version_1), (void*)L_3);
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteLanguageModelProvider__ctor_mCA8CB51B88F3617883752DCF0E7E19BDD2367170 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public SystemLanguage language = SystemLanguage.English;
+		__this->___language_12 = ((int32_t)10);
+		// public List<RemoteLanguageModelArchive> languageModels = new();
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_0 = (List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2*)il2cpp_codegen_object_new(List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7(L_0, List_1__ctor_m9945D4543EBF99FCDDA47F7B41AF7617BBDF66D7_RuntimeMethod_var);
+		__this->___languageModels_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___languageModels_13), (void*)L_0);
+		LanguageModelProvider__ctor_m49FA4F8102E88930B953BAD786A6F45AB90FDC57(__this, NULL);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive> Recognissimo.Components.RemoteLanguageModelProvider::<OnEnable>b__5_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* RemoteLanguageModelProvider_U3COnEnableU3Eb__5_0_mB4833A9CE1B8A5ECDDBA6829BBC716FEB82D5574 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	{
+		// CallCondition.ValueChanged(() => languageModels, Enumerable.SequenceEqual));
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_0 = __this->___languageModels_13;
+		return L_0;
+	}
+}
+// System.Collections.Generic.List`1<Recognissimo.Components.RemoteLanguageModelArchive> Recognissimo.Components.RemoteLanguageModelProvider::<OnEnable>b__5_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* RemoteLanguageModelProvider_U3COnEnableU3Eb__5_1_m5FE992F2F8100B5998DDC3F589E15C671A16AA36 (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	{
+		// CallCondition.ValueChanged(() => languageModels, Enumerable.SequenceEqual));
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_0 = __this->___languageModels_13;
+		return L_0;
+	}
+}
+// UnityEngine.SystemLanguage Recognissimo.Components.RemoteLanguageModelProvider::<OnEnable>b__5_2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RemoteLanguageModelProvider_U3COnEnableU3Eb__5_2_m5F3A0AEAC09E2E0A097FF5035A0389DBD96FF34D (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, const RuntimeMethod* method) 
+{
+	{
+		// RegisterInitializationTask("Load language model", LoadModel, CallCondition.ValueChanged(() => language));
+		int32_t L_0 = __this->___language_12;
+		return L_0;
+	}
+}
+// System.Boolean Recognissimo.Components.RemoteLanguageModelProvider::<LoadModel>b__10_0(Recognissimo.Components.RemoteLanguageModelArchive)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RemoteLanguageModelProvider_U3CLoadModelU3Eb__10_0_mD18F0B2D99650E8D8D25A00C9CA6F42AEFC613CE (RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* __this, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA ___model0, const RuntimeMethod* method) 
+{
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == language);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_0 = ___model0;
+		int32_t L_1 = L_0.___language_0;
+		int32_t L_2 = __this->___language_12;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass6_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m817F30950222B0A2BD14F65CB9D070CC039276D6 (U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass6_0::<IsDownloaded>b__0(Recognissimo.Components.RemoteLanguageModelArchive)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CIsDownloadedU3Eb__0_mDB9AC966BA64946208E7DA62ABAC0542B500F77B (U3CU3Ec__DisplayClass6_0_tE5A84FB85DA41E0EF999D2A0502D47AAF32F1090* __this, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA ___model0, const RuntimeMethod* method) 
+{
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == downloadedLanguage);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_0 = ___model0;
+		int32_t L_1 = L_0.___language_0;
+		int32_t L_2 = __this->___downloadedLanguage_0;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass7_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mE82CBE7CF65F39BCB7D95A763458DD663A772152 (U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass7_0::<RemoveLanguageModelFiles>b__0(Recognissimo.Components.RemoteLanguageModelArchive)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass7_0_U3CRemoveLanguageModelFilesU3Eb__0_m2E9A393FFA14BFCC067CB5278A9AE377C48FD649 (U3CU3Ec__DisplayClass7_0_tD1E4CC2FF07A49F0959BC98DABD260D9270DA7F6* __this, RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA ___model0, const RuntimeMethod* method) 
+{
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == removeLanguage);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_0 = ___model0;
+		int32_t L_1 = L_0.___language_0;
+		int32_t L_2 = __this->___removeLanguage_0;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_mE90C4823CAFA6576535C75CAD1E18D25F2AABE37 (U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<>c__DisplayClass10_0::<LoadModel>b__1(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CLoadModelU3Eb__1_mE94DB3910CB242B707F759452AD70BE7B169ED1F (U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* __this, String_t* ___failReason0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// didDownloadFail = true;
+		__this->___didDownloadFail_0 = (bool)1;
+		// FailInitialization(new IOException(failReason));
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_0 = __this->___U3CU3E4__this_1;
+		String_t* L_1 = ___failReason0;
+		IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910* L_2 = (IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)il2cpp_codegen_object_new(IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		IOException__ctor_mE0612A16064F93C7EBB468D6874777BD70CB50CA(L_2, L_1, NULL);
+		NullCheck(L_0);
+		SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21(L_0, L_2, NULL);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__10__ctor_m8D8EE0E050B29438A34C110BD42C8ED05934EF14 (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__10_System_IDisposable_Dispose_m8B577F02AE5F0515AEC494DE7B96A3C4F9BB1C96 (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadModelU3Ed__10_MoveNext_m15BF5DD1E4EDB8CC911F1605232AEA2F973D3427 (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteLanguageModelProvider_U3CLoadModelU3Eb__10_0_mD18F0B2D99650E8D8D25A00C9CA6F42AEFC613CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass10_0_U3CLoadModelU3Eb__1_mE94DB3910CB242B707F759452AD70BE7B169ED1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* G_B18_0 = NULL;
+	String_t* G_B18_1 = NULL;
+	String_t* G_B17_0 = NULL;
+	String_t* G_B17_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_013c;
+			}
+			case 2:
+			{
+				goto IL_016d;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (languageModels == null)
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_3 = V_1;
+		NullCheck(L_3);
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_4 = L_3->___languageModels_13;
+		if (L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		// throw new InvalidOperationException("List of language models is missing.");
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_5);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral06A38FE48E9ED08D2EFD37401469D0D9FB06283E)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__10_MoveNext_m15BF5DD1E4EDB8CC911F1605232AEA2F973D3427_RuntimeMethod_var)));
+	}
+
+IL_003c:
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == language);
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_6 = V_1;
+		NullCheck(L_6);
+		List_1_t249124B00AC5A675A021A63F540DE03D7D8ABAB2* L_7 = L_6->___languageModels_13;
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_8 = V_1;
+		Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730* L_9 = (Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730*)il2cpp_codegen_object_new(Func_2_t51B01E332682BE526F0C4A7B2270F4CC797D4730_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Func_2__ctor_m281792AC70DFEAA12054D5F9E56ADC73114AA72C(L_9, L_8, (intptr_t)((void*)RemoteLanguageModelProvider_U3CLoadModelU3Eb__10_0_mD18F0B2D99650E8D8D25A00C9CA6F42AEFC613CE_RuntimeMethod_var), NULL);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA L_10;
+		L_10 = Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6(L_7, L_9, Enumerable_SingleOrDefault_TisRemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_mD7C87C9C6E1FD82B0486665A3237BD455DFEB5C6_RuntimeMethod_var);
+		__this->___U3CmodelU3E5__2_4 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CmodelU3E5__2_4))->___url_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CmodelU3E5__2_4))->___entry_2), (void*)NULL);
+		#endif
+		// if (model.Equals(default))
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA* L_11 = (&__this->___U3CmodelU3E5__2_4);
+		Il2CppFakeBox<RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA> L_12(RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA_il2cpp_TypeInfo_var, L_11);
+		bool L_13;
+		L_13 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_12), NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		// throw new InvalidOperationException($"Language model for {language.ToString()} language is missing.");
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t* L_15 = (&L_14->___language_12);
+		Il2CppFakeBox<int32_t> L_16(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_il2cpp_TypeInfo_var)), L_15);
+		String_t* L_17;
+		L_17 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_16), NULL);
+		String_t* L_18;
+		L_18 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDDE3D2045506341D103BEDB063385BEC1D86B75C)), L_17, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral889933F0ACB2C349D0387348532C96DAEC60F544)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_19);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__10_MoveNext_m15BF5DD1E4EDB8CC911F1605232AEA2F973D3427_RuntimeMethod_var)));
+	}
+
+IL_0093:
+	{
+		// if (!_manifest.TryFindByUrl(model.url, out var remote))
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_20 = V_1;
+		NullCheck(L_20);
+		RemoteFilesManifest_t01CF6158BE2F6B68A7FAF2AEFEB9FF435126DCC2* L_21 = (&L_20->____manifest_15);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA* L_22 = (&__this->___U3CmodelU3E5__2_4);
+		String_t* L_23 = L_22->___url_1;
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C* L_24 = (&__this->___U3CremoteU3E5__3_5);
+		bool L_25;
+		L_25 = RemoteFilesManifest_TryFindByUrl_m4D8B7CC302C276E2CA288395A9E2C77BFC752B32(L_21, L_23, L_24, NULL);
+		if (L_25)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		// throw new InvalidOperationException($"Model with URL {model.url} not found in manifest.");
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA* L_26 = (&__this->___U3CmodelU3E5__2_4);
+		String_t* L_27 = L_26->___url_1;
+		String_t* L_28;
+		L_28 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC1399F49112BEB65FB61EA2C3082C828658586A0)), L_27, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4AE6DEE61E3B2C26FE1CD8F6841CE412012A3076)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_29 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_29);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_29, L_28, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__10_MoveNext_m15BF5DD1E4EDB8CC911F1605232AEA2F973D3427_RuntimeMethod_var)));
+	}
+
+IL_00d1:
+	{
+		// if (!_downloadManager.IsDownloaded(remote, true))
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_30 = V_1;
+		NullCheck(L_30);
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_31 = L_30->____downloadManager_14;
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C L_32 = __this->___U3CremoteU3E5__3_5;
+		NullCheck(L_31);
+		bool L_33;
+		L_33 = DownloadManager_IsDownloaded_m5D27E387E4D43D6AEED981A0E5E278154B099814(L_31, L_32, (bool)1, NULL);
+		if (L_33)
+		{
+			goto IL_017b;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* L_34 = (U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		U3CU3Ec__DisplayClass10_0__ctor_mE90C4823CAFA6576535C75CAD1E18D25F2AABE37(L_34, NULL);
+		__this->___U3CU3E8__1_3 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_3), (void*)L_34);
+		U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* L_35 = __this->___U3CU3E8__1_3;
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_36 = V_1;
+		NullCheck(L_35);
+		L_35->___U3CU3E4__this_1 = L_36;
+		Il2CppCodeGenWriteBarrier((void**)(&L_35->___U3CU3E4__this_1), (void*)L_36);
+		// var didDownloadFail = false;
+		U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* L_37 = __this->___U3CU3E8__1_3;
+		NullCheck(L_37);
+		L_37->___didDownloadFail_0 = (bool)0;
+		// yield return _downloadManager.DownloadAndExtractZip(remote, failReason =>
+		// {
+		//     didDownloadFail = true;
+		// 
+		//     FailInitialization(new IOException(failReason));
+		// });
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_38 = V_1;
+		NullCheck(L_38);
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_39 = L_38->____downloadManager_14;
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C L_40 = __this->___U3CremoteU3E5__3_5;
+		U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* L_41 = __this->___U3CU3E8__1_3;
+		DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8* L_42 = (DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8*)il2cpp_codegen_object_new(DownloadFailedCallback_t9F1D05ECD1C771A2EC2CDA0CD3A61534DA1FF3A8_il2cpp_TypeInfo_var);
+		NullCheck(L_42);
+		DownloadFailedCallback__ctor_mF38E0B91CA7ADCACF26E709F8CF9F5CDD21E1829(L_42, L_41, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CLoadModelU3Eb__1_mE94DB3910CB242B707F759452AD70BE7B169ED1F_RuntimeMethod_var), NULL);
+		NullCheck(L_39);
+		RuntimeObject* L_43;
+		L_43 = DownloadManager_DownloadAndExtractZip_m1EB8B0B605A8E6091AB91EB74498A7A7204AD10A(L_39, L_40, L_42, NULL);
+		__this->___U3CU3E2__current_1 = L_43;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_43);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_013c:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (didDownloadFail)
+		U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C* L_44 = __this->___U3CU3E8__1_3;
+		NullCheck(L_44);
+		bool L_45 = L_44->___didDownloadFail_0;
+		if (!L_45)
+		{
+			goto IL_0152;
+		}
+	}
+	{
+		// yield break;
+		return (bool)0;
+	}
+
+IL_0152:
+	{
+		// if (Filesystem.RequiresSyncing())
+		bool L_46;
+		L_46 = Filesystem_RequiresSyncing_m7E72268FAB5B97CC17D17B98CDB939D9E58EC044(NULL);
+		if (!L_46)
+		{
+			goto IL_0174;
+		}
+	}
+	{
+		// yield return Filesystem.Commit();
+		RuntimeObject* L_47;
+		L_47 = Filesystem_Commit_mA3183351FFF99525699344A7F012ED35A11F5FAB(NULL);
+		__this->___U3CU3E2__current_1 = L_47;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_47);
+		__this->___U3CU3E1__state_0 = 2;
+		return (bool)1;
+	}
+
+IL_016d:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_0174:
+	{
+		// }
+		__this->___U3CU3E8__1_3 = (U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_3), (void*)(U3CU3Ec__DisplayClass10_0_t27CB2C7042681CCB9193B4C8EDAB103BF859918C*)NULL);
+	}
+
+IL_017b:
+	{
+		// var archiveContentPath = _downloadManager.GetDownloadedItemPath(remote);
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_48 = V_1;
+		NullCheck(L_48);
+		DownloadManager_tC27D60574883BC580DDEE3EF7373D76245D51D73* L_49 = L_48->____downloadManager_14;
+		RemoteFile_t96341BDF58816FAD864933643D35B1FA5EC8F06C L_50 = __this->___U3CremoteU3E5__3_5;
+		NullCheck(L_49);
+		String_t* L_51;
+		L_51 = DownloadManager_GetDownloadedItemPath_mB407C08FDAE016E5165812FF27BE5835DB8AC282(L_49, L_50, NULL);
+		// var modelPath = Path.Combine(archiveContentPath, model.entry ?? string.Empty);
+		RemoteLanguageModelArchive_t28ACBEB956B0B78C3A5D392E28CA67F8C845BFAA* L_52 = (&__this->___U3CmodelU3E5__2_4);
+		String_t* L_53 = L_52->___entry_2;
+		String_t* L_54 = L_53;
+		G_B17_0 = L_54;
+		G_B17_1 = L_51;
+		if (L_54)
+		{
+			G_B18_0 = L_54;
+			G_B18_1 = L_51;
+			goto IL_01a0;
+		}
+	}
+	{
+		String_t* L_55 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		G_B18_0 = L_55;
+		G_B18_1 = G_B17_1;
+	}
+
+IL_01a0:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_56;
+		L_56 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(G_B18_1, G_B18_0, NULL);
+		V_2 = L_56;
+		// Model = new LanguageModel(modelPath);
+		RemoteLanguageModelProvider_t19107B5F0B20D6F1DB4DDA3C97214540CF4A8A7B* L_57 = V_1;
+		String_t* L_58 = V_2;
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_59 = (LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD*)il2cpp_codegen_object_new(LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD_il2cpp_TypeInfo_var);
+		NullCheck(L_59);
+		LanguageModel__ctor_m0AE2274D2DE26D08B3AF72A9904FB3A8AF0734FC(L_59, L_58, NULL);
+		NullCheck(L_57);
+		LanguageModelProvider_set_Model_m2E6FCCFD10FB38E55ED6A666F73713A4610AC49D(L_57, L_59, NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadModelU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD692C07D86C971E1C689851BBEE954A6FAD82E0C (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__10_System_Collections_IEnumerator_Reset_mF8F6DDDA6D9DCA84E17DD2BE353382F2C8D24D2C (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__10_System_Collections_IEnumerator_Reset_mF8F6DDDA6D9DCA84E17DD2BE353382F2C8D24D2C_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Components.RemoteLanguageModelProvider/<LoadModel>d__10::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadModelU3Ed__10_System_Collections_IEnumerator_get_Current_mCAA72AED0AF6C50033DBE24517D922BC595DE8C2 (U3CLoadModelU3Ed__10_t391B6B83B03E38FA26569360A3A41A6A9EAAC5B1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.List`1<System.String> Recognissimo.Components.SpeechRecognizer::get_Vocabulary()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* SpeechRecognizer_get_Vocabulary_m8CC65508AC31D440AC58BC3A183DBA45DA55EC2E (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => settings.vocabulary;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0->___vocabulary_0;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.SpeechRecognizer::set_Vocabulary(System.Collections.Generic.List`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizer_set_Vocabulary_m219F3BE6D5DAB37905F167F3D5CF5D2D2AD7B3F9 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => settings.vocabulary = value;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = ___value0;
+		L_0->___vocabulary_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___vocabulary_0), (void*)L_1);
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.SpeechRecognizer::get_EnableDetails()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpeechRecognizer_get_EnableDetails_mCFF5CBCB4C8E64E7C78142FFBBE90616110AC8C7 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => settings.enableDetails;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		bool L_1 = L_0->___enableDetails_1;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.SpeechRecognizer::set_EnableDetails(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizer_set_EnableDetails_mD04BCD3DCFE29EC30AF245C63F5B669D84B5CBFC (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => settings.enableDetails = value;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		bool L_1 = ___value0;
+		L_0->___enableDetails_1 = L_1;
+		return;
+	}
+}
+// System.Int32 Recognissimo.Components.SpeechRecognizer::get_Alternatives()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechRecognizer_get_Alternatives_m5CBCAE038C78DCBB873208A16E664FDFC1D62E91 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => settings.alternatives;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		int32_t L_1 = L_0->___alternatives_2;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.SpeechRecognizer::set_Alternatives(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizer_set_Alternatives_m8BB411981DB499067D0EC82340617D1C069CD558 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => settings.alternatives = value;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		int32_t L_1 = ___value0;
+		L_0->___alternatives_2 = L_1;
+		return;
+	}
+}
+// Recognissimo.Components.PartialResultEvent Recognissimo.Components.SpeechRecognizer::get_PartialResultReady()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* SpeechRecognizer_get_PartialResultReady_m2207DB6C32399BDF2203DB1F156F9B9AFC212BD9 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	{
+		// public PartialResultEvent PartialResultReady => settings.partialResultReady;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* L_1 = L_0->___partialResultReady_3;
+		return L_1;
+	}
+}
+// Recognissimo.Components.ResultEvent Recognissimo.Components.SpeechRecognizer::get_ResultReady()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* SpeechRecognizer_get_ResultReady_m9CAA3E5D499C27171EBBD0A4931166D0A6611B7F (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ResultEvent ResultReady => settings.resultReady;
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* L_1 = L_0->___resultReady_4;
+		return L_1;
+	}
+}
+// System.String Recognissimo.Components.SpeechRecognizer::CreateVocabularyString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpeechRecognizer_CreateVocabularyString_m4A0AB42722A29854B1B23CED2366A9FD849AFAF1 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3952A7C46F2C9749F94659EC90D855DF03EE7B1A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF0AB94C928A783BE1AAC7FE99970D2920FE6A1D8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return $"[\"{string.Join(separator, settings.vocabulary).ToLower()}\"]";
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0->___vocabulary_0;
+		String_t* L_2;
+		L_2 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_1, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_2, NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral3952A7C46F2C9749F94659EC90D855DF03EE7B1A, L_3, _stringLiteralF0AB94C928A783BE1AAC7FE99970D2920FE6A1D8, NULL);
+		return L_4;
+	}
+}
+// System.Void Recognissimo.Components.SpeechRecognizer::OnResult(Recognissimo.Core.SpeechRecognizerAlgorithm/Result)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizer_OnResult_m426E3823B2D41595EB77621030BEAAF485FCD13C (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA ___result0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// switch (result.ResultType)
+		Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA L_0 = ___result0;
+		int32_t L_1 = L_0.___ResultType_0;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		goto IL_003e;
+	}
+
+IL_0010:
+	{
+		// PartialResultReady.Invoke(Json.Deserialize<PartialResult>(result.Data));
+		PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* L_4;
+		L_4 = SpeechRecognizer_get_PartialResultReady_m2207DB6C32399BDF2203DB1F156F9B9AFC212BD9(__this, NULL);
+		Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA L_5 = ___result0;
+		String_t* L_6 = L_5.___Data_1;
+		PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B L_7;
+		L_7 = Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6(L_6, Json_Deserialize_TisPartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_m2B9F7A47CFE863AA29AB579B216D6EDC983191A6_RuntimeMethod_var);
+		NullCheck(L_4);
+		UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9(L_4, L_7, UnityEvent_1_Invoke_m3080A0DEBAE76B2AE4CCBBF05AB76AB3F44DB9E9_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0027:
+	{
+		// ResultReady.Invoke(Json.Deserialize<Result>(result.Data));
+		ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* L_8;
+		L_8 = SpeechRecognizer_get_ResultReady_m9CAA3E5D499C27171EBBD0A4931166D0A6611B7F(__this, NULL);
+		Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA L_9 = ___result0;
+		String_t* L_10 = L_9.___Data_1;
+		Result_t38EF4946810811DF344B77462AF54D398253E75A L_11;
+		L_11 = Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3(L_10, Json_Deserialize_TisResult_t38EF4946810811DF344B77462AF54D398253E75A_mCA8A082A5884838F95DF72C3AF203396AEE713C3_RuntimeMethod_var);
+		NullCheck(L_8);
+		UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5(L_8, L_11, UnityEvent_1_Invoke_m6338BE69E8414D232359EA585F8005EDBE9975E5_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_003e:
+	{
+		// throw new ArgumentOutOfRangeException(nameof(result.ResultType));
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_12 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_12);
+		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_12, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FFC364B3F4E8C219F348CF3E8E69E552CE16515)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechRecognizer_OnResult_m426E3823B2D41595EB77621030BEAAF485FCD13C_RuntimeMethod_var)));
+	}
+}
+// Recognissimo.Core.SpeechRecognizerAlgorithm/Settings Recognissimo.Components.SpeechRecognizer::OnSetup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A SpeechRecognizer_OnSetup_m693311B5E47AEE50FE62944D48A9E77A011DE978 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* G_B2_0 = NULL;
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A* G_B2_1 = NULL;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* G_B1_0 = NULL;
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A* G_B1_1 = NULL;
+	int32_t G_B3_0 = 0;
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A* G_B3_1 = NULL;
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A* G_B5_0 = NULL;
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A* G_B4_0 = NULL;
+	String_t* G_B6_0 = NULL;
+	Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A* G_B6_1 = NULL;
+	{
+		// return new SpeechRecognizerAlgorithm.Settings
+		// {
+		//     Vocabulary = settings.vocabulary?.Count > 0 ? CreateVocabularyString() : null,
+		//     EnableDetails = EnableDetails,
+		//     MaxAlternatives = Alternatives
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A));
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31* L_0 = (&__this->___settings_10);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0->___vocabulary_0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = L_1;
+		G_B1_0 = L_2;
+		G_B1_1 = (&V_0);
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = (&V_0);
+			goto IL_001c;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_1;
+		goto IL_0024;
+	}
+
+IL_001c:
+	{
+		NullCheck(G_B2_0);
+		int32_t L_3;
+		L_3 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(G_B2_0, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		G_B3_0 = ((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
+		G_B3_1 = G_B2_1;
+	}
+
+IL_0024:
+	{
+		G_B4_0 = G_B3_1;
+		if (G_B3_0)
+		{
+			G_B5_0 = G_B3_1;
+			goto IL_0029;
+		}
+	}
+	{
+		G_B6_0 = ((String_t*)(NULL));
+		G_B6_1 = G_B4_0;
+		goto IL_002f;
+	}
+
+IL_0029:
+	{
+		String_t* L_4;
+		L_4 = SpeechRecognizer_CreateVocabularyString_m4A0AB42722A29854B1B23CED2366A9FD849AFAF1(__this, NULL);
+		G_B6_0 = L_4;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_002f:
+	{
+		G_B6_1->___Vocabulary_0 = G_B6_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B6_1->___Vocabulary_0), (void*)G_B6_0);
+		bool L_5;
+		L_5 = SpeechRecognizer_get_EnableDetails_mCFF5CBCB4C8E64E7C78142FFBBE90616110AC8C7(__this, NULL);
+		(&V_0)->___EnableDetails_1 = L_5;
+		int32_t L_6;
+		L_6 = SpeechRecognizer_get_Alternatives_m5CBCAE038C78DCBB873208A16E664FDFC1D62E91(__this, NULL);
+		(&V_0)->___MaxAlternatives_2 = L_6;
+		Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A L_7 = V_0;
+		return L_7;
+	}
+}
+// Recognissimo.Core.Algorithm Recognissimo.Components.SpeechRecognizer::CreateAlgorithm()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* SpeechRecognizer_CreateAlgorithm_m32F53B76F1BA5F2AB4A265FE6B90860BC155C158 (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechRecognizer_OnResult_m426E3823B2D41595EB77621030BEAAF485FCD13C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechRecognizer_OnSetup_m693311B5E47AEE50FE62944D48A9E77A011DE978_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return new SpeechRecognizerAlgorithm(OnSetup, OnResult);
+		Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* L_0 = (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832*)il2cpp_codegen_object_new(Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Func_1__ctor_mC18E69769C722F6B6933AFEC5BCE2C1E93C34267(L_0, __this, (intptr_t)((void*)SpeechRecognizer_OnSetup_m693311B5E47AEE50FE62944D48A9E77A011DE978_RuntimeMethod_var), NULL);
+		Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* L_1 = (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF*)il2cpp_codegen_object_new(Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_1__ctor_mD8D64BEFFDEBFE3F83DD3D2A26498652A76D4F17(L_1, __this, (intptr_t)((void*)SpeechRecognizer_OnResult_m426E3823B2D41595EB77621030BEAAF485FCD13C_RuntimeMethod_var), NULL);
+		SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37* L_2 = (SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37*)il2cpp_codegen_object_new(SpeechRecognizerAlgorithm_t5AD0B47615DE11CE91DF1323DF6AFDF0A4A87B37_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		SpeechRecognizerAlgorithm__ctor_m841A86E53297A7156B6A45B51C2D134D2E3D19E0(L_2, L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Void Recognissimo.Components.SpeechRecognizer::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechRecognizer__ctor_m2579A44CD106CA6E70CE563DC0A68DC00E00FD6F (SpeechRecognizer_t7FC954EFD3DAD43388E5C91FDA882F2CE13A6494* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// private SpeechRecognizerSettings settings = new()
+		// {
+		//     partialResultReady = new PartialResultEvent(),
+		//     resultReady = new ResultEvent()
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31));
+		PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* L_0 = (PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E*)il2cpp_codegen_object_new(PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		PartialResultEvent__ctor_m121C05791C8DC8150E2E264519911326C3502859(L_0, NULL);
+		(&V_0)->___partialResultReady_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___partialResultReady_3), (void*)L_0);
+		ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* L_1 = (ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183*)il2cpp_codegen_object_new(ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		ResultEvent__ctor_m635460B872CC45F0584B0DB57D8A99FB5C9262A0(L_1, NULL);
+		(&V_0)->___resultReady_4 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___resultReady_4), (void*)L_1);
+		SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31 L_2 = V_0;
+		__this->___settings_10 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___settings_10))->___vocabulary_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___settings_10))->___partialResultReady_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___settings_10))->___resultReady_4), (void*)NULL);
+		#endif
+		SpeechProcessor__ctor_mE8A0759DFB7E44FCEF3971C1FFBBD5549AD51511(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+IL2CPP_EXTERN_C void SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshal_pinvoke(const SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31& unmarshaled, SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___vocabulary_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'vocabulary' of type 'SpeechRecognizerSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___vocabulary_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshal_pinvoke_back(const SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_pinvoke& marshaled, SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31& unmarshaled)
+{
+	Exception_t* ___vocabulary_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'vocabulary' of type 'SpeechRecognizerSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___vocabulary_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+IL2CPP_EXTERN_C void SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshal_pinvoke_cleanup(SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+IL2CPP_EXTERN_C void SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshal_com(const SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31& unmarshaled, SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_com& marshaled)
+{
+	Exception_t* ___vocabulary_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'vocabulary' of type 'SpeechRecognizerSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___vocabulary_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshal_com_back(const SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_com& marshaled, SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31& unmarshaled)
+{
+	Exception_t* ___vocabulary_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'vocabulary' of type 'SpeechRecognizerSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___vocabulary_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
+IL2CPP_EXTERN_C void SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshal_com_cleanup(SpeechRecognizerSettings_t30B1238A482F6111853E54AE63CF2A247C1F7B31_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.PartialResultEvent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PartialResultEvent__ctor_m121C05791C8DC8150E2E264519911326C3502859 (PartialResultEvent_t3CD4D86E2AAA2304E589234CDE53AA4E246D538E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D(__this, UnityEvent_1__ctor_mA3CE95622866DD3B5C84384F2DDA63CE51F1551D_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.ResultEvent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResultEvent__ctor_m635460B872CC45F0584B0DB57D8A99FB5C9262A0 (ResultEvent_t9F4715C44CF5BF9E70921DB67BFF3342EFDBD183* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0(__this, UnityEvent_1__ctor_m4D53C1C51FB820264068505F0689FE311830A6B0_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.Word
+IL2CPP_EXTERN_C void Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshal_pinvoke(const Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790& unmarshaled, Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_pinvoke& marshaled)
+{
+	marshaled.___conf_0 = unmarshaled.___conf_0;
+	marshaled.___start_1 = unmarshaled.___start_1;
+	marshaled.___end_2 = unmarshaled.___end_2;
+	marshaled.___word_3 = il2cpp_codegen_marshal_string(unmarshaled.___word_3);
+}
+IL2CPP_EXTERN_C void Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshal_pinvoke_back(const Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_pinvoke& marshaled, Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790& unmarshaled)
+{
+	float unmarshaledconf_temp_0 = 0.0f;
+	unmarshaledconf_temp_0 = marshaled.___conf_0;
+	unmarshaled.___conf_0 = unmarshaledconf_temp_0;
+	float unmarshaledstart_temp_1 = 0.0f;
+	unmarshaledstart_temp_1 = marshaled.___start_1;
+	unmarshaled.___start_1 = unmarshaledstart_temp_1;
+	float unmarshaledend_temp_2 = 0.0f;
+	unmarshaledend_temp_2 = marshaled.___end_2;
+	unmarshaled.___end_2 = unmarshaledend_temp_2;
+	unmarshaled.___word_3 = il2cpp_codegen_marshal_string_result(marshaled.___word_3);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___word_3), (void*)il2cpp_codegen_marshal_string_result(marshaled.___word_3));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.Word
+IL2CPP_EXTERN_C void Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshal_pinvoke_cleanup(Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___word_3);
+	marshaled.___word_3 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Components.Word
+IL2CPP_EXTERN_C void Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshal_com(const Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790& unmarshaled, Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_com& marshaled)
+{
+	marshaled.___conf_0 = unmarshaled.___conf_0;
+	marshaled.___start_1 = unmarshaled.___start_1;
+	marshaled.___end_2 = unmarshaled.___end_2;
+	marshaled.___word_3 = il2cpp_codegen_marshal_bstring(unmarshaled.___word_3);
+}
+IL2CPP_EXTERN_C void Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshal_com_back(const Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_com& marshaled, Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790& unmarshaled)
+{
+	float unmarshaledconf_temp_0 = 0.0f;
+	unmarshaledconf_temp_0 = marshaled.___conf_0;
+	unmarshaled.___conf_0 = unmarshaledconf_temp_0;
+	float unmarshaledstart_temp_1 = 0.0f;
+	unmarshaledstart_temp_1 = marshaled.___start_1;
+	unmarshaled.___start_1 = unmarshaledstart_temp_1;
+	float unmarshaledend_temp_2 = 0.0f;
+	unmarshaledend_temp_2 = marshaled.___end_2;
+	unmarshaled.___end_2 = unmarshaledend_temp_2;
+	unmarshaled.___word_3 = il2cpp_codegen_marshal_bstring_result(marshaled.___word_3);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___word_3), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___word_3));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.Word
+IL2CPP_EXTERN_C void Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshal_com_cleanup(Word_t75FE7922A4A967A2369CDB990A1BE470A1CEB790_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___word_3);
+	marshaled.___word_3 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.PartialResult
+IL2CPP_EXTERN_C void PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshal_pinvoke(const PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B& unmarshaled, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'PartialResult'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshal_pinvoke_back(const PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_pinvoke& marshaled, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B& unmarshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'PartialResult'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.PartialResult
+IL2CPP_EXTERN_C void PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshal_pinvoke_cleanup(PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Components.PartialResult
+IL2CPP_EXTERN_C void PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshal_com(const PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B& unmarshaled, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_com& marshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'PartialResult'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshal_com_back(const PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_com& marshaled, PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B& unmarshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'PartialResult'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.PartialResult
+IL2CPP_EXTERN_C void PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshal_com_cleanup(PartialResult_t66CC6EB9671A289FD0DA6A6E686DFB932FB2479B_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.Result
+IL2CPP_EXTERN_C void Result_t38EF4946810811DF344B77462AF54D398253E75A_marshal_pinvoke(const Result_t38EF4946810811DF344B77462AF54D398253E75A& unmarshaled, Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'Result'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Result_t38EF4946810811DF344B77462AF54D398253E75A_marshal_pinvoke_back(const Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_pinvoke& marshaled, Result_t38EF4946810811DF344B77462AF54D398253E75A& unmarshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'Result'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.Result
+IL2CPP_EXTERN_C void Result_t38EF4946810811DF344B77462AF54D398253E75A_marshal_pinvoke_cleanup(Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Components.Result
+IL2CPP_EXTERN_C void Result_t38EF4946810811DF344B77462AF54D398253E75A_marshal_com(const Result_t38EF4946810811DF344B77462AF54D398253E75A& unmarshaled, Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_com& marshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'Result'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Result_t38EF4946810811DF344B77462AF54D398253E75A_marshal_com_back(const Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_com& marshaled, Result_t38EF4946810811DF344B77462AF54D398253E75A& unmarshaled)
+{
+	Exception_t* ___result_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'result' of type 'Result'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___result_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.Result
+IL2CPP_EXTERN_C void Result_t38EF4946810811DF344B77462AF54D398253E75A_marshal_com_cleanup(Result_t38EF4946810811DF344B77462AF54D398253E75A_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.Alternative
+IL2CPP_EXTERN_C void Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshal_pinvoke(const Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8& unmarshaled, Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_pinvoke& marshaled)
+{
+	marshaled.___confidence_0 = unmarshaled.___confidence_0;
+	marshaled.___text_1 = il2cpp_codegen_marshal_string(unmarshaled.___text_1);
+}
+IL2CPP_EXTERN_C void Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshal_pinvoke_back(const Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_pinvoke& marshaled, Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8& unmarshaled)
+{
+	float unmarshaledconfidence_temp_0 = 0.0f;
+	unmarshaledconfidence_temp_0 = marshaled.___confidence_0;
+	unmarshaled.___confidence_0 = unmarshaledconfidence_temp_0;
+	unmarshaled.___text_1 = il2cpp_codegen_marshal_string_result(marshaled.___text_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___text_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___text_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.Alternative
+IL2CPP_EXTERN_C void Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshal_pinvoke_cleanup(Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___text_1);
+	marshaled.___text_1 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Components.Alternative
+IL2CPP_EXTERN_C void Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshal_com(const Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8& unmarshaled, Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_com& marshaled)
+{
+	marshaled.___confidence_0 = unmarshaled.___confidence_0;
+	marshaled.___text_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___text_1);
+}
+IL2CPP_EXTERN_C void Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshal_com_back(const Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_com& marshaled, Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8& unmarshaled)
+{
+	float unmarshaledconfidence_temp_0 = 0.0f;
+	unmarshaledconfidence_temp_0 = marshaled.___confidence_0;
+	unmarshaled.___confidence_0 = unmarshaledconfidence_temp_0;
+	unmarshaled.___text_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___text_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___text_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___text_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.Alternative
+IL2CPP_EXTERN_C void Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshal_com_cleanup(Alternative_tB28B45219EB6C73FF237AECBE2E9F1C475CDAAE8_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___text_1);
+	marshaled.___text_1 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.StreamingAssetsLanguageModel
+IL2CPP_EXTERN_C void StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshal_pinvoke(const StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D& unmarshaled, StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_pinvoke& marshaled)
+{
+	marshaled.___language_0 = unmarshaled.___language_0;
+	marshaled.___path_1 = il2cpp_codegen_marshal_string(unmarshaled.___path_1);
+}
+IL2CPP_EXTERN_C void StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshal_pinvoke_back(const StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_pinvoke& marshaled, StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D& unmarshaled)
+{
+	int32_t unmarshaledlanguage_temp_0 = 0;
+	unmarshaledlanguage_temp_0 = marshaled.___language_0;
+	unmarshaled.___language_0 = unmarshaledlanguage_temp_0;
+	unmarshaled.___path_1 = il2cpp_codegen_marshal_string_result(marshaled.___path_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___path_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___path_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.StreamingAssetsLanguageModel
+IL2CPP_EXTERN_C void StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshal_pinvoke_cleanup(StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___path_1);
+	marshaled.___path_1 = NULL;
+}
+// Conversion methods for marshalling of: Recognissimo.Components.StreamingAssetsLanguageModel
+IL2CPP_EXTERN_C void StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshal_com(const StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D& unmarshaled, StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_com& marshaled)
+{
+	marshaled.___language_0 = unmarshaled.___language_0;
+	marshaled.___path_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___path_1);
+}
+IL2CPP_EXTERN_C void StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshal_com_back(const StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_com& marshaled, StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D& unmarshaled)
+{
+	int32_t unmarshaledlanguage_temp_0 = 0;
+	unmarshaledlanguage_temp_0 = marshaled.___language_0;
+	unmarshaled.___language_0 = unmarshaledlanguage_temp_0;
+	unmarshaled.___path_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___path_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___path_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___path_1));
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.StreamingAssetsLanguageModel
+IL2CPP_EXTERN_C void StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshal_com_cleanup(StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___path_1);
+	marshaled.___path_1 = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.StreamingAssetsLanguageModelProvider::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingAssetsLanguageModelProvider_OnEnable_m39503DB54C05EC9DABA51AB021F34FCD5ECFBCE2 (StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingAssetsLanguageModelProvider_LoadModel_m036AD45B9C18A3FE1C4B53AAF47007326030E225_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingAssetsLanguageModelProvider_U3COnEnableU3Eb__3_0_mECDA39E175C46AB3DE2915A6B66AC3ED3A98DF39_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBC9ADFE9B2FFFF1D173EB13A731D47BF6F72DFCE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD2F55031859D42CCA7C8B0EA540877582ABE1AEA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _streamingAssetsProvider = StreamingAssetsProviderFactory.MaybeCreate();
+		RuntimeObject* L_0;
+		L_0 = StreamingAssetsProviderFactory_MaybeCreate_mE95519EFB896F73D0EEF6B3AD86ECEA0BFD3B798(NULL);
+		__this->____streamingAssetsProvider_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____streamingAssetsProvider_13), (void*)L_0);
+		// if (_streamingAssetsProvider != null)
+		RuntimeObject* L_1 = __this->____streamingAssetsProvider_13;
+		if (!L_1)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		// RegisterInitializationTask("Discover streaming assets", _streamingAssetsProvider.Initialize,
+		//     CallCondition.Once);
+		RuntimeObject* L_2 = __this->____streamingAssetsProvider_13;
+		RuntimeObject* L_3 = L_2;
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_4 = (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*)il2cpp_codegen_object_new(Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC(L_4, L_3, (intptr_t)((void*)GetInterfaceMethodInfo(L_3, 0, IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var)), NULL);
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_5 = ((CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_StaticFields*)il2cpp_codegen_static_fields_for(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var))->___Once_0;
+		SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC(__this, _stringLiteralBC9ADFE9B2FFFF1D173EB13A731D47BF6F72DFCE, L_4, L_5, NULL);
+	}
+
+IL_0035:
+	{
+		// RegisterInitializationTask("Load language model", LoadModel, CallCondition.ValueChanged(() => language));
+		Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941* L_6 = (Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941*)il2cpp_codegen_object_new(Func_1_t5C7016A1FC354629920CF15E7F2AD5A6E6D06941_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Func_1__ctor_m46EE8C5F7DAECC4CF1353D682ABEC3A55D0AFAAC(L_6, __this, (intptr_t)((void*)StreamingAssetsLanguageModelProvider_LoadModel_m036AD45B9C18A3FE1C4B53AAF47007326030E225_RuntimeMethod_var), NULL);
+		Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE* L_7 = (Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE*)il2cpp_codegen_object_new(Func_1_t802694F4E6C73B59DA47B1BD837ED5704CA76FAE_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Func_1__ctor_m6B15F4975FFB31159E4537579F75A0251928A9A3(L_7, __this, (intptr_t)((void*)StreamingAssetsLanguageModelProvider_U3COnEnableU3Eb__3_0_mECDA39E175C46AB3DE2915A6B66AC3ED3A98DF39_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1_il2cpp_TypeInfo_var);
+		CallCondition_t4DB1F584FC479B14B164881EB87178D893F628D1* L_8;
+		L_8 = CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F(L_7, (Func_3_t8695FF52278BB789E35AEE99A56D2FE109708165*)NULL, CallCondition_ValueChanged_TisSystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_mD1FB2788C48F0E3CDD864966E32A7EE3043BD36F_RuntimeMethod_var);
+		SpeechProcessorDependency_RegisterInitializationTask_m67EB2D8CC5E645D815641EDE6DC748F34F0A96CC(__this, _stringLiteralD2F55031859D42CCA7C8B0EA540877582ABE1AEA, L_6, L_8, NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator Recognissimo.Components.StreamingAssetsLanguageModelProvider::LoadModel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StreamingAssetsLanguageModelProvider_LoadModel_m036AD45B9C18A3FE1C4B53AAF47007326030E225 (StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* L_0 = (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24*)il2cpp_codegen_object_new(U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CLoadModelU3Ed__4__ctor_m7FBAA710063903888843FE98EA1B771AC82C63AB(L_0, 0, NULL);
+		U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.StreamingAssetsLanguageModelProvider::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingAssetsLanguageModelProvider__ctor_m90C9A4C5BC760A6C37C5569AE817C7D9D9DD4915 (StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* __this, const RuntimeMethod* method) 
+{
+	{
+		// public SystemLanguage language = SystemLanguage.English;
+		__this->___language_11 = ((int32_t)10);
+		LanguageModelProvider__ctor_m49FA4F8102E88930B953BAD786A6F45AB90FDC57(__this, NULL);
+		return;
+	}
+}
+// UnityEngine.SystemLanguage Recognissimo.Components.StreamingAssetsLanguageModelProvider::<OnEnable>b__3_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StreamingAssetsLanguageModelProvider_U3COnEnableU3Eb__3_0_mECDA39E175C46AB3DE2915A6B66AC3ED3A98DF39 (StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* __this, const RuntimeMethod* method) 
+{
+	{
+		// RegisterInitializationTask("Load language model", LoadModel, CallCondition.ValueChanged(() => language));
+		int32_t L_0 = __this->___language_11;
+		return L_0;
+	}
+}
+// System.Boolean Recognissimo.Components.StreamingAssetsLanguageModelProvider::<LoadModel>b__4_0(Recognissimo.Components.StreamingAssetsLanguageModel)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StreamingAssetsLanguageModelProvider_U3CLoadModelU3Eb__4_0_m5C4642E5CCDC26E165681F8F505969EA4AE5C7B8 (StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* __this, StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D ___model0, const RuntimeMethod* method) 
+{
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == language);
+		StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D L_0 = ___model0;
+		int32_t L_1 = L_0.___language_0;
+		int32_t L_2 = __this->___language_11;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__4__ctor_m7FBAA710063903888843FE98EA1B771AC82C63AB (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__4_System_IDisposable_Dispose_mC72100370E16E456DE45045E863780DCC8F0522A (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadModelU3Ed__4_MoveNext_mC3EE78525FCDAF8F32B38546FD323F1CB6A0C312 (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingAssetsLanguageModelProvider_U3CLoadModelU3Eb__4_0_m5C4642E5CCDC26E165681F8F505969EA4AE5C7B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* V_1 = NULL;
+	String_t* V_2 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_00e4;
+			}
+			case 2:
+			{
+				goto IL_0106;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (languageModels == null)
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_3 = V_1;
+		NullCheck(L_3);
+		List_1_tF56A590631DD0A17BC1DCC8A00336928D09FAE8E* L_4 = L_3->___languageModels_12;
+		if (L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		// throw new InvalidOperationException("List of language models is missing.");
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_5);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral06A38FE48E9ED08D2EFD37401469D0D9FB06283E)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__4_MoveNext_mC3EE78525FCDAF8F32B38546FD323F1CB6A0C312_RuntimeMethod_var)));
+	}
+
+IL_003c:
+	{
+		// var model = languageModels.SingleOrDefault(model => model.language == language);
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_6 = V_1;
+		NullCheck(L_6);
+		List_1_tF56A590631DD0A17BC1DCC8A00336928D09FAE8E* L_7 = L_6->___languageModels_12;
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_8 = V_1;
+		Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA* L_9 = (Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA*)il2cpp_codegen_object_new(Func_2_t8B5B30BF54B60B751CB4FD35DB807D7D4FEA28BA_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Func_2__ctor_m62643540EA2F65E46DA901D943B76215231B9D45(L_9, L_8, (intptr_t)((void*)StreamingAssetsLanguageModelProvider_U3CLoadModelU3Eb__4_0_m5C4642E5CCDC26E165681F8F505969EA4AE5C7B8_RuntimeMethod_var), NULL);
+		StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D L_10;
+		L_10 = Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8(L_7, L_9, Enumerable_SingleOrDefault_TisStreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_m929067A8C7EC459B2EC42D28D22B1FE90D31F3D8_RuntimeMethod_var);
+		__this->___U3CmodelU3E5__2_3 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CmodelU3E5__2_3))->___path_1), (void*)NULL);
+		// if (model.Equals(default))
+		StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D* L_11 = (&__this->___U3CmodelU3E5__2_3);
+		Il2CppFakeBox<StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D> L_12(StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D_il2cpp_TypeInfo_var, L_11);
+		bool L_13;
+		L_13 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_12), NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		// throw new InvalidOperationException($"Language model for {language.ToString()} language is missing.");
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t* L_15 = (&L_14->___language_11);
+		Il2CppFakeBox<int32_t> L_16(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E_il2cpp_TypeInfo_var)), L_15);
+		String_t* L_17;
+		L_17 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_16), NULL);
+		String_t* L_18;
+		L_18 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDDE3D2045506341D103BEDB063385BEC1D86B75C)), L_17, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral889933F0ACB2C349D0387348532C96DAEC60F544)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_19);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__4_MoveNext_mC3EE78525FCDAF8F32B38546FD323F1CB6A0C312_RuntimeMethod_var)));
+	}
+
+IL_0093:
+	{
+		// if (_streamingAssetsProvider == null)
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_20 = V_1;
+		NullCheck(L_20);
+		RuntimeObject* L_21 = L_20->____streamingAssetsProvider_13;
+		if (L_21)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		// absoluteModelPath = Path.Combine(Application.streamingAssetsPath, model.path);
+		String_t* L_22;
+		L_22 = Application_get_streamingAssetsPath_m4DF6E61542E9D042CF1A5A1CEE75DB2D5631D4AD(NULL);
+		StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D* L_23 = (&__this->___U3CmodelU3E5__2_3);
+		String_t* L_24 = L_23->___path_1;
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_22, L_24, NULL);
+		V_2 = L_25;
+		goto IL_0130;
+	}
+
+IL_00b3:
+	{
+		// yield return _streamingAssetsProvider.Populate(model.path, FailInitialization);
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_26 = V_1;
+		NullCheck(L_26);
+		RuntimeObject* L_27 = L_26->____streamingAssetsProvider_13;
+		StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D* L_28 = (&__this->___U3CmodelU3E5__2_3);
+		String_t* L_29 = L_28->___path_1;
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_30 = V_1;
+		StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF* L_31 = (StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF*)il2cpp_codegen_object_new(StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF_il2cpp_TypeInfo_var);
+		NullCheck(L_31);
+		StreamingAssetsProvisionFailedCallback__ctor_m5CF2708C728F756E009473499AC88B8DB90575C0(L_31, L_30, (intptr_t)((void*)SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21_RuntimeMethod_var), NULL);
+		NullCheck(L_27);
+		RuntimeObject* L_32;
+		L_32 = InterfaceFuncInvoker2< RuntimeObject*, String_t*, StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF* >::Invoke(1 /* System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.IStreamingAssetsProvider::Populate(System.String,Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProvisionFailedCallback) */, IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var, L_27, L_29, L_31);
+		__this->___U3CU3E2__current_1 = L_32;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_32);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_00e4:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (Filesystem.RequiresSyncing())
+		bool L_33;
+		L_33 = Filesystem_RequiresSyncing_m7E72268FAB5B97CC17D17B98CDB939D9E58EC044(NULL);
+		if (!L_33)
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		// yield return Filesystem.Commit();
+		RuntimeObject* L_34;
+		L_34 = Filesystem_Commit_mA3183351FFF99525699344A7F012ED35A11F5FAB(NULL);
+		__this->___U3CU3E2__current_1 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_34);
+		__this->___U3CU3E1__state_0 = 2;
+		return (bool)1;
+	}
+
+IL_0106:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_010d:
+	{
+		// absoluteModelPath = _streamingAssetsProvider.Provide(model.path, FailInitialization);
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_35 = V_1;
+		NullCheck(L_35);
+		RuntimeObject* L_36 = L_35->____streamingAssetsProvider_13;
+		StreamingAssetsLanguageModel_t0180B8F72FB6AD4F724AC32DA31023646498874D* L_37 = (&__this->___U3CmodelU3E5__2_3);
+		String_t* L_38 = L_37->___path_1;
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_39 = V_1;
+		StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF* L_40 = (StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF*)il2cpp_codegen_object_new(StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF_il2cpp_TypeInfo_var);
+		NullCheck(L_40);
+		StreamingAssetsProvisionFailedCallback__ctor_m5CF2708C728F756E009473499AC88B8DB90575C0(L_40, L_39, (intptr_t)((void*)SpeechProcessorDependency_FailInitialization_m9AFB8E8FFFE4DD9207CC0B301E2CFFAFC58A0C21_RuntimeMethod_var), NULL);
+		NullCheck(L_36);
+		String_t* L_41;
+		L_41 = InterfaceFuncInvoker2< String_t*, String_t*, StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF* >::Invoke(2 /* System.String Recognissimo.Utils.StreamingAssetsProvider.IStreamingAssetsProvider::Provide(System.String,Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProvisionFailedCallback) */, IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var, L_36, L_38, L_40);
+		V_2 = L_41;
+	}
+
+IL_0130:
+	{
+		// Model = new LanguageModel(absoluteModelPath);
+		StreamingAssetsLanguageModelProvider_t89C6D0EED480FEF39F99D656265E774A30C99E88* L_42 = V_1;
+		String_t* L_43 = V_2;
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_44 = (LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD*)il2cpp_codegen_object_new(LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		LanguageModel__ctor_m0AE2274D2DE26D08B3AF72A9904FB3A8AF0734FC(L_44, L_43, NULL);
+		NullCheck(L_42);
+		LanguageModelProvider_set_Model_m2E6FCCFD10FB38E55ED6A666F73713A4610AC49D(L_42, L_44, NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadModelU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m20252E5C8E77779FCC233F083E6DB65C245BD9DA (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadModelU3Ed__4_System_Collections_IEnumerator_Reset_m14D5A7229C1D880370E6830EA503FED8E8919BCA (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadModelU3Ed__4_System_Collections_IEnumerator_Reset_m14D5A7229C1D880370E6830EA503FED8E8919BCA_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Components.StreamingAssetsLanguageModelProvider/<LoadModel>d__4::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadModelU3Ed__4_System_Collections_IEnumerator_get_Current_m9BEE95E9031CE75C45419E74E728B8D7FC210A86 (U3CLoadModelU3Ed__4_t1FF1A32D228BE9EEA3592209F809EC27C1806A24* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Recognissimo.Components.VoiceActivityDetector::get_TimeoutMs()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VoiceActivityDetector_get_TimeoutMs_mA038028C3A78CA7178704EDE57A161BE98D68C72 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => settings.timeoutMs;
+		VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653* L_0 = (&__this->___settings_10);
+		int32_t L_1 = L_0->___timeoutMs_0;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.VoiceActivityDetector::set_TimeoutMs(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetector_set_TimeoutMs_m5BC2F0247B9B0A60460D0A2DF9F6E934DE4DC638 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => settings.timeoutMs = value;
+		VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653* L_0 = (&__this->___settings_10);
+		int32_t L_1 = ___value0;
+		L_0->___timeoutMs_0 = L_1;
+		return;
+	}
+}
+// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceActivityDetector::get_Spoke()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* VoiceActivityDetector_get_Spoke_mED953844DD51C284EBEC618D6FC4FD4CBD2596D3 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) 
+{
+	{
+		// public UnityEvent Spoke => settings.spoke;
+		VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653* L_0 = (&__this->___settings_10);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___spoke_1;
+		return L_1;
+	}
+}
+// UnityEngine.Events.UnityEvent Recognissimo.Components.VoiceActivityDetector::get_Silenced()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* VoiceActivityDetector_get_Silenced_mADD2CA539887F1199D8E28B7396548BA3FF2532D (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) 
+{
+	{
+		// public UnityEvent Silenced => settings.silenced;
+		VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653* L_0 = (&__this->___settings_10);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___silenced_2;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.VoiceActivityDetector::OnResult(Recognissimo.Core.VoiceActivityDetectorAlgorithm/Result)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetector_OnResult_m3BA1EEC38B0489880A0EFDAFDEC6B068BC65A6FC (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 ___result0, const RuntimeMethod* method) 
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B3_0 = NULL;
+	{
+		// var currentEvent = result.IsActive ? Spoke : Silenced;
+		Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 L_0 = ___result0;
+		bool L_1 = L_0.___IsActive_0;
+		if (L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2;
+		L_2 = VoiceActivityDetector_get_Silenced_mADD2CA539887F1199D8E28B7396548BA3FF2532D(__this, NULL);
+		G_B3_0 = L_2;
+		goto IL_0016;
+	}
+
+IL_0010:
+	{
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3;
+		L_3 = VoiceActivityDetector_get_Spoke_mED953844DD51C284EBEC618D6FC4FD4CBD2596D3(__this, NULL);
+		G_B3_0 = L_3;
+	}
+
+IL_0016:
+	{
+		// currentEvent.Invoke();
+		NullCheck(G_B3_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B3_0, NULL);
+		// }
+		return;
+	}
+}
+// Recognissimo.Core.VoiceActivityDetectorAlgorithm/Settings Recognissimo.Components.VoiceActivityDetector::OnSetup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 VoiceActivityDetector_OnSetup_mAEAE9A01F0B339187AA7DD50F2FC9F9EF23B4E44 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) 
+{
+	Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new VoiceActivityDetectorAlgorithm.Settings
+		// {
+		//     TimeoutMs = TimeoutMs
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37));
+		int32_t L_0;
+		L_0 = VoiceActivityDetector_get_TimeoutMs_mA038028C3A78CA7178704EDE57A161BE98D68C72(__this, NULL);
+		(&V_0)->___TimeoutMs_0 = L_0;
+		Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 L_1 = V_0;
+		return L_1;
+	}
+}
+// Recognissimo.Core.Algorithm Recognissimo.Components.VoiceActivityDetector::CreateAlgorithm()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* VoiceActivityDetector_CreateAlgorithm_m760288C35711ED3AA7677DD206D2ED449771391C (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t7082610092560C9628161A66480A08495185B4F7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceActivityDetector_OnResult_m3BA1EEC38B0489880A0EFDAFDEC6B068BC65A6FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceActivityDetector_OnSetup_mAEAE9A01F0B339187AA7DD50F2FC9F9EF23B4E44_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return new VoiceActivityDetectorAlgorithm(OnSetup, OnResult);
+		Func_1_t7082610092560C9628161A66480A08495185B4F7* L_0 = (Func_1_t7082610092560C9628161A66480A08495185B4F7*)il2cpp_codegen_object_new(Func_1_t7082610092560C9628161A66480A08495185B4F7_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Func_1__ctor_m9734A7A6A576692FB11CF71D964C96B3273F84FA(L_0, __this, (intptr_t)((void*)VoiceActivityDetector_OnSetup_mAEAE9A01F0B339187AA7DD50F2FC9F9EF23B4E44_RuntimeMethod_var), NULL);
+		Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* L_1 = (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C*)il2cpp_codegen_object_new(Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_1__ctor_m24AAFDCAC4DA2B638A8BAE5DA36A735CBA321E03(L_1, __this, (intptr_t)((void*)VoiceActivityDetector_OnResult_m3BA1EEC38B0489880A0EFDAFDEC6B068BC65A6FC_RuntimeMethod_var), NULL);
+		VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80* L_2 = (VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80*)il2cpp_codegen_object_new(VoiceActivityDetectorAlgorithm_t7493367F8FB4A2FAF9CE80ABA7ED38BC749DED80_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		VoiceActivityDetectorAlgorithm__ctor_m76B28B20D973AA2ED44ED1CEDD8E2F6420E2C16B(L_2, L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Void Recognissimo.Components.VoiceActivityDetector::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceActivityDetector__ctor_mE4DE4DD5BDE2B8C0B71C6E5E687F4FBE6EEFBB23 (VoiceActivityDetector_t5082E35801CECF8621E9D9794BBB9BB730ABB6B5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// private VoiceActivityDetectorSettings settings = new()
+		// {
+		//     spoke = new UnityEvent(),
+		//     silenced = new UnityEvent()
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653));
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
+		(&V_0)->___spoke_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___spoke_1), (void*)L_0);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
+		(&V_0)->___silenced_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___silenced_2), (void*)L_1);
+		VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653 L_2 = V_0;
+		__this->___settings_10 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___settings_10))->___spoke_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___settings_10))->___silenced_2), (void*)NULL);
+		#endif
+		SpeechProcessor__ctor_mE8A0759DFB7E44FCEF3971C1FFBBD5549AD51511(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+IL2CPP_EXTERN_C void VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshal_pinvoke(const VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653& unmarshaled, VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___spoke_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spoke' of type 'VoiceActivityDetectorSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spoke_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshal_pinvoke_back(const VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_pinvoke& marshaled, VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653& unmarshaled)
+{
+	Exception_t* ___spoke_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spoke' of type 'VoiceActivityDetectorSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spoke_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+IL2CPP_EXTERN_C void VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshal_pinvoke_cleanup(VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+IL2CPP_EXTERN_C void VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshal_com(const VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653& unmarshaled, VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_com& marshaled)
+{
+	Exception_t* ___spoke_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spoke' of type 'VoiceActivityDetectorSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spoke_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshal_com_back(const VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_com& marshaled, VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653& unmarshaled)
+{
+	Exception_t* ___spoke_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spoke' of type 'VoiceActivityDetectorSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spoke_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.VoiceActivityDetector/VoiceActivityDetectorSettings
+IL2CPP_EXTERN_C void VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshal_com_cleanup(VoiceActivityDetectorSettings_tD210418393610A3E31047853738C1016251B3653_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.VoiceControlCommand
+IL2CPP_EXTERN_C void VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshal_pinvoke(const VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F& unmarshaled, VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___onSpoken_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'onSpoken' of type 'VoiceControlCommand': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___onSpoken_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshal_pinvoke_back(const VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_pinvoke& marshaled, VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F& unmarshaled)
+{
+	Exception_t* ___onSpoken_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'onSpoken' of type 'VoiceControlCommand': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___onSpoken_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.VoiceControlCommand
+IL2CPP_EXTERN_C void VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshal_pinvoke_cleanup(VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Components.VoiceControlCommand
+IL2CPP_EXTERN_C void VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshal_com(const VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F& unmarshaled, VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_com& marshaled)
+{
+	Exception_t* ___onSpoken_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'onSpoken' of type 'VoiceControlCommand': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___onSpoken_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshal_com_back(const VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_com& marshaled, VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F& unmarshaled)
+{
+	Exception_t* ___onSpoken_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'onSpoken' of type 'VoiceControlCommand': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___onSpoken_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.VoiceControlCommand
+IL2CPP_EXTERN_C void VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshal_com_cleanup(VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_marshaled_com& marshaled)
+{
+}
+// System.Void Recognissimo.Components.VoiceControlCommand::.ctor(System.String,UnityEngine.Events.UnityEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlCommand__ctor_mD09E00617EA8C6BF5B5559D0F4F3534963897892 (VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F* __this, String_t* ___phrase0, UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSpoken1, const RuntimeMethod* method) 
+{
+	{
+		// this.phrase = phrase;
+		String_t* L_0 = ___phrase0;
+		__this->___phrase_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___phrase_0), (void*)L_0);
+		// this.onSpoken = onSpoken;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = ___onSpoken1;
+		__this->___onSpoken_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___onSpoken_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void VoiceControlCommand__ctor_mD09E00617EA8C6BF5B5559D0F4F3534963897892_AdjustorThunk (RuntimeObject* __this, String_t* ___phrase0, UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSpoken1, const RuntimeMethod* method)
+{
+	VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F*>(__this + _offset);
+	VoiceControlCommand__ctor_mD09E00617EA8C6BF5B5559D0F4F3534963897892(_thisAdjusted, ___phrase0, ___onSpoken1, method);
+}
+// System.Void Recognissimo.Components.VoiceControlCommand::.ctor(System.String,UnityEngine.Events.UnityAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControlCommand__ctor_mBB7AEA5D9908198CED868CFC2107560BFB563DCD (VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F* __this, String_t* ___phrase0, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___action1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// this.phrase = phrase;
+		String_t* L_0 = ___phrase0;
+		__this->___phrase_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___phrase_0), (void*)L_0);
+		// onSpoken = new UnityEvent();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
+		__this->___onSpoken_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___onSpoken_1), (void*)L_1);
+		// onSpoken.AddListener(action);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = __this->___onSpoken_1;
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_3 = ___action1;
+		NullCheck(L_2);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_2, L_3, NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void VoiceControlCommand__ctor_mBB7AEA5D9908198CED868CFC2107560BFB563DCD_AdjustorThunk (RuntimeObject* __this, String_t* ___phrase0, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___action1, const RuntimeMethod* method)
+{
+	VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F*>(__this + _offset);
+	VoiceControlCommand__ctor_mBB7AEA5D9908198CED868CFC2107560BFB563DCD(_thisAdjusted, ___phrase0, ___action1, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand> Recognissimo.Components.VoiceControl::get_Commands()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5DD84171740534E27980249B42B230DF269891A2* VoiceControl_get_Commands_m017757D70A581D81A4F6AF5D5FA759BAEF7D5A59 (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => settings.commands;
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_0 = (&__this->___settings_10);
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_1 = L_0->___commands_0;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.VoiceControl::set_Commands(System.Collections.Generic.List`1<Recognissimo.Components.VoiceControlCommand>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControl_set_Commands_mA8CC54AF18EE89355CDF2400D10A507E30893EE0 (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, List_1_t5DD84171740534E27980249B42B230DF269891A2* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => settings.commands = value;
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_0 = (&__this->___settings_10);
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_1 = ___value0;
+		L_0->___commands_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___commands_0), (void*)L_1);
+		return;
+	}
+}
+// System.Boolean Recognissimo.Components.VoiceControl::get_AsapMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceControl_get_AsapMode_mBEA4B16E42EC2D30BF30B5A25E6DA25A6CFEB224 (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => settings.asapMode;
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_0 = (&__this->___settings_10);
+		bool L_1 = L_0->___asapMode_1;
+		return L_1;
+	}
+}
+// System.Void Recognissimo.Components.VoiceControl::set_AsapMode(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControl_set_AsapMode_m21F470B766240EA1093E93F1CDB8407916132AFA (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set => settings.asapMode = value;
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_0 = (&__this->___settings_10);
+		bool L_1 = ___value0;
+		L_0->___asapMode_1 = L_1;
+		return;
+	}
+}
+// System.Void Recognissimo.Components.VoiceControl::OnResult(Recognissimo.Core.VoiceControlAlgorithm/Result)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControl_OnResult_m666E842DB72B523998E46DE9B0A5B17668249FFB (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 ___result0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* G_B2_0 = NULL;
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* G_B1_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B4_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B3_0 = NULL;
+	{
+		// settings.commands?[result.CommandIndex].onSpoken?.Invoke();
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_0 = (&__this->___settings_10);
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_1 = L_0->___commands_0;
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0010:
+	{
+		Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 L_3 = ___result0;
+		int32_t L_4 = L_3.___CommandIndex_0;
+		NullCheck(G_B2_0);
+		VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F L_5;
+		L_5 = List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606(G_B2_0, L_4, List_1_get_Item_mF7DD799DCBAC04D643B1305F987324DAE110A606_RuntimeMethod_var);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6 = L_5.___onSpoken_1;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_7 = L_6;
+		G_B3_0 = L_7;
+		if (L_7)
+		{
+			G_B4_0 = L_7;
+			goto IL_0025;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0025:
+	{
+		NullCheck(G_B4_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B4_0, NULL);
+		// }
+		return;
+	}
+}
+// Recognissimo.Core.VoiceControlAlgorithm/Settings Recognissimo.Components.VoiceControl::OnSetup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E VoiceControl_OnSetup_mADBB7C70BFC73E83643EF5B890F1C4F82C6F86FE (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisString_t_mF2FFDE904F5406A231A218135727AD19EDCFBE98_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t5DD84171740534E27980249B42B230DF269891A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3COnSetupU3Eb__8_0_m5891B0BCE5E1382074C0063F114A013B21C0F46E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA42779B09629BCE81B76EF626A57A0B40F2AD827);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* V_0 = NULL;
+	String_t* V_1 = NULL;
+	Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* G_B2_0 = NULL;
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* G_B1_0 = NULL;
+	Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* G_B4_0 = NULL;
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* G_B4_1 = NULL;
+	String_t* G_B4_2 = NULL;
+	Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* G_B3_0 = NULL;
+	List_1_t5DD84171740534E27980249B42B230DF269891A2* G_B3_1 = NULL;
+	String_t* G_B3_2 = NULL;
+	{
+		// var commands = settings.commands ?? new List<VoiceControlCommand>();
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_0 = (&__this->___settings_10);
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_1 = L_0->___commands_0;
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0014;
+		}
+	}
+	{
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_3 = (List_1_t5DD84171740534E27980249B42B230DF269891A2*)il2cpp_codegen_object_new(List_1_t5DD84171740534E27980249B42B230DF269891A2_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51(L_3, List_1__ctor_m6D7E5942C2ADC9660007C7492A0A5998F01B8E51_RuntimeMethod_var);
+		G_B2_0 = L_3;
+	}
+
+IL_0014:
+	{
+		V_0 = G_B2_0;
+		// var regex = string
+		//     .Join("|", commands.Select(cmd => $"({cmd.phrase})"))
+		//     .ToLower();
+		List_1_t5DD84171740534E27980249B42B230DF269891A2* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var);
+		Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* L_5 = ((U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var))->___U3CU3E9__8_0_1;
+		Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* L_6 = L_5;
+		G_B3_0 = L_6;
+		G_B3_1 = L_4;
+		G_B3_2 = _stringLiteralA42779B09629BCE81B76EF626A57A0B40F2AD827;
+		if (L_6)
+		{
+			G_B4_0 = L_6;
+			G_B4_1 = L_4;
+			G_B4_2 = _stringLiteralA42779B09629BCE81B76EF626A57A0B40F2AD827;
+			goto IL_003a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var);
+		U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE* L_7 = ((U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* L_8 = (Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5*)il2cpp_codegen_object_new(Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Func_2__ctor_m53A84F90B9102C6B2FF7B261644FABB35A636B1C(L_8, L_7, (intptr_t)((void*)U3CU3Ec_U3COnSetupU3Eb__8_0_m5891B0BCE5E1382074C0063F114A013B21C0F46E_RuntimeMethod_var), NULL);
+		Func_2_t9B2B37B6D35E071DE25A3C332035717671552CF5* L_9 = L_8;
+		((U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var))->___U3CU3E9__8_0_1 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var))->___U3CU3E9__8_0_1), (void*)L_9);
+		G_B4_0 = L_9;
+		G_B4_1 = G_B3_1;
+		G_B4_2 = G_B3_2;
+	}
+
+IL_003a:
+	{
+		RuntimeObject* L_10;
+		L_10 = Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisString_t_mF2FFDE904F5406A231A218135727AD19EDCFBE98(G_B4_1, G_B4_0, Enumerable_Select_TisVoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F_TisString_t_mF2FFDE904F5406A231A218135727AD19EDCFBE98_RuntimeMethod_var);
+		String_t* L_11;
+		L_11 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(G_B4_2, L_10, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_11, NULL);
+		V_1 = L_12;
+		// return new VoiceControlAlgorithm.Settings
+		// {
+		//     AsapMode = settings.asapMode,
+		//     Commands = regex
+		// };
+		il2cpp_codegen_initobj((&V_2), sizeof(Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E));
+		VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0* L_13 = (&__this->___settings_10);
+		bool L_14 = L_13->___asapMode_1;
+		(&V_2)->___AsapMode_1 = L_14;
+		String_t* L_15 = V_1;
+		(&V_2)->___Commands_0 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___Commands_0), (void*)L_15);
+		Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E L_16 = V_2;
+		return L_16;
+	}
+}
+// Recognissimo.Core.Algorithm Recognissimo.Components.VoiceControl::CreateAlgorithm()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Algorithm_t2D5AFF8D5EF1492A9B1A9C758B7CF685792CEDF3* VoiceControl_CreateAlgorithm_m85ED25D9BBEE79F5BC203EFA97ABCAFA73A04668 (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceControl_OnResult_m666E842DB72B523998E46DE9B0A5B17668249FFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceControl_OnSetup_mADBB7C70BFC73E83643EF5B890F1C4F82C6F86FE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return new VoiceControlAlgorithm(OnSetup, OnResult);
+		Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* L_0 = (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF*)il2cpp_codegen_object_new(Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Func_1__ctor_mDDF7012AA1C5F2CA2BF7DF4F11A72C499DA587A9(L_0, __this, (intptr_t)((void*)VoiceControl_OnSetup_mADBB7C70BFC73E83643EF5B890F1C4F82C6F86FE_RuntimeMethod_var), NULL);
+		Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* L_1 = (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B*)il2cpp_codegen_object_new(Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_1__ctor_mDFAF37C772E877F9B5E098A671627CC399047AC0(L_1, __this, (intptr_t)((void*)VoiceControl_OnResult_m666E842DB72B523998E46DE9B0A5B17668249FFB_RuntimeMethod_var), NULL);
+		VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28* L_2 = (VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28*)il2cpp_codegen_object_new(VoiceControlAlgorithm_tF35A90BD35EEEC2D008282C9F194795378C6CB28_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		VoiceControlAlgorithm__ctor_mD0BE830B40CE4C574862C8C762A80101EC9ECFEC(L_2, L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Void Recognissimo.Components.VoiceControl::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceControl__ctor_mFFD981DFF58AA89175E7082FBD74A3DDBECBAC30 (VoiceControl_t59938142CD6C1C72B07BD076F80AD5209762A581* __this, const RuntimeMethod* method) 
+{
+	{
+		SpeechProcessor__ctor_mE8A0759DFB7E44FCEF3971C1FFBBD5549AD51511(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Recognissimo.Components.VoiceControl/VoiceControlSettings
+IL2CPP_EXTERN_C void VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshal_pinvoke(const VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0& unmarshaled, VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___commands_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'commands' of type 'VoiceControlSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___commands_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshal_pinvoke_back(const VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_pinvoke& marshaled, VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0& unmarshaled)
+{
+	Exception_t* ___commands_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'commands' of type 'VoiceControlSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___commands_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.VoiceControl/VoiceControlSettings
+IL2CPP_EXTERN_C void VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshal_pinvoke_cleanup(VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Recognissimo.Components.VoiceControl/VoiceControlSettings
+IL2CPP_EXTERN_C void VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshal_com(const VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0& unmarshaled, VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_com& marshaled)
+{
+	Exception_t* ___commands_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'commands' of type 'VoiceControlSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___commands_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshal_com_back(const VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_com& marshaled, VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0& unmarshaled)
+{
+	Exception_t* ___commands_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'commands' of type 'VoiceControlSettings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___commands_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Recognissimo.Components.VoiceControl/VoiceControlSettings
+IL2CPP_EXTERN_C void VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshal_com_cleanup(VoiceControlSettings_tE6C51CC4195DD7E2F7A004AE5B5882AEAA7D89A0_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Components.VoiceControl/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m4B75BE038D16E91D4FAB92B2A3D31ED47FB46FD5 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE* L_0 = (U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE*)il2cpp_codegen_object_new(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__ctor_m18FD86A4783553F8B0613CB989503523F4DAC170(L_0, NULL);
+		((U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void Recognissimo.Components.VoiceControl/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m18FD86A4783553F8B0613CB989503523F4DAC170 (U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.String Recognissimo.Components.VoiceControl/<>c::<OnSetup>b__8_0(Recognissimo.Components.VoiceControlCommand)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3COnSetupU3Eb__8_0_m5891B0BCE5E1382074C0063F114A013B21C0F46E (U3CU3Ec_tAF2AB2AAF93E999219982E05030614BA3772ECBE* __this, VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F ___cmd0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// .Join("|", commands.Select(cmd => $"({cmd.phrase})"))
+		VoiceControlCommand_tF201843CA8F72C1CB874B4FC4634D6FBCD4CE66F L_0 = ___cmd0;
+		String_t* L_1 = L_0.___phrase_0;
+		String_t* L_2;
+		L_2 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73, L_1, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpeechProcessor_get_State_m0612366BE821BEAF08F1F1698C8D86903B40D216_inline (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechProcessorState State { get; private set; } = SpeechProcessorState.Inactive;
+		int32_t L_0 = __this->___U3CStateU3Ek__BackingField_9;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpeechProcessor_set_State_mA2E34108371FB52F840B0F8F0A7FF22B88F9B65C_inline (SpeechProcessor_t623DE7E9AD8EDBB8C4DBB2D4B371449DEECBB25E* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechProcessorState State { get; private set; } = SpeechProcessorState.Inactive;
+		int32_t L_0 = ___value0;
+		__this->___U3CStateU3Ek__BackingField_9 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* SamplesReadyEventArgs_get_Samples_mCB99C3B59102609A7C1FE678DE7E242CD517A965_inline (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float[] Samples { get; }
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = __this->___U3CSamplesU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SamplesReadyEventArgs_get_Length_m703E44F02EF383CE791E6C6DE1BF8A7995B4E019_inline (SamplesReadyEventArgs_tCF6A136AA5EFDB21875A83AC40CC956CF3CA68F2* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int Length { get; }
+		int32_t L_0 = __this->___U3CLengthU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* RuntimeFailureEventArgs_get_Exception_mC1D0576834622F48AAE6A59C167556F6AF94F289_inline (RuntimeFailureEventArgs_tE102E14C073B100B5C7EAA2B1167F206E2599815* __this, const RuntimeMethod* method) 
+{
+	{
+		// public SpeechSourceRuntimeException Exception { get; }
+		SpeechSourceRuntimeException_t9D083374D9B8E976273FF2CA2A3461BAC297DD34* L_0 = __this->___U3CExceptionU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* LanguageModelProvider_get_Model_mDCDE3EABAE100F518A18E8757AC4AF19D727E1D8_inline (LanguageModelProvider_t65BF53D92F719D72AB6919A85FD8864F09BB8C1F* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _model;
+		LanguageModel_t6ADDB3816F0F1AF4A106EB1D1A3BF60E9211E7AD* L_0 = __this->____model_10;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InitializationTaskStartedCallback_Invoke_mB233EA072DCE457BE2D2868F29BD9E06CAEEE1A6_inline (InitializationTaskStartedCallback_tF8D30E3D3CBE0AA48DA9958B0F44EB063339624C* __this, String_t* ___taskName0, bool ___isLongRunning1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, bool, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___taskName0, ___isLongRunning1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InitializationFailedCallback_Invoke_m1BE0ECC6000B087C26D6CFF2BDB9059403CB22A3_inline (InitializationFailedCallback_t336CF7A74E4915036785B996BAF67EE530F91D68* __this, String_t* ___failedTaskName0, Exception_t* ___exception1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, Exception_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___failedTaskName0, ___exception1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* __this, RuntimeObject* ___sender0, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___e1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___sender0, ___e1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_get_IsRecording_m958E425DFC0FF445924DBA9515B8F40290353053_inline (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsRecording { get; private set; }
+		bool L_0 = __this->___U3CIsRecordingU3Ek__BackingField_22;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MicrophoneSpeechSource_get_IsPaused_m971D972C1956A63B28E3DC1E9E9B3B44DA1F84D1_inline (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _isPaused;
+		bool L_0 = __this->____isPaused_18;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_m04999E3DEB696135EFD620A30F51503D700C1998_inline (float ___f0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___f0;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = ceil(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MicrophoneSpeechSource_set_IsRecording_m4BB4946DEFCD7ED35BED1A37F871B1014439DBF9_inline (MicrophoneSpeechSource_tBF017E15F72B2CF48D55AF88F89AAB852526EC9D* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsRecording { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsRecordingU3Ek__BackingField_22 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Func_1_Invoke_mBB7F37C468451AF57FAF31635C544D6B8C4373B2_gshared_inline (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, const RuntimeMethod* method) 
+{
+	typedef bool (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m53F530870FF46CE7135BF3E51C4755F8E1CC8014_gshared_inline (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98* __this, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C ___item0, const RuntimeMethod* method) 
+{
+	TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7* L_1 = (TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7*)__this->____items_1;
+		V_0 = L_1;
+		int32_t L_2 = (int32_t)__this->____size_2;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		TaskDataU5BU5D_t9AE932C80D668D8BD8F4C4502B7CCDB18F7963E7* L_6 = V_0;
+		int32_t L_7 = V_1;
+		TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C L_8 = ___item0;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C L_9 = ___item0;
+		((  void (*) (List_1_tA2842B31D1215B1F29BEC74736A4441E61C24F98*, TaskData_t1F7FBD6753E4559996F8845CF2C58968AAC7C14C, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_1_Invoke_m1412272198DFA4066C83206E5B43353AF10A2EEE_gshared_inline (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, const RuntimeMethod* method) 
+{
+	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Stack_1_get_Count_mD08AE71D49787D30DDD9D484BCD323D646744D2E_gshared_inline (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = (int32_t)__this->____size_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline (EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* __this, RuntimeObject* ___sender0, RuntimeObject* ___e1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___sender0, ___e1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A Func_1_Invoke_m42F6D3AE8491EF22A0615D6D6635EC672D819F56_gshared_inline (Func_1_t8039723B7CEFCB11FEEC36FD1ECFC8379F532832* __this, const RuntimeMethod* method) 
+{
+	typedef Settings_tC84771D905BB39C5F8553443EE2115124CA18C7A (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mFE897E82D1C0190D5BF64D245D5013F2496FC98C_gshared_inline (Action_1_t9EF6793E4C87D4925985D22ED58225012DEA61EF* __this, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, Result_t1F05AB896C865CC867D9F0AA4390A9EFE6EB5ADA, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 Func_1_Invoke_mFE56932EA5CC06FDE64EBBC1AF2EC8725B177957_gshared_inline (Func_1_t7082610092560C9628161A66480A08495185B4F7* __this, const RuntimeMethod* method) 
+{
+	typedef Settings_tF80127C0C1FEED4486865347273D3E516BEA0A37 (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mE75768D3CFBCED058F74C679063906A800F91CA2_gshared_inline (Action_1_tA7E55CF634C69F78F59AF0DA856CEB45DB16D43C* __this, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504 ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, Result_tA017BAEA3BB2FC3E498CAEF3C723665D6753E504, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E Func_1_Invoke_m1AE5F8C75D338F5B98A92AF18693544E3A064B40_gshared_inline (Func_1_t8909EB882A0D0FC7245751FD3E462274C6613FFF* __this, const RuntimeMethod* method) 
+{
+	typedef Settings_t15A70B8E03D804866472FC817F487DA3CBC5027E (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m7A479917E2794FECA98A8D99C4A04CE20AD239CE_gshared_inline (Action_1_t7EA0A3286BCEBA62AC0C0AFB44B573F50FAE637B* __this, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2 ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, Result_t83905C5F8D328446E559FD572A22B16E4ED938F2, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = (int32_t)__this->____size_2;
+		return L_0;
+	}
+}
