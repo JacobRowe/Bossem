@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BossemTesting.unity
     guid: a8c3f73303fadeb41909cdb6eecf2bd2
+  - enabled: 0
+    path: Assets/ARDKExamples/ContextAwareness/Meshing/MeshSaver.unity
+    guid: 3ff509bf90af140eda98b9ad8499005f
+  - enabled: 1
+    path: Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity
+    guid: 1b7213c3fe5564515858f79a5dadc2f5
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 10364b2b0b72b4a448a7c43de84c748b, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: d0633734a2c0df342ae375396a60f75e, type: 2}

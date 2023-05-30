@@ -1,27 +1,22 @@
 ScriptsOnlyBuild:
   usedScripts:
     ARDK-Examples.dll:
-    - Niantic.ARDKExamples.Helpers.ARCursorRenderer
-    - Niantic.ARDKExamples.Helpers.ARHitTester
+    - GameboardAgent
+    - Niantic.ARDKExamples.GameboardExampleManager
+    - Niantic.ARDKExamples.Helpers.ScrollingLog
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
-    - Niantic.ARDK.Extensions.ARPlaneManager
+    - Niantic.ARDK.Extensions.ARDepthManager
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
+    - Niantic.ARDK.Extensions.Gameboard.GameboardManager
+    - Niantic.ARDK.Extensions.Meshing.ARMeshManager
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
-    - Niantic.ARDK.Extensions.PlanefindingGrid
     - Niantic.ARDK.Utilities._CallbackQueue
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
-    Assembly-CSharp.dll:
-    - Readme
-    - RecognitionListener
-    Recognissimo.dll:
-    - Recognissimo.Components.MicrophoneSpeechSource
-    - Recognissimo.Components.SpeechRecognizer
-    - Recognissimo.Components.StreamingAssetsLanguageModelProvider
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockMesh
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockMeshSequence
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
@@ -41,18 +36,25 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     ARDK:
     - Niantic.ARDK.Extensions.CapabilityChecker/FailureEvent
     - Niantic.ARDK.Extensions.CapabilityChecker/SuccessEvent
-    Recognissimo:
-    - Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
-    - Recognissimo.Components.PartialResultEvent
-    - Recognissimo.Components.ResultEvent
-    - Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
-    - Recognissimo.Components.StreamingAssetsLanguageModel
-    - Recognissimo.SpeechProcessor/LifecycleEvents
-    - Recognissimo.SpeechProcessor/Settings
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
@@ -62,18 +64,21 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
-    - UnityEngine.Events.UnityEvent
-    - UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]
-    - UnityEngine.Events.UnityEvent`1[Recognissimo.RuntimeException]
-  methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: RecognitionListener
-    methodName: OnPartialResult
-  - assembly: Assembly-CSharp
-    fullTypeName: RecognitionListener
-    methodName: OnResult
+    - UnityEngine.RectOffset
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/BossemTesting.unity:
+    Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -92,11 +97,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -105,40 +112,86 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1716}
+      Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1646}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
+      Script: {instanceID: 1864}
     - Class: 114
       Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 3020}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 3704}
+    - Class: 114
+      Script: {instanceID: 3938}
+    - Class: 114
+      Script: {instanceID: 4742}
     - Class: 114
       Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5102}
+      Script: {instanceID: 5164}
+    - Class: 114
+      Script: {instanceID: 5290}
+    - Class: 114
+      Script: {instanceID: 5594}
     - Class: 114
       Script: {instanceID: 5630}
     - Class: 114
+      Script: {instanceID: 5728}
+    - Class: 114
+      Script: {instanceID: 5874}
+    - Class: 114
       Script: {instanceID: 6292}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 6478}
+    - Class: 114
+      Script: {instanceID: 7128}
+    - Class: 114
+      Script: {instanceID: 7772}
+    - Class: 114
+      Script: {instanceID: 7786}
+    - Class: 114
+      Script: {instanceID: 8328}
+    - Class: 114
+      Script: {instanceID: 8866}
     - Class: 114
       Script: {instanceID: 9012}
     - Class: 114
       Script: {instanceID: 9022}
     - Class: 114
-      Script: {instanceID: 9340}
+      Script: {instanceID: 9192}
+    - Class: 114
+      Script: {instanceID: 9288}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1775,5 +1828,5 @@ ScriptsOnlyBuild:
     className: ARFeaturePointRenderer
   platform: 13
   scenePathNames:
-  - Assets/Scenes/BossemTesting.unity
-  playerPath: E:/Bossem/Builds/BossemPlacementTest.apk
+  - Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity
+  playerPath: E:/Bossem/Builds/Bossem1.apk

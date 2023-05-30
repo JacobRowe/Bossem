@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/BossemTesting.unity
+- path: Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

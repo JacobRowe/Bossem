@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bossem\\Bossem Prototype\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-es-rVE\\values-es-rVE.xml",
+            "outputFile": "E:\\Bossem\\Repo\\Bossem\\Bossem Prototype\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-es-rVE\\values-es-rVE.xml",
             "map": [
                 {
                     "source": "C:\\Users\\theja\\.gradle\\caches\\transforms-3\\52ee0e0e8358d8ad114117945456c2dd\\transformed\\core-1.22.0\\res\\values-es-rVE\\values.xml",
