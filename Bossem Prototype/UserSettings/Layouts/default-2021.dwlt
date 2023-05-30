@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 78
+  controlID: 43
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ARDK/Extensions/Gameboard
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/ARDK/Extensions/Gameboard
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Bossem\Repo\Bossem\Bossem Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c670000
-    m_LastClickedID: 26524
-    m_ExpandedIDs: 000000000c65000074660000766600007a660000806600008c6600002a670000386700009267000000ca9a3b
+    m_SelectedIDs: 3e670000
+    m_LastClickedID: 26430
+    m_ExpandedIDs: 000000003e67000040670000426700004467000046670000486700004a6700004c6700004e67000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c650000
+    m_ExpandedIDs: 000000003e67000040670000426700004467000046670000486700004a6700004c6700004e670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -441,7 +441,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 11}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 14240000
+      m_SelectedIDs: ee670000
       m_LastClickedID: 0
-      m_ExpandedIDs: 36abffff72abfffff8abffff3cadffff78adfffffeadffffacafffffe8afffff7cb2ffff64dbffffa0dbffff36deffff6ce7ffffdae7ffff08e8ffffbce8ffff58e9ffff94e9ffff18ecffff4ceeffff4eeeffffd4eeffff34f1ffff70f1ffff98f3ffff7cf6ffffb8f6ffffbaf6ffffb2f7fffff0f7ffff1cfaffff32fbffffd877000036830000de8700008a880000
+      m_ExpandedIDs: 32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.00043047147, y: 0.991452, z: -0.13043621, w: 0.003272903}
     speed: 2
-    m_Value: {x: 0.00043047115, y: 0.99145126, z: -0.13043612, w: 0.0032729006}
+    m_Value: {x: 0.0004304715, y: 0.99145204, z: -0.13043621, w: 0.003272903}
   m_Size:
     m_Target: 2.1928198
     speed: 2
@@ -907,7 +907,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -920,7 +920,7 @@ MonoBehaviour:
       y: 21
       width: 1101
       height: 546
-    m_Scale: {x: 0.25277779, y: 0.25277779}
+    m_Scale: {x: 0.2625, y: 0.2625}
     m_Translation: {x: 550.5, y: 273}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -928,12 +928,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2177.8022
-      y: -1080
-      width: 4355.6045
-      height: 2160
+      x: -2097.143
+      y: -1040
+      width: 4194.286
+      height: 2080
     m_MinimalGUI: 1
-  m_defaultScale: 0.25277779
+  m_defaultScale: 0.2625
   m_LastWindowPixelSize: {x: 1101, y: 567}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
