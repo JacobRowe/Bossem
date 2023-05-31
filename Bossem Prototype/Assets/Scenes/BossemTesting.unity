@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _manageUsingUnityLifecycle: 1
   _planePrefab: {fileID: 1092543363889104, guid: 98e455e2ba6ba413287f8cd497d4b08e, type: 3}
-  _detectedPlaneTypes: 3
+  _detectedPlaneTypes: 1
 --- !u!114 &1710544631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544755552afaf4436af235f6de9be0b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _permissions: 0000000003000000
+  _permissions: 00000000
 --- !u!114 &1710544635
 MonoBehaviour:
   m_ObjectHideFlags: 0

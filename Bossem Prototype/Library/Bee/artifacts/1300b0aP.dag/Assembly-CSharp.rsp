@@ -317,6 +317,8 @@
 "Assets/Recognissimo/Samples/SpeechRecognizerExample/SpeechRecognizerExample.cs"
 "Assets/Recognissimo/Samples/VoiceActivityDetectorExample/VoiceActivityDetectorExample.cs"
 "Assets/Recognissimo/Samples/VoiceControlExample/VoiceControlExample.cs"
+"Assets/Scripts/BossemGameboardManager.cs"
+"Assets/Scripts/GameboardSpaceManager.cs"
 "Assets/Scripts/RecognitionListener.cs"
 "Assets/Scripts/SceneManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

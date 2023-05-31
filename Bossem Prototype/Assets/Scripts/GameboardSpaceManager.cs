@@ -42,9 +42,7 @@ namespace Niantic.ARDKExamples
         [Tooltip("Button to call the agent")]
         private Button _callButton;
 
-        [SerializeField]
-        [Tooltip("Button to stop gameboard updating")]
-        private Button _stopScanButton;
+        
 
 #pragma warning restore 0649
 
@@ -85,7 +83,7 @@ namespace Niantic.ARDKExamples
             _callButton.interactable = false;
             _replaceButton.interactable = false;
             _replaceButtonText.text = "Place";
-            _stopScanButton.interactable = true;
+            
         }
 
         private void OnGameboardCreated(GameboardCreatedArgs args)
@@ -105,7 +103,7 @@ namespace Niantic.ARDKExamples
         {
             _replaceButton.onClick.AddListener(ReplaceButton_OnClick);
             _callButton.onClick.AddListener(CallButton_OnClick);
-            _stopScanButton.onClick.AddListener(StopButton_OnClick);
+
         }
 
         
@@ -114,7 +112,7 @@ namespace Niantic.ARDKExamples
         {
             _replaceButton.onClick.RemoveListener(ReplaceButton_OnClick);
             _callButton.onClick.RemoveListener(CallButton_OnClick);
-            _stopScanButton.onClick.RemoveListener(StopButton_OnClick);
+
 
         }
 
@@ -227,10 +225,6 @@ namespace Niantic.ARDKExamples
             _agent.SetDestination(_arCamera.transform.position);
         }
 
-        private void StopButton_OnClick()
-        {
-            _stopScanButton.gameObject.SetActive(true);
-            Debug.Log(_gameboard.Area);
-        }
+        
     }
 }

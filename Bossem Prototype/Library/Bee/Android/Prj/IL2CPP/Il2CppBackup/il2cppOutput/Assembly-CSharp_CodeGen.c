@@ -34,91 +34,181 @@ extern void SceneManager__ctor_m61FBFE598A99CDD806C72972FD6466E89648A5B1 (void);
 extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 // 0x0000000B System.Void Readme/Section::.ctor()
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
-// 0x0000000C System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::Start()
+// 0x0000000C System.Void Niantic.ARDKExamples.GameboardSpaceManager::ARSessionStarted()
+extern void GameboardSpaceManager_ARSessionStarted_m4FC97C5EE42923B492777D9D7910262AEC74B293 (void);
+// 0x0000000D System.Void Niantic.ARDKExamples.GameboardSpaceManager::ARSessionStopped()
+extern void GameboardSpaceManager_ARSessionStopped_m28119BC5EAA073927B7B840B63A9B8C26083900E (void);
+// 0x0000000E System.Void Niantic.ARDKExamples.GameboardSpaceManager::Awake()
+extern void GameboardSpaceManager_Awake_mDEA062E9CE7E4C32F09BA3754EE6286926F2535F (void);
+// 0x0000000F System.Void Niantic.ARDKExamples.GameboardSpaceManager::OnGameboardCreated(Niantic.ARDK.Extensions.Gameboard.GameboardCreatedArgs)
+extern void GameboardSpaceManager_OnGameboardCreated_m0FB8B81B7914A7F341EBBF8CB96FC3BE07DCAA2B (void);
+// 0x00000010 System.Void Niantic.ARDKExamples.GameboardSpaceManager::OnGameboardDestroyed(Niantic.ARDK.Utilities.IArdkEventArgs)
+extern void GameboardSpaceManager_OnGameboardDestroyed_mB1C57955E321B1C081D233CCD028549E0BEF6D10 (void);
+// 0x00000011 System.Void Niantic.ARDKExamples.GameboardSpaceManager::OnEnable()
+extern void GameboardSpaceManager_OnEnable_mC96208937FB8CBF3AA298DC110645FB1B103263D (void);
+// 0x00000012 System.Void Niantic.ARDKExamples.GameboardSpaceManager::OnDisable()
+extern void GameboardSpaceManager_OnDisable_mF2DA5FD477B83D0A63B4577A4D90A11DF7B7CF2E (void);
+// 0x00000013 System.Void Niantic.ARDKExamples.GameboardSpaceManager::Update()
+extern void GameboardSpaceManager_Update_mE606591D376436369A0126722F4725BCD5D11BD1 (void);
+// 0x00000014 System.Void Niantic.ARDKExamples.GameboardSpaceManager::HandleTouch()
+extern void GameboardSpaceManager_HandleTouch_mE9020A579C9210F72C0E4F73C421DD4094B46BB2 (void);
+// 0x00000015 System.Void Niantic.ARDKExamples.GameboardSpaceManager::TouchBegan(UnityEngine.Touch)
+extern void GameboardSpaceManager_TouchBegan_mEA46EC46EC047B0742CC6DAAE834FC2158167030 (void);
+// 0x00000016 System.Void Niantic.ARDKExamples.GameboardSpaceManager::HandlePlacement()
+extern void GameboardSpaceManager_HandlePlacement_m2D37146921AF852FF1EF8B650DD1E7DC43CCFB70 (void);
+// 0x00000017 System.Void Niantic.ARDKExamples.GameboardSpaceManager::ReplaceButton_OnClick()
+extern void GameboardSpaceManager_ReplaceButton_OnClick_m9B57F3C3D4186FAEFE85568A77D05C641D9B6CF9 (void);
+// 0x00000018 System.Void Niantic.ARDKExamples.GameboardSpaceManager::CallButton_OnClick()
+extern void GameboardSpaceManager_CallButton_OnClick_mA46CA58534855B8C1BE975965C0DCB55F24F046C (void);
+// 0x00000019 System.Void Niantic.ARDKExamples.GameboardSpaceManager::.ctor()
+extern void GameboardSpaceManager__ctor_m0C6A0C451B1F76A4C1B4D374C889B9EA18992BEA (void);
+// 0x0000001A Niantic.ARDK.Extensions.Gameboard.IGameboard Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_Gameboard()
+extern void BossemGameboardManager_get_Gameboard_m4B43BACD3BECF0833FC74A59E9EF70080BB71B23 (void);
+// 0x0000001B System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_Gameboard(Niantic.ARDK.Extensions.Gameboard.IGameboard)
+extern void BossemGameboardManager_set_Gameboard_m8BE54CB720603544F52D7C12A7F1DDE54092B2A3 (void);
+// 0x0000001C UnityEngine.Camera Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_Camera()
+extern void BossemGameboardManager_get_Camera_m0B6417339C7A6AC37ED591E41EF79EC8F92F253F (void);
+// 0x0000001D System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_Camera(UnityEngine.Camera)
+extern void BossemGameboardManager_set_Camera_m0C310B35DE4956F911E813A047CA24AFC93C4B38 (void);
+// 0x0000001E UnityEngine.Camera Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_ArCamera()
+extern void BossemGameboardManager_get_ArCamera_m15BC8EB40277062C1467FCA7128989CE9CE7F016 (void);
+// 0x0000001F System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_ArCamera(UnityEngine.Camera)
+extern void BossemGameboardManager_set_ArCamera_m899792067B990E2B5CC922C686469E1C14990F6F (void);
+// 0x00000020 System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_TileSize()
+extern void BossemGameboardManager_get_TileSize_mD4871FD19BEA8912D3E254332F1E036FF0F99FCE (void);
+// 0x00000021 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_TileSize(System.Single)
+extern void BossemGameboardManager_set_TileSize_m2E6E54E84539E082F9C66E059997AF5E39D81717 (void);
+// 0x00000022 System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_FlatFloorTolerance()
+extern void BossemGameboardManager_get_FlatFloorTolerance_mB04EA68F47FADB9CFB6B530D2515F9E320774B4E (void);
+// 0x00000023 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_FlatFloorTolerance(System.Single)
+extern void BossemGameboardManager_set_FlatFloorTolerance_m7DFDAD83DAA0D6B9D22BF8376CED239C567FCD71 (void);
+// 0x00000024 System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_MaxSlope()
+extern void BossemGameboardManager_get_MaxSlope_m97531DE01B11A15CA3AE4C692AE22E0D16029903 (void);
+// 0x00000025 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_MaxSlope(System.Single)
+extern void BossemGameboardManager_set_MaxSlope_m8F1B0442DA133FD2CC78A55DBF79106423996736 (void);
+// 0x00000026 System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_StepHeight()
+extern void BossemGameboardManager_get_StepHeight_mB51D9EE786A9CA8DEE1BEC59523C5D0347436144 (void);
+// 0x00000027 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_StepHeight(System.Single)
+extern void BossemGameboardManager_set_StepHeight_mA67C3B95458BE931606415850F6091E61ACC7949 (void);
+// 0x00000028 System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_ScanInterval()
+extern void BossemGameboardManager_get_ScanInterval_m1506DB636D3672CDBD01BC97F21DCBD835AF33B9 (void);
+// 0x00000029 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_ScanInterval(System.Single)
+extern void BossemGameboardManager_set_ScanInterval_m83BAA9F01AE7847199C18535CBEF360D058A698B (void);
+// 0x0000002A System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_ScanRange()
+extern void BossemGameboardManager_get_ScanRange_mFCDA2F84164FE2F725B33831A0463AD6BB9FADB2 (void);
+// 0x0000002B System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_ScanRange(System.Single)
+extern void BossemGameboardManager_set_ScanRange_mAC182CA1FFE6B53007476C9A49CD4B2FA5D49622 (void);
+// 0x0000002C UnityEngine.LayerMask Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_LayerMask()
+extern void BossemGameboardManager_get_LayerMask_mC97BC1C5D373F1A21F3BBC48061C233CC1911E6D (void);
+// 0x0000002D System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_LayerMask(UnityEngine.LayerMask)
+extern void BossemGameboardManager_set_LayerMask_m4A3B8A96D3A91A8713B970FF37C7BA5F96D2A954 (void);
+// 0x0000002E System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::get_Visualise()
+extern void BossemGameboardManager_get_Visualise_m2C52D397C5379A27AAE20BC51B1BC0245BBAA5DB (void);
+// 0x0000002F System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::set_Visualise(System.Boolean)
+extern void BossemGameboardManager_set_Visualise_m51404812D5FCE2B5C95DBB0D5B9F3BE66D43797A (void);
+// 0x00000030 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::InitializeImpl()
+extern void BossemGameboardManager_InitializeImpl_m0E69918771B788785CF3512A5EE1BCDA882D7357 (void);
+// 0x00000031 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::DeinitializeImpl()
+extern void BossemGameboardManager_DeinitializeImpl_mAF19494C92750A3285D67E11BFBE9BEBC67D2419 (void);
+// 0x00000032 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::SetVisualisationActive(System.Boolean)
+extern void BossemGameboardManager_SetVisualisationActive_m141121A0EAF24D8DDEC11DCEE41DE5F4C7D93D07 (void);
+// 0x00000033 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::UpdateGameboard()
+extern void BossemGameboardManager_UpdateGameboard_mE94D718094D54872FC302975D5DE94713B276634 (void);
+// 0x00000034 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::Update()
+extern void BossemGameboardManager_Update_m2A907AA8A6D43719E71E237FE572B19D83EA4C5B (void);
+// 0x00000035 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::DestroyGameboard()
+extern void BossemGameboardManager_DestroyGameboard_m4DBBC7023F4E2784889AE16BD5A769BEFEB4B45C (void);
+// 0x00000036 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::CreateNewGameboard()
+extern void BossemGameboardManager_CreateNewGameboard_mD47C7731C54A24517D1B875BA17CAEEBBAEA71F0 (void);
+// 0x00000037 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::OnValidate()
+extern void BossemGameboardManager_OnValidate_mC9925C34A16CBA583467BAECE7BDB128719BD025 (void);
+// 0x00000038 System.Void Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::.ctor()
+extern void BossemGameboardManager__ctor_m7EC4DA1816D44B65F3B7AB2509B459D23C323F7F (void);
+// 0x00000039 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::Start()
 extern void VoiceControlExample_Start_mEDAC23FB0895FB494E19669C1B0C2CB57E47C9A1 (void);
-// 0x0000000D System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::Highlight(UnityEngine.UI.Graphic)
+// 0x0000003A System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::Highlight(UnityEngine.UI.Graphic)
 extern void VoiceControlExample_Highlight_mD74DC7FEE75D4197B20A30C92D8DD016269D1462 (void);
-// 0x0000000E System.Collections.IEnumerator Recognissimo.Samples.VoiceControlExample.VoiceControlExample::HighlightCoroutine(UnityEngine.UI.Graphic)
+// 0x0000003B System.Collections.IEnumerator Recognissimo.Samples.VoiceControlExample.VoiceControlExample::HighlightCoroutine(UnityEngine.UI.Graphic)
 extern void VoiceControlExample_HighlightCoroutine_m192F07F9C251FC71EA692459206471CCF8A93030 (void);
-// 0x0000000F System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::ShowError(System.String)
+// 0x0000003C System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::ShowError(System.String)
 extern void VoiceControlExample_ShowError_m752EBFD635845B1085B6E97E3169B3F0B0EA9FFB (void);
-// 0x00000010 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::.ctor()
+// 0x0000003D System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::.ctor()
 extern void VoiceControlExample__ctor_mB760B8BD6C97549F7BA5C1E13443FE3055080EBE (void);
-// 0x00000011 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::.cctor()
+// 0x0000003E System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::.cctor()
 extern void VoiceControlExample__cctor_m3F842244B8586F4299AA3938933085FA6DBC4395 (void);
-// 0x00000012 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::<Start>b__7_0(Recognissimo.InitializationException)
+// 0x0000003F System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample::<Start>b__7_0(Recognissimo.InitializationException)
 extern void VoiceControlExample_U3CStartU3Eb__7_0_m404A47309CB686987FDB65111D5B3AE1BB719CE3 (void);
-// 0x00000013 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<>c__DisplayClass7_0::.ctor()
+// 0x00000040 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_m0774167819399E6574FC996E164E05ACBEB92D4F (void);
-// 0x00000014 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<>c__DisplayClass7_0::<Start>b__1()
+// 0x00000041 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<>c__DisplayClass7_0::<Start>b__1()
 extern void U3CU3Ec__DisplayClass7_0_U3CStartU3Eb__1_m4D837EED553ADFFA2AA6168FB422EE7EB2F144A1 (void);
-// 0x00000015 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::.ctor(System.Int32)
+// 0x00000042 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::.ctor(System.Int32)
 extern void U3CHighlightCoroutineU3Ed__9__ctor_mE89BA4DFA3367E8940FA92CD4043A4EC1FE3526D (void);
-// 0x00000016 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.IDisposable.Dispose()
+// 0x00000043 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.IDisposable.Dispose()
 extern void U3CHighlightCoroutineU3Ed__9_System_IDisposable_Dispose_m287F257102C3618DD757FEC2CE7A0B440F9B027F (void);
-// 0x00000017 System.Boolean Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::MoveNext()
+// 0x00000044 System.Boolean Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::MoveNext()
 extern void U3CHighlightCoroutineU3Ed__9_MoveNext_m9857B5895FB4DC07D60140B136A32282778F7CE4 (void);
-// 0x00000018 System.Object Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000045 System.Object Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CHighlightCoroutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCAAB12DC13E67DA87EB12B24D1678133201FDC20 (void);
-// 0x00000019 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.Collections.IEnumerator.Reset()
+// 0x00000046 System.Void Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CHighlightCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_mBDC7DED1B9629586B725FC6FB47E9E1F2DB4E187 (void);
-// 0x0000001A System.Object Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.Collections.IEnumerator.get_Current()
+// 0x00000047 System.Object Recognissimo.Samples.VoiceControlExample.VoiceControlExample/<HighlightCoroutine>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CHighlightCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_mDA7B7EEBA58300E85412AA48409EB9C8D1C8D564 (void);
-// 0x0000001B System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::Start()
+// 0x00000048 System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::Start()
 extern void VoiceActivityDetectorExample_Start_mE2E6A817C434E0F4636033254587C0456C01F289 (void);
-// 0x0000001C System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::.ctor()
+// 0x00000049 System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::.ctor()
 extern void VoiceActivityDetectorExample__ctor_mA7CBC6020B0988A3157A6F912BE2E77DFBE048C1 (void);
-// 0x0000001D System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::<Start>b__2_0()
+// 0x0000004A System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::<Start>b__2_0()
 extern void VoiceActivityDetectorExample_U3CStartU3Eb__2_0_m2296175BDC735A14E3420C27571294736E8FEA4A (void);
-// 0x0000001E System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::<Start>b__2_1()
+// 0x0000004B System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::<Start>b__2_1()
 extern void VoiceActivityDetectorExample_U3CStartU3Eb__2_1_m35EF796E4D124D3EA94AE1E5A2C4C826711CE499 (void);
-// 0x0000001F System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::<Start>b__2_2(Recognissimo.InitializationException)
+// 0x0000004C System.Void Recognissimo.Samples.VoiceActivityDetectorExample.VoiceActivityDetectorExample::<Start>b__2_2(Recognissimo.InitializationException)
 extern void VoiceActivityDetectorExample_U3CStartU3Eb__2_2_m6EB4758EFE0E8936D6ACF239407CEDC52243156F (void);
-// 0x00000020 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnEnable()
+// 0x0000004D System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnEnable()
 extern void SpeechRecognizerExample_OnEnable_m2A27C4CDD24AA788D8EF5AFBFFD5CA3772D02ED3 (void);
-// 0x00000021 UnityEngine.SystemLanguage Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::GetPreferredLanguage(System.Collections.Generic.IList`1<UnityEngine.SystemLanguage>)
+// 0x0000004E UnityEngine.SystemLanguage Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::GetPreferredLanguage(System.Collections.Generic.IList`1<UnityEngine.SystemLanguage>)
 extern void SpeechRecognizerExample_GetPreferredLanguage_mDB7DEB271A5032F780225780BD9980AD369C97D7 (void);
-// 0x00000022 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::InitializeLanguageDropdown()
+// 0x0000004F System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::InitializeLanguageDropdown()
 extern void SpeechRecognizerExample_InitializeLanguageDropdown_m4D508D9DA71871BA8E0E108063C50897561CE3BF (void);
-// 0x00000023 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::UpdateStatus(System.String)
+// 0x00000050 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::UpdateStatus(System.String)
 extern void SpeechRecognizerExample_UpdateStatus_mEC5AD6C06E5EAFAB7748CE433AFA88F3A9FB8B9C (void);
-// 0x00000024 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnPartialResult(Recognissimo.Components.PartialResult)
+// 0x00000051 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnPartialResult(Recognissimo.Components.PartialResult)
 extern void SpeechRecognizerExample_OnPartialResult_m4F5B040A26694C6AFDCFE6B6229446ED16C7FD85 (void);
-// 0x00000025 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnResult(Recognissimo.Components.Result)
+// 0x00000052 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnResult(Recognissimo.Components.Result)
 extern void SpeechRecognizerExample_OnResult_m0DF76576E5347EEED93C79D27ECA578FF71D81AE (void);
-// 0x00000026 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnError(Recognissimo.SpeechProcessorException)
+// 0x00000053 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::OnError(Recognissimo.SpeechProcessorException)
 extern void SpeechRecognizerExample_OnError_m4636551DAF1B08B92E1C75E6C0BBC1077856320D (void);
-// 0x00000027 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::.ctor()
+// 0x00000054 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::.ctor()
 extern void SpeechRecognizerExample__ctor_mB47A69383726A5166584010FEFF1D0C87A0E1A68 (void);
-// 0x00000028 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<OnEnable>b__8_1()
+// 0x00000055 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<OnEnable>b__8_1()
 extern void SpeechRecognizerExample_U3COnEnableU3Eb__8_1_mEC3815F2885DB67188EBBE7AB86716411729B477 (void);
-// 0x00000029 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<OnEnable>b__8_3()
+// 0x00000056 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<OnEnable>b__8_3()
 extern void SpeechRecognizerExample_U3COnEnableU3Eb__8_3_mE650767AC8B50AAB4EBBBD08D0031D3C988CC2B9 (void);
-// 0x0000002A System.Boolean Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<InitializeLanguageDropdown>b__10_1(UnityEngine.UI.Dropdown/OptionData)
+// 0x00000057 System.Boolean Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<InitializeLanguageDropdown>b__10_1(UnityEngine.UI.Dropdown/OptionData)
 extern void SpeechRecognizerExample_U3CInitializeLanguageDropdownU3Eb__10_1_m9E81717AFFD6BF6E7E193D70BC939FCB7EF7588E (void);
-// 0x0000002B System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<InitializeLanguageDropdown>b__10_2(System.Int32)
+// 0x00000058 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample::<InitializeLanguageDropdown>b__10_2(System.Int32)
 extern void SpeechRecognizerExample_U3CInitializeLanguageDropdownU3Eb__10_2_mAFCF3950CA442264674AF8977603CA0B457B7A66 (void);
-// 0x0000002C System.String Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::get_CurrentText()
+// 0x00000059 System.String Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::get_CurrentText()
 extern void RecognizedText_get_CurrentText_mBB80148E002CDE44930BEA5043373D95DF54FC71 (void);
-// 0x0000002D System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::Append(Recognissimo.Components.Result)
+// 0x0000005A System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::Append(Recognissimo.Components.Result)
 extern void RecognizedText_Append_m5001DF03262074DACE8411BBAB27D1C03AAA22B6 (void);
-// 0x0000002E System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::Append(Recognissimo.Components.PartialResult)
+// 0x0000005B System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::Append(Recognissimo.Components.PartialResult)
 extern void RecognizedText_Append_m2777E2FDC46995E2BAA5D343E706F65D9BF695CE (void);
-// 0x0000002F System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::Clear()
+// 0x0000005C System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::Clear()
 extern void RecognizedText_Clear_mE36EF4449934222041308194EF387807849AAEE2 (void);
-// 0x00000030 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::.ctor()
+// 0x0000005D System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/RecognizedText::.ctor()
 extern void RecognizedText__ctor_mCD264FEB759B89CE18ADA99790FD7D432FBD738C (void);
-// 0x00000031 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::.cctor()
+// 0x0000005E System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::.cctor()
 extern void U3CU3Ec__cctor_m8C1019525C3991A31665D68A2B1B4AEDCB153A11 (void);
-// 0x00000032 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::.ctor()
+// 0x0000005F System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::.ctor()
 extern void U3CU3Ec__ctor_m5477F24C6B892FC94029F1380DAF66E43AECBBF4 (void);
-// 0x00000033 UnityEngine.SystemLanguage Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::<OnEnable>b__8_0(Recognissimo.Components.StreamingAssetsLanguageModel)
+// 0x00000060 UnityEngine.SystemLanguage Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::<OnEnable>b__8_0(Recognissimo.Components.StreamingAssetsLanguageModel)
 extern void U3CU3Ec_U3COnEnableU3Eb__8_0_m839820389DC39C7899DD725F6B74A299D7D7E723 (void);
-// 0x00000034 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::<OnEnable>b__8_2()
+// 0x00000061 System.Void Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::<OnEnable>b__8_2()
 extern void U3CU3Ec_U3COnEnableU3Eb__8_2_m57D8DEB800C2994F85F31550E7B84064D7C3D5F3 (void);
-// 0x00000035 UnityEngine.UI.Dropdown/OptionData Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::<InitializeLanguageDropdown>b__10_0(UnityEngine.SystemLanguage)
+// 0x00000062 UnityEngine.UI.Dropdown/OptionData Recognissimo.Samples.SpeechRecognizerExample.SpeechRecognizerExample/<>c::<InitializeLanguageDropdown>b__10_0(UnityEngine.SystemLanguage)
 extern void U3CU3Ec_U3CInitializeLanguageDropdownU3Eb__10_0_m507609B99351DD1561876BEBB22C424CE9A0A1E5 (void);
-static Il2CppMethodPointer s_methodPointers[53] = 
+static Il2CppMethodPointer s_methodPointers[98] = 
 {
 	RecognitionListener_WriteIt_m908856281B90C4E7EF38996C5989E2FDA3C3EC51,
 	RecognitionListener_OnPartialResult_m2319C88C28B4F8CD40EBF7C969EF5C5A472E7846,
@@ -131,6 +221,51 @@ static Il2CppMethodPointer s_methodPointers[53] =
 	SceneManager__ctor_m61FBFE598A99CDD806C72972FD6466E89648A5B1,
 	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
 	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	GameboardSpaceManager_ARSessionStarted_m4FC97C5EE42923B492777D9D7910262AEC74B293,
+	GameboardSpaceManager_ARSessionStopped_m28119BC5EAA073927B7B840B63A9B8C26083900E,
+	GameboardSpaceManager_Awake_mDEA062E9CE7E4C32F09BA3754EE6286926F2535F,
+	GameboardSpaceManager_OnGameboardCreated_m0FB8B81B7914A7F341EBBF8CB96FC3BE07DCAA2B,
+	GameboardSpaceManager_OnGameboardDestroyed_mB1C57955E321B1C081D233CCD028549E0BEF6D10,
+	GameboardSpaceManager_OnEnable_mC96208937FB8CBF3AA298DC110645FB1B103263D,
+	GameboardSpaceManager_OnDisable_mF2DA5FD477B83D0A63B4577A4D90A11DF7B7CF2E,
+	GameboardSpaceManager_Update_mE606591D376436369A0126722F4725BCD5D11BD1,
+	GameboardSpaceManager_HandleTouch_mE9020A579C9210F72C0E4F73C421DD4094B46BB2,
+	GameboardSpaceManager_TouchBegan_mEA46EC46EC047B0742CC6DAAE834FC2158167030,
+	GameboardSpaceManager_HandlePlacement_m2D37146921AF852FF1EF8B650DD1E7DC43CCFB70,
+	GameboardSpaceManager_ReplaceButton_OnClick_m9B57F3C3D4186FAEFE85568A77D05C641D9B6CF9,
+	GameboardSpaceManager_CallButton_OnClick_mA46CA58534855B8C1BE975965C0DCB55F24F046C,
+	GameboardSpaceManager__ctor_m0C6A0C451B1F76A4C1B4D374C889B9EA18992BEA,
+	BossemGameboardManager_get_Gameboard_m4B43BACD3BECF0833FC74A59E9EF70080BB71B23,
+	BossemGameboardManager_set_Gameboard_m8BE54CB720603544F52D7C12A7F1DDE54092B2A3,
+	BossemGameboardManager_get_Camera_m0B6417339C7A6AC37ED591E41EF79EC8F92F253F,
+	BossemGameboardManager_set_Camera_m0C310B35DE4956F911E813A047CA24AFC93C4B38,
+	BossemGameboardManager_get_ArCamera_m15BC8EB40277062C1467FCA7128989CE9CE7F016,
+	BossemGameboardManager_set_ArCamera_m899792067B990E2B5CC922C686469E1C14990F6F,
+	BossemGameboardManager_get_TileSize_mD4871FD19BEA8912D3E254332F1E036FF0F99FCE,
+	BossemGameboardManager_set_TileSize_m2E6E54E84539E082F9C66E059997AF5E39D81717,
+	BossemGameboardManager_get_FlatFloorTolerance_mB04EA68F47FADB9CFB6B530D2515F9E320774B4E,
+	BossemGameboardManager_set_FlatFloorTolerance_m7DFDAD83DAA0D6B9D22BF8376CED239C567FCD71,
+	BossemGameboardManager_get_MaxSlope_m97531DE01B11A15CA3AE4C692AE22E0D16029903,
+	BossemGameboardManager_set_MaxSlope_m8F1B0442DA133FD2CC78A55DBF79106423996736,
+	BossemGameboardManager_get_StepHeight_mB51D9EE786A9CA8DEE1BEC59523C5D0347436144,
+	BossemGameboardManager_set_StepHeight_mA67C3B95458BE931606415850F6091E61ACC7949,
+	BossemGameboardManager_get_ScanInterval_m1506DB636D3672CDBD01BC97F21DCBD835AF33B9,
+	BossemGameboardManager_set_ScanInterval_m83BAA9F01AE7847199C18535CBEF360D058A698B,
+	BossemGameboardManager_get_ScanRange_mFCDA2F84164FE2F725B33831A0463AD6BB9FADB2,
+	BossemGameboardManager_set_ScanRange_mAC182CA1FFE6B53007476C9A49CD4B2FA5D49622,
+	BossemGameboardManager_get_LayerMask_mC97BC1C5D373F1A21F3BBC48061C233CC1911E6D,
+	BossemGameboardManager_set_LayerMask_m4A3B8A96D3A91A8713B970FF37C7BA5F96D2A954,
+	BossemGameboardManager_get_Visualise_m2C52D397C5379A27AAE20BC51B1BC0245BBAA5DB,
+	BossemGameboardManager_set_Visualise_m51404812D5FCE2B5C95DBB0D5B9F3BE66D43797A,
+	BossemGameboardManager_InitializeImpl_m0E69918771B788785CF3512A5EE1BCDA882D7357,
+	BossemGameboardManager_DeinitializeImpl_mAF19494C92750A3285D67E11BFBE9BEBC67D2419,
+	BossemGameboardManager_SetVisualisationActive_m141121A0EAF24D8DDEC11DCEE41DE5F4C7D93D07,
+	BossemGameboardManager_UpdateGameboard_mE94D718094D54872FC302975D5DE94713B276634,
+	BossemGameboardManager_Update_m2A907AA8A6D43719E71E237FE572B19D83EA4C5B,
+	BossemGameboardManager_DestroyGameboard_m4DBBC7023F4E2784889AE16BD5A769BEFEB4B45C,
+	BossemGameboardManager_CreateNewGameboard_mD47C7731C54A24517D1B875BA17CAEEBBAEA71F0,
+	BossemGameboardManager_OnValidate_mC9925C34A16CBA583467BAECE7BDB128719BD025,
+	BossemGameboardManager__ctor_m7EC4DA1816D44B65F3B7AB2509B459D23C323F7F,
 	VoiceControlExample_Start_mEDAC23FB0895FB494E19669C1B0C2CB57E47C9A1,
 	VoiceControlExample_Highlight_mD74DC7FEE75D4197B20A30C92D8DD016269D1462,
 	VoiceControlExample_HighlightCoroutine_m192F07F9C251FC71EA692459206471CCF8A93030,
@@ -174,7 +309,7 @@ static Il2CppMethodPointer s_methodPointers[53] =
 	U3CU3Ec_U3COnEnableU3Eb__8_2_m57D8DEB800C2994F85F31550E7B84064D7C3D5F3,
 	U3CU3Ec_U3CInitializeLanguageDropdownU3Eb__10_0_m507609B99351DD1561876BEBB22C424CE9A0A1E5,
 };
-static const int32_t s_InvokerIndices[53] = 
+static const int32_t s_InvokerIndices[98] = 
 {
 	5876,
 	4808,
@@ -184,6 +319,51 @@ static const int32_t s_InvokerIndices[53] =
 	5876,
 	4697,
 	4884,
+	5876,
+	5876,
+	5876,
+	5876,
+	5876,
+	5876,
+	4803,
+	4803,
+	5876,
+	5876,
+	5876,
+	5876,
+	4884,
+	5876,
+	5876,
+	5876,
+	5876,
+	5772,
+	4803,
+	5772,
+	4803,
+	5772,
+	4803,
+	5822,
+	4858,
+	5822,
+	4858,
+	5822,
+	4858,
+	5822,
+	4858,
+	5822,
+	4858,
+	5822,
+	4858,
+	5750,
+	4780,
+	5685,
+	4703,
+	5876,
+	5876,
+	4703,
+	5876,
+	5876,
+	5876,
 	5876,
 	5876,
 	5876,
@@ -234,7 +414,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	53,
+	98,
 	s_methodPointers,
 	0,
 	NULL,

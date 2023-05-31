@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     ARDK-Examples.dll:
     - GameboardAgent
-    - Niantic.ARDKExamples.GameboardExampleManager
     - Niantic.ARDKExamples.Helpers.ScrollingLog
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
@@ -11,12 +10,14 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
-    - Niantic.ARDK.Extensions.Gameboard.GameboardManager
     - Niantic.ARDK.Extensions.Meshing.ARMeshManager
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
     - Niantic.ARDK.Utilities._CallbackQueue
     - Niantic.ARDK.VirtualStudio.AR.Mock.MockMesh
     - Niantic.ARDK.VirtualStudio.AR.Mock.MockMeshSequence
+    Assembly-CSharp.dll:
+    - Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager
+    - Niantic.ARDKExamples.GameboardSpaceManager
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
@@ -74,7 +75,16 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
+    methodName: EnableFeatures
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
+    methodName: DisableFeatures
   sceneClasses:
     Assets/Scenes/Gameboard 1.unity:
     - Class: 1
@@ -134,8 +144,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5290}
     - Class: 114
-      Script: {instanceID: 5594}
-    - Class: 114
       Script: {instanceID: 5630}
     - Class: 114
       Script: {instanceID: 5728}
@@ -143,8 +151,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5874}
     - Class: 114
       Script: {instanceID: 6292}
-    - Class: 114
-      Script: {instanceID: 6478}
     - Class: 114
       Script: {instanceID: 7128}
     - Class: 114
@@ -163,6 +169,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9192}
     - Class: 114
       Script: {instanceID: 9288}
+    - Class: 114
+      Script: {instanceID: 47316}
+    - Class: 114
+      Script: {instanceID: 48624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1822,6 +1832,18 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 289618fbea882e02d1486eaff129f0c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.ARDK.Extensions.Gameboard
+    className: BossemGameboardManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0cebb090204105822aecbafbf48792dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.ARDKExamples
+    className: GameboardSpaceManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Gameboard 1.unity
