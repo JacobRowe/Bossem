@@ -22,8 +22,6 @@ ScriptsOnlyBuild:
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -78,7 +76,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity:
+    Assets/Scenes/Gameboard 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -102,8 +100,6 @@ ScriptsOnlyBuild:
     - Class: 72
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -1828,5 +1824,5 @@ ScriptsOnlyBuild:
     className: ARFeaturePointRenderer
   platform: 13
   scenePathNames:
-  - Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity
+  - Assets/Scenes/Gameboard 1.unity
   playerPath: E:/Bossem/Builds/Bossem1.apk
