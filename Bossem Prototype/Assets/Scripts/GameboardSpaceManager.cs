@@ -85,6 +85,7 @@ namespace Niantic.ARDKExamples
             _callButton.interactable = false;
             _replaceButton.interactable = false;
             _replaceButtonText.text = "Place";
+            _stopScanButton.interactable = true;
         }
 
         private void OnGameboardCreated(GameboardCreatedArgs args)
@@ -228,6 +229,7 @@ namespace Niantic.ARDKExamples
 
         private void StopButton_OnClick()
         {
+            _stopScanButton.gameObject.SetActive(true);
             Debug.Log(_gameboard.Area);
         }
     }
