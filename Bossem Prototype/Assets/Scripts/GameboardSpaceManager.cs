@@ -42,7 +42,10 @@ namespace Niantic.ARDKExamples
         [Tooltip("Button to call the agent")]
         private Button _callButton;
 
-        
+        [SerializeField]
+        [Tooltip("Button to prune the GameBoard")]
+        private Button _pruneButton;
+
 
 #pragma warning restore 0649
 
@@ -103,7 +106,7 @@ namespace Niantic.ARDKExamples
         {
             _replaceButton.onClick.AddListener(ReplaceButton_OnClick);
             _callButton.onClick.AddListener(CallButton_OnClick);
-
+            _pruneButton.onClick.AddListener(PruneButton_OnClick);
         }
 
         
@@ -112,6 +115,8 @@ namespace Niantic.ARDKExamples
         {
             _replaceButton.onClick.RemoveListener(ReplaceButton_OnClick);
             _callButton.onClick.RemoveListener(CallButton_OnClick);
+            _pruneButton.onClick.RemoveListener(PruneButton_OnClick);
+
 
 
         }
@@ -225,6 +230,18 @@ namespace Niantic.ARDKExamples
             _agent.SetDestination(_arCamera.transform.position);
         }
 
-        
+        private void PruneButton_OnClick()
+        {
+            //get center of where player is looking
+            var cameraPos = _arCamera.transform.position;
+            
+            //prune gameboard around point
+            _gameboard.Prune(cameraPos, 0.5f);
+            
+            //no higher or lower surfaces
+            //check if min size
+            //stop adding to gameboard
+            
+        }
     }
 }

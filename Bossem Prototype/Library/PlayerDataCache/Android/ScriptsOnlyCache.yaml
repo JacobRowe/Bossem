@@ -79,12 +79,24 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager
+    methodName: SetVisualisationActive
   - assembly: ARDK
     fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
     methodName: EnableFeatures
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: ARDK
     fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
     methodName: DisableFeatures
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager
+    methodName: SetVisualisationActive
   sceneClasses:
     Assets/Scenes/Gameboard 1.unity:
     - Class: 1
@@ -1840,7 +1852,7 @@ ScriptsOnlyBuild:
     className: BossemGameboardManager
   - hash:
       serializedVersion: 2
-      Hash: 0cebb090204105822aecbafbf48792dc
+      Hash: 6f4bd6a87c101346effa53462172478e
     assemblyName: Assembly-CSharp.dll
     namespaceName: Niantic.ARDKExamples
     className: GameboardSpaceManager
