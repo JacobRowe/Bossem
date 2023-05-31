@@ -34496,18 +34496,20 @@ struct GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7  : public
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____callButton_9;
 	// UnityEngine.UI.Button Niantic.ARDKExamples.GameboardSpaceManager::_pruneButton
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____pruneButton_10;
+	// System.Single Niantic.ARDKExamples.GameboardSpaceManager::_pruneAmount
+	float ____pruneAmount_11;
 	// Niantic.ARDK.Extensions.Gameboard.IGameboard Niantic.ARDKExamples.GameboardSpaceManager::_gameboard
-	RuntimeObject* ____gameboard_11;
+	RuntimeObject* ____gameboard_12;
 	// UnityEngine.GameObject Niantic.ARDKExamples.GameboardSpaceManager::_agentGameObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____agentGameObject_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____agentGameObject_13;
 	// GameboardAgent Niantic.ARDKExamples.GameboardSpaceManager::_agent
-	GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* ____agent_13;
+	GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* ____agent_14;
 	// System.Boolean Niantic.ARDKExamples.GameboardSpaceManager::_isReplacing
-	bool ____isReplacing_14;
+	bool ____isReplacing_15;
 	// System.Boolean Niantic.ARDKExamples.GameboardSpaceManager::_arIsRunning
-	bool ____arIsRunning_15;
+	bool ____arIsRunning_16;
 	// System.Boolean Niantic.ARDKExamples.GameboardSpaceManager::_gameboardIsRunning
-	bool ____gameboardIsRunning_16;
+	bool ____gameboardIsRunning_17;
 };
 
 // Unity.VisualScripting.GenericGuiEventUnit

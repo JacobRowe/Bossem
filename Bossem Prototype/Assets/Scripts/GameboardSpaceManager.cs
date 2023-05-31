@@ -46,6 +46,11 @@ namespace Niantic.ARDKExamples
         [Tooltip("Button to prune the GameBoard")]
         private Button _pruneButton;
 
+        [SerializeField]
+        [Tooltip("Prune Amount")]
+        [Range(0.01f, 1.0f)]
+        private float _pruneAmount = 0.3f;
+
 
 #pragma warning restore 0649
 
@@ -236,7 +241,7 @@ namespace Niantic.ARDKExamples
             var cameraPos = _arCamera.transform.position;
             
             //prune gameboard around point
-            _gameboard.Prune(cameraPos, 0.5f);
+            _gameboard.Prune(cameraPos, _pruneAmount);
             
             //no higher or lower surfaces
             //check if min size

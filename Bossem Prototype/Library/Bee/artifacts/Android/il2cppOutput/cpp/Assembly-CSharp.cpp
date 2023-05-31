@@ -2039,18 +2039,20 @@ struct GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7  : public
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____callButton_9;
 	// UnityEngine.UI.Button Niantic.ARDKExamples.GameboardSpaceManager::_pruneButton
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____pruneButton_10;
+	// System.Single Niantic.ARDKExamples.GameboardSpaceManager::_pruneAmount
+	float ____pruneAmount_11;
 	// Niantic.ARDK.Extensions.Gameboard.IGameboard Niantic.ARDKExamples.GameboardSpaceManager::_gameboard
-	RuntimeObject* ____gameboard_11;
+	RuntimeObject* ____gameboard_12;
 	// UnityEngine.GameObject Niantic.ARDKExamples.GameboardSpaceManager::_agentGameObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____agentGameObject_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____agentGameObject_13;
 	// GameboardAgent Niantic.ARDKExamples.GameboardSpaceManager::_agent
-	GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* ____agent_13;
+	GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* ____agent_14;
 	// System.Boolean Niantic.ARDKExamples.GameboardSpaceManager::_isReplacing
-	bool ____isReplacing_14;
+	bool ____isReplacing_15;
 	// System.Boolean Niantic.ARDKExamples.GameboardSpaceManager::_arIsRunning
-	bool ____arIsRunning_15;
+	bool ____arIsRunning_16;
 	// System.Boolean Niantic.ARDKExamples.GameboardSpaceManager::_gameboardIsRunning
-	bool ____gameboardIsRunning_16;
+	bool ____gameboardIsRunning_17;
 };
 
 // RecognitionListener
@@ -3451,7 +3453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_ARSessionStarted_m
 {
 	{
 		// _arIsRunning = true;
-		__this->____arIsRunning_15 = (bool)1;
+		__this->____arIsRunning_16 = (bool)1;
 		// }
 		return;
 	}
@@ -3469,12 +3471,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_ARSessionStopped_m
 	}
 	{
 		// Destroy(_agentGameObject);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____agentGameObject_13;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_0, NULL);
 		// _agentGameObject = null;
-		__this->____agentGameObject_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____agentGameObject_12), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		__this->____agentGameObject_13 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____agentGameObject_13), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
 		// _replaceButtonText.text = "Place";
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->____replaceButtonText_8;
 		NullCheck(L_1);
@@ -3488,11 +3490,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_ARSessionStopped_m
 		NullCheck(L_3);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_3, (bool)0, NULL);
 		// _isReplacing = false;
-		__this->____isReplacing_14 = (bool)0;
+		__this->____isReplacing_15 = (bool)0;
 		// _arIsRunning = false;
-		__this->____arIsRunning_15 = (bool)0;
+		__this->____arIsRunning_16 = (bool)0;
 		// _gameboard.Clear();
-		RuntimeObject* L_4 = __this->____gameboard_11;
+		RuntimeObject* L_4 = __this->____gameboard_12;
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(8 /* System.Void Niantic.ARDK.Extensions.Gameboard.IGameboard::Clear() */, IGameboard_t705327E7B768329493F4FCDE0E89144A5757C6EC_il2cpp_TypeInfo_var, L_4);
 		// }
@@ -3551,12 +3553,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_OnGameboardCreated
 		NullCheck(L_0);
 		RuntimeObject* L_1;
 		L_1 = GameboardCreatedArgs_get_Gameboard_mC056BCB5B2853BDEDAFC47B5E318174C1CE8A298_inline(L_0, NULL);
-		__this->____gameboard_11 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameboard_11), (void*)L_1);
+		__this->____gameboard_12 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameboard_12), (void*)L_1);
 		// _gameboardIsRunning = true;
-		__this->____gameboardIsRunning_16 = (bool)1;
+		__this->____gameboardIsRunning_17 = (bool)1;
 		// _gameboard.GameboardDestroyed += OnGameboardDestroyed;
-		RuntimeObject* L_2 = __this->____gameboard_11;
+		RuntimeObject* L_2 = __this->____gameboard_12;
 		ArdkEventHandler_1_t80AC3964C6FC689035261DEC69B499B7BB8848B7* L_3 = (ArdkEventHandler_1_t80AC3964C6FC689035261DEC69B499B7BB8848B7*)il2cpp_codegen_object_new(ArdkEventHandler_1_t80AC3964C6FC689035261DEC69B499B7BB8848B7_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
 		ArdkEventHandler_1__ctor_mB2B6DD74AACDC9A571405BF44217E343FCFCAA33(L_3, __this, (intptr_t)((void*)GameboardSpaceManager_OnGameboardDestroyed_mB1C57955E321B1C081D233CCD028549E0BEF6D10_RuntimeMethod_var), NULL);
@@ -3571,10 +3573,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_OnGameboardDestroy
 {
 	{
 		// _gameboard = null;
-		__this->____gameboard_11 = (RuntimeObject*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameboard_11), (void*)(RuntimeObject*)NULL);
+		__this->____gameboard_12 = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameboard_12), (void*)(RuntimeObject*)NULL);
 		// _gameboardIsRunning = false;
-		__this->____gameboardIsRunning_16 = (bool)0;
+		__this->____gameboardIsRunning_17 = (bool)0;
 		// }
 		return;
 	}
@@ -3684,7 +3686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_Update_mE606591D37
 	}
 	{
 		// if (!_gameboardIsRunning)
-		bool L_0 = __this->____gameboardIsRunning_16;
+		bool L_0 = __this->____gameboardIsRunning_17;
 		if (L_0)
 		{
 			goto IL_0009;
@@ -3698,7 +3700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_Update_mE606591D37
 IL_0009:
 	{
 		// if (_isReplacing)
-		bool L_1 = __this->____isReplacing_14;
+		bool L_1 = __this->____isReplacing_15;
 		if (!L_1)
 		{
 			goto IL_0018;
@@ -3714,7 +3716,7 @@ IL_0018:
 	{
 		// _replaceButton.interactable = _gameboard.Area > 0;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->____replaceButton_7;
-		RuntimeObject* L_3 = __this->____gameboard_11;
+		RuntimeObject* L_3 = __this->____gameboard_12;
 		NullCheck(L_3);
 		float L_4;
 		L_4 = InterfaceFuncInvoker0< float >::Invoke(1 /* System.Single Niantic.ARDK.Extensions.Gameboard.IGameboard::get_Area() */, IGameboard_t705327E7B768329493F4FCDE0E89144A5757C6EC_il2cpp_TypeInfo_var, L_3);
@@ -3826,14 +3828,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_TouchBegan_mEA46EC
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		// if (!_arIsRunning || _agent == null || _arCamera == null)
-		bool L_0 = __this->____arIsRunning_15;
+		bool L_0 = __this->____arIsRunning_16;
 		if (!L_0)
 		{
 			goto IL_0024;
 		}
 	}
 	{
-		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_1 = __this->____agent_13;
+		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_1 = __this->____agent_14;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -3893,7 +3895,7 @@ IL_0025:
 		NullCheck(L_12);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_12, L_13, NULL);
 		// _agent.SetDestination(hit.point);
-		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_14 = __this->____agent_13;
+		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_14 = __this->____agent_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_0), NULL);
 		NullCheck(L_14);
@@ -3942,7 +3944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_HandlePlacement_m2
 		L_5 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_4, NULL);
 		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C((&V_1), L_3, L_5, NULL);
 		// if (_gameboard.RayCast(ray, out Vector3 hitPoint))
-		RuntimeObject* L_6 = __this->____gameboard_11;
+		RuntimeObject* L_6 = __this->____gameboard_12;
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_7 = V_1;
 		NullCheck(L_6);
 		bool L_8;
@@ -3954,7 +3956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_HandlePlacement_m2
 	}
 	{
 		// if (_gameboard.CheckFit(center: hitPoint, 0.4f))
-		RuntimeObject* L_9 = __this->____gameboard_11;
+		RuntimeObject* L_9 = __this->____gameboard_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_2;
 		NullCheck(L_9);
 		bool L_11;
@@ -3966,11 +3968,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_HandlePlacement_m2
 	}
 	{
 		// _agentGameObject.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____agentGameObject_13;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
 		// _agentGameObject.transform.position = hitPoint;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->____agentGameObject_13;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
@@ -3991,7 +3993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_HandlePlacement_m2
 		L_20 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_4), NULL);
 		V_3 = L_20;
 		// _agentGameObject.transform.rotation = Quaternion.LookRotation(-rotation);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->____agentGameObject_13;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
 		L_22 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_21, NULL);
@@ -4037,7 +4039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_ReplaceButton_OnCl
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
 		// if (_agentGameObject == null)
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____agentGameObject_13;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -4052,21 +4054,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_ReplaceButton_OnCl
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D(L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D_RuntimeMethod_var);
-		__this->____agentGameObject_12 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____agentGameObject_12), (void*)L_4);
+		__this->____agentGameObject_13 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____agentGameObject_13), (void*)L_4);
 		// _agent = _agentGameObject.GetComponent<GameboardAgent>();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____agentGameObject_13;
 		NullCheck(L_5);
 		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_6;
 		L_6 = GameObject_GetComponent_TisGameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93_mDBE9B05251B9B86A0D67A8FF9DDE10D8747F7965(L_5, GameObject_GetComponent_TisGameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93_mDBE9B05251B9B86A0D67A8FF9DDE10D8747F7965_RuntimeMethod_var);
-		__this->____agent_13 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____agent_13), (void*)L_6);
+		__this->____agent_14 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____agent_14), (void*)L_6);
 		// _agent.State = GameboardAgent.AgentNavigationState.Paused;
-		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_7 = __this->____agent_13;
+		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_7 = __this->____agent_14;
 		NullCheck(L_7);
 		GameboardAgent_set_State_m68D62E3A5673C788540515612D68206426498E8B_inline(L_7, 0, NULL);
 		// _agentGameObject.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->____agentGameObject_13;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
 	}
@@ -4074,11 +4076,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_ReplaceButton_OnCl
 IL_0054:
 	{
 		// _isReplacing = !_isReplacing;
-		bool L_9 = __this->____isReplacing_14;
-		__this->____isReplacing_14 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
+		bool L_9 = __this->____isReplacing_15;
+		__this->____isReplacing_15 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		// _replaceButtonText.text = _isReplacing ? "Done" : "Replace";
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->____replaceButtonText_8;
-		bool L_11 = __this->____isReplacing_14;
+		bool L_11 = __this->____isReplacing_15;
 		G_B3_0 = L_10;
 		if (L_11)
 		{
@@ -4104,16 +4106,16 @@ IL_007d:
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, G_B5_1, G_B5_0);
 		// _replaceButton.interactable = !_isReplacing;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->____replaceButton_7;
-		bool L_13 = __this->____isReplacing_14;
+		bool L_13 = __this->____isReplacing_15;
 		NullCheck(L_12);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_12, (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0), NULL);
 		// _callButton.interactable = !_isReplacing;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->____callButton_9;
-		bool L_15 = __this->____isReplacing_14;
+		bool L_15 = __this->____isReplacing_15;
 		NullCheck(L_14);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_14, (bool)((((int32_t)L_15) == ((int32_t)0))? 1 : 0), NULL);
 		// if (_isReplacing)
-		bool L_16 = __this->____isReplacing_14;
+		bool L_16 = __this->____isReplacing_15;
 		if (!L_16)
 		{
 			goto IL_00da;
@@ -4121,8 +4123,8 @@ IL_007d:
 	}
 	{
 		// _agent.SetDestination(_agentGameObject.transform.position);
-		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_17 = __this->____agent_13;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->____agentGameObject_12;
+		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_17 = __this->____agent_14;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->____agentGameObject_13;
 		NullCheck(L_18);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_18, NULL);
@@ -4132,7 +4134,7 @@ IL_007d:
 		NullCheck(L_17);
 		GameboardAgent_SetDestination_m9AE3D5D6FD7EFB5E4A15C8B9A27138BFB1D5EE0A(L_17, L_20, NULL);
 		// _agentGameObject.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->____agentGameObject_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->____agentGameObject_13;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
 		return;
@@ -4141,7 +4143,7 @@ IL_007d:
 IL_00da:
 	{
 		// _agent.State = GameboardAgent.AgentNavigationState.Idle;
-		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_22 = __this->____agent_13;
+		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_22 = __this->____agent_14;
 		NullCheck(L_22);
 		GameboardAgent_set_State_m68D62E3A5673C788540515612D68206426498E8B_inline(L_22, 1, NULL);
 		// }
@@ -4157,7 +4159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_CallButton_OnClick
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
 		// _agent.SetDestination(_arCamera.transform.position);
-		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_1 = __this->____agent_13;
+		GameboardAgent_tEFF1DF461D4F8ED11A63A8A12939C572ACB49C93* L_1 = __this->____agent_14;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->____arCamera_4;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -4192,11 +4194,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_PruneButton_OnClic
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_0 = L_2;
-		// _gameboard.Prune(cameraPos, 0.5f);
-		RuntimeObject* L_3 = __this->____gameboard_11;
+		// _gameboard.Prune(cameraPos, _pruneAmount);
+		RuntimeObject* L_3 = __this->____gameboard_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_0;
+		float L_5 = __this->____pruneAmount_11;
 		NullCheck(L_3);
-		InterfaceActionInvoker2< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, float >::Invoke(9 /* System.Void Niantic.ARDK.Extensions.Gameboard.IGameboard::Prune(UnityEngine.Vector3,System.Single) */, IGameboard_t705327E7B768329493F4FCDE0E89144A5757C6EC_il2cpp_TypeInfo_var, L_3, L_4, (0.5f));
+		InterfaceActionInvoker2< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, float >::Invoke(9 /* System.Void Niantic.ARDK.Extensions.Gameboard.IGameboard::Prune(UnityEngine.Vector3,System.Single) */, IGameboard_t705327E7B768329493F4FCDE0E89144A5757C6EC_il2cpp_TypeInfo_var, L_3, L_4, L_5);
 		// }
 		return;
 	}
@@ -4205,6 +4208,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager_PruneButton_OnClic
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameboardSpaceManager__ctor_m0C6A0C451B1F76A4C1B4D374C889B9EA18992BEA (GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7* __this, const RuntimeMethod* method) 
 {
 	{
+		// private float _pruneAmount = 0.3f;
+		__this->____pruneAmount_11 = (0.300000012f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

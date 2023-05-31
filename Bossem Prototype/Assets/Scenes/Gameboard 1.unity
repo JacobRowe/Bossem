@@ -541,7 +541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3667716828834607548, guid: dfb2a6adcae7042cab34590cd4290185, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3667716828834607549, guid: dfb2a6adcae7042cab34590cd4290185, type: 3}
       propertyPath: m_Name
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   _scanRange: 2
   _layerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   _visualise: 1
 --- !u!4 &1243789248
 Transform:
@@ -1477,6 +1477,7 @@ MonoBehaviour:
   _replaceButtonText: {fileID: 550870977}
   _callButton: {fileID: 464986592}
   _pruneButton: {fileID: 1259593993}
+  _pruneAmount: 0.1
 --- !u!1 &1259593991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,7 +2230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1571273871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2477,7 +2478,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4544129020768840140, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: m_Name
-      value: ARMesh
+      value: ARMeshManager
       objectReference: {fileID: 0}
     - target: {fileID: 4544129020768840141, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: m_RootOrder
@@ -3158,7 +3159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3363422157329644171, guid: e91d6d15f11cc4ad29bb1a41ae9aa381, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 2147483647
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 5400245468795486348, guid: e91d6d15f11cc4ad29bb1a41ae9aa381, type: 3}
       propertyPath: m_RootOrder

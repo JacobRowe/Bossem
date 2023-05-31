@@ -3232,7 +3232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c704f170ed31f4c5f9701b5b92cb874f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 6
+  walkingSpeed: 2.5
   jumpDistance: 1
   jumpPenalty: 2
   pathFindingBehaviour: 2
