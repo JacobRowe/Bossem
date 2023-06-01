@@ -262,6 +262,8 @@ namespace Niantic.ARDKExamples
                 Debug.Log("Not Found");
                 _gameboard.Clear();
             }
+
+            
             
             /*var ray = new Ray(cameraTransform.position, cameraTransform.forward);
 

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/BossemTesting.unity
     guid: a8c3f73303fadeb41909cdb6eecf2bd2
   - enabled: 0
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity
     guid: 1b7213c3fe5564515858f79a5dadc2f5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Gameboard 1.unity
     guid: ddfea125ba872864a8caf329066b6ea9
   m_configObjects:
