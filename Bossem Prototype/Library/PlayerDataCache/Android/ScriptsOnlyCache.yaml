@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     ARDK-Examples.dll:
     - GameboardAgent
+    - GlyphBehavior
+    - Niantic.ARDKExamples.Helpers.ARCursorRenderer
     - Niantic.ARDKExamples.Helpers.ScrollingLog
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
@@ -171,6 +173,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7128}
     - Class: 114
+      Script: {instanceID: 7396}
+    - Class: 114
       Script: {instanceID: 7772}
     - Class: 114
       Script: {instanceID: 7786}
@@ -186,6 +190,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9192}
     - Class: 114
       Script: {instanceID: 9288}
+    - Class: 114
+      Script: {instanceID: 9724}
     - Class: 114
       Script: {instanceID: 47316}
     - Class: 114
@@ -1857,7 +1863,7 @@ ScriptsOnlyBuild:
     className: BossemGameboardManager
   - hash:
       serializedVersion: 2
-      Hash: 5d73ffa937dd369e0261352260f154b5
+      Hash: 0fa43c3e1ee0854aeae1267554f1717c
     assemblyName: Assembly-CSharp.dll
     namespaceName: Niantic.ARDKExamples
     className: GameboardSpaceManager

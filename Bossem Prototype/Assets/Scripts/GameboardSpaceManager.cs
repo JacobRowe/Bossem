@@ -51,6 +51,15 @@ namespace Niantic.ARDKExamples
         [Range(0.01f, 1.0f)]
         private float _pruneAmount = 0.3f;
 
+        [SerializeField]
+        [Tooltip("Playspace Area")]
+        [Range(0.1f, 5.0f)]
+        private float _playspaceArea = 2.5f;
+
+        [SerializeField]
+        [Tooltip("Current Bossem Manager")]
+        public BossemGameboardManager _gameBoardManager;
+
 
 #pragma warning restore 0649
 
@@ -237,16 +246,47 @@ namespace Niantic.ARDKExamples
 
         private void PruneButton_OnClick()
         {
-            //get center of where player is looking
+            Debug.Log(_gameboard.Area);
+
+            //get center of where player is looking#
             var cameraPos = _arCamera.transform.position;
-            
-            //prune gameboard around point
             _gameboard.Prune(cameraPos, _pruneAmount);
+
+
+            if (_gameboard.Area <= _playspaceArea)
+            {
+                Debug.Log("Found");
+            }
+            else
+            {
+                Debug.Log("Not Found");
+                _gameboard.Clear();
+            }
             
+            /*var ray = new Ray(cameraTransform.position, cameraTransform.forward);
+
+            //prune gameboard around point
+            if (_gameboard.RayCast(ray, out Vector3 hitPoint))
+            {
+                Debug.Log("Gameboard Hit");
+                Debug.DrawRay(cameraTransform.position, hitPoint, Color.red, 10.0f);
+                _gameboard.Prune(hitPoint, _pruneAmount);
+                //_gameBoardManager.DisableFeatures();
+            }
+            else
+            {
+                Debug.Log("Gameboard Miss");
+            }
+            Debug.Log(hitPoint);*/
+
+
+
+
+
             //no higher or lower surfaces
             //check if min size
             //stop adding to gameboard
-            
+
         }
     }
 }
