@@ -64,9 +64,10 @@ namespace Niantic.ARDK.Extensions.Gameboard
     public bool _visualise = true;
 
     private bool recreateGameboard = false;
+    public bool playspaceFound = false;
 
-#region GetterAndSetter
-    public Camera Camera
+        #region GetterAndSetter
+        public Camera Camera
     {
       get => _camera;
       set => _camera = value;
@@ -190,7 +191,6 @@ namespace Niantic.ARDK.Extensions.Gameboard
     private void UpdateGameboard()
     {
 
-            
       var cameraTransform = _camera.transform;
       var playerPosition = cameraTransform.position;
       var playerForward = cameraTransform.forward;
@@ -199,16 +199,19 @@ namespace Niantic.ARDK.Extensions.Gameboard
 
 
       // The origin of the scan should be in front of the player
-      var origin = playerPosition + Vector3.ProjectOnPlane(playerForward, Vector3.up).normalized;
-      
 
-      
 
-      // Scan the environment
-      Gameboard.Scan(origin, range: _scanRange);
 
-      
-    }
+
+            // Scan the environment
+            if (!playspaceFound)
+            {
+                var origin = playerPosition + Vector3.ProjectOnPlane(playerForward, Vector3.up).normalized;
+                Gameboard.Scan(origin, range: _scanRange);
+            }
+
+
+        }
 
     private void Update()
     {

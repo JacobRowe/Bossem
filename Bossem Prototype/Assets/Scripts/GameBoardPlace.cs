@@ -21,43 +21,5 @@ public class GameBoardPlace : MonoBehaviour
     public ARHitTestResultType _realPlane = ARHitTestResultType.EstimatedHorizontalPlane;
     public ARHitTestResultType _existingPlane = ARHitTestResultType.ExistingPlane;
 
-    private IARSession _session;
-
-    private void Start()
-    {
-        ARSessionFactory.SessionInitialized += OnAnyARSessionDidInitialize;
-    }
-
-    private void OnAnyARSessionDidInitialize(AnyARSessionInitializedArgs args)
-    {
-        _session = args.Session;
-        _session.Deinitialized += OnSessionDeinitialized;
-    }
-
-    private void OnSessionDeinitialized(ARSessionDeinitializedArgs args)
-    {
-        ClearObjects();
-    }
-
-    private void OnDestroy()
-    {
-        ARSessionFactory.SessionInitialized -= OnAnyARSessionDidInitialize;
-
-        _session = null;
-
-        ClearObjects();
-    }
-
-    private void ClearObjects()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void Update()
-    {
-        
-
-
-    }
 
 }
