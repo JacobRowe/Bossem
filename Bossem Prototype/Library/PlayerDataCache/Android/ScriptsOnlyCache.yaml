@@ -10,16 +10,11 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
+    - Niantic.ARDK.Extensions.Gameboard.GameboardManager
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
-    - Niantic.ARDK.Extensions.PlanefindingGrid
     - Niantic.ARDK.Utilities._CallbackQueue
-    - Niantic.ARDK.VirtualStudio.AR.Mock.MockSceneConfiguration
     Assembly-CSharp.dll:
-    - RecognitionListener
-    Recognissimo.dll:
-    - Recognissimo.Components.MicrophoneSpeechSource
-    - Recognissimo.Components.SpeechRecognizer
-    - Recognissimo.Components.StreamingAssetsLanguageModelProvider
+    - GameBoardPlace
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
@@ -41,35 +36,16 @@ ScriptsOnlyBuild:
     ARDK:
     - Niantic.ARDK.Extensions.CapabilityChecker/FailureEvent
     - Niantic.ARDK.Extensions.CapabilityChecker/SuccessEvent
-    Recognissimo:
-    - Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
-    - Recognissimo.Components.PartialResultEvent
-    - Recognissimo.Components.ResultEvent
-    - Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings
-    - Recognissimo.Components.StreamingAssetsLanguageModel
-    - Recognissimo.SpeechProcessor/LifecycleEvents
-    - Recognissimo.SpeechProcessor/Settings
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase
     UnityEngine.CoreModule:
-    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.Events.PersistentListenerMode
-    - UnityEngine.Events.UnityEvent
-    - UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]
-    - UnityEngine.Events.UnityEvent`1[Recognissimo.RuntimeException]
-  methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: RecognitionListener
-    methodName: OnPartialResult
-  - assembly: Assembly-CSharp
-    fullTypeName: RecognitionListener
-    methodName: OnResult
+  methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/BossemTesting.unity:
+    Assets/Scenes/PlaneGameBoardTest.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -101,35 +77,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1716}
-    - Class: 114
-      Script: {instanceID: 1910}
-    - Class: 114
       Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3554}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 4542}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5596}
     - Class: 114
-      Script: {instanceID: 5102}
+      Script: {instanceID: 5632}
     - Class: 114
-      Script: {instanceID: 5630}
+      Script: {instanceID: 6294}
     - Class: 114
-      Script: {instanceID: 6292}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 9018}
     - Class: 114
-      Script: {instanceID: 9012}
-    - Class: 114
-      Script: {instanceID: 9022}
-    - Class: 114
-      Script: {instanceID: 9340}
+      Script: {instanceID: 9028}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -541,6 +509,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b9b848faa41d40ff28ab0579fa9be576
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameBoardPlace
   - hash:
       serializedVersion: 2
       Hash: ad3ff8942c8ab9b2fe2d279315703b3e
@@ -1299,6 +1273,12 @@ ScriptsOnlyBuild:
     className: VoiceActivityDetector
   - hash:
       serializedVersion: 2
+      Hash: e1372f6496ecd7b497d433b6a6ba7c6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.ARDKExamples
+    className: GameboardSpaceManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1531,6 +1511,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
     className: ScrollingLog
+  - hash:
+      serializedVersion: 2
+      Hash: 0e2109b898b64f758d37520049be08ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.ARDK.Extensions.Gameboard
+    className: BossemGameboardManager
   - hash:
       serializedVersion: 2
       Hash: d28b648cdb77d6f8b84a24ec284181dd
@@ -1771,25 +1757,7 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 289618fbea882e02d1486eaff129f0c3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.ARDK.Extensions.Gameboard
-    className: BossemGameboardManager
-  - hash:
-      serializedVersion: 2
-      Hash: e1372f6496ecd7b497d433b6a6ba7c6e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.ARDKExamples
-    className: GameboardSpaceManager
-  - hash:
-      serializedVersion: 2
-      Hash: 6596f281f016d08c31040c6f569a78f9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameBoardPlace
   platform: 13
   scenePathNames:
-  - Assets/Scenes/BossemTesting.unity
+  - Assets/Scenes/PlaneGameBoardTest.unity
   playerPath: E:/Bossem/Builds/Bossem1.apk

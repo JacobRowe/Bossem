@@ -34303,8 +34303,16 @@ struct FixedUpdate_t1AB186B5B959EDBFC4D64B370B14AC9E4A972E95  : public MachineEv
 // GameBoardPlace
 struct GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.Camera GameBoardPlace::_arCamera
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____arCamera_4;
 	// UnityEngine.UI.Button GameBoardPlace::_placeButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____placeButton_4;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____placeButton_5;
+	// Niantic.ARDK.Extensions.Gameboard.IGameboard GameBoardPlace::_gameboard
+	RuntimeObject* ____gameboard_6;
+	// System.Boolean GameBoardPlace::_arIsRunning
+	bool ____arIsRunning_7;
+	// System.Boolean GameBoardPlace::_gameboardIsRunning
+	bool ____gameboardIsRunning_8;
 };
 
 // Niantic.ARDKExamples.Pong.GameController
@@ -36536,28 +36544,30 @@ struct BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD  : publi
 	bool ____visualise_18;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::recreateGameboard
 	bool ___recreateGameboard_19;
+	// System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::playspaceFound
+	bool ___playspaceFound_20;
 	// UnityEngine.Camera Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevArCamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____prevArCamera_20;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____prevArCamera_21;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevTileSize
-	float ____prevTileSize_21;
+	float ____prevTileSize_22;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevFlatFloorTolerance
-	float ____prevFlatFloorTolerance_22;
+	float ____prevFlatFloorTolerance_23;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevMaxSlope
-	float ____prevMaxSlope_23;
+	float ____prevMaxSlope_24;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevStepHeight
-	float ____prevStepHeight_24;
+	float ____prevStepHeight_25;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevScanInterval
-	float ____prevScanInterval_25;
+	float ____prevScanInterval_26;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevScanRange
-	float ____prevScanRange_26;
+	float ____prevScanRange_27;
 	// UnityEngine.LayerMask Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevLayerMask
-	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ____prevLayerMask_27;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ____prevLayerMask_28;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevVisualise
-	bool ____prevVisualise_28;
+	bool ____prevVisualise_29;
 	// Niantic.ARDK.Extensions.Gameboard.ModelSettings Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_modelSettings
-	ModelSettings_t6699CF7D34CD0F2B8451D6B4DABEDFACE9A8F164 ____modelSettings_29;
+	ModelSettings_t6699CF7D34CD0F2B8451D6B4DABEDFACE9A8F164 ____modelSettings_30;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_lastScan
-	float ____lastScan_30;
+	float ____lastScan_31;
 };
 
 // UnityEngine.UI.Button

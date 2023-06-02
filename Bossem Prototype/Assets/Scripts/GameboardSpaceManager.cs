@@ -26,13 +26,17 @@ namespace Niantic.ARDKExamples
         private GameObject _agentPrefab;
 
         [SerializeField]
+        [Tooltip("GameObject to instantiate as the playspace")]
+        private GameObject _playspacePrefab;
+
+        [SerializeField]
         [Tooltip("GameObject used to mark the agents set destination")]
         private GameObject _destinationMarker;
 
         [Header("UI")]
         [SerializeField]
         [Tooltip("Button to trigger placement or replacement of agent")]
-        private Button _replaceButton;
+        private Button _replaceAgentButton;
 
         [SerializeField]
         [Tooltip("Text shown in replace button")]
@@ -43,13 +47,8 @@ namespace Niantic.ARDKExamples
         private Button _callButton;
 
         [SerializeField]
-        [Tooltip("Button to prune the GameBoard")]
-        private Button _pruneButton;
-
-        [SerializeField]
-        [Tooltip("Prune Amount")]
-        [Range(0.01f, 1.0f)]
-        private float _pruneAmount = 0.3f;
+        [Tooltip("Button to trigger placement or replacement of playspace")]
+        private Button _replacePlayspaceButton;
 
         [SerializeField]
         [Tooltip("Playspace Area")]
@@ -57,16 +56,22 @@ namespace Niantic.ARDKExamples
         private float _playspaceArea = 2.5f;
 
         [SerializeField]
-        [Tooltip("Current Bossem Manager")]
-        public BossemGameboardManager _gameBoardManager;
+        [Tooltip("Button to trigger placement or replacement of playspace")]
+        private Button _pruneButton;
+
 
 
 #pragma warning restore 0649
 
         private IGameboard _gameboard;
+
+        private GameObject _playspaceGameObject;
         private GameObject _agentGameObject;
         private GameboardAgent _agent;
-        private bool _isReplacing;
+
+        private bool _isReplacingAgent;
+        private bool _isReplacingSpace;
+
         private bool _arIsRunning;
         private bool _gameboardIsRunning;
 
@@ -82,12 +87,17 @@ namespace Niantic.ARDKExamples
             Destroy(_agentGameObject);
             _agentGameObject = null;
 
+            Destroy(_playspaceGameObject);
+            _playspaceGameObject = null;
+
             _replaceButtonText.text = "Place";
 
-            _replaceButton.interactable = false;
+            _replaceAgentButton.interactable = false;
+            _replacePlayspaceButton.interactable = false;
             _callButton.interactable = false;
 
-            _isReplacing = false;
+            _isReplacingAgent = false;
+            _isReplacingSpace = false;
             _arIsRunning = false;
 
             _gameboard.Clear();
@@ -98,8 +108,9 @@ namespace Niantic.ARDKExamples
             GameboardFactory.GameboardInitialized += OnGameboardCreated;
 
             _callButton.interactable = false;
-            _replaceButton.interactable = false;
+            _replaceAgentButton.interactable = false;
             _replaceButtonText.text = "Place";
+
             
         }
 
@@ -118,18 +129,23 @@ namespace Niantic.ARDKExamples
 
         private void OnEnable()
         {
-            _replaceButton.onClick.AddListener(ReplaceButton_OnClick);
+            _replaceAgentButton.onClick.AddListener(ReplaceButton_OnClick);
             _callButton.onClick.AddListener(CallButton_OnClick);
             _pruneButton.onClick.AddListener(PruneButton_OnClick);
+            _replacePlayspaceButton.onClick.AddListener(ReplaceSpaceButton_OnClick);
+
         }
 
         
 
         private void OnDisable()
         {
-            _replaceButton.onClick.RemoveListener(ReplaceButton_OnClick);
+            _replaceAgentButton.onClick.RemoveListener(ReplaceButton_OnClick);
             _callButton.onClick.RemoveListener(CallButton_OnClick);
             _pruneButton.onClick.RemoveListener(PruneButton_OnClick);
+            _replacePlayspaceButton.onClick.RemoveListener(ReplaceSpaceButton_OnClick);
+
+
 
 
 
@@ -140,17 +156,24 @@ namespace Niantic.ARDKExamples
             if (!_gameboardIsRunning)
                 return;
 
-            if (_isReplacing)
+            if (_isReplacingAgent)
             {
-                HandlePlacement();
+                HandlePlacement(_agentGameObject);
+            }
+            else if (_isReplacingSpace)
+            {
+                HandlePlacement(_playspaceGameObject);
+
             }
             else
             {
                 // Only allow placing the actor if at least one surface is discovered
-                _replaceButton.interactable = _gameboard.Area > 0;
+                _replaceAgentButton.interactable = _gameboard.Area > 0;
                 HandleTouch();
             }
         }
+
+        
 
         private void HandleTouch()
         {
@@ -187,7 +210,7 @@ namespace Niantic.ARDKExamples
             }
         }
 
-        private void HandlePlacement()
+        private void HandlePlacement(GameObject type)
         {
             // Use this technique to place an object to a user-defined position.
           // Otherwise, use FindRandomPosition() to try to place the object automatically.
@@ -202,11 +225,12 @@ namespace Niantic.ARDKExamples
             // Check whether the object can be fit in the resulting position
             if (_gameboard.CheckFit(center: hitPoint, 0.4f))
             {
-                _agentGameObject.SetActive(true);
-              _agentGameObject.transform.position = hitPoint;
+               type.SetActive(true);
+               type.transform.position = hitPoint;
               var rotation = Vector3.ProjectOnPlane(cameraTransform.forward, Vector3.up).normalized;
-              _agentGameObject.transform.rotation = Quaternion.LookRotation(-rotation);
-              _replaceButton.interactable = true;
+               type.transform.rotation = Quaternion.LookRotation(-rotation);
+              _replaceAgentButton.interactable = true;
+                    
             }
           }
         }
@@ -223,12 +247,12 @@ namespace Niantic.ARDKExamples
                 _agentGameObject.SetActive(false);
             }
 
-            _isReplacing = !_isReplacing;
-            _replaceButtonText.text = _isReplacing ? "Done" : "Replace";
-            _replaceButton.interactable = !_isReplacing;
-            _callButton.interactable = !_isReplacing;
+            _isReplacingAgent = !_isReplacingAgent;
+            _replaceButtonText.text = _isReplacingAgent ? "Done" : "Replace";
+            _replaceAgentButton.interactable = !_isReplacingAgent;
+            _callButton.interactable = !_isReplacingAgent;
 
-            if (_isReplacing)
+            if (_isReplacingAgent)
             {
                 // invalidates path by path to itself for path debug reset
                 _agent.SetDestination(_agentGameObject.transform.position);
@@ -244,51 +268,30 @@ namespace Niantic.ARDKExamples
             _agent.SetDestination(_arCamera.transform.position);
         }
 
+        private void ReplaceSpaceButton_OnClick()
+        {
+
+
+            if (_playspaceGameObject == null)
+            {
+                _playspaceGameObject = Instantiate(_playspacePrefab);
+                _playspaceGameObject.SetActive(false);
+            }
+            
+            
+            _isReplacingSpace = !_isReplacingSpace;
+           
+        }
+
         private void PruneButton_OnClick()
         {
-            Debug.Log(_gameboard.Area);
 
-            //get center of where player is looking#
-            var cameraPos = _arCamera.transform.position;
-            _gameboard.Prune(cameraPos, _pruneAmount);
-
-
-            if (_gameboard.Area <= _playspaceArea)
-            {
-                Debug.Log("Found");
-            }
-            else
-            {
-                Debug.Log("Not Found");
-                _gameboard.Clear();
-            }
-
-            
-            
-            /*var ray = new Ray(cameraTransform.position, cameraTransform.forward);
-
-            //prune gameboard around point
-            if (_gameboard.RayCast(ray, out Vector3 hitPoint))
-            {
-                Debug.Log("Gameboard Hit");
-                Debug.DrawRay(cameraTransform.position, hitPoint, Color.red, 10.0f);
-                _gameboard.Prune(hitPoint, _pruneAmount);
-                //_gameBoardManager.DisableFeatures();
-            }
-            else
-            {
-                Debug.Log("Gameboard Miss");
-            }
-            Debug.Log(hitPoint);*/
-
-
-
-
-
-            //no higher or lower surfaces
-            //check if min size
-            //stop adding to gameboard
+            _gameboard.Prune(_arCamera.transform.position, _playspaceArea);
+            Debug.Log("Old");
 
         }
     }
 }
+
+        
+    

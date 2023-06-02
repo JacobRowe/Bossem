@@ -25131,8 +25131,16 @@ struct ExamplePlayController_tC8673DA624665BB56265E953A06F859270CAEB0A  : public
 // GameBoardPlace
 struct GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.Camera GameBoardPlace::_arCamera
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____arCamera_4;
 	// UnityEngine.UI.Button GameBoardPlace::_placeButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____placeButton_4;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____placeButton_5;
+	// Niantic.ARDK.Extensions.Gameboard.IGameboard GameBoardPlace::_gameboard
+	RuntimeObject* ____gameboard_6;
+	// System.Boolean GameBoardPlace::_arIsRunning
+	bool ____arIsRunning_7;
+	// System.Boolean GameBoardPlace::_gameboardIsRunning
+	bool ____gameboardIsRunning_8;
 };
 
 // Niantic.ARDKExamples.Pong.GameController
@@ -26883,28 +26891,30 @@ struct BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD  : publi
 	bool ____visualise_18;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::recreateGameboard
 	bool ___recreateGameboard_19;
+	// System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::playspaceFound
+	bool ___playspaceFound_20;
 	// UnityEngine.Camera Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevArCamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____prevArCamera_20;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____prevArCamera_21;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevTileSize
-	float ____prevTileSize_21;
+	float ____prevTileSize_22;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevFlatFloorTolerance
-	float ____prevFlatFloorTolerance_22;
+	float ____prevFlatFloorTolerance_23;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevMaxSlope
-	float ____prevMaxSlope_23;
+	float ____prevMaxSlope_24;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevStepHeight
-	float ____prevStepHeight_24;
+	float ____prevStepHeight_25;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevScanInterval
-	float ____prevScanInterval_25;
+	float ____prevScanInterval_26;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevScanRange
-	float ____prevScanRange_26;
+	float ____prevScanRange_27;
 	// UnityEngine.LayerMask Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevLayerMask
-	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ____prevLayerMask_27;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ____prevLayerMask_28;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_prevVisualise
-	bool ____prevVisualise_28;
+	bool ____prevVisualise_29;
 	// Niantic.ARDK.Extensions.Gameboard.ModelSettings Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_modelSettings
-	ModelSettings_t6699CF7D34CD0F2B8451D6B4DABEDFACE9A8F164 ____modelSettings_29;
+	ModelSettings_t6699CF7D34CD0F2B8451D6B4DABEDFACE9A8F164 ____modelSettings_30;
 	// System.Single Niantic.ARDK.Extensions.Gameboard.BossemGameboardManager::_lastScan
-	float ____lastScan_30;
+	float ____lastScan_31;
 };
 
 // UnityEngine.UI.Button
@@ -31961,9 +31971,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8144[7] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8145[2] = 
 {
 	static_cast<int32_t>(offsetof(AnimatorControllerPlayable_tADDCB301674D6243EFE1BD032E7D118FD091210A, ___m_Handle_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AnimatorControllerPlayable_tADDCB301674D6243EFE1BD032E7D118FD091210A_StaticFields, ___m_NullPlayable_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8147[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8147[5] = 
 {
-	static_cast<int32_t>(offsetof(GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD, ____placeButton_4)),};
+	static_cast<int32_t>(offsetof(GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD, ____arCamera_4)),static_cast<int32_t>(offsetof(GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD, ____placeButton_5)),static_cast<int32_t>(offsetof(GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD, ____gameboard_6)),static_cast<int32_t>(offsetof(GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD, ____arIsRunning_7)),static_cast<int32_t>(offsetof(GameBoardPlace_t7DC26C9FD25FE4EA2E66243F90C18E04585445AD, ____gameboardIsRunning_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8149[3] = 
 {
 	static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ____ballPrefab_4)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ____mainCamera_5)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ____ARsession_6)),};
@@ -31976,9 +31986,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8151[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8152[16] = 
 {
 	static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____arCamera_4)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____agentPrefab_5)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____destinationMarker_6)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____replaceButton_7)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____replaceButtonText_8)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____callButton_9)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____pruneButton_10)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____pruneAmount_11)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____playspaceArea_12)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____gameBoardManager_13)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____gameboard_14)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____agentGameObject_15)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____agent_16)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____isReplacing_17)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____arIsRunning_18)),static_cast<int32_t>(offsetof(GameboardSpaceManager_t503A55CD61AE33D51B67071C895C272B273446D7, ____gameboardIsRunning_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8153[22] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8153[23] = 
 {
-	static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____camera_9)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ___U3CGameboardU3Ek__BackingField_10)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____tileSize_11)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____flatFloorTolerance_12)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____maxSlope_13)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____stepHeight_14)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____scanInterval_15)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____scanRange_16)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____layerMask_17)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____visualise_18)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ___recreateGameboard_19)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevArCamera_20)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevTileSize_21)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevFlatFloorTolerance_22)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevMaxSlope_23)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevStepHeight_24)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevScanInterval_25)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevScanRange_26)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevLayerMask_27)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevVisualise_28)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____modelSettings_29)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____lastScan_30)),};
+	static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____camera_9)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ___U3CGameboardU3Ek__BackingField_10)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____tileSize_11)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____flatFloorTolerance_12)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____maxSlope_13)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____stepHeight_14)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____scanInterval_15)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____scanRange_16)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____layerMask_17)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____visualise_18)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ___recreateGameboard_19)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ___playspaceFound_20)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevArCamera_21)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevTileSize_22)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevFlatFloorTolerance_23)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevMaxSlope_24)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevStepHeight_25)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevScanInterval_26)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevScanRange_27)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevLayerMask_28)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____prevVisualise_29)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____modelSettings_30)),static_cast<int32_t>(offsetof(BossemGameboardManager_tE37B89E68AE1B71769E5EB0EAD03352F0EEADDCD, ____lastScan_31)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8154[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass7_0_t91ACD4D6A5357E83312D7290E2AEB941692E23FF, ___textComp_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass7_0_t91ACD4D6A5357E83312D7290E2AEB941692E23FF, ___U3CU3E4__this_1)),};
