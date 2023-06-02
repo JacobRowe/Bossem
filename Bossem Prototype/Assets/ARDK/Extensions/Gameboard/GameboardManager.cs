@@ -198,7 +198,7 @@ namespace Niantic.ARDK.Extensions.Gameboard
 
       // The origin of the scan should be in front of the player
       var origin = playerPosition + Vector3.ProjectOnPlane(playerForward, Vector3.up).normalized;
-      Debug.Log(origin);
+      
             
 
       // Scan the environment

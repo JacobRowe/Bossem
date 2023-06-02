@@ -259,7 +259,9 @@ namespace Niantic.ARDKExamples
                 _agentGameObject.SetActive(false);
             }
             else
+            {
                 _agent.State = GameboardAgent.AgentNavigationState.Idle;
+            }
         }
 
         private void CallButton_OnClick()
@@ -280,6 +282,11 @@ namespace Niantic.ARDKExamples
             
             
             _isReplacingSpace = !_isReplacingSpace;
+
+            if (_isReplacingSpace)
+            {
+                
+            }
            
         }
 

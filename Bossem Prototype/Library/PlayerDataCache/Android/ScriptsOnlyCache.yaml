@@ -1,20 +1,25 @@
 ScriptsOnlyBuild:
   usedScripts:
     ARDK-Examples.dll:
+    - GameboardAgent
     - Niantic.ARDKExamples.Helpers.ARCursorRenderer
-    - Niantic.ARDKExamples.Helpers.ARHitTester
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
-    - Niantic.ARDK.Extensions.ARPlaneManager
+    - Niantic.ARDK.Extensions.ARDepthManager
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
     - Niantic.ARDK.Extensions.Gameboard.GameboardManager
+    - Niantic.ARDK.Extensions.Meshing.ARMeshManager
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
     - Niantic.ARDK.Utilities._CallbackQueue
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockMesh
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockMeshSequence
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockSceneConfiguration
     Assembly-CSharp.dll:
-    - GameBoardPlace
+    - MeshManagerOutput
+    - Niantic.ARDKExamples.GameboardSpaceManager
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
@@ -32,6 +37,17 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
   serializedClasses:
     ARDK:
     - Niantic.ARDK.Extensions.CapabilityChecker/FailureEvent
@@ -42,10 +58,43 @@ ScriptsOnlyBuild:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-  methodsToPreserve: []
+    - UnityEngine.Events.PersistentListenerMode
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.Gameboard.GameboardManager
+    methodName: SetVisualisationActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
+    methodName: EnableFeatures
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
+    methodName: DisableFeatures
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.Gameboard.GameboardManager
+    methodName: SetVisualisationActive
   sceneClasses:
-    Assets/Scenes/PlaneGameBoardTest.unity:
+    Assets/Scenes/Gameboard 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -64,6 +113,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 72
@@ -77,34 +128,82 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
       Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 3554}
+      Script: {instanceID: 3020}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 3706}
+    - Class: 114
+      Script: {instanceID: 3858}
+    - Class: 114
+      Script: {instanceID: 4744}
     - Class: 114
       Script: {instanceID: 5082}
+    - Class: 114
+      Script: {instanceID: 5166}
+    - Class: 114
+      Script: {instanceID: 5292}
     - Class: 114
       Script: {instanceID: 5596}
     - Class: 114
       Script: {instanceID: 5632}
     - Class: 114
+      Script: {instanceID: 5730}
+    - Class: 114
+      Script: {instanceID: 5876}
+    - Class: 114
       Script: {instanceID: 6294}
     - Class: 114
+      Script: {instanceID: 7130}
+    - Class: 114
       Script: {instanceID: 7398}
+    - Class: 114
+      Script: {instanceID: 7570}
+    - Class: 114
+      Script: {instanceID: 7776}
+    - Class: 114
+      Script: {instanceID: 7790}
     - Class: 114
       Script: {instanceID: 9018}
     - Class: 114
       Script: {instanceID: 9028}
+    - Class: 114
+      Script: {instanceID: 9198}
+    - Class: 114
+      Script: {instanceID: 9294}
+    - Class: 114
+      Script: {instanceID: 51560}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -509,12 +608,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b9b848faa41d40ff28ab0579fa9be576
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameBoardPlace
   - hash:
       serializedVersion: 2
       Hash: ad3ff8942c8ab9b2fe2d279315703b3e
@@ -1273,7 +1366,7 @@ ScriptsOnlyBuild:
     className: VoiceActivityDetector
   - hash:
       serializedVersion: 2
-      Hash: e1372f6496ecd7b497d433b6a6ba7c6e
+      Hash: 180a8479b7fd489a369b135622038710
     assemblyName: Assembly-CSharp.dll
     namespaceName: Niantic.ARDKExamples
     className: GameboardSpaceManager
@@ -1757,7 +1850,13 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 7d14c9d3fd2a0f79e354ab72a9e5151d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshManagerOutput
   platform: 13
   scenePathNames:
-  - Assets/Scenes/PlaneGameBoardTest.unity
+  - Assets/Scenes/Gameboard 1.unity
   playerPath: E:/Bossem/Builds/Bossem1.apk
