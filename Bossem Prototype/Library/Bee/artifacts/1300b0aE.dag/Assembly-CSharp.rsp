@@ -371,6 +371,7 @@
 "Assets/Recognissimo/Samples/SpeechRecognizerExample/SpeechRecognizerExample.cs"
 "Assets/Recognissimo/Samples/VoiceActivityDetectorExample/VoiceActivityDetectorExample.cs"
 "Assets/Recognissimo/Samples/VoiceControlExample/VoiceControlExample.cs"
+"Assets/Scripts/ARMeshSelect.cs"
 "Assets/Scripts/BossemGameboardManager.cs"
 "Assets/Scripts/Debug/MeshManagerOutput.cs"
 "Assets/Scripts/GameboardSpaceManager.cs"

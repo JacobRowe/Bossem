@@ -138,29 +138,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3706}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3858}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 4744}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5166}
+      Script: {instanceID: 5164}
     - Class: 114
-      Script: {instanceID: 5292}
+      Script: {instanceID: 5290}
     - Class: 114
-      Script: {instanceID: 5596}
+      Script: {instanceID: 5594}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5728}
     - Class: 114
-      Script: {instanceID: 5876}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 6294}
+      Script: {instanceID: 6292}
     - Class: 114
-      Script: {instanceID: 7130}
+      Script: {instanceID: 7128}
+    - Class: 114
+      Script: {instanceID: 7186}
     - Class: 114
       Script: {instanceID: 7398}
     - Class: 114
@@ -177,8 +179,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9198}
     - Class: 114
       Script: {instanceID: 9294}
-    - Class: 114
-      Script: {instanceID: 51560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1276,6 +1276,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 7d14c9d3fd2a0f79e354ab72a9e5151d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshManagerOutput
+  - hash:
+      serializedVersion: 2
       Hash: 7f6a7fd068189b9892bdd39039e87da4
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
@@ -1850,12 +1856,6 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 7d14c9d3fd2a0f79e354ab72a9e5151d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MeshManagerOutput
   platform: 13
   scenePathNames:
   - Assets/Scenes/Gameboard 1.unity
