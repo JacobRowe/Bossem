@@ -56,21 +56,53 @@ public class ARMeshSelect : MonoBehaviour
     private void Update()
     {
         //if is selecting mesh for playspace placement/creation
+        //TO DO - to use AR tools and interfaces to delete meshes programatically?
         if (_isSelecting)
         {
             var cameraTransform = _arCamera.transform;
             var ray = new Ray(cameraTransform.position, cameraTransform.forward);
             RaycastHit meshHit;
-            //if a raycast interacts with ;ayers tagged as part of the generated ARMesh
+            //if a raycast interacts with layers tagged as part of the generated ARMesh
             if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out meshHit, 100, ARMeshLayer))
             {
+
                 //Debug
                 _currentMeshText.text =  meshHit.transform.gameObject.ToString();
                 //TO DO - bool to be changed by event send, false for now
                 _isSelecting = false;
                 //---
                 
-                var currentMesh = meshHit.transform.gameObject;
+                var hitMeshObject = meshHit.transform.gameObject;
+                //Add to global scope? Need to?
+                List<Transform> meshToDelete = new List<Transform>();
+
+                for (int i = 0; i < _arMeshMananger.gameObject.transform.childCount; i++)
+                {
+                    meshToDelete.Add(_arMeshMananger.transform.GetChild(i));
+                }
+
+
+                foreach (Transform mesh in meshToDelete)
+                {
+                    
+                    if (mesh.gameObject == hitMeshObject)
+                    {
+                        //Debug
+                        Debug.Log("Not Deleted" + hitMeshObject);
+                        //---
+                        //TO DO - save the mesh? Save the object to use?
+                    }
+                    else
+                    {
+                        //Debug
+                        Debug.Log("Deleted " + mesh.gameObject);
+                        //---
+                        GameObject.Destroy(mesh.gameObject);
+                    }
+
+                }
+                _arMeshMananger.DisableFeatures();
+
                 
 
 
