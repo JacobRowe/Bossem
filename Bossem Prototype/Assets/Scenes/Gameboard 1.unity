@@ -2178,7 +2178,7 @@ MonoBehaviour:
   _replaceButtonText: {fileID: 550870977}
   _callButton: {fileID: 464986592}
   _replacePlayspaceButton: {fileID: 1187975433}
-  _playspaceArea: 0.63
+  _playspaceArea: 5
   _pruneButton: {fileID: 1259593993}
 --- !u!114 &1243789251
 MonoBehaviour:
@@ -2194,12 +2194,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _manageUsingUnityLifecycle: 1
   _camera: {fileID: 2055860222}
-  _tileSize: 0.15
+  _tileSize: 0.1
   _flatFloorTolerance: 0.2
   _maxSlope: 25
   _stepHeight: 0.1
   _scanInterval: 0.1
-  _scanRange: 3
+  _scanRange: 3.5
   _layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3264,7 +3264,7 @@ MonoBehaviour:
   _keyFrameFrequency: 20
   _interpolation: 2
   _interpolationPreference: 0.9
-  _occlusionMode: 1
+  _occlusionMode: 3
   _textureFilterMode: 0
   _stabilizeOcclusionsExperimental: 0
 --- !u!1 &1676462613
@@ -3645,7 +3645,7 @@ PrefabInstance:
       objectReference: {fileID: 1601269227}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: _voxelSize
-      value: 0.015
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: _meshPrefab
@@ -3653,7 +3653,7 @@ PrefabInstance:
       objectReference: {fileID: 7791926914237628454, guid: d0183eaba3a4c44e9aafc695278e1e9d, type: 3}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: _meshingMode
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: _meshingRangeMax
@@ -3665,7 +3665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: UseCustomMeshingMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: _useInvisibleMaterial

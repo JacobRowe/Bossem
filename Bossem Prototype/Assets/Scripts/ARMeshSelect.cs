@@ -96,9 +96,9 @@ public class ARMeshSelect : MonoBehaviour
         //if a raycast interacts with layers tagged as part of the generated ARMesh
         if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out meshHit, 100, ARMeshLayer))
         {
-
             //Debug
             _currentMeshText.text = meshHit.transform.gameObject.ToString();
+            Debug.Log("Raycast hit on ARMesh");
             //TO DO - bool to be changed by event send, false for now
             _hasSelected = false;
             //---
@@ -115,36 +115,48 @@ public class ARMeshSelect : MonoBehaviour
 
             foreach (Transform mesh in meshToDelete)
             {
-
-                if (mesh.gameObject == hitMeshObject)
+                Vector3 gameboardHit;
+                if (mesh.gameObject == hitMeshObject 
+                    && _gameBoardManager.Gameboard.RayCast(ray, out gameboardHit))
                 {
                     //Debug
-                    Debug.Log("Not Deleted" + hitMeshObject);
-                    Debug.Log(hitMeshObject.transform.lossyScale);
+                    Debug.Log("Selected mesh: " + hitMeshObject);
                     //---
-                    //TO DO - save the mesh? Save the object to use?
+                    //TO DO - save the mesh? Save the object to use? works as is
+                    
                 }
                 else
                 {
                     //Debug
-                    Debug.Log("Deleted " + mesh.gameObject);
+                    Debug.Log("Held: " + mesh.gameObject);
                     //---
-                    GameObject.Destroy(mesh.gameObject);
+                    //GameObject.Destroy(mesh.gameObject);
+
+                    mesh.gameObject.SetActive(false);
+                    
                 }
 
             }
 
+            //later
+            var hitMeshObjectCenter = hitMeshObject.GetComponent<Collider>().bounds.center;
+
             //final scan on gameboard
-            //disable overlay for gameboard
-            _gameBoardManager.Gameboard.Scan(hitMeshObject.transform.position, _playspaceArea);
-            _gameBoardManager.Gameboard.Prune(hitMeshObject.transform.position, _playspaceArea);
-            _gameBoardManager.SetVisualisationActive(false);
+            _gameBoardManager.Gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
+            //prune to selected mesh chunk
+            _gameBoardManager.Gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
             
+
+            
+            //_gameBoardManager.SetVisualisationActive(false);
+
 
 
             //method to gen the playspace, external
 
             _arMeshMananger.DisableFeatures();
+
+            
 
 
 
