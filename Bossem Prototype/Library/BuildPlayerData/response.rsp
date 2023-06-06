@@ -28,6 +28,7 @@
 -a="E:\Bossem\Repo\Bossem\Bossem Prototype\Library\PlayerScriptAssemblies\Unity.VisualScripting.State.dll"
 -a="E:\Bossem\Repo\Bossem\Bossem Prototype\Library\PlayerScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll"
 -a="E:\Bossem\Repo\Bossem\Bossem Prototype\Library\PlayerScriptAssemblies\Unity.Services.Core.Device.dll"
+-a="E:\Bossem\Repo\Bossem\Bossem Prototype\Library\PlayerScriptAssemblies\IngameDebugConsole.Runtime.dll"
 -a="E:\Bossem\Repo\Bossem\Bossem Prototype\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll"
 -a="E:\Bossem\Repo\Bossem\Bossem Prototype\Assets\ARDK\Plugins\Niantic.Platform.Analytics\Niantic.Platform.Analytics.NATelemetry.4.5.0\Niantic.Platform.Analytics.NATelemetry.dll"
 -a="E:\Bossem\Repo\Bossem\Bossem Prototype\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll"

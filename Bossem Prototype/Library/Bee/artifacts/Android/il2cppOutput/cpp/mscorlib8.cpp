@@ -4828,6 +4828,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentNullException_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Number_ParseDecimal_m490FFC10E7241CE10C8D87AD6D19E3A964547587 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___value0, int32_t ___styles1, NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___info2, const RuntimeMethod* method) ;
 // System.Void System.Globalization.NumberFormatInfo::ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NumberFormatInfo_ValidateParseStyleFloatingPoint_m024A7535EE8FE809C624D8FD94F4E75DC48B1344 (int32_t ___style0, const RuntimeMethod* method) ;
+// System.Boolean System.Number::TryParseDecimal(System.ReadOnlySpan`1<System.Char>,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo,System.Decimal&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseDecimal_m038AF5D0E746CAE0FBD878C772113435AEE0F11D (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___value0, int32_t ___styles1, NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___info2, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* ___result3, const RuntimeMethod* method) ;
 // System.Decimal System.Decimal::Round(System.Decimal&,System.Int32,System.MidpointRounding)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Decimal_Round_m738CD47C69EC1ADE95999C11C89EE774D10A537D (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* ___d0, int32_t ___decimals1, int32_t ___mode2, const RuntimeMethod* method) ;
 // System.String SR::Format(System.String,System.Object,System.Object)
@@ -8235,6 +8237,42 @@ IL_0010:
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_7;
 		L_7 = Number_ParseDecimal_m490FFC10E7241CE10C8D87AD6D19E3A964547587(L_3, L_4, L_6, NULL);
 		return L_7;
+	}
+}
+// System.Boolean System.Decimal::TryParse(System.String,System.Decimal&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Decimal_TryParse_m33387F809E2113FEA28D57AC2021512E81B9923C (String_t* ___s0, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* ___result1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___s0;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* L_1 = ___result1;
+		il2cpp_codegen_initobj(L_1, sizeof(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F));
+		return (bool)0;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___s0;
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_3;
+		L_3 = String_op_Implicit_m43FB5A30521770D4C28C1307CF89F80BA3535CAC_inline(L_2, NULL);
+		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_4;
+		L_4 = NumberFormatInfo_get_CurrentInfo_m1454E234BC45C215E5C99F2D01F53B342033C8CB(NULL);
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* L_5 = ___result1;
+		il2cpp_codegen_runtime_class_init_inline(Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Number_TryParseDecimal_m038AF5D0E746CAE0FBD878C772113435AEE0F11D(L_3, ((int32_t)111), L_4, L_5, NULL);
+		return L_6;
 	}
 }
 // System.Int32[] System.Decimal::GetBits(System.Decimal)

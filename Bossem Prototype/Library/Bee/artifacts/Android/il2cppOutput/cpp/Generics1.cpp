@@ -1167,6 +1167,8 @@ struct Action_1_t626B86A2BAC6D1F6AB41A01CFA7F7F42A55EAEC6;
 struct Action_1_t85A6FF13ADD2A2C8B4376EEA62F842A61D3ECF1C;
 // System.Action`1<Unity.VisualScripting.CustomEventArgs>
 struct Action_1_t86D072B032BE6224AE97339E11155FE3C2852631;
+// System.Action`1<IngameDebugConsole.DebugLogEntryTimestamp>
+struct Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574;
 // System.Action`1<Niantic.ARDK.AR.Awareness.Detection>
 struct Action_1_tC69DE796EE0D4C815D777384A5AA65CBC716D2FF;
 // System.Action`1<System.Collections.DictionaryEntry>
@@ -3751,6 +3753,27 @@ struct CustomEventArgs_tD8C39EF85DE61DD1900BE32A1E3413E29D7ED652_marshaled_com
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___arguments_1;
 };
 
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	// System.UInt64 System.DateTime::_dateData
+	uint64_t ____dateData_46;
+};
+
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
 // Niantic.ARDK.AR.Awareness.Detection
 struct Detection_t0B5803B8A7FD8800F12A52FE335E06179362CE34 
 {
@@ -5898,6 +5921,31 @@ struct CoverageArea_t9049C3A18B14DA38AEF55B57190DE7BAEE63A48C_marshaled_com
 	int32_t ____localizabilityQuality_3;
 };
 
+// IngameDebugConsole.DebugLogEntryTimestamp
+struct DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 
+{
+	// System.DateTime IngameDebugConsole.DebugLogEntryTimestamp::dateTime
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime_0;
+	// System.Single IngameDebugConsole.DebugLogEntryTimestamp::elapsedSeconds
+	float ___elapsedSeconds_1;
+	// System.Int32 IngameDebugConsole.DebugLogEntryTimestamp::frameCount
+	int32_t ___frameCount_2;
+};
+// Native definition for P/Invoke marshalling of IngameDebugConsole.DebugLogEntryTimestamp
+struct DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97_marshaled_pinvoke
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime_0;
+	float ___elapsedSeconds_1;
+	int32_t ___frameCount_2;
+};
+// Native definition for COM marshalling of IngameDebugConsole.DebugLogEntryTimestamp
+struct DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97_marshaled_com
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime_0;
+	float ___elapsedSeconds_1;
+	int32_t ___frameCount_2;
+};
+
 // UnityEngine.Profiling.Experimental.DebugScreenCapture
 struct DebugScreenCapture_t859E4E87C94587A08893C726D4FF84BD8F288CC5 
 {
@@ -7733,6 +7781,11 @@ struct Action_1_t85A6FF13ADD2A2C8B4376EEA62F842A61D3ECF1C  : public MulticastDel
 
 // System.Action`1<Unity.VisualScripting.CustomEventArgs>
 struct Action_1_t86D072B032BE6224AE97339E11155FE3C2852631  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<IngameDebugConsole.DebugLogEntryTimestamp>
+struct Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574  : public MulticastDelegate_t
 {
 };
 
@@ -15064,6 +15117,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mB655FCCAA591B5A75BDA7804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m19E40A509C0A374B0943CB2E415B07A3F1B573BE_gshared (Action_1_t86D072B032BE6224AE97339E11155FE3C2852631* __this, CustomEventArgs_tD8C39EF85DE61DD1900BE32A1E3413E29D7ED652 ___obj0, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CustomEventArgs_tD8C39EF85DE61DD1900BE32A1E3413E29D7ED652, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_Multicast(Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___obj0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* currentDelegate = reinterpret_cast<Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_OpenInst(Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___obj0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___obj0, method);
+}
+void Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_OpenStatic(Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___obj0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___obj0, method);
+}
+void Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_OpenStaticInvoker(Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___obj0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 >::Invoke(__this->___method_ptr_0, method, NULL, ___obj0);
+}
+void Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_ClosedStaticInvoker(Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___obj0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___obj0);
+}
+// System.Void System.Action`1<IngameDebugConsole.DebugLogEntryTimestamp>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m50195E01BB3AF62575C6D10A115C58C5B65B6639_gshared (Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_Multicast;
+}
+// System.Void System.Action`1<IngameDebugConsole.DebugLogEntryTimestamp>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m6FE06BCAACAF28A8C39B4AB64BB8DA5793C33C0A_gshared (Action_1_t00E7730B32B0915F8B3230EA7F8DBCF48916A574* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__

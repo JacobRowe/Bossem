@@ -330,6 +330,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/ARDK-Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/ARDK-Examples.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/ARDK.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/IngameDebugConsole.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/IngameDebugConsole.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Recognissimo.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/RemoteAuthoring.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.AdaptivePerformance.Editor.ref.dll"

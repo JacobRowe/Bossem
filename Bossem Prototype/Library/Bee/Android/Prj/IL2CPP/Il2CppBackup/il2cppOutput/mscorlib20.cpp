@@ -67,6 +67,17 @@ struct VirtualFuncInvoker3
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
+struct VirtualFuncInvoker5
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 struct VirtualFuncInvoker7
 {
@@ -467,6 +478,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_GetCompareInfo_mA131986F1E3FDC8
 IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_GetHashCodeOfString_m6CAF73F87A15B3C35C33C87C3DB49EA3FDEBAD92_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_GetHashCode_m81AD40ED15505F840B8B07343F5159A83B37DEFE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_IndexOfCore_m046B524A65A687A4123E8C9C0AF9E8417016EED2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_IndexOf_m5369B941572B70C4C3CDC42B98EB4B765489D180_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_IndexOf_m7433BE43D1406C75F02B150AF54541EA14C4DA06_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_InvariantCreateSortKey_mC38E99F237128A0E32CEB01EDB50AF3DC30EF9F0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CompareInfo_IsPrefix_mFA1761BA04C5934BC5AD534852E010AA8406857C_RuntimeMethod_var;
@@ -7661,6 +7673,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompareInfo_IsSuffix_mE8034317BD3B207405
 		return L_3;
 	}
 }
+// System.Int32 System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Globalization.CompareOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompareInfo_IndexOf_m5369B941572B70C4C3CDC42B98EB4B765489D180 (CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* __this, String_t* ___source0, String_t* ___value1, int32_t ___options2, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___source0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_1);
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CompareInfo_IndexOf_m5369B941572B70C4C3CDC42B98EB4B765489D180_RuntimeMethod_var)));
+	}
+
+IL_000e:
+	{
+		String_t* L_2 = ___source0;
+		String_t* L_3 = ___value1;
+		String_t* L_4 = ___source0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_4, NULL);
+		int32_t L_6 = ___options2;
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker5< int32_t, String_t*, String_t*, int32_t, int32_t, int32_t >::Invoke(12 /* System.Int32 System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions) */, __this, L_2, L_3, 0, L_5, L_6);
+		return L_7;
+	}
+}
 // System.Int32 System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompareInfo_IndexOf_m7433BE43D1406C75F02B150AF54541EA14C4DA06 (CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* __this, String_t* ___source0, String_t* ___value1, int32_t ___startIndex2, int32_t ___count3, int32_t ___options4, const RuntimeMethod* method) 
 {
@@ -9742,7 +9785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompareInfo_GetHashCodeOfStringCore_m
 		String_t* L_0 = ___source0;
 		int32_t L_1 = ___options1;
 		SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740* L_2;
-		L_2 = VirtualFuncInvoker2< SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740*, String_t*, int32_t >::Invoke(13 /* System.Globalization.SortKey System.Globalization.CompareInfo::GetSortKey(System.String,System.Globalization.CompareOptions) */, __this, L_0, L_1);
+		L_2 = VirtualFuncInvoker2< SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740*, String_t*, int32_t >::Invoke(14 /* System.Globalization.SortKey System.Globalization.CompareInfo::GetSortKey(System.String,System.Globalization.CompareOptions) */, __this, L_0, L_1);
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_2);
