@@ -11,6 +11,7 @@ using Niantic.ARDKExamples;
 
 public class ARMeshSelect : MonoBehaviour
 {
+    [Header("AR")]
     [SerializeField]
     [Tooltip("The scenes ARCamera")]
     private Camera _arCamera;
@@ -23,106 +24,250 @@ public class ARMeshSelect : MonoBehaviour
     [Tooltip("The scenes Game Board Manager")]
     private GameboardManager _gameBoardManager;
 
+    [Header("Get Mesh")]
     [SerializeField]
     [Tooltip("Text shown for current mesh")]
     private Text _currentMeshText;
 
     [SerializeField]
-    [Tooltip("Text shown for current mesh")]
+    [Tooltip("Button to select an ARMesh chunk as a playspace")]
     private Button _selectMeshButton;
 
+    [SerializeField]
+    [Tooltip("Button to accept an ARMesh chunk as a playspace")]
+    private Button _acceptMeshButton;
+
+    [SerializeField]
+    [Tooltip("Button to reject an ARMesh chunk as a playspace")]
+    private Button _rejectMeshButton;
+
+
+    [Header("Playspace")]
     [SerializeField]
     [Tooltip("Playspace Area")]
     [Range(0.1f, 5.0f)]
     private float _playspaceArea = 2.5f;
 
     [SerializeField]
-    //bool 
-    private bool _isSelecting;
-    [SerializeField]
-    private bool _hasSelected;
+    private bool? _isPlayspaceGood = null;
+
+    
+
+
 
     public LayerMask ARMeshLayer;
 
     private void OnEnable()
     {
-        _hasSelected = false;
         _selectMeshButton.onClick.AddListener(SelectMeshButton_OnClick);
-        
+        _acceptMeshButton.onClick.AddListener(AcceptMeshButton_OnClick);
+        _rejectMeshButton.onClick.AddListener(RejectMeshButton_OnClick);
+
+
+    }
+
+    private void RejectMeshButton_OnClick()
+    {
+        _isPlayspaceGood = false;
+    }
+
+    private void AcceptMeshButton_OnClick()
+    {
+        _isPlayspaceGood = true;
     }
 
     private void SelectMeshButton_OnClick()
     {
-        if (_hasSelected)
-        {
-            _hasSelected = false;
-            _currentMeshText.text = "Current Mesh";
-        }
-        else
-        {
-            _hasSelected = true;
-        }
+        StartCoroutine(SelectMesh());
     }
 
-    private void Update()
-    {
-        //if is selecting mesh for playspace placement/creation
-        //TO DO - to use AR tools and interfaces to delete meshes programatically?
-        if (_hasSelected)
-        {
-            SelectMesh();
-
-        }
-        else if (_isSelecting)//is choosing?
-        {
-            //choosing
-            // method to check size of mesh
-            MeshCheck();
-            
-        }
-    }
+    
 
     //method to check size of playable area on mesh?
-    private void MeshCheck()
-    {
-        
-    }
+    
 
-    private void SelectMesh()
+    //wait for checking and selecting, different wait untils
+    IEnumerator SelectMesh()
     {
         var cameraTransform = _arCamera.transform;
         var ray = new Ray(cameraTransform.position, cameraTransform.forward);
-        RaycastHit meshHit;
+        RaycastHit meshRayHit;
+
         //if a raycast interacts with layers tagged as part of the generated ARMesh
-        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out meshHit, 100, ARMeshLayer))
+        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out meshRayHit, 100, ARMeshLayer))
         {
             //Debug
-            _currentMeshText.text = meshHit.transform.gameObject.ToString();
+            _currentMeshText.text = meshRayHit.transform.gameObject.ToString();
             Debug.Log("Raycast hit on ARMesh");
-            //TO DO - bool to be changed by event send, false for now
-            _hasSelected = false;
             //---
 
-            var hitMeshObject = meshHit.transform.gameObject;
-            //Add to global scope? Need to?
-            List<Transform> meshToDelete = new List<Transform>();
+            //get the gameobject reference for the ARMesh hit from the raycast
+            var hitMeshObject = meshRayHit.transform.gameObject;
+            //get the center of the ARMesh hit from the raycast
+            var hitMeshObjectCenter = hitMeshObject.GetComponent<Collider>().bounds.center;
 
+            //TO DO - include in overall check if raycast statement?
+            Vector3 gameboardRayHit;
+            bool isGameboardHit = _gameBoardManager.Gameboard.RayCast(ray, out gameboardRayHit);
+
+            //if not on gameboard, break from coroutine
+            if (!isGameboardHit)
+            {
+                //Debug
+                Debug.Log("Mesh " + hitMeshObject + " is not on the gameboard");
+                //---
+                yield break;
+
+            }
+            //check fit for gameboard
+            //after prune and scan?
+
+
+
+            //TO DO - Add to global scope? Need to?
+            List<Transform> activeMeshList = new List<Transform>();
+
+            //add all children of root of armeshmanager to active mesh list
             for (int i = 0; i < _arMeshMananger.gameObject.transform.childCount; i++)
             {
-                meshToDelete.Add(_arMeshMananger.transform.GetChild(i));
+                activeMeshList.Add(_arMeshMananger.transform.GetChild(i));
             }
-
-
-            foreach (Transform mesh in meshToDelete)
+            
+            foreach (Transform mesh in activeMeshList)
             {
-                Vector3 gameboardHit;
-                if (mesh.gameObject == hitMeshObject 
-                    && _gameBoardManager.Gameboard.RayCast(ray, out gameboardHit))
+
+                //if the object is the hit object and is on the active gameboard
+                if (mesh.gameObject == hitMeshObject && isGameboardHit)
                 {
                     //Debug
                     Debug.Log("Selected mesh: " + hitMeshObject);
                     //---
                     //TO DO - save the mesh? Save the object to use? works as is
+                }
+                else
+                {
+                    //Debug
+                    Debug.Log("Held: " + mesh.gameObject);
+                    //---
+                    //GameObject.Destroy(mesh.gameObject);
+
+                    mesh.gameObject.SetActive(false);
+                }
+                //Debug
+
+                //---
+            }
+
+            //final scan on gameboard
+            _gameBoardManager.Gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
+            //prune to selected mesh chunk
+            _gameBoardManager.Gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
+
+            _rejectMeshButton.gameObject.SetActive(true);
+            _acceptMeshButton.gameObject.SetActive(true);
+
+
+            //wait until descion made
+            yield return new WaitWhile(() => _isPlayspaceGood == null);
+
+            _rejectMeshButton.gameObject.SetActive(false);
+            _acceptMeshButton.gameObject.SetActive(false);
+
+            if (_isPlayspaceGood == true)
+            {
+                //final scan on gameboard
+                _gameBoardManager.Gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
+                //prune to selected mesh chunk
+                _gameBoardManager.Gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
+                //_gameBoardManager.DisableFeatures();
+                _arMeshMananger.DisableFeatures();
+
+                Debug.Log("Playspace good");
+                _isPlayspaceGood = null;
+
+                yield return null;
+
+            }
+            else if (_isPlayspaceGood == false)
+            {
+                _gameBoardManager.EnableFeatures();
+                _arMeshMananger.EnableFeatures();
+
+
+                foreach (Transform mesh in activeMeshList)
+                {
+                    
+                        //Debug
+                        Debug.Log("Restored " + mesh.gameObject);
+                        //---
+                        mesh.gameObject.SetActive(true);
+                }
+                Debug.Log("Playspace bad");
+                _isPlayspaceGood = null;
+                yield return null;
+
+
+            }
+
+        }
+        yield return null;
+    }
+
+
+
+
+
+
+
+    //OLD - to remove
+    private void SelectMeshMethod()
+    {
+        var cameraTransform = _arCamera.transform;
+        var ray = new Ray(cameraTransform.position, cameraTransform.forward);
+        RaycastHit meshRayHit;
+
+        //if a raycast interacts with layers tagged as part of the generated ARMesh
+        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out meshRayHit, 100, ARMeshLayer))
+        {
+            //Debug
+            _currentMeshText.text = meshRayHit.transform.gameObject.ToString();
+            Debug.Log("Raycast hit on ARMesh");
+            //TO DO - bool to be changed by event send, false for now
+            //---
+            
+            //get the gameobject reference for the hit object
+            var hitMeshObject = meshRayHit.transform.gameObject;
+            //Add to global scope? Need to?
+            List<Transform> activeMeshList = new List<Transform>();
+
+            //add all children of root of armeshmanager to active mesh list
+            for (int i = 0; i < _arMeshMananger.gameObject.transform.childCount; i++)
+            {
+                activeMeshList.Add(_arMeshMananger.transform.GetChild(i));
+            }
+
+            Vector3 gameboardRayHit;
+            bool isGameboardHit = _gameBoardManager.Gameboard.RayCast(ray, out gameboardRayHit);
+
+            //if the area selected is not on the active gameboard
+            if (!isGameboardHit)
+            {
+                //Debug
+                Debug.Log("Mesh " + hitMeshObject + " is not on the gameboard");
+                //---
+                
+            }
+            foreach (Transform mesh in activeMeshList)
+            {
+                
+                //if the object is the hit object and is on the active gameboard
+                if (mesh.gameObject == hitMeshObject && isGameboardHit)
+                {
+                    //Debug
+                    Debug.Log("Selected mesh: " + hitMeshObject);
+                    //---
+                    //TO DO - save the mesh? Save the object to use? works as is
+
                     
                 }
                 else
@@ -133,33 +278,24 @@ public class ARMeshSelect : MonoBehaviour
                     //GameObject.Destroy(mesh.gameObject);
 
                     mesh.gameObject.SetActive(false);
-                    
                 }
+                //Debug
+                
+                //---
+                
 
             }
-
-            //later
             var hitMeshObjectCenter = hitMeshObject.GetComponent<Collider>().bounds.center;
 
             //final scan on gameboard
             _gameBoardManager.Gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
             //prune to selected mesh chunk
             _gameBoardManager.Gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
-            
-
-            
-            //_gameBoardManager.SetVisualisationActive(false);
 
 
 
-            //method to gen the playspace, external
-
+            _gameBoardManager.SetVisualisationActive(false);
             _arMeshMananger.DisableFeatures();
-
-            
-
-
-
 
         }
     }

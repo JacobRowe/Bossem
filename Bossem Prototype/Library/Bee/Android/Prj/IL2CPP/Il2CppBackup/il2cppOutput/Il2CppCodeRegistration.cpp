@@ -67,6 +67,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenMod
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_AdaptivePerformance_Samsung_Android_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Subsystem_Registration_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_VisualScripting_Antlr3_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_VisualScripting_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_VisualScripting_Flow_CodeGenModule;
@@ -74,7 +75,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_zxing_unity_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[55] = 
+const Il2CppCodeGenModule* g_CodeGenModules[56] = 
 {
 	(&g_ARDKU2DExamples_CodeGenModule),
 	(&g_ARDK_CodeGenModule),
@@ -125,6 +126,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[55] =
 	(&g_Unity_AdaptivePerformance_Samsung_Android_CodeGenModule),
 	(&g_Unity_Profiling_Core_CodeGenModule),
 	(&g_Unity_Subsystem_Registration_CodeGenModule),
+	(&g_Unity_TextMeshPro_CodeGenModule),
 	(&g_Unity_VisualScripting_Antlr3_Runtime_CodeGenModule),
 	(&g_Unity_VisualScripting_Core_CodeGenModule),
 	(&g_Unity_VisualScripting_Flow_CodeGenModule),
@@ -137,18 +139,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	49,
 	g_ReversePInvokeWrapperPointers,
-	47903,
+	49241,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	8782,
+	9054,
 	g_Il2CppInvokerPointers,
-	1915,
+	1934,
 	g_UnresolvedVirtualMethodPointers,
-	522,
+	539,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	55,
+	56,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
