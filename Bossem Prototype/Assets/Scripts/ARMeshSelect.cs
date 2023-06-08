@@ -20,9 +20,15 @@ public class ARMeshSelect : MonoBehaviour
     [Tooltip("The scenes ARMeshManager")]
     private ARMeshManager _arMeshMananger;
 
+
+    //old
     [SerializeField]
     [Tooltip("The scenes Game Board Manager")]
     private GameboardManager _gameBoardManager;
+
+    [SerializeField]
+    [Tooltip("The scenes Game Board Manager")]
+    private IGameboard _gameboard;
 
     [Header("Get Mesh")]
     [SerializeField]
@@ -58,7 +64,7 @@ public class ARMeshSelect : MonoBehaviour
     public LayerMask ARMeshLayer;
 
 
-    private void Start()
+    /*private void Start()
     {
         GameboardFactory.GameboardInitialized += OnGameBoardCreated;
         
@@ -66,8 +72,8 @@ public class ARMeshSelect : MonoBehaviour
 
     private void OnGameBoardCreated(GameboardCreatedArgs args)
     {
-        
-    }
+        _gameboard = args.Gameboard;
+    }*/
     
 
     private void OnEnable()
