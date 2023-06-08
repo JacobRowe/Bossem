@@ -57,6 +57,19 @@ public class ARMeshSelect : MonoBehaviour
 
     public LayerMask ARMeshLayer;
 
+
+    private void Start()
+    {
+        GameboardFactory.GameboardInitialized += OnGameBoardCreated;
+        
+    }
+
+    private void OnGameBoardCreated(GameboardCreatedArgs args)
+    {
+        
+    }
+    
+
     private void OnEnable()
     {
         _selectMeshButton.onClick.AddListener(SelectMeshButton_OnClick);
@@ -89,6 +102,8 @@ public class ARMeshSelect : MonoBehaviour
     //wait for checking and selecting, different wait untils
     IEnumerator SelectMesh()
     {
+        
+
         var cameraTransform = _arCamera.transform;
         var ray = new Ray(cameraTransform.position, cameraTransform.forward);
         RaycastHit meshRayHit;
