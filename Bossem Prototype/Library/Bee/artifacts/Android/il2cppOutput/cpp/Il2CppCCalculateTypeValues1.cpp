@@ -26835,18 +26835,18 @@ struct jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225_marshaled_com
 	};
 };
 
-// ARMeshSelect/<SelectMesh>d__14
-struct U3CSelectMeshU3Ed__14_t00109902B8EB4E07595C23C72C6572BDB60872C7  : public RuntimeObject
+// ARMeshSelect/<SelectMesh>d__15
+struct U3CSelectMeshU3Ed__15_t5DD043C0F32D240961B12DCC7FC6FBCC0A3594D0  : public RuntimeObject
 {
-	// System.Int32 ARMeshSelect/<SelectMesh>d__14::<>1__state
+	// System.Int32 ARMeshSelect/<SelectMesh>d__15::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object ARMeshSelect/<SelectMesh>d__14::<>2__current
+	// System.Object ARMeshSelect/<SelectMesh>d__15::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// ARMeshSelect ARMeshSelect/<SelectMesh>d__14::<>4__this
+	// ARMeshSelect ARMeshSelect/<SelectMesh>d__15::<>4__this
 	ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C* ___U3CU3E4__this_2;
-	// UnityEngine.Vector3 ARMeshSelect/<SelectMesh>d__14::<hitMeshObjectCenter>5__2
+	// UnityEngine.Vector3 ARMeshSelect/<SelectMesh>d__15::<hitMeshObjectCenter>5__2
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3ChitMeshObjectCenterU3E5__2_3;
-	// System.Collections.Generic.List`1<UnityEngine.Transform> ARMeshSelect/<SelectMesh>d__14::<activeMeshList>5__3
+	// System.Collections.Generic.List`1<UnityEngine.Transform> ARMeshSelect/<SelectMesh>d__15::<activeMeshList>5__3
 	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___U3CactiveMeshListU3E5__3_4;
 };
 
@@ -35901,20 +35901,22 @@ struct ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C  : public MonoBeha
 	ARMeshManager_t53862FC3BA591357DD02A177582505348EE0A93A* ____arMeshMananger_5;
 	// Niantic.ARDK.Extensions.Gameboard.GameboardManager ARMeshSelect::_gameBoardManager
 	GameboardManager_tE12A4493094D0E130183194E424EDB2B4475625C* ____gameBoardManager_6;
+	// Niantic.ARDK.Extensions.Gameboard.IGameboard ARMeshSelect::_gameboard
+	RuntimeObject* ____gameboard_7;
 	// UnityEngine.UI.Text ARMeshSelect::_currentMeshText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____currentMeshText_7;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____currentMeshText_8;
 	// UnityEngine.UI.Button ARMeshSelect::_selectMeshButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____selectMeshButton_8;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____selectMeshButton_9;
 	// UnityEngine.UI.Button ARMeshSelect::_acceptMeshButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____acceptMeshButton_9;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____acceptMeshButton_10;
 	// UnityEngine.UI.Button ARMeshSelect::_rejectMeshButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____rejectMeshButton_10;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____rejectMeshButton_11;
 	// System.Single ARMeshSelect::_playspaceArea
-	float ____playspaceArea_11;
+	float ____playspaceArea_12;
 	// System.Nullable`1<System.Boolean> ARMeshSelect::_isPlayspaceGood
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isPlayspaceGood_12;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isPlayspaceGood_13;
 	// UnityEngine.LayerMask ARMeshSelect::ARMeshLayer
-	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___ARMeshLayer_13;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___ARMeshLayer_14;
 };
 
 // Niantic.ARDKExamples.ARNetworkingExampleManager
@@ -45230,7 +45232,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8272 = { sizeof(UploadHandle
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8273;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8273 = { sizeof(U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8274;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8274 = { sizeof(U3CSelectMeshU3Ed__14_t00109902B8EB4E07595C23C72C6572BDB60872C7), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8274 = { sizeof(U3CSelectMeshU3Ed__15_t5DD043C0F32D240961B12DCC7FC6FBCC0A3594D0), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8275;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8275 = { sizeof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8276;

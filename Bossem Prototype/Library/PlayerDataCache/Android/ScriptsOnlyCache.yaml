@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
-    - Niantic.ARDK.Extensions.ARDepthManager
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
@@ -249,8 +248,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5132}
     - Class: 114
       Script: {instanceID: 5216}
-    - Class: 114
-      Script: {instanceID: 5342}
     - Class: 114
       Script: {instanceID: 5452}
     - Class: 114
