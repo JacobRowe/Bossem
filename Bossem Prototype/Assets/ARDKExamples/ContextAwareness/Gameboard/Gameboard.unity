@@ -607,7 +607,7 @@ MonoBehaviour:
   _scanRange: 1.5
   _layerMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 128
   _visualise: 1
 --- !u!114 &319369855
 MonoBehaviour:
@@ -2261,7 +2261,7 @@ PrefabInstance:
       objectReference: {fileID: 7791926914237628454, guid: d0183eaba3a4c44e9aafc695278e1e9d, type: 3}
     - target: {fileID: 7963815754292762357, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}
       propertyPath: _useInvisibleMaterial
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f82ecc5afc3c4c2695d9cf37d46f25c, type: 3}

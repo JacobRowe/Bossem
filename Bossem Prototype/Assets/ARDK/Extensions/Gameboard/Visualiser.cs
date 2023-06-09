@@ -94,7 +94,9 @@ namespace Niantic.ARDK.Extensions.Gameboard
     {
       _visualRoot = new GameObject();
       _visualRoot.name = "Gameboard Visualisation";
-      _visualRoot.transform.position = Vector3.zero;
+            _visualRoot.transform.position = Vector3.zero;
+            //fix
+            //_visualRoot.transform.position = new Vector3(0, 0.1f, 0.0f);
 
       _pathDebugObjects = new List<GameObject>();
       _unusedPathDebugObjects = new List<GameObject>();
@@ -116,6 +118,9 @@ namespace Niantic.ARDK.Extensions.Gameboard
       #endif
       
       renderer.material.color = Color.green;
+      renderer.material.renderQueue = 100;
+      renderer.sortingOrder = 10;
+      debugMeshGameObject.layer = 3;
       
       _meshFilter = debugMeshGameObject.AddComponent<MeshFilter>();
       _meshFilter.mesh.MarkDynamic();
@@ -125,7 +130,9 @@ namespace Niantic.ARDK.Extensions.Gameboard
 
     public void UpdateDebugMesh(List<Surface> surfaces, Mesh mesh)
     {
-      float offset = 0.002f;
+            float offset = 0.002f;
+            //fix
+            //float offset = 0.01f;
 
       var vertices = new List<Vector3>();
       var triangles = new List<int>();
