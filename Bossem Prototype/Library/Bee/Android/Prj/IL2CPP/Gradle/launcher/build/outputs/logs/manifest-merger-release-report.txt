@@ -6,6 +6,7 @@ INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2
 INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 MERGED from [:unityLibrary] E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-131:12
 MERGED from [:core-1.22.0:] C:\Users\theja\.gradle\caches\transforms-3\52ee0e0e8358d8ad114117945456c2dd\transformed\core-1.22.0\AndroidManifest.xml:17:1-45:12
+MERGED from [:IngameDebugConsole:] C:\Users\theja\.gradle\caches\transforms-3\0c844189884588afd0fc43582bdd2ecb\transformed\IngameDebugConsole\AndroidManifest.xml:2:1-4:12
 INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -59,6 +60,8 @@ MERGED from [:unityLibrary] E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\A
 MERGED from [:unityLibrary] E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
 MERGED from [:core-1.22.0:] C:\Users\theja\.gradle\caches\transforms-3\52ee0e0e8358d8ad114117945456c2dd\transformed\core-1.22.0\AndroidManifest.xml:25:5-27:41
 MERGED from [:core-1.22.0:] C:\Users\theja\.gradle\caches\transforms-3\52ee0e0e8358d8ad114117945456c2dd\transformed\core-1.22.0\AndroidManifest.xml:25:5-27:41
+MERGED from [:IngameDebugConsole:] C:\Users\theja\.gradle\caches\transforms-3\0c844189884588afd0fc43582bdd2ecb\transformed\IngameDebugConsole\AndroidManifest.xml:3:2-43
+MERGED from [:IngameDebugConsole:] C:\Users\theja\.gradle\caches\transforms-3\0c844189884588afd0fc43582bdd2ecb\transformed\IngameDebugConsole\AndroidManifest.xml:3:2-43
 INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -68,6 +71,7 @@ INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2
 	android:minSdkVersion
 		INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		MERGED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 uses-feature#0x00030000
 ADDED from [:unityLibrary] E:\Bossem\Repo\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-54

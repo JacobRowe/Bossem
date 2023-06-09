@@ -2,12 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     ARDK-Examples.dll:
     - GameboardAgent
-    - Niantic.ARDKExamples.GameboardExampleManager
-    - Niantic.ARDKExamples.Helpers.ScrollingLog
+    - Niantic.ARDKExamples.Helpers.ARCursorRenderer
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
-    - Niantic.ARDK.Extensions.ARDepthManager
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
@@ -17,13 +15,24 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Utilities._CallbackQueue
     - Niantic.ARDK.VirtualStudio.AR.Mock.MockMesh
     - Niantic.ARDK.VirtualStudio.AR.Mock.MockMeshSequence
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockSceneConfiguration
+    Assembly-CSharp.dll:
+    - ARMeshSelect
+    - MeshManagerOutput
+    - Niantic.ARDKExamples.GameboardSpaceManager
+    IngameDebugConsole.Runtime.dll:
+    - IngameDebugConsole.DebugLogItem
+    - IngameDebugConsole.DebugLogManager
+    - IngameDebugConsole.DebugLogPopup
+    - IngameDebugConsole.DebugLogRecycledListView
+    - IngameDebugConsole.DebugLogResizeListener
+    - IngameDebugConsole.DebugsOnScrollListener
+    - IngameDebugConsole.EventSystemHandler
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -32,24 +41,33 @@ ScriptsOnlyBuild:
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.BaseInput
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
-    - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     ARDK:
@@ -60,25 +78,100 @@ ScriptsOnlyBuild:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
-    - UnityEngine.UI.Toggle/ToggleEvent
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.Gameboard.GameboardManager
+    methodName: SetVisualisationActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
+    methodName: EnableFeatures
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.UnityLifecycleDriver
+    methodName: DisableFeatures
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: ARDK
+    fullTypeName: Niantic.ARDK.Extensions.Gameboard.GameboardManager
+    methodName: SetVisualisationActive
   sceneClasses:
-    Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity:
+    Assets/Scenes/Gameboard 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -97,13 +190,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -112,61 +207,95 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1644}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1682}
     - Class: 114
-      Script: {instanceID: 1864}
+      Script: {instanceID: 1898}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 3020}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3060}
     - Class: 114
-      Script: {instanceID: 3704}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3938}
+      Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 4742}
+      Script: {instanceID: 3746}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 3898}
     - Class: 114
-      Script: {instanceID: 5164}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 5290}
+      Script: {instanceID: 4216}
     - Class: 114
-      Script: {instanceID: 5594}
+      Script: {instanceID: 4736}
     - Class: 114
-      Script: {instanceID: 5630}
+      Script: {instanceID: 4788}
     - Class: 114
-      Script: {instanceID: 5728}
+      Script: {instanceID: 4790}
     - Class: 114
-      Script: {instanceID: 5874}
+      Script: {instanceID: 4912}
     - Class: 114
-      Script: {instanceID: 6292}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 6478}
+      Script: {instanceID: 5106}
     - Class: 114
-      Script: {instanceID: 7128}
+      Script: {instanceID: 5132}
     - Class: 114
-      Script: {instanceID: 7772}
+      Script: {instanceID: 5216}
     - Class: 114
-      Script: {instanceID: 7786}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 8328}
+      Script: {instanceID: 5456}
     - Class: 114
-      Script: {instanceID: 8866}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 9012}
+      Script: {instanceID: 5684}
     - Class: 114
-      Script: {instanceID: 9022}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 9192}
+      Script: {instanceID: 5928}
     - Class: 114
-      Script: {instanceID: 9288}
+      Script: {instanceID: 6316}
+    - Class: 114
+      Script: {instanceID: 6340}
+    - Class: 114
+      Script: {instanceID: 6352}
+    - Class: 114
+      Script: {instanceID: 6438}
+    - Class: 114
+      Script: {instanceID: 7162}
+    - Class: 114
+      Script: {instanceID: 7198}
+    - Class: 114
+      Script: {instanceID: 7256}
+    - Class: 114
+      Script: {instanceID: 7390}
+    - Class: 114
+      Script: {instanceID: 7470}
+    - Class: 114
+      Script: {instanceID: 7644}
+    - Class: 114
+      Script: {instanceID: 7850}
+    - Class: 114
+      Script: {instanceID: 7864}
+    - Class: 114
+      Script: {instanceID: 8220}
+    - Class: 114
+      Script: {instanceID: 8410}
+    - Class: 114
+      Script: {instanceID: 9094}
+    - Class: 114
+      Script: {instanceID: 9104}
+    - Class: 114
+      Script: {instanceID: 9274}
+    - Class: 114
+      Script: {instanceID: 9370}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -188,6 +317,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -212,6 +343,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -664,6 +801,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9b070fd11003a7ac517c876788f0fb2a
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: DebugsOnScrollListener
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
@@ -844,6 +987,12 @@ ScriptsOnlyBuild:
     className: ARPlaneManager
   - hash:
       serializedVersion: 2
+      Hash: 698ee8e8df65f02b2ae534f8cb52a856
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: DebugLogItem
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
@@ -856,6 +1005,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 150d2705ec079b79d52ccce665aab8e1
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: DebugLogPopup
+  - hash:
+      serializedVersion: 2
       Hash: 7f6a7fd068189b9892bdd39039e87da4
     assemblyName: ARDK.dll
     namespaceName: ARDK.Extensions.Depth
@@ -866,6 +1021,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.PongHLAPI
     className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: 45763c5633962fe4e7ad13b675515e66
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: DebugLogResizeListener
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -986,6 +1147,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 608722e9939bb48b72e35920b911d194
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: DebugLogRecycledListView
   - hash:
       serializedVersion: 2
       Hash: b3d63ca1bddbf33bf3bf43c561ca0cd5
@@ -1150,6 +1317,12 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3e5a49bb5a53952bf3c5082af20d56f5
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: EventSystemHandler
+  - hash:
+      serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1258,10 +1431,22 @@ ScriptsOnlyBuild:
     className: DepthExampleManager
   - hash:
       serializedVersion: 2
+      Hash: d999f01792e1087023dbd545fddd4c5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARMeshSelect
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 7d14c9d3fd2a0f79e354ab72a9e5151d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshManagerOutput
   - hash:
       serializedVersion: 2
       Hash: 7f6a7fd068189b9892bdd39039e87da4
@@ -1354,6 +1539,12 @@ ScriptsOnlyBuild:
     className: VoiceActivityDetector
   - hash:
       serializedVersion: 2
+      Hash: 180a8479b7fd489a369b135622038710
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.ARDKExamples
+    className: GameboardSpaceManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1424,6 +1615,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
     className: PeerPoseVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 955a800aeb53bab706351355ad1a5fc9
+    assemblyName: IngameDebugConsole.Runtime.dll
+    namespaceName: IngameDebugConsole
+    className: DebugLogManager
   - hash:
       serializedVersion: 2
       Hash: 2a0ab3ccbedd7465af3ea8425892b7ee
@@ -1552,12 +1749,6 @@ ScriptsOnlyBuild:
     className: ReturnToSceneSelector
   - hash:
       serializedVersion: 2
-      Hash: 134322c9293c1896357cce271b819ce4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventTrigger
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Utilities
@@ -1586,6 +1777,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
     className: ScrollingLog
+  - hash:
+      serializedVersion: 2
+      Hash: 0e2109b898b64f758d37520049be08ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.ARDK.Extensions.Gameboard
+    className: BossemGameboardManager
   - hash:
       serializedVersion: 2
       Hash: d28b648cdb77d6f8b84a24ec284181dd
@@ -1828,5 +2025,5 @@ ScriptsOnlyBuild:
     className: ARFeaturePointRenderer
   platform: 13
   scenePathNames:
-  - Assets/ARDKExamples/ContextAwareness/Gameboard/Gameboard.unity
+  - Assets/Scenes/Gameboard 1.unity
   playerPath: E:/Bossem/Builds/Bossem1.apk
