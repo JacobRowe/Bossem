@@ -8,6 +8,7 @@ using Niantic.ARDK.Extensions.Meshing;
 using Niantic.ARDK.Extensions.Gameboard;
 using Niantic.ARDK.Utilities;
 using Niantic.ARDKExamples;
+using Niantic.ARDK.AR;
 
 public class ARMeshSelect : MonoBehaviour
 {
@@ -19,10 +20,11 @@ public class ARMeshSelect : MonoBehaviour
     [SerializeField]
     [Tooltip("The scenes ARMeshManager")]
     private ARMeshManager _arMeshMananger;
-
     [SerializeField]
     [Tooltip("The scenes Game Board Manager")]
     private GameboardManager _gameBoardManager;
+
+    private IGameboard _gameboard;
 
     [Header("Get Mesh")]
     [SerializeField]
@@ -51,10 +53,6 @@ public class ARMeshSelect : MonoBehaviour
     [SerializeField]
     private bool? _isPlayspaceGood = null;
 
-    
-
-
-
     public LayerMask ARMeshLayer;
 
     private void OnEnable()
@@ -63,6 +61,24 @@ public class ARMeshSelect : MonoBehaviour
         _acceptMeshButton.onClick.AddListener(AcceptMeshButton_OnClick);
         _rejectMeshButton.onClick.AddListener(RejectMeshButton_OnClick);
 
+        //Gameboard
+        GameboardFactory.GameboardInitialized += OnGameBoardCreated;
+
+    }
+
+    private void OnGameBoardCreated(GameboardCreatedArgs args)
+    {
+        _gameboard = args.Gameboard;
+    }
+
+    private void OnDisable()
+    {
+        _selectMeshButton.onClick.RemoveListener(SelectMeshButton_OnClick);
+        _acceptMeshButton.onClick.RemoveListener(AcceptMeshButton_OnClick);
+        _rejectMeshButton.onClick.RemoveListener(RejectMeshButton_OnClick);
+
+        //Gameboard
+        //should destroy?
 
     }
 
@@ -93,6 +109,7 @@ public class ARMeshSelect : MonoBehaviour
         var ray = new Ray(cameraTransform.position, cameraTransform.forward);
         RaycastHit meshRayHit;
 
+
         //if a raycast interacts with layers tagged as part of the generated ARMesh
         if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out meshRayHit, 100, ARMeshLayer))
         {
@@ -114,15 +131,12 @@ public class ARMeshSelect : MonoBehaviour
             if (!isGameboardHit)
             {
                 //Debug
-                Debug.Log("Mesh " + hitMeshObject + " is not on the gameboard");
+                Debug.Log("Mesh " + hitMeshObject + " not on the gameboard");
                 //---
                 yield break;
 
             }
-            //check fit for gameboard
-            //after prune and scan?
-
-
+            
 
             //TO DO - Add to global scope? Need to?
             List<Transform> activeMeshList = new List<Transform>();
@@ -159,27 +173,36 @@ public class ARMeshSelect : MonoBehaviour
             }
 
             //final scan on gameboard
-            _gameBoardManager.Gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
+            //_gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
             //prune to selected mesh chunk
-            _gameBoardManager.Gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
+            _gameboard.Prune(hitMeshObjectCenter.normalized, _playspaceArea);
+            //check fit
+            Debug.Log("Pruned area: " + _gameboard.Area);
+            bool _playspaceFit = _gameboard.CheckFit(hitMeshObjectCenter, _playspaceArea);
+            Debug.Log("Center: " + hitMeshObjectCenter + " " + _playspaceFit);
 
             _rejectMeshButton.gameObject.SetActive(true);
             _acceptMeshButton.gameObject.SetActive(true);
 
 
-            //wait until descion made
+            //wait until UI choice made
             yield return new WaitWhile(() => _isPlayspaceGood == null);
 
             _rejectMeshButton.gameObject.SetActive(false);
             _acceptMeshButton.gameObject.SetActive(false);
 
-            if (_isPlayspaceGood == true)
+            if (_isPlayspaceGood == true && _playspaceFit)
             {
                 //final scan on gameboard
-                _gameBoardManager.Gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
+                _gameBoardManager.ScanRange = 10;
+                _gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
+                
+                _gameBoardManager.ScanRange = 5;
+
                 //prune to selected mesh chunk
-                _gameBoardManager.Gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
-                //_gameBoardManager.DisableFeatures();
+                _gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
+
+
                 _arMeshMananger.DisableFeatures();
 
                 Debug.Log("Playspace good");
@@ -188,10 +211,11 @@ public class ARMeshSelect : MonoBehaviour
                 yield return null;
 
             }
-            else if (_isPlayspaceGood == false)
+            else if (_isPlayspaceGood == false || !_playspaceFit)
             {
                 _gameBoardManager.EnableFeatures();
                 _arMeshMananger.EnableFeatures();
+                
 
 
                 foreach (Transform mesh in activeMeshList)

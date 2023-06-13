@@ -43,25 +43,4 @@
     <package android:name="com.google.ar.core" />
   </queries>
   <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
 </manifest>

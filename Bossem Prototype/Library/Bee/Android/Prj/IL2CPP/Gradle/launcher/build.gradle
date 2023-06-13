@@ -16,7 +16,7 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.BossemPrototype'
+        applicationId 'com.Bossem.BossemPrototype'
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }

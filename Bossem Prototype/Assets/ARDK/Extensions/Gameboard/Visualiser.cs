@@ -118,8 +118,11 @@ namespace Niantic.ARDK.Extensions.Gameboard
       #endif
       
       renderer.material.color = Color.green;
+      //float alpha = 0.5f;
+      //renderer.material.color.a = 0.5f;
       renderer.material.renderQueue = 100;
       renderer.sortingOrder = 10;
+      
       debugMeshGameObject.layer = 3;
       
       _meshFilter = debugMeshGameObject.AddComponent<MeshFilter>();
