@@ -78,7 +78,7 @@ MonoBehaviour:
   _scanRange: 5
   _layerMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 128
   _visualise: 1
 --- !u!114 &6144848239988059775
 MonoBehaviour:

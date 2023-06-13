@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     ARDK-Examples.dll:
     - GameboardAgent
+    - GlyphBehavior
+    - Niantic.ARDKExamples.Helpers.ARCursorRenderer
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
@@ -279,6 +281,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7390}
     - Class: 114
+      Script: {instanceID: 7470}
+    - Class: 114
       Script: {instanceID: 7644}
     - Class: 114
       Script: {instanceID: 7850}
@@ -296,6 +300,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9274}
     - Class: 114
       Script: {instanceID: 9370}
+    - Class: 114
+      Script: {instanceID: 9806}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
