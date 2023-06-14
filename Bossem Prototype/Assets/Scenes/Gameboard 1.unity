@@ -6414,7 +6414,7 @@ PrefabInstance:
       objectReference: {fileID: 2055860222}
     - target: {fileID: 6144848239988059773, guid: 01038e6bdaa1685488676f78206fff98, type: 3}
       propertyPath: _tileSize
-      value: 0.05
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6144848239988059773, guid: 01038e6bdaa1685488676f78206fff98, type: 3}
       propertyPath: _layerMask.m_Bits

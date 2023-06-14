@@ -161,7 +161,7 @@ public class ARMeshSelect : MonoBehaviour
                 else
                 {
                     //Debug
-                    Debug.Log("Held: " + mesh.gameObject);
+                    //Debug.Log("Held: " + mesh.gameObject);
                     //---
                     //GameObject.Destroy(mesh.gameObject);
 
@@ -175,11 +175,25 @@ public class ARMeshSelect : MonoBehaviour
             //final scan on gameboard
             //_gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
             //prune to selected mesh chunk
-            _gameboard.Prune(hitMeshObjectCenter.normalized, _playspaceArea);
+            _gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
             //check fit
             Debug.Log("Pruned area: " + _gameboard.Area);
-            bool _playspaceFit = _gameboard.CheckFit(hitMeshObjectCenter, _playspaceArea);
-            Debug.Log("Center: " + hitMeshObjectCenter + " " + _playspaceFit);
+            //bool _playspaceFit = _gameboard.CheckFit(hitMeshObjectCenter, _playspaceArea);
+            
+            if (!_gameboard.CheckFit(hitMeshObjectCenter, 0.03f))
+            {
+                foreach (Transform mesh in activeMeshList)
+                {
+
+                    //Debug
+                    //Debug.Log("Restored " + mesh.gameObject);
+                    //---
+                    mesh.gameObject.SetActive(true);
+                }
+                Debug.Log("Active gameboard too small for Playspace");
+                StopCoroutine(SelectMesh());
+                yield break;
+            }
 
             _rejectMeshButton.gameObject.SetActive(true);
             _acceptMeshButton.gameObject.SetActive(true);
@@ -191,7 +205,7 @@ public class ARMeshSelect : MonoBehaviour
             _rejectMeshButton.gameObject.SetActive(false);
             _acceptMeshButton.gameObject.SetActive(false);
 
-            if (_isPlayspaceGood == true && _playspaceFit)
+            if (_isPlayspaceGood == true)
             {
                 //final scan on gameboard
                 _gameBoardManager.ScanRange = 10;
@@ -211,7 +225,7 @@ public class ARMeshSelect : MonoBehaviour
                 yield return null;
 
             }
-            else if (_isPlayspaceGood == false || !_playspaceFit)
+            else if (_isPlayspaceGood == false)
             {
                 _gameBoardManager.EnableFeatures();
                 _arMeshMananger.EnableFeatures();
@@ -222,7 +236,7 @@ public class ARMeshSelect : MonoBehaviour
                 {
                     
                         //Debug
-                        Debug.Log("Restored " + mesh.gameObject);
+                        //Debug.Log("Restored " + mesh.gameObject);
                         //---
                         mesh.gameObject.SetActive(true);
                 }

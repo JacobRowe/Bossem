@@ -117,6 +117,7 @@ namespace Niantic.ARDK.Extensions.Gameboard
       renderer.material.shader = Shader.Find("Unlit/Color");
       #endif
       
+      //TO DO - transparency for on device
       renderer.material.color = Color.green;
       //float alpha = 0.5f;
       //renderer.material.color.a = 0.5f;
