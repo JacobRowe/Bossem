@@ -58,11 +58,43 @@ void RegisterAllStrippedInternalCalls()
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_EndSample();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_EndSample();
 
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::FlushCounterValue(System.Void*)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_FlushCounterValue();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_FlushCounterValue();
+
 		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::GetCategoryDescription_Injected(System.UInt16,Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription&)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_GetCategoryDescription_Injected();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_GetCategoryDescription_Injected();
 
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SetMarkerMetadata(System.IntPtr,System.Int32,System.String,System.Byte,System.Byte)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata();
+
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SingleSampleWithMetadata(System.IntPtr,System.Int32,System.Void*)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SingleSampleWithMetadata();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SingleSampleWithMetadata();
+
+		//System.Void* Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateCounterValue(System.IntPtr&,System.String,System.UInt16,Unity.Profiling.LowLevel.MarkerFlags,System.Byte,System.Byte,System.Int32,Unity.Profiling.ProfilerCounterOptions)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_CreateCounterValue();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_CreateCounterValue();
+
 	//End Registrations for type : Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility
+
+	//Start Registrations for type : UnityEngine.AI.NavMesh
+
+		//System.Int32 UnityEngine.AI.NavMesh::AddNavMeshDataInternal(UnityEngine.AI.NavMeshData)
+		void Register_UnityEngine_AI_NavMesh_AddNavMeshDataInternal();
+		Register_UnityEngine_AI_NavMesh_AddNavMeshDataInternal();
+
+		//System.Void UnityEngine.AI.NavMesh::CreateSettings_Injected(UnityEngine.AI.NavMeshBuildSettings&)
+		void Register_UnityEngine_AI_NavMesh_CreateSettings_Injected();
+		Register_UnityEngine_AI_NavMesh_CreateSettings_Injected();
+
+		//System.Void UnityEngine.AI.NavMesh::RemoveAllNavMeshData()
+		void Register_UnityEngine_AI_NavMesh_RemoveAllNavMeshData();
+		Register_UnityEngine_AI_NavMesh_RemoveAllNavMeshData();
+
+	//End Registrations for type : UnityEngine.AI.NavMesh
 
 	//Start Registrations for type : UnityEngine.AI.NavMeshAgent
 
@@ -70,11 +102,39 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AI_NavMeshAgent_get_remainingDistance();
 		Register_UnityEngine_AI_NavMeshAgent_get_remainingDistance();
 
+		//System.Void UnityEngine.AI.NavMeshAgent::set_destination_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_AI_NavMeshAgent_set_destination_Injected();
+		Register_UnityEngine_AI_NavMeshAgent_set_destination_Injected();
+
 		//UnityEngine.AI.NavMeshPathStatus UnityEngine.AI.NavMeshAgent::get_pathStatus()
 		void Register_UnityEngine_AI_NavMeshAgent_get_pathStatus();
 		Register_UnityEngine_AI_NavMeshAgent_get_pathStatus();
 
 	//End Registrations for type : UnityEngine.AI.NavMeshAgent
+
+	//Start Registrations for type : UnityEngine.AI.NavMeshBuilder
+
+		//System.Boolean UnityEngine.AI.NavMeshBuilder::UpdateNavMeshDataListInternal_Injected(UnityEngine.AI.NavMeshData,UnityEngine.AI.NavMeshBuildSettings&,System.Object,UnityEngine.Bounds&)
+		void Register_UnityEngine_AI_NavMeshBuilder_UpdateNavMeshDataListInternal_Injected();
+		Register_UnityEngine_AI_NavMeshBuilder_UpdateNavMeshDataListInternal_Injected();
+
+	//End Registrations for type : UnityEngine.AI.NavMeshBuilder
+
+	//Start Registrations for type : UnityEngine.AI.NavMeshData
+
+		//System.Void UnityEngine.AI.NavMeshData::Internal_Create(UnityEngine.AI.NavMeshData,System.Int32)
+		void Register_UnityEngine_AI_NavMeshData_Internal_Create();
+		Register_UnityEngine_AI_NavMeshData_Internal_Create();
+
+		//System.Void UnityEngine.AI.NavMeshData::set_position_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_AI_NavMeshData_set_position_Injected();
+		Register_UnityEngine_AI_NavMeshData_set_position_Injected();
+
+		//System.Void UnityEngine.AI.NavMeshData::set_rotation_Injected(UnityEngine.Quaternion&)
+		void Register_UnityEngine_AI_NavMeshData_set_rotation_Injected();
+		Register_UnityEngine_AI_NavMeshData_set_rotation_Injected();
+
+	//End Registrations for type : UnityEngine.AI.NavMeshData
 
 	//Start Registrations for type : UnityEngine.Android.AndroidAssetPacks
 
@@ -3653,6 +3713,18 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Profiling.Profiler::get_enabled()
 		void Register_UnityEngine_Profiling_Profiler_get_enabled();
 		Register_UnityEngine_Profiling_Profiler_get_enabled();
+
+		//System.Void UnityEngine.Profiling.Profiler::BeginSampleImpl(System.String,UnityEngine.Object)
+		void Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
+		Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
+
+		//System.Void UnityEngine.Profiling.Profiler::EndSample()
+		void Register_UnityEngine_Profiling_Profiler_EndSample();
+		Register_UnityEngine_Profiling_Profiler_EndSample();
+
+		//System.Void UnityEngine.Profiling.Profiler::Internal_EmitGlobalMetaData_Array(System.Void*,System.Int32,System.Int32,System.Array,System.Int32,System.Int32,System.Boolean)
+		void Register_UnityEngine_Profiling_Profiler_Internal_EmitGlobalMetaData_Array();
+		Register_UnityEngine_Profiling_Profiler_Internal_EmitGlobalMetaData_Array();
 
 	//End Registrations for type : UnityEngine.Profiling.Profiler
 

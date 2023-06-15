@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     ARDK-Editor.dll:
     - Niantic.ARDK.VirtualStudio.Editor.VirtualStudioConfigurationEditor
+    ARDK-Examples.dll:
+    - GameboardAgent
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
@@ -13,9 +15,11 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.PlanefindingGrid
     - Niantic.ARDK.Utilities._CallbackQueue
     Assembly-CSharp.dll:
+    - ARPlayspaceController
+    - CharacterNavMesh
     - Niantic.LightshipHub.Templates.ObjectAnimation
     - Niantic.LightshipHub.Templates.ObjectHolderController
-    - Niantic.LightshipHub.Templates.PlaneTrackerController
+    - Niantic.LightshipHub.Templates.PlacementController
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
@@ -34,10 +38,18 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   serializedClasses:
     ARDK:
     - Niantic.ARDK.Extensions.CapabilityChecker/FailureEvent
@@ -61,6 +73,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.TextCoreFontEngineModule:
@@ -68,9 +81,16 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/ARDKHubScene.unity:
+    Assets/Scenes/ObjectPlacementPlayspacetest.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -91,6 +111,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 81
@@ -102,50 +124,76 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 4606}
+      Script: {instanceID: 1700}
     - Class: 114
-      Script: {instanceID: 4686}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 5108}
+      Script: {instanceID: 2548}
     - Class: 114
-      Script: {instanceID: 5134}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 5454}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 5686}
+      Script: {instanceID: 3786}
     - Class: 114
-      Script: {instanceID: 6354}
+      Script: {instanceID: 4670}
     - Class: 114
-      Script: {instanceID: 6440}
+      Script: {instanceID: 4750}
     - Class: 114
-      Script: {instanceID: 9094}
+      Script: {instanceID: 5174}
     - Class: 114
-      Script: {instanceID: 9104}
+      Script: {instanceID: 5200}
     - Class: 114
-      Script: {instanceID: 27528}
+      Script: {instanceID: 5520}
     - Class: 114
-      Script: {instanceID: 27534}
+      Script: {instanceID: 5758}
     - Class: 114
-      Script: {instanceID: 27592}
+      Script: {instanceID: 6362}
+    - Class: 114
+      Script: {instanceID: 6438}
+    - Class: 114
+      Script: {instanceID: 6526}
+    - Class: 114
+      Script: {instanceID: 7304}
+    - Class: 114
+      Script: {instanceID: 7498}
+    - Class: 114
+      Script: {instanceID: 7956}
+    - Class: 114
+      Script: {instanceID: 9216}
+    - Class: 114
+      Script: {instanceID: 9226}
+    - Class: 114
+      Script: {instanceID: 98124}
+    - Class: 114
+      Script: {instanceID: 99926}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
@@ -154,10 +202,28 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: e09e8bebc0fcd32bb8af1287a6b44816
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -172,6 +238,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
@@ -182,6 +254,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: SessionIDField
   - hash:
       serializedVersion: 2
       Hash: 162d41b381639ad640f588d2be9b70b6
@@ -200,6 +278,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio.AR.Mock
     className: MockWayspot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MushroomAnimation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -256,6 +340,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3b80c399b74e582df2d56de683bb7284
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: Loading
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
@@ -268,6 +358,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 8dd414d6bb0366ffde1e8f88fd96bd65
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: LeaveMessagesTemplateController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Notifications.Android.dll
     namespaceName: Unity.Notifications.Android
@@ -278,6 +374,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples
     className: MeshingSemanticsExampleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ShowTracker
   - hash:
       serializedVersion: 2
       Hash: a124635ce5ed21217178710ba4b4a680
@@ -320,6 +422,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 16e3c44505860202cb0c2a752aca36dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: PlacementControllerWithoutPlanes
   - hash:
       serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
@@ -472,16 +580,22 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
+      Hash: 659ddfb52ce6dedb4113530a836e175f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: ScrollingLog
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: BalloonAnimation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -506,6 +620,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Networking.HLAPI.Object.Unity
     className: NetworkedUnityObject
+  - hash:
+      serializedVersion: 2
+      Hash: 39445982fb5b91d1373cad36e94b668b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: WayspotAnchorTemplateController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -551,15 +671,33 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: PhysicsSceneController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a35efdbc2f94fa193fe70fb88661ea4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: SyncStateHelpText
   - hash:
       serializedVersion: 2
       Hash: ad3ff8942c8ab9b2fe2d279315703b3e
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARDepthInterpolationAdapter
+  - hash:
+      serializedVersion: 2
+      Hash: 90f0975042dfd04c2c4122f6f931d255
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: PhysicsController
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -574,16 +712,28 @@ ScriptsOnlyBuild:
     className: AdaptiveFramerate
   - hash:
       serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
+      Hash: 0a2595e4d67d88d6c496ee2a8b60eced
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ObjectHolderController
+  - hash:
+      serializedVersion: 2
+      Hash: 603d41c3436c5776c1c4ae1d28c41f57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: MeshMaterial
   - hash:
       serializedVersion: 2
       Hash: 4adea20207ea0abfe22e8f5c49c64870
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Depth
     className: DepthPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5418aa76e7cf2e8872fb8f254b57b2fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MeshPlacementController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -650,6 +800,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
     className: SyncStateTrackedPeer
+  - hash:
+      serializedVersion: 2
+      Hash: d2249d7b9e381f2af0ef66adaa9b783c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: SharedObjectInteraction
   - hash:
       serializedVersion: 2
       Hash: 2f1a49a75d46d820e585f638dd840858
@@ -752,6 +908,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: LocationManifestManager
+  - hash:
+      serializedVersion: 2
+      Hash: 86fbc0a196e3011bb037cff5f1d5400d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.SampleProjects
+    className: ARHockeyController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -988,6 +1150,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5a11ff27045da87332ea9cda17d9ed68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: TemplateCharacterController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
@@ -1000,6 +1168,12 @@ ScriptsOnlyBuild:
     className: AdaptiveTransparency
   - hash:
       serializedVersion: 2
+      Hash: c2022c151ce604ac019b619979b7b008
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ObjectMaskingController
+  - hash:
+      serializedVersion: 2
       Hash: 289618fbea882e02d1486eaff129f0c3
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Gameboard
@@ -1010,6 +1184,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
     className: NetworkStatus
+  - hash:
+      serializedVersion: 2
+      Hash: 0f835aeb2d00b6b1a0dea0e018a2c71c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: VPSCoverageController
   - hash:
       serializedVersion: 2
       Hash: f4b041cf88b42f9ef5b60fba75f8d5b3
@@ -1040,6 +1220,18 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Meshing
     className: MeshSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 1c7ec004c5760af3a82be24772af945b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: SharedObjectHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 9ff39bb1e6af3a371184e645e843f2c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: Switch
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1076,6 +1268,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a71b722db6acaefd04434021e427f07f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ObjectMasking
   - hash:
       serializedVersion: 2
       Hash: 8fbc134fd506d97c845cf2b715231396
@@ -1120,6 +1318,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 9766d8f1f45976b8bbc8e8efabd365b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.SampleProjects
+    className: SFXController
+  - hash:
+      serializedVersion: 2
       Hash: f523cfd0d42ba3d6a4e650b4c76312d7
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.AR.WayspotAnchors
@@ -1130,6 +1334,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.MapVisualization
     className: ARMapController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ObjectAnimation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1168,6 +1378,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnter2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6a7b92898ed917a93f3c13befec57715
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MeshGardenController
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1175,9 +1391,33 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: IDSessionGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Rendering
     className: RenderingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 172c3a5179dca275aa1196e34dff8839
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.SampleProjects
+    className: PlayerAvatarBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 58b8e292b7ea054c02df1ae71f096988
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ObjectInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 1074a339de9d245bf4919353ed9ae8fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.SampleProjects
+    className: BallBehaviour
   - hash:
       serializedVersion: 2
       Hash: a0bfd04b77824c07d9435ef76eafb204
@@ -1196,6 +1436,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveShadowCascade
+  - hash:
+      serializedVersion: 2
+      Hash: 6d50e6e79e11de92c94d6c5ca967f5a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.SampleProjects
+    className: PlayingFieldBehaviour
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1234,10 +1480,22 @@ ScriptsOnlyBuild:
     className: _LegacyCameraController
   - hash:
       serializedVersion: 2
+      Hash: 7f39f56efb3efcd5f3bb20a2af576901
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: SharedInteractionController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: AnchorStatusTracker
+  - hash:
+      serializedVersion: 2
+      Hash: a162992f3b13afffe1e0e1ec36ad5e5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MeshController
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1294,6 +1552,12 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: c487b413ea174d5a7e31d9d84231ade7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: ImageDetectionController
+  - hash:
+      serializedVersion: 2
       Hash: 4a0223b6de2e138d183418ebe9212e45
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
@@ -1336,10 +1600,22 @@ ScriptsOnlyBuild:
     className: ARCursorRenderer
   - hash:
       serializedVersion: 2
+      Hash: c27a3ee916706eb7bb319e26a9a4425b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: VPSCoverageListController
+  - hash:
+      serializedVersion: 2
       Hash: a55b699e1d8159dfb5db0c8f32667a11
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio.Remote
     className: RemoteConnectionUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5fcf5168c991dfac134d7841e357060b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: SharedSession
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1352,6 +1628,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.AR.WayspotAnchors
     className: _RemoteAuthoringSceneTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.SampleProjects
+    className: PartycleSystemsController
   - hash:
       serializedVersion: 2
       Hash: be86abfda421b4c74bee8579e8f6937f
@@ -1372,16 +1654,28 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4e151f01bb33e7666435f4125fa97204
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: SegmentationController
+  - hash:
+      serializedVersion: 2
       Hash: b7d9152a6ad152f1bfd412b4503063f0
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.WayspotAnchors
     className: WayspotAnchorExampleManager
   - hash:
       serializedVersion: 2
-      Hash: e09e8bebc0fcd32bb8af1287a6b44816
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
+      Hash: 16e3c44505860202cb0c2a752aca36dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: PlacementController
+  - hash:
+      serializedVersion: 2
+      Hash: cbcdf5ed1f2d15e574480d54056372f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MessagePanels
   - hash:
       serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd
@@ -1430,6 +1724,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 7ce1f835c6d3b40845e3becc041b490b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARGetPlane
   - hash:
       serializedVersion: 2
       Hash: ee0d08ac341fb8c3015943e0c4611755
@@ -1486,6 +1786,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 56e97427ababa03d32fbacf29324c033
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MeshingShadersController
+  - hash:
+      serializedVersion: 2
       Hash: 7104d109d5ab03835543bc8f5d0c8970
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
@@ -1526,6 +1832,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Pong
     className: BallBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 332c1a085ce202c2703f11bf92f8077f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: DepthTextureController
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -1612,6 +1924,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: ce9aa612e78a447d6fa9868bf3b9a145
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: InteractionController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.Samsung.Android.dll
     namespaceName: UnityEngine.AdaptivePerformance.Samsung.Android
@@ -1648,10 +1966,22 @@ ScriptsOnlyBuild:
     className: VpsCoverageListExampleManager
   - hash:
       serializedVersion: 2
+      Hash: 46f83cfde66650c132216e606859f932
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: NetworkStatus
+  - hash:
+      serializedVersion: 2
       Hash: c42bd3fa40b8a14745bb70cdfbf1021f
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARImageDetectionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 278ca2bd013bf45969f4e79ea066b0c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Tools
+    className: PreloadController
   - hash:
       serializedVersion: 2
       Hash: 6a9dc91cb907001d7356d1558b85db20
@@ -1730,6 +2060,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a1c49c56b3b45b6e3fc69a93f9f3d354
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: PlaneTrackerController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1822,6 +2158,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 5418aa76e7cf2e8872fb8f254b57b2fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Niantic.LightshipHub.Templates
+    className: MeshColliderController
+  - hash:
+      serializedVersion: 2
       Hash: 6a6db7e3c54c2ebc044586d4a7e2aacc
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.PongHLAPI
@@ -1840,287 +2182,23 @@ ScriptsOnlyBuild:
     className: ARFeaturePointRenderer
   - hash:
       serializedVersion: 2
-      Hash: 90f0975042dfd04c2c4122f6f931d255
+      Hash: 9873bb32cdd65e57340ea0c8cc3b6d4b
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: PhysicsController
+    namespaceName: 
+    className: ARPlayspaceController
   - hash:
       serializedVersion: 2
-      Hash: 8fbc134fd506d97c845cf2b715231396
+      Hash: 4b43219a1507025abbccbb18f7e24933
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: SessionIDField
-  - hash:
-      serializedVersion: 2
-      Hash: 7f39f56efb3efcd5f3bb20a2af576901
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: SharedInteractionController
+    namespaceName: 
+    className: CharacterNavMesh
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.SampleProjects
-    className: PartycleSystemsController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: BalloonAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 39445982fb5b91d1373cad36e94b668b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: WayspotAnchorTemplateController
-  - hash:
-      serializedVersion: 2
-      Hash: 86fbc0a196e3011bb037cff5f1d5400d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.SampleProjects
-    className: ARHockeyController
-  - hash:
-      serializedVersion: 2
-      Hash: ce9aa612e78a447d6fa9868bf3b9a145
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: InteractionController
-  - hash:
-      serializedVersion: 2
-      Hash: 1c7ec004c5760af3a82be24772af945b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: SharedObjectHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 6d50e6e79e11de92c94d6c5ca967f5a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.SampleProjects
-    className: PlayingFieldBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 56e97427ababa03d32fbacf29324c033
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MeshingShadersController
-  - hash:
-      serializedVersion: 2
-      Hash: 4e151f01bb33e7666435f4125fa97204
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: SegmentationController
-  - hash:
-      serializedVersion: 2
-      Hash: 3b80c399b74e582df2d56de683bb7284
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: Loading
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ShowTracker
-  - hash:
-      serializedVersion: 2
-      Hash: 9ff39bb1e6af3a371184e645e843f2c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: Switch
-  - hash:
-      serializedVersion: 2
-      Hash: a1c49c56b3b45b6e3fc69a93f9f3d354
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: PlaneTrackerController
-  - hash:
-      serializedVersion: 2
-      Hash: a162992f3b13afffe1e0e1ec36ad5e5b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MeshController
-  - hash:
-      serializedVersion: 2
-      Hash: 6a7b92898ed917a93f3c13befec57715
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MeshGardenController
-  - hash:
-      serializedVersion: 2
-      Hash: 0a2595e4d67d88d6c496ee2a8b60eced
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ObjectHolderController
-  - hash:
-      serializedVersion: 2
-      Hash: 603d41c3436c5776c1c4ae1d28c41f57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: MeshMaterial
-  - hash:
-      serializedVersion: 2
-      Hash: c27a3ee916706eb7bb319e26a9a4425b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: VPSCoverageListController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: IDSessionGenerator
-  - hash:
-      serializedVersion: 2
-      Hash: c2022c151ce604ac019b619979b7b008
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ObjectMaskingController
-  - hash:
-      serializedVersion: 2
-      Hash: d2249d7b9e381f2af0ef66adaa9b783c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: SharedObjectInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: 9766d8f1f45976b8bbc8e8efabd365b8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.SampleProjects
-    className: SFXController
-  - hash:
-      serializedVersion: 2
-      Hash: 5418aa76e7cf2e8872fb8f254b57b2fb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MeshColliderController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MushroomAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 0f835aeb2d00b6b1a0dea0e018a2c71c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: VPSCoverageController
-  - hash:
-      serializedVersion: 2
-      Hash: 172c3a5179dca275aa1196e34dff8839
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.SampleProjects
-    className: PlayerAvatarBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: PhysicsSceneController
-  - hash:
-      serializedVersion: 2
-      Hash: 46f83cfde66650c132216e606859f932
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: NetworkStatus
-  - hash:
-      serializedVersion: 2
-      Hash: 58b8e292b7ea054c02df1ae71f096988
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ObjectInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: a71b722db6acaefd04434021e427f07f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ObjectMasking
-  - hash:
-      serializedVersion: 2
-      Hash: 1074a339de9d245bf4919353ed9ae8fb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.SampleProjects
-    className: BallBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 5418aa76e7cf2e8872fb8f254b57b2fb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MeshPlacementController
-  - hash:
-      serializedVersion: 2
-      Hash: 8dd414d6bb0366ffde1e8f88fd96bd65
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: LeaveMessagesTemplateController
-  - hash:
-      serializedVersion: 2
-      Hash: a35efdbc2f94fa193fe70fb88661ea4d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: SyncStateHelpText
-  - hash:
-      serializedVersion: 2
-      Hash: 5fcf5168c991dfac134d7841e357060b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: SharedSession
-  - hash:
-      serializedVersion: 2
-      Hash: 278ca2bd013bf45969f4e79ea066b0c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: PreloadController
-  - hash:
-      serializedVersion: 2
-      Hash: 332c1a085ce202c2703f11bf92f8077f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: DepthTextureController
-  - hash:
-      serializedVersion: 2
-      Hash: c487b413ea174d5a7e31d9d84231ade7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ImageDetectionController
-  - hash:
-      serializedVersion: 2
-      Hash: 16e3c44505860202cb0c2a752aca36dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: PlacementController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: ObjectAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: cbcdf5ed1f2d15e574480d54056372f9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: MessagePanels
-  - hash:
-      serializedVersion: 2
-      Hash: 659ddfb52ce6dedb4113530a836e175f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Tools
-    className: ScrollingLog
-  - hash:
-      serializedVersion: 2
-      Hash: 16e3c44505860202cb0c2a752aca36dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: PlacementControllerWithoutPlanes
-  - hash:
-      serializedVersion: 2
-      Hash: 5a11ff27045da87332ea9cda17d9ed68
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Niantic.LightshipHub.Templates
-    className: TemplateCharacterController
+    namespaceName: 
+    className: NavMeshManager
   platform: 13
   scenePathNames:
-  - Assets/Scenes/ARDKHubScene.unity
+  - Assets/Scenes/ObjectPlacementPlayspacetest.unity
   playerPath: E:/Bossem/Builds/Bossem1.apk

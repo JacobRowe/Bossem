@@ -18928,7 +18928,7 @@ IL_0042:
 			il2cpp_codegen_runtime_class_init_inline(TelemetryRecorderUtilities_tB72C4E89286F57491B9EA0EC7056EF0D49256369_il2cpp_TypeInfo_var);
 			String_t* L_8 = ((TelemetryRecorderUtilities_tB72C4E89286F57491B9EA0EC7056EF0D49256369_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryRecorderUtilities_tB72C4E89286F57491B9EA0EC7056EF0D49256369_il2cpp_TypeInfo_var))->___PreLoginUserId_5;
 			NullCheck(L_7);
-			VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_7, L_8);
+			VirtualActionInvoker1< String_t* >::Invoke(18 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_7, L_8);
 			goto IL_0043;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)

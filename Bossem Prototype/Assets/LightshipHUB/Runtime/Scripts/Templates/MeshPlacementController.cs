@@ -8,7 +8,7 @@ namespace Niantic.LightshipHub.Templates
 {
   public class MeshPlacementController : MonoBehaviour
   {
-    [HideInInspector]
+    //[HideInInspector]
     public ObjectHolderController OHcontroller;
 
     void Update()
@@ -18,8 +18,8 @@ namespace Niantic.LightshipHub.Templates
       var touch = PlatformAgnosticInput.GetTouch(0);
       if (touch.phase == TouchPhase.Began)
       {
-        var currentFrame = OHcontroller.Session.CurrentFrame;
-        if (currentFrame == null) return;
+        /*var currentFrame = OHcontroller.Session.CurrentFrame;
+        if (currentFrame == null) return;*/
 
         if (OHcontroller.Camera == null) return;
 

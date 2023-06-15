@@ -11209,7 +11209,7 @@ IL_0056:
 		V_1 = L_16;
 		StringWriter_tF48052BE4F980E5C85403221E835768E4156267D* L_17 = V_1;
 		NullCheck(L_17);
-		VirtualActionInvoker1< String_t* >::Invoke(15 /* System.Void System.IO.TextWriter::Write(System.String) */, L_17, _stringLiteralA18EA6F7518F61E6F583BB6EABFBA20AC54317AF);
+		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.IO.TextWriter::Write(System.String) */, L_17, _stringLiteralA18EA6F7518F61E6F583BB6EABFBA20AC54317AF);
 		il2cpp_codegen_runtime_class_init_inline(JsonFormatter_t503C6BE13804F425CD97D94D25DD6736456C70F6_il2cpp_TypeInfo_var);
 		JsonFormatter_t503C6BE13804F425CD97D94D25DD6736456C70F6* L_18;
 		L_18 = JsonFormatter_get_Default_mF44636C3309035606DB00D6FE940B9D390D23ECC_inline(NULL);
@@ -11219,7 +11219,7 @@ IL_0056:
 		JsonFormatter_WriteList_m883CF8D67DEED9876F3A920124F2A3A1E2C106D2(L_18, L_19, ((RuntimeObject*)Castclass((RuntimeObject*)L_20, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var)), NULL);
 		StringWriter_tF48052BE4F980E5C85403221E835768E4156267D* L_21 = V_1;
 		NullCheck(L_21);
-		VirtualActionInvoker1< String_t* >::Invoke(15 /* System.Void System.IO.TextWriter::Write(System.String) */, L_21, _stringLiteralCB9DEC4BB422E4FB7D60AF8B79864395C4E9AF83);
+		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.IO.TextWriter::Write(System.String) */, L_21, _stringLiteralCB9DEC4BB422E4FB7D60AF8B79864395C4E9AF83);
 		StringWriter_tF48052BE4F980E5C85403221E835768E4156267D* L_22 = V_1;
 		NullCheck(L_22);
 		String_t* L_23;
