@@ -392,6 +392,13 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/LightshipHUB/Editor/Scripts/LightshipCommon.cs"
+"Assets/LightshipHUB/Editor/Scripts/LightshipHelperWindow.cs"
+"Assets/LightshipHUB/Editor/Scripts/LightshipHubMenu.cs"
+"Assets/LightshipHUB/Editor/Scripts/LightshipSamplesFactory.cs"
+"Assets/LightshipHUB/Editor/Scripts/LightshipTemplateFactory.cs"
+"Assets/LightshipHUB/Editor/Scripts/LightshipUIFactory.cs"
+"Assets/LightshipHUB/Editor/Scripts/LightshipWelcomeWindow.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 

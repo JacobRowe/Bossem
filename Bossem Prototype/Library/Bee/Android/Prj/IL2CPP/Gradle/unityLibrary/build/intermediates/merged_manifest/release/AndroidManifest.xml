@@ -64,6 +64,9 @@
     <uses-permission
         android:name="android.hardware.camera.ar"
         android:required="false" />
+    <uses-permission
+        android:name="android.hardware.camera.ar"
+        android:required="false" />
 
     <application android:extractNativeLibs="true" >
         <activity
