@@ -227,16 +227,15 @@ public class ARMeshSelect : MonoBehaviour
 
                 //spawn a plane at center of chosen mesh of estimate gameboard area
                 
-                Transform test = Instantiate(testPlane);
+               /* Transform test = Instantiate(testPlane);
                 
                 test.transform.position = new Vector3(hitMeshObjectCenter.x, hitMeshObjectCenter.y - 0.5f, hitMeshObjectCenter.z);
                 //test.transform.position = hitMeshObjectCenter;
                 test.SetParent(hitMeshObject.transform);
                 //hitMeshObject.SetActive(false);
-                hitMeshObject.GetComponent<MeshCollider>().enabled = false;
+                hitMeshObject.GetComponent<MeshCollider>().enabled = false;*/
                 
-                _gameboard.SetVisualisationActive(false);
-
+                //_gameboard.SetVisualisationActive(false);
 
 
                 _arMeshMananger.DisableFeatures();
