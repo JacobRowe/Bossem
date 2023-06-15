@@ -1374,6 +1374,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Collider_get_bounds_Injected();
 		Register_UnityEngine_Collider_get_bounds_Injected();
 
+		//System.Void UnityEngine.Collider::set_enabled(System.Boolean)
+		void Register_UnityEngine_Collider_set_enabled();
+		Register_UnityEngine_Collider_set_enabled();
+
 		//UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
 		void Register_UnityEngine_Collider_get_attachedRigidbody();
 		Register_UnityEngine_Collider_get_attachedRigidbody();

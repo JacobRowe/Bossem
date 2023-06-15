@@ -7024,10 +7024,10 @@ extern void Visualiser_MoveSphereToCache_mDF206B15A9FBB61A65A960E7DF06E5AB783CB6
 extern void Visualiser_MoveSphereFromCache_m5FE659F2D65341DEB4A8A3EF419B73318E7A49D8 (void);
 // 0x00000EA2 System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser::DrawPath(Niantic.ARDK.Extensions.Gameboard.Path)
 extern void Visualiser_DrawPath_m0EFB4BD3964ACE32B908F380479F13E0DECFF1F1 (void);
-// 0x00000EA3 System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::.ctor()
-extern void U3CU3Ec__DisplayClass13_0__ctor_mA471B3CA91DB11832C8AF2B822461F0901A46D04 (void);
-// 0x00000EA4 UnityEngine.Vector3 Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::<UpdateDebugMesh>b__0(Niantic.ARDK.Extensions.Gameboard.GridNode)
-extern void U3CU3Ec__DisplayClass13_0_U3CUpdateDebugMeshU3Eb__0_m8612DD415B12E0AEDECDD353D555BE57E471270C (void);
+// 0x00000EA3 System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_mB461F434F7F50F718F3CA7D0780F7622E8604479 (void);
+// 0x00000EA4 UnityEngine.Vector3 Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::<UpdateDebugMesh>b__0(Niantic.ARDK.Extensions.Gameboard.GridNode)
+extern void U3CU3Ec__DisplayClass14_0_U3CUpdateDebugMeshU3Eb__0_mDE01AB96DF60E645EBF89B68D5989EE0CABA44D2 (void);
 // 0x00000EA5 System.Void Niantic.ARDK.Extensions.Gameboard.Waypoint::.ctor(UnityEngine.Vector3,Niantic.ARDK.Extensions.Gameboard.Waypoint/MovementType,UnityEngine.Vector2Int)
 extern void Waypoint__ctor_m721CCFD09B1ACC003E2638702344147B5D3226E5 (void);
 // 0x00000EA6 System.Void Niantic.ARDK.Extensions.Depth.DepthMeshOcclusionManager::.ctor()
@@ -16305,8 +16305,8 @@ static Il2CppMethodPointer s_methodPointers[6738] =
 	Visualiser_MoveSphereToCache_mDF206B15A9FBB61A65A960E7DF06E5AB783CB65A,
 	Visualiser_MoveSphereFromCache_m5FE659F2D65341DEB4A8A3EF419B73318E7A49D8,
 	Visualiser_DrawPath_m0EFB4BD3964ACE32B908F380479F13E0DECFF1F1,
-	U3CU3Ec__DisplayClass13_0__ctor_mA471B3CA91DB11832C8AF2B822461F0901A46D04,
-	U3CU3Ec__DisplayClass13_0_U3CUpdateDebugMeshU3Eb__0_m8612DD415B12E0AEDECDD353D555BE57E471270C,
+	U3CU3Ec__DisplayClass14_0__ctor_mB461F434F7F50F718F3CA7D0780F7622E8604479,
+	U3CU3Ec__DisplayClass14_0_U3CUpdateDebugMeshU3Eb__0_mDE01AB96DF60E645EBF89B68D5989EE0CABA44D2,
 	Waypoint__ctor_m721CCFD09B1ACC003E2638702344147B5D3226E5,
 	DepthMeshOcclusionManager__ctor_m919380D1B35FC931C6C3880C11555375EC6AADD3,
 	DepthPointCloudManager_ListenToSession_m5DBE5F6BD9A666BA04740E6A92C76E70294B45B4,

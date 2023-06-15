@@ -2480,8 +2480,10 @@ struct Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87  : public RuntimeObj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____visualRoot_5;
 	// UnityEngine.MeshFilter Niantic.ARDK.Extensions.Gameboard.Visualiser::_meshFilter
 	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ____meshFilter_6;
+	// UnityEngine.MeshFilter Niantic.ARDK.Extensions.Gameboard.Visualiser::_badMeshFilter
+	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ____badMeshFilter_7;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.Visualiser::_active
-	bool ____active_7;
+	bool ____active_8;
 };
 
 // UnityEngine.YieldInstruction
@@ -27929,7 +27931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModelSettings_t6699CF7D34CD0F2B8451D6B4DABEDF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Gameboard_get_Area_mBFF07DB35AB7B6D32D1FEEEF926259480E9EB1D7 (Gameboard_tC78DB72D84E16993015B12832CDF686250E1A1CB* __this, const RuntimeMethod* method) 
 {
 	{
-		// public float Area { get; private set; }
+		// public float Area { get; set; }
 		float L_0 = __this->___U3CAreaU3Ek__BackingField_5;
 		return L_0;
 	}
@@ -27938,7 +27940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Gameboard_get_Area_mBFF07DB35AB7B6D32D1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gameboard_set_Area_mCCD300890F7B695C3ACE822894A493B64DF7A8DD (Gameboard_tC78DB72D84E16993015B12832CDF686250E1A1CB* __this, float ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public float Area { get; private set; }
+		// public float Area { get; set; }
 		float L_0 = ___value0;
 		__this->___U3CAreaU3Ek__BackingField_5 = L_0;
 		return;
@@ -35781,7 +35783,7 @@ IL_0023:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Gameboard_set_Area_mCCD300890F7B695C3ACE822894A493B64DF7A8DD_inline (Gameboard_tC78DB72D84E16993015B12832CDF686250E1A1CB* __this, float ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public float Area { get; private set; }
+		// public float Area { get; set; }
 		float L_0 = ___value0;
 		__this->___U3CAreaU3Ek__BackingField_5 = L_0;
 		return;
@@ -35798,7 +35800,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tC603E685A3ED20E0FF650B5A1
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Gameboard_get_Area_mBFF07DB35AB7B6D32D1FEEEF926259480E9EB1D7_inline (Gameboard_tC78DB72D84E16993015B12832CDF686250E1A1CB* __this, const RuntimeMethod* method) 
 {
 	{
-		// public float Area { get; private set; }
+		// public float Area { get; set; }
 		float L_0 = __this->___U3CAreaU3Ek__BackingField_5;
 		return L_0;
 	}

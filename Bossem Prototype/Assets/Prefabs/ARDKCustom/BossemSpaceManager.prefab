@@ -54,7 +54,7 @@ MonoBehaviour:
   _replaceButtonText: {fileID: 0}
   _callButton: {fileID: 0}
   _replacePlayspaceButton: {fileID: 0}
-  _playspaceArea: 5
+  _playspaceArea: 0.5
   _pruneButton: {fileID: 0}
 --- !u!114 &6144848239988059773
 MonoBehaviour:
@@ -71,14 +71,14 @@ MonoBehaviour:
   _manageUsingUnityLifecycle: 1
   _camera: {fileID: 0}
   _tileSize: 0.1
-  _flatFloorTolerance: 0.2
+  _flatFloorTolerance: 0.25
   _maxSlope: 25
   _stepHeight: 0.1
   _scanInterval: 0.1
   _scanRange: 5
   _layerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 2147483647
   _visualise: 1
 --- !u!114 &6144848239988059775
 MonoBehaviour:

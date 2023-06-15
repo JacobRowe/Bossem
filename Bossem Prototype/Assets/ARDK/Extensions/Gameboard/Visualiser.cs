@@ -18,8 +18,10 @@ namespace Niantic.ARDK.Extensions.Gameboard
 
     private GameObject _visualRoot;
     private MeshFilter _meshFilter = new MeshFilter();
+    private MeshFilter _badMeshFilter = new MeshFilter();
 
-    private bool _active;
+
+        private bool _active;
 
     public Visualiser(IGameboard gameboard, GameboardModel model, bool active)
     {
@@ -94,7 +96,7 @@ namespace Niantic.ARDK.Extensions.Gameboard
     {
       _visualRoot = new GameObject();
       _visualRoot.name = "Gameboard Visualisation";
-            _visualRoot.transform.position = Vector3.zero;
+      _visualRoot.transform.position = Vector3.zero;
             //fix
             //_visualRoot.transform.position = new Vector3(0, 0.1f, 0.0f);
 
@@ -105,6 +107,9 @@ namespace Niantic.ARDK.Extensions.Gameboard
       _lineRenderer.widthCurve = new AnimationCurve(new Keyframe(0, 0.1f));
       _lineRenderer.material.color = Color.black;
       _lineRenderer.positionCount = 0;
+
+
+      //changes
 
       GameObject debugMeshGameObject = new GameObject();
       debugMeshGameObject.transform.SetParent(_visualRoot.transform, false);
@@ -117,8 +122,8 @@ namespace Niantic.ARDK.Extensions.Gameboard
       renderer.material.shader = Shader.Find("Unlit/Color");
       #endif
       
-      //TO DO - transparency for on device
       renderer.material.color = Color.green;
+      //TO DO - transparency for on device
       //float alpha = 0.5f;
       //renderer.material.color.a = 0.5f;
       renderer.material.renderQueue = 100;
@@ -128,6 +133,9 @@ namespace Niantic.ARDK.Extensions.Gameboard
       
       _meshFilter = debugMeshGameObject.AddComponent<MeshFilter>();
       _meshFilter.mesh.MarkDynamic();
+
+   
+
     }
 
     #region TilesDrawing

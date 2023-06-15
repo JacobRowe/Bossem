@@ -8741,8 +8741,10 @@ struct Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87  : public RuntimeObj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____visualRoot_5;
 	// UnityEngine.MeshFilter Niantic.ARDK.Extensions.Gameboard.Visualiser::_meshFilter
 	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ____meshFilter_6;
+	// UnityEngine.MeshFilter Niantic.ARDK.Extensions.Gameboard.Visualiser::_badMeshFilter
+	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ____badMeshFilter_7;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.Visualiser::_active
-	bool ____active_7;
+	bool ____active_8;
 };
 
 // Niantic.ARDK.AR.Protobuf.VpsSessionSummaryEvent
@@ -14696,14 +14698,14 @@ struct ECBlocks_tEA4244EC73E1BA16F444E8FEF988E5822ED5DB06  : public RuntimeObjec
 	ECBU5BU5D_t579C39F1A9E65583FD720AE2F386F76E441BA568* ___ecBlocks_1;
 };
 
-// Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0
-struct U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024  : public RuntimeObject
+// Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0
+struct U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D  : public RuntimeObject
 {
-	// Niantic.ARDK.Extensions.Gameboard.Surface Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::surface
+	// Niantic.ARDK.Extensions.Gameboard.Surface Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::surface
 	Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638* ___surface_0;
-	// Niantic.ARDK.Extensions.Gameboard.Visualiser Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::<>4__this
+	// Niantic.ARDK.Extensions.Gameboard.Visualiser Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::<>4__this
 	Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87* ___U3CU3E4__this_1;
-	// System.Func`2<Niantic.ARDK.Extensions.Gameboard.GridNode,UnityEngine.Vector3> Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::<>9__0
+	// System.Func`2<Niantic.ARDK.Extensions.Gameboard.GridNode,UnityEngine.Vector3> Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::<>9__0
 	Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* ___U3CU3E9__0_2;
 };
 
@@ -33540,10 +33542,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3064[3] =
 	static_cast<int32_t>(offsetof(Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638, ___U3CIdU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638, ___U3CElevationU3Ek__BackingField_1)),static_cast<int32_t>(offsetof(Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638, ____elements_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3066[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024, ___surface_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024, ___U3CU3E4__this_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024, ___U3CU3E9__0_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3067[8] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D, ___surface_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D, ___U3CU3E4__this_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D, ___U3CU3E9__0_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3067[9] = 
 {
-	static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____gameboard_0)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____model_1)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____pathDebugObjects_2)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____unusedPathDebugObjects_3)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____lineRenderer_4)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____visualRoot_5)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____meshFilter_6)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____active_7)),};
+	static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____gameboard_0)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____model_1)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____pathDebugObjects_2)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____unusedPathDebugObjects_3)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____lineRenderer_4)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____visualRoot_5)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____meshFilter_6)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____badMeshFilter_7)),static_cast<int32_t>(offsetof(Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87, ____active_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3068[3] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};

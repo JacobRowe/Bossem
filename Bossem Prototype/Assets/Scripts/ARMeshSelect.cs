@@ -50,6 +50,8 @@ public class ARMeshSelect : MonoBehaviour
     [Range(0.1f, 5.0f)]
     private float _playspaceArea = 2.5f;
 
+    public Transform testPlane;
+
     [SerializeField]
     private bool? _isPlayspaceGood = null;
 
@@ -95,6 +97,7 @@ public class ARMeshSelect : MonoBehaviour
     private void SelectMeshButton_OnClick()
     {
         StartCoroutine(SelectMesh());
+        
     }
 
     
@@ -180,7 +183,9 @@ public class ARMeshSelect : MonoBehaviour
             Debug.Log("Pruned area: " + _gameboard.Area);
             //bool _playspaceFit = _gameboard.CheckFit(hitMeshObjectCenter, _playspaceArea);
             
-            if (!_gameboard.CheckFit(hitMeshObjectCenter, 0.03f))
+            //if selected meshes gameboard is not minimum playspace size, restore meshes 
+            //and stop corutine
+            if (!_gameboard.CheckFit(hitMeshObjectCenter, 0.00f))
             {
                 foreach (Transform mesh in activeMeshList)
                 {
@@ -207,6 +212,10 @@ public class ARMeshSelect : MonoBehaviour
 
             if (_isPlayspaceGood == true)
             {
+                Debug.Log(_gameboard.Area);
+                double areaSqrt = Math.Sqrt(_gameboard.Area);
+                Debug.Log(areaSqrt);
+
                 //final scan on gameboard
                 _gameBoardManager.ScanRange = 10;
                 _gameboard.Scan(hitMeshObjectCenter, _playspaceArea);
@@ -215,6 +224,19 @@ public class ARMeshSelect : MonoBehaviour
 
                 //prune to selected mesh chunk
                 _gameboard.Prune(hitMeshObjectCenter, _playspaceArea);
+
+                //spawn a plane at center of chosen mesh of estimate gameboard area
+                
+                Transform test = Instantiate(testPlane);
+                
+                test.transform.position = new Vector3(hitMeshObjectCenter.x, hitMeshObjectCenter.y - 0.5f, hitMeshObjectCenter.z);
+                //test.transform.position = hitMeshObjectCenter;
+                test.SetParent(hitMeshObject.transform);
+                //hitMeshObject.SetActive(false);
+                hitMeshObject.GetComponent<MeshCollider>().enabled = false;
+                
+                _gameboard.SetVisualisationActive(false);
+
 
 
                 _arMeshMananger.DisableFeatures();
@@ -251,7 +273,7 @@ public class ARMeshSelect : MonoBehaviour
         yield return null;
     }
 
-
+    
 
 
 

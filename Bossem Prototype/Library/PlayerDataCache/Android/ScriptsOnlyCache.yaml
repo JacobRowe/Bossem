@@ -32,14 +32,9 @@ ScriptsOnlyBuild:
     - IngameDebugConsole.EventSystemHandler
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
-    Unity.AdaptivePerformance.Samsung.Android.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.SamsungAndroidProviderSettingsEditor
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -1442,7 +1437,7 @@ ScriptsOnlyBuild:
     className: DepthExampleManager
   - hash:
       serializedVersion: 2
-      Hash: d999f01792e1087023dbd545fddd4c5b
+      Hash: 12e80ba840673f44c854eb1cdfdfe6df
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARMeshSelect

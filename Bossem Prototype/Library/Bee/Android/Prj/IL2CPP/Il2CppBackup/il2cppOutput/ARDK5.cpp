@@ -896,8 +896,8 @@ struct U3CU3Ec__DisplayClass9_0_t367A7B35E4A6704F3E76C70CD92B2466BDC857EE;
 struct Quad_t0D5F31D8D6AE3095DA65CE3881480A016F093536;
 // Niantic.ARDK.Extensions.Gameboard.Surface/<>c__DisplayClass20_0
 struct U3CU3Ec__DisplayClass20_0_tA3DFB0761EBBBB39A15483A4070A65430AF23C5C;
-// Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0
-struct U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024;
+// Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0
+struct U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D;
 // Niantic.ARDK.AR._NativeARSession/<>c
 struct U3CU3Ec_t1243A3ADEA1E86B8E22E5166877590140A260AFF;
 // Niantic.ARDK.AR._NativeARSession/<>c__DisplayClass168_0
@@ -1089,7 +1089,7 @@ IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass11_0_t646460D224E1AC5F1FE0B9CFF096CA2387A6859C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass15_0_tD2A9B3DF041AE35272288A53DD8CC7F2F42172CA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass168_0_tCB02C33D2B32DC2373D5A0AC9D1917B5FDFBDFAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass172_0_t986EE656CE989DF71139B03D98771F388FCF85B1_il2cpp_TypeInfo_var;
@@ -1521,7 +1521,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__50_4_mFBA04B045E3866F
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__50_5_m10227E0174D054FE27FF0F664A6BD42BDA03C1EE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass11_0_U3C_InvokeSessionInitializedU3Eb__0_m5D6352EEC255BD8DC5143C1F7C7D01EE7936598A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass11_0_U3C_InvokeSessionInitializedU3Eb__1_m6ED14F29B8347ABED03C71A49F200E85833CED92_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass13_0_U3CUpdateDebugMeshU3Eb__0_m8612DD415B12E0AEDECDD353D555BE57E471270C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass14_0_U3CUpdateDebugMeshU3Eb__0_mDE01AB96DF60E645EBF89B68D5989EE0CABA44D2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass15_0_U3CInsertU3Eb__0_mDCAEADA9C39348A1D341A2BF6233D65650EB8083_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass168_0_U3C_onDidUpdateFrameNativeU3Eb__0_m16CE42FCA6732067A9732DF8D705433524B42AD4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass172_0_U3C_onDidAddAnchorsNativeU3Eb__0_m481B940CBF1281F6A0A56734966EF407E4182A74_RuntimeMethod_var;
@@ -2773,8 +2773,10 @@ struct Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87  : public RuntimeObj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____visualRoot_5;
 	// UnityEngine.MeshFilter Niantic.ARDK.Extensions.Gameboard.Visualiser::_meshFilter
 	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ____meshFilter_6;
+	// UnityEngine.MeshFilter Niantic.ARDK.Extensions.Gameboard.Visualiser::_badMeshFilter
+	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ____badMeshFilter_7;
 	// System.Boolean Niantic.ARDK.Extensions.Gameboard.Visualiser::_active
-	bool ____active_7;
+	bool ____active_8;
 };
 
 // Niantic.ARDK.AR.Protobuf.VpsSessionSummaryEvent
@@ -2990,14 +2992,14 @@ struct U3CU3Ec_t578D6A504ED36ACF90C401FDC7CE89598BF8042D_StaticFields
 	Func_2_tA79120EE221719FE1ED3072F7B457A20E5E2A9A3* ___U3CU3E9__9_0_1;
 };
 
-// Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0
-struct U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024  : public RuntimeObject
+// Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0
+struct U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D  : public RuntimeObject
 {
-	// Niantic.ARDK.Extensions.Gameboard.Surface Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::surface
+	// Niantic.ARDK.Extensions.Gameboard.Surface Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::surface
 	Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638* ___surface_0;
-	// Niantic.ARDK.Extensions.Gameboard.Visualiser Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::<>4__this
+	// Niantic.ARDK.Extensions.Gameboard.Visualiser Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::<>4__this
 	Visualiser_t4BF00AE8520B152F51BE52EBC175453D6D4BFB87* ___U3CU3E4__this_1;
-	// System.Func`2<Niantic.ARDK.Extensions.Gameboard.GridNode,UnityEngine.Vector3> Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::<>9__0
+	// System.Func`2<Niantic.ARDK.Extensions.Gameboard.GridNode,UnityEngine.Vector3> Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::<>9__0
 	Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* ___U3CU3E9__0_2;
 };
 
@@ -7211,8 +7213,8 @@ inline void Enumerator_Dispose_m58B01E8AF0BBAF41293AA8695B54DE33E165DE0C (Enumer
 {
 	((  void (*) (Enumerator_t3D8ECBED73D2FD4B0AD68D29C075FCA1451B2638*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
 }
-// System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mA471B3CA91DB11832C8AF2B822461F0901A46D04 (U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_mB461F434F7F50F718F3CA7D0780F7622E8604479 (U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1/Enumerator<Niantic.ARDK.Extensions.Gameboard.Surface>::get_Current()
 inline Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638* Enumerator_get_Current_mC82D67729CE717E0BFC0CD0D88C53B6E6C80A1D4_inline (Enumerator_t3D8ECBED73D2FD4B0AD68D29C075FCA1451B2638* __this, const RuntimeMethod* method)
 {
@@ -14384,21 +14386,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Visualiser__ctor_mF1E981EAE71A091CFA9091
 		MeshFilter__ctor_m77A77552ED64DE8DBE9DD89910941E83CC61862A(L_0, NULL);
 		__this->____meshFilter_6 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____meshFilter_6), (void*)L_0);
+		// private MeshFilter _badMeshFilter = new MeshFilter();
+		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_1 = (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5*)il2cpp_codegen_object_new(MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		MeshFilter__ctor_m77A77552ED64DE8DBE9DD89910941E83CC61862A(L_1, NULL);
+		__this->____badMeshFilter_7 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____badMeshFilter_7), (void*)L_1);
 		// public Visualiser(IGameboard gameboard, GameboardModel model, bool active)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// _model = model;
-		GameboardModel_t242026D275F94CAD318272F320923BBFB46A412E* L_1 = ___model1;
-		__this->____model_1 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____model_1), (void*)L_1);
+		GameboardModel_t242026D275F94CAD318272F320923BBFB46A412E* L_2 = ___model1;
+		__this->____model_1 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____model_1), (void*)L_2);
 		// _gameboard = gameboard;
-		RuntimeObject* L_2 = ___gameboard0;
-		__this->____gameboard_0 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameboard_0), (void*)L_2);
+		RuntimeObject* L_3 = ___gameboard0;
+		__this->____gameboard_0 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameboard_0), (void*)L_3);
 		// if (active)
-		bool L_3 = ___active2;
-		if (!L_3)
+		bool L_4 = ___active2;
+		if (!L_4)
 		{
-			goto IL_0028;
+			goto IL_0033;
 		}
 	}
 	{
@@ -14406,29 +14414,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Visualiser__ctor_mF1E981EAE71A091CFA9091
 		Visualiser_CreateNewDebugObjects_m93BC5A6B8957AE7A153A3A53396B86D5435842A7(__this, NULL);
 	}
 
-IL_0028:
+IL_0033:
 	{
 		// _active = active;
-		bool L_4 = ___active2;
-		__this->____active_7 = L_4;
-		// if (active)
 		bool L_5 = ___active2;
-		if (!L_5)
+		__this->____active_8 = L_5;
+		// if (active)
+		bool L_6 = ___active2;
+		if (!L_6)
 		{
-			goto IL_0049;
+			goto IL_0054;
 		}
 	}
 	{
 		// _gameboard.GameboardUpdated += OnGameboardSurfaceUpdate;
-		RuntimeObject* L_6 = __this->____gameboard_0;
-		ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801* L_7 = (ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801*)il2cpp_codegen_object_new(ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7 = __this->____gameboard_0;
+		ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801* L_8 = (ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801*)il2cpp_codegen_object_new(ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		ArdkEventHandler_1__ctor_m311E6C8DABC5E65E570ADCE3A455A8F98BFB8EA9(L_8, __this, (intptr_t)((void*)Visualiser_OnGameboardSurfaceUpdate_m0ED48124E93E4A1A58C9A36718357D3F35F54A22_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
-		ArdkEventHandler_1__ctor_m311E6C8DABC5E65E570ADCE3A455A8F98BFB8EA9(L_7, __this, (intptr_t)((void*)Visualiser_OnGameboardSurfaceUpdate_m0ED48124E93E4A1A58C9A36718357D3F35F54A22_RuntimeMethod_var), NULL);
-		NullCheck(L_6);
-		InterfaceActionInvoker1< ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801* >::Invoke(2 /* System.Void Niantic.ARDK.Extensions.Gameboard.IGameboard::add_GameboardUpdated(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Extensions.Gameboard.GameboardUpdatedArgs>) */, IGameboard_t705327E7B768329493F4FCDE0E89144A5757C6EC_il2cpp_TypeInfo_var, L_6, L_7);
+		InterfaceActionInvoker1< ArdkEventHandler_1_t02FA4889E9388E8503033696F0527F52F8C2F801* >::Invoke(2 /* System.Void Niantic.ARDK.Extensions.Gameboard.IGameboard::add_GameboardUpdated(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Extensions.Gameboard.GameboardUpdatedArgs>) */, IGameboard_t705327E7B768329493F4FCDE0E89144A5757C6EC_il2cpp_TypeInfo_var, L_7, L_8);
 	}
 
-IL_0049:
+IL_0054:
 	{
 		// }
 		return;
@@ -14634,9 +14642,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Visualiser_SetActive_m2255727E34E03AEA66
 	{
 		// _active = active;
 		bool L_0 = ___active0;
-		__this->____active_7 = L_0;
+		__this->____active_8 = L_0;
 		// if (_active)
-		bool L_1 = __this->____active_7;
+		bool L_1 = __this->____active_8;
 		if (!L_1)
 		{
 			goto IL_0058;
@@ -14702,7 +14710,7 @@ IL_007f:
 	{
 		// _lineRenderer.enabled = _active;
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_14 = __this->____lineRenderer_4;
-		bool L_15 = __this->____active_7;
+		bool L_15 = __this->____active_8;
 		NullCheck(L_14);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_14, L_15, NULL);
 		// foreach (var sphere in _pathDebugObjects)
@@ -14734,7 +14742,7 @@ IL_009e_1:
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
 				L_18 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 				// sphere.SetActive(_active);
-				bool L_19 = __this->____active_7;
+				bool L_19 = __this->____active_8;
 				NullCheck(L_18);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, L_19, NULL);
 			}
@@ -14993,8 +15001,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Visualiser_UpdateDebugMesh_m902A0CF8FC5F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass13_0_U3CUpdateDebugMeshU3Eb__0_m8612DD415B12E0AEDECDD353D555BE57E471270C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass14_0_U3CUpdateDebugMeshU3Eb__0_mDE01AB96DF60E645EBF89B68D5989EE0CABA44D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
@@ -15004,7 +15012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Visualiser_UpdateDebugMesh_m902A0CF8FC5F
 	float V_4 = 0.0f;
 	Enumerator_t3D8ECBED73D2FD4B0AD68D29C075FCA1451B2638 V_5;
 	memset((&V_5), 0, sizeof(V_5));
-	U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* V_6 = NULL;
+	U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* V_6 = NULL;
 	RuntimeObject* V_7 = NULL;
 	Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* V_8 = NULL;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_9;
@@ -15060,16 +15068,16 @@ FINALLY_017e:
 
 IL_0039_1:
 			{
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_7 = (U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024_il2cpp_TypeInfo_var);
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_7 = (U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D_il2cpp_TypeInfo_var);
 				NullCheck(L_7);
-				U3CU3Ec__DisplayClass13_0__ctor_mA471B3CA91DB11832C8AF2B822461F0901A46D04(L_7, NULL);
+				U3CU3Ec__DisplayClass14_0__ctor_mB461F434F7F50F718F3CA7D0780F7622E8604479(L_7, NULL);
 				V_6 = L_7;
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_8 = V_6;
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_8 = V_6;
 				NullCheck(L_8);
 				L_8->___U3CU3E4__this_1 = __this;
 				Il2CppCodeGenWriteBarrier((void**)(&L_8->___U3CU3E4__this_1), (void*)__this);
 				// foreach (var surface in surfaces)
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_9 = V_6;
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_9 = V_6;
 				Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638* L_10;
 				L_10 = Enumerator_get_Current_mC82D67729CE717E0BFC0CD0D88C53B6E6C80A1D4_inline((&V_5), Enumerator_get_Current_mC82D67729CE717E0BFC0CD0D88C53B6E6C80A1D4_RuntimeMethod_var);
 				NullCheck(L_9);
@@ -15077,13 +15085,13 @@ IL_0039_1:
 				Il2CppCodeGenWriteBarrier((void**)(&L_9->___surface_0), (void*)L_10);
 				// foreach (var center in surface.Elements.Select
 				//   (node => Utils.TileToPosition(node.Coordinates, surface.Elevation, _gameboard.Settings.TileSize)))
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_11 = V_6;
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_11 = V_6;
 				NullCheck(L_11);
 				Surface_tF5BE8BF6B212A1C5231A8136C1BA50695C297638* L_12 = L_11->___surface_0;
 				NullCheck(L_12);
 				RuntimeObject* L_13;
 				L_13 = Surface_get_Elements_mFD1719F0F43254F6C6FAAF22E77C66767CB0C702(L_12, NULL);
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_14 = V_6;
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_14 = V_6;
 				NullCheck(L_14);
 				Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* L_15 = L_14->___U3CU3E9__0_2;
 				Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* L_16 = L_15;
@@ -15097,11 +15105,11 @@ IL_0039_1:
 				}
 			}
 			{
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_17 = V_6;
-				U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* L_18 = V_6;
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_17 = V_6;
+				U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* L_18 = V_6;
 				Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* L_19 = (Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019*)il2cpp_codegen_object_new(Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019_il2cpp_TypeInfo_var);
 				NullCheck(L_19);
-				Func_2__ctor_m1A5600DDA29C6B4D4F2BC97A1913CE49D159B119(L_19, L_18, (intptr_t)((void*)U3CU3Ec__DisplayClass13_0_U3CUpdateDebugMeshU3Eb__0_m8612DD415B12E0AEDECDD353D555BE57E471270C_RuntimeMethod_var), NULL);
+				Func_2__ctor_m1A5600DDA29C6B4D4F2BC97A1913CE49D159B119(L_19, L_18, (intptr_t)((void*)U3CU3Ec__DisplayClass14_0_U3CUpdateDebugMeshU3Eb__0_mDE01AB96DF60E645EBF89B68D5989EE0CABA44D2_RuntimeMethod_var), NULL);
 				Func_2_t00E4A3118D2B13788783B3F15FBF991860DCF019* L_20 = L_19;
 				V_8 = L_20;
 				NullCheck(L_17);
@@ -15815,16 +15823,16 @@ IL_0141:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mA471B3CA91DB11832C8AF2B822461F0901A46D04 (U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* __this, const RuntimeMethod* method) 
+// System.Void Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_mB461F434F7F50F718F3CA7D0780F7622E8604479 (U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// UnityEngine.Vector3 Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass13_0::<UpdateDebugMesh>b__0(Niantic.ARDK.Extensions.Gameboard.GridNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass13_0_U3CUpdateDebugMeshU3Eb__0_m8612DD415B12E0AEDECDD353D555BE57E471270C (U3CU3Ec__DisplayClass13_0_t222FD5C8679A09C3FDF604C264B58EC1C1AB2024* __this, GridNode_t632C407080B8E1124DC1D6FE17D7AF317B6B1D04 ___node0, const RuntimeMethod* method) 
+// UnityEngine.Vector3 Niantic.ARDK.Extensions.Gameboard.Visualiser/<>c__DisplayClass14_0::<UpdateDebugMesh>b__0(Niantic.ARDK.Extensions.Gameboard.GridNode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass14_0_U3CUpdateDebugMeshU3Eb__0_mDE01AB96DF60E645EBF89B68D5989EE0CABA44D2 (U3CU3Ec__DisplayClass14_0_t51C20A92788F5826AC8DAAF717963B5DD2E5624D* __this, GridNode_t632C407080B8E1124DC1D6FE17D7AF317B6B1D04 ___node0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
