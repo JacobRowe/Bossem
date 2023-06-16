@@ -24,6 +24,8 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Estrada_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_IngameDebugConsole_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_NavMeshComponentsExamples_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_NavMeshComponents_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Google_Protobuf_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Platform_Analytics_NATelemetry_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Recognissimo_CodeGenModule;
@@ -53,6 +55,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PhysicsModule_CodeGenMod
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SharedInternalsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreFontEngineModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreTextEngineModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
@@ -75,7 +78,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_zxing_unity_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[56] = 
+const Il2CppCodeGenModule* g_CodeGenModules[59] = 
 {
 	(&g_ARDKU2DExamples_CodeGenModule),
 	(&g_ARDK_CodeGenModule),
@@ -83,6 +86,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[56] =
 	(&g_Estrada_CodeGenModule),
 	(&g_IngameDebugConsole_Runtime_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
+	(&g_NavMeshComponentsExamples_CodeGenModule),
+	(&g_NavMeshComponents_CodeGenModule),
 	(&g_Niantic_Google_Protobuf_CodeGenModule),
 	(&g_Niantic_Platform_Analytics_NATelemetry_CodeGenModule),
 	(&g_Recognissimo_CodeGenModule),
@@ -112,6 +117,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[56] =
 	(&g_UnityEngine_SharedInternalsModule_CodeGenModule),
 	(&g_UnityEngine_SpriteShapeModule_CodeGenModule),
 	(&g_UnityEngine_SubsystemsModule_CodeGenModule),
+	(&g_UnityEngine_TerrainModule_CodeGenModule),
 	(&g_UnityEngine_TextCoreFontEngineModule_CodeGenModule),
 	(&g_UnityEngine_TextCoreTextEngineModule_CodeGenModule),
 	(&g_UnityEngine_TextRenderingModule_CodeGenModule),
@@ -139,18 +145,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	49,
 	g_ReversePInvokeWrapperPointers,
-	49874,
+	50236,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	9183,
+	9251,
 	g_Il2CppInvokerPointers,
-	1947,
+	1961,
 	g_UnresolvedVirtualMethodPointers,
 	544,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	56,
+	59,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

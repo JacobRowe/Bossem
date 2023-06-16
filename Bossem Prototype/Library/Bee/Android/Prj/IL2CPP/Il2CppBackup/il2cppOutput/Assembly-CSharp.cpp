@@ -353,6 +353,8 @@ struct List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576;
 struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B;
 // System.Collections.Generic.List`1<UnityEngine.AI.NavMeshBuildSource>
 struct List_1_tA1B43D38C15DE02C34B9D22B1D6610931673C1C3;
+// System.Collections.Generic.List`1<UnityEngine.AI.NavMeshSurface>
+struct List_1_tBB6140094DEE8B5B1F22E31899A4695F1DD52A9B;
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
@@ -747,6 +749,8 @@ struct NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F;
 struct NavMeshData_t8BA8655BA9F2090EAD42953E956E8FDB98AA5284;
 // NavMeshManager
 struct NavMeshManager_t706027BEF51CC74E1D37FA1B8AD500E4CFC98BE7;
+// UnityEngine.AI.NavMeshSurface
+struct NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7;
 // Niantic.LightshipHub.Tools.NetworkStatus
 struct NetworkStatus_t1C1C1DE6E8A4DFAB5CC1B5868E57C9C8BA4DB89C;
 // System.NotSupportedException
@@ -4604,8 +4608,10 @@ struct ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3  : public
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____spawnButton_4;
 	// UnityEngine.Transform ARPlayspaceController::PlayspaceParent
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PlayspaceParent_5;
+	// UnityEngine.AI.NavMeshSurface ARPlayspaceController::surface
+	NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7* ___surface_6;
 	// UnityEngine.GameObject ARPlayspaceController::TestPrefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___TestPrefab_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___TestPrefab_7;
 };
 
 // Niantic.LightshipHub.Templates.BalloonAnimation
@@ -4910,6 +4916,53 @@ struct MushroomAnimation_tA1771F1FDBE5423A06E46899D81594C0E1951AB4  : public Mon
 // NavMeshManager
 struct NavMeshManager_t706027BEF51CC74E1D37FA1B8AD500E4CFC98BE7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+};
+
+// UnityEngine.AI.NavMeshSurface
+struct NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Int32 UnityEngine.AI.NavMeshSurface::m_AgentTypeID
+	int32_t ___m_AgentTypeID_4;
+	// UnityEngine.AI.CollectObjects UnityEngine.AI.NavMeshSurface::m_CollectObjects
+	int32_t ___m_CollectObjects_5;
+	// UnityEngine.Vector3 UnityEngine.AI.NavMeshSurface::m_Size
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Size_6;
+	// UnityEngine.Vector3 UnityEngine.AI.NavMeshSurface::m_Center
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Center_7;
+	// UnityEngine.LayerMask UnityEngine.AI.NavMeshSurface::m_LayerMask
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___m_LayerMask_8;
+	// UnityEngine.AI.NavMeshCollectGeometry UnityEngine.AI.NavMeshSurface::m_UseGeometry
+	int32_t ___m_UseGeometry_9;
+	// System.Int32 UnityEngine.AI.NavMeshSurface::m_DefaultArea
+	int32_t ___m_DefaultArea_10;
+	// System.Boolean UnityEngine.AI.NavMeshSurface::m_IgnoreNavMeshAgent
+	bool ___m_IgnoreNavMeshAgent_11;
+	// System.Boolean UnityEngine.AI.NavMeshSurface::m_IgnoreNavMeshObstacle
+	bool ___m_IgnoreNavMeshObstacle_12;
+	// System.Boolean UnityEngine.AI.NavMeshSurface::m_OverrideTileSize
+	bool ___m_OverrideTileSize_13;
+	// System.Int32 UnityEngine.AI.NavMeshSurface::m_TileSize
+	int32_t ___m_TileSize_14;
+	// System.Boolean UnityEngine.AI.NavMeshSurface::m_OverrideVoxelSize
+	bool ___m_OverrideVoxelSize_15;
+	// System.Single UnityEngine.AI.NavMeshSurface::m_VoxelSize
+	float ___m_VoxelSize_16;
+	// System.Boolean UnityEngine.AI.NavMeshSurface::m_BuildHeightMesh
+	bool ___m_BuildHeightMesh_17;
+	// UnityEngine.AI.NavMeshData UnityEngine.AI.NavMeshSurface::m_NavMeshData
+	NavMeshData_t8BA8655BA9F2090EAD42953E956E8FDB98AA5284* ___m_NavMeshData_18;
+	// UnityEngine.AI.NavMeshDataInstance UnityEngine.AI.NavMeshSurface::m_NavMeshDataInstance
+	NavMeshDataInstance_t305211376D44ABC0AD2885CAF4E1D8F3BAE16F04 ___m_NavMeshDataInstance_19;
+	// UnityEngine.Vector3 UnityEngine.AI.NavMeshSurface::m_LastPosition
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LastPosition_20;
+	// UnityEngine.Quaternion UnityEngine.AI.NavMeshSurface::m_LastRotation
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_LastRotation_21;
+};
+
+struct NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7_StaticFields
+{
+	// System.Collections.Generic.List`1<UnityEngine.AI.NavMeshSurface> UnityEngine.AI.NavMeshSurface::s_NavMeshSurfaces
+	List_1_tBB6140094DEE8B5B1F22E31899A4695F1DD52A9B* ___s_NavMeshSurfaces_22;
 };
 
 // Niantic.LightshipHub.Tools.NetworkStatus
@@ -6827,13 +6880,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF16
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AI.NavMeshSurface::RemoveData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMeshSurface_RemoveData_m244AFF7183FD627F16B91BAD59DC32131738BB3B (NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AI.NavMeshSurface::BuildNavMesh()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMeshSurface_BuildNavMesh_m593B302D342E36F0C4FF9F9C3EB195B9A0E03AB5 (NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.AI.NavMeshAgent>()
 inline NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* Component_GetComponent_TisNavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F_m45B783D78932EFB8409019F84FED6DF3A492F16F (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
-// System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Behaviour::get_enabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
@@ -8496,6 +8551,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_OnEnable_m7D155B70
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_SpawnButton_OnClick_m0950AC7E28203FD230B6448F50D782EC890E685D (ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3* __this, const RuntimeMethod* method) 
 {
 	{
+		// surface.RemoveData();
+		NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7* L_0 = __this->___surface_6;
+		NullCheck(L_0);
+		NavMeshSurface_RemoveData_m244AFF7183FD627F16B91BAD59DC32131738BB3B(L_0, NULL);
+		// surface.BuildNavMesh();
+		NavMeshSurface_t2FFB292845FA7AA20AB609B5E91867A55A6912C7* L_1 = __this->___surface_6;
+		NullCheck(L_1);
+		NavMeshSurface_BuildNavMesh_m593B302D342E36F0C4FF9F9C3EB195B9A0E03AB5(L_1, NULL);
 		// }
 		return;
 	}
@@ -8539,10 +8602,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterNavMesh_Awake_m21C4EA244C5C922F
 		L_0 = Component_GetComponent_TisNavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F_m45B783D78932EFB8409019F84FED6DF3A492F16F(__this, Component_GetComponent_TisNavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F_m45B783D78932EFB8409019F84FED6DF3A492F16F_RuntimeMethod_var);
 		__this->___navMeshAgent_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___navMeshAgent_4), (void*)L_0);
-		// navMeshAgent.enabled = false;
-		NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* L_1 = __this->___navMeshAgent_4;
-		NullCheck(L_1);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1, (bool)0, NULL);
 		// }
 		return;
 	}

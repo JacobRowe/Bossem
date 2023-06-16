@@ -13,6 +13,8 @@ public class ARPlayspaceController : MonoBehaviour
 
 	public Transform PlayspaceParent;
 
+	public NavMeshSurface surface;
+
 	public GameObject TestPrefab;
 
 	
@@ -24,7 +26,9 @@ public class ARPlayspaceController : MonoBehaviour
 	private void SpawnButton_OnClick()
 	{
 		//spawn object on playspace random pos
-		
+		surface.RemoveData();
+
+		surface.BuildNavMesh();
 	}
 
 	
@@ -32,7 +36,9 @@ public class ARPlayspaceController : MonoBehaviour
 
 	// Update is called once per frame
 	void Update()
-    {
-        
-    }
+	{
+		
+		
+		
+	}
 }

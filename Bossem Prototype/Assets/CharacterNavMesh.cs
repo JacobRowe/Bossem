@@ -17,7 +17,7 @@ public class CharacterNavMesh : MonoBehaviour
 	private void Awake()
 	{
 		navMeshAgent = GetComponent<NavMeshAgent>();
-		navMeshAgent.enabled = false;
+		//navMeshAgent.enabled = false;
 		
 	}
 

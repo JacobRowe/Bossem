@@ -305,6 +305,8 @@
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/ARDK-Examples.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/ARDK.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/IngameDebugConsole.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/NavMeshComponents.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/NavMeshComponentsExamples.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Recognissimo.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.AdaptivePerformance.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.AdaptivePerformance.Samsung.Android.ref.dll"
