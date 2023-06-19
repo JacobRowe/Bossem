@@ -14,6 +14,10 @@ namespace Niantic.LightshipHub.Templates
     public ObjectHolderController OHcontroller;
     public bool MultipleInstances;
 
+	public delegate void OnPlayspaceCreate();
+	public static OnPlayspaceCreate onPlayspaceCreate;
+
+
     void Update()
     {
       if (PlatformAgnosticInput.touchCount <= 0) return;
@@ -43,6 +47,8 @@ namespace Niantic.LightshipHub.Templates
 
       var position = hitTestResults[0].WorldTransform.ToPosition();
 
+
+			
       GameObject obj;
       if (MultipleInstances)
       {
@@ -55,8 +61,11 @@ namespace Niantic.LightshipHub.Templates
       }
 
       obj.SetActive(true);
+
       obj.transform.position = position;
+	  //TO DO - Change to align with plane and/or camera, not to random
       obj.transform.Rotate(0.0f, Random.Range(0.0f, 360.0f), 0.0f);
+	  onPlayspaceCreate?.Invoke();
     }
   }
 }

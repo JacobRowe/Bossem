@@ -4,35 +4,56 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
-
+using Niantic.LightshipHub.Templates;
 
 public class ARPlayspaceController : MonoBehaviour
 {
-	[SerializeField]
-	private Button _spawnButton;
 
 	public Transform PlayspaceParent;
 
 	public NavMeshSurface surface;
 
-	public GameObject TestPrefab;
+	public GameObject testCharacterPrefab;
+	private CharacterNavMesh character;
+	private GameObject characterObj;
 
+
+	private bool IsSpawned = false;
+
+	//test
+	public Transform PointParent;
 	
+
 	private void OnEnable()
 	{
-		_spawnButton.onClick.AddListener(SpawnButton_OnClick);
+
+		PlacementController.onPlayspaceCreate += Spawn;
+		IsSpawned = false;
+		//test
+
 	}
 
-	private void SpawnButton_OnClick()
+	
+
+	public void Spawn()
 	{
-		//spawn object on playspace random pos
+		Destroy(characterObj);
 		surface.RemoveData();
 
 		surface.BuildNavMesh();
+		characterObj = Instantiate(testCharacterPrefab, PlayspaceParent);
+		character = characterObj.GetComponent<CharacterNavMesh>();
+		//test
+		character.Points.Clear();
+		for (int i = 0; i < PointParent.gameObject.transform.childCount; i++)
+		{
+			Debug.Log(i);
+			character.Points.Add(PointParent.GetChild(i));
+		}
+		Debug.Log("Spawned");
 	}
-
 	
-
+	
 
 	// Update is called once per frame
 	void Update()

@@ -7,25 +7,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 735283309, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33,11 +17,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.508
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.367
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45,15 +29,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -71,48 +55,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossemDummy Agent
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 735283309, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
---- !u!1 &2015269533659848047 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5763046908634503843, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-  m_PrefabInstance: {fileID: 6056734944429131724}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &1986773558
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015269533659848047}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 2.39
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 8.24
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1986773559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015269533659848047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42bdf8dab9fb36e49a1ef8aed993da5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Points:
-  - {fileID: 0}
-  - {fileID: 0}

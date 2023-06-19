@@ -6,26 +6,30 @@ using UnityEngine.AI;
 
 public class CharacterNavMesh : MonoBehaviour
 {
-	private NavMeshAgent navMeshAgent;
-
-	[SerializeField]
-	private ARPlayspaceController PlayspaceController;
+	public NavMeshAgent navMeshAgent;
 
 	//test
-	public Transform Point;
+	public List<Transform> Points;
 
 	private void Awake()
 	{
 		navMeshAgent = GetComponent<NavMeshAgent>();
 		//navMeshAgent.enabled = false;
-		
+		//Points.Add()
+		Debug.Log("Exist!");
+
 	}
 
 	private void Update()
 	{
-		if (navMeshAgent.enabled == true)
-		{
-			navMeshAgent.destination = Point.position;
-		}
+		//test
+		StartCoroutine(RandomWalk());
 	}
+
+	IEnumerator RandomWalk()
+	{
+		navMeshAgent.destination = Points[Random.Range(0, 4)].position;
+		yield return new WaitForSeconds(5);
+	}
+	
 }
