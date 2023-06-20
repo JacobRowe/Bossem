@@ -439,6 +439,7 @@
 "Assets/Scripts/GameboardSpaceManager.cs"
 "Assets/Scripts/RecognitionListener.cs"
 "Assets/Scripts/SceneManager.cs"
+"Assets/Scripts/ThirdPersonCharacter.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

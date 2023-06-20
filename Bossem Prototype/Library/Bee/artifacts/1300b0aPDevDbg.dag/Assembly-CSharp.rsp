@@ -114,7 +114,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/ARDK/External/Plugins/zxing.unity.dll"
+-r:"Assets/ARKD_ALL/ARDK/External/Plugins/zxing.unity.dll"
 -r:"D:/2021.3.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/2021.3.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/2021.3.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -323,6 +323,8 @@
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/ARGetPlane.cs"
+"Assets/ARKD_ALL/ARDK/External/EnumFlagAttribute.cs"
+"Assets/ARKD_ALL/ARDK/External/EnumFlagDrawer.cs"
 "Assets/ARPlayspaceController.cs"
 "Assets/CharacterNavMesh.cs"
 "Assets/LightshipHUB/Runtime/Scripts/SampleProjects/ARHockey/ARHockeyController.cs"
@@ -385,6 +387,7 @@
 "Assets/Scripts/GameboardSpaceManager.cs"
 "Assets/Scripts/RecognitionListener.cs"
 "Assets/Scripts/SceneManager.cs"
+"Assets/Scripts/ThirdPersonCharacter.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
