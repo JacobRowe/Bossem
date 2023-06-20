@@ -29,7 +29,7 @@ public class CharacterNavMesh : MonoBehaviour
 	IEnumerator RandomWalk()
 	{
 		navMeshAgent.destination = Points[Random.Range(0, 4)].position;
-		yield return new WaitForSeconds(5);
+		yield return new WaitForSeconds(10);
 	}
 	
 }

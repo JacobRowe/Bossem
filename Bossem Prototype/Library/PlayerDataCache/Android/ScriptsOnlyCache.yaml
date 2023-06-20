@@ -3,10 +3,11 @@ ScriptsOnlyBuild:
     ARDK-Editor.dll:
     - Niantic.ARDK.VirtualStudio.Editor.VirtualStudioConfigurationEditor
     ARDK-Examples.dll:
-    - GameboardAgent
+    - Niantic.ARDKExamples.Helpers.ARCursorRenderer
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
+    - Niantic.ARDK.Extensions.ARDepthManager
     - Niantic.ARDK.Extensions.ARPlaneManager
     - Niantic.ARDK.Extensions.ARRenderingManager
     - Niantic.ARDK.Extensions.ARSessionManager
@@ -44,7 +45,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -56,6 +56,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     ARDK:
     - Niantic.ARDK.Extensions.CapabilityChecker/FailureEvent
@@ -79,9 +80,10 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
-    - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -93,8 +95,21 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Niantic.LightshipHub.Templates.PlacementController
+    methodName: OnValueChangedRotate
+  - assembly: Assembly-CSharp
+    fullTypeName: Niantic.LightshipHub.Templates.PlacementController
+    methodName: TogglePlayspaceGood
+  - assembly: Assembly-CSharp
+    fullTypeName: Niantic.LightshipHub.Templates.PlacementController
+    methodName: TogglePlayspaceGood
+  - assembly: Assembly-CSharp
+    fullTypeName: Niantic.LightshipHub.Templates.PlacementController
+    methodName: OnValueChangedRotate
   sceneClasses:
     Assets/Scenes/ObjectPlacementPlayspacetest.unity:
     - Class: 1
@@ -154,11 +169,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5200}
     - Class: 114
+      Script: {instanceID: 5410}
+    - Class: 114
       Script: {instanceID: 5520}
     - Class: 114
       Script: {instanceID: 5758}
     - Class: 114
       Script: {instanceID: 6362}
+    - Class: 114
+      Script: {instanceID: 6408}
     - Class: 114
       Script: {instanceID: 6438}
     - Class: 114
@@ -166,7 +185,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7304}
     - Class: 114
-      Script: {instanceID: 7498}
+      Script: {instanceID: 7578}
     - Class: 114
       Script: {instanceID: 7956}
     - Class: 114
@@ -1674,7 +1693,7 @@ ScriptsOnlyBuild:
     className: WayspotAnchorExampleManager
   - hash:
       serializedVersion: 2
-      Hash: 16e3c44505860202cb0c2a752aca36dc
+      Hash: 4786029fc1c1c2fcb96871dfb557069e
     assemblyName: Assembly-CSharp.dll
     namespaceName: Niantic.LightshipHub.Templates
     className: PlacementController
@@ -2190,13 +2209,13 @@ ScriptsOnlyBuild:
     className: ARFeaturePointRenderer
   - hash:
       serializedVersion: 2
-      Hash: cb4458a31f8eaf185f476310ad101f0e
+      Hash: 0e4382bd14e2752bc9f4d678f9ddcbdb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARPlayspaceController
   - hash:
       serializedVersion: 2
-      Hash: 4b43219a1507025abbccbb18f7e24933
+      Hash: aa6d04f664306a4f0d158512c3eb8094
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterNavMesh

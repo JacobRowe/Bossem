@@ -1,10 +1,14 @@
 ﻿// Copyright 2022 Niantic, Inc. All Rights Reserved.
 
 using UnityEngine;
+using UnityEngine.UI;
 
 using Niantic.ARDK.Utilities;
 using Niantic.ARDK.AR.HitTest;
 using Niantic.ARDK.Utilities.Input.Legacy;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 namespace Niantic.LightshipHub.Templates
 {
@@ -17,8 +21,21 @@ namespace Niantic.LightshipHub.Templates
 	public delegate void OnPlayspaceCreate();
 	public static OnPlayspaceCreate onPlayspaceCreate;
 
+	private bool isPlayspaceGood = false;
+	public GameObject RotateUI;
+	public Slider RotateUISlider;
 
-    void Update()
+
+	private	GameObject PlaySpaceObj;
+
+
+	private void OnEnable()
+	{
+			RotateUISlider.onValueChanged.AddListener(delegate { OnValueChangedRotate(RotateUISlider.value); });
+
+	}
+
+	void Update()
     {
       if (PlatformAgnosticInput.touchCount <= 0) return;
 
@@ -43,29 +60,62 @@ namespace Niantic.LightshipHub.Templates
           ARHitTestResultType.EstimatedHorizontalPlane
       );
 
-      if (hitTestResults.Count <= 0) return;
+      if (hitTestResults.Count <= 0 || EventSystem.current.currentSelectedGameObject != null) return;
+
+	  
 
       var position = hitTestResults[0].WorldTransform.ToPosition();
 
 
 			
-      GameObject obj;
+
       if (MultipleInstances)
       {
-        obj = Instantiate(OHcontroller.ObjectHolder, this.transform);
-        obj.SetActive(true);
+        PlaySpaceObj = Instantiate(OHcontroller.ObjectHolder, this.transform);
+        PlaySpaceObj.SetActive(true);
       }
       else
       {
-        obj = OHcontroller.ObjectHolder;
+        PlaySpaceObj = OHcontroller.ObjectHolder;
       }
 
-      obj.SetActive(true);
+      PlaySpaceObj.SetActive(true);
 
-      obj.transform.position = position;
-	  //TO DO - Change to align with plane and/or camera, not to random
-      obj.transform.Rotate(0.0f, Random.Range(0.0f, 360.0f), 0.0f);
+      PlaySpaceObj.transform.position = position;
+			//TO DO - Change to align with plane and/or camera, not to random
+	  StartCoroutine(RotatePlayspace(PlaySpaceObj));
+      //PlaySpaceObj.transform.Rotate(0.0f, Random.Range(0.0f, 360.0f), 0.0f);
 	  onPlayspaceCreate?.Invoke();
     }
+
+	IEnumerator RotatePlayspace(GameObject playspace)
+	{
+			//buttons left and right to rotate  object
+		RotateUI.SetActive(true);
+			//set rotation of ghost object -> placed obj
+			//wait until user selects okay to place object
+		Debug.Log("Rotating");
+		yield return new WaitUntil(() => isPlayspaceGood == true);
+		Debug.Log("Rotated");
+		RotateUI.SetActive(false);
+		TogglePlayspaceGood();
+		
+
+	}
+
+
+	public void TogglePlayspaceGood()
+	{
+		isPlayspaceGood = !isPlayspaceGood;
+	}
+
+	public void OnValueChangedRotate(float RotVal)
+	{
+
+		
+		PlaySpaceObj.transform.Rotate(0.0f, PlaySpaceObj.transform.rotation.y + RotVal, 0.0f);
+	}
+
+	
   }
 }
