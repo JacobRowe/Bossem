@@ -72,3 +72,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 *.so
+*.db
+
+Bossem Prototype/Library/ArtifactDB
+Bossem Prototype/Library/SourceAssetDB
+Bossem Prototype\Library\ArtifactDB

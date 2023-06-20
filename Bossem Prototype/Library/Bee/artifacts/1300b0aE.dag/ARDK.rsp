@@ -120,9 +120,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/ARDK/External/Plugins/zxing.unity.dll"
 -r:"Assets/ARDK/Plugins/Niantic.Platform.Analytics/Niantic.Platform.Analytics.NATelemetry.4.5.0/Niantic.Platform.Analytics.NATelemetry.dll"
 -r:"Assets/ARDK/Plugins/Niantic.Protobufs/Niantic.Google.Protobuf.3.0.0/Niantic.Google.Protobuf.dll"
+-r:"Assets/ARKD_ALL/ARDK/External/Plugins/zxing.unity.dll"
 -r:"D:/2021.3.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
