@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ARPlayspaceController
     - CharacterNavMesh
+    - NavMeshAgentAnimator
     - Niantic.LightshipHub.Templates.ObjectAnimation
     - Niantic.LightshipHub.Templates.ObjectHolderController
     - Niantic.LightshipHub.Templates.PlacementController
@@ -30,8 +31,6 @@ ScriptsOnlyBuild:
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -45,6 +44,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -136,68 +144,78 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1696}
+      Script: {instanceID: 1686}
+    - Class: 114
+      Script: {instanceID: 1688}
+    - Class: 114
+      Script: {instanceID: 1690}
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 2544}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 2988}
+      Script: {instanceID: 3788}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 4756}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 5186}
     - Class: 114
-      Script: {instanceID: 5008}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 5438}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 5462}
+      Script: {instanceID: 5534}
     - Class: 114
-      Script: {instanceID: 5674}
+      Script: {instanceID: 5772}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 6382}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 6430}
     - Class: 114
-      Script: {instanceID: 6634}
+      Script: {instanceID: 6460}
     - Class: 114
-      Script: {instanceID: 6682}
+      Script: {instanceID: 6546}
     - Class: 114
-      Script: {instanceID: 6712}
+      Script: {instanceID: 6754}
     - Class: 114
-      Script: {instanceID: 6798}
+      Script: {instanceID: 6822}
     - Class: 114
-      Script: {instanceID: 7006}
+      Script: {instanceID: 7156}
     - Class: 114
-      Script: {instanceID: 7074}
+      Script: {instanceID: 7344}
     - Class: 114
-      Script: {instanceID: 7408}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 7596}
+      Script: {instanceID: 8000}
     - Class: 114
-      Script: {instanceID: 7870}
+      Script: {instanceID: 9268}
     - Class: 114
-      Script: {instanceID: 8252}
+      Script: {instanceID: 9278}
     - Class: 114
-      Script: {instanceID: 9520}
-    - Class: 114
-      Script: {instanceID: 9530}
+      Script: {instanceID: 56142}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2333,6 +2351,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshAgentAnimator
   platform: 13
   scenePathNames:
   - Assets/Scenes/ObjectPlacementPlayspacetest.unity

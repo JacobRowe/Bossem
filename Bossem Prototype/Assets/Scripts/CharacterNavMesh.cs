@@ -1,3 +1,4 @@
+using Niantic.LightshipHub.Templates;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,26 +11,41 @@ public class CharacterNavMesh : MonoBehaviour
 
 	//test
 	public List<Transform> Points;
+	
 
 	private void Awake()
 	{
 		navMeshAgent = GetComponent<NavMeshAgent>();
-		//navMeshAgent.enabled = false;
+		PlacementController.onPlayspaceCreate += EnableAgent;
+
 		//Points.Add()
 		Debug.Log("Exist!");
 
+
+
 	}
 
-	private void Update()
+	private void EnableAgent()
 	{
-		//test
+		Debug.Log("Agent on");
+		//StartCoroutine(RandomWalk());
+		
+	}
+
+	private void LateUpdate()
+	{
 		StartCoroutine(RandomWalk());
 	}
 
 	IEnumerator RandomWalk()
 	{
-		navMeshAgent.destination = Points[Random.Range(0, 4)].position;
-		yield return new WaitForSeconds(10);
+
+		for (int i = 0; i < 10; i++)
+		{
+			navMeshAgent.destination = Points[Random.Range(0, 4)].position;
+			yield return new WaitForSeconds(2);
+		}
+		
 	}
 	
 }

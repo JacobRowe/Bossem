@@ -427,6 +427,7 @@
 "Assets/Recognissimo/Samples/SpeechRecognizerExample/SpeechRecognizerExample.cs"
 "Assets/Recognissimo/Samples/VoiceActivityDetectorExample/VoiceActivityDetectorExample.cs"
 "Assets/Recognissimo/Samples/VoiceControlExample/VoiceControlExample.cs"
+"Assets/Scripts/Animator/NavMeshAgentAnimator.cs"
 "Assets/Scripts/ARGetPlane.cs"
 "Assets/Scripts/ARMeshSelect.cs"
 "Assets/Scripts/ARPlayspaceController.cs"

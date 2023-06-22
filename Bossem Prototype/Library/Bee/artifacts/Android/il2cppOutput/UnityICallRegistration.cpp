@@ -146,6 +146,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AI_NavMeshAgent_GetCurrentOffMeshLinkDataInternal_Injected();
 		Register_UnityEngine_AI_NavMeshAgent_GetCurrentOffMeshLinkDataInternal_Injected();
 
+		//System.Void UnityEngine.AI.NavMeshAgent::get_velocity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_AI_NavMeshAgent_get_velocity_Injected();
+		Register_UnityEngine_AI_NavMeshAgent_get_velocity_Injected();
+
 		//System.Void UnityEngine.AI.NavMeshAgent::set_autoTraverseOffMeshLink(System.Boolean)
 		void Register_UnityEngine_AI_NavMeshAgent_set_autoTraverseOffMeshLink();
 		Register_UnityEngine_AI_NavMeshAgent_set_autoTraverseOffMeshLink();
@@ -918,9 +922,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_get_hasBoundPlayables();
 		Register_UnityEngine_Animator_get_hasBoundPlayables();
 
+		//System.Int32 UnityEngine.Animator::StringToHash(System.String)
+		void Register_UnityEngine_Animator_StringToHash();
+		Register_UnityEngine_Animator_StringToHash();
+
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
+
+		//System.Void UnityEngine.Animator::SetFloatID(System.Int32,System.Single)
+		void Register_UnityEngine_Animator_SetFloatID();
+		Register_UnityEngine_Animator_SetFloatID();
 
 		//System.Void UnityEngine.Animator::SetFloatString(System.String,System.Single)
 		void Register_UnityEngine_Animator_SetFloatString();
