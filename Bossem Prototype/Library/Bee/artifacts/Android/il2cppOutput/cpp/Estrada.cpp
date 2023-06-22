@@ -383,8 +383,6 @@ struct U3CRequestPermissionU3Ed__0_t90F98B2339EDD2711D25E99780FAA3105F55B822  : 
 	int32_t ___U3CU3E1__state_0;
 	// System.Object Estrada.DefaultMicrophoneController/IOSMicrophonePermissionRequester/<RequestPermission>d__0::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Estrada.DefaultMicrophoneController/IOSMicrophonePermissionRequester Estrada.DefaultMicrophoneController/IOSMicrophonePermissionRequester/<RequestPermission>d__0::<>4__this
-	IOSMicrophonePermissionRequester_tD595018A2044142557CDE05C571C1598A41AF9BD* ___U3CU3E4__this_2;
 };
 
 // Estrada.DefaultMicrophoneController/MacOSMicrophonePermissionRequester/<RequestPermission>d__2
@@ -394,8 +392,6 @@ struct U3CRequestPermissionU3Ed__2_t23E7E2BC701563E9444DFDD561A1AF66860CE57C  : 
 	int32_t ___U3CU3E1__state_0;
 	// System.Object Estrada.DefaultMicrophoneController/MacOSMicrophonePermissionRequester/<RequestPermission>d__2::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Estrada.DefaultMicrophoneController/MacOSMicrophonePermissionRequester Estrada.DefaultMicrophoneController/MacOSMicrophonePermissionRequester/<RequestPermission>d__2::<>4__this
-	MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA* ___U3CU3E4__this_2;
 };
 
 // System.Boolean
@@ -968,19 +964,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Microphone_CreateMicrophoneCon
 // System.Boolean Estrada.DefaultMicrophoneController::RequiresPermission()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_RequiresPermission_m10DC72852438D3E1468BB0EA56B588F1388E4A28 (DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// return _microphonePermissionRequester != null;
 		RuntimeObject* L_0 = __this->____microphonePermissionRequester_0;
-		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		// }
-		bool L_1 = V_0;
-		return L_1;
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
 // System.Collections.IEnumerator Estrada.DefaultMicrophoneController::RequestPermission()
@@ -1012,14 +999,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_HasPermissio
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMicrophonePermissionRequester_t58E6AA06D9D801B8619E64D76D621EDDAAB977D6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	int32_t G_B3_0 = 0;
 	{
 		// return _microphonePermissionRequester == null || _microphonePermissionRequester.HasPermission();
 		RuntimeObject* L_0 = __this->____microphonePermissionRequester_0;
 		if (!L_0)
 		{
-			goto IL_0016;
+			goto IL_0014;
 		}
 	}
 	{
@@ -1027,32 +1012,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_HasPermissio
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean Estrada.DefaultMicrophoneController/IMicrophonePermissionRequester::HasPermission() */, IMicrophonePermissionRequester_t58E6AA06D9D801B8619E64D76D621EDDAAB977D6_il2cpp_TypeInfo_var, L_1);
-		G_B3_0 = ((int32_t)(L_2));
-		goto IL_0017;
+		return L_2;
 	}
 
-IL_0016:
+IL_0014:
 	{
-		G_B3_0 = 1;
-	}
-
-IL_0017:
-	{
-		V_0 = (bool)G_B3_0;
-		goto IL_001a;
-	}
-
-IL_001a:
-	{
-		// }
-		bool L_3 = V_0;
-		return L_3;
+		return (bool)1;
 	}
 }
 // UnityEngine.AudioClip Estrada.DefaultMicrophoneController::Start(System.String,System.Boolean,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* DefaultMicrophoneController_Start_m32491ADFD5F51C8DB474B68F63B932941EE046C8 (DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* __this, String_t* ___deviceName0, bool ___loop1, int32_t ___lengthSec2, int32_t ___frequency3, const RuntimeMethod* method) 
 {
-	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
 	{
 		// _currentClip = UnityEngine.Microphone.Start(deviceName, loop, lengthSec, frequency);
 		String_t* L_0 = ___deviceName0;
@@ -1065,15 +1035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentClip_1), (void*)L_4);
 		// return _currentClip;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = __this->____currentClip_1;
-		V_0 = L_5;
-		goto IL_001a;
-	}
-
-IL_001a:
-	{
-		// }
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = V_0;
-		return L_6;
+		return L_5;
 	}
 }
 // System.Void Estrada.DefaultMicrophoneController::End(System.String)
@@ -1090,41 +1052,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMicrophoneController_End_m53CACEA
 // System.Boolean Estrada.DefaultMicrophoneController::IsRecording(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_IsRecording_mB1B2568D2EE406F0162EEF3C526CB3B42C7BF229 (DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* __this, String_t* ___deviceName0, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// return UnityEngine.Microphone.IsRecording(deviceName);
 		String_t* L_0 = ___deviceName0;
 		bool L_1;
 		L_1 = Microphone_IsRecording_m7334F3651484FD1E4AC743225059181A1C7C908C(L_0, NULL);
-		V_0 = L_1;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// }
-		bool L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // System.Int32 Estrada.DefaultMicrophoneController::GetPosition(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultMicrophoneController_GetPosition_mED55CB02C67D1C4F979AA3B05726176B7527ACB8 (DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* __this, String_t* ___deviceName0, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
 	{
 		// return UnityEngine.Microphone.GetPosition(deviceName);
 		String_t* L_0 = ___deviceName0;
 		int32_t L_1;
 		L_1 = Microphone_GetPosition_m1F89E765811C03D64F5734169FBCAF1433441BAD(L_0, NULL);
-		V_0 = L_1;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// }
-		int32_t L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // System.Boolean Estrada.DefaultMicrophoneController::GetCurrentData(System.Single[],System.Int32)
@@ -1136,8 +1080,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_GetCurrentDa
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	int32_t G_B3_0 = 0;
 	{
 		// return _currentClip && _currentClip.GetData(data, offsetSamples);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->____currentClip_1;
@@ -1146,7 +1088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_GetCurrentDa
 		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
 		if (!L_1)
 		{
-			goto IL_001d;
+			goto IL_001b;
 		}
 	}
 	{
@@ -1156,26 +1098,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultMicrophoneController_GetCurrentDa
 		NullCheck(L_2);
 		bool L_5;
 		L_5 = AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D(L_2, L_3, L_4, NULL);
-		G_B3_0 = ((int32_t)(L_5));
-		goto IL_001e;
+		return L_5;
 	}
 
-IL_001d:
+IL_001b:
 	{
-		G_B3_0 = 0;
-	}
-
-IL_001e:
-	{
-		V_0 = (bool)G_B3_0;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		// }
-		bool L_6 = V_0;
-		return L_6;
+		return (bool)0;
 	}
 }
 // System.Void Estrada.DefaultMicrophoneController::GetDeviceCaps(System.String,System.Int32&,System.Int32&)
@@ -1194,20 +1122,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMicrophoneController_GetDeviceCap
 // System.String[] Estrada.DefaultMicrophoneController::Devices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* DefaultMicrophoneController_Devices_m06CA588AE531BD8661157A70002C6AC6380E0E8A (DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* __this, const RuntimeMethod* method) 
 {
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
 	{
 		// return UnityEngine.Microphone.devices;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = Microphone_get_devices_mCD587533C5DBD8AE5C1D4E52143F7B6E9CAF181E(NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		// }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Estrada.DefaultMicrophoneController::.ctor()
@@ -1234,98 +1153,67 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMicrophoneController__ctor_m78945
 		int32_t L_0;
 		L_0 = Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D(NULL);
 		V_1 = L_0;
-		if (1)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-	}
-
-IL_000a:
-	{
 		int32_t L_1 = V_1;
 		if ((((int32_t)L_1) == ((int32_t)1)))
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		int32_t L_2 = V_1;
-		if ((((int32_t)L_2) == ((int32_t)8)))
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		goto IL_0016;
+		int32_t L_2 = V_1;
+		if ((((int32_t)L_2) == ((int32_t)8)))
+		{
+			goto IL_0015;
+		}
 	}
-
-IL_0016:
 	{
 		int32_t L_3 = V_1;
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)11))))
 		{
-			goto IL_002d;
+			goto IL_0025;
 		}
 	}
 	{
-		goto IL_0035;
+		goto IL_002d;
 	}
 
-IL_001d:
+IL_0015:
 	{
 		// RuntimePlatform.IPhonePlayer => new IOSMicrophonePermissionRequester(),
 		IOSMicrophonePermissionRequester_tD595018A2044142557CDE05C571C1598A41AF9BD* L_4 = (IOSMicrophonePermissionRequester_tD595018A2044142557CDE05C571C1598A41AF9BD*)il2cpp_codegen_object_new(IOSMicrophonePermissionRequester_tD595018A2044142557CDE05C571C1598A41AF9BD_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
 		IOSMicrophonePermissionRequester__ctor_m79B1542D287843AD2D74499BEC7C3A67976C7C97(L_4, NULL);
 		V_0 = L_4;
-		goto IL_0039;
+		goto IL_002f;
 	}
 
-IL_0025:
+IL_001d:
 	{
 		// RuntimePlatform.OSXPlayer => new MacOSMicrophonePermissionRequester(),
 		MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA* L_5 = (MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA*)il2cpp_codegen_object_new(MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
 		MacOSMicrophonePermissionRequester__ctor_mAA53F929C627CBB0B8912C1052FA0BC4F7BED171(L_5, NULL);
 		V_0 = L_5;
-		goto IL_0039;
+		goto IL_002f;
 	}
 
-IL_002d:
+IL_0025:
 	{
 		// RuntimePlatform.Android => new AndroidMicrophonePermissionRequester(),
 		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_6 = (AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B*)il2cpp_codegen_object_new(AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
 		AndroidMicrophonePermissionRequester__ctor_m4F3AE46C22BBDE2F15C79F9D01D2B6E3C5DBF927(L_6, NULL);
 		V_0 = L_6;
-		goto IL_0039;
+		goto IL_002f;
 	}
 
-IL_0035:
+IL_002d:
 	{
 		// _ => null
 		V_0 = (RuntimeObject*)NULL;
-		goto IL_0039;
 	}
 
-IL_0039:
-	{
-		if (1)
-		{
-			goto IL_003d;
-		}
-	}
-	{
-	}
-
-IL_003d:
+IL_002f:
 	{
 		RuntimeObject* L_7 = V_0;
 		__this->____microphonePermissionRequester_0 = L_7;
@@ -1416,20 +1304,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidMicrophonePermissionRequester_Has
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return Permission.HasUserAuthorizedPermission(Permission.Microphone);
 		bool L_0;
 		L_0 = Permission_HasUserAuthorizedPermission_m2742B284815A87BA03E79B45CA8DB35CF6A78736(_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748, NULL);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		// }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Estrada.DefaultMicrophoneController/AndroidMicrophonePermissionRequester::PermissionExecuted(System.String)
@@ -1489,73 +1368,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRequestPermissionU3Ed__3_MoveNext_m62
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* V_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
+		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
+		if (!L_2)
 		{
-			goto IL_0014;
+			goto IL_0017;
 		}
 	}
 	{
-		goto IL_0016;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0055;
+		}
 	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0067;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// _pending = true;
-		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_3 = __this->___U3CU3E4__this_2;
-		NullCheck(L_3);
-		L_3->____pending_1 = (bool)1;
-		// Permission.RequestUserPermission(Permission.Microphone, _permissionCallbacks);
-		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_4 = __this->___U3CU3E4__this_2;
+		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_4 = V_1;
 		NullCheck(L_4);
-		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_5 = L_4->____permissionCallbacks_0;
-		Permission_RequestUserPermission_m1063667D9EECEE29D2D1A137B82D22621A2D0A03(_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748, L_5, NULL);
+		L_4->____pending_1 = (bool)1;
+		// Permission.RequestUserPermission(Permission.Microphone, _permissionCallbacks);
+		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_5 = V_1;
+		NullCheck(L_5);
+		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_6 = L_5->____permissionCallbacks_0;
+		Permission_RequestUserPermission_m1063667D9EECEE29D2D1A137B82D22621A2D0A03(_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748, L_6, NULL);
 		// yield return new WaitWhile(() => _pending);
-		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_6 = __this->___U3CU3E4__this_2;
-		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_7 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_7, L_6, (intptr_t)((void*)AndroidMicrophonePermissionRequester_U3CRequestPermissionU3Eb__3_0_mA75C15B58EFBB7FB03D585CDAF54C6903FBD909F_RuntimeMethod_var), NULL);
-		WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_8 = (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967*)il2cpp_codegen_object_new(WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
+		AndroidMicrophonePermissionRequester_tF26C178E4C89CBD16D1AA6DF6F187A73C4660E0B* L_7 = V_1;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_8 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		NullCheck(L_8);
-		WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C(L_8, L_7, NULL);
-		__this->___U3CU3E2__current_1 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_8);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_8, L_7, (intptr_t)((void*)AndroidMicrophonePermissionRequester_U3CRequestPermissionU3Eb__3_0_mA75C15B58EFBB7FB03D585CDAF54C6903FBD909F_RuntimeMethod_var), NULL);
+		WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_9 = (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967*)il2cpp_codegen_object_new(WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C(L_9, L_8, NULL);
+		__this->___U3CU3E2__current_1 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_9);
 		__this->___U3CU3E1__state_0 = 1;
 		return (bool)1;
 	}
 
-IL_0067:
+IL_0055:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// }
@@ -1609,30 +1471,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IOSMicrophonePermissionRequest
 		U3CRequestPermissionU3Ed__0_t90F98B2339EDD2711D25E99780FAA3105F55B822* L_0 = (U3CRequestPermissionU3Ed__0_t90F98B2339EDD2711D25E99780FAA3105F55B822*)il2cpp_codegen_object_new(U3CRequestPermissionU3Ed__0_t90F98B2339EDD2711D25E99780FAA3105F55B822_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		U3CRequestPermissionU3Ed__0__ctor_mC8048695BA53C5E4A1EAA64CBF5B098EB7E9B99C(L_0, 0, NULL);
-		U3CRequestPermissionU3Ed__0_t90F98B2339EDD2711D25E99780FAA3105F55B822* L_1 = L_0;
-		NullCheck(L_1);
-		L_1->___U3CU3E4__this_2 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
-		return L_1;
+		return L_0;
 	}
 }
 // System.Boolean Estrada.DefaultMicrophoneController/IOSMicrophonePermissionRequester::HasPermission()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IOSMicrophonePermissionRequester_HasPermission_m620F7ED0CC734A9CCFE62AA3F8104A3A933F484F (IOSMicrophonePermissionRequester_tD595018A2044142557CDE05C571C1598A41AF9BD* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// return Application.HasUserAuthorization(UserAuthorization.Microphone);
 		bool L_0;
 		L_0 = Application_HasUserAuthorization_m7F27C13F7826778FF93CFE0DAAC4BFA995AECB2B(2, NULL);
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Estrada.DefaultMicrophoneController/IOSMicrophonePermissionRequester::.ctor()
@@ -1678,41 +1527,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRequestPermissionU3Ed__0_MoveNext_mC3
 		int32_t L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0012;
+			goto IL_0010;
 		}
 	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
 	{
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0014;
+			goto IL_002c;
 		}
 	}
-	{
-		goto IL_0016;
-	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0035;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0010:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// yield return Application.RequestUserAuthorization(UserAuthorization.Microphone);
@@ -1724,7 +1553,7 @@ IL_0018:
 		return (bool)1;
 	}
 
-IL_0035:
+IL_002c:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// }
@@ -1778,11 +1607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MacOSMicrophonePermissionReque
 		U3CRequestPermissionU3Ed__2_t23E7E2BC701563E9444DFDD561A1AF66860CE57C* L_0 = (U3CRequestPermissionU3Ed__2_t23E7E2BC701563E9444DFDD561A1AF66860CE57C*)il2cpp_codegen_object_new(U3CRequestPermissionU3Ed__2_t23E7E2BC701563E9444DFDD561A1AF66860CE57C_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		U3CRequestPermissionU3Ed__2__ctor_m9934DA95CB8AD82E6579CF70946FBFB908F3F68E(L_0, 0, NULL);
-		U3CRequestPermissionU3Ed__2_t23E7E2BC701563E9444DFDD561A1AF66860CE57C* L_1 = L_0;
-		NullCheck(L_1);
-		L_1->___U3CU3E4__this_2 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
-		return L_1;
+		return L_0;
 	}
 }
 // System.Boolean Estrada.DefaultMicrophoneController/MacOSMicrophonePermissionRequester::HasPermission()
@@ -1794,19 +1619,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MacOSMicrophonePermissionRequester_HasPe
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return _status;
 		bool L_0 = ((MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_StaticFields*)il2cpp_codegen_static_fields_for(MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_il2cpp_TypeInfo_var))->____status_0;
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		// }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Estrada.DefaultMicrophoneController/MacOSMicrophonePermissionRequester::Callback(System.Boolean)
@@ -1975,56 +1791,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRequestPermissionU3Ed__2_MoveNext_mAE
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0012;
+			goto IL_0010;
 		}
 	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
 	{
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0014;
+			goto IL_002f;
 		}
 	}
-	{
-		goto IL_0016;
-	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0039;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0010:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// _callbackFired = false;
 		((MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_StaticFields*)il2cpp_codegen_static_fields_for(MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_il2cpp_TypeInfo_var))->____callbackFired_1 = (bool)0;
-		goto IL_0041;
+		goto IL_0036;
 	}
 
-IL_0028:
+IL_001f:
 	{
 		// yield return null;
 		__this->___U3CU3E2__current_1 = NULL;
@@ -2033,20 +1828,18 @@ IL_0028:
 		return (bool)1;
 	}
 
-IL_0039:
+IL_002f:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 	}
 
-IL_0041:
+IL_0036:
 	{
 		// while (!_callbackFired)
 		bool L_3 = ((MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_StaticFields*)il2cpp_codegen_static_fields_for(MacOSMicrophonePermissionRequester_t36AAA1516BE75EEB8715BEC77F3B04FCCF9111AA_il2cpp_TypeInfo_var))->____callbackFired_1;
-		V_1 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
-		bool L_4 = V_1;
-		if (L_4)
+		if (!L_3)
 		{
-			goto IL_0028;
+			goto IL_001f;
 		}
 	}
 	{
@@ -2115,64 +1908,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRequestPermissionU3Ed__3_MoveNext_m63
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
+	DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* V_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
+		DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
+		if (!L_2)
 		{
-			goto IL_0014;
+			goto IL_0017;
 		}
 	}
 	{
-		goto IL_0016;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0040;
+		}
 	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0052;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// if (_microphonePermissionRequester != null)
-		DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* L_3 = __this->___U3CU3E4__this_2;
-		NullCheck(L_3);
-		RuntimeObject* L_4 = L_3->____microphonePermissionRequester_0;
-		V_1 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_5 = V_1;
+		DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* L_4 = V_1;
+		NullCheck(L_4);
+		RuntimeObject* L_5 = L_4->____microphonePermissionRequester_0;
 		if (!L_5)
 		{
-			goto IL_005a;
+			goto IL_0047;
 		}
 	}
 	{
 		// yield return _microphonePermissionRequester.RequestPermission();
-		DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* L_6 = __this->___U3CU3E4__this_2;
+		DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* L_6 = V_1;
 		NullCheck(L_6);
 		RuntimeObject* L_7 = L_6->____microphonePermissionRequester_0;
 		NullCheck(L_7);
@@ -2184,12 +1957,12 @@ IL_0018:
 		return (bool)1;
 	}
 
-IL_0052:
+IL_0040:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 	}
 
-IL_005a:
+IL_0047:
 	{
 		// }
 		return (bool)0;
@@ -2258,7 +2031,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Microphone_CreateMicrophoneCon
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	RuntimeObject* V_0 = NULL;
 	{
 		//             return
 		// #if !UNITY_WEBGL || UNITY_EDITOR
@@ -2266,15 +2038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Microphone_CreateMicrophoneCon
 		DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC* L_0 = (DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC*)il2cpp_codegen_object_new(DefaultMicrophoneController_tEACB5350047C8A624351C79E51F6E8543E9E5DDC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DefaultMicrophoneController__ctor_m78945B828FB98E58B653EF8593E7C30A1BAAF7A6(L_0, NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		// }
-		RuntimeObject* L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Boolean Estrada.Microphone::RequiresPermission()
@@ -2287,7 +2051,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_RequiresPermission_m678E282E5
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return MicrophoneController.RequiresPermission();
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
@@ -2295,15 +2058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_RequiresPermission_m678E282E5
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean Estrada.IMicrophoneController::RequiresPermission() */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_0);
-		V_0 = L_1;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		// }
-		bool L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // System.Collections.IEnumerator Estrada.Microphone::RequestPermission()
@@ -2332,7 +2087,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_HasPermission_m819100EA5B3996
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return MicrophoneController.HasPermission();
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
@@ -2340,15 +2094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_HasPermission_m819100EA5B3996
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = InterfaceFuncInvoker0< bool >::Invoke(2 /* System.Boolean Estrada.IMicrophoneController::HasPermission() */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_0);
-		V_0 = L_1;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		// }
-		bool L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // UnityEngine.AudioClip Estrada.Microphone::Start(System.String,System.Boolean,System.Int32,System.Int32)
@@ -2362,15 +2108,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
-	int32_t V_3 = 0;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_6 = NULL;
-	int32_t G_B3_0 = 0;
-	int32_t G_B10_0 = 0;
 	{
 		// if (RequiresPermission() && !HasPermission())
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
@@ -2378,207 +2115,164 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 		L_0 = Microphone_RequiresPermission_m678E282E52F8B805D8CB70CDB8DB6349CAC2E08D(NULL);
 		if (!L_0)
 		{
-			goto IL_0012;
+			goto IL_0019;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Microphone_HasPermission_m819100EA5B39967C2AAACDF47DBC6EF430098C64(NULL);
-		G_B3_0 = ((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		goto IL_0013;
-	}
-
-IL_0012:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0013:
-	{
-		V_0 = (bool)G_B3_0;
-		bool L_2 = V_0;
-		if (!L_2)
+		if (L_1)
 		{
-			goto IL_0023;
+			goto IL_0019;
 		}
 	}
 	{
 		// throw new InvalidOperationException("Permission to record a microphone was not granted");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_3);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral064970164FE71BCF8F16C01F4A9C42F2F68DA740)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_2);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral064970164FE71BCF8F16C01F4A9C42F2F68DA740)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
 	}
 
-IL_0023:
+IL_0019:
 	{
 		// if (devices.Length == 0)
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4;
-		L_4 = Microphone_get_devices_m0001F35D345C9AF300CB73F8FE36BD887D6CFD37(NULL);
-		NullCheck(L_4);
-		V_1 = (bool)((((int32_t)(((RuntimeArray*)L_4)->max_length)) == ((int32_t)0))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3;
+		L_3 = Microphone_get_devices_m0001F35D345C9AF300CB73F8FE36BD887D6CFD37(NULL);
+		NullCheck(L_3);
+		if ((((RuntimeArray*)L_3)->max_length))
 		{
-			goto IL_003c;
+			goto IL_002c;
 		}
 	}
 	{
 		// throw new InvalidOperationException("No available devices");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_6);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral75172980E53F9A5B447B8B2EBCA8FE75B0AE166D)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_4 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_4);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral75172980E53F9A5B447B8B2EBCA8FE75B0AE166D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
 	}
 
-IL_003c:
+IL_002c:
 	{
 		// if (!string.IsNullOrEmpty(deviceName) && !devices.Contains(deviceName))
-		String_t* L_7 = ___deviceName0;
-		bool L_8;
-		L_8 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_7, NULL);
-		if (L_8)
+		String_t* L_5 = ___deviceName0;
+		bool L_6;
+		L_6 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_5, NULL);
+		if (L_6)
 		{
-			goto IL_0054;
+			goto IL_0057;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9;
-		L_9 = Microphone_get_devices_m0001F35D345C9AF300CB73F8FE36BD887D6CFD37(NULL);
-		String_t* L_10 = ___deviceName0;
-		bool L_11;
-		L_11 = Enumerable_Contains_TisString_t_mB597D95B9D1FDF1ACA18AC4907D6EA8850879D45((RuntimeObject*)L_9, L_10, Enumerable_Contains_TisString_t_mB597D95B9D1FDF1ACA18AC4907D6EA8850879D45_RuntimeMethod_var);
-		G_B10_0 = ((((int32_t)L_11) == ((int32_t)0))? 1 : 0);
-		goto IL_0055;
-	}
-
-IL_0054:
-	{
-		G_B10_0 = 0;
-	}
-
-IL_0055:
-	{
-		V_2 = (bool)G_B10_0;
-		bool L_12 = V_2;
-		if (!L_12)
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7;
+		L_7 = Microphone_get_devices_m0001F35D345C9AF300CB73F8FE36BD887D6CFD37(NULL);
+		String_t* L_8 = ___deviceName0;
+		bool L_9;
+		L_9 = Enumerable_Contains_TisString_t_mB597D95B9D1FDF1ACA18AC4907D6EA8850879D45((RuntimeObject*)L_7, L_8, Enumerable_Contains_TisString_t_mB597D95B9D1FDF1ACA18AC4907D6EA8850879D45_RuntimeMethod_var);
+		if (L_9)
 		{
-			goto IL_0070;
+			goto IL_0057;
 		}
 	}
 	{
 		// throw new ArgumentException($"Could not find device {deviceName} in the list of the available devices");
-		String_t* L_13 = ___deviceName0;
-		String_t* L_14;
-		L_14 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5E23B59FF5CF812218F82D4FB4B6923CC52F109D)), L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAD2114A35536AA0C3EC83E3F69CD8F756E1AED18)), NULL);
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_15 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_15);
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_15, L_14, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
+		String_t* L_10 = ___deviceName0;
+		String_t* L_11;
+		L_11 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5E23B59FF5CF812218F82D4FB4B6923CC52F109D)), L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAD2114A35536AA0C3EC83E3F69CD8F756E1AED18)), NULL);
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_12 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_12);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_12, L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
 	}
 
-IL_0070:
+IL_0057:
 	{
-		// switch (lengthSec)
-		int32_t L_16 = ___lengthSec2;
-		V_4 = L_16;
-		int32_t L_17 = V_4;
-		V_3 = L_17;
-		int32_t L_18 = V_3;
-		if ((((int32_t)L_18) <= ((int32_t)0)))
+		int32_t L_13 = ___lengthSec2;
+		if ((((int32_t)L_13) <= ((int32_t)0)))
 		{
-			goto IL_0084;
+			goto IL_0065;
 		}
 	}
 	{
-		int32_t L_19 = V_3;
-		if ((((int32_t)L_19) > ((int32_t)((int32_t)3600))))
+		int32_t L_14 = ___lengthSec2;
+		if ((((int32_t)L_14) > ((int32_t)((int32_t)3600))))
 		{
-			goto IL_009a;
+			goto IL_007b;
 		}
 	}
 	{
-		goto IL_00b0;
+		goto IL_0091;
 	}
 
-IL_0084:
+IL_0065:
 	{
 		// throw new ArgumentException(
 		//     $"Length of recording must be greater than zero seconds (was: {lengthSec} seconds)");
+		int32_t L_15 = ___lengthSec2;
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_16);
+		String_t* L_18;
+		L_18 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC23EC9131A7C8C68288B94040335DDAAE003A601)), L_17, NULL);
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_19 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_19);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_19, L_18, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
+	}
+
+IL_007b:
+	{
+		// throw new ArgumentException(
+		//     $"Length of recording must be less than one hour (was: {lengthSec} seconds)");
 		int32_t L_20 = ___lengthSec2;
 		int32_t L_21 = L_20;
 		RuntimeObject* L_22 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_21);
 		String_t* L_23;
-		L_23 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC23EC9131A7C8C68288B94040335DDAAE003A601)), L_22, NULL);
+		L_23 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC8E3A2E0ACC07549FE2F5EB4775307E004B25A25)), L_22, NULL);
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_24 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_24);
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_24, L_23, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
 	}
 
-IL_009a:
-	{
-		// throw new ArgumentException(
-		//     $"Length of recording must be less than one hour (was: {lengthSec} seconds)");
-		int32_t L_25 = ___lengthSec2;
-		int32_t L_26 = L_25;
-		RuntimeObject* L_27 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_26);
-		String_t* L_28;
-		L_28 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC8E3A2E0ACC07549FE2F5EB4775307E004B25A25)), L_27, NULL);
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_29 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_29);
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_29, L_28, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
-	}
-
-IL_00b0:
+IL_0091:
 	{
 		// if (frequency <= 0)
-		int32_t L_30 = ___frequency3;
-		V_5 = (bool)((((int32_t)((((int32_t)L_30) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_31 = V_5;
-		if (!L_31)
+		int32_t L_25 = ___frequency3;
+		if ((((int32_t)L_25) > ((int32_t)0)))
 		{
-			goto IL_00d4;
+			goto IL_00ab;
 		}
 	}
 	{
 		// throw new ArgumentException($"Frequency of recording must be greater than zero (was: {frequency} Hz)");
-		int32_t L_32 = ___frequency3;
-		int32_t L_33 = L_32;
-		RuntimeObject* L_34 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_33);
-		String_t* L_35;
-		L_35 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDD5B54C8D659D922235F682C9DFC8B5EF04911D4)), L_34, NULL);
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_36 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_36);
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_36, L_35, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_36, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
+		int32_t L_26 = ___frequency3;
+		int32_t L_27 = L_26;
+		RuntimeObject* L_28 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_27);
+		String_t* L_29;
+		L_29 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDD5B54C8D659D922235F682C9DFC8B5EF04911D4)), L_28, NULL);
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_30 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_30);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_30, L_29, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_30, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Microphone_Start_m585BFB49721B7654D88CA2FCCE3056EE0C70B50F_RuntimeMethod_var)));
 	}
 
-IL_00d4:
+IL_00ab:
 	{
 		// return MicrophoneController.Start(deviceName, loop, lengthSec, frequency);
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
-		RuntimeObject* L_37 = ((Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_StaticFields*)il2cpp_codegen_static_fields_for(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var))->___MicrophoneController_0;
-		String_t* L_38 = ___deviceName0;
-		bool L_39 = ___loop1;
-		int32_t L_40 = ___lengthSec2;
-		int32_t L_41 = ___frequency3;
-		NullCheck(L_37);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_42;
-		L_42 = InterfaceFuncInvoker4< AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, String_t*, bool, int32_t, int32_t >::Invoke(3 /* UnityEngine.AudioClip Estrada.IMicrophoneController::Start(System.String,System.Boolean,System.Int32,System.Int32) */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_37, L_38, L_39, L_40, L_41);
-		V_6 = L_42;
-		goto IL_00e6;
-	}
-
-IL_00e6:
-	{
-		// }
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_43 = V_6;
-		return L_43;
+		RuntimeObject* L_31 = ((Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_StaticFields*)il2cpp_codegen_static_fields_for(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var))->___MicrophoneController_0;
+		String_t* L_32 = ___deviceName0;
+		bool L_33 = ___loop1;
+		int32_t L_34 = ___lengthSec2;
+		int32_t L_35 = ___frequency3;
+		NullCheck(L_31);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_36;
+		L_36 = InterfaceFuncInvoker4< AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, String_t*, bool, int32_t, int32_t >::Invoke(3 /* UnityEngine.AudioClip Estrada.IMicrophoneController::Start(System.String,System.Boolean,System.Int32,System.Int32) */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_31, L_32, L_33, L_34, L_35);
+		return L_36;
 	}
 }
 // System.Void Estrada.Microphone::End(System.String)
@@ -2612,7 +2306,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m1ECA6B92D0FA6842
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return MicrophoneController.IsRecording(deviceName);
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
@@ -2621,15 +2314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m1ECA6B92D0FA6842
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = InterfaceFuncInvoker1< bool, String_t* >::Invoke(5 /* System.Boolean Estrada.IMicrophoneController::IsRecording(System.String) */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_0, L_1);
-		V_0 = L_2;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		bool L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 // System.Boolean Estrada.Microphone::GetCurrentData(System.Single[],System.Int32)
@@ -2642,7 +2327,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_GetCurrentData_m2BCA27FB19E7F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return MicrophoneController.GetCurrentData(data, offsetSamples);
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
@@ -2652,15 +2336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_GetCurrentData_m2BCA27FB19E7F
 		NullCheck(L_0);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, int32_t >::Invoke(7 /* System.Boolean Estrada.IMicrophoneController::GetCurrentData(System.Single[],System.Int32) */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		V_0 = L_3;
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		// }
-		bool L_4 = V_0;
-		return L_4;
+		return L_3;
 	}
 }
 // System.Int32 Estrada.Microphone::GetPosition(System.String)
@@ -2673,7 +2349,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetPosition_m44750EC04BF2A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
 	{
 		// return MicrophoneController.GetPosition(deviceName);
 		il2cpp_codegen_runtime_class_init_inline(Microphone_t89E95E3D982CB7FC1F2FCD91DFD7519C9434218F_il2cpp_TypeInfo_var);
@@ -2682,15 +2357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetPosition_m44750EC04BF2A
 		NullCheck(L_0);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker1< int32_t, String_t* >::Invoke(6 /* System.Int32 Estrada.IMicrophoneController::GetPosition(System.String) */, IMicrophoneController_t42F769663C8DB3656A5FFA1E2B78A36E81415018_il2cpp_TypeInfo_var, L_0, L_1);
-		V_0 = L_2;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		int32_t L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 // System.Void Estrada.Microphone::GetDeviceCaps(System.String,System.Int32&,System.Int32&)
@@ -2776,41 +2443,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRequestPermissionU3Ed__5_MoveNext_mA8
 		int32_t L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0012;
+			goto IL_0010;
 		}
 	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
 	{
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0014;
+			goto IL_0030;
 		}
 	}
-	{
-		goto IL_0016;
-	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0039;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0010:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// yield return MicrophoneController.RequestPermission();
@@ -2825,7 +2472,7 @@ IL_0018:
 		return (bool)1;
 	}
 
-IL_0039:
+IL_0030:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// }

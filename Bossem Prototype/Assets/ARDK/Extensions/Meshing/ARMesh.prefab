@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4544129020768840141}
   - component: {fileID: 7963815754292762357}
-  - component: {fileID: 1601269230}
-  - component: {fileID: 1601269233}
   m_Layer: 0
   m_Name: ARMesh
   m_TagString: Untagged
@@ -29,7 +27,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: -1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -48,54 +45,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _manageUsingUnityLifecycle: 1
   _targetFrameRate: 20
-  _targetBlockSize: 5
+  _targetBlockSize: 1.4
   _meshDecimationThreshold: 0
   _meshingMode: 0
   UseCustomMeshingMode: 0
   _meshingRangeMax: 5
   _voxelSize: 0.025
   _generateUnityMeshes: 1
-  _meshPrefab: {fileID: 7791926914237628454, guid: d0183eaba3a4c44e9aafc695278e1e9d, type: 3}
+  _meshPrefab: {fileID: 2988715159741781419, guid: b79f4734d3e2462186a55d546e80cfb4,
+    type: 3}
   _meshRoot: {fileID: 4544129020768840140}
   _colliderUpdateThrottle: 10
-  _useInvisibleMaterial: 1
+  _useInvisibleMaterial: 0
   _invisibleMaterial: {fileID: 2100000, guid: 4d00d51d9ad64916abef2551d151e0ab, type: 2}
---- !u!114 &1601269230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544129020768840140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a4dd9f3f15898446b8dbe267a6f8f37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _meshManager: {fileID: 4544129020768840140}
-  ScrollText: {fileID: 0}
-  GetMeshButton: {fileID: 0}
-  CurrentMeshes: []
---- !u!114 &1601269233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544129020768840140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d2bd5796e11ada4790daf2009afe397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _arCamera: {fileID: 0}
-  _arMeshMananger: {fileID: 7963815754292762357}
-  _gameBoardManager: {fileID: 0}
-  _currentMeshText: {fileID: 0}
-  _selectMeshButton: {fileID: 0}
-  _acceptMeshButton: {fileID: 0}
-  _rejectMeshButton: {fileID: 0}
-  _playspaceArea: 2.5
-  ARMeshLayer:
-    serializedVersion: 2
-    m_Bits: 128

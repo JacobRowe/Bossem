@@ -621,7 +621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarkerExtension_Begin_m3662B8F81
 		Il2CppChar* L_3 = V_2;
 		if (!L_3)
 		{
-			goto IL_0024;
+			goto IL_0023;
 		}
 	}
 	{
@@ -631,7 +631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarkerExtension_Begin_m3662B8F81
 		V_2 = ((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_4, L_5));
 	}
 
-IL_0024:
+IL_0023:
 	{
 		// data.Size = ((uint)metadata.Length + 1) * 2;
 		String_t* L_6 = ___metadata1;

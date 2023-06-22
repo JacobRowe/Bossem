@@ -31,12 +31,9 @@ namespace Niantic.ARDK.Extensions.Gameboard
     /// @param origin Origin of the scan in world position.
     /// @param range Area covered by the scan is size range*range.
     void Scan(Vector3 origin, float range);
-
-        //CUSTOM
-
-
+    
     /// Removes all surfaces from the board.
-        void Clear();
+    void Clear();
 
     /// Removes nodes outside the specified squared area of size range*range.
     /// Use this to prune Gameboard for performance.

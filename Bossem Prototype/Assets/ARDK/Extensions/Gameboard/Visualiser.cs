@@ -18,10 +18,8 @@ namespace Niantic.ARDK.Extensions.Gameboard
 
     private GameObject _visualRoot;
     private MeshFilter _meshFilter = new MeshFilter();
-    private MeshFilter _badMeshFilter = new MeshFilter();
 
-
-        private bool _active;
+    private bool _active;
 
     public Visualiser(IGameboard gameboard, GameboardModel model, bool active)
     {
@@ -97,8 +95,6 @@ namespace Niantic.ARDK.Extensions.Gameboard
       _visualRoot = new GameObject();
       _visualRoot.name = "Gameboard Visualisation";
       _visualRoot.transform.position = Vector3.zero;
-            //fix
-            //_visualRoot.transform.position = new Vector3(0, 0.1f, 0.0f);
 
       _pathDebugObjects = new List<GameObject>();
       _unusedPathDebugObjects = new List<GameObject>();
@@ -107,9 +103,6 @@ namespace Niantic.ARDK.Extensions.Gameboard
       _lineRenderer.widthCurve = new AnimationCurve(new Keyframe(0, 0.1f));
       _lineRenderer.material.color = Color.black;
       _lineRenderer.positionCount = 0;
-
-
-      //changes
 
       GameObject debugMeshGameObject = new GameObject();
       debugMeshGameObject.transform.SetParent(_visualRoot.transform, false);
@@ -123,28 +116,16 @@ namespace Niantic.ARDK.Extensions.Gameboard
       #endif
       
       renderer.material.color = Color.green;
-      //TO DO - transparency for on device
-      //float alpha = 0.5f;
-      //renderer.material.color.a = 0.5f;
-      renderer.material.renderQueue = 100;
-      renderer.sortingOrder = 10;
-      
-      debugMeshGameObject.layer = 3;
       
       _meshFilter = debugMeshGameObject.AddComponent<MeshFilter>();
       _meshFilter.mesh.MarkDynamic();
-
-   
-
     }
 
     #region TilesDrawing
 
     public void UpdateDebugMesh(List<Surface> surfaces, Mesh mesh)
     {
-            float offset = 0.002f;
-            //fix
-            //float offset = 0.01f;
+      float offset = 0.002f;
 
       var vertices = new List<Vector3>();
       var triangles = new List<int>();

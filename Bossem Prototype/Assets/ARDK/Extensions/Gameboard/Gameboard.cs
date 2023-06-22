@@ -28,7 +28,7 @@ namespace Niantic.ARDK.Extensions.Gameboard
     }
     
     /// The discovered free area in square meters.
-    public float Area { get; set; }
+    public float Area { get; private set; }
 
     private void RecalculateArea()
     {
@@ -76,8 +76,6 @@ namespace Niantic.ARDK.Extensions.Gameboard
       _pathFinding = new PathFinding(_model);
       _visualiser = new Visualiser(this, _model, visualise);
     }
-
-    
 
     public bool IsOnGameboard(Vector3 position, float delta)
     {

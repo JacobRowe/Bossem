@@ -258,7 +258,6 @@ IL2CPP_EXTERN_C RuntimeClass* AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812F
 IL2CPP_EXTERN_C RuntimeClass* AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
@@ -291,79 +290,36 @@ IL2CPP_EXTERN_C RuntimeClass* VariableRefreshRateEventHandler_tD8795E551E080C52C
 IL2CPP_EXTERN_C RuntimeClass* VariableRefreshRate_tEA02E83F092552EB0AECAB3F133EF281D66EEA4D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C String_t* _stringLiteral0922C10401257AF3BE500F68CD4EED1A8C2662F3;
-IL2CPP_EXTERN_C String_t* _stringLiteral093E8A0E212888CFFD458E315F2B0A7E56675227;
-IL2CPP_EXTERN_C String_t* _stringLiteral10DC0BA14CF544306D40BC25C05EBF357808636E;
 IL2CPP_EXTERN_C String_t* _stringLiteral110C230ECC11791A56E51CE07FE5E6FD5A78178A;
 IL2CPP_EXTERN_C String_t* _stringLiteral1174361642F6FE4FCA189A130190A4E9597912D6;
-IL2CPP_EXTERN_C String_t* _stringLiteral1352366FFB79C2BD167966FDC90FFD53DC62F5A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral1D8E0CE0AA8B1F1859A8CEA37DFAA26D56616E45;
-IL2CPP_EXTERN_C String_t* _stringLiteral1F84C9234CED032DDED55F47508C732DFA0D4CE7;
-IL2CPP_EXTERN_C String_t* _stringLiteral205AE7DC1CD812CD9C285A7A6A070E20F1C0E8ED;
-IL2CPP_EXTERN_C String_t* _stringLiteral23F0C2BAF6129C2E0FDDA0AA63B31639CACA2828;
-IL2CPP_EXTERN_C String_t* _stringLiteral27DF13F777DF139B1865C6887C04D78550720618;
-IL2CPP_EXTERN_C String_t* _stringLiteral28626D51751C23D7859E0756CA6BE8DB074078B0;
 IL2CPP_EXTERN_C String_t* _stringLiteral2D677AB4F1E4297F4CF5654EAD125EEBC50D20EF;
-IL2CPP_EXTERN_C String_t* _stringLiteral2F13EC73EF6B81420E0E003DF3A241F137FA79BE;
 IL2CPP_EXTERN_C String_t* _stringLiteral3261C3E11E9AB172DA0BD2010EF79C41DE23C91C;
-IL2CPP_EXTERN_C String_t* _stringLiteral33B718DDD71288A2B70A9398E46932CB1092BC3A;
-IL2CPP_EXTERN_C String_t* _stringLiteral342CCCC739F1CB99FB5E97B28A5CBD940E862908;
-IL2CPP_EXTERN_C String_t* _stringLiteral3ADB7650C60C7938C84331F811594F0DAA0731DC;
 IL2CPP_EXTERN_C String_t* _stringLiteral3D6253C836CCF9A6B8A05245CB6B1EF24E546455;
-IL2CPP_EXTERN_C String_t* _stringLiteral3ECE9D2B10604F4046FFC1E64BDE606079243DDC;
-IL2CPP_EXTERN_C String_t* _stringLiteral3F43FBC7BDA3B0881A82D938A6C56952BF64C2CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral3F4AC1F33F14DDD96BF2B1B6A4F2079D321F0170;
-IL2CPP_EXTERN_C String_t* _stringLiteral479F9970CF27585C769490EC86958D71EAD1DF13;
 IL2CPP_EXTERN_C String_t* _stringLiteral4CF9A4312580ADAE7FA331122F314BFA89FDA671;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F209C20BD06D8D1C76C888ACA266837D8ADDC01;
-IL2CPP_EXTERN_C String_t* _stringLiteral506DE931A388FC588ACF87024BA3904D329FD82C;
 IL2CPP_EXTERN_C String_t* _stringLiteral58B9EE58F492CF50D7C051554FE7BDD815569565;
-IL2CPP_EXTERN_C String_t* _stringLiteral59709E817097D9531AEDD6052E41251EC973E59C;
-IL2CPP_EXTERN_C String_t* _stringLiteral5A2ED84AE86198A032C7CDB76CE1CA5D3E522168;
 IL2CPP_EXTERN_C String_t* _stringLiteral5B5485AAFD0F88488213FA21BAC0D600944F8265;
-IL2CPP_EXTERN_C String_t* _stringLiteral5B6A12C3FA7D1E83E1B7E568CD2823AFA7545598;
-IL2CPP_EXTERN_C String_t* _stringLiteral6150E95C9C4330C373DB62805E1F4E88C2BC7EB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral623E70A7FF6385C93E57D1CAE15E16E3188E7663;
-IL2CPP_EXTERN_C String_t* _stringLiteral73BC0C4F9262DE9E8B22CD5E81E3CE1E0FB39B76;
 IL2CPP_EXTERN_C String_t* _stringLiteral74C185339ADE6B87DA245E0CBDFD66891CC43F54;
-IL2CPP_EXTERN_C String_t* _stringLiteral75CA12E96F5D1211E2AC03B147FF410A4ECDFDB2;
-IL2CPP_EXTERN_C String_t* _stringLiteral7B7EE387C4003E566E8552609AE966FCAD211EEE;
 IL2CPP_EXTERN_C String_t* _stringLiteral7DF31CBCAC5F9AB299F5D58B49B126C24553D2D1;
-IL2CPP_EXTERN_C String_t* _stringLiteral7F0BAC387C0C335FE272706C85A0C3BC84E85F58;
-IL2CPP_EXTERN_C String_t* _stringLiteral7F72D77AB9D57F4D5F875A6EA395200A6CD79649;
-IL2CPP_EXTERN_C String_t* _stringLiteral81B8E1FD6414B256DAEE0471B3E6D535616C7A71;
-IL2CPP_EXTERN_C String_t* _stringLiteral8902B0A966DB12D01D3EB36921DDA5AB98F03A0B;
-IL2CPP_EXTERN_C String_t* _stringLiteral8917400827476FB694B97F1A5D6EF06C2CB5B104;
-IL2CPP_EXTERN_C String_t* _stringLiteral89250C270D1C12D84D3EC64C503CC6EA8D7FCCD9;
 IL2CPP_EXTERN_C String_t* _stringLiteral8CAC7A1CF27146D11E92BE39054D8E4594FE9B3D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E5FBE3F351EB8F12ED980FF209B6810ED6C1D60;
-IL2CPP_EXTERN_C String_t* _stringLiteral9453DB57B4B4AA8A9062C653C38107120661A17B;
-IL2CPP_EXTERN_C String_t* _stringLiteral9D047A4897468F6F681829082D51C524173E2725;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1AAE3AE980660190B1F9951D819C0F1BEA090B7;
 IL2CPP_EXTERN_C String_t* _stringLiteralA479396D9311F0A23258AE9653EFD051C3B8A4D5;
 IL2CPP_EXTERN_C String_t* _stringLiteralA789C1A58CA8F1B51679B983874466E76B48EFB3;
-IL2CPP_EXTERN_C String_t* _stringLiteralB4C2BD72DED15C88AF11C4E4D4DB949F195E6AC1;
 IL2CPP_EXTERN_C String_t* _stringLiteralBD05CCAF3885FF0D51C07DE89653D67A9929A857;
 IL2CPP_EXTERN_C String_t* _stringLiteralBDE80E2AD15AB61A85DBD7C97F022E1D102ABA5B;
 IL2CPP_EXTERN_C String_t* _stringLiteralBFF26CE68BA9E05875398617FA39CC574FA97E6A;
-IL2CPP_EXTERN_C String_t* _stringLiteralC3AC151DAD248C3A5F1B5477A84239F9CBFB08F6;
-IL2CPP_EXTERN_C String_t* _stringLiteralC945B1AB2CC39CFF371CFD3D74A624C272A7403B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD289A15F06D391673864A3B5CEDBFF42865743C1;
-IL2CPP_EXTERN_C String_t* _stringLiteralD8F22A302942D8AF895C15F6978434EF4668C687;
-IL2CPP_EXTERN_C String_t* _stringLiteralD93D272A1154D7EE741986765C85505A7004F98F;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDAD4FD80C1A0A39AD74FD88700D89B9595B8D595;
 IL2CPP_EXTERN_C String_t* _stringLiteralDB8C132238F9E774E6E9E180238DA0A65C25145C;
 IL2CPP_EXTERN_C String_t* _stringLiteralE02D43BFB3611F4411DD21848B293789A2B1B8D6;
-IL2CPP_EXTERN_C String_t* _stringLiteralE05E4B4A2AE0521D52337537F011F2A7D44B5909;
-IL2CPP_EXTERN_C String_t* _stringLiteralE2596A1CE90997BD83C8566414DC4299CF58E76B;
-IL2CPP_EXTERN_C String_t* _stringLiteralE840DA01A4B83142A4432DB4A254E493E691C0BB;
-IL2CPP_EXTERN_C String_t* _stringLiteralEE9E91A6CF5232221FEBFF7464BDAD1E97956F13;
 IL2CPP_EXTERN_C String_t* _stringLiteralEEC7732C32C4E0262755BF931431F792DE2E0033;
 IL2CPP_EXTERN_C String_t* _stringLiteralF206CAA96C8ED929B66CE9CAF1513182AC391082;
 IL2CPP_EXTERN_C String_t* _stringLiteralFAC891F8E2E6B2BA23524259218EF5EF3BF998B4;
-IL2CPP_EXTERN_C String_t* _stringLiteralFBAACC50170E3A3880DA7F767D2B90AE4B455132;
-IL2CPP_EXTERN_C String_t* _stringLiteralFBD9FD3EB8A2313A23595CF10F1B1D2292DCF13F;
 IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceLoaderHelper_CreateSubsystem_TisAdaptivePerformanceSubsystemDescriptor_t5D0468D8D509E8995FBDCD5DE6EF6F293B16DC82_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m99C7D46952CCF2B412FEB0DA2401A952ECB2A0A9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceLoaderHelper_DestroySubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_mF5E05816FE8B1579D3D604DC4DC2147F5331F6D4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceLoaderHelper_GetLoadedSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m1D52E70DE4C6278337CEDD2340C23B38674CF8E0_RuntimeMethod_var;
@@ -1998,10 +1954,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncValue_1_SyncUpdate_m36DC9C08B8E7C6C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_gshared_inline (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Double>::Update(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncValue_1_Update_m15F2BF5D1A6143887E28FE6EB0C7B112EF7F204C_gshared (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* __this, float ___timestamp0, const RuntimeMethod* method) ;
-// T[] System.Array::Empty<System.Object>()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline (const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Int32Enum>::Invoke(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, int32_t ___obj0, const RuntimeMethod* method) ;
+// T[] System.Array::Empty<System.Object>()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline (const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Boolean>(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
@@ -2039,7 +1995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveFramerate__ctor_m4DDA4198D524465
 // UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::get_samsungGameSDKSubsystem()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720 (SamsungAndroidProviderLoader_t750DAFC3B980CC2B2FB3F5BC080B536ECAF5D293* __this, const RuntimeMethod* method) ;
 // UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::GetSettings()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::CreateSubsystem<UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemDescriptor,UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem>(System.Collections.Generic.List`1<TDescriptor>,System.String)
 inline void AdaptivePerformanceLoaderHelper_CreateSubsystem_TisAdaptivePerformanceSubsystemDescriptor_t5D0468D8D509E8995FBDCD5DE6EF6F293B16DC82_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m99C7D46952CCF2B412FEB0DA2401A952ECB2A0A9 (AdaptivePerformanceLoaderHelper_t43D3768280F68D5528D8DCF87E0FC143DCF9A14F* __this, List_1_tBDCF1E0892E8DA197607E498736F867735A73137* ___descriptors0, String_t* ___id1, const RuntimeMethod* method)
 {
@@ -2078,7 +2034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAdaptivePerformanceSettings__ctor_mBEEA
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_samsungProviderLogging()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_samsungProviderLogging_mE70D42A6A1439E3DB2406B298C2AF4F30811DA9C (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_samsungProviderLogging_mE70D42A6A1439E3DB2406B298C2AF4F30811DA9C_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
@@ -2270,7 +2226,7 @@ inline bool AsyncValue_1_Update_m15F2BF5D1A6143887E28FE6EB0C7B112EF7F204C (Async
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_Update_mCFB9B5DDFAAE08091FCA2DB70DCBEACCE74B2C53 (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_automaticVRR()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_automaticVRR_mA4EC43A6755953623F7A5F1B3C365A3A9CE25C3B (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_automaticVRR_mA4EC43A6755953623F7A5F1B3C365A3A9CE25C3B_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.QualitySettings::get_vSyncCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QualitySettings_get_vSyncCount_m623B92EE9CBB51A7A96CA88022319CC46CC02F24 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/AutoVariableRefreshRate::UpdateAutoVRR()
@@ -2297,13 +2253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_SetFreqLevels_mC568D9356108
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceDataRecord_get_CpuPerformanceLevel_mF688EC621C77916A86F96CF7D0DAFD520B6D68E8_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuPerformanceLevel()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceDataRecord_get_GpuPerformanceLevel_mA928B60EF914AB4E7D95291E1357A3FE795DBE23_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, const RuntimeMethod* method) ;
-// T[] System.Array::Empty<System.Object>()
-inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline (const RuntimeMethod* method)
-{
-	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline)(method);
-}
-// System.Void UnityEngine.AdaptivePerformance.Samsung.Android.GameSDKLog::Debug(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B (String_t* ___format0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::EnableSystemControl()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsystem_EnableSystemControl_mB94BB9BBD5D600060144AB841617FEAD284CB717 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::EnableCpuBoost()
@@ -2320,8 +2269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_Resume_mF04994891A6B381E8DF8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_get_deviceModel_m8587189FA95DA31E470F864208BC6FB6B35F6D06 (const RuntimeMethod* method) ;
 // System.Boolean System.String::StartsWith(System.String,System.StringComparison)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mA2A4405B1B9F3653A6A9AA7F223F68D86A0C6264 (String_t* __this, String_t* ___value0, int32_t ___comparisonType1, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::IsAvailable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAvailable_m68DCE48F1B7302B34DE294DBDE2654A74CBB0F63 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemDescriptor/Cinfo::set_id(System.String)
@@ -2355,6 +2302,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_mB06D1B6CFBA72B5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJNI::ExceptionDescribe()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNI_ExceptionDescribe_m9E582B7E3ED1CA3D23A35325F676CD88A1E05B5D (const RuntimeMethod* method) ;
+// T[] System.Array::Empty<System.Object>()
+inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline (const RuntimeMethod* method)
+{
+	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline)(method);
+}
 // System.Void UnityEngine.AndroidJavaObject::.ctor(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___className0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Boolean>(System.String,System.Object[])
@@ -2362,8 +2314,6 @@ inline bool AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F1
 {
 	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_gshared)(__this, ___methodName0, ___args1, method);
 }
-// System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::IsAPVersionSupported()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAPVersionSupported_m53A75DD11AC80436021FBFCE21C0078F20F27AE8 (const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.AndroidJavaObject::GetRawObject()
@@ -2409,7 +2359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C537
 // System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetSupportedRefreshRates()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* NativeApi_GetSupportedRefreshRates_mF2EBFD7946532F52B99039E03D5612D40348BFF1 (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_highSpeedVRR()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1 (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
 inline void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
 {
@@ -2436,9 +2386,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRRManager_SetRefreshRateByIndexInternal
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableRefreshRateEventHandler_Invoke_mA665080591D6EA72C7EC12CFC0CAFAC8E5FF37EC_inline (VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_automaticVRR(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639 (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::get_SupportedRefreshRates()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259 (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259_inline (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Application::get_targetFrameRate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::SetRefreshRate(System.Int32)
@@ -2512,8 +2462,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_Awake_mFE868
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
 	{
 		// base.Awake();
 		AdaptiveFramerate_Awake_mEFFD0C457A737B1F637A2BB27E7C468351A7C894(__this, NULL);
@@ -2522,66 +2470,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_Awake_mFE868
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_001a;
+			goto IL_0015;
 		}
 	}
 	{
 		// return;
-		goto IL_0076;
+		return;
 	}
 
-IL_001a:
+IL_0015:
 	{
 		// m_VRR = VariableRefreshRate.Instance;
-		RuntimeObject* L_3;
-		L_3 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
-		__this->___m_VRR_14 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VRR_14), (void*)L_3);
+		RuntimeObject* L_2;
+		L_2 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
+		__this->___m_VRR_14 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VRR_14), (void*)L_2);
 		// if (m_VRR == null)
-		RuntimeObject* L_4 = __this->___m_VRR_14;
-		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		RuntimeObject* L_3 = __this->___m_VRR_14;
+		if (L_3)
 		{
-			goto IL_003d;
+			goto IL_0030;
 		}
 	}
 	{
 		// Enabled = false;
 		VirtualActionInvoker1< bool >::Invoke(7 /* System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Enabled(System.Boolean) */, __this, (bool)0);
 		// return;
-		goto IL_0076;
+		return;
 	}
 
-IL_003d:
+IL_0030:
 	{
 		// m_VRR.RefreshRateChanged += RefreshRateChanged;
-		RuntimeObject* L_6 = __this->___m_VRR_14;
-		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_7 = (VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95*)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		VariableRefreshRateEventHandler__ctor_m7A50456A08A0FDE7002210349CE4F2D9BF73EBF7(L_7, __this, (intptr_t)((void*)AdaptiveVariableRefreshRate_RefreshRateChanged_mFF8AAB10FAD23ACDB2DFDE115BD96015AE9B5DFC_RuntimeMethod_var), NULL);
-		NullCheck(L_6);
-		InterfaceActionInvoker1< VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* >::Invoke(3 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::add_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_6, L_7);
+		RuntimeObject* L_4 = __this->___m_VRR_14;
+		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_5 = (VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95*)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		VariableRefreshRateEventHandler__ctor_m7A50456A08A0FDE7002210349CE4F2D9BF73EBF7(L_5, __this, (intptr_t)((void*)AdaptiveVariableRefreshRate_RefreshRateChanged_mFF8AAB10FAD23ACDB2DFDE115BD96015AE9B5DFC_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		InterfaceActionInvoker1< VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* >::Invoke(3 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::add_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_4, L_5);
 		// m_CurrentRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
+		RuntimeObject* L_6 = __this->___m_VRR_14;
+		NullCheck(L_6);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7;
+		L_7 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_6);
 		RuntimeObject* L_8 = __this->___m_VRR_14;
 		NullCheck(L_8);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9;
-		L_9 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_8);
-		RuntimeObject* L_10 = __this->___m_VRR_14;
-		NullCheck(L_10);
-		int32_t L_11;
-		L_11 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_10);
-		int32_t L_12;
-		L_12 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_9, L_11, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
-		__this->___m_CurrentRefreshRateIndex_15 = L_12;
-	}
-
-IL_0076:
-	{
+		int32_t L_9;
+		L_9 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_8);
+		int32_t L_10;
+		L_10 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_7, L_9, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
+		__this->___m_CurrentRefreshRateIndex_15 = L_10;
 		// }
 		return;
 	}
@@ -2595,36 +2535,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnDisabled_m
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// base.OnDisabled();
 		AdaptiveFramerate_OnDisabled_m6CA3A4174B1E09B31BEFB70E212B7811C2CF9DD0(__this, NULL);
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->___m_VRR_14;
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0017;
+			goto IL_000f;
 		}
 	}
 	{
 		// return;
-		goto IL_0029;
+		return;
 	}
 
-IL_0017:
+IL_000f:
 	{
 		// m_VRR.SetRefreshRateByIndex(m_DefaultRefreshRateIndex);
-		RuntimeObject* L_2 = __this->___m_VRR_14;
-		int32_t L_3 = __this->___m_DefaultRefreshRateIndex_16;
-		NullCheck(L_2);
-		bool L_4;
-		L_4 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_2, L_3);
-	}
-
-IL_0029:
-	{
+		RuntimeObject* L_1 = __this->___m_VRR_14;
+		int32_t L_2 = __this->___m_DefaultRefreshRateIndex_16;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_1, L_2);
 		// }
 		return;
 	}
@@ -2639,42 +2572,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnEnabled_m2
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// base.OnEnabled();
 		AdaptiveFramerate_OnEnabled_m83DA60536ADE76F0E290455BF879835B354BA3BD(__this, NULL);
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->___m_VRR_14;
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0017;
+			goto IL_000f;
 		}
 	}
 	{
 		// return;
-		goto IL_0038;
+		return;
 	}
 
-IL_0017:
+IL_000f:
 	{
 		// m_DefaultRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
-		RuntimeObject* L_2 = __this->___m_VRR_14;
-		NullCheck(L_2);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3;
-		L_3 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_2);
-		RuntimeObject* L_4 = __this->___m_VRR_14;
-		NullCheck(L_4);
+		RuntimeObject* L_1 = __this->___m_VRR_14;
+		NullCheck(L_1);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2;
+		L_2 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_1);
+		RuntimeObject* L_3 = __this->___m_VRR_14;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_3);
 		int32_t L_5;
-		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_4);
-		int32_t L_6;
-		L_6 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_3, L_5, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
-		__this->___m_DefaultRefreshRateIndex_16 = L_6;
-	}
-
-IL_0038:
-	{
+		L_5 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_2, L_4, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
+		__this->___m_DefaultRefreshRateIndex_16 = L_5;
 		// }
 		return;
 	}
@@ -2690,35 +2616,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnDestroy_m7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->___m_VRR_14;
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0010;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_0028;
+		return;
 	}
 
-IL_0010:
+IL_0009:
 	{
 		// m_VRR.RefreshRateChanged -= RefreshRateChanged;
-		RuntimeObject* L_2 = __this->___m_VRR_14;
-		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_3 = (VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95*)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		VariableRefreshRateEventHandler__ctor_m7A50456A08A0FDE7002210349CE4F2D9BF73EBF7(L_3, __this, (intptr_t)((void*)AdaptiveVariableRefreshRate_RefreshRateChanged_mFF8AAB10FAD23ACDB2DFDE115BD96015AE9B5DFC_RuntimeMethod_var), NULL);
+		RuntimeObject* L_1 = __this->___m_VRR_14;
+		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_2 = (VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95*)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
-		InterfaceActionInvoker1< VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* >::Invoke(4 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::remove_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_2, L_3);
-	}
-
-IL_0028:
-	{
+		VariableRefreshRateEventHandler__ctor_m7A50456A08A0FDE7002210349CE4F2D9BF73EBF7(L_2, __this, (intptr_t)((void*)AdaptiveVariableRefreshRate_RefreshRateChanged_mFF8AAB10FAD23ACDB2DFDE115BD96015AE9B5DFC_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* >::Invoke(4 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::remove_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_1, L_2);
 		// }
 		return;
 	}
@@ -2733,40 +2652,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_RefreshRateC
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->___m_VRR_14;
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0010;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_0031;
+		return;
 	}
 
-IL_0010:
+IL_0009:
 	{
 		// m_CurrentRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
-		RuntimeObject* L_2 = __this->___m_VRR_14;
-		NullCheck(L_2);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3;
-		L_3 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_2);
-		RuntimeObject* L_4 = __this->___m_VRR_14;
-		NullCheck(L_4);
+		RuntimeObject* L_1 = __this->___m_VRR_14;
+		NullCheck(L_1);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2;
+		L_2 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_1);
+		RuntimeObject* L_3 = __this->___m_VRR_14;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_3);
 		int32_t L_5;
-		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_4);
-		int32_t L_6;
-		L_6 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_3, L_5, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
-		__this->___m_CurrentRefreshRateIndex_15 = L_6;
-	}
-
-IL_0031:
-	{
+		L_5 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_2, L_4, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
+		__this->___m_CurrentRefreshRateIndex_15 = L_5;
 		// }
 		return;
 	}
@@ -2780,115 +2692,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnLevelIncre
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	bool V_5 = false;
-	int32_t G_B6_0 = 0;
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->___m_VRR_14;
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0010;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_006e;
+		return;
 	}
 
-IL_0010:
+IL_0009:
 	{
 		// if (m_CurrentRefreshRateIndex > 0)
-		int32_t L_2 = __this->___m_CurrentRefreshRateIndex_15;
-		V_1 = (bool)((((int32_t)L_2) > ((int32_t)0))? 1 : 0);
-		bool L_3 = V_1;
-		if (!L_3)
+		int32_t L_1 = __this->___m_CurrentRefreshRateIndex_15;
+		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
-			goto IL_006e;
+			goto IL_0053;
 		}
 	}
 	{
 		// var rateIndex = m_CurrentRefreshRateIndex - 1;
-		int32_t L_4 = __this->___m_CurrentRefreshRateIndex_15;
-		V_2 = ((int32_t)il2cpp_codegen_subtract(L_4, 1));
+		int32_t L_2 = __this->___m_CurrentRefreshRateIndex_15;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
 		// var fps = m_VRR.SupportedRefreshRates[rateIndex];
-		RuntimeObject* L_5 = __this->___m_VRR_14;
-		NullCheck(L_5);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6;
-		L_6 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_5);
-		int32_t L_7 = V_2;
-		NullCheck(L_6);
-		int32_t L_8 = L_7;
-		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		V_3 = L_9;
+		RuntimeObject* L_3 = __this->___m_VRR_14;
+		NullCheck(L_3);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4;
+		L_4 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_3);
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		int32_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_1 = L_7;
 		// if (fps < MinBound || fps > MaxBound)
-		int32_t L_10 = V_3;
+		int32_t L_8 = V_1;
+		float L_9;
+		L_9 = VirtualFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
+		if ((((float)((float)L_8)) < ((float)L_9)))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_10 = V_1;
 		float L_11;
-		L_11 = VirtualFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
-		if ((((float)((float)L_10)) < ((float)L_11)))
+		L_11 = VirtualFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
+		if ((!(((float)((float)L_10)) > ((float)L_11))))
 		{
-			goto IL_004b;
+			goto IL_003e;
 		}
 	}
-	{
-		int32_t L_12 = V_3;
-		float L_13;
-		L_13 = VirtualFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
-		G_B6_0 = ((((float)((float)L_12)) > ((float)L_13))? 1 : 0);
-		goto IL_004c;
-	}
 
-IL_004b:
-	{
-		G_B6_0 = 1;
-	}
-
-IL_004c:
-	{
-		V_4 = (bool)G_B6_0;
-		bool L_14 = V_4;
-		if (!L_14)
-		{
-			goto IL_0054;
-		}
-	}
+IL_003d:
 	{
 		// return;
-		goto IL_006e;
+		return;
 	}
 
-IL_0054:
+IL_003e:
 	{
 		// if (m_VRR.SetRefreshRateByIndex(rateIndex))
-		RuntimeObject* L_15 = __this->___m_VRR_14;
-		int32_t L_16 = V_2;
-		NullCheck(L_15);
-		bool L_17;
-		L_17 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_15, L_16);
-		V_5 = L_17;
-		bool L_18 = V_5;
-		if (!L_18)
+		RuntimeObject* L_12 = __this->___m_VRR_14;
+		int32_t L_13 = V_0;
+		NullCheck(L_12);
+		bool L_14;
+		L_14 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_12, L_13);
+		if (!L_14)
 		{
-			goto IL_006d;
+			goto IL_0053;
 		}
 	}
 	{
 		// m_CurrentRefreshRateIndex = rateIndex;
-		int32_t L_19 = V_2;
-		__this->___m_CurrentRefreshRateIndex_15 = L_19;
+		int32_t L_15 = V_0;
+		__this->___m_CurrentRefreshRateIndex_15 = L_15;
 	}
 
-IL_006d:
-	{
-	}
-
-IL_006e:
+IL_0053:
 	{
 		// }
 		return;
@@ -2903,120 +2789,94 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnLevelDecre
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	bool V_5 = false;
-	int32_t G_B6_0 = 0;
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->___m_VRR_14;
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0010;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_007c;
+		return;
 	}
 
-IL_0010:
+IL_0009:
 	{
 		// if (m_CurrentRefreshRateIndex < m_VRR.SupportedRefreshRates.Length - 1)
-		int32_t L_2 = __this->___m_CurrentRefreshRateIndex_15;
-		RuntimeObject* L_3 = __this->___m_VRR_14;
+		int32_t L_1 = __this->___m_CurrentRefreshRateIndex_15;
+		RuntimeObject* L_2 = __this->___m_VRR_14;
+		NullCheck(L_2);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3;
+		L_3 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_2);
 		NullCheck(L_3);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4;
-		L_4 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_3);
-		NullCheck(L_4);
-		V_1 = (bool)((((int32_t)L_2) < ((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_4)->max_length)), 1))))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		if ((((int32_t)L_1) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_3)->max_length)), 1)))))
 		{
-			goto IL_007c;
+			goto IL_0061;
 		}
 	}
 	{
 		// var rateIndex = m_CurrentRefreshRateIndex + 1;
-		int32_t L_6 = __this->___m_CurrentRefreshRateIndex_15;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+		int32_t L_4 = __this->___m_CurrentRefreshRateIndex_15;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 		// var fps = m_VRR.SupportedRefreshRates[rateIndex];
-		RuntimeObject* L_7 = __this->___m_VRR_14;
-		NullCheck(L_7);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8;
-		L_8 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_7);
-		int32_t L_9 = V_2;
-		NullCheck(L_8);
-		int32_t L_10 = L_9;
-		int32_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
-		V_3 = L_11;
+		RuntimeObject* L_5 = __this->___m_VRR_14;
+		NullCheck(L_5);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6;
+		L_6 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_5);
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_1 = L_9;
 		// if (fps < MinBound || fps > MaxBound)
-		int32_t L_12 = V_3;
+		int32_t L_10 = V_1;
+		float L_11;
+		L_11 = VirtualFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
+		if ((((float)((float)L_10)) < ((float)L_11)))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		int32_t L_12 = V_1;
 		float L_13;
-		L_13 = VirtualFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
-		if ((((float)((float)L_12)) < ((float)L_13)))
+		L_13 = VirtualFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
+		if ((!(((float)((float)L_12)) > ((float)L_13))))
 		{
-			goto IL_0059;
+			goto IL_004c;
 		}
 	}
-	{
-		int32_t L_14 = V_3;
-		float L_15;
-		L_15 = VirtualFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
-		G_B6_0 = ((((float)((float)L_14)) > ((float)L_15))? 1 : 0);
-		goto IL_005a;
-	}
 
-IL_0059:
-	{
-		G_B6_0 = 1;
-	}
-
-IL_005a:
-	{
-		V_4 = (bool)G_B6_0;
-		bool L_16 = V_4;
-		if (!L_16)
-		{
-			goto IL_0062;
-		}
-	}
+IL_004b:
 	{
 		// return;
-		goto IL_007c;
+		return;
 	}
 
-IL_0062:
+IL_004c:
 	{
 		// if (m_VRR.SetRefreshRateByIndex(rateIndex))
-		RuntimeObject* L_17 = __this->___m_VRR_14;
-		int32_t L_18 = V_2;
-		NullCheck(L_17);
-		bool L_19;
-		L_19 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_17, L_18);
-		V_5 = L_19;
-		bool L_20 = V_5;
-		if (!L_20)
+		RuntimeObject* L_14 = __this->___m_VRR_14;
+		int32_t L_15 = V_0;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_14, L_15);
+		if (!L_16)
 		{
-			goto IL_007b;
+			goto IL_0061;
 		}
 	}
 	{
 		// m_CurrentRefreshRateIndex = rateIndex;
-		int32_t L_21 = V_2;
-		__this->___m_CurrentRefreshRateIndex_15 = L_21;
+		int32_t L_17 = V_0;
+		__this->___m_CurrentRefreshRateIndex_15 = L_17;
 	}
 
-IL_007b:
-	{
-	}
-
-IL_007c:
+IL_0061:
 	{
 		// }
 		return;
@@ -3026,8 +2886,6 @@ IL_007c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate__ctor_m45F992D15709678C75D34B6D5F8FB008674E2C58 (AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* __this, const RuntimeMethod* method) 
 {
 	{
-		// bool m_AdaptiveVRREnabled = false;
-		__this->___m_AdaptiveVRREnabled_13 = (bool)0;
 		AdaptiveFramerate__ctor_m4DDA4198D52446513FA0C8CA97BB19FA72C9EBE3(__this, NULL);
 		return;
 	}
@@ -3057,58 +2915,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungGameSDKAdaptivePerformanceSubsystem_t4
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceLoaderHelper_GetLoadedSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m1D52E70DE4C6278337CEDD2340C23B38674CF8E0_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* V_0 = NULL;
 	{
 		// get { return GetLoadedSubsystem<SamsungGameSDKAdaptivePerformanceSubsystem>(); }
 		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_0;
 		L_0 = GenericVirtualFuncInvoker0< SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* >::Invoke(AdaptivePerformanceLoaderHelper_GetLoadedSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m1D52E70DE4C6278337CEDD2340C23B38674CF8E0_RuntimeMethod_var, __this);
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// get { return GetLoadedSubsystem<SamsungGameSDKAdaptivePerformanceSubsystem>(); }
-		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // UnityEngine.ISubsystem UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::GetDefaultSubsystem()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SamsungAndroidProviderLoader_GetDefaultSubsystem_mD1D0DCFB80C6753B89AC9720C65FE76984B99520 (SamsungAndroidProviderLoader_t750DAFC3B980CC2B2FB3F5BC080B536ECAF5D293* __this, const RuntimeMethod* method) 
 {
-	RuntimeObject* V_0 = NULL;
 	{
 		// return samsungGameSDKSubsystem;
 		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_0;
 		L_0 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// }
-		RuntimeObject* L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::GetSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* SamsungAndroidProviderLoader_GetSettings_m8A0099932C135CE398515BF7482C43D894F22441 (SamsungAndroidProviderLoader_t750DAFC3B980CC2B2FB3F5BC080B536ECAF5D293* __this, const RuntimeMethod* method) 
 {
-	IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* V_0 = NULL;
 	{
 		// return SamsungAndroidProviderSettings.GetSettings();
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0;
-		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2(NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		// }
-		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_1 = V_0;
-		return L_1;
+		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2_inline(NULL);
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Initialize()
@@ -3125,11 +2956,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Initialize_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE02D43BFB3611F4411DD21848B293789A2B1B8D6);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
-	bool V_3 = false;
-	int32_t G_B9_0 = 0;
 	{
 		// CreateSubsystem<AdaptivePerformanceSubsystemDescriptor, SamsungGameSDKAdaptivePerformanceSubsystem>(s_SamsungGameSDKSubsystemDescriptors, "SamsungGameSDK");
 		il2cpp_codegen_runtime_class_init_inline(SamsungAndroidProviderLoader_t750DAFC3B980CC2B2FB3F5BC080B536ECAF5D293_il2cpp_TypeInfo_var);
@@ -3138,11 +2964,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Initialize_
 		// if (samsungGameSDKSubsystem == null)
 		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_1;
 		L_1 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
-		V_0 = (bool)((((RuntimeObject*)(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_2 = V_0;
-		if (!L_2)
+		if (L_1)
 		{
-			goto IL_002f;
+			goto IL_0024;
 		}
 	}
 	{
@@ -3150,37 +2974,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Initialize_
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteralBFF26CE68BA9E05875398617FA39CC574FA97E6A, NULL);
 		// return false;
-		V_1 = (bool)0;
-		goto IL_007e;
+		return (bool)0;
 	}
 
-IL_002f:
+IL_0024:
 	{
 		// if (!samsungGameSDKSubsystem.initialized)
-		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_3;
-		L_3 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
-		NullCheck(L_3);
-		bool L_4;
-		L_4 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(L_3, NULL);
-		V_2 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		bool L_5 = V_2;
-		if (!L_5)
+		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_2;
+		L_2 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(L_2, NULL);
+		if (L_3)
 		{
-			goto IL_0065;
+			goto IL_004a;
 		}
 	}
 	{
 		// if (!samsungGameSDKSubsystem.Initialize())
-		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_6;
-		L_6 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
-		NullCheck(L_6);
-		bool L_7;
-		L_7 = SamsungGameSDKAdaptivePerformanceSubsystem_Initialize_m9F03A36723372058F03421AB92B77BA6C4E9B1AA(L_6, NULL);
-		V_3 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
-		bool L_8 = V_3;
-		if (!L_8)
+		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_4;
+		L_4 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = SamsungGameSDKAdaptivePerformanceSubsystem_Initialize_m9F03A36723372058F03421AB92B77BA6C4E9B1AA(L_4, NULL);
+		if (L_5)
 		{
-			goto IL_0064;
+			goto IL_004a;
 		}
 	}
 	{
@@ -3188,50 +3007,31 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral3F4AC1F33F14DDD96BF2B1B6A4F2079D321F0170, NULL);
 		// return false;
-		V_1 = (bool)0;
-		goto IL_007e;
+		return (bool)0;
 	}
 
-IL_0064:
-	{
-	}
-
-IL_0065:
+IL_004a:
 	{
 		// return samsungGameSDKSubsystem != null && samsungGameSDKSubsystem.initialized;
-		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_9;
-		L_9 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
-		if (!L_9)
+		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_6;
+		L_6 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
+		if (!L_6)
 		{
-			goto IL_007a;
+			goto IL_005e;
 		}
 	}
 	{
-		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_10;
-		L_10 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
-		NullCheck(L_10);
-		bool L_11;
-		L_11 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(L_10, NULL);
-		G_B9_0 = ((int32_t)(L_11));
-		goto IL_007b;
+		SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* L_7;
+		L_7 = SamsungAndroidProviderLoader_get_samsungGameSDKSubsystem_m74B312CF72A655ED0D1B9289B62D273848341720(__this, NULL);
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(L_7, NULL);
+		return L_8;
 	}
 
-IL_007a:
+IL_005e:
 	{
-		G_B9_0 = 0;
-	}
-
-IL_007b:
-	{
-		V_1 = (bool)G_B9_0;
-		goto IL_007e;
-	}
-
-IL_007e:
-	{
-		// }
-		bool L_12 = V_1;
-		return L_12;
+		return (bool)0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Start()
@@ -3243,20 +3043,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Start_m6F12
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceLoaderHelper_StartSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m280177B28B689C5DA83E4056364D33158B8BDE3D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// StartSubsystem<SamsungGameSDKAdaptivePerformanceSubsystem>();
 		AdaptivePerformanceLoaderHelper_StartSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m280177B28B689C5DA83E4056364D33158B8BDE3D(__this, AdaptivePerformanceLoaderHelper_StartSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m280177B28B689C5DA83E4056364D33158B8BDE3D_RuntimeMethod_var);
 		// return true;
-		V_0 = (bool)1;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		// }
-		bool L_0 = V_0;
-		return L_0;
+		return (bool)1;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Stop()
@@ -3268,20 +3059,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Stop_m09649
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceLoaderHelper_StopSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m5043429A11F0840924CB4E0AE730585740AEBCCB_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// StopSubsystem<SamsungGameSDKAdaptivePerformanceSubsystem>();
 		AdaptivePerformanceLoaderHelper_StopSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m5043429A11F0840924CB4E0AE730585740AEBCCB(__this, AdaptivePerformanceLoaderHelper_StopSubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_m5043429A11F0840924CB4E0AE730585740AEBCCB_RuntimeMethod_var);
 		// return true;
-		V_0 = (bool)1;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		// }
-		bool L_0 = V_0;
-		return L_0;
+		return (bool)1;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Deinitialize()
@@ -3293,20 +3075,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Deinitializ
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceLoaderHelper_DestroySubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_mF5E05816FE8B1579D3D604DC4DC2147F5331F6D4_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// DestroySubsystem<SamsungGameSDKAdaptivePerformanceSubsystem>();
 		AdaptivePerformanceLoaderHelper_DestroySubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_mF5E05816FE8B1579D3D604DC4DC2147F5331F6D4(__this, AdaptivePerformanceLoaderHelper_DestroySubsystem_TisSamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_mF5E05816FE8B1579D3D604DC4DC2147F5331F6D4_RuntimeMethod_var);
 		// return true;
-		V_0 = (bool)1;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		// }
-		bool L_0 = V_0;
-		return L_0;
+		return (bool)1;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::.ctor()
@@ -3350,19 +3123,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderLoader__cctor_m63E
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_samsungProviderLogging()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_samsungProviderLogging_mE70D42A6A1439E3DB2406B298C2AF4F30811DA9C (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// get { return m_SamsungProviderLogging; }
 		bool L_0 = __this->___m_SamsungProviderLogging_12;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// get { return m_SamsungProviderLogging; }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_samsungProviderLogging(System.Boolean)
@@ -3379,19 +3143,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_samsu
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_highSpeedVRR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1 (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// get { return m_HighSpeedVRR; }
 		bool L_0 = __this->___m_HighSpeedVRR_13;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// get { return m_HighSpeedVRR; }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_highSpeedVRR(System.Boolean)
@@ -3408,19 +3163,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_highS
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_automaticVRR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_automaticVRR_mA4EC43A6755953623F7A5F1B3C365A3A9CE25C3B (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// get { return m_AutomaticVRR; }
 		bool L_0 = __this->___m_AutomaticVRR_14;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// get { return m_AutomaticVRR; }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_automaticVRR(System.Boolean)
@@ -3460,35 +3206,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tB080FCD43F6D7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* V_0 = NULL;
-	SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* V_1 = NULL;
 	{
-		// SamsungAndroidProviderSettings settings = null;
-		V_0 = (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC*)NULL;
 		// settings = s_RuntimeInstance;
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0 = ((SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC_StaticFields*)il2cpp_codegen_static_fields_for(SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC_il2cpp_TypeInfo_var))->___s_RuntimeInstance_15;
-		V_0 = L_0;
 		// return settings;
-		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_1 = V_0;
-		V_1 = L_1;
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		// }
-		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_2 = V_1;
-		return L_2;
+		return L_0;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings__ctor_m6BA5E84565C1FB2B7857B12FC7606CC78C1240E5 (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
 {
 	{
-		// bool m_SamsungProviderLogging = false;
-		__this->___m_SamsungProviderLogging_12 = (bool)0;
-		// bool m_HighSpeedVRR = false;
-		__this->___m_HighSpeedVRR_13 = (bool)0;
 		// bool m_AutomaticVRR = true;
 		__this->___m_AutomaticVRR_14 = (bool)1;
 		IAdaptivePerformanceSettings__ctor_mBEEA4933FD88BF7E3C20FAAE1E8BEAF3EBB18379(__this, NULL);
@@ -3515,8 +3243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral623E70A7FF6385C93E57D1CAE15E16E3188E7663);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	int32_t G_B3_0 = 0;
 	{
 		// if (settings != null && settings.samsungProviderLogging)
 		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
@@ -3526,7 +3252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362
 		L_1 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_1)
 		{
-			goto IL_001a;
+			goto IL_002f;
 		}
 	}
 	{
@@ -3534,38 +3260,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_2 = ((GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_StaticFields*)il2cpp_codegen_static_fields_for(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var))->___settings_0;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = SamsungAndroidProviderSettings_get_samsungProviderLogging_mE70D42A6A1439E3DB2406B298C2AF4F30811DA9C(L_2, NULL);
-		G_B3_0 = ((int32_t)(L_3));
-		goto IL_001b;
-	}
-
-IL_001a:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_001b:
-	{
-		V_0 = (bool)G_B3_0;
-		bool L_4 = V_0;
-		if (!L_4)
+		L_3 = SamsungAndroidProviderSettings_get_samsungProviderLogging_mE70D42A6A1439E3DB2406B298C2AF4F30811DA9C_inline(L_2, NULL);
+		if (!L_3)
 		{
-			goto IL_0036;
+			goto IL_002f;
 		}
 	}
 	{
 		// UnityEngine.Debug.Log(System.String.Format("[Samsung GameSDK] " + format, args));
-		String_t* L_5 = ___format0;
-		String_t* L_6;
-		L_6 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral623E70A7FF6385C93E57D1CAE15E16E3188E7663, L_5, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = ___args1;
-		String_t* L_8;
-		L_8 = String_Format_m74FC0A1259DFA02F3DF6538FC7F3ACF3E1AF0C55(L_6, L_7, NULL);
+		String_t* L_4 = ___format0;
+		String_t* L_5;
+		L_5 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral623E70A7FF6385C93E57D1CAE15E16E3188E7663, L_4, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = ___args1;
+		String_t* L_7;
+		L_7 = String_Format_m74FC0A1259DFA02F3DF6538FC7F3ACF3E1AF0C55(L_5, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_8, NULL);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_7, NULL);
 	}
 
-IL_0036:
+IL_002f:
 	{
 		// }
 		return;
@@ -3583,7 +3296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameSDKLog__cctor_mC22F43BB39FAF7E82FA8B
 	{
 		// static SamsungAndroidProviderSettings settings = SamsungAndroidProviderSettings.GetSettings();
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0;
-		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2(NULL);
+		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2_inline(NULL);
 		((GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_StaticFields*)il2cpp_codegen_static_fields_for(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var))->___settings_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_StaticFields*)il2cpp_codegen_static_fields_for(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var))->___settings_0), (void*)L_0);
 		return;
@@ -3607,52 +3320,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsyncUpdater_Register_m76240B5B2E1EB6
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m5E7FCE3DF7B23B6D88C14A04177C1DCD15063858_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	bool V_1 = false;
-	int32_t V_2 = 0;
 	{
 		// if (m_Thread.IsAlive)
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0 = __this->___m_Thread_0;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = Thread_get_IsAlive_m87922B882A526D780570799F497EEB4C99F005DF(L_0, NULL);
-		V_1 = L_1;
-		bool L_2 = V_1;
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_0014;
+			goto IL_000f;
 		}
 	}
 	{
 		// return -1;
-		V_2 = (-1);
-		goto IL_0031;
+		return (-1);
 	}
 
-IL_0014:
+IL_000f:
 	{
 		// int handle = m_UpdateAction.Count;
-		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_3 = __this->___m_UpdateAction_3;
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = List_1_get_Count_m5E7FCE3DF7B23B6D88C14A04177C1DCD15063858_inline(L_3, List_1_get_Count_m5E7FCE3DF7B23B6D88C14A04177C1DCD15063858_RuntimeMethod_var);
-		V_0 = L_4;
+		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_2 = __this->___m_UpdateAction_3;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = List_1_get_Count_m5E7FCE3DF7B23B6D88C14A04177C1DCD15063858_inline(L_2, List_1_get_Count_m5E7FCE3DF7B23B6D88C14A04177C1DCD15063858_RuntimeMethod_var);
 		// m_UpdateAction.Add(action);
-		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_5 = __this->___m_UpdateAction_3;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = ___action0;
-		NullCheck(L_5);
-		List_1_Add_m5B99D67CB378BFA8A1142343F9DB44D94322EAD3_inline(L_5, L_6, List_1_Add_m5B99D67CB378BFA8A1142343F9DB44D94322EAD3_RuntimeMethod_var);
+		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_4 = __this->___m_UpdateAction_3;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ___action0;
+		NullCheck(L_4);
+		List_1_Add_m5B99D67CB378BFA8A1142343F9DB44D94322EAD3_inline(L_4, L_5, List_1_Add_m5B99D67CB378BFA8A1142343F9DB44D94322EAD3_RuntimeMethod_var);
 		// return handle;
-		int32_t L_7 = V_0;
-		V_2 = L_7;
-		goto IL_0031;
-	}
-
-IL_0031:
-	{
-		// }
-		int32_t L_8 = V_2;
-		return L_8;
+		return L_3;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.AsyncUpdater::Start()
@@ -3668,7 +3365,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncUpdater_Start_m44754B8FBC894327CB62
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
 	{
 		// int maxRequests = m_UpdateAction.Count;
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_0 = __this->___m_UpdateAction_3;
@@ -3678,45 +3374,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncUpdater_Start_m44754B8FBC894327CB62
 		V_0 = L_1;
 		// if (maxRequests <= 0)
 		int32_t L_2 = V_0;
-		V_1 = (bool)((((int32_t)((((int32_t)L_2) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_1;
-		if (!L_3)
+		if ((((int32_t)L_2) > ((int32_t)0)))
 		{
-			goto IL_001a;
+			goto IL_0011;
 		}
 	}
 	{
 		// return;
-		goto IL_004b;
+		return;
 	}
 
-IL_001a:
+IL_0011:
 	{
 		// m_Semaphore = new Semaphore(0, maxRequests);
-		int32_t L_4 = V_0;
-		Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B* L_5 = (Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B*)il2cpp_codegen_object_new(Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Semaphore__ctor_m5954C9FB5ED41FD527888AA96F28398DBCAFA237(L_5, 0, L_4, NULL);
-		__this->___m_Semaphore_9 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Semaphore_9), (void*)L_5);
+		int32_t L_3 = V_0;
+		Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B* L_4 = (Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B*)il2cpp_codegen_object_new(Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Semaphore__ctor_m5954C9FB5ED41FD527888AA96F28398DBCAFA237(L_4, 0, L_3, NULL);
+		__this->___m_Semaphore_9 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Semaphore_9), (void*)L_4);
 		// m_UpdateRequests = new int[maxRequests];
-		int32_t L_6 = V_0;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_6);
-		__this->___m_UpdateRequests_4 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UpdateRequests_4), (void*)L_7);
+		int32_t L_5 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_5);
+		__this->___m_UpdateRequests_4 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UpdateRequests_4), (void*)L_6);
 		// m_RequestComplete = new bool[maxRequests];
-		int32_t L_8 = V_0;
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_8);
-		__this->___m_RequestComplete_5 = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RequestComplete_5), (void*)L_9);
+		int32_t L_7 = V_0;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_7);
+		__this->___m_RequestComplete_5 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RequestComplete_5), (void*)L_8);
 		// m_Thread.Start();
-		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_10 = __this->___m_Thread_0;
-		NullCheck(L_10);
-		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_10, NULL);
-	}
-
-IL_004b:
-	{
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_9 = __this->___m_Thread_0;
+		NullCheck(L_9);
+		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_9, NULL);
 		// }
 		return;
 	}
@@ -3728,7 +3418,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncUpdater_RequestUpdate_m17D6A4052A9E
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	bool V_3 = false;
-	bool V_4 = false;
 	{
 		// lock (m_Mutex)
 		RuntimeObject* L_0 = __this->___m_Mutex_8;
@@ -3739,13 +3428,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncUpdater_RequestUpdate_m17D6A4052A9E
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_005a:
+FINALLY_0050:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0064;
+						goto IL_0059;
 					}
 				}
 				{
@@ -3753,7 +3442,7 @@ FINALLY_005a:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0064:
+IL_0059:
 				{
 					return;
 				}
@@ -3772,36 +3461,35 @@ IL_0064:
 				// if (newWriteIndex == m_UpdateRequestReadIndex)
 				int32_t L_6 = V_2;
 				int32_t L_7 = __this->___m_UpdateRequestReadIndex_6;
-				V_3 = (bool)((((int32_t)L_6) == ((int32_t)L_7))? 1 : 0);
-				bool L_8 = V_3;
-				if (!L_8)
+				if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
 				{
-					goto IL_0039_1;
+					goto IL_0030_1;
 				}
 			}
 			{
 				// return false;
-				V_4 = (bool)0;
-				goto IL_0076;
+				V_3 = (bool)0;
+				goto IL_0068;
 			}
 
-IL_0039_1:
+IL_0030_1:
 			{
 				// m_UpdateRequests[m_UpdateRequestWriteIndex] = handle;
-				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = __this->___m_UpdateRequests_4;
-				int32_t L_10 = __this->___m_UpdateRequestWriteIndex_7;
-				int32_t L_11 = ___handle0;
-				NullCheck(L_9);
-				(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (int32_t)L_11);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = __this->___m_UpdateRequests_4;
+				int32_t L_9 = __this->___m_UpdateRequestWriteIndex_7;
+				int32_t L_10 = ___handle0;
+				NullCheck(L_8);
+				(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (int32_t)L_10);
 				// m_RequestComplete[handle] = false;
-				BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_12 = __this->___m_RequestComplete_5;
-				int32_t L_13 = ___handle0;
-				NullCheck(L_12);
-				(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (bool)0);
+				BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_11 = __this->___m_RequestComplete_5;
+				int32_t L_12 = ___handle0;
+				NullCheck(L_11);
+				(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (bool)0);
 				// m_UpdateRequestWriteIndex = newWriteIndex;
-				int32_t L_14 = V_2;
-				__this->___m_UpdateRequestWriteIndex_7 = L_14;
-				goto IL_0065;
+				int32_t L_13 = V_2;
+				__this->___m_UpdateRequestWriteIndex_7 = L_13;
+				// }
+				goto IL_005a;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -3810,23 +3498,22 @@ IL_0039_1:
 		}
 	}
 
-IL_0065:
+IL_005a:
 	{
 		// m_Semaphore.Release();
-		Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B* L_15 = __this->___m_Semaphore_9;
-		NullCheck(L_15);
-		int32_t L_16;
-		L_16 = Semaphore_Release_m3AA41CBF1DEA03948FD56E47B5E05A68F43A7A94(L_15, NULL);
+		Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B* L_14 = __this->___m_Semaphore_9;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Semaphore_Release_m3AA41CBF1DEA03948FD56E47B5E05A68F43A7A94(L_14, NULL);
 		// return true;
-		V_4 = (bool)1;
-		goto IL_0076;
+		return (bool)1;
 	}
 
-IL_0076:
+IL_0068:
 	{
 		// }
-		bool L_17 = V_4;
-		return L_17;
+		bool L_16 = V_3;
+		return L_16;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.AsyncUpdater::IsRequestComplete(System.Int32)
@@ -3845,13 +3532,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncUpdater_IsRequestComplete_m7CF12C9A
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_001f:
+FINALLY_001c:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0029;
+						goto IL_0025;
 					}
 				}
 				{
@@ -3859,7 +3546,7 @@ FINALLY_001f:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0029:
+IL_0025:
 				{
 					return;
 				}
@@ -3876,7 +3563,7 @@ IL_0029:
 			int32_t L_6 = L_5;
 			uint8_t L_7 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 			V_2 = (bool)L_7;
-			goto IL_002a;
+			goto IL_0026;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -3884,7 +3571,7 @@ IL_0029:
 		}
 	}
 
-IL_002a:
+IL_0026:
 	{
 		// }
 		bool L_8 = V_2;
@@ -3907,35 +3594,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncUpdater__ctor_m0E52F8DBFA255D988D89
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// private bool m_Disposed = false;
-		__this->___m_Disposed_1 = (bool)0;
-		// private bool m_Quit = false;
-		__this->___m_Quit_2 = (bool)0;
 		// private List<Action> m_UpdateAction = new List<Action>();
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_0 = (List_1_tDB72209F35D56F62A287633F9450978E90B90987*)il2cpp_codegen_object_new(List_1_tDB72209F35D56F62A287633F9450978E90B90987_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_mBFD6DF02E045EDF3C322E2112C922457016C8212(L_0, List_1__ctor_mBFD6DF02E045EDF3C322E2112C922457016C8212_RuntimeMethod_var);
 		__this->___m_UpdateAction_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UpdateAction_3), (void*)L_0);
-		// private int[] m_UpdateRequests = null;
-		__this->___m_UpdateRequests_4 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UpdateRequests_4), (void*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)NULL);
-		// private bool[] m_RequestComplete = null;
-		__this->___m_RequestComplete_5 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RequestComplete_5), (void*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)NULL);
-		// private int m_UpdateRequestReadIndex = 0;
-		__this->___m_UpdateRequestReadIndex_6 = 0;
-		// private int m_UpdateRequestWriteIndex = 0;
-		__this->___m_UpdateRequestWriteIndex_7 = 0;
 		// private object m_Mutex = new object();
 		RuntimeObject* L_1 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_1, NULL);
 		__this->___m_Mutex_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Mutex_8), (void*)L_1);
-		// private Semaphore m_Semaphore = null;
-		__this->___m_Semaphore_9 = (Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Semaphore_9), (void*)(Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B*)NULL);
 		// public AsyncUpdater()
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// m_Thread = new Thread(new ThreadStart(ThreadProc));
@@ -3967,21 +3637,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncUpdater_ThreadProc_m20254534606D360
 	int32_t V_0 = 0;
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
-	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	RuntimeObject* V_6 = NULL;
-	bool V_7 = false;
-	bool V_8 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// AndroidJNI.AttachCurrentThread();
 		int32_t L_0;
 		L_0 = AndroidJNI_AttachCurrentThread_mD5647083E547A77F9377BDB78106D426878A00E7(NULL);
-		goto IL_00ee;
 	}
 
-IL_000c:
+IL_0006:
 	{
 	}
 	try
@@ -3991,27 +3654,28 @@ IL_000c:
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_1);
-		goto IL_0024;
+		// }
+		goto IL_001b;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_001d;
+			goto CATCH_0015;
 		}
 		throw e;
 	}
 
-CATCH_001d:
+CATCH_0015:
 	{// begin catch(System.Exception)
 		// catch (Exception)
 		// break;
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_00f6;
+		goto IL_00bd;
 	}// end catch (depth: 1)
 
-IL_0024:
+IL_001b:
 	{
 		// int handle = -1;
 		V_0 = (-1);
@@ -4024,13 +3688,13 @@ IL_0024:
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0089:
+FINALLY_0070:
 			{// begin finally (depth: 1)
 				{
 					bool L_4 = V_2;
 					if (!L_4)
 					{
-						goto IL_0093;
+						goto IL_0079;
 					}
 				}
 				{
@@ -4038,7 +3702,7 @@ FINALLY_0089:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_5, NULL);
 				}
 
-IL_0093:
+IL_0079:
 				{
 					return;
 				}
@@ -4051,48 +3715,45 @@ IL_0093:
 				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_6, (&V_2), NULL);
 				// if (m_Quit)
 				bool L_7 = __this->___m_Quit_2;
-				V_3 = L_7;
-				bool L_8 = V_3;
-				if (!L_8)
+				if (!L_7)
 				{
-					goto IL_0048_1;
+					goto IL_003b_1;
 				}
 			}
 			{
 				// break;
-				goto IL_00f6;
+				goto IL_00bd;
 			}
 
-IL_0048_1:
+IL_003b_1:
 			{
 				// if (m_UpdateRequestReadIndex != m_UpdateRequestWriteIndex)
-				int32_t L_9 = __this->___m_UpdateRequestReadIndex_6;
-				int32_t L_10 = __this->___m_UpdateRequestWriteIndex_7;
-				V_4 = (bool)((((int32_t)((((int32_t)L_9) == ((int32_t)L_10))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_11 = V_4;
-				if (!L_11)
+				int32_t L_8 = __this->___m_UpdateRequestReadIndex_6;
+				int32_t L_9 = __this->___m_UpdateRequestWriteIndex_7;
+				if ((((int32_t)L_8) == ((int32_t)L_9)))
 				{
-					goto IL_0086_1;
+					goto IL_006e_1;
 				}
 			}
 			{
 				// handle = m_UpdateRequests[m_UpdateRequestReadIndex];
-				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = __this->___m_UpdateRequests_4;
-				int32_t L_13 = __this->___m_UpdateRequestReadIndex_6;
-				NullCheck(L_12);
-				int32_t L_14 = L_13;
-				int32_t L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-				V_0 = L_15;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = __this->___m_UpdateRequests_4;
+				int32_t L_11 = __this->___m_UpdateRequestReadIndex_6;
+				NullCheck(L_10);
+				int32_t L_12 = L_11;
+				int32_t L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+				V_0 = L_13;
 				// m_UpdateRequestReadIndex = (m_UpdateRequestReadIndex + 1) % m_UpdateRequests.Length;
-				int32_t L_16 = __this->___m_UpdateRequestReadIndex_6;
-				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = __this->___m_UpdateRequests_4;
-				NullCheck(L_17);
-				__this->___m_UpdateRequestReadIndex_6 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_16, 1))%((int32_t)(((RuntimeArray*)L_17)->max_length))));
+				int32_t L_14 = __this->___m_UpdateRequestReadIndex_6;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = __this->___m_UpdateRequests_4;
+				NullCheck(L_15);
+				__this->___m_UpdateRequestReadIndex_6 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_14, 1))%((int32_t)(((RuntimeArray*)L_15)->max_length))));
 			}
 
-IL_0086_1:
+IL_006e_1:
 			{
-				goto IL_0094;
+				// }
+				goto IL_007a;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -4101,74 +3762,72 @@ IL_0086_1:
 		}
 	}
 
-IL_0094:
+IL_007a:
 	{
 		// if (handle >= 0)
-		int32_t L_18 = V_0;
-		V_5 = (bool)((((int32_t)((((int32_t)L_18) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_19 = V_5;
-		if (!L_19)
+		int32_t L_16 = V_0;
+		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
-			goto IL_00ed;
+			goto IL_0006;
 		}
-	}
-	{
 	}
 	try
 	{// begin try (depth: 1)
 		// m_UpdateAction[handle].Invoke();
-		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_20 = __this->___m_UpdateAction_3;
-		int32_t L_21 = V_0;
-		NullCheck(L_20);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_22;
-		L_22 = List_1_get_Item_m8A119323481338039197B73D82916BB46DEE3C2D(L_20, L_21, List_1_get_Item_m8A119323481338039197B73D82916BB46DEE3C2D_RuntimeMethod_var);
-		NullCheck(L_22);
-		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_22, NULL);
-		goto IL_00bd;
+		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_17 = __this->___m_UpdateAction_3;
+		int32_t L_18 = V_0;
+		NullCheck(L_17);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_19;
+		L_19 = List_1_get_Item_m8A119323481338039197B73D82916BB46DEE3C2D(L_17, L_18, List_1_get_Item_m8A119323481338039197B73D82916BB46DEE3C2D_RuntimeMethod_var);
+		NullCheck(L_19);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_19, NULL);
+		// }
+		goto IL_0094;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_00b8;
+			goto CATCH_0091;
 		}
 		throw e;
 	}
 
-CATCH_00b8:
+CATCH_0091:
 	{// begin catch(System.Exception)
 		// catch (Exception)
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_00bd;
+		goto IL_0094;
 	}// end catch (depth: 1)
 
-IL_00bd:
+IL_0094:
 	{
 		// lock (m_Mutex)
-		RuntimeObject* L_23 = __this->___m_Mutex_8;
-		V_6 = L_23;
-		V_7 = (bool)0;
+		RuntimeObject* L_20 = __this->___m_Mutex_8;
+		V_1 = L_20;
+		V_2 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00df:
+FINALLY_00b3:
 			{// begin finally (depth: 1)
 				{
-					bool L_24 = V_7;
-					if (!L_24)
+					bool L_21 = V_2;
+					if (!L_21)
 					{
-						goto IL_00eb;
+						goto IL_00bc;
 					}
 				}
 				{
-					RuntimeObject* L_25 = V_6;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_25, NULL);
+					RuntimeObject* L_22 = V_1;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_22, NULL);
 				}
 
-IL_00eb:
+IL_00bc:
 				{
 					return;
 				}
@@ -4176,14 +3835,15 @@ IL_00eb:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_26 = V_6;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_26, (&V_7), NULL);
+			RuntimeObject* L_23 = V_1;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_23, (&V_2), NULL);
 			// m_RequestComplete[handle] = true;
-			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_27 = __this->___m_RequestComplete_5;
-			int32_t L_28 = V_0;
-			NullCheck(L_27);
-			(L_27)->SetAt(static_cast<il2cpp_array_size_t>(L_28), (bool)1);
-			goto IL_00ec;
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_24 = __this->___m_RequestComplete_5;
+			int32_t L_25 = V_0;
+			NullCheck(L_24);
+			(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (bool)1);
+			// }
+			goto IL_0006;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4191,26 +3851,11 @@ IL_00eb:
 		}
 	}
 
-IL_00ec:
-	{
-	}
-
-IL_00ed:
-	{
-	}
-
-IL_00ee:
-	{
-		// while (true)
-		V_8 = (bool)1;
-		goto IL_000c;
-	}
-
-IL_00f6:
+IL_00bd:
 	{
 		// AndroidJNI.DetachCurrentThread();
-		int32_t L_29;
-		L_29 = AndroidJNI_DetachCurrentThread_m8549BBC1875C2142A1C6BE5B57663E42B9C04A85(NULL);
+		int32_t L_26;
+		L_26 = AndroidJNI_DetachCurrentThread_m8549BBC1875C2142A1C6BE5B57663E42B9C04A85(NULL);
 		// }
 		return;
 	}
@@ -4218,75 +3863,66 @@ IL_00f6:
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.AsyncUpdater::Dispose(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncUpdater_Dispose_mD52CA6DA8B1B7993C6AC8D3C4F0A5C88088E8996 (AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* __this, bool ___disposing0, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
+	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
-	bool V_2 = false;
-	RuntimeObject* V_3 = NULL;
-	bool V_4 = false;
 	{
 		// if (m_Disposed)
 		bool L_0 = __this->___m_Disposed_1;
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_000d;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_006e;
+		return;
 	}
 
-IL_000d:
+IL_0009:
 	{
 		// if (disposing)
-		bool L_2 = ___disposing0;
-		V_1 = L_2;
-		bool L_3 = V_1;
-		if (!L_3)
+		bool L_1 = ___disposing0;
+		if (!L_1)
 		{
-			goto IL_0067;
+			goto IL_0054;
 		}
 	}
 	{
 		// if (m_Thread.IsAlive)
-		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_4 = __this->___m_Thread_0;
-		NullCheck(L_4);
-		bool L_5;
-		L_5 = Thread_get_IsAlive_m87922B882A526D780570799F497EEB4C99F005DF(L_4, NULL);
-		V_2 = L_5;
-		bool L_6 = V_2;
-		if (!L_6)
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_2 = __this->___m_Thread_0;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = Thread_get_IsAlive_m87922B882A526D780570799F497EEB4C99F005DF(L_2, NULL);
+		if (!L_3)
 		{
-			goto IL_0066;
+			goto IL_0054;
 		}
 	}
 	{
 		// lock (m_Mutex)
-		RuntimeObject* L_7 = __this->___m_Mutex_8;
-		V_3 = L_7;
-		V_4 = (bool)0;
+		RuntimeObject* L_4 = __this->___m_Mutex_8;
+		V_0 = L_4;
+		V_1 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0041:
+FINALLY_0033:
 			{// begin finally (depth: 1)
 				{
-					bool L_8 = V_4;
-					if (!L_8)
+					bool L_5 = V_1;
+					if (!L_5)
 					{
-						goto IL_004c;
+						goto IL_003c;
 					}
 				}
 				{
-					RuntimeObject* L_9 = V_3;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_9, NULL);
+					RuntimeObject* L_6 = V_0;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_6, NULL);
 				}
 
-IL_004c:
+IL_003c:
 				{
 					return;
 				}
@@ -4294,11 +3930,12 @@ IL_004c:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_10 = V_3;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_10, (&V_4), NULL);
+			RuntimeObject* L_7 = V_0;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_7, (&V_1), NULL);
 			// m_Quit = true;
 			__this->___m_Quit_2 = (bool)1;
-			goto IL_004d;
+			// }
+			goto IL_003d;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4306,31 +3943,23 @@ IL_004c:
 		}
 	}
 
-IL_004d:
+IL_003d:
 	{
 		// m_Semaphore.Release();
-		Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B* L_11 = __this->___m_Semaphore_9;
-		NullCheck(L_11);
-		int32_t L_12;
-		L_12 = Semaphore_Release_m3AA41CBF1DEA03948FD56E47B5E05A68F43A7A94(L_11, NULL);
+		Semaphore_t12119E120563D7838E1DAFB15006DC8985C6AC4B* L_8 = __this->___m_Semaphore_9;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Semaphore_Release_m3AA41CBF1DEA03948FD56E47B5E05A68F43A7A94(L_8, NULL);
 		// m_Thread.Join();
-		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_13 = __this->___m_Thread_0;
-		NullCheck(L_13);
-		Thread_Join_mB756581AAF5EB028081256E0517892BC8867779F(L_13, NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_10 = __this->___m_Thread_0;
+		NullCheck(L_10);
+		Thread_Join_mB756581AAF5EB028081256E0517892BC8867779F(L_10, NULL);
 	}
 
-IL_0066:
-	{
-	}
-
-IL_0067:
+IL_0054:
 	{
 		// m_Disposed = true;
 		__this->___m_Disposed_1 = (bool)1;
-	}
-
-IL_006e:
-	{
 		// }
 		return;
 	}
@@ -4365,35 +3994,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncUpdater_Dispose_mE3267C63AAF1B517C1
 // UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::get_ApplicationLifecycle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SamsungGameSDKAdaptivePerformanceSubsystem_get_ApplicationLifecycle_m64F7677D5782694290573907AF9FBAD2A10C7D96 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	RuntimeObject* V_0 = NULL;
 	{
 		// public override IApplicationLifecycle ApplicationLifecycle { get { return this; } }
-		V_0 = __this;
-		goto IL_0005;
-	}
-
-IL_0005:
-	{
-		// public override IApplicationLifecycle ApplicationLifecycle { get { return this; } }
-		RuntimeObject* L_0 = V_0;
-		return L_0;
+		return __this;
 	}
 }
 // UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::get_PerformanceLevelControl()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SamsungGameSDKAdaptivePerformanceSubsystem_get_PerformanceLevelControl_mC60177D4C36D89C823ECA720EA790F3209FECFCC (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	RuntimeObject* V_0 = NULL;
 	{
 		// public override IDevicePerformanceLevelControl PerformanceLevelControl { get { return this; } }
-		V_0 = __this;
-		goto IL_0005;
-	}
-
-IL_0005:
-	{
-		// public override IDevicePerformanceLevelControl PerformanceLevelControl { get { return this; } }
-		RuntimeObject* L_0 = V_0;
-		return L_0;
+		return __this;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::get_MaxCpuPerformanceLevel()
@@ -4467,33 +4078,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 	Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* G_B1_2 = NULL;
 	SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* G_B1_3 = NULL;
 	{
-		// private NativeApi m_Api = null;
-		__this->___m_Api_3 = (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Api_3), (void*)(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8*)NULL);
-		// private PerformanceDataRecord m_Data = new PerformanceDataRecord();
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_0 = (&__this->___m_Data_5);
-		il2cpp_codegen_initobj(L_0, sizeof(PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83));
 		// private object m_DataLock = new object();
-		RuntimeObject* L_1 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_1, NULL);
-		__this->___m_DataLock_6 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DataLock_6), (void*)L_1);
-		// private AsyncValue<double> m_SkinTemp = null;
-		__this->___m_SkinTemp_7 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SkinTemp_7), (void*)(AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)NULL);
-		// private AsyncValue<double> m_GPUTime = null;
-		__this->___m_GPUTime_8 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GPUTime_8), (void*)(AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)NULL);
-		// private Version m_Version = null;
-		__this->___m_Version_9 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Version_9), (void*)(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)NULL);
-		// private float m_MinTempLevel = 0.0f;
-		__this->___m_MinTempLevel_10 = (0.0f);
+		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
+		__this->___m_DataLock_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DataLock_6), (void*)L_0);
 		// private float m_MaxTempLevel = 10.0f;
 		__this->___m_MaxTempLevel_11 = (10.0f);
-		// bool m_PerformanceLevelControlSystemChange = false;
-		__this->___m_PerformanceLevelControlSystemChange_12 = (bool)0;
 		// bool m_AllowPerformanceLevelControlChanges = true;
 		__this->___m_AllowPerformanceLevelControlChanges_13 = (bool)1;
 		// public SamsungGameSDKAdaptivePerformanceSubsystem()
@@ -4503,89 +4095,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		// MaxGpuPerformanceLevel = 3;
 		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, 3, NULL);
 		// m_Api = new NativeApi(OnPerformanceWarning, OnPerformanceLevelTimeout, () => (VariableRefreshRate.Instance as VRRManager)?.OnRefreshRateChanged(), OnCpuPerformanceBoostModeTimeout, OnGpuPerformanceBoostModeTimeout);
-		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_2 = (Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA*)il2cpp_codegen_object_new(Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA_il2cpp_TypeInfo_var);
+		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_1 = (Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA*)il2cpp_codegen_object_new(Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_1__ctor_m3447050AC75D7978A825F681D4EB19C5A0B735E0(L_1, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnPerformanceWarning_m4F10CCC53C50EB06584ECD641A77E64404010C76_RuntimeMethod_var), NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
-		Action_1__ctor_m3447050AC75D7978A825F681D4EB19C5A0B735E0(L_2, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnPerformanceWarning_m4F10CCC53C50EB06584ECD641A77E64404010C76_RuntimeMethod_var), NULL);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnPerformanceLevelTimeout_mA6402C54280B5C28F1054D67B0689B97006DBB31_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnPerformanceLevelTimeout_mA6402C54280B5C28F1054D67B0689B97006DBB31_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9__26_0_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = L_4;
-		G_B1_0 = L_5;
-		G_B1_1 = L_3;
-		G_B1_2 = L_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9__26_0_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = L_3;
+		G_B1_0 = L_4;
+		G_B1_1 = L_2;
+		G_B1_2 = L_1;
 		G_B1_3 = __this;
-		if (L_5)
+		if (L_4)
 		{
-			G_B2_0 = L_5;
-			G_B2_1 = L_3;
-			G_B2_2 = L_2;
+			G_B2_0 = L_4;
+			G_B2_1 = L_2;
+			G_B2_2 = L_1;
 			G_B2_3 = __this;
-			goto IL_00a7;
+			goto IL_0069;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var);
-		U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39* L_6 = ((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3C_ctorU3Eb__26_0_m5B1E90197167FA3947DD02BAE512EF46DBD77D15_RuntimeMethod_var), NULL);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = L_7;
-		((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9__26_0_1 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9__26_0_1), (void*)L_8);
-		G_B2_0 = L_8;
+		U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39* L_5 = ((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec_U3C_ctorU3Eb__26_0_m5B1E90197167FA3947DD02BAE512EF46DBD77D15_RuntimeMethod_var), NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = L_6;
+		((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9__26_0_1 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t025A21461965FABBEE9B88CFED183BF18C71FF39_il2cpp_TypeInfo_var))->___U3CU3E9__26_0_1), (void*)L_7);
+		G_B2_0 = L_7;
 		G_B2_1 = G_B1_1;
 		G_B2_2 = G_B1_2;
 		G_B2_3 = G_B1_3;
 	}
 
-IL_00a7:
+IL_0069:
 	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnCpuPerformanceBoostModeTimeout_mD62D5D0817845C0442175DD0E6D0A85894859794_RuntimeMethod_var), NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		NullCheck(L_9);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnCpuPerformanceBoostModeTimeout_mD62D5D0817845C0442175DD0E6D0A85894859794_RuntimeMethod_var), NULL);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnGpuPerformanceBoostModeTimeout_mCAB37F0ACE9C858CC9452EDA7ADD8D694FB44F46_RuntimeMethod_var), NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_10 = (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8*)il2cpp_codegen_object_new(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		NullCheck(L_10);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_OnGpuPerformanceBoostModeTimeout_mCAB37F0ACE9C858CC9452EDA7ADD8D694FB44F46_RuntimeMethod_var), NULL);
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_11 = (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8*)il2cpp_codegen_object_new(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		NativeApi__ctor_m62E976B074521326BD1F50D144286A876C851B1E(L_11, G_B2_2, G_B2_1, G_B2_0, L_9, L_10, NULL);
+		NativeApi__ctor_m62E976B074521326BD1F50D144286A876C851B1E(L_10, G_B2_2, G_B2_1, G_B2_0, L_8, L_9, NULL);
 		NullCheck(G_B2_3);
-		G_B2_3->___m_Api_3 = L_11;
-		Il2CppCodeGenWriteBarrier((void**)(&G_B2_3->___m_Api_3), (void*)L_11);
+		G_B2_3->___m_Api_3 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B2_3->___m_Api_3), (void*)L_10);
 		// m_AsyncUpdater = new AsyncUpdater();
-		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_12 = (AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976*)il2cpp_codegen_object_new(AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976_il2cpp_TypeInfo_var);
-		NullCheck(L_12);
-		AsyncUpdater__ctor_m0E52F8DBFA255D988D89F3DF47CD6FA7E90EBB34(L_12, NULL);
-		__this->___m_AsyncUpdater_4 = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AsyncUpdater_4), (void*)L_12);
+		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_11 = (AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976*)il2cpp_codegen_object_new(AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		AsyncUpdater__ctor_m0E52F8DBFA255D988D89F3DF47CD6FA7E90EBB34(L_11, NULL);
+		__this->___m_AsyncUpdater_4 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AsyncUpdater_4), (void*)L_11);
 		// m_SkinTemp = new AsyncValue<double>(m_AsyncUpdater, -1.0, 2.7f, () => GetHighPrecisionSkinTempLevel());
-		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_13 = __this->___m_AsyncUpdater_4;
-		Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* L_14 = (Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7*)il2cpp_codegen_object_new(Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7_il2cpp_TypeInfo_var);
+		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_12 = __this->___m_AsyncUpdater_4;
+		Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* L_13 = (Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7*)il2cpp_codegen_object_new(Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Func_1__ctor_mFD3B853B23577DD7757C6726EB1FB0EC97D25B31(L_13, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_U3C_ctorU3Eb__26_1_mCE696AB1F6975769FC2500AECB6FE848409B3B4F_RuntimeMethod_var), NULL);
+		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_14 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)il2cpp_codegen_object_new(AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A_il2cpp_TypeInfo_var);
 		NullCheck(L_14);
-		Func_1__ctor_mFD3B853B23577DD7757C6726EB1FB0EC97D25B31(L_14, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_U3C_ctorU3Eb__26_1_mCE696AB1F6975769FC2500AECB6FE848409B3B4F_RuntimeMethod_var), NULL);
-		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_15 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)il2cpp_codegen_object_new(AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A_il2cpp_TypeInfo_var);
-		NullCheck(L_15);
-		AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5(L_15, L_13, (-1.0), (2.70000005f), L_14, AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5_RuntimeMethod_var);
-		__this->___m_SkinTemp_7 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SkinTemp_7), (void*)L_15);
+		AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5(L_14, L_12, (-1.0), (2.70000005f), L_13, AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5_RuntimeMethod_var);
+		__this->___m_SkinTemp_7 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SkinTemp_7), (void*)L_14);
 		// m_GPUTime = new AsyncValue<double>(m_AsyncUpdater, -1.0, 0.0f, () => m_Api.GetGpuFrameTime());
-		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_16 = __this->___m_AsyncUpdater_4;
-		Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* L_17 = (Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7*)il2cpp_codegen_object_new(Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7_il2cpp_TypeInfo_var);
+		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_15 = __this->___m_AsyncUpdater_4;
+		Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* L_16 = (Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7*)il2cpp_codegen_object_new(Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
+		Func_1__ctor_mFD3B853B23577DD7757C6726EB1FB0EC97D25B31(L_16, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_U3C_ctorU3Eb__26_2_m4FE8C54EE4AA931A4C2D2C73BD6DE66E478FE7E0_RuntimeMethod_var), NULL);
+		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_17 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)il2cpp_codegen_object_new(AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A_il2cpp_TypeInfo_var);
 		NullCheck(L_17);
-		Func_1__ctor_mFD3B853B23577DD7757C6726EB1FB0EC97D25B31(L_17, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_U3C_ctorU3Eb__26_2_m4FE8C54EE4AA931A4C2D2C73BD6DE66E478FE7E0_RuntimeMethod_var), NULL);
-		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_18 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)il2cpp_codegen_object_new(AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A_il2cpp_TypeInfo_var);
-		NullCheck(L_18);
-		AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5(L_18, L_16, (-1.0), (0.0f), L_17, AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5_RuntimeMethod_var);
-		__this->___m_GPUTime_8 = L_18;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GPUTime_8), (void*)L_18);
+		AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5(L_17, L_15, (-1.0), (0.0f), L_16, AsyncValue_1__ctor_m8F76CA33FF29AF1898F434F8ED52FD8D3821ACB5_RuntimeMethod_var);
+		__this->___m_GPUTime_8 = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GPUTime_8), (void*)L_17);
 		// Capabilities = Feature.CpuPerformanceLevel | Feature.GpuPerformanceLevel | Feature.PerformanceLevelControl | Feature.TemperatureLevel | Feature.WarningLevel | Feature.GpuFrameTime;
 		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)123), NULL);
 		// m_AsyncUpdater.Start();
-		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_19 = __this->___m_AsyncUpdater_4;
-		NullCheck(L_19);
-		AsyncUpdater_Start_m44754B8FBC894327CB62D4C2893211AF14068983(L_19, NULL);
+		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_18 = __this->___m_AsyncUpdater_4;
+		NullCheck(L_18);
+		AsyncUpdater_Start_m44754B8FBC894327CB62D4C2893211AF14068983(L_18, NULL);
 		// }
 		return;
 	}
@@ -4605,13 +4197,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_004d:
+FINALLY_0046:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0057;
+						goto IL_004f;
 					}
 				}
 				{
@@ -4619,7 +4211,7 @@ FINALLY_004d:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0057:
+IL_004f:
 				{
 					return;
 				}
@@ -4645,7 +4237,8 @@ IL_0057:
 			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_10 = (&__this->___m_Data_5);
 			int32_t L_11 = ___warningLevel0;
 			PerformanceDataRecord_set_WarningLevel_mBC3853B7D0AA1412C41DFD248FA9E7252DAEB5F4_inline(L_10, L_11, NULL);
-			goto IL_0058;
+			// }
+			goto IL_0050;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4653,7 +4246,7 @@ IL_0057:
 		}
 	}
 
-IL_0058:
+IL_0050:
 	{
 		// }
 		return;
@@ -4674,13 +4267,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_005a:
+FINALLY_0052:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0064;
+						goto IL_005b;
 					}
 				}
 				{
@@ -4688,7 +4281,7 @@ FINALLY_005a:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0064:
+IL_005b:
 				{
 					return;
 				}
@@ -4716,7 +4309,8 @@ IL_0064:
 			// m_Data.GpuPerformanceLevel = Constants.UnknownPerformanceLevel;
 			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_11 = (&__this->___m_Data_5);
 			PerformanceDataRecord_set_GpuPerformanceLevel_mBA26ABE3F6089BA232022D7F0F38B55B8FA9481A_inline(L_11, (-1), NULL);
-			goto IL_0065;
+			// }
+			goto IL_005c;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4724,7 +4318,7 @@ IL_0064:
 		}
 	}
 
-IL_0065:
+IL_005c:
 	{
 		// }
 		return;
@@ -4745,13 +4339,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_003c:
+FINALLY_0036:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0046;
+						goto IL_003f;
 					}
 				}
 				{
@@ -4759,7 +4353,7 @@ FINALLY_003c:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0046:
+IL_003f:
 				{
 					return;
 				}
@@ -4778,7 +4372,8 @@ IL_0046:
 			// m_Data.CpuPerformanceBoost = false;
 			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_7 = (&__this->___m_Data_5);
 			PerformanceDataRecord_set_CpuPerformanceBoost_mD8BF1CE74A03B57E81DBCD9A3DDE8DAA27968FF5_inline(L_7, (bool)0, NULL);
-			goto IL_0047;
+			// }
+			goto IL_0040;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4786,7 +4381,7 @@ IL_0046:
 		}
 	}
 
-IL_0047:
+IL_0040:
 	{
 		// }
 		return;
@@ -4807,13 +4402,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_003c:
+FINALLY_0036:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0046;
+						goto IL_003f;
 					}
 				}
 				{
@@ -4821,7 +4416,7 @@ FINALLY_003c:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0046:
+IL_003f:
 				{
 					return;
 				}
@@ -4840,7 +4435,8 @@ IL_0046:
 			// m_Data.GpuPerformanceBoost = false;
 			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_7 = (&__this->___m_Data_5);
 			PerformanceDataRecord_set_GpuPerformanceBoost_m0A5764E94B8EC621A0AA51B2F7C24BA1EAF844B9_inline(L_7, (bool)0, NULL);
-			goto IL_0047;
+			// }
+			goto IL_0040;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4848,7 +4444,7 @@ IL_0046:
 		}
 	}
 
-IL_0047:
+IL_0040:
 	{
 		// }
 		return;
@@ -4857,43 +4453,25 @@ IL_0047:
 // System.Single UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::GetHighPrecisionSkinTempLevel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsystem_GetHighPrecisionSkinTempLevel_mE797BBCCD724C732D8CC903F304B1E2E75D48F32 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	float V_0 = 0.0f;
 	{
 		// return (float)m_Api.GetHighPrecisionSkinTempLevel();
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_3;
 		NullCheck(L_0);
 		double L_1;
 		L_1 = NativeApi_GetHighPrecisionSkinTempLevel_mF772B46B9F70B8520E7CE50D9FBB854BD435836A(L_0, NULL);
-		V_0 = ((float)L_1);
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		// }
-		float L_2 = V_0;
-		return L_2;
+		return ((float)L_1);
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::GetClusterInfo()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SamsungGameSDKAdaptivePerformanceSubsystem_GetClusterInfo_mCDCC1E57CDB95E8FB869C9B0BD6A2ACB7D10FBE2 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
 	{
 		// return m_Api.GetClusterInfo();
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_3;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = NativeApi_GetClusterInfo_m1B6635A235E064CCBACD2D3875A97816A3FCA920(L_0, NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		int32_t L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::ImmediateUpdateTemperature()
@@ -4927,13 +4505,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0050:
+FINALLY_0049:
 			{// begin finally (depth: 1)
 				{
 					bool L_4 = V_2;
 					if (!L_4)
 					{
-						goto IL_005a;
+						goto IL_0052;
 					}
 				}
 				{
@@ -4941,7 +4519,7 @@ FINALLY_0050:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_5, NULL);
 				}
 
-IL_005a:
+IL_0052:
 				{
 					return;
 				}
@@ -4962,7 +4540,8 @@ IL_005a:
 			float L_11;
 			L_11 = SamsungGameSDKAdaptivePerformanceSubsystem_GetTemperatureLevel_mA400905D39A068B49434A3C39B2D7028F0760058(__this, NULL);
 			PerformanceDataRecord_set_TemperatureLevel_mFC2BC8E019EFB0E7611C242D1F5D4EAB76570BB5_inline(L_10, L_11, NULL);
-			goto IL_005b;
+			// }
+			goto IL_0053;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -4970,7 +4549,7 @@ IL_005a:
 		}
 	}
 
-IL_005b:
+IL_0053:
 	{
 		// }
 		return;
@@ -4987,8 +4566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 	}
 	bool V_0 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	{
-	}
 	try
 	{// begin try (depth: 1)
 		// version = new Version(versionString);
@@ -4999,19 +4576,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 		Version__ctor_m52D06833AE6481C0A9B72085BDC4D09A723CEF7F(L_2, L_1, NULL);
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_2;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_2);
-		goto IL_0016;
+		// }
+		goto IL_0012;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_000d;
+			goto CATCH_000a;
 		}
 		throw e;
 	}
 
-CATCH_000d:
+CATCH_000a:
 	{// begin catch(System.Exception)
 		// catch (Exception)
 		// version = null;
@@ -5021,17 +4599,16 @@ CATCH_000d:
 		// return false;
 		V_0 = (bool)0;
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_001a;
+		goto IL_0014;
 	}// end catch (depth: 1)
 
-IL_0016:
+IL_0012:
 	{
 		// return true;
-		V_0 = (bool)1;
-		goto IL_001a;
+		return (bool)1;
 	}
 
-IL_001a:
+IL_0014:
 	{
 		// }
 		bool L_4 = V_0;
@@ -5048,253 +4625,214 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
-	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	bool V_8 = false;
 	{
 		// if (initialized)
 		bool L_0;
 		L_0 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(__this, NULL);
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_0013;
+			goto IL_000a;
 		}
 	}
 	{
 		// return true;
-		V_1 = (bool)1;
-		goto IL_01d3;
+		return (bool)1;
 	}
 
-IL_0013:
+IL_000a:
 	{
 		// if (!m_Api.Initialize())
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_2 = __this->___m_Api_3;
-		NullCheck(L_2);
-		bool L_3;
-		L_3 = NativeApi_Initialize_mD5CCC8D65B6D995B365BE4602144DEBA9BDD55CD(L_2, NULL);
-		V_2 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
-		bool L_4 = V_2;
-		if (!L_4)
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_1 = __this->___m_Api_3;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = NativeApi_Initialize_mD5CCC8D65B6D995B365BE4602144DEBA9BDD55CD(L_1, NULL);
+		if (L_2)
 		{
-			goto IL_002d;
+			goto IL_0019;
 		}
 	}
 	{
 		// return false;
-		V_1 = (bool)0;
-		goto IL_01d3;
+		return (bool)0;
 	}
 
-IL_002d:
+IL_0019:
 	{
 		// if (TryParseVersion(m_Api.GetVersion(), out m_Version))
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_5 = __this->___m_Api_3;
-		NullCheck(L_5);
-		String_t* L_6;
-		L_6 = NativeApi_GetVersion_mA4099836535EE991E5F2F9F910A2051AA54944A2(L_5, NULL);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7** L_7 = (&__this->___m_Version_9);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_3 = __this->___m_Api_3;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = NativeApi_GetVersion_mA4099836535EE991E5F2F9F910A2051AA54944A2(L_3, NULL);
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7** L_5 = (&__this->___m_Version_9);
 		il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
-		bool L_8;
-		L_8 = SamsungGameSDKAdaptivePerformanceSubsystem_TryParseVersion_m68B5F65C1CD0EAFB0E51ADF9278C4FF351ED62A2(L_6, L_7, NULL);
-		V_3 = L_8;
-		bool L_9 = V_3;
-		if (!L_9)
+		bool L_6;
+		L_6 = SamsungGameSDKAdaptivePerformanceSubsystem_TryParseVersion_m68B5F65C1CD0EAFB0E51ADF9278C4FF351ED62A2(L_4, L_5, NULL);
+		if (!L_6)
 		{
-			goto IL_0150;
+			goto IL_0118;
 		}
 	}
 	{
 		// if (m_Version >= new Version(3, 5))
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_10 = __this->___m_Version_9;
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_11 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_11, 3, 5, NULL);
-		bool L_12;
-		L_12 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_10, L_11, NULL);
-		V_4 = L_12;
-		bool L_13 = V_4;
-		if (!L_13)
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_7 = __this->___m_Version_9;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_8 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_8, 3, 5, NULL);
+		bool L_9;
+		L_9 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_7, L_8, NULL);
+		if (!L_9)
 		{
-			goto IL_00a9;
+			goto IL_0088;
 		}
 	}
 	{
 		// initialized = true;
 		AdaptivePerformanceSubsystemBase_set_initialized_m7B2B09A90BC940B4903FBF8FB7D4F87581CDFF72_inline(__this, (bool)1, NULL);
 		// MaxCpuPerformanceLevel = m_Api.GetMaxCpuPerformanceLevel();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_14 = __this->___m_Api_3;
-		NullCheck(L_14);
-		int32_t L_15;
-		L_15 = NativeApi_GetMaxCpuPerformanceLevel_m7106C512DEFDAD0EF76DF0F752E95B5C20ADFE92(L_14, NULL);
-		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, L_15, NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_10 = __this->___m_Api_3;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = NativeApi_GetMaxCpuPerformanceLevel_m7106C512DEFDAD0EF76DF0F752E95B5C20ADFE92(L_10, NULL);
+		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, L_11, NULL);
 		// MaxGpuPerformanceLevel = m_Api.GetMaxGpuPerformanceLevel();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_16 = __this->___m_Api_3;
-		NullCheck(L_16);
-		int32_t L_17;
-		L_17 = NativeApi_GetMaxGpuPerformanceLevel_m287193E794C3784CDA030D5B37F3F4D8B34BEAB8(L_16, NULL);
-		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, L_17, NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_12 = __this->___m_Api_3;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = NativeApi_GetMaxGpuPerformanceLevel_m287193E794C3784CDA030D5B37F3F4D8B34BEAB8(L_12, NULL);
+		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, L_13, NULL);
 		// Capabilities |= Feature.CpuPerformanceBoost | Feature.GpuPerformanceBoost;
-		int32_t L_18;
-		L_18 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_18|((int32_t)1536))), NULL);
-		goto IL_014f;
+		int32_t L_14;
+		L_14 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
+		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_14|((int32_t)1536))), NULL);
+		goto IL_0118;
 	}
 
-IL_00a9:
+IL_0088:
 	{
 		// else if (m_Version >= new Version(3, 4))
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_19 = __this->___m_Version_9;
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_20 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		NullCheck(L_20);
-		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_20, 3, 4, NULL);
-		bool L_21;
-		L_21 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_19, L_20, NULL);
-		V_5 = L_21;
-		bool L_22 = V_5;
-		if (!L_22)
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_15 = __this->___m_Version_9;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_16 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
+		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_16, 3, 4, NULL);
+		bool L_17;
+		L_17 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_15, L_16, NULL);
+		if (!L_17)
 		{
-			goto IL_00f1;
+			goto IL_00c7;
 		}
 	}
 	{
 		// initialized = true;
 		AdaptivePerformanceSubsystemBase_set_initialized_m7B2B09A90BC940B4903FBF8FB7D4F87581CDFF72_inline(__this, (bool)1, NULL);
 		// MaxCpuPerformanceLevel = m_Api.GetMaxCpuPerformanceLevel();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_23 = __this->___m_Api_3;
-		NullCheck(L_23);
-		int32_t L_24;
-		L_24 = NativeApi_GetMaxCpuPerformanceLevel_m7106C512DEFDAD0EF76DF0F752E95B5C20ADFE92(L_23, NULL);
-		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, L_24, NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_18 = __this->___m_Api_3;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = NativeApi_GetMaxCpuPerformanceLevel_m7106C512DEFDAD0EF76DF0F752E95B5C20ADFE92(L_18, NULL);
+		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, L_19, NULL);
 		// MaxGpuPerformanceLevel = m_Api.GetMaxGpuPerformanceLevel();
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_20 = __this->___m_Api_3;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = NativeApi_GetMaxGpuPerformanceLevel_m287193E794C3784CDA030D5B37F3F4D8B34BEAB8(L_20, NULL);
+		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, L_21, NULL);
+		goto IL_0118;
+	}
+
+IL_00c7:
+	{
+		// else if (m_Version >= new Version(3, 2))
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_22 = __this->___m_Version_9;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_23 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		NullCheck(L_23);
+		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_23, 3, 2, NULL);
+		bool L_24;
+		L_24 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_22, L_23, NULL);
+		if (!L_24)
+		{
+			goto IL_0106;
+		}
+	}
+	{
+		// initialized = true;
+		AdaptivePerformanceSubsystemBase_set_initialized_m7B2B09A90BC940B4903FBF8FB7D4F87581CDFF72_inline(__this, (bool)1, NULL);
+		// MaxCpuPerformanceLevel = m_Api.GetMaxCpuPerformanceLevel();
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_25 = __this->___m_Api_3;
 		NullCheck(L_25);
 		int32_t L_26;
-		L_26 = NativeApi_GetMaxGpuPerformanceLevel_m287193E794C3784CDA030D5B37F3F4D8B34BEAB8(L_25, NULL);
-		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, L_26, NULL);
-		goto IL_014f;
-	}
-
-IL_00f1:
-	{
-		// else if (m_Version >= new Version(3, 2))
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_27 = __this->___m_Version_9;
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_28 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_28, 3, 2, NULL);
-		bool L_29;
-		L_29 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_27, L_28, NULL);
-		V_6 = L_29;
-		bool L_30 = V_6;
-		if (!L_30)
-		{
-			goto IL_0139;
-		}
-	}
-	{
-		// initialized = true;
-		AdaptivePerformanceSubsystemBase_set_initialized_m7B2B09A90BC940B4903FBF8FB7D4F87581CDFF72_inline(__this, (bool)1, NULL);
-		// MaxCpuPerformanceLevel = m_Api.GetMaxCpuPerformanceLevel();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_31 = __this->___m_Api_3;
-		NullCheck(L_31);
-		int32_t L_32;
-		L_32 = NativeApi_GetMaxCpuPerformanceLevel_m7106C512DEFDAD0EF76DF0F752E95B5C20ADFE92(L_31, NULL);
-		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, L_32, NULL);
+		L_26 = NativeApi_GetMaxCpuPerformanceLevel_m7106C512DEFDAD0EF76DF0F752E95B5C20ADFE92(L_25, NULL);
+		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, L_26, NULL);
 		// MaxGpuPerformanceLevel = m_Api.GetMaxGpuPerformanceLevel();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_33 = __this->___m_Api_3;
-		NullCheck(L_33);
-		int32_t L_34;
-		L_34 = NativeApi_GetMaxGpuPerformanceLevel_m287193E794C3784CDA030D5B37F3F4D8B34BEAB8(L_33, NULL);
-		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, L_34, NULL);
-		goto IL_014f;
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_27 = __this->___m_Api_3;
+		NullCheck(L_27);
+		int32_t L_28;
+		L_28 = NativeApi_GetMaxGpuPerformanceLevel_m287193E794C3784CDA030D5B37F3F4D8B34BEAB8(L_27, NULL);
+		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, L_28, NULL);
+		goto IL_0118;
 	}
 
-IL_0139:
+IL_0106:
 	{
 		// m_Api.Terminate();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_35 = __this->___m_Api_3;
-		NullCheck(L_35);
-		NativeApi_Terminate_m20E038F0579D7C9D58454AD72011ED757FA27C1F(L_35, NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_29 = __this->___m_Api_3;
+		NullCheck(L_29);
+		NativeApi_Terminate_m20E038F0579D7C9D58454AD72011ED757FA27C1F(L_29, NULL);
 		// initialized = false;
 		AdaptivePerformanceSubsystemBase_set_initialized_m7B2B09A90BC940B4903FBF8FB7D4F87581CDFF72_inline(__this, (bool)0, NULL);
 	}
 
-IL_014f:
-	{
-	}
-
-IL_0150:
+IL_0118:
 	{
 		// if (MaxCpuPerformanceLevel == k_InvalidOperation)
-		int32_t L_36;
-		L_36 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxCpuPerformanceLevel_m7558F2A23D816B4F3EB7B94934B9646038C4D6F0_inline(__this, NULL);
-		V_7 = (bool)((((int32_t)L_36) == ((int32_t)((int32_t)-999)))? 1 : 0);
-		bool L_37 = V_7;
-		if (!L_37)
+		int32_t L_30;
+		L_30 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxCpuPerformanceLevel_m7558F2A23D816B4F3EB7B94934B9646038C4D6F0_inline(__this, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)((int32_t)-999)))))
 		{
-			goto IL_0184;
+			goto IL_0142;
 		}
 	}
 	{
 		// MaxCpuPerformanceLevel = Constants.UnknownPerformanceLevel;
 		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxCpuPerformanceLevel_m7040D551B96A10A49DB28DC1CB6FF6E55811BF9C_inline(__this, (-1), NULL);
 		// Capabilities &= ~Feature.CpuPerformanceLevel;
-		int32_t L_38;
-		L_38 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_38&((int32_t)-9))), NULL);
+		int32_t L_31;
+		L_31 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
+		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_31&((int32_t)-9))), NULL);
 		// m_AllowPerformanceLevelControlChanges = false;
 		__this->___m_AllowPerformanceLevelControlChanges_13 = (bool)0;
 	}
 
-IL_0184:
+IL_0142:
 	{
 		// if (MaxGpuPerformanceLevel == k_InvalidOperation)
-		int32_t L_39;
-		L_39 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxGpuPerformanceLevel_m5268FD732220398272D98125ABD2A92C0DB76C28_inline(__this, NULL);
-		V_8 = (bool)((((int32_t)L_39) == ((int32_t)((int32_t)-999)))? 1 : 0);
-		bool L_40 = V_8;
-		if (!L_40)
+		int32_t L_32;
+		L_32 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxGpuPerformanceLevel_m5268FD732220398272D98125ABD2A92C0DB76C28_inline(__this, NULL);
+		if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)-999)))))
 		{
-			goto IL_01b8;
+			goto IL_016c;
 		}
 	}
 	{
 		// MaxGpuPerformanceLevel = Constants.UnknownPerformanceLevel;
 		SamsungGameSDKAdaptivePerformanceSubsystem_set_MaxGpuPerformanceLevel_mDD72ADA0233E838AB2B08625407171D6FABC33BA_inline(__this, (-1), NULL);
 		// Capabilities &= ~Feature.GpuPerformanceLevel;
-		int32_t L_41;
-		L_41 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_41&((int32_t)-17))), NULL);
+		int32_t L_33;
+		L_33 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
+		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_33&((int32_t)-17))), NULL);
 		// m_AllowPerformanceLevelControlChanges = false;
 		__this->___m_AllowPerformanceLevelControlChanges_13 = (bool)0;
 	}
 
-IL_01b8:
+IL_016c:
 	{
 		// m_Data.PerformanceLevelControlAvailable = m_AllowPerformanceLevelControlChanges;
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_42 = (&__this->___m_Data_5);
-		bool L_43 = __this->___m_AllowPerformanceLevelControlChanges_13;
-		PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline(L_42, L_43, NULL);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_34 = (&__this->___m_Data_5);
+		bool L_35 = __this->___m_AllowPerformanceLevelControlChanges_13;
+		PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline(L_34, L_35, NULL);
 		// return initialized;
-		bool L_44;
-		L_44 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(__this, NULL);
-		V_1 = L_44;
-		goto IL_01d3;
-	}
-
-IL_01d3:
-	{
-		// }
-		bool L_45 = V_1;
-		return L_45;
+		bool L_36;
+		L_36 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(__this, NULL);
+		return L_36;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::Start()
@@ -5308,46 +4846,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* V_0 = NULL;
-	bool V_1 = false;
 	{
 		// if (!initialized)
 		bool L_0;
 		L_0 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(__this, NULL);
-		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		bool L_1 = V_1;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0011;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_0038;
+		return;
 	}
 
-IL_0011:
+IL_0009:
 	{
 		// ImmediateUpdateTemperature();
 		SamsungGameSDKAdaptivePerformanceSubsystem_ImmediateUpdateTemperature_m35F36531EA566899C06B7B46F7EB4C089333C2FF(__this, NULL);
 		// Thread t = new Thread(CheckInitialTemperatureAndSendWarnings);
-		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_2 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_1 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_1, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_CheckInitialTemperatureAndSendWarnings_mA4425C0019E331BDF01B791DC3E71D1CAB7EEABE_RuntimeMethod_var), NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_2 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
-		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_2, __this, (intptr_t)((void*)SamsungGameSDKAdaptivePerformanceSubsystem_CheckInitialTemperatureAndSendWarnings_mA4425C0019E331BDF01B791DC3E71D1CAB7EEABE_RuntimeMethod_var), NULL);
-		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_3 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_3, L_2, NULL);
-		V_0 = L_3;
+		Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_2, L_1, NULL);
 		// t.Start();
-		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_4 = V_0;
-		NullCheck(L_4);
-		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_4, NULL);
+		NullCheck(L_2);
+		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_2, NULL);
 		// CheckAndInitializeVRR();
 		SamsungGameSDKAdaptivePerformanceSubsystem_CheckAndInitializeVRR_m5D3A1BB4096B76E85CFF99048F2464407BBE12BA(__this, NULL);
-	}
-
-IL_0038:
-	{
 		// }
 		return;
 	}
@@ -5362,55 +4890,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
 	{
 		// if (m_Api.IsVariableRefreshRateSupported())
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_3;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = NativeApi_IsVariableRefreshRateSupported_mFF2652DEC0862E5EE5F6E7E74363B3AADF9A4128(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_0043;
+			goto IL_0035;
 		}
 	}
 	{
 		// if (VariableRefreshRate.Instance == null)
-		RuntimeObject* L_3;
-		L_3 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
-		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_4 = V_1;
-		if (!L_4)
+		RuntimeObject* L_2;
+		L_2 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
+		if (L_2)
 		{
-			goto IL_0040;
+			goto IL_0042;
 		}
 	}
 	{
 		// VariableRefreshRate.Instance = new VRRManager(m_Api);
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_5 = __this->___m_Api_3;
-		VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* L_6 = (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA*)il2cpp_codegen_object_new(VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		VRRManager__ctor_mD2277F2A0AC768DEEA16B64982A3741F9347EDBF(L_6, L_5, NULL);
-		VariableRefreshRate_set_Instance_mF83BCC9BEA5164D10F5BAF3A5856AFF6C352A7CC_inline(L_6, NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_3 = __this->___m_Api_3;
+		VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* L_4 = (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA*)il2cpp_codegen_object_new(VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		VRRManager__ctor_mD2277F2A0AC768DEEA16B64982A3741F9347EDBF(L_4, L_3, NULL);
+		VariableRefreshRate_set_Instance_mF83BCC9BEA5164D10F5BAF3A5856AFF6C352A7CC_inline(L_4, NULL);
 		// m_AutoVariableRefreshRate = new AutoVariableRefreshRate(VariableRefreshRate.Instance);
-		RuntimeObject* L_7;
-		L_7 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
-		AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D* L_8 = (AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D*)il2cpp_codegen_object_new(AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D_il2cpp_TypeInfo_var);
-		NullCheck(L_8);
-		AutoVariableRefreshRate__ctor_m325160788CB50F3FD45C4BDA6ADBF4EA40A398E2(L_8, L_7, NULL);
-		__this->___m_AutoVariableRefreshRate_14 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AutoVariableRefreshRate_14), (void*)L_8);
+		RuntimeObject* L_5;
+		L_5 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
+		AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D* L_6 = (AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D*)il2cpp_codegen_object_new(AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		AutoVariableRefreshRate__ctor_m325160788CB50F3FD45C4BDA6ADBF4EA40A398E2(L_6, L_5, NULL);
+		__this->___m_AutoVariableRefreshRate_14 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AutoVariableRefreshRate_14), (void*)L_6);
+		return;
 	}
 
-IL_0040:
-	{
-		goto IL_0053;
-	}
-
-IL_0043:
+IL_0035:
 	{
 		// VariableRefreshRate.Instance = null;
 		VariableRefreshRate_set_Instance_mF83BCC9BEA5164D10F5BAF3A5856AFF6C352A7CC_inline((RuntimeObject*)NULL, NULL);
@@ -5419,7 +4937,7 @@ IL_0043:
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AutoVariableRefreshRate_14), (void*)(AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D*)NULL);
 	}
 
-IL_0053:
+IL_0042:
 	{
 		// }
 		return;
@@ -5436,16 +4954,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	bool V_1 = false;
-	bool V_2 = false;
-	bool V_3 = false;
+	int32_t V_1 = 0;
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	RuntimeObject* V_3 = NULL;
 	bool V_4 = false;
-	int32_t V_5 = 0;
-	bool V_6 = false;
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 V_7;
-	memset((&V_7), 0, sizeof(V_7));
-	RuntimeObject* V_8 = NULL;
-	bool V_9 = false;
 	{
 		// Sleep(TimeSpan.FromSeconds(2));
 		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
@@ -5463,38 +4976,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_3, 3, 2, NULL);
 		bool L_4;
 		L_4 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_2, L_3, NULL);
-		V_1 = L_4;
-		bool L_5 = V_1;
-		if (!L_5)
+		if (!L_4)
 		{
-			goto IL_0064;
+			goto IL_004e;
 		}
 	}
 	{
 		// if (currentTempLevel >= 7)
-		float L_6 = V_0;
-		V_2 = (bool)((((int32_t)((!(((float)L_6) >= ((float)(7.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_7 = V_2;
-		if (!L_7)
+		float L_5 = V_0;
+		if ((!(((float)L_5) >= ((float)(7.0f)))))
 		{
-			goto IL_004c;
+			goto IL_003f;
 		}
 	}
 	{
 		// OnPerformanceWarning(WarningLevel.Throttling);
 		SamsungGameSDKAdaptivePerformanceSubsystem_OnPerformanceWarning_m4F10CCC53C50EB06584ECD641A77E64404010C76(__this, 2, NULL);
-		goto IL_0063;
+		goto IL_004e;
 	}
 
-IL_004c:
+IL_003f:
 	{
 		// else if (currentTempLevel >= 5)
-		float L_8 = V_0;
-		V_3 = (bool)((((int32_t)((!(((float)L_8) >= ((float)(5.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_9 = V_3;
-		if (!L_9)
+		float L_6 = V_0;
+		if ((!(((float)L_6) >= ((float)(5.0f)))))
 		{
-			goto IL_0063;
+			goto IL_004e;
 		}
 	}
 	{
@@ -5502,78 +5009,70 @@ IL_004c:
 		SamsungGameSDKAdaptivePerformanceSubsystem_OnPerformanceWarning_m4F10CCC53C50EB06584ECD641A77E64404010C76(__this, 1, NULL);
 	}
 
-IL_0063:
-	{
-	}
-
-IL_0064:
+IL_004e:
 	{
 		// if (m_Version >= new Version(3, 5))
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_10 = __this->___m_Version_9;
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_11 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_11, 3, 5, NULL);
-		bool L_12;
-		L_12 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_10, L_11, NULL);
-		V_4 = L_12;
-		bool L_13 = V_4;
-		if (!L_13)
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_7 = __this->___m_Version_9;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_8 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_8, 3, 5, NULL);
+		bool L_9;
+		L_9 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_7, L_8, NULL);
+		if (!L_9)
 		{
-			goto IL_0139;
+			goto IL_00ff;
 		}
 	}
 	{
 		// int clusterInfo = m_Api.GetClusterInfo();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_14 = __this->___m_Api_3;
-		NullCheck(L_14);
-		int32_t L_15;
-		L_15 = NativeApi_GetClusterInfo_m1B6635A235E064CCBACD2D3875A97816A3FCA920(L_14, NULL);
-		V_5 = L_15;
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_10 = __this->___m_Api_3;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = NativeApi_GetClusterInfo_m1B6635A235E064CCBACD2D3875A97816A3FCA920(L_10, NULL);
+		V_1 = L_11;
 		// if (clusterInfo != -999)
-		int32_t L_16 = V_5;
-		V_6 = (bool)((((int32_t)((((int32_t)L_16) == ((int32_t)((int32_t)-999)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_17 = V_6;
-		if (!L_17)
+		int32_t L_12 = V_1;
+		if ((((int32_t)L_12) == ((int32_t)((int32_t)-999))))
 		{
-			goto IL_0138;
+			goto IL_00ff;
 		}
 	}
 	{
 		// var aClusterInfo = new ClusterInfo();
-		il2cpp_codegen_initobj((&V_7), sizeof(ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15));
+		il2cpp_codegen_initobj((&V_2), sizeof(ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15));
 		// aClusterInfo.BigCore = clusterInfo / 100;
-		int32_t L_18 = V_5;
-		ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline((&V_7), ((int32_t)(L_18/((int32_t)100))), NULL);
+		int32_t L_13 = V_1;
+		ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline((&V_2), ((int32_t)(L_13/((int32_t)100))), NULL);
 		// aClusterInfo.MediumCore = (clusterInfo % 100) / 10;
-		int32_t L_19 = V_5;
-		ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline((&V_7), ((int32_t)(((int32_t)(L_19%((int32_t)100)))/((int32_t)10))), NULL);
+		int32_t L_14 = V_1;
+		ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline((&V_2), ((int32_t)(((int32_t)(L_14%((int32_t)100)))/((int32_t)10))), NULL);
 		// aClusterInfo.LittleCore = (clusterInfo % 100) % 10;
-		int32_t L_20 = V_5;
-		ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline((&V_7), ((int32_t)(((int32_t)(L_20%((int32_t)100)))%((int32_t)10))), NULL);
+		int32_t L_15 = V_1;
+		ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline((&V_2), ((int32_t)(((int32_t)(L_15%((int32_t)100)))%((int32_t)10))), NULL);
 		// lock (m_DataLock)
-		RuntimeObject* L_21 = __this->___m_DataLock_6;
-		V_8 = L_21;
-		V_9 = (bool)0;
+		RuntimeObject* L_16 = __this->___m_DataLock_6;
+		V_3 = L_16;
+		V_4 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0117:
+FINALLY_00e2:
 			{// begin finally (depth: 1)
 				{
-					bool L_22 = V_9;
-					if (!L_22)
+					bool L_17 = V_4;
+					if (!L_17)
 					{
-						goto IL_0123;
+						goto IL_00ec;
 					}
 				}
 				{
-					RuntimeObject* L_23 = V_8;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_23, NULL);
+					RuntimeObject* L_18 = V_3;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_18, NULL);
 				}
 
-IL_0123:
+IL_00ec:
 				{
 					return;
 				}
@@ -5581,19 +5080,20 @@ IL_0123:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_24 = V_8;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_24, (&V_9), NULL);
+			RuntimeObject* L_19 = V_3;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_19, (&V_4), NULL);
 			// m_Data.ClusterInfo = aClusterInfo;
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_25 = (&__this->___m_Data_5);
-			ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_26 = V_7;
-			PerformanceDataRecord_set_ClusterInfo_m70A3B30678BE28E09161ADF030CBAFE8D5BC9E3E_inline(L_25, L_26, NULL);
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_20 = (&__this->___m_Data_5);
+			ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_21 = V_2;
+			PerformanceDataRecord_set_ClusterInfo_m70A3B30678BE28E09161ADF030CBAFE8D5BC9E3E_inline(L_20, L_21, NULL);
 			// m_Data.ChangeFlags |= Feature.ClusterInfo;
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_27 = (&__this->___m_Data_5);
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_28 = L_27;
-			int32_t L_29;
-			L_29 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_28, NULL);
-			PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_28, ((int32_t)((int32_t)L_29|((int32_t)2048))), NULL);
-			goto IL_0124;
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_22 = (&__this->___m_Data_5);
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_23 = L_22;
+			int32_t L_24;
+			L_24 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_23, NULL);
+			PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_23, ((int32_t)((int32_t)L_24|((int32_t)2048))), NULL);
+			// }
+			goto IL_00ed;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -5601,19 +5101,15 @@ IL_0123:
 		}
 	}
 
-IL_0124:
+IL_00ed:
 	{
 		// Capabilities |= Feature.ClusterInfo;
-		int32_t L_30;
-		L_30 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_30|((int32_t)2048))), NULL);
+		int32_t L_25;
+		L_25 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
+		AdaptivePerformanceSubsystem_set_Capabilities_m13719E1250D06D80D0889D1015C9F35078F7414F_inline(__this, ((int32_t)((int32_t)L_25|((int32_t)2048))), NULL);
 	}
 
-IL_0138:
-	{
-	}
-
-IL_0139:
+IL_00ff:
 	{
 		// }
 		return;
@@ -5630,7 +5126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::OnDestroy()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsystem_OnDestroy_m125EF89FBFE1759F19991BE72E50BCA6EAB3C31A (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// VariableRefreshRate.Instance = null;
 		VariableRefreshRate_set_Instance_mF83BCC9BEA5164D10F5BAF3A5856AFF6C352A7CC_inline((RuntimeObject*)NULL, NULL);
@@ -5640,28 +5135,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		// if (initialized)
 		bool L_0;
 		L_0 = AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline(__this, NULL);
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_002f;
+			goto IL_0027;
 		}
 	}
 	{
 		// m_Api.Terminate();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_2 = __this->___m_Api_3;
-		NullCheck(L_2);
-		NativeApi_Terminate_m20E038F0579D7C9D58454AD72011ED757FA27C1F(L_2, NULL);
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_1 = __this->___m_Api_3;
+		NullCheck(L_1);
+		NativeApi_Terminate_m20E038F0579D7C9D58454AD72011ED757FA27C1F(L_1, NULL);
 		// initialized = false;
 		AdaptivePerformanceSubsystemBase_set_initialized_m7B2B09A90BC940B4903FBF8FB7D4F87581CDFF72_inline(__this, (bool)0, NULL);
 	}
 
-IL_002f:
+IL_0027:
 	{
 		// m_AsyncUpdater.Dispose();
-		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_3 = __this->___m_AsyncUpdater_4;
-		NullCheck(L_3);
-		AsyncUpdater_Dispose_mE3267C63AAF1B517C1AE45CC31A0FC5397E94E1F(L_3, NULL);
+		AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* L_2 = __this->___m_AsyncUpdater_4;
+		NullCheck(L_2);
+		AsyncUpdater_Dispose_mE3267C63AAF1B517C1AE45CC31A0FC5397E94E1F(L_2, NULL);
 		// }
 		return;
 	}
@@ -5777,23 +5270,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PerformanceDataRecord_tDF1B7607FB8378B49C42DF
 	}
 	float V_0 = 0.0f;
 	bool V_1 = false;
-	bool V_2 = false;
+	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
-	bool V_4 = false;
-	float V_5 = 0.0f;
-	bool V_6 = false;
-	RuntimeObject* V_7 = NULL;
-	bool V_8 = false;
-	RuntimeObject* V_9 = NULL;
-	bool V_10 = false;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 V_11;
-	memset((&V_11), 0, sizeof(V_11));
-	bool V_12 = false;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 V_13;
-	memset((&V_13), 0, sizeof(V_13));
+	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 V_4;
+	memset((&V_4), 0, sizeof(V_4));
 	VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* G_B2_0 = NULL;
 	VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* G_B1_0 = NULL;
-	int32_t G_B6_0 = 0;
 	{
 		// float timeSinceStartup = Time.time;
 		float L_0;
@@ -5820,27 +5302,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PerformanceDataRecord_tDF1B7607FB8378B49C42DF
 		if (L_8)
 		{
 			G_B2_0 = L_8;
-			goto IL_0031;
+			goto IL_0030;
 		}
 	}
 	{
-		goto IL_0037;
+		goto IL_0035;
 	}
 
-IL_0031:
+IL_0030:
 	{
 		NullCheck(G_B2_0);
 		VRRManager_Update_mCFB9B5DDFAAE08091FCA2DB70DCBEACCE74B2C53(G_B2_0, NULL);
 	}
 
-IL_0037:
+IL_0035:
 	{
 		// if ((VariableRefreshRate.Instance as VRRManager) != null && settings.automaticVRR)
 		RuntimeObject* L_9;
 		L_9 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
 		if (!((VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA*)IsInstClass((RuntimeObject*)L_9, VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var)))
 		{
-			goto IL_004f;
+			goto IL_005f;
 		}
 	}
 	{
@@ -5848,95 +5330,74 @@ IL_0037:
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_10 = ((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17;
 		NullCheck(L_10);
 		bool L_11;
-		L_11 = SamsungAndroidProviderSettings_get_automaticVRR_mA4EC43A6755953623F7A5F1B3C365A3A9CE25C3B(L_10, NULL);
-		G_B6_0 = ((int32_t)(L_11));
-		goto IL_0050;
-	}
-
-IL_004f:
-	{
-		G_B6_0 = 0;
-	}
-
-IL_0050:
-	{
-		V_2 = (bool)G_B6_0;
-		bool L_12 = V_2;
-		if (!L_12)
+		L_11 = SamsungAndroidProviderSettings_get_automaticVRR_mA4EC43A6755953623F7A5F1B3C365A3A9CE25C3B_inline(L_10, NULL);
+		if (!L_11)
 		{
-			goto IL_006c;
+			goto IL_005f;
 		}
 	}
 	{
 		// if (QualitySettings.vSyncCount == 0)
-		int32_t L_13;
-		L_13 = QualitySettings_get_vSyncCount_m623B92EE9CBB51A7A96CA88022319CC46CC02F24(NULL);
-		V_3 = (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0);
-		bool L_14 = V_3;
-		if (!L_14)
+		int32_t L_12;
+		L_12 = QualitySettings_get_vSyncCount_m623B92EE9CBB51A7A96CA88022319CC46CC02F24(NULL);
+		if (L_12)
 		{
-			goto IL_006c;
+			goto IL_005f;
 		}
 	}
 	{
 		// m_AutoVariableRefreshRate.UpdateAutoVRR();
-		AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D* L_15 = __this->___m_AutoVariableRefreshRate_14;
-		NullCheck(L_15);
-		AutoVariableRefreshRate_UpdateAutoVRR_m723236AA9993CBBF5B79B2A512AD7275D977990E(L_15, NULL);
+		AutoVariableRefreshRate_t90CC96BA9BE6AF1DC8343CDE46B0CC345FEBB63D* L_13 = __this->___m_AutoVariableRefreshRate_14;
+		NullCheck(L_13);
+		AutoVariableRefreshRate_UpdateAutoVRR_m723236AA9993CBBF5B79B2A512AD7275D977990E(L_13, NULL);
 	}
 
-IL_006c:
+IL_005f:
 	{
 		// if (m_PerformanceLevelControlSystemChange)
-		bool L_16 = __this->___m_PerformanceLevelControlSystemChange_12;
-		V_4 = L_16;
-		bool L_17 = V_4;
-		if (!L_17)
+		bool L_14 = __this->___m_PerformanceLevelControlSystemChange_12;
+		if (!L_14)
 		{
-			goto IL_00c6;
+			goto IL_009d;
 		}
 	}
 	{
 		// var temperatureLevel = (float)m_SkinTemp.value;
-		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_18 = __this->___m_SkinTemp_7;
-		NullCheck(L_18);
-		double L_19;
-		L_19 = AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_inline(L_18, AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_RuntimeMethod_var);
-		V_5 = ((float)L_19);
+		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_15 = __this->___m_SkinTemp_7;
+		NullCheck(L_15);
+		double L_16;
+		L_16 = AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_inline(L_15, AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_RuntimeMethod_var);
 		// if (temperatureLevel < 5)
-		float L_20 = V_5;
-		V_6 = (bool)((((float)L_20) < ((float)(5.0f)))? 1 : 0);
-		bool L_21 = V_6;
-		if (!L_21)
+		if ((!(((float)((float)L_16)) < ((float)(5.0f)))))
 		{
-			goto IL_00c5;
+			goto IL_009d;
 		}
 	}
 	{
 		// lock (m_DataLock)
-		RuntimeObject* L_22 = __this->___m_DataLock_6;
-		V_7 = L_22;
-		V_8 = (bool)0;
+		RuntimeObject* L_17 = __this->___m_DataLock_6;
+		V_2 = L_17;
+		V_3 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00b7:
+FINALLY_0093:
 			{// begin finally (depth: 1)
 				{
-					bool L_23 = V_8;
-					if (!L_23)
+					bool L_18 = V_3;
+					if (!L_18)
 					{
-						goto IL_00c3;
+						goto IL_009c;
 					}
 				}
 				{
-					RuntimeObject* L_24 = V_7;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_24, NULL);
+					RuntimeObject* L_19 = V_2;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_19, NULL);
 				}
 
-IL_00c3:
+IL_009c:
 				{
 					return;
 				}
@@ -5944,11 +5405,12 @@ IL_00c3:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_25 = V_7;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_25, (&V_8), NULL);
+			RuntimeObject* L_20 = V_2;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_20, (&V_3), NULL);
 			// DisableSystemControl();
 			SamsungGameSDKAdaptivePerformanceSubsystem_DisableSystemControl_m52ABFCD191A8A41C6C6D134C9B501F5F22499B57(__this, NULL);
-			goto IL_00c4;
+			// }
+			goto IL_009d;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -5956,40 +5418,32 @@ IL_00c3:
 		}
 	}
 
-IL_00c4:
-	{
-	}
-
-IL_00c5:
-	{
-	}
-
-IL_00c6:
+IL_009d:
 	{
 		// lock (m_DataLock)
-		RuntimeObject* L_26 = __this->___m_DataLock_6;
-		V_9 = L_26;
-		V_10 = (bool)0;
+		RuntimeObject* L_21 = __this->___m_DataLock_6;
+		V_2 = L_21;
+		V_3 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_014d:
+FINALLY_0110:
 			{// begin finally (depth: 1)
 				{
-					bool L_27 = V_10;
-					if (!L_27)
+					bool L_22 = V_3;
+					if (!L_22)
 					{
-						goto IL_0159;
+						goto IL_0119;
 					}
 				}
 				{
-					RuntimeObject* L_28 = V_9;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_28, NULL);
+					RuntimeObject* L_23 = V_2;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_23, NULL);
 				}
 
-IL_0159:
+IL_0119:
 				{
 					return;
 				}
@@ -5998,54 +5452,50 @@ IL_0159:
 		try
 		{// begin try (depth: 1)
 			{
-				RuntimeObject* L_29 = V_9;
-				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_29, (&V_10), NULL);
+				RuntimeObject* L_24 = V_2;
+				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_24, (&V_3), NULL);
 				// if (tempChanged)
-				bool L_30 = V_1;
-				V_12 = L_30;
-				bool L_31 = V_12;
-				if (!L_31)
+				bool L_25 = V_1;
+				if (!L_25)
 				{
-					goto IL_010b_1;
+					goto IL_00d5_1;
 				}
 			}
 			{
 				// m_Data.ChangeFlags |= Feature.TemperatureLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_32 = (&__this->___m_Data_5);
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_33 = L_32;
-				int32_t L_34;
-				L_34 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_33, NULL);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_33, ((int32_t)((int32_t)L_34|2)), NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_26 = (&__this->___m_Data_5);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_27 = L_26;
+				int32_t L_28;
+				L_28 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_27, NULL);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_27, ((int32_t)((int32_t)L_28|2)), NULL);
 				// m_Data.TemperatureLevel = GetTemperatureLevel();
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_35 = (&__this->___m_Data_5);
-				float L_36;
-				L_36 = SamsungGameSDKAdaptivePerformanceSubsystem_GetTemperatureLevel_mA400905D39A068B49434A3C39B2D7028F0760058(__this, NULL);
-				PerformanceDataRecord_set_TemperatureLevel_mFC2BC8E019EFB0E7611C242D1F5D4EAB76570BB5_inline(L_35, L_36, NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_29 = (&__this->___m_Data_5);
+				float L_30;
+				L_30 = SamsungGameSDKAdaptivePerformanceSubsystem_GetTemperatureLevel_mA400905D39A068B49434A3C39B2D7028F0760058(__this, NULL);
+				PerformanceDataRecord_set_TemperatureLevel_mFC2BC8E019EFB0E7611C242D1F5D4EAB76570BB5_inline(L_29, L_30, NULL);
 			}
 
-IL_010b_1:
+IL_00d5_1:
 			{
 				// m_Data.GpuFrameTime = LatestGpuFrameTime();
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_37 = (&__this->___m_Data_5);
-				float L_38;
-				L_38 = SamsungGameSDKAdaptivePerformanceSubsystem_LatestGpuFrameTime_m89926139AD9A965DF8CDE618059668C4CF0FF098(__this, NULL);
-				PerformanceDataRecord_set_GpuFrameTime_mB779C484C185DB05F985A295EA7242EB8DA37299_inline(L_37, L_38, NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_31 = (&__this->___m_Data_5);
+				float L_32;
+				L_32 = SamsungGameSDKAdaptivePerformanceSubsystem_LatestGpuFrameTime_m89926139AD9A965DF8CDE618059668C4CF0FF098(__this, NULL);
+				PerformanceDataRecord_set_GpuFrameTime_mB779C484C185DB05F985A295EA7242EB8DA37299_inline(L_31, L_32, NULL);
 				// m_Data.ChangeFlags |= Feature.GpuFrameTime;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_39 = (&__this->___m_Data_5);
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_40 = L_39;
-				int32_t L_41;
-				L_41 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_40, NULL);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_40, ((int32_t)((int32_t)L_41|((int32_t)64))), NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_33 = (&__this->___m_Data_5);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_34 = L_33;
+				int32_t L_35;
+				L_35 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_34, NULL);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_34, ((int32_t)((int32_t)L_35|((int32_t)64))), NULL);
 				// PerformanceDataRecord result = m_Data;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 L_42 = __this->___m_Data_5;
-				V_11 = L_42;
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 L_36 = __this->___m_Data_5;
 				// m_Data.ChangeFlags = Feature.None;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_43 = (&__this->___m_Data_5);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_43, 0, NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_37 = (&__this->___m_Data_5);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_37, 0, NULL);
 				// return result;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 L_44 = V_11;
-				V_13 = L_44;
-				goto IL_015a;
+				V_4 = L_36;
+				goto IL_011a;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -6054,29 +5504,20 @@ IL_010b_1:
 		}
 	}
 
-IL_015a:
+IL_011a:
 	{
 		// }
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 L_45 = V_13;
-		return L_45;
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 L_38 = V_4;
+		return L_38;
 	}
 }
 // System.Version UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::get_Version()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* SamsungGameSDKAdaptivePerformanceSubsystem_get_Version_m91F0F6F31D1C556FE7276C52CC3F49657AA8C3C5 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* V_0 = NULL;
 	{
 		// return m_Version;
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = __this->___m_Version_9;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// }
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Single UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::NormalizeTemperatureLevel(System.Single,System.Single,System.Single)
@@ -6089,9 +5530,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	bool V_1 = false;
-	float V_2 = 0.0f;
-	int32_t G_B3_0 = 0;
 	{
 		// float tempLevel = -1.0f;
 		V_0 = (-1.0f);
@@ -6100,59 +5538,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		float L_1 = ___minValue1;
 		if ((!(((float)L_0) >= ((float)L_1))))
 		{
-			goto IL_0014;
+			goto IL_0024;
 		}
 	}
 	{
 		float L_2 = ___currentTempLevel0;
 		float L_3 = ___maxValue2;
-		G_B3_0 = ((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_0015;
-	}
-
-IL_0014:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0015:
-	{
-		V_1 = (bool)G_B3_0;
-		bool L_4 = V_1;
-		if (!L_4)
+		if ((!(((float)L_2) <= ((float)L_3))))
 		{
-			goto IL_0031;
+			goto IL_0024;
 		}
 	}
 	{
 		// tempLevel = currentTempLevel / maxValue;
-		float L_5 = ___currentTempLevel0;
-		float L_6 = ___maxValue2;
-		V_0 = ((float)(L_5/L_6));
+		float L_4 = ___currentTempLevel0;
+		float L_5 = ___maxValue2;
+		V_0 = ((float)(L_4/L_5));
 		// tempLevel = Math.Min(Math.Max(tempLevel, Constants.MinTemperatureLevel), maxValue);
-		float L_7 = V_0;
+		float L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		float L_8;
-		L_8 = Math_Max_mB1131EAD9E03519D13D246CE96B599561C784957(L_7, (0.0f), NULL);
-		float L_9 = ___maxValue2;
-		float L_10;
-		L_10 = Math_Min_mB41DB89BB991289571A046270A924C0EEAA2C4BC(L_8, L_9, NULL);
-		V_0 = L_10;
+		float L_7;
+		L_7 = Math_Max_mB1131EAD9E03519D13D246CE96B599561C784957(L_6, (0.0f), NULL);
+		float L_8 = ___maxValue2;
+		float L_9;
+		L_9 = Math_Min_mB41DB89BB991289571A046270A924C0EEAA2C4BC(L_7, L_8, NULL);
+		V_0 = L_9;
 	}
 
-IL_0031:
+IL_0024:
 	{
 		// return tempLevel;
-		float L_11 = V_0;
-		V_2 = L_11;
-		goto IL_0035;
-	}
-
-IL_0035:
-	{
-		// }
-		float L_12 = V_2;
-		return L_12;
+		float L_10 = V_0;
+		return L_10;
 	}
 }
 // System.Single UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::NormalizeTemperatureLevel(System.Single)
@@ -6164,7 +5581,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
 	{
 		// return NormalizeTemperatureLevel(currentTempLevel, m_MinTempLevel, m_MaxTempLevel);
 		float L_0 = ___currentTempLevel0;
@@ -6173,15 +5589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 		float L_3;
 		L_3 = SamsungGameSDKAdaptivePerformanceSubsystem_NormalizeTemperatureLevel_m745708977756BE384FEB2B912DC6ADFD6175709A(L_0, L_1, L_2, NULL);
-		V_0 = L_3;
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		// }
-		float L_4 = V_0;
-		return L_4;
+		return L_3;
 	}
 }
 // System.Single UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::GetTemperatureLevel()
@@ -6193,7 +5601,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
 	{
 		// return NormalizeTemperatureLevel((float)m_SkinTemp.value);
 		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_0 = __this->___m_SkinTemp_7;
@@ -6202,15 +5609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		L_1 = AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_inline(L_0, AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_RuntimeMethod_var);
 		float L_2;
 		L_2 = SamsungGameSDKAdaptivePerformanceSubsystem_NormalizeTemperatureLevel_m3F1FA12928FDB3257CB4DCB6703760C849E129D4(__this, ((float)L_1), NULL);
-		V_0 = L_2;
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		// }
-		float L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 // System.Single UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::LatestGpuFrameTime()
@@ -6222,22 +5621,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SamsungGameSDKAdaptivePerformanceSubsys
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
 	{
 		// return (float)(m_GPUTime.value / 1000.0);
 		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_0 = __this->___m_GPUTime_8;
 		NullCheck(L_0);
 		double L_1;
 		L_1 = AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_inline(L_0, AsyncValue_1_get_value_m575C6560C02998BF7B68C755BDD5E515C34A9B43_RuntimeMethod_var);
-		V_0 = ((float)((double)(L_1/(1000.0))));
-		goto IL_001a;
-	}
-
-IL_001a:
-	{
-		// }
-		float L_2 = V_0;
-		return L_2;
+		return ((float)((double)(L_1/(1000.0))));
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::SetPerformanceLevel(System.Int32&,System.Int32&)
@@ -6246,43 +5636,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8902B0A966DB12D01D3EB36921DDA5AB98F03A0B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE840DA01A4B83142A4432DB4A254E493E691C0BB);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	int32_t V_1 = 0;
-	bool V_2 = false;
+	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	bool V_8 = false;
-	RuntimeObject* V_9 = NULL;
-	bool V_10 = false;
-	int32_t V_11 = 0;
-	int32_t V_12 = 0;
-	bool V_13 = false;
-	bool V_14 = false;
-	bool V_15 = false;
-	bool V_16 = false;
-	bool V_17 = false;
-	bool V_18 = false;
-	int32_t G_B3_0 = 0;
-	int32_t G_B16_0 = 0;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B21_0 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B17_0 = NULL;
+	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B16_0 = NULL;
+	int32_t G_B18_0 = 0;
+	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B18_1 = NULL;
 	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B20_0 = NULL;
-	int32_t G_B22_0 = 0;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B22_1 = NULL;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B24_0 = NULL;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B23_0 = NULL;
-	int32_t G_B25_0 = 0;
-	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B25_1 = NULL;
+	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B19_0 = NULL;
+	int32_t G_B21_0 = 0;
+	PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* G_B21_1 = NULL;
 	{
 		// if ((Capabilities & Feature.CpuPerformanceLevel) != Feature.CpuPerformanceLevel ||
 		//     (Capabilities & Feature.GpuPerformanceLevel) != Feature.GpuPerformanceLevel)
@@ -6290,200 +5660,167 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 		L_0 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
 		if ((!(((uint32_t)((int32_t)((int32_t)L_0&8))) == ((uint32_t)8))))
 		{
-			goto IL_001e;
+			goto IL_0018;
 		}
 	}
 	{
 		int32_t L_1;
 		L_1 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		G_B3_0 = ((((int32_t)((((int32_t)((int32_t)((int32_t)L_1&((int32_t)16)))) == ((int32_t)((int32_t)16)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_001f;
-	}
-
-IL_001e:
-	{
-		G_B3_0 = 1;
-	}
-
-IL_001f:
-	{
-		V_2 = (bool)G_B3_0;
-		bool L_2 = V_2;
-		if (!L_2)
+		if ((((int32_t)((int32_t)((int32_t)L_1&((int32_t)16)))) == ((int32_t)((int32_t)16))))
 		{
-			goto IL_002a;
+			goto IL_001a;
 		}
 	}
+
+IL_0018:
 	{
 		// return false;
-		V_3 = (bool)0;
-		goto IL_01f7;
+		return (bool)0;
 	}
 
-IL_002a:
+IL_001a:
 	{
 		// if (cpuLevel < 0)
-		int32_t* L_3 = ___cpuLevel0;
-		int32_t L_4 = *((int32_t*)L_3);
-		V_4 = (bool)((((int32_t)L_4) < ((int32_t)0))? 1 : 0);
-		bool L_5 = V_4;
-		if (!L_5)
+		int32_t* L_2 = ___cpuLevel0;
+		int32_t L_3 = *((int32_t*)L_2);
+		if ((((int32_t)L_3) >= ((int32_t)0)))
 		{
-			goto IL_003a;
+			goto IL_0024;
 		}
 	}
 	{
 		// cpuLevel = 0;
-		int32_t* L_6 = ___cpuLevel0;
-		*((int32_t*)L_6) = (int32_t)0;
+		int32_t* L_4 = ___cpuLevel0;
+		*((int32_t*)L_4) = (int32_t)0;
+		goto IL_0036;
+	}
+
+IL_0024:
+	{
+		// else if (cpuLevel > MaxCpuPerformanceLevel)
+		int32_t* L_5 = ___cpuLevel0;
+		int32_t L_6 = *((int32_t*)L_5);
+		int32_t L_7;
+		L_7 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxCpuPerformanceLevel_m7558F2A23D816B4F3EB7B94934B9646038C4D6F0_inline(__this, NULL);
+		if ((((int32_t)L_6) <= ((int32_t)L_7)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// cpuLevel = MaxCpuPerformanceLevel;
+		int32_t* L_8 = ___cpuLevel0;
+		int32_t L_9;
+		L_9 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxCpuPerformanceLevel_m7558F2A23D816B4F3EB7B94934B9646038C4D6F0_inline(__this, NULL);
+		*((int32_t*)L_8) = (int32_t)L_9;
+	}
+
+IL_0036:
+	{
+		// if (gpuLevel < 0)
+		int32_t* L_10 = ___gpuLevel1;
+		int32_t L_11 = *((int32_t*)L_10);
+		if ((((int32_t)L_11) >= ((int32_t)0)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		// gpuLevel = 0;
+		int32_t* L_12 = ___gpuLevel1;
+		*((int32_t*)L_12) = (int32_t)0;
 		goto IL_0052;
 	}
 
-IL_003a:
+IL_0040:
 	{
-		// else if (cpuLevel > MaxCpuPerformanceLevel)
-		int32_t* L_7 = ___cpuLevel0;
-		int32_t L_8 = *((int32_t*)L_7);
-		int32_t L_9;
-		L_9 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxCpuPerformanceLevel_m7558F2A23D816B4F3EB7B94934B9646038C4D6F0_inline(__this, NULL);
-		V_5 = (bool)((((int32_t)L_8) > ((int32_t)L_9))? 1 : 0);
-		bool L_10 = V_5;
-		if (!L_10)
+		// else if (gpuLevel > MaxGpuPerformanceLevel)
+		int32_t* L_13 = ___gpuLevel1;
+		int32_t L_14 = *((int32_t*)L_13);
+		int32_t L_15;
+		L_15 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxGpuPerformanceLevel_m5268FD732220398272D98125ABD2A92C0DB76C28_inline(__this, NULL);
+		if ((((int32_t)L_14) <= ((int32_t)L_15)))
 		{
 			goto IL_0052;
 		}
 	}
 	{
-		// cpuLevel = MaxCpuPerformanceLevel;
-		int32_t* L_11 = ___cpuLevel0;
-		int32_t L_12;
-		L_12 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxCpuPerformanceLevel_m7558F2A23D816B4F3EB7B94934B9646038C4D6F0_inline(__this, NULL);
-		*((int32_t*)L_11) = (int32_t)L_12;
+		// gpuLevel = MaxGpuPerformanceLevel;
+		int32_t* L_16 = ___gpuLevel1;
+		int32_t L_17;
+		L_17 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxGpuPerformanceLevel_m5268FD732220398272D98125ABD2A92C0DB76C28_inline(__this, NULL);
+		*((int32_t*)L_16) = (int32_t)L_17;
 	}
 
 IL_0052:
 	{
-		// if (gpuLevel < 0)
-		int32_t* L_13 = ___gpuLevel1;
-		int32_t L_14 = *((int32_t*)L_13);
-		V_6 = (bool)((((int32_t)L_14) < ((int32_t)0))? 1 : 0);
-		bool L_15 = V_6;
-		if (!L_15)
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		// gpuLevel = 0;
-		int32_t* L_16 = ___gpuLevel1;
-		*((int32_t*)L_16) = (int32_t)0;
-		goto IL_007a;
-	}
-
-IL_0062:
-	{
-		// else if (gpuLevel > MaxGpuPerformanceLevel)
-		int32_t* L_17 = ___gpuLevel1;
-		int32_t L_18 = *((int32_t*)L_17);
-		int32_t L_19;
-		L_19 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxGpuPerformanceLevel_m5268FD732220398272D98125ABD2A92C0DB76C28_inline(__this, NULL);
-		V_7 = (bool)((((int32_t)L_18) > ((int32_t)L_19))? 1 : 0);
-		bool L_20 = V_7;
+		// if (m_Version == new Version(3, 2) && cpuLevel == 0)
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_18 = __this->___m_Version_9;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_19 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		NullCheck(L_19);
+		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_19, 3, 2, NULL);
+		bool L_20;
+		L_20 = Version_op_Equality_m4DFED47C6F3258EB59FCACA6A314B42B30EB7BC0(L_18, L_19, NULL);
 		if (!L_20)
 		{
-			goto IL_007a;
+			goto IL_006d;
 		}
 	}
 	{
-		// gpuLevel = MaxGpuPerformanceLevel;
-		int32_t* L_21 = ___gpuLevel1;
-		int32_t L_22;
-		L_22 = SamsungGameSDKAdaptivePerformanceSubsystem_get_MaxGpuPerformanceLevel_m5268FD732220398272D98125ABD2A92C0DB76C28_inline(__this, NULL);
-		*((int32_t*)L_21) = (int32_t)L_22;
-	}
-
-IL_007a:
-	{
-		// if (m_Version == new Version(3, 2) && cpuLevel == 0)
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_23 = __this->___m_Version_9;
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_24 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		NullCheck(L_24);
-		Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_24, 3, 2, NULL);
-		bool L_25;
-		L_25 = Version_op_Equality_m4DFED47C6F3258EB59FCACA6A314B42B30EB7BC0(L_23, L_24, NULL);
-		if (!L_25)
+		int32_t* L_21 = ___cpuLevel0;
+		int32_t L_22 = *((int32_t*)L_21);
+		if (L_22)
 		{
-			goto IL_0095;
-		}
-	}
-	{
-		int32_t* L_26 = ___cpuLevel0;
-		int32_t L_27 = *((int32_t*)L_26);
-		G_B16_0 = ((((int32_t)L_27) == ((int32_t)0))? 1 : 0);
-		goto IL_0096;
-	}
-
-IL_0095:
-	{
-		G_B16_0 = 0;
-	}
-
-IL_0096:
-	{
-		V_8 = (bool)G_B16_0;
-		bool L_28 = V_8;
-		if (!L_28)
-		{
-			goto IL_009f;
+			goto IL_006d;
 		}
 	}
 	{
 		// cpuLevel = 1;
-		int32_t* L_29 = ___cpuLevel0;
-		*((int32_t*)L_29) = (int32_t)1;
+		int32_t* L_23 = ___cpuLevel0;
+		*((int32_t*)L_23) = (int32_t)1;
 	}
 
-IL_009f:
+IL_006d:
 	{
 		// bool success = false;
 		V_0 = (bool)0;
 		// int result = m_Api.SetFreqLevels(cpuLevel, gpuLevel);
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_30 = __this->___m_Api_3;
-		int32_t* L_31 = ___cpuLevel0;
-		int32_t L_32 = *((int32_t*)L_31);
-		int32_t* L_33 = ___gpuLevel1;
-		int32_t L_34 = *((int32_t*)L_33);
-		NullCheck(L_30);
-		int32_t L_35;
-		L_35 = NativeApi_SetFreqLevels_mC568D9356108AC7A1AAE662C3FD108A565181E09(L_30, L_32, L_34, NULL);
-		V_1 = L_35;
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_24 = __this->___m_Api_3;
+		int32_t* L_25 = ___cpuLevel0;
+		int32_t L_26 = *((int32_t*)L_25);
+		int32_t* L_27 = ___gpuLevel1;
+		int32_t L_28 = *((int32_t*)L_27);
+		NullCheck(L_24);
+		int32_t L_29;
+		L_29 = NativeApi_SetFreqLevels_mC568D9356108AC7A1AAE662C3FD108A565181E09(L_24, L_26, L_28, NULL);
+		V_1 = L_29;
 		// success = result == 1;
-		int32_t L_36 = V_1;
-		V_0 = (bool)((((int32_t)L_36) == ((int32_t)1))? 1 : 0);
+		int32_t L_30 = V_1;
+		V_0 = (bool)((((int32_t)L_30) == ((int32_t)1))? 1 : 0);
 		// lock (m_DataLock)
-		RuntimeObject* L_37 = __this->___m_DataLock_6;
-		V_9 = L_37;
-		V_10 = (bool)0;
+		RuntimeObject* L_31 = __this->___m_DataLock_6;
+		V_2 = L_31;
+		V_3 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_01e6:
+FINALLY_0131:
 			{// begin finally (depth: 1)
 				{
-					bool L_38 = V_10;
-					if (!L_38)
+					bool L_32 = V_3;
+					if (!L_32)
 					{
-						goto IL_01f2;
+						goto IL_013a;
 					}
 				}
 				{
-					RuntimeObject* L_39 = V_9;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_39, NULL);
+					RuntimeObject* L_33 = V_2;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_33, NULL);
 				}
 
-IL_01f2:
+IL_013a:
 				{
 					return;
 				}
@@ -6492,208 +5829,152 @@ IL_01f2:
 		try
 		{// begin try (depth: 1)
 			{
-				RuntimeObject* L_40 = V_9;
-				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_40, (&V_10), NULL);
+				RuntimeObject* L_34 = V_2;
+				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_34, (&V_3), NULL);
 				// var oldCpuLevel = m_Data.CpuPerformanceLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_41 = (&__this->___m_Data_5);
-				int32_t L_42;
-				L_42 = PerformanceDataRecord_get_CpuPerformanceLevel_mF688EC621C77916A86F96CF7D0DAFD520B6D68E8_inline(L_41, NULL);
-				V_11 = L_42;
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_35 = (&__this->___m_Data_5);
+				int32_t L_36;
+				L_36 = PerformanceDataRecord_get_CpuPerformanceLevel_mF688EC621C77916A86F96CF7D0DAFD520B6D68E8_inline(L_35, NULL);
+				V_4 = L_36;
 				// var oldGpuLevel = m_Data.GpuPerformanceLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_43 = (&__this->___m_Data_5);
-				int32_t L_44;
-				L_44 = PerformanceDataRecord_get_GpuPerformanceLevel_mA928B60EF914AB4E7D95291E1357A3FE795DBE23_inline(L_43, NULL);
-				V_12 = L_44;
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_37 = (&__this->___m_Data_5);
+				int32_t L_38;
+				L_38 = PerformanceDataRecord_get_GpuPerformanceLevel_mA928B60EF914AB4E7D95291E1357A3FE795DBE23_inline(L_37, NULL);
+				V_5 = L_38;
 				// m_Data.CpuPerformanceLevel = success ? cpuLevel : Constants.UnknownPerformanceLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_45 = (&__this->___m_Data_5);
-				bool L_46 = V_0;
-				G_B20_0 = L_45;
-				if (L_46)
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_39 = (&__this->___m_Data_5);
+				bool L_40 = V_0;
+				G_B16_0 = L_39;
+				if (L_40)
 				{
-					G_B21_0 = L_45;
-					goto IL_00f2_1;
+					G_B17_0 = L_39;
+					goto IL_00bb_1;
 				}
 			}
 			{
-				G_B22_0 = (-1);
-				G_B22_1 = G_B20_0;
-				goto IL_00f4_1;
+				G_B18_0 = (-1);
+				G_B18_1 = G_B16_0;
+				goto IL_00bd_1;
 			}
 
-IL_00f2_1:
+IL_00bb_1:
 			{
-				int32_t* L_47 = ___cpuLevel0;
-				int32_t L_48 = *((int32_t*)L_47);
-				G_B22_0 = L_48;
-				G_B22_1 = G_B21_0;
+				int32_t* L_41 = ___cpuLevel0;
+				int32_t L_42 = *((int32_t*)L_41);
+				G_B18_0 = L_42;
+				G_B18_1 = G_B17_0;
 			}
 
-IL_00f4_1:
+IL_00bd_1:
 			{
-				PerformanceDataRecord_set_CpuPerformanceLevel_m8BBB7FA33AF2644ED0DE81CD58CCB07C5F71ED03_inline(G_B22_1, G_B22_0, NULL);
+				PerformanceDataRecord_set_CpuPerformanceLevel_m8BBB7FA33AF2644ED0DE81CD58CCB07C5F71ED03_inline(G_B18_1, G_B18_0, NULL);
 				// m_Data.GpuPerformanceLevel = success ? gpuLevel : Constants.UnknownPerformanceLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_49 = (&__this->___m_Data_5);
-				bool L_50 = V_0;
-				G_B23_0 = L_49;
-				if (L_50)
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_43 = (&__this->___m_Data_5);
+				bool L_44 = V_0;
+				G_B19_0 = L_43;
+				if (L_44)
 				{
-					G_B24_0 = L_49;
-					goto IL_0106_1;
+					G_B20_0 = L_43;
+					goto IL_00ce_1;
 				}
 			}
 			{
-				G_B25_0 = (-1);
-				G_B25_1 = G_B23_0;
-				goto IL_0108_1;
+				G_B21_0 = (-1);
+				G_B21_1 = G_B19_0;
+				goto IL_00d0_1;
 			}
 
-IL_0106_1:
+IL_00ce_1:
 			{
-				int32_t* L_51 = ___gpuLevel1;
-				int32_t L_52 = *((int32_t*)L_51);
-				G_B25_0 = L_52;
-				G_B25_1 = G_B24_0;
+				int32_t* L_45 = ___gpuLevel1;
+				int32_t L_46 = *((int32_t*)L_45);
+				G_B21_0 = L_46;
+				G_B21_1 = G_B20_0;
 			}
 
-IL_0108_1:
+IL_00d0_1:
 			{
-				PerformanceDataRecord_set_GpuPerformanceLevel_mBA26ABE3F6089BA232022D7F0F38B55B8FA9481A_inline(G_B25_1, G_B25_0, NULL);
+				PerformanceDataRecord_set_GpuPerformanceLevel_mBA26ABE3F6089BA232022D7F0F38B55B8FA9481A_inline(G_B21_1, G_B21_0, NULL);
 				// if (success)
-				bool L_53 = V_0;
-				V_13 = L_53;
-				bool L_54 = V_13;
-				if (!L_54)
+				bool L_47 = V_0;
+				if (!L_47)
 				{
-					goto IL_0170_1;
+					goto IL_011d_1;
 				}
 			}
 			{
 				// if (m_Data.CpuPerformanceLevel != oldCpuLevel)
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_55 = (&__this->___m_Data_5);
-				int32_t L_56;
-				L_56 = PerformanceDataRecord_get_CpuPerformanceLevel_mF688EC621C77916A86F96CF7D0DAFD520B6D68E8_inline(L_55, NULL);
-				int32_t L_57 = V_11;
-				V_14 = (bool)((((int32_t)((((int32_t)L_56) == ((int32_t)L_57))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_58 = V_14;
-				if (!L_58)
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_48 = (&__this->___m_Data_5);
+				int32_t L_49;
+				L_49 = PerformanceDataRecord_get_CpuPerformanceLevel_mF688EC621C77916A86F96CF7D0DAFD520B6D68E8_inline(L_48, NULL);
+				int32_t L_50 = V_4;
+				if ((((int32_t)L_49) == ((int32_t)L_50)))
 				{
-					goto IL_0142_1;
+					goto IL_00fa_1;
 				}
 			}
 			{
 				// m_Data.ChangeFlags |= Feature.CpuPerformanceLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_59 = (&__this->___m_Data_5);
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_60 = L_59;
-				int32_t L_61;
-				L_61 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_60, NULL);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_60, ((int32_t)((int32_t)L_61|8)), NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_51 = (&__this->___m_Data_5);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_52 = L_51;
+				int32_t L_53;
+				L_53 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_52, NULL);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_52, ((int32_t)((int32_t)L_53|8)), NULL);
 			}
 
-IL_0142_1:
+IL_00fa_1:
 			{
 				// if (m_Data.GpuPerformanceLevel != oldGpuLevel)
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_62 = (&__this->___m_Data_5);
-				int32_t L_63;
-				L_63 = PerformanceDataRecord_get_GpuPerformanceLevel_mA928B60EF914AB4E7D95291E1357A3FE795DBE23_inline(L_62, NULL);
-				int32_t L_64 = V_12;
-				V_15 = (bool)((((int32_t)((((int32_t)L_63) == ((int32_t)L_64))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_65 = V_15;
-				if (!L_65)
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_54 = (&__this->___m_Data_5);
+				int32_t L_55;
+				L_55 = PerformanceDataRecord_get_GpuPerformanceLevel_mA928B60EF914AB4E7D95291E1357A3FE795DBE23_inline(L_54, NULL);
+				int32_t L_56 = V_5;
+				if ((((int32_t)L_55) == ((int32_t)L_56)))
 				{
-					goto IL_016f_1;
+					goto IL_011d_1;
 				}
 			}
 			{
 				// m_Data.ChangeFlags |= Feature.GpuPerformanceLevel;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_66 = (&__this->___m_Data_5);
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_67 = L_66;
-				int32_t L_68;
-				L_68 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_67, NULL);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_67, ((int32_t)((int32_t)L_68|((int32_t)16))), NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_57 = (&__this->___m_Data_5);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_58 = L_57;
+				int32_t L_59;
+				L_59 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_58, NULL);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_58, ((int32_t)((int32_t)L_59|((int32_t)16))), NULL);
 			}
 
-IL_016f_1:
-			{
-			}
-
-IL_0170_1:
+IL_011d_1:
 			{
 				// if (result > 1)
-				int32_t L_69 = V_1;
-				V_16 = (bool)((((int32_t)L_69) > ((int32_t)1))? 1 : 0);
-				bool L_70 = V_16;
-				if (!L_70)
+				int32_t L_60 = V_1;
+				if ((((int32_t)L_60) <= ((int32_t)1)))
 				{
-					goto IL_01e3_1;
+					goto IL_012f_1;
 				}
 			}
 			{
 				// if (result == 2)
-				int32_t L_71 = V_1;
-				V_17 = (bool)((((int32_t)L_71) == ((int32_t)2))? 1 : 0);
-				bool L_72 = V_17;
-				if (!L_72)
+				int32_t L_61 = V_1;
+				if ((((int32_t)L_61) == ((int32_t)2)))
 				{
-					goto IL_01ac_1;
+					goto IL_0129_1;
 				}
 			}
-			{
-				// GameSDKLog.Debug($"Thermal Mitigation Logic is working and CPU({cpuLevel})/GPU({gpuLevel}) level change request was not approved.");
-				int32_t* L_73 = ___cpuLevel0;
-				int32_t L_74 = *((int32_t*)L_73);
-				int32_t L_75 = L_74;
-				RuntimeObject* L_76 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_75);
-				int32_t* L_77 = ___gpuLevel1;
-				int32_t L_78 = *((int32_t*)L_77);
-				int32_t L_79 = L_78;
-				RuntimeObject* L_80 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_79);
-				String_t* L_81;
-				L_81 = String_Format_m9499958F4B0BB6089C75760AB647AB3CA4D55806(_stringLiteral8902B0A966DB12D01D3EB36921DDA5AB98F03A0B, L_76, L_80, NULL);
-				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_82;
-				L_82 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-				il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-				GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_81, L_82, NULL);
-				goto IL_01db_1;
-			}
-
-IL_01ac_1:
 			{
 				// else if (result == 3)
-				int32_t L_83 = V_1;
-				V_18 = (bool)((((int32_t)L_83) == ((int32_t)3))? 1 : 0);
-				bool L_84 = V_18;
-				if (!L_84)
-				{
-					goto IL_01db_1;
-				}
-			}
-			{
-				// GameSDKLog.Debug($"CPU or GPU Boost mode is active and CPU({cpuLevel})/GPU({gpuLevel}) level change request was not approved.");
-				int32_t* L_85 = ___cpuLevel0;
-				int32_t L_86 = *((int32_t*)L_85);
-				int32_t L_87 = L_86;
-				RuntimeObject* L_88 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_87);
-				int32_t* L_89 = ___gpuLevel1;
-				int32_t L_90 = *((int32_t*)L_89);
-				int32_t L_91 = L_90;
-				RuntimeObject* L_92 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_91);
-				String_t* L_93;
-				L_93 = String_Format_m9499958F4B0BB6089C75760AB647AB3CA4D55806(_stringLiteralE840DA01A4B83142A4432DB4A254E493E691C0BB, L_88, L_92, NULL);
-				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_94;
-				L_94 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-				il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-				GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_93, L_94, NULL);
+				int32_t L_62 = V_1;
 			}
 
-IL_01db_1:
+IL_0129_1:
 			{
 				// EnableSystemControl();
 				SamsungGameSDKAdaptivePerformanceSubsystem_EnableSystemControl_mB94BB9BBD5D600060144AB841617FEAD284CB717(__this, NULL);
 			}
 
-IL_01e3_1:
+IL_012f_1:
 			{
-				goto IL_01f3;
+				// }
+				goto IL_013b;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -6702,19 +5983,11 @@ IL_01e3_1:
 		}
 	}
 
-IL_01f3:
+IL_013b:
 	{
 		// return success;
-		bool L_95 = V_0;
-		V_3 = L_95;
-		goto IL_01f7;
-	}
-
-IL_01f7:
-	{
-		// }
-		bool L_96 = V_3;
-		return L_96;
+		bool L_63 = V_0;
+		return L_63;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::EnableCpuBoost()
@@ -6724,9 +5997,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
 	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
 	{
 		// var result = m_Api.EnableCpuBoost();
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_3;
@@ -6743,13 +6013,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_007b:
+FINALLY_0065:
 			{// begin finally (depth: 1)
 				{
 					bool L_3 = V_2;
 					if (!L_3)
 					{
-						goto IL_0085;
+						goto IL_006e;
 					}
 				}
 				{
@@ -6757,7 +6027,7 @@ FINALLY_007b:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_4, NULL);
 				}
 
-IL_0085:
+IL_006e:
 				{
 					return;
 				}
@@ -6782,31 +6052,27 @@ IL_0085:
 				bool L_11;
 				L_11 = PerformanceDataRecord_get_CpuPerformanceBoost_m55A78568F8E19144717C3CEC17CE90FA766591D2_inline(L_10, NULL);
 				bool L_12 = V_3;
-				V_4 = (bool)((((int32_t)((((int32_t)L_11) == ((int32_t)L_12))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_13 = V_4;
-				if (!L_13)
+				if ((((int32_t)L_11) == ((int32_t)L_12)))
 				{
-					goto IL_0068_1;
+					goto IL_005a_1;
 				}
 			}
 			{
 				// m_Data.ChangeFlags |= Feature.CpuPerformanceBoost;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_14 = (&__this->___m_Data_5);
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_15 = L_14;
-				int32_t L_16;
-				L_16 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_15, NULL);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_15, ((int32_t)((int32_t)L_16|((int32_t)512))), NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_13 = (&__this->___m_Data_5);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_14 = L_13;
+				int32_t L_15;
+				L_15 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_14, NULL);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_14, ((int32_t)((int32_t)L_15|((int32_t)512))), NULL);
 			}
 
-IL_0068_1:
+IL_005a_1:
 			{
 				// if (result)
-				bool L_17 = V_0;
-				V_5 = L_17;
-				bool L_18 = V_5;
-				if (!L_18)
+				bool L_16 = V_0;
+				if (!L_16)
 				{
-					goto IL_0078_1;
+					goto IL_0063_1;
 				}
 			}
 			{
@@ -6814,9 +6080,10 @@ IL_0068_1:
 				SamsungGameSDKAdaptivePerformanceSubsystem_EnableSystemControl_mB94BB9BBD5D600060144AB841617FEAD284CB717(__this, NULL);
 			}
 
-IL_0078_1:
+IL_0063_1:
 			{
-				goto IL_0086;
+				// }
+				goto IL_006f;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -6825,19 +6092,11 @@ IL_0078_1:
 		}
 	}
 
-IL_0086:
+IL_006f:
 	{
 		// return result;
-		bool L_19 = V_0;
-		V_6 = L_19;
-		goto IL_008b;
-	}
-
-IL_008b:
-	{
-		// }
-		bool L_20 = V_6;
-		return L_20;
+		bool L_17 = V_0;
+		return L_17;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::EnableGpuBoost()
@@ -6847,9 +6106,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
 	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
 	{
 		// var result = m_Api.EnableGpuBoost();
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_3;
@@ -6866,13 +6122,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungGameSDKAdaptivePerformanceSubsyst
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_007b:
+FINALLY_0065:
 			{// begin finally (depth: 1)
 				{
 					bool L_3 = V_2;
 					if (!L_3)
 					{
-						goto IL_0085;
+						goto IL_006e;
 					}
 				}
 				{
@@ -6880,7 +6136,7 @@ FINALLY_007b:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_4, NULL);
 				}
 
-IL_0085:
+IL_006e:
 				{
 					return;
 				}
@@ -6905,31 +6161,27 @@ IL_0085:
 				bool L_11;
 				L_11 = PerformanceDataRecord_get_GpuPerformanceBoost_mFD01BBFC9A9BE53ED81947089A02691635789B7E_inline(L_10, NULL);
 				bool L_12 = V_3;
-				V_4 = (bool)((((int32_t)((((int32_t)L_11) == ((int32_t)L_12))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_13 = V_4;
-				if (!L_13)
+				if ((((int32_t)L_11) == ((int32_t)L_12)))
 				{
-					goto IL_0068_1;
+					goto IL_005a_1;
 				}
 			}
 			{
 				// m_Data.ChangeFlags |= Feature.GpuPerformanceBoost;
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_14 = (&__this->___m_Data_5);
-				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_15 = L_14;
-				int32_t L_16;
-				L_16 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_15, NULL);
-				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_15, ((int32_t)((int32_t)L_16|((int32_t)1024))), NULL);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_13 = (&__this->___m_Data_5);
+				PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_14 = L_13;
+				int32_t L_15;
+				L_15 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_14, NULL);
+				PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_14, ((int32_t)((int32_t)L_15|((int32_t)1024))), NULL);
 			}
 
-IL_0068_1:
+IL_005a_1:
 			{
 				// if (result)
-				bool L_17 = V_0;
-				V_5 = L_17;
-				bool L_18 = V_5;
-				if (!L_18)
+				bool L_16 = V_0;
+				if (!L_16)
 				{
-					goto IL_0078_1;
+					goto IL_0063_1;
 				}
 			}
 			{
@@ -6937,9 +6189,10 @@ IL_0068_1:
 				SamsungGameSDKAdaptivePerformanceSubsystem_EnableSystemControl_mB94BB9BBD5D600060144AB841617FEAD284CB717(__this, NULL);
 			}
 
-IL_0078_1:
+IL_0063_1:
 			{
-				goto IL_0086;
+				// }
+				goto IL_006f;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -6948,19 +6201,11 @@ IL_0078_1:
 		}
 	}
 
-IL_0086:
+IL_006f:
 	{
 		// return result;
-		bool L_19 = V_0;
-		V_6 = L_19;
-		goto IL_008b;
-	}
-
-IL_008b:
-	{
-		// }
-		bool L_20 = V_6;
-		return L_20;
+		bool L_17 = V_0;
+		return L_17;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::ApplicationPause()
@@ -6977,79 +6222,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D047A4897468F6F681829082D51C524173E2725);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
+	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
-	RuntimeObject* V_2 = NULL;
-	bool V_3 = false;
-	bool V_4 = false;
-	RuntimeObject* V_5 = NULL;
-	bool V_6 = false;
-	VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* G_B18_0 = NULL;
-	VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* G_B17_0 = NULL;
+	VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* G_B14_0 = NULL;
+	VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* G_B13_0 = NULL;
 	{
 		// if (!m_Api.Initialize())
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_3;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = NativeApi_Initialize_mD5CCC8D65B6D995B365BE4602144DEBA9BDD55CD(L_0, NULL);
-		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		// GameSDKLog.Debug("Resume: reinitialization failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
-		L_3 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral9D047A4897468F6F681829082D51C524173E2725, L_3, NULL);
-	}
-
-IL_0023:
-	{
 		// if ((Capabilities & Feature.CpuPerformanceLevel) == Feature.CpuPerformanceLevel)
-		int32_t L_4;
-		L_4 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		V_1 = (bool)((((int32_t)((int32_t)((int32_t)L_4&8))) == ((int32_t)8))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		int32_t L_2;
+		L_2 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
+		if ((!(((uint32_t)((int32_t)((int32_t)L_2&8))) == ((uint32_t)8))))
 		{
-			goto IL_0076;
+			goto IL_0053;
 		}
 	}
 	{
 		// lock (m_DataLock)
-		RuntimeObject* L_6 = __this->___m_DataLock_6;
-		V_2 = L_6;
-		V_3 = (bool)0;
+		RuntimeObject* L_3 = __this->___m_DataLock_6;
+		V_0 = L_3;
+		V_1 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_006a:
+FINALLY_0049:
 			{// begin finally (depth: 1)
 				{
-					bool L_7 = V_3;
-					if (!L_7)
+					bool L_4 = V_1;
+					if (!L_4)
 					{
-						goto IL_0074;
+						goto IL_0052;
 					}
 				}
 				{
-					RuntimeObject* L_8 = V_2;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_8, NULL);
+					RuntimeObject* L_5 = V_0;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_5, NULL);
 				}
 
-IL_0074:
+IL_0052:
 				{
 					return;
 				}
@@ -7057,18 +6275,19 @@ IL_0074:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_9 = V_2;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_9, (&V_3), NULL);
+			RuntimeObject* L_6 = V_0;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_6, (&V_1), NULL);
 			// m_Data.CpuPerformanceLevel = Constants.UnknownPerformanceLevel;
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_10 = (&__this->___m_Data_5);
-			PerformanceDataRecord_set_CpuPerformanceLevel_m8BBB7FA33AF2644ED0DE81CD58CCB07C5F71ED03_inline(L_10, (-1), NULL);
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_7 = (&__this->___m_Data_5);
+			PerformanceDataRecord_set_CpuPerformanceLevel_m8BBB7FA33AF2644ED0DE81CD58CCB07C5F71ED03_inline(L_7, (-1), NULL);
 			// m_Data.ChangeFlags |= Feature.CpuPerformanceLevel;
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_11 = (&__this->___m_Data_5);
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_12 = L_11;
-			int32_t L_13;
-			L_13 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_12, NULL);
-			PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_12, ((int32_t)((int32_t)L_13|8)), NULL);
-			goto IL_0075;
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_8 = (&__this->___m_Data_5);
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_9 = L_8;
+			int32_t L_10;
+			L_10 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_9, NULL);
+			PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_9, ((int32_t)((int32_t)L_10|8)), NULL);
+			// }
+			goto IL_0053;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -7076,47 +6295,41 @@ IL_0074:
 		}
 	}
 
-IL_0075:
-	{
-	}
-
-IL_0076:
+IL_0053:
 	{
 		// if ((Capabilities & Feature.GpuPerformanceLevel) == Feature.GpuPerformanceLevel)
-		int32_t L_14;
-		L_14 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
-		V_4 = (bool)((((int32_t)((int32_t)((int32_t)L_14&((int32_t)16)))) == ((int32_t)((int32_t)16)))? 1 : 0);
-		bool L_15 = V_4;
-		if (!L_15)
+		int32_t L_11;
+		L_11 = AdaptivePerformanceSubsystem_get_Capabilities_m3B41A455C5EF85D90A6796AE764E6285E1AF21A1_inline(__this, NULL);
+		if ((!(((uint32_t)((int32_t)((int32_t)L_11&((int32_t)16)))) == ((uint32_t)((int32_t)16)))))
 		{
-			goto IL_00d3;
+			goto IL_009d;
 		}
 	}
 	{
 		// lock (m_DataLock)
-		RuntimeObject* L_16 = __this->___m_DataLock_6;
-		V_5 = L_16;
-		V_6 = (bool)0;
+		RuntimeObject* L_12 = __this->___m_DataLock_6;
+		V_0 = L_12;
+		V_1 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00c5:
+FINALLY_0093:
 			{// begin finally (depth: 1)
 				{
-					bool L_17 = V_6;
-					if (!L_17)
+					bool L_13 = V_1;
+					if (!L_13)
 					{
-						goto IL_00d1;
+						goto IL_009c;
 					}
 				}
 				{
-					RuntimeObject* L_18 = V_5;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_18, NULL);
+					RuntimeObject* L_14 = V_0;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_14, NULL);
 				}
 
-IL_00d1:
+IL_009c:
 				{
 					return;
 				}
@@ -7124,18 +6337,19 @@ IL_00d1:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_19 = V_5;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_19, (&V_6), NULL);
+			RuntimeObject* L_15 = V_0;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_15, (&V_1), NULL);
 			// m_Data.GpuPerformanceLevel = Constants.UnknownPerformanceLevel;
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_20 = (&__this->___m_Data_5);
-			PerformanceDataRecord_set_GpuPerformanceLevel_mBA26ABE3F6089BA232022D7F0F38B55B8FA9481A_inline(L_20, (-1), NULL);
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_16 = (&__this->___m_Data_5);
+			PerformanceDataRecord_set_GpuPerformanceLevel_mBA26ABE3F6089BA232022D7F0F38B55B8FA9481A_inline(L_16, (-1), NULL);
 			// m_Data.ChangeFlags |= Feature.GpuPerformanceLevel;
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_21 = (&__this->___m_Data_5);
-			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_22 = L_21;
-			int32_t L_23;
-			L_23 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_22, NULL);
-			PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_22, ((int32_t)((int32_t)L_23|((int32_t)16))), NULL);
-			goto IL_00d2;
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_17 = (&__this->___m_Data_5);
+			PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_18 = L_17;
+			int32_t L_19;
+			L_19 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_18, NULL);
+			PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_18, ((int32_t)((int32_t)L_19|((int32_t)16))), NULL);
+			// }
+			goto IL_009d;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -7143,39 +6357,31 @@ IL_00d1:
 		}
 	}
 
-IL_00d2:
-	{
-	}
-
-IL_00d3:
+IL_009d:
 	{
 		// ImmediateUpdateTemperature();
 		SamsungGameSDKAdaptivePerformanceSubsystem_ImmediateUpdateTemperature_m35F36531EA566899C06B7B46F7EB4C089333C2FF(__this, NULL);
 		// CheckAndInitializeVRR();
 		SamsungGameSDKAdaptivePerformanceSubsystem_CheckAndInitializeVRR_m5D3A1BB4096B76E85CFF99048F2464407BBE12BA(__this, NULL);
 		// (VariableRefreshRate.Instance as VRRManager)?.Resume();
-		RuntimeObject* L_24;
-		L_24 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
-		VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* L_25 = ((VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA*)IsInstClass((RuntimeObject*)L_24, VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var));
-		G_B17_0 = L_25;
-		if (L_25)
+		RuntimeObject* L_20;
+		L_20 = VariableRefreshRate_get_Instance_mB72B4AF9C0C464513D27FCD7D81C5AB089675BB9_inline(NULL);
+		VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* L_21 = ((VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA*)IsInstClass((RuntimeObject*)L_20, VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA_il2cpp_TypeInfo_var));
+		G_B13_0 = L_21;
+		if (L_21)
 		{
-			G_B18_0 = L_25;
-			goto IL_00f1;
+			G_B14_0 = L_21;
+			goto IL_00b8;
 		}
 	}
 	{
-		goto IL_00f7;
+		return;
 	}
 
-IL_00f1:
+IL_00b8:
 	{
-		NullCheck(G_B18_0);
-		VRRManager_Resume_mF04994891A6B381E8DF8A8078E9A0928F2D04AFE(G_B18_0, NULL);
-	}
-
-IL_00f7:
-	{
+		NullCheck(G_B14_0);
+		VRRManager_Resume_mF04994891A6B381E8DF8A8078E9A0928F2D04AFE(G_B14_0, NULL);
 		// }
 		return;
 	}
@@ -7183,39 +6389,32 @@ IL_00f7:
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::EnableSystemControl()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsystem_EnableSystemControl_mB94BB9BBD5D600060144AB841617FEAD284CB717 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// if (!m_AllowPerformanceLevelControlChanges)
 		bool L_0 = __this->___m_AllowPerformanceLevelControlChanges_13;
-		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0010;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_0039;
+		return;
 	}
 
-IL_0010:
+IL_0009:
 	{
 		// m_Data.PerformanceLevelControlAvailable = false;
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_2 = (&__this->___m_Data_5);
-		PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline(L_2, (bool)0, NULL);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_1 = (&__this->___m_Data_5);
+		PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline(L_1, (bool)0, NULL);
 		// m_Data.ChangeFlags |= Feature.PerformanceLevelControl;
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_3 = (&__this->___m_Data_5);
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_4 = L_3;
-		int32_t L_5;
-		L_5 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_4, NULL);
-		PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_4, ((int32_t)((int32_t)L_5|((int32_t)32))), NULL);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_2 = (&__this->___m_Data_5);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_3 = L_2;
+		int32_t L_4;
+		L_4 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_3, NULL);
+		PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_3, ((int32_t)((int32_t)L_4|((int32_t)32))), NULL);
 		// m_PerformanceLevelControlSystemChange = true;
 		__this->___m_PerformanceLevelControlSystemChange_12 = (bool)1;
-	}
-
-IL_0039:
-	{
 		// }
 		return;
 	}
@@ -7223,39 +6422,32 @@ IL_0039:
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem::DisableSystemControl()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsystem_DisableSystemControl_m52ABFCD191A8A41C6C6D134C9B501F5F22499B57 (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// if (!m_AllowPerformanceLevelControlChanges)
 		bool L_0 = __this->___m_AllowPerformanceLevelControlChanges_13;
-		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0010;
+			goto IL_0009;
 		}
 	}
 	{
 		// return;
-		goto IL_0039;
+		return;
 	}
 
-IL_0010:
+IL_0009:
 	{
 		// m_Data.PerformanceLevelControlAvailable = true;
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_2 = (&__this->___m_Data_5);
-		PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline(L_2, (bool)1, NULL);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_1 = (&__this->___m_Data_5);
+		PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline(L_1, (bool)1, NULL);
 		// m_Data.ChangeFlags |= Feature.PerformanceLevelControl;
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_3 = (&__this->___m_Data_5);
-		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_4 = L_3;
-		int32_t L_5;
-		L_5 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_4, NULL);
-		PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_4, ((int32_t)((int32_t)L_5|((int32_t)32))), NULL);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_2 = (&__this->___m_Data_5);
+		PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* L_3 = L_2;
+		int32_t L_4;
+		L_4 = PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline(L_3, NULL);
+		PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline(L_3, ((int32_t)((int32_t)L_4|((int32_t)32))), NULL);
 		// m_PerformanceLevelControlSystemChange = false;
 		__this->___m_PerformanceLevelControlSystemChange_12 = (bool)0;
-	}
-
-IL_0039:
-	{
 		// }
 		return;
 	}
@@ -7266,22 +6458,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral28626D51751C23D7859E0756CA6BE8DB074078B0);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA789C1A58CA8F1B51679B983874466E76B48EFB3);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD8F22A302942D8AF895C15F6978434EF4668C687);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE02D43BFB3611F4411DD21848B293789A2B1B8D6);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE05E4B4A2AE0521D52337537F011F2A7D44B5909);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB V_2;
-	memset((&V_2), 0, sizeof(V_2));
+	Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		// if (!SystemInfo.deviceModel.StartsWith("samsung", StringComparison.OrdinalIgnoreCase))
 		String_t* L_0;
@@ -7289,71 +6474,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = String_StartsWith_mA2A4405B1B9F3653A6A9AA7F223F68D86A0C6264(L_0, _stringLiteralA789C1A58CA8F1B51679B983874466E76B48EFB3, 5, NULL);
-		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		bool L_2 = V_0;
-		if (!L_2)
+		if (L_1)
 		{
-			goto IL_003a;
+			goto IL_0013;
 		}
 	}
 	{
-		// GameSDKLog.Debug($"The device {SystemInfo.deviceModel} is not a supported Samsung phone. This provider will not run. Aborting registering the Adaptive Performance provider descriptor.");
-		String_t* L_3;
-		L_3 = SystemInfo_get_deviceModel_m8587189FA95DA31E470F864208BC6FB6B35F6D06(NULL);
-		String_t* L_4;
-		L_4 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral28626D51751C23D7859E0756CA6BE8DB074078B0, L_3, _stringLiteralD8F22A302942D8AF895C15F6978434EF4668C687, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5;
-		L_5 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_4, L_5, NULL);
 		// return;
-		goto IL_0087;
+		return;
 	}
 
-IL_003a:
+IL_0013:
 	{
 		// if (!NativeApi.IsAvailable())
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = NativeApi_IsAvailable_m68DCE48F1B7302B34DE294DBDE2654A74CBB0F63(NULL);
-		V_1 = (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
-		bool L_7 = V_1;
-		if (!L_7)
+		bool L_2;
+		L_2 = NativeApi_IsAvailable_m68DCE48F1B7302B34DE294DBDE2654A74CBB0F63(NULL);
+		if (L_2)
 		{
-			goto IL_0059;
+			goto IL_001b;
 		}
 	}
 	{
-		// GameSDKLog.Debug($"The native API for this provider is not available. Aborting registering the Adaptive Performance provider descriptor.");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8;
-		L_8 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteralE05E4B4A2AE0521D52337537F011F2A7D44B5909, L_8, NULL);
 		// return;
-		goto IL_0087;
+		return;
 	}
 
-IL_0059:
+IL_001b:
 	{
 		// AdaptivePerformanceSubsystemDescriptor.RegisterDescriptor(new AdaptivePerformanceSubsystemDescriptor.Cinfo
 		// {
 		//     id = "SamsungGameSDK",
 		//     subsystemImplementationType = typeof(SamsungGameSDKAdaptivePerformanceSubsystem)
 		// });
-		il2cpp_codegen_initobj((&V_2), sizeof(Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB));
-		Cinfo_set_id_m77027979E9BA297A2803C6EA7691881619C35F91_inline((&V_2), _stringLiteralE02D43BFB3611F4411DD21848B293789A2B1B8D6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_9 = { reinterpret_cast<intptr_t> (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_0_0_0_var) };
+		il2cpp_codegen_initobj((&V_0), sizeof(Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB));
+		Cinfo_set_id_m77027979E9BA297A2803C6EA7691881619C35F91_inline((&V_0), _stringLiteralE02D43BFB3611F4411DD21848B293789A2B1B8D6, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_10;
-		L_10 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_9, NULL);
-		Cinfo_set_subsystemImplementationType_mE5398A3C07C0B759B72027FE49DDBC1FCB50A5B9_inline((&V_2), L_10, NULL);
-		Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB L_11 = V_2;
-		AdaptivePerformanceSubsystemDescriptor_t5D0468D8D509E8995FBDCD5DE6EF6F293B16DC82* L_12;
-		L_12 = AdaptivePerformanceSubsystemDescriptor_RegisterDescriptor_m377677FFF2A5CF7FEC432246C83799FD534319FB(L_11, NULL);
-	}
-
-IL_0087:
-	{
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_3, NULL);
+		Cinfo_set_subsystemImplementationType_mE5398A3C07C0B759B72027FE49DDBC1FCB50A5B9_inline((&V_0), L_4, NULL);
+		Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB L_5 = V_0;
+		AdaptivePerformanceSubsystemDescriptor_t5D0468D8D509E8995FBDCD5DE6EF6F293B16DC82* L_6;
+		L_6 = AdaptivePerformanceSubsystemDescriptor_RegisterDescriptor_m377677FFF2A5CF7FEC432246C83799FD534319FB(L_5, NULL);
 		// }
 		return;
 	}
@@ -7370,7 +6533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungGameSDKAdaptivePerformanceSubsyst
 	{
 		// static SamsungAndroidProviderSettings settings = SamsungAndroidProviderSettings.GetSettings();
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0;
-		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2(NULL);
+		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2_inline(NULL);
 		((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17), (void*)L_0);
 		return;
@@ -7451,85 +6614,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi__ctor_m62E976B074521326BD1F50D
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::onHighTempWarning(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onHighTempWarning_m45F34E7ACDF15877EC50E84BB0A0EA50A6CF2DEA (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* __this, int32_t ___warningLevel0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral89250C270D1C12D84D3EC64C503CC6EA8D7FCCD9);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
-	{
-		// GameSDKLog.Debug("Listener: onHighTempWarning(warningLevel={0})", warningLevel);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
-		int32_t L_2 = ___warningLevel0;
-		int32_t L_3 = L_2;
-		RuntimeObject* L_4 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_3);
-		NullCheck(L_1);
-		ArrayElementTypeCheck (L_1, L_4);
-		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral89250C270D1C12D84D3EC64C503CC6EA8D7FCCD9, L_1, NULL);
 		// if (warningLevel == 0)
-		int32_t L_5 = ___warningLevel0;
-		V_0 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
-		bool L_6 = V_0;
-		if (!L_6)
+		int32_t L_0 = ___warningLevel0;
+		if (L_0)
 		{
-			goto IL_0032;
+			goto IL_0010;
 		}
 	}
 	{
 		// PerformanceWarningEvent(WarningLevel.NoWarning);
-		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_7 = __this->___PerformanceWarningEvent_11;
-		NullCheck(L_7);
-		Action_1_Invoke_m772CF576DB7B297059C25510D48E3CD587FB66DF_inline(L_7, 0, NULL);
-		goto IL_005e;
+		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_1 = __this->___PerformanceWarningEvent_11;
+		NullCheck(L_1);
+		Action_1_Invoke_m772CF576DB7B297059C25510D48E3CD587FB66DF_inline(L_1, 0, NULL);
+		return;
 	}
 
-IL_0032:
+IL_0010:
 	{
 		// else if (warningLevel == 1)
-		int32_t L_8 = ___warningLevel0;
-		V_1 = (bool)((((int32_t)L_8) == ((int32_t)1))? 1 : 0);
-		bool L_9 = V_1;
-		if (!L_9)
+		int32_t L_2 = ___warningLevel0;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
-			goto IL_0049;
+			goto IL_0021;
 		}
 	}
 	{
 		// PerformanceWarningEvent(WarningLevel.ThrottlingImminent);
-		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_10 = __this->___PerformanceWarningEvent_11;
-		NullCheck(L_10);
-		Action_1_Invoke_m772CF576DB7B297059C25510D48E3CD587FB66DF_inline(L_10, 1, NULL);
-		goto IL_005e;
+		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_3 = __this->___PerformanceWarningEvent_11;
+		NullCheck(L_3);
+		Action_1_Invoke_m772CF576DB7B297059C25510D48E3CD587FB66DF_inline(L_3, 1, NULL);
+		return;
 	}
 
-IL_0049:
+IL_0021:
 	{
 		// else if (warningLevel == 2)
-		int32_t L_11 = ___warningLevel0;
-		V_2 = (bool)((((int32_t)L_11) == ((int32_t)2))? 1 : 0);
-		bool L_12 = V_2;
-		if (!L_12)
+		int32_t L_4 = ___warningLevel0;
+		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
 		{
-			goto IL_005e;
+			goto IL_0031;
 		}
 	}
 	{
 		// PerformanceWarningEvent(WarningLevel.Throttling);
-		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_13 = __this->___PerformanceWarningEvent_11;
-		NullCheck(L_13);
-		Action_1_Invoke_m772CF576DB7B297059C25510D48E3CD587FB66DF_inline(L_13, 2, NULL);
+		Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* L_5 = __this->___PerformanceWarningEvent_11;
+		NullCheck(L_5);
+		Action_1_Invoke_m772CF576DB7B297059C25510D48E3CD587FB66DF_inline(L_5, 2, NULL);
 	}
 
-IL_005e:
+IL_0031:
 	{
 		// }
 		return;
@@ -7538,24 +6672,11 @@ IL_005e:
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::onReleasedByTimeout()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onReleasedByTimeout_m1A8865E591932D04A8762F459FABA949EFB6EFE1 (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3ECE9D2B10604F4046FFC1E64BDE606079243DDC);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GameSDKLog.Debug("Listener: onReleasedByTimeout()");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
-		L_0 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral3ECE9D2B10604F4046FFC1E64BDE606079243DDC, L_0, NULL);
 		// PerformanceLevelTimeoutEvent();
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->___PerformanceLevelTimeoutEvent_12;
-		NullCheck(L_1);
-		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___PerformanceLevelTimeoutEvent_12;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
 		// }
 		return;
 	}
@@ -7563,24 +6684,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onReleasedByTimeout_m1A8865E59
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::onReleasedCpuBoost()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onReleasedCpuBoost_mFDB5018EC339425836E93B20040B8E2A90A60182 (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F72D77AB9D57F4D5F875A6EA395200A6CD79649);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GameSDKLog.Debug("Listener: onReleasedCpuBoost()");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
-		L_0 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral7F72D77AB9D57F4D5F875A6EA395200A6CD79649, L_0, NULL);
 		// CpuPerformanceBoostReleasedByTimeoutEvent();
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->___CpuPerformanceBoostReleasedByTimeoutEvent_13;
-		NullCheck(L_1);
-		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___CpuPerformanceBoostReleasedByTimeoutEvent_13;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
 		// }
 		return;
 	}
@@ -7588,24 +6696,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onReleasedCpuBoost_mFDB5018EC3
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::onReleasedGpuBoost()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onReleasedGpuBoost_m875EDF1A54DA3126DD581B81A0CAF47CB358F099 (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F43FBC7BDA3B0881A82D938A6C56952BF64C2CC);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GameSDKLog.Debug("Listener: onReleasedGPUBoost()");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
-		L_0 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral3F43FBC7BDA3B0881A82D938A6C56952BF64C2CC, L_0, NULL);
 		// GpuPerformanceBoostReleasedByTimeoutEvent();
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->___GpuPerformanceBoostReleasedByTimeoutEvent_14;
-		NullCheck(L_1);
-		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___GpuPerformanceBoostReleasedByTimeoutEvent_14;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
 		// }
 		return;
 	}
@@ -7613,24 +6708,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onReleasedGpuBoost_m875EDF1A54
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::onRefreshRateChanged()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_onRefreshRateChanged_m90F4B1D55344D831F246080300ED00AE677C31DB (NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27DF13F777DF139B1865C6887C04D78550720618);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GameSDKLog.Debug("Listener: onRefreshRateChanged()");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
-		L_0 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral27DF13F777DF139B1865C6887C04D78550720618, L_0, NULL);
 		// RefreshRateChangedEvent();
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->___RefreshRateChangedEvent_15;
-		NullCheck(L_1);
-		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___RefreshRateChangedEvent_15;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
 		// }
 		return;
 	}
@@ -7640,11 +6722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetJavaMethodID_mB27CBA282
 {
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	intptr_t V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	bool V_2 = false;
-	intptr_t V_3;
-	memset((&V_3), 0, sizeof(V_3));
 	{
 		// AndroidJNI.ExceptionClear();
 		AndroidJNI_ExceptionClear_m90681289A6CEAF160DB188A3E2177F323D996F82(NULL);
@@ -7658,18 +6735,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetJavaMethodID_mB27CBA282
 		// IntPtr ex = AndroidJNI.ExceptionOccurred();
 		intptr_t L_4;
 		L_4 = AndroidJNI_ExceptionOccurred_m6C27C01B14483F99373608BF1A56CA53BA46F926(NULL);
-		V_1 = L_4;
 		// if (ex != (IntPtr)0)
-		intptr_t L_5 = V_1;
-		intptr_t L_6;
-		L_6 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
-		bool L_7;
-		L_7 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_5, L_6, NULL);
-		V_2 = L_7;
-		bool L_8 = V_2;
-		if (!L_8)
+		intptr_t L_5;
+		L_5 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
+		bool L_6;
+		L_6 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_4, L_5, NULL);
+		if (!L_6)
 		{
-			goto IL_003c;
+			goto IL_0031;
 		}
 	}
 	{
@@ -7678,25 +6751,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetJavaMethodID_mB27CBA282
 		// AndroidJNI.ExceptionClear();
 		AndroidJNI_ExceptionClear_m90681289A6CEAF160DB188A3E2177F323D996F82(NULL);
 		// return (IntPtr)0;
-		intptr_t L_9;
-		L_9 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
-		V_3 = L_9;
-		goto IL_0041;
+		intptr_t L_7;
+		L_7 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
+		return L_7;
 	}
 
-IL_003c:
+IL_0031:
 	{
 		// return mid;
-		intptr_t L_10 = V_0;
-		V_3 = L_10;
-		goto IL_0041;
-	}
-
-IL_0041:
-	{
-		// }
-		intptr_t L_11 = V_3;
-		return L_11;
+		intptr_t L_8 = V_0;
+		return L_8;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::StaticInit()
@@ -7708,11 +6772,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_StaticInit_m394FC464C4AFF7D99B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral110C230ECC11791A56E51CE07FE5E6FD5A78178A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D677AB4F1E4297F4CF5654EAD125EEBC50D20EF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6150E95C9C4330C373DB62805E1F4E88C2BC7EB3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74C185339ADE6B87DA245E0CBDFD66891CC43F54);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA1AAE3AE980660190B1F9951D819C0F1BEA090B7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAD4FD80C1A0A39AD74FD88700D89B9595B8D595);
@@ -7720,65 +6782,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_StaticInit_m394FC464C4AFF7D99B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEEC7732C32C4E0262755BF931431F792DE2E0033);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	bool V_1 = false;
-	Exception_t* V_2 = NULL;
-	bool V_3 = false;
-	intptr_t V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	bool V_5 = false;
-	bool V_6 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	int32_t G_B12_0 = 0;
 	{
 		// if (s_GameSDK == null)
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-		V_0 = (bool)((((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
+		if (L_0)
 		{
-			goto IL_0142;
+			goto IL_00ee;
 		}
-	}
-	{
 	}
 	try
 	{// begin try (depth: 1)
 		{
 			// s_GameSDK = new AndroidJavaObject("com.samsung.android.gamesdk.GameSDKManager");
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
-			L_2 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
-			NullCheck(L_3);
-			AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7(L_3, _stringLiteralEEC7732C32C4E0262755BF931431F792DE2E0033, L_2, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
+			L_1 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+			NullCheck(L_2);
+			AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7(L_2, _stringLiteralEEC7732C32C4E0262755BF931431F792DE2E0033, L_1, NULL);
 			il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-			((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4 = L_3;
-			Il2CppCodeGenWriteBarrier((void**)(&((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4), (void*)L_3);
+			((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4 = L_2;
+			Il2CppCodeGenWriteBarrier((void**)(&((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4), (void*)L_2);
 			// if (s_GameSDK != null)
-			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-			V_1 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-			bool L_5 = V_1;
-			if (!L_5)
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+			if (!L_3)
 			{
-				goto IL_004b_1;
+				goto IL_003e_1;
 			}
 		}
 		{
 			// s_isAvailable = s_GameSDK.CallStatic<bool>("isAvailable");
 			il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
-			L_7 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-			NullCheck(L_6);
-			bool L_8;
-			L_8 = AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6(L_6, _stringLiteral74C185339ADE6B87DA245E0CBDFD66891CC43F54, L_7, AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_RuntimeMethod_var);
-			((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9 = L_8;
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5;
+			L_5 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
+			NullCheck(L_4);
+			bool L_6;
+			L_6 = AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6(L_4, _stringLiteral74C185339ADE6B87DA245E0CBDFD66891CC43F54, L_5, AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_RuntimeMethod_var);
+			((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9 = L_6;
 		}
 
-IL_004b_1:
+IL_003e_1:
 		{
-			goto IL_0075;
+			// }
+			goto IL_004f;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -7786,63 +6834,46 @@ IL_004b_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_004e;
+			goto CATCH_0040;
 		}
 		throw e;
 	}
 
-CATCH_004e:
+CATCH_0040:
 	{// begin catch(System.Exception)
 		// catch (Exception ex)
-		V_2 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug($"GameSDK is not available due to {ex} Aborting Adaptive Performance initialization.");
-		Exception_t* L_9 = V_2;
-		String_t* L_10;
-		L_10 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEE9E91A6CF5232221FEBFF7464BDAD1E97956F13)), L_9, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11;
-		L_11 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_10, L_11, NULL);
 		// s_isAvailable = false;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var)));
 		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))))->___s_isAvailable_9 = (bool)0;
 		// s_GameSDK = null;
 		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))))->___s_GameSDK_4 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))))->___s_GameSDK_4), (void*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0075;
+		goto IL_004f;
 	}// end catch (depth: 1)
 
-IL_0075:
+IL_004f:
 	{
 		// if (s_isAvailable)
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		bool L_12 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9;
-		V_3 = L_12;
-		bool L_13 = V_3;
-		if (!L_13)
+		bool L_7 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9;
+		if (!L_7)
 		{
-			goto IL_0141;
+			goto IL_00ee;
 		}
 	}
 	{
 		// if (!IsAPVersionSupported())
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		bool L_14;
-		L_14 = NativeApi_IsAPVersionSupported_m53A75DD11AC80436021FBFCE21C0078F20F27AE8(NULL);
-		V_5 = (bool)((((int32_t)L_14) == ((int32_t)0))? 1 : 0);
-		bool L_15 = V_5;
-		if (!L_15)
+		bool L_8;
+		L_8 = NativeApi_IsAPVersionSupported_m53A75DD11AC80436021FBFCE21C0078F20F27AE8(NULL);
+		if (L_8)
 		{
-			goto IL_00b2;
+			goto IL_006d;
 		}
 	}
 	{
-		// GameSDKLog.Debug($"GameSDK is the wrong version. Aborting Adaptive Performance Samsung Android initialization.");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16;
-		L_16 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral6150E95C9C4330C373DB62805E1F4E88C2BC7EB3, L_16, NULL);
 		// s_isAvailable = false;
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9 = (bool)0;
@@ -7850,90 +6881,69 @@ IL_0075:
 		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4), (void*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL);
 		// return;
-		goto IL_0142;
+		return;
 	}
 
-IL_00b2:
+IL_006d:
 	{
 		// s_GameSDKRawObjectID = s_GameSDK.GetRawObject();
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_17 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-		NullCheck(L_17);
-		intptr_t L_18;
-		L_18 = AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48(L_17, NULL);
-		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDKRawObjectID_5 = L_18;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_9 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+		NullCheck(L_9);
+		intptr_t L_10;
+		L_10 = AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48(L_9, NULL);
+		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDKRawObjectID_5 = L_10;
 		// var classID = s_GameSDK.GetRawClass();
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_19 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-		NullCheck(L_19);
-		intptr_t L_20;
-		L_20 = AndroidJavaObject_GetRawClass_mE4FB4DC4F856A52E10C6AAD0B65BEBF47B5071F5(L_19, NULL);
-		V_4 = L_20;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_11 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+		NullCheck(L_11);
+		intptr_t L_12;
+		L_12 = AndroidJavaObject_GetRawClass_mE4FB4DC4F856A52E10C6AAD0B65BEBF47B5071F5(L_11, NULL);
 		// s_GetGpuFrameTimeID = GetJavaMethodID(classID, "getGpuFrameTime", "()D");
-		intptr_t L_21 = V_4;
-		intptr_t L_22;
-		L_22 = NativeApi_GetJavaMethodID_mB27CBA2827B839C6B22989023775E8785CA3A718(L_21, _stringLiteral110C230ECC11791A56E51CE07FE5E6FD5A78178A, _stringLiteralDB8C132238F9E774E6E9E180238DA0A65C25145C, NULL);
-		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetGpuFrameTimeID_6 = L_22;
+		intptr_t L_13 = L_12;
+		intptr_t L_14;
+		L_14 = NativeApi_GetJavaMethodID_mB27CBA2827B839C6B22989023775E8785CA3A718(L_13, _stringLiteral110C230ECC11791A56E51CE07FE5E6FD5A78178A, _stringLiteralDB8C132238F9E774E6E9E180238DA0A65C25145C, NULL);
+		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetGpuFrameTimeID_6 = L_14;
 		// s_GetHighPrecisionSkinTempLevelID = GetJavaMethodID(classID, "getHighPrecisionSkinTempLevel", "()D");
-		intptr_t L_23 = V_4;
-		intptr_t L_24;
-		L_24 = NativeApi_GetJavaMethodID_mB27CBA2827B839C6B22989023775E8785CA3A718(L_23, _stringLiteralDAD4FD80C1A0A39AD74FD88700D89B9595B8D595, _stringLiteralDB8C132238F9E774E6E9E180238DA0A65C25145C, NULL);
-		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetHighPrecisionSkinTempLevelID_7 = L_24;
+		intptr_t L_15 = L_13;
+		intptr_t L_16;
+		L_16 = NativeApi_GetJavaMethodID_mB27CBA2827B839C6B22989023775E8785CA3A718(L_15, _stringLiteralDAD4FD80C1A0A39AD74FD88700D89B9595B8D595, _stringLiteralDB8C132238F9E774E6E9E180238DA0A65C25145C, NULL);
+		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetHighPrecisionSkinTempLevelID_7 = L_16;
 		// s_GetClusterInfolID =  GetJavaMethodID(classID, "getClusterInfo", "()I");
-		intptr_t L_25 = V_4;
-		intptr_t L_26;
-		L_26 = NativeApi_GetJavaMethodID_mB27CBA2827B839C6B22989023775E8785CA3A718(L_25, _stringLiteralA1AAE3AE980660190B1F9951D819C0F1BEA090B7, _stringLiteral2D677AB4F1E4297F4CF5654EAD125EEBC50D20EF, NULL);
-		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetClusterInfolID_8 = L_26;
+		intptr_t L_17;
+		L_17 = NativeApi_GetJavaMethodID_mB27CBA2827B839C6B22989023775E8785CA3A718(L_15, _stringLiteralA1AAE3AE980660190B1F9951D819C0F1BEA090B7, _stringLiteral2D677AB4F1E4297F4CF5654EAD125EEBC50D20EF, NULL);
+		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetClusterInfolID_8 = L_17;
 		// if (s_GetGpuFrameTimeID == (IntPtr)0 || s_GetHighPrecisionSkinTempLevelID == (IntPtr)0)
-		intptr_t L_27 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetGpuFrameTimeID_6;
-		intptr_t L_28;
-		L_28 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
-		bool L_29;
-		L_29 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_27, L_28, NULL);
-		if (L_29)
+		intptr_t L_18 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetGpuFrameTimeID_6;
+		intptr_t L_19;
+		L_19 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
+		bool L_20;
+		L_20 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_18, L_19, NULL);
+		if (L_20)
 		{
-			goto IL_0133;
+			goto IL_00e8;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		intptr_t L_30 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetHighPrecisionSkinTempLevelID_7;
-		intptr_t L_31;
-		L_31 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
-		bool L_32;
-		L_32 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_30, L_31, NULL);
-		G_B12_0 = ((int32_t)(L_32));
-		goto IL_0134;
-	}
-
-IL_0133:
-	{
-		G_B12_0 = 1;
-	}
-
-IL_0134:
-	{
-		V_6 = (bool)G_B12_0;
-		bool L_33 = V_6;
-		if (!L_33)
+		intptr_t L_21 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GetHighPrecisionSkinTempLevelID_7;
+		intptr_t L_22;
+		L_22 = IntPtr_op_Explicit_mB06D1B6CFBA72B5C55FBEC1BA3BC25958AB60EB1(0, NULL);
+		bool L_23;
+		L_23 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_21, L_22, NULL);
+		if (!L_23)
 		{
-			goto IL_0140;
+			goto IL_00ee;
 		}
 	}
+
+IL_00e8:
 	{
 		// s_isAvailable = false;
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9 = (bool)0;
 	}
 
-IL_0140:
-	{
-	}
-
-IL_0141:
-	{
-	}
-
-IL_0142:
+IL_00ee:
 	{
 		// }
 		return;
@@ -7948,22 +6958,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAvailable_m68DCE48F1B7302B34
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// StaticInit();
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		NativeApi_StaticInit_m394FC464C4AFF7D99B010BED4177F0473EA19390(NULL);
 		// return s_isAvailable;
 		bool L_0 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_isAvailable_9;
-		V_0 = L_0;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::RegisterListener()
@@ -7973,17 +6974,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_RegisterListener_mAA67F2786395
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3261C3E11E9AB172DA0BD2010EF79C41DE23C91C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral342CCCC739F1CB99FB5E97B28A5CBD940E862908);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// bool success = false;
@@ -8003,59 +6999,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_RegisterListener_mAA67F2786395
 		bool L_3;
 		L_3 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_0, _stringLiteral3261C3E11E9AB172DA0BD2010EF79C41DE23C91C, L_2, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 		V_0 = L_3;
-		goto IL_0028;
+		// }
+		goto IL_0023;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0021;
+			goto CATCH_001e;
 		}
 		throw e;
 	}
 
-CATCH_0021:
+CATCH_001e:
 	{// begin catch(System.Exception)
 		// catch (Exception)
 		// success = false;
 		V_0 = (bool)0;
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0028;
+		goto IL_0023;
 	}// end catch (depth: 1)
 
-IL_0028:
+IL_0023:
 	{
 		// if (!success)
 		bool L_4 = V_0;
-		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
-		{
-			goto IL_0040;
-		}
-	}
-	{
-		// GameSDKLog.Debug("failed to register listener");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral342CCCC739F1CB99FB5E97B28A5CBD940E862908, L_6, NULL);
-	}
-
-IL_0040:
-	{
 		// return success;
-		bool L_7 = V_0;
-		V_2 = L_7;
-		goto IL_0044;
-	}
-
-IL_0044:
-	{
-		// }
-		bool L_8 = V_2;
-		return L_8;
+		bool L_5 = V_0;
+		return L_5;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::UnregisterListener()
@@ -8065,17 +7038,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_UnregisterListener_m56A5D73E83
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral093E8A0E212888CFFD458E315F2B0A7E56675227);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3261C3E11E9AB172DA0BD2010EF79C41DE23C91C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral479F9970CF27585C769490EC86958D71EAD1DF13);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	bool V_1 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// bool success = true;
@@ -8083,61 +7051,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_UnregisterListener_m56A5D73E83
 	}
 	try
 	{// begin try (depth: 1)
-		// GameSDKLog.Debug("setListener(null)");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
-		L_0 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral093E8A0E212888CFFD458E315F2B0A7E56675227, L_0, NULL);
 		// success = s_GameSDK.Call<bool>("setListener", (Object)null);
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		NullCheck(L_1);
-		bool L_3;
-		L_3 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_1, _stringLiteral3261C3E11E9AB172DA0BD2010EF79C41DE23C91C, L_2, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		V_0 = L_3;
-		goto IL_0034;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_0, _stringLiteral3261C3E11E9AB172DA0BD2010EF79C41DE23C91C, L_1, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		V_0 = L_2;
+		// }
+		goto IL_001f;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_002d;
+			goto CATCH_001a;
 		}
 		throw e;
 	}
 
-CATCH_002d:
+CATCH_001a:
 	{// begin catch(System.Exception)
 		// catch (Exception)
 		// success = false;
 		V_0 = (bool)0;
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0034;
+		goto IL_001f;
 	}// end catch (depth: 1)
 
-IL_0034:
+IL_001f:
 	{
 		// if (!success)
-		bool L_4 = V_0;
-		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
-		{
-			goto IL_004c;
-		}
-	}
-	{
-		// GameSDKLog.Debug("setListener(null) failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral479F9970CF27585C769490EC86958D71EAD1DF13, L_6, NULL);
-	}
-
-IL_004c:
-	{
+		bool L_3 = V_0;
 		// }
 		return;
 	}
@@ -8158,10 +7106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAPVersionSupported_m53A75DD1
 	}
 	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* V_0 = NULL;
 	bool V_1 = false;
-	bool V_2 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	{
-	}
 	try
 	{// begin try (depth: 1)
 		{
@@ -8176,30 +7121,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAPVersionSupported_m53A75DD1
 			il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 			bool L_3;
 			L_3 = SamsungGameSDKAdaptivePerformanceSubsystem_TryParseVersion_m68B5F65C1CD0EAFB0E51ADF9278C4FF351ED62A2(L_2, (&V_0), NULL);
-			V_1 = L_3;
-			bool L_4 = V_1;
-			if (!L_4)
+			if (!L_3)
 			{
-				goto IL_0031_1;
+				goto IL_002d_1;
 			}
 		}
 		{
 			// return initVersion >= new Version(3, 2);
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_5 = V_0;
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_6 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-			NullCheck(L_6);
-			Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_6, 3, 2, NULL);
-			bool L_7;
-			L_7 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_5, L_6, NULL);
-			V_2 = L_7;
-			goto IL_004e;
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_4 = V_0;
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_5 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+			NullCheck(L_5);
+			Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_5, 3, 2, NULL);
+			bool L_6;
+			L_6 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_4, L_5, NULL);
+			V_1 = L_6;
+			goto IL_0036;
 		}
 
-IL_0031_1:
+IL_002d_1:
 		{
 			// return false;
-			V_2 = (bool)0;
-			goto IL_004e;
+			V_1 = (bool)0;
+			goto IL_0036;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -8207,35 +7150,30 @@ IL_0031_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0035;
+			goto CATCH_0031;
 		}
 		throw e;
 	}
 
-CATCH_0035:
+CATCH_0031:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] IsAPVersionSupported() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8;
-		L_8 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC945B1AB2CC39CFF371CFD3D74A624C272A7403B)), L_8, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_004a;
+		goto IL_0034;
 	}// end catch (depth: 1)
 
-IL_004a:
+IL_0034:
 	{
 		// return false;
-		V_2 = (bool)0;
-		goto IL_004e;
+		return (bool)0;
 	}
 
-IL_004e:
+IL_0036:
 	{
 		// }
-		bool L_9 = V_2;
-		return L_9;
+		bool L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::Initialize()
@@ -8245,23 +7183,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_Initialize_mD5CCC8D65B6D995B36
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral23F0C2BAF6129C2E0FDDA0AA63B31639CACA2828);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7B7EE387C4003E566E8552609AE966FCAD211EEE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD289A15F06D391673864A3B5CEDBFF42865743C1);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* V_1 = NULL;
-	bool V_2 = false;
-	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// bool isInitialized = false;
@@ -8276,96 +7206,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_Initialize_mD5CCC8D65B6D995B36
 			il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 			bool L_1;
 			L_1 = SamsungGameSDKAdaptivePerformanceSubsystem_TryParseVersion_m68B5F65C1CD0EAFB0E51ADF9278C4FF351ED62A2(L_0, (&V_1), NULL);
-			V_2 = L_1;
-			bool L_2 = V_2;
-			if (!L_2)
+			if (!L_1)
 			{
-				goto IL_0086_1;
+				goto IL_0049_1;
 			}
 		}
 		{
 			// if (initVersion >= new Version(3, 2))
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_3 = V_1;
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_4 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
-			NullCheck(L_4);
-			Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_4, 3, 2, NULL);
-			bool L_5;
-			L_5 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_3, L_4, NULL);
-			V_3 = L_5;
-			bool L_6 = V_3;
-			if (!L_6)
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_2 = V_1;
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_3 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+			NullCheck(L_3);
+			Version__ctor_m0871675040007535EA3D8083A4BEAE9DF8C92FF4(L_3, 3, 2, NULL);
+			bool L_4;
+			L_4 = Version_op_GreaterThanOrEqual_mA931CBD9362C3D0D4D149B63A16B10B11BBBA933(L_2, L_3, NULL);
+			if (!L_4)
 			{
-				goto IL_004a_1;
+				goto IL_003f_1;
 			}
 		}
 		{
 			// isInitialized = s_GameSDK.Call<bool>("initialize", initVersion.ToString());
 			il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_7 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_10 = V_1;
-			NullCheck(L_10);
-			String_t* L_11;
-			L_11 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_10);
-			NullCheck(L_9);
-			ArrayElementTypeCheck (L_9, L_11);
-			(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_11);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_8 = V_1;
+			NullCheck(L_8);
+			String_t* L_9;
+			L_9 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
 			NullCheck(L_7);
-			bool L_12;
-			L_12 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_7, _stringLiteralD289A15F06D391673864A3B5CEDBFF42865743C1, L_9, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-			V_0 = L_12;
-			goto IL_0061_1;
+			ArrayElementTypeCheck (L_7, L_9);
+			(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_9);
+			NullCheck(L_5);
+			bool L_10;
+			L_10 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_5, _stringLiteralD289A15F06D391673864A3B5CEDBFF42865743C1, L_7, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+			V_0 = L_10;
 		}
 
-IL_004a_1:
-		{
-			// GameSDKLog.Debug("GameSDK {0} is not supported and will not be initialized, Adaptive Performance will not be used.", initVersion);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_13;
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_15 = V_1;
-			NullCheck(L_14);
-			ArrayElementTypeCheck (L_14, L_15);
-			(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_15);
-			il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-			GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral7B7EE387C4003E566E8552609AE966FCAD211EEE, L_14, NULL);
-		}
-
-IL_0061_1:
+IL_003f_1:
 		{
 			// if (isInitialized)
-			bool L_16 = V_0;
-			V_4 = L_16;
-			bool L_17 = V_4;
-			if (!L_17)
+			bool L_11 = V_0;
+			if (!L_11)
 			{
-				goto IL_0073_1;
+				goto IL_0049_1;
 			}
 		}
 		{
 			// isInitialized = RegisterListener();
-			bool L_18;
-			L_18 = NativeApi_RegisterListener_mAA67F27863950076632CC6B474F8A6F4327223B4(__this, NULL);
-			V_0 = L_18;
-			goto IL_0085_1;
+			bool L_12;
+			L_12 = NativeApi_RegisterListener_mAA67F27863950076632CC6B474F8A6F4327223B4(__this, NULL);
+			V_0 = L_12;
 		}
 
-IL_0073_1:
+IL_0049_1:
 		{
-			// GameSDKLog.Debug("GameSDK.initialize() failed!");
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19;
-			L_19 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-			il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-			GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral23F0C2BAF6129C2E0FDDA0AA63B31639CACA2828, L_19, NULL);
-		}
-
-IL_0085_1:
-		{
-		}
-
-IL_0086_1:
-		{
-			goto IL_009e;
+			// }
+			goto IL_004e;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -8373,36 +7270,24 @@ IL_0086_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0089;
+			goto CATCH_004b;
 		}
 		throw e;
 	}
 
-CATCH_0089:
+CATCH_004b:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] GameSDK.initialize() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20;
-		L_20 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral59709E817097D9531AEDD6052E41251EC973E59C)), L_20, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_009e;
+		goto IL_004e;
 	}// end catch (depth: 1)
 
-IL_009e:
+IL_004e:
 	{
 		// return isInitialized;
-		bool L_21 = V_0;
-		V_5 = L_21;
-		goto IL_00a3;
-	}
-
-IL_00a3:
-	{
-		// }
-		bool L_22 = V_5;
-		return L_22;
+		bool L_13 = V_0;
+		return L_13;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::Terminate()
@@ -8412,11 +7297,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_Terminate_m20E038F0579D7C9D584
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E5FBE3F351EB8F12ED980FF209B6810ED6C1D60);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBAACC50170E3A3880DA7F767D2B90AE4B455132);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
@@ -8431,52 +7314,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_Terminate_m20E038F0579D7C9D584
 		String_t* L_0;
 		L_0 = Application_get_identifier_m26B38D49FA10A46D61C1309769A59E9CF7460006(NULL);
 		V_0 = L_0;
-		// GameSDKLog.Debug("GameSDK.finalize({0})", packageName);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = V_0;
-		NullCheck(L_2);
-		ArrayElementTypeCheck (L_2, L_3);
-		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteralFBAACC50170E3A3880DA7F767D2B90AE4B455132, L_2, NULL);
 		// s_GameSDK.Call<bool>("finalize", packageName);
 		il2cpp_codegen_runtime_class_init_inline(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_5;
-		String_t* L_7 = V_0;
-		NullCheck(L_6);
-		ArrayElementTypeCheck (L_6, L_7);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
-		NullCheck(L_4);
-		bool L_8;
-		L_8 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_4, _stringLiteral8E5FBE3F351EB8F12ED980FF209B6810ED6C1D60, L_6, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		goto IL_0056;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = ((NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_StaticFields*)il2cpp_codegen_static_fields_for(NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var))->___s_GameSDK_4;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
+		String_t* L_4 = V_0;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
+		NullCheck(L_1);
+		bool L_5;
+		L_5 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_1, _stringLiteral8E5FBE3F351EB8F12ED980FF209B6810ED6C1D60, L_3, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		// }
+		goto IL_002b;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0041;
+			goto CATCH_0028;
 		}
 		throw e;
 	}
 
-CATCH_0041:
+CATCH_0028:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("GameSDK.finalize() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9;
-		L_9 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral73BC0C4F9262DE9E8B22CD5E81E3CE1E0FB39B76)), L_9, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0056;
+		goto IL_002b;
 	}// end catch (depth: 1)
 
-IL_0056:
+IL_002b:
 	{
 		// }
 		return;
@@ -8496,7 +7367,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NativeApi_GetVersion_mA4099836535EE
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
-	String_t* V_1 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// string sdkVersion = "";
@@ -8513,43 +7383,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NativeApi_GetVersion_mA4099836535EE
 		String_t* L_2;
 		L_2 = AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40(L_0, _stringLiteral8CAC7A1CF27146D11E92BE39054D8E4594FE9B3D, L_1, AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_0035;
+		// }
+		goto IL_0020;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0020;
+			goto CATCH_001d;
 		}
 		throw e;
 	}
 
-CATCH_0020:
+CATCH_001d:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] GameSDK.getVersion() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
-		L_3 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3ADB7650C60C7938C84331F811594F0DAA0731DC)), L_3, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0035;
+		goto IL_0020;
 	}// end catch (depth: 1)
 
-IL_0035:
+IL_0020:
 	{
 		// return sdkVersion;
-		String_t* L_4 = V_0;
-		V_1 = L_4;
-		goto IL_0039;
-	}
-
-IL_0039:
-	{
-		// }
-		String_t* L_5 = V_1;
-		return L_5;
+		String_t* L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Double UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetHighPrecisionSkinTempLevel()
@@ -8563,8 +7422,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetHighPrecisionSkinTempLeve
 		s_Il2CppMethodInitialized = true;
 	}
 	double V_0 = 0.0;
-	bool V_1 = false;
-	double V_2 = 0.0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// double currentTempLevel = -1.0;
@@ -8586,11 +7443,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetHighPrecisionSkinTempLeve
 			L_4 = AndroidJNI_ExceptionOccurred_m6C27C01B14483F99373608BF1A56CA53BA46F926(NULL);
 			bool L_5;
 			L_5 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_4, (0), NULL);
-			V_1 = L_5;
-			bool L_6 = V_1;
-			if (!L_6)
+			if (!L_5)
 			{
-				goto IL_0042_1;
+				goto IL_003a_1;
 			}
 		}
 		{
@@ -8600,9 +7455,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetHighPrecisionSkinTempLeve
 			AndroidJNI_ExceptionClear_m90681289A6CEAF160DB188A3E2177F323D996F82(NULL);
 		}
 
-IL_0042_1:
+IL_003a_1:
 		{
-			goto IL_005a;
+			// }
+			goto IL_003f;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -8610,36 +7466,24 @@ IL_0042_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0045;
+			goto CATCH_003c;
 		}
 		throw e;
 	}
 
-CATCH_0045:
+CATCH_003c:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] GameSDK.getHighPrecisionSkinTempLevel() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
-		L_7 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8917400827476FB694B97F1A5D6EF06C2CB5B104)), L_7, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_005a;
+		goto IL_003f;
 	}// end catch (depth: 1)
 
-IL_005a:
+IL_003f:
 	{
 		// return currentTempLevel;
-		double L_8 = V_0;
-		V_2 = L_8;
-		goto IL_005e;
-	}
-
-IL_005e:
-	{
-		// }
-		double L_9 = V_2;
-		return L_9;
+		double L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Double UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetGpuFrameTime()
@@ -8653,8 +7497,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetGpuFrameTime_m849D6C1752E
 		s_Il2CppMethodInitialized = true;
 	}
 	double V_0 = 0.0;
-	bool V_1 = false;
-	double V_2 = 0.0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// double gpuFrameTime = -1.0;
@@ -8676,11 +7518,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetGpuFrameTime_m849D6C1752E
 			L_4 = AndroidJNI_ExceptionOccurred_m6C27C01B14483F99373608BF1A56CA53BA46F926(NULL);
 			bool L_5;
 			L_5 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_4, (0), NULL);
-			V_1 = L_5;
-			bool L_6 = V_1;
-			if (!L_6)
+			if (!L_5)
 			{
-				goto IL_0042_1;
+				goto IL_003a_1;
 			}
 		}
 		{
@@ -8690,9 +7530,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetGpuFrameTime_m849D6C1752E
 			AndroidJNI_ExceptionClear_m90681289A6CEAF160DB188A3E2177F323D996F82(NULL);
 		}
 
-IL_0042_1:
+IL_003a_1:
 		{
-			goto IL_005a;
+			// }
+			goto IL_003f;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -8700,36 +7541,24 @@ IL_0042_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0045;
+			goto CATCH_003c;
 		}
 		throw e;
 	}
 
-CATCH_0045:
+CATCH_003c:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] GameSDK.getGpuFrameTime() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
-		L_7 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral81B8E1FD6414B256DAEE0471B3E6D535616C7A71)), L_7, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_005a;
+		goto IL_003f;
 	}// end catch (depth: 1)
 
-IL_005a:
+IL_003f:
 	{
 		// return gpuFrameTime;
-		double L_8 = V_0;
-		V_2 = L_8;
-		goto IL_005e;
-	}
-
-IL_005e:
-	{
-		// }
-		double L_9 = V_2;
-		return L_9;
+		double L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::SetFreqLevels(System.Int32,System.Int32)
@@ -8739,17 +7568,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_SetFreqLevels_mC568D9356108
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4F209C20BD06D8D1C76C888ACA266837D8ADDC01);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral75CA12E96F5D1211E2AC03B147FF410A4ECDFDB2);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	Exception_t* V_1 = NULL;
-	int32_t V_2 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// int result = 0;
@@ -8779,87 +7604,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_SetFreqLevels_mC568D9356108
 		int32_t L_10;
 		L_10 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_0, _stringLiteral4F209C20BD06D8D1C76C888ACA266837D8ADDC01, L_6, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
 		V_0 = L_10;
-		// GameSDKLog.Debug("setFreqLevels({0}, {1}) -> {2}", cpu, gpu, result);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
-		int32_t L_13 = ___cpu0;
-		int32_t L_14 = L_13;
-		RuntimeObject* L_15 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_14);
-		NullCheck(L_12);
-		ArrayElementTypeCheck (L_12, L_15);
-		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_15);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_12;
-		int32_t L_17 = ___gpu1;
-		int32_t L_18 = L_17;
-		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
-		NullCheck(L_16);
-		ArrayElementTypeCheck (L_16, L_19);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_19);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_16;
-		int32_t L_21 = V_0;
-		int32_t L_22 = L_21;
-		RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
-		NullCheck(L_20);
-		ArrayElementTypeCheck (L_20, L_23);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral75CA12E96F5D1211E2AC03B147FF410A4ECDFDB2, L_20, NULL);
-		goto IL_0087;
+		// }
+		goto IL_002f;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_005b;
+			goto CATCH_002c;
 		}
 		throw e;
 	}
 
-CATCH_005b:
+CATCH_002c:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.setFreqLevels({0}, {1}) failed: {2}", cpu, gpu, x);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25 = L_24;
-		int32_t L_26 = ___cpu0;
-		int32_t L_27 = L_26;
-		RuntimeObject* L_28 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_27);
-		NullCheck(L_25);
-		ArrayElementTypeCheck (L_25, L_28);
-		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_28);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29 = L_25;
-		int32_t L_30 = ___gpu1;
-		int32_t L_31 = L_30;
-		RuntimeObject* L_32 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_31);
-		NullCheck(L_29);
-		ArrayElementTypeCheck (L_29, L_32);
-		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_32);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33 = L_29;
-		Exception_t* L_34 = V_1;
-		NullCheck(L_33);
-		ArrayElementTypeCheck (L_33, L_34);
-		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_34);
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1F84C9234CED032DDED55F47508C732DFA0D4CE7)), L_33, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0087;
+		goto IL_002f;
 	}// end catch (depth: 1)
 
-IL_0087:
+IL_002f:
 	{
 		// return result;
-		int32_t L_35 = V_0;
-		V_2 = L_35;
-		goto IL_008b;
-	}
-
-IL_008b:
-	{
-		// }
-		int32_t L_36 = V_2;
-		return L_36;
+		int32_t L_11 = V_0;
+		return L_11;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::EnableCpuBoost()
@@ -8869,18 +7639,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableCpuBoost_m142D18B1745C6F
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B6A12C3FA7D1E83E1B7E568CD2823AFA7545598);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBD05CCAF3885FF0D51C07DE89653D67A9929A857);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	Exception_t* V_1 = NULL;
-	bool V_2 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// bool result = false;
@@ -8902,59 +7667,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableCpuBoost_m142D18B1745C6F
 		bool L_5;
 		L_5 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_0, _stringLiteralBD05CCAF3885FF0D51C07DE89653D67A9929A857, L_2, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 		V_0 = L_5;
-		// GameSDKLog.Debug("setCpuBoostMode(1) -> {0}", result);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
-		bool L_8 = V_0;
-		bool L_9 = L_8;
-		RuntimeObject* L_10 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_9);
-		NullCheck(L_7);
-		ArrayElementTypeCheck (L_7, L_10);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_10);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral5B6A12C3FA7D1E83E1B7E568CD2823AFA7545598, L_7, NULL);
-		goto IL_005a;
+		// }
+		goto IL_0026;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0040;
+			goto CATCH_0023;
 		}
 		throw e;
 	}
 
-CATCH_0040:
+CATCH_0023:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.setCpuBoostMode(1) failed: {0}", x);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
-		Exception_t* L_13 = V_1;
-		NullCheck(L_12);
-		ArrayElementTypeCheck (L_12, L_13);
-		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_13);
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD93D272A1154D7EE741986765C85505A7004F98F)), L_12, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_005a;
+		goto IL_0026;
 	}// end catch (depth: 1)
 
-IL_005a:
+IL_0026:
 	{
 		// return result;
-		bool L_14 = V_0;
-		V_2 = L_14;
-		goto IL_005e;
-	}
-
-IL_005e:
-	{
-		// }
-		bool L_15 = V_2;
-		return L_15;
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::EnableGpuBoost()
@@ -8964,18 +7702,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableGpuBoost_mDABE6D115C8762
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58B9EE58F492CF50D7C051554FE7BDD815569565);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2596A1CE90997BD83C8566414DC4299CF58E76B);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	Exception_t* V_1 = NULL;
-	bool V_2 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// bool result = false;
@@ -8997,59 +7730,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableGpuBoost_mDABE6D115C8762
 		bool L_5;
 		L_5 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_0, _stringLiteral58B9EE58F492CF50D7C051554FE7BDD815569565, L_2, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 		V_0 = L_5;
-		// GameSDKLog.Debug("setGpuBoostMode(1) -> {0}", result);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
-		bool L_8 = V_0;
-		bool L_9 = L_8;
-		RuntimeObject* L_10 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_9);
-		NullCheck(L_7);
-		ArrayElementTypeCheck (L_7, L_10);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_10);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteralE2596A1CE90997BD83C8566414DC4299CF58E76B, L_7, NULL);
-		goto IL_005a;
+		// }
+		goto IL_0026;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0040;
+			goto CATCH_0023;
 		}
 		throw e;
 	}
 
-CATCH_0040:
+CATCH_0023:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.setGpuBoostMode(1) failed: {0}", x);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
-		Exception_t* L_13 = V_1;
-		NullCheck(L_12);
-		ArrayElementTypeCheck (L_12, L_13);
-		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_13);
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5A2ED84AE86198A032C7CDB76CE1CA5D3E522168)), L_12, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_005a;
+		goto IL_0026;
 	}// end catch (depth: 1)
 
-IL_005a:
+IL_0026:
 	{
 		// return result;
-		bool L_14 = V_0;
-		V_2 = L_14;
-		goto IL_005e;
-	}
-
-IL_005e:
-	{
-		// }
-		bool L_15 = V_2;
-		return L_15;
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetClusterInfo()
@@ -9058,18 +7764,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetClusterInfo_m1B6635A235E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F0BAC387C0C335FE272706C85A0C3BC84E85F58);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
-	Exception_t* V_2 = NULL;
-	int32_t V_3 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// int result = -999;
@@ -9091,11 +7790,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetClusterInfo_m1B6635A235E
 			L_4 = AndroidJNI_ExceptionOccurred_m6C27C01B14483F99373608BF1A56CA53BA46F926(NULL);
 			bool L_5;
 			L_5 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_4, (0), NULL);
-			V_1 = L_5;
-			bool L_6 = V_1;
-			if (!L_6)
+			if (!L_5)
 			{
-				goto IL_003e_1;
+				goto IL_0036_1;
 			}
 		}
 		{
@@ -9105,20 +7802,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetClusterInfo_m1B6635A235E
 			AndroidJNI_ExceptionClear_m90681289A6CEAF160DB188A3E2177F323D996F82(NULL);
 		}
 
-IL_003e_1:
+IL_0036_1:
 		{
-			// GameSDKLog.Debug("getClusterInfo() -> {0}", result);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
-			int32_t L_9 = V_0;
-			int32_t L_10 = L_9;
-			RuntimeObject* L_11 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_10);
-			NullCheck(L_8);
-			ArrayElementTypeCheck (L_8, L_11);
-			(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_11);
-			il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-			GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral7F0BAC387C0C335FE272706C85A0C3BC84E85F58, L_8, NULL);
-			goto IL_0075;
+			// }
+			goto IL_003b;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -9126,41 +7813,24 @@ IL_003e_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_005b;
+			goto CATCH_0038;
 		}
 		throw e;
 	}
 
-CATCH_005b:
+CATCH_0038:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_2 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.getClusterInfo() failed: {0}", x);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_12;
-		Exception_t* L_14 = V_2;
-		NullCheck(L_13);
-		ArrayElementTypeCheck (L_13, L_14);
-		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_14);
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB4C2BD72DED15C88AF11C4E4D4DB949F195E6AC1)), L_13, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0075;
+		goto IL_003b;
 	}// end catch (depth: 1)
 
-IL_0075:
+IL_003b:
 	{
 		// return result;
-		int32_t L_15 = V_0;
-		V_3 = L_15;
-		goto IL_0079;
-	}
-
-IL_0079:
-	{
-		// }
-		int32_t L_16 = V_3;
-		return L_16;
+		int32_t L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetMaxCpuPerformanceLevel()
@@ -9176,7 +7846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxCpuPerformanceLevel_m
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	int32_t V_1 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// int maxCpuPerformanceLevel = Constants.UnknownPerformanceLevel;
@@ -9193,43 +7862,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxCpuPerformanceLevel_m
 		int32_t L_2;
 		L_2 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_0, _stringLiteralFAC891F8E2E6B2BA23524259218EF5EF3BF998B4, L_1, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_0031;
+		// }
+		goto IL_001c;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_001c;
+			goto CATCH_0019;
 		}
 		throw e;
 	}
 
-CATCH_001c:
+CATCH_0019:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] GameSDK.getCPULevelMax() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
-		L_3 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral506DE931A388FC588ACF87024BA3904D329FD82C)), L_3, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0031;
+		goto IL_001c;
 	}// end catch (depth: 1)
 
-IL_0031:
+IL_001c:
 	{
 		// return maxCpuPerformanceLevel;
-		int32_t L_4 = V_0;
-		V_1 = L_4;
-		goto IL_0035;
-	}
-
-IL_0035:
-	{
-		// }
-		int32_t L_5 = V_1;
-		return L_5;
+		int32_t L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetMaxGpuPerformanceLevel()
@@ -9245,7 +7903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxGpuPerformanceLevel_m
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	int32_t V_1 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// int maxGpuPerformanceLevel = Constants.UnknownPerformanceLevel;
@@ -9262,43 +7919,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxGpuPerformanceLevel_m
 		int32_t L_2;
 		L_2 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_0, _stringLiteralA479396D9311F0A23258AE9653EFD051C3B8A4D5, L_1, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_0031;
+		// }
+		goto IL_001c;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_001c;
+			goto CATCH_0019;
 		}
 		throw e;
 	}
 
-CATCH_001c:
+CATCH_0019:
 	{// begin catch(System.Exception)
 		// catch (Exception)
-		// GameSDKLog.Debug("[Exception] GameSDK.getGPULevelMax() failed!");
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
-		L_3 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1352366FFB79C2BD167966FDC90FFD53DC62F5A3)), L_3, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0031;
+		goto IL_001c;
 	}// end catch (depth: 1)
 
-IL_0031:
+IL_001c:
 	{
 		// return maxGpuPerformanceLevel;
-		int32_t L_4 = V_0;
-		V_1 = L_4;
-		goto IL_0035;
-	}
-
-IL_0035:
-	{
-		// }
-		int32_t L_5 = V_1;
-		return L_5;
+		int32_t L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::IsVariableRefreshRateSupported()
@@ -9309,17 +7955,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsVariableRefreshRateSupported
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0922C10401257AF3BE500F68CD4EED1A8C2662F3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1174361642F6FE4FCA189A130190A4E9597912D6);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	Exception_t* V_1 = NULL;
-	bool V_2 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// bool vrrSupported = false;
@@ -9336,61 +7976,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsVariableRefreshRateSupported
 		bool L_2;
 		L_2 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_0, _stringLiteral1174361642F6FE4FCA189A130190A4E9597912D6, L_1, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 		V_0 = L_2;
-		// GameSDKLog.Debug("isGameSDKVariableRefreshRateSupported->{0}", vrrSupported);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
-		bool L_5 = V_0;
-		bool L_6 = L_5;
-		RuntimeObject* L_7 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_6);
-		NullCheck(L_4);
-		ArrayElementTypeCheck (L_4, L_7);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral0922C10401257AF3BE500F68CD4EED1A8C2662F3, L_4, NULL);
-		goto IL_0056;
+		// }
+		goto IL_001c;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0036;
+			goto CATCH_0019;
 		}
 		throw e;
 	}
 
-CATCH_0036:
+CATCH_0019:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.isGameSDKVariableRefreshRateSupported() failed: " + x.Message);
-		Exception_t* L_8 = V_1;
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_8);
-		String_t* L_10;
-		L_10 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFBD9FD3EB8A2313A23595CF10F1B1D2292DCF13F)), L_9, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11;
-		L_11 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_10, L_11, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0056;
+		goto IL_001c;
 	}// end catch (depth: 1)
 
-IL_0056:
+IL_001c:
 	{
 		// return vrrSupported;
-		bool L_12 = V_0;
-		V_2 = L_12;
-		goto IL_005a;
-	}
-
-IL_005a:
-	{
-		// }
-		bool L_13 = V_2;
-		return L_13;
+		bool L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetSupportedRefreshRates()
@@ -9407,10 +8018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F16
 		s_Il2CppMethodInitialized = true;
 	}
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
-	Exception_t* V_1 = NULL;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_2 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* G_B6_0 = NULL;
 	{
 		// int[] result = null;
 		V_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)NULL;
@@ -9426,69 +8034,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F16
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2;
 		L_2 = AndroidJavaObject_Call_TisInt32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_m55B538F2538A5C0157CC28301628D6EDAC92C007(L_0, _stringLiteral3D6253C836CCF9A6B8A05245CB6B1EF24E546455, L_1, AndroidJavaObject_Call_TisInt32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_m55B538F2538A5C0157CC28301628D6EDAC92C007_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_003c;
+		// }
+		goto IL_001c;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_001c;
+			goto CATCH_0019;
 		}
 		throw e;
 	}
 
-CATCH_001c:
+CATCH_0019:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.getSupportedRefreshRates() failed: " + x.Message);
-		Exception_t* L_3 = V_1;
-		NullCheck(L_3);
-		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_3);
-		String_t* L_5;
-		L_5 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC3AC151DAD248C3A5F1B5477A84239F9CBFB08F6)), L_4, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_5, L_6, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_003c;
+		goto IL_001c;
 	}// end catch (depth: 1)
 
-IL_003c:
+IL_001c:
 	{
 		// return result != null ? result : new int[0];
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_0;
-		if (L_7)
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = V_0;
+		if (L_3)
 		{
-			goto IL_0047;
+			goto IL_0026;
 		}
 	}
 	{
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)0);
-		G_B6_0 = L_8;
-		goto IL_0048;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)0);
+		return L_4;
 	}
 
-IL_0047:
+IL_0026:
 	{
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_0;
-		G_B6_0 = L_9;
-	}
-
-IL_0048:
-	{
-		V_2 = G_B6_0;
-		goto IL_004b;
-	}
-
-IL_004b:
-	{
-		// }
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = V_2;
-		return L_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = V_0;
+		return L_5;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::SetRefreshRate(System.Int32)
@@ -9503,11 +8087,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_SetRefreshRate_m04C7E330A964E0
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF206CAA96C8ED929B66CE9CAF1513182AC391082);
 		s_Il2CppMethodInitialized = true;
 	}
-	Exception_t* V_0 = NULL;
-	bool V_1 = false;
+	bool V_0 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	{
-	}
 	try
 	{// begin try (depth: 1)
 		// s_GameSDK.Call("setRefreshRate", targetRefreshRate);
@@ -9523,51 +8104,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_SetRefreshRate_m04C7E330A964E0
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		NullCheck(L_0);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_0, _stringLiteralF206CAA96C8ED929B66CE9CAF1513182AC391082, L_2, NULL);
-		goto IL_0045;
+		// }
+		goto IL_0025;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0024;
+			goto CATCH_0020;
 		}
 		throw e;
 	}
 
-CATCH_0024:
+CATCH_0020:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.setRefreshRate() failed: " + x.Message);
-		Exception_t* L_6 = V_0;
-		NullCheck(L_6);
-		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_6);
-		String_t* L_8;
-		L_8 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral205AE7DC1CD812CD9C285A7A6A070E20F1C0E8ED)), L_7, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9;
-		L_9 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_8, L_9, NULL);
 		// return false;
-		V_1 = (bool)0;
+		V_0 = (bool)0;
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0049;
+		goto IL_0027;
 	}// end catch (depth: 1)
 
-IL_0045:
+IL_0025:
 	{
 		// return true;
-		V_1 = (bool)1;
-		goto IL_0049;
+		return (bool)1;
 	}
 
-IL_0049:
+IL_0027:
 	{
 		// }
-		bool L_10 = V_1;
-		return L_10;
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::ResetRefreshRate()
@@ -9581,11 +8150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_ResetRefreshRate_mC3FBA2BE59BF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7DF31CBCAC5F9AB299F5D58B49B126C24553D2D1);
 		s_Il2CppMethodInitialized = true;
 	}
-	Exception_t* V_0 = NULL;
-	bool V_1 = false;
+	bool V_0 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	{
-	}
 	try
 	{// begin try (depth: 1)
 		// s_GameSDK.Call("resetRefreshRate");
@@ -9595,51 +8161,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_ResetRefreshRate_mC3FBA2BE59BF
 		L_1 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_0, _stringLiteral7DF31CBCAC5F9AB299F5D58B49B126C24553D2D1, L_1, NULL);
-		goto IL_003b;
+		// }
+		goto IL_001b;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_001a;
+			goto CATCH_0016;
 		}
 		throw e;
 	}
 
-CATCH_001a:
+CATCH_0016:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.resetRefreshRate() failed: " + x.Message);
-		Exception_t* L_2 = V_0;
-		NullCheck(L_2);
-		String_t* L_3;
-		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_2);
-		String_t* L_4;
-		L_4 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral10DC0BA14CF544306D40BC25C05EBF357808636E)), L_3, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5;
-		L_5 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_4, L_5, NULL);
 		// return false;
-		V_1 = (bool)0;
+		V_0 = (bool)0;
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_003f;
+		goto IL_001d;
 	}// end catch (depth: 1)
 
-IL_003b:
+IL_001b:
 	{
 		// return true;
-		V_1 = (bool)1;
-		goto IL_003f;
+		return (bool)1;
 	}
 
-IL_003f:
+IL_001d:
 	{
 		// }
-		bool L_6 = V_1;
-		return L_6;
+		bool L_2 = V_0;
+		return L_2;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::GetCurrentRefreshRate()
@@ -9655,8 +8209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetCurrentRefreshRate_m59A7
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	Exception_t* V_1 = NULL;
-	int32_t V_2 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// int result = -1;
@@ -9673,50 +8225,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetCurrentRefreshRate_m59A7
 		int32_t L_2;
 		L_2 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_0, _stringLiteral1D8E0CE0AA8B1F1859A8CEA37DFAA26D56616E45, L_1, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_003c;
+		// }
+		goto IL_001c;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_001c;
+			goto CATCH_0019;
 		}
 		throw e;
 	}
 
-CATCH_001c:
+CATCH_0019:
 	{// begin catch(System.Exception)
 		// catch (Exception x)
-		V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-		// GameSDKLog.Debug("[Exception] GameSDK.getCurrentRefreshRate() failed: " + x.Message);
-		Exception_t* L_3 = V_1;
-		NullCheck(L_3);
-		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_3);
-		String_t* L_5;
-		L_5 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9453DB57B4B4AA8A9062C653C38107120661A17B)), L_4, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var)));
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var)));
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(L_5, L_6, NULL);
+		// }
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_003c;
+		goto IL_001c;
 	}// end catch (depth: 1)
 
-IL_003c:
+IL_001c:
 	{
 		// return result;
-		int32_t L_7 = V_0;
-		V_2 = L_7;
-		goto IL_0040;
-	}
-
-IL_0040:
-	{
-		// }
-		int32_t L_8 = V_2;
-		return L_8;
+		int32_t L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/NativeApi::.cctor()
@@ -9764,11 +8298,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_UpdateRefreshRateInfo_m095C6C
 		s_Il2CppMethodInitialized = true;
 	}
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
-	bool V_1 = false;
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_2 = NULL;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	bool V_5 = false;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_1 = NULL;
+	int32_t V_2 = 0;
 	{
 		// var supportedRefreshRates = m_Api.GetSupportedRefreshRates();
 		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_0 = __this->___m_Api_0;
@@ -9781,99 +8312,93 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_UpdateRefreshRateInfo_m095C6C
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_2 = ((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1(L_2, NULL);
-		V_1 = L_3;
-		bool L_4 = V_1;
-		if (!L_4)
+		L_3 = SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1_inline(L_2, NULL);
+		if (!L_3)
 		{
-			goto IL_0026;
+			goto IL_0021;
 		}
 	}
 	{
 		// m_SupportedRefreshRates = supportedRefreshRates;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = V_0;
-		__this->___m_SupportedRefreshRates_3 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SupportedRefreshRates_3), (void*)L_5);
-		goto IL_006a;
-	}
-
-IL_0026:
-	{
-		// List<int> shrunkSupportedRefreshRates = new List<int>();
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_6 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_6, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
-		V_2 = L_6;
-		// for (var i = 0; i < supportedRefreshRates.Length; ++i)
-		V_3 = 0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		__this->___m_SupportedRefreshRates_3 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SupportedRefreshRates_3), (void*)L_4);
 		goto IL_0051;
 	}
 
-IL_0031:
+IL_0021:
+	{
+		// List<int> shrunkSupportedRefreshRates = new List<int>();
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_5 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_5, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		V_1 = L_5;
+		// for (var i = 0; i < supportedRefreshRates.Length; ++i)
+		V_2 = 0;
+		goto IL_003f;
+	}
+
+IL_002b:
 	{
 		// if (supportedRefreshRates[i] <= 60)
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_0;
-		int32_t L_8 = V_3;
-		NullCheck(L_7);
-		int32_t L_9 = L_8;
-		int32_t L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		V_4 = (bool)((((int32_t)((((int32_t)L_10) > ((int32_t)((int32_t)60)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_11 = V_4;
-		if (!L_11)
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		if ((((int32_t)L_9) > ((int32_t)((int32_t)60))))
 		{
-			goto IL_004c;
+			goto IL_003b;
 		}
 	}
 	{
 		// shrunkSupportedRefreshRates.Add(supportedRefreshRates[i]);
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_12 = V_2;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = V_0;
-		int32_t L_14 = V_3;
-		NullCheck(L_13);
-		int32_t L_15 = L_14;
-		int32_t L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
-		NullCheck(L_12);
-		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_12, L_16, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_10 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = V_0;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		int32_t L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_10);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_10, L_14, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
 	}
 
-IL_004c:
+IL_003b:
 	{
 		// for (var i = 0; i < supportedRefreshRates.Length; ++i)
-		int32_t L_17 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
-IL_0051:
+IL_003f:
 	{
 		// for (var i = 0; i < supportedRefreshRates.Length; ++i)
-		int32_t L_18 = V_3;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = V_0;
-		NullCheck(L_19);
-		V_5 = (bool)((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))? 1 : 0);
-		bool L_20 = V_5;
-		if (L_20)
+		int32_t L_16 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = V_0;
+		NullCheck(L_17);
+		if ((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length)))))
 		{
-			goto IL_0031;
+			goto IL_002b;
 		}
 	}
 	{
 		// m_SupportedRefreshRates = shrunkSupportedRefreshRates.ToArray();
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_21 = V_2;
-		NullCheck(L_21);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22;
-		L_22 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_21, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
-		__this->___m_SupportedRefreshRates_3 = L_22;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SupportedRefreshRates_3), (void*)L_22);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_18 = V_1;
+		NullCheck(L_18);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19;
+		L_19 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_18, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		__this->___m_SupportedRefreshRates_3 = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SupportedRefreshRates_3), (void*)L_19);
 	}
 
-IL_006a:
+IL_0051:
 	{
 		// m_CurrentRefreshRate = m_Api.GetCurrentRefreshRate();
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_23 = __this->___m_Api_0;
-		NullCheck(L_23);
-		int32_t L_24;
-		L_24 = NativeApi_GetCurrentRefreshRate_m59A77EADD8B0175EEB26AF149AF886C5B6C5A3C2(L_23, NULL);
-		__this->___m_CurrentRefreshRate_4 = L_24;
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_20 = __this->___m_Api_0;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = NativeApi_GetCurrentRefreshRate_m59A77EADD8B0175EEB26AF149AF886C5B6C5A3C2(L_20, NULL);
+		__this->___m_CurrentRefreshRate_4 = L_21;
 		// }
 		return;
 	}
@@ -9928,51 +8453,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_SetDefaultVRR_mC8C818C8282754
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
-	bool V_2 = false;
 	{
 		// if (settings.highSpeedVRR)
 		il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0 = ((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1(L_0, NULL);
-		V_1 = L_1;
-		bool L_2 = V_1;
-		if (!L_2)
+		L_1 = SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1_inline(L_0, NULL);
+		if (!L_1)
 		{
-			goto IL_0011;
+			goto IL_000d;
 		}
 	}
 	{
 		// return;
-		goto IL_0034;
+		return;
 	}
 
-IL_0011:
+IL_000d:
 	{
 		// var index = Array.IndexOf(m_SupportedRefreshRates, 60);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->___m_SupportedRefreshRates_3;
-		int32_t L_4;
-		L_4 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_3, ((int32_t)60), Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
-		V_0 = L_4;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = __this->___m_SupportedRefreshRates_3;
+		int32_t L_3;
+		L_3 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_2, ((int32_t)60), Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
+		V_0 = L_3;
 		// if (index != -1)
-		int32_t L_5 = V_0;
-		V_2 = (bool)((((int32_t)((((int32_t)L_5) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_6 = V_2;
-		if (!L_6)
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) == ((int32_t)(-1))))
 		{
-			goto IL_0034;
+			goto IL_0027;
 		}
 	}
 	{
 		// SetRefreshRateByIndexInternal(index);
-		int32_t L_7 = V_0;
-		bool L_8;
-		L_8 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_7, NULL);
+		int32_t L_5 = V_0;
+		bool L_6;
+		L_6 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_5, NULL);
 	}
 
-IL_0034:
+IL_0027:
 	{
 		// }
 		return;
@@ -9984,11 +8503,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_Resume_mF04994891A6B381E8DF8A
 	bool V_0 = false;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_1 = NULL;
 	int32_t V_2 = 0;
-	bool V_3 = false;
+	RuntimeObject* V_3 = NULL;
 	bool V_4 = false;
-	bool V_5 = false;
-	RuntimeObject* V_6 = NULL;
-	bool V_7 = false;
 	{
 		// bool changed = false;
 		V_0 = (bool)0;
@@ -10003,29 +8519,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_Resume_mF04994891A6B381E8DF8A
 		// if (m_CurrentRefreshRate != oldRefreshRate)
 		int32_t L_2 = __this->___m_CurrentRefreshRate_4;
 		int32_t L_3 = V_2;
-		V_3 = (bool)((((int32_t)((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_4 = V_3;
-		if (!L_4)
+		if ((((int32_t)L_2) == ((int32_t)L_3)))
 		{
-			goto IL_002c;
+			goto IL_0023;
 		}
 	}
 	{
 		// changed = true;
 		V_0 = (bool)1;
-		goto IL_0040;
+		goto IL_002e;
 	}
 
-IL_002c:
+IL_0023:
 	{
 		// else if (oldSupportedRefreshRates != m_SupportedRefreshRates)
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = V_1;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = __this->___m_SupportedRefreshRates_3;
-		V_4 = (bool)((((int32_t)((((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_5) == ((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_6))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_7 = V_4;
-		if (!L_7)
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = __this->___m_SupportedRefreshRates_3;
+		if ((((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_4) == ((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_5)))
 		{
-			goto IL_0040;
+			goto IL_002e;
 		}
 	}
 	{
@@ -10033,42 +8545,40 @@ IL_002c:
 		V_0 = (bool)1;
 	}
 
-IL_0040:
+IL_002e:
 	{
 		// if (changed)
-		bool L_8 = V_0;
-		V_5 = L_8;
-		bool L_9 = V_5;
-		if (!L_9)
+		bool L_6 = V_0;
+		if (!L_6)
 		{
-			goto IL_0076;
+			goto IL_0057;
 		}
 	}
 	{
 		// lock (m_RefreshRateChangedLock)
-		RuntimeObject* L_10 = __this->___m_RefreshRateChangedLock_1;
-		V_6 = L_10;
-		V_7 = (bool)0;
+		RuntimeObject* L_7 = __this->___m_RefreshRateChangedLock_1;
+		V_3 = L_7;
+		V_4 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0068:
+FINALLY_004c:
 			{// begin finally (depth: 1)
 				{
-					bool L_11 = V_7;
-					if (!L_11)
+					bool L_8 = V_4;
+					if (!L_8)
 					{
-						goto IL_0074;
+						goto IL_0056;
 					}
 				}
 				{
-					RuntimeObject* L_12 = V_6;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_12, NULL);
+					RuntimeObject* L_9 = V_3;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_9, NULL);
 				}
 
-IL_0074:
+IL_0056:
 				{
 					return;
 				}
@@ -10076,11 +8586,12 @@ IL_0074:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_13 = V_6;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_13, (&V_7), NULL);
+			RuntimeObject* L_10 = V_3;
+			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_10, (&V_4), NULL);
 			// m_RefreshRateChanged = true;
 			__this->___m_RefreshRateChanged_2 = (bool)1;
-			goto IL_0075;
+			// }
+			goto IL_0057;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -10088,11 +8599,7 @@ IL_0074:
 		}
 	}
 
-IL_0075:
-	{
-	}
-
-IL_0076:
+IL_0057:
 	{
 		// }
 		return;
@@ -10110,14 +8617,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_Update_mCFB9B5DDFAAE08091FCA2
 	bool V_0 = false;
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	int32_t G_B11_0 = 0;
-	VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* G_B17_0 = NULL;
-	VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* G_B16_0 = NULL;
+	int32_t V_3 = 0;
+	VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* G_B14_0 = NULL;
+	VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* G_B13_0 = NULL;
 	{
 		// bool refreshRateChanged = false;
 		V_0 = (bool)0;
@@ -10130,13 +8632,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_Update_mCFB9B5DDFAAE08091FCA2
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0027:
+FINALLY_0023:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_2;
 					if (!L_1)
 					{
-						goto IL_0031;
+						goto IL_002c;
 					}
 				}
 				{
@@ -10144,7 +8646,7 @@ FINALLY_0027:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0031:
+IL_002c:
 				{
 					return;
 				}
@@ -10159,7 +8661,8 @@ IL_0031:
 			V_0 = L_4;
 			// m_RefreshRateChanged = false;
 			__this->___m_RefreshRateChanged_2 = (bool)0;
-			goto IL_0032;
+			// }
+			goto IL_002d;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -10167,125 +8670,98 @@ IL_0031:
 		}
 	}
 
-IL_0032:
+IL_002d:
 	{
 		// if (refreshRateChanged)
 		bool L_5 = V_0;
-		V_3 = L_5;
-		bool L_6 = V_3;
-		if (!L_6)
+		if (!L_5)
 		{
-			goto IL_00c5;
+			goto IL_008d;
 		}
 	}
 	{
 		// UpdateRefreshRateInfo();
 		VRRManager_UpdateRefreshRateInfo_m095C6C40745CDED72FD296C0100264BABAB7EBC6(__this, NULL);
 		// var index = Array.IndexOf(m_SupportedRefreshRates, m_LastSetRefreshRate);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = __this->___m_SupportedRefreshRates_3;
-		int32_t L_8 = __this->___m_LastSetRefreshRate_5;
-		int32_t L_9;
-		L_9 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_7, L_8, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
-		V_4 = L_9;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = __this->___m_SupportedRefreshRates_3;
+		int32_t L_7 = __this->___m_LastSetRefreshRate_5;
+		int32_t L_8;
+		L_8 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_6, L_7, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
+		V_3 = L_8;
 		// if (index != -1)
-		int32_t L_10 = V_4;
-		V_5 = (bool)((((int32_t)((((int32_t)L_10) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_11 = V_5;
-		if (!L_11)
+		int32_t L_9 = V_3;
+		if ((((int32_t)L_9) == ((int32_t)(-1))))
 		{
-			goto IL_0070;
+			goto IL_0056;
 		}
 	}
 	{
 		// SetRefreshRateByIndexInternal(index);
-		int32_t L_12 = V_4;
-		bool L_13;
-		L_13 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_12, NULL);
-		goto IL_00b2;
+		int32_t L_10 = V_3;
+		bool L_11;
+		L_11 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_10, NULL);
+		goto IL_007d;
 	}
 
-IL_0070:
+IL_0056:
 	{
 		// else if (index == -1 && m_LastSetRefreshRate != -1)
-		int32_t L_14 = V_4;
-		if ((!(((uint32_t)L_14) == ((uint32_t)(-1)))))
+		int32_t L_12 = V_3;
+		if ((!(((uint32_t)L_12) == ((uint32_t)(-1)))))
 		{
-			goto IL_0083;
+			goto IL_007d;
 		}
 	}
 	{
-		int32_t L_15 = __this->___m_LastSetRefreshRate_5;
-		G_B11_0 = ((((int32_t)((((int32_t)L_15) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_0084;
-	}
-
-IL_0083:
-	{
-		G_B11_0 = 0;
-	}
-
-IL_0084:
-	{
-		V_6 = (bool)G_B11_0;
-		bool L_16 = V_6;
-		if (!L_16)
+		int32_t L_13 = __this->___m_LastSetRefreshRate_5;
+		if ((((int32_t)L_13) == ((int32_t)(-1))))
 		{
-			goto IL_00b2;
+			goto IL_007d;
 		}
 	}
 	{
 		// index = Array.IndexOf(m_SupportedRefreshRates, 60);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = __this->___m_SupportedRefreshRates_3;
-		int32_t L_18;
-		L_18 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_17, ((int32_t)60), Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
-		V_4 = L_18;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = __this->___m_SupportedRefreshRates_3;
+		int32_t L_15;
+		L_15 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098(L_14, ((int32_t)60), Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m9E62F70969BF3C677153CD4B51C768B21F466098_RuntimeMethod_var);
+		V_3 = L_15;
 		// if (index != -1)
-		int32_t L_19 = V_4;
-		V_7 = (bool)((((int32_t)((((int32_t)L_19) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_20 = V_7;
-		if (!L_20)
+		int32_t L_16 = V_3;
+		if ((((int32_t)L_16) == ((int32_t)(-1))))
 		{
-			goto IL_00b1;
+			goto IL_007d;
 		}
 	}
 	{
 		// SetRefreshRateByIndexInternal(index);
-		int32_t L_21 = V_4;
-		bool L_22;
-		L_22 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_21, NULL);
+		int32_t L_17 = V_3;
+		bool L_18;
+		L_18 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_17, NULL);
 	}
 
-IL_00b1:
-	{
-	}
-
-IL_00b2:
+IL_007d:
 	{
 		// RefreshRateChanged?.Invoke();
-		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_23 = __this->___RefreshRateChanged_6;
-		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_24 = L_23;
-		G_B16_0 = L_24;
-		if (L_24)
+		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_19 = __this->___RefreshRateChanged_6;
+		VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* L_20 = L_19;
+		G_B13_0 = L_20;
+		if (L_20)
 		{
-			G_B17_0 = L_24;
-			goto IL_00be;
+			G_B14_0 = L_20;
+			goto IL_0088;
 		}
 	}
 	{
-		goto IL_00c4;
+		return;
 	}
 
-IL_00be:
+IL_0088:
 	{
-		NullCheck(G_B17_0);
-		VariableRefreshRateEventHandler_Invoke_mA665080591D6EA72C7EC12CFC0CAFAC8E5FF37EC_inline(G_B17_0, NULL);
+		NullCheck(G_B14_0);
+		VariableRefreshRateEventHandler_Invoke_mA665080591D6EA72C7EC12CFC0CAFAC8E5FF37EC_inline(G_B14_0, NULL);
 	}
 
-IL_00c4:
-	{
-	}
-
-IL_00c5:
+IL_008d:
 	{
 		// }
 		return;
@@ -10294,37 +8770,19 @@ IL_00c5:
 // System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::get_SupportedRefreshRates()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259 (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* __this, const RuntimeMethod* method) 
 {
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
 	{
 		// public int[] SupportedRefreshRates { get { return m_SupportedRefreshRates; } }
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___m_SupportedRefreshRates_3;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public int[] SupportedRefreshRates { get { return m_SupportedRefreshRates; } }
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::get_CurrentRefreshRate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VRRManager_get_CurrentRefreshRate_mC13F1F1107275DB649F511F5A36706E0BEFE108A (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* __this, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
 	{
 		// public int CurrentRefreshRate { get { return m_CurrentRefreshRate; } }
 		int32_t L_0 = __this->___m_CurrentRefreshRate_4;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public int CurrentRefreshRate { get { return m_CurrentRefreshRate; } }
-		int32_t L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::SetRefreshRateByIndex(System.Int32)
@@ -10336,26 +8794,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRRManager_SetRefreshRateByIndex_m2B4321
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// settings.automaticVRR = false;
 		il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0 = ((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17;
 		NullCheck(L_0);
-		SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639(L_0, (bool)0, NULL);
+		SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639_inline(L_0, (bool)0, NULL);
 		// return SetRefreshRateByIndexInternal(index);
 		int32_t L_1 = ___index0;
 		bool L_2;
 		L_2 = VRRManager_SetRefreshRateByIndexInternal_m9C5DEB988F2F1D6827DDB2208FB4ECA33D328BC6(__this, L_1, NULL);
-		V_0 = L_2;
-		goto IL_0017;
-	}
-
-IL_0017:
-	{
-		// }
-		bool L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::SetRefreshRateByIndexInternal(System.Int32)
@@ -10364,218 +8813,119 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRRManager_SetRefreshRateByIndexInternal
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F13EC73EF6B81420E0E003DF3A241F137FA79BE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral33B718DDD71288A2B70A9398E46932CB1092BC3A);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	bool V_2 = false;
-	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
-	int32_t G_B3_0 = 0;
-	int32_t G_B8_0 = 0;
+	int32_t V_0 = 0;
 	{
 		// if (index >= 0 && index < SupportedRefreshRates.Length)
 		int32_t L_0 = ___index0;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
-			goto IL_0012;
+			goto IL_0069;
 		}
 	}
 	{
 		int32_t L_1 = ___index0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2;
-		L_2 = VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259(__this, NULL);
+		L_2 = VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259_inline(__this, NULL);
 		NullCheck(L_2);
-		G_B3_0 = ((((int32_t)L_1) < ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))? 1 : 0);
-		goto IL_0013;
-	}
-
-IL_0012:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0013:
-	{
-		V_0 = (bool)G_B3_0;
-		bool L_3 = V_0;
-		if (!L_3)
+		if ((((int32_t)L_1) >= ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
 		{
-			goto IL_00d9;
+			goto IL_0069;
 		}
 	}
 	{
 		// var refreshRateFromIndex = SupportedRefreshRates[index];
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4;
-		L_4 = VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259(__this, NULL);
-		int32_t L_5 = ___index0;
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		int32_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		V_1 = L_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3;
+		L_3 = VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259_inline(__this, NULL);
+		int32_t L_4 = ___index0;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		int32_t L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
 		// if (Application.targetFrameRate > 0 && index > 0 && SupportedRefreshRates[--index] > Application.targetFrameRate)
-		int32_t L_8;
-		L_8 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
+		int32_t L_7;
+		L_7 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
+		if ((((int32_t)L_7) <= ((int32_t)0)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		int32_t L_8 = ___index0;
 		if ((((int32_t)L_8) <= ((int32_t)0)))
 		{
-			goto IL_0046;
+			goto IL_0038;
 		}
 	}
 	{
-		int32_t L_9 = ___index0;
-		if ((((int32_t)L_9) <= ((int32_t)0)))
-		{
-			goto IL_0046;
-		}
-	}
-	{
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10;
-		L_10 = VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259(__this, NULL);
-		int32_t L_11 = ___index0;
-		int32_t L_12 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
-		___index0 = L_12;
-		NullCheck(L_10);
-		int32_t L_13 = L_12;
-		int32_t L_14 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
-		int32_t L_15;
-		L_15 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
-		G_B8_0 = ((((int32_t)L_14) > ((int32_t)L_15))? 1 : 0);
-		goto IL_0047;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9;
+		L_9 = VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259_inline(__this, NULL);
+		int32_t L_10 = ___index0;
+		int32_t L_11 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+		___index0 = L_11;
+		NullCheck(L_9);
+		int32_t L_12 = L_11;
+		int32_t L_13 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		int32_t L_14;
+		L_14 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
 	}
 
-IL_0046:
-	{
-		G_B8_0 = 0;
-	}
-
-IL_0047:
-	{
-		V_2 = (bool)G_B8_0;
-		bool L_16 = V_2;
-		if (!L_16)
-		{
-			goto IL_0074;
-		}
-	}
-	{
-		// GameSDKLog.Debug("SetRefreshRateByIndex tries to set the refreshRateTarget {0} way higher than the targetFrameRate {1} which is not recommended due to temperature increase and unused performance.", refreshRateFromIndex, Application.targetFrameRate);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_17;
-		int32_t L_19 = V_1;
-		int32_t L_20 = L_19;
-		RuntimeObject* L_21 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_20);
-		NullCheck(L_18);
-		ArrayElementTypeCheck (L_18, L_21);
-		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_21);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = L_18;
-		int32_t L_23;
-		L_23 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
-		int32_t L_24 = L_23;
-		RuntimeObject* L_25 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_24);
-		NullCheck(L_22);
-		ArrayElementTypeCheck (L_22, L_25);
-		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_25);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral2F13EC73EF6B81420E0E003DF3A241F137FA79BE, L_22, NULL);
-	}
-
-IL_0074:
+IL_0038:
 	{
 		// if (!settings.highSpeedVRR)
 		il2cpp_codegen_runtime_class_init_inline(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var);
-		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_26 = ((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1(L_26, NULL);
-		V_3 = (bool)((((int32_t)L_27) == ((int32_t)0))? 1 : 0);
-		bool L_28 = V_3;
-		if (!L_28)
+		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_15 = ((SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_StaticFields*)il2cpp_codegen_static_fields_for(SamsungGameSDKAdaptivePerformanceSubsystem_t40AA2BBE117DB8D860622870170F2DDFD0BB78F6_il2cpp_TypeInfo_var))->___settings_17;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1_inline(L_15, NULL);
+		if (L_16)
 		{
-			goto IL_00b2;
+			goto IL_004b;
 		}
 	}
 	{
 		// if (refreshRateFromIndex > 60)
-		int32_t L_29 = V_1;
-		V_4 = (bool)((((int32_t)L_29) > ((int32_t)((int32_t)60)))? 1 : 0);
-		bool L_30 = V_4;
-		if (!L_30)
+		int32_t L_17 = V_0;
+		if ((((int32_t)L_17) <= ((int32_t)((int32_t)60))))
 		{
-			goto IL_00b1;
+			goto IL_004b;
 		}
 	}
 	{
-		// GameSDKLog.Debug("High-Speed VRR is not enabled in the settings. Setting a refreshrate ({0}Hz) over 60Hz is not permitted due to temperature reasons.", refreshRateFromIndex);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_31 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = L_31;
-		int32_t L_33 = V_1;
-		int32_t L_34 = L_33;
-		RuntimeObject* L_35 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_34);
-		NullCheck(L_32);
-		ArrayElementTypeCheck (L_32, L_35);
-		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_35);
-		il2cpp_codegen_runtime_class_init_inline(GameSDKLog_tD0080E506C05822E023880100FA71E86D5D5C043_il2cpp_TypeInfo_var);
-		GameSDKLog_Debug_m77A891BB9DDE2E2BE7D362630A10251FAAE12A5B(_stringLiteral33B718DDD71288A2B70A9398E46932CB1092BC3A, L_32, NULL);
 		// return false;
-		V_5 = (bool)0;
-		goto IL_00de;
+		return (bool)0;
 	}
 
-IL_00b1:
-	{
-	}
-
-IL_00b2:
+IL_004b:
 	{
 		// if (m_Api.SetRefreshRate(refreshRateFromIndex))
-		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_36 = __this->___m_Api_0;
-		int32_t L_37 = V_1;
-		NullCheck(L_36);
-		bool L_38;
-		L_38 = NativeApi_SetRefreshRate_m04C7E330A964E07262D3C75B791A1F5883408549(L_36, L_37, NULL);
-		V_6 = L_38;
-		bool L_39 = V_6;
-		if (!L_39)
+		NativeApi_t885F19A3A181CBD14806FC97A8D927B407E021F8* L_18 = __this->___m_Api_0;
+		int32_t L_19 = V_0;
+		NullCheck(L_18);
+		bool L_20;
+		L_20 = NativeApi_SetRefreshRate_m04C7E330A964E07262D3C75B791A1F5883408549(L_18, L_19, NULL);
+		if (!L_20)
 		{
-			goto IL_00d8;
+			goto IL_0069;
 		}
 	}
 	{
 		// m_CurrentRefreshRate = refreshRateFromIndex;
-		int32_t L_40 = V_1;
-		__this->___m_CurrentRefreshRate_4 = L_40;
+		int32_t L_21 = V_0;
+		__this->___m_CurrentRefreshRate_4 = L_21;
 		// m_LastSetRefreshRate = refreshRateFromIndex;
-		int32_t L_41 = V_1;
-		__this->___m_LastSetRefreshRate_5 = L_41;
+		int32_t L_22 = V_0;
+		__this->___m_LastSetRefreshRate_5 = L_22;
 		// return true;
-		V_5 = (bool)1;
-		goto IL_00de;
+		return (bool)1;
 	}
 
-IL_00d8:
-	{
-	}
-
-IL_00d9:
+IL_0069:
 	{
 		// return false;
-		V_5 = (bool)0;
-		goto IL_00de;
-	}
-
-IL_00de:
-	{
-		// }
-		bool L_42 = V_5;
-		return L_42;
+		return (bool)0;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem/VRRManager::add_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler)
@@ -10679,13 +9029,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRRManager_OnRefreshRateChanged_mC7B94DF
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_001e:
+FINALLY_001a:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0028;
+						goto IL_0023;
 					}
 				}
 				{
@@ -10693,7 +9043,7 @@ FINALLY_001e:
 					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
-IL_0028:
+IL_0023:
 				{
 					return;
 				}
@@ -10705,7 +9055,8 @@ IL_0028:
 			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_3, (&V_1), NULL);
 			// m_RefreshRateChanged = true;
 			__this->___m_RefreshRateChanged_2 = (bool)1;
-			goto IL_0029;
+			// }
+			goto IL_0024;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -10713,7 +9064,7 @@ IL_0028:
 		}
 	}
 
-IL_0029:
+IL_0024:
 	{
 		// }
 		return;
@@ -10733,7 +9084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutoVariableRefreshRate__ctor_m325160788
 	{
 		// SamsungAndroidProviderSettings settings = SamsungAndroidProviderSettings.GetSettings();
 		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0;
-		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2(NULL);
+		L_0 = SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2_inline(NULL);
 		__this->___settings_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___settings_0), (void*)L_0);
 		// float VrrUpdateTime = 1;
@@ -10759,13 +9110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutoVariableRefreshRate_UpdateAutoVRR_m7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
+	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	bool V_2 = false;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
 	{
 		// VrrUpdateTime -= Time.unscaledDeltaTime;
 		float L_0 = __this->___VrrUpdateTime_2;
@@ -10774,134 +9120,110 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutoVariableRefreshRate_UpdateAutoVRR_m7
 		__this->___VrrUpdateTime_2 = ((float)il2cpp_codegen_subtract(L_0, L_1));
 		// if (VrrUpdateTime <= 0)
 		float L_2 = __this->___VrrUpdateTime_2;
-		V_0 = (bool)((((int32_t)((!(((float)L_2) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_0;
-		if (!L_3)
+		if ((!(((float)L_2) <= ((float)(0.0f)))))
 		{
-			goto IL_00cb;
+			goto IL_009b;
 		}
 	}
 	{
 		// VrrUpdateTime = 1;
 		__this->___VrrUpdateTime_2 = (1.0f);
 		// var refreshRateIndex = vrrManager.SupportedRefreshRates.Length - 1;
-		RuntimeObject* L_4 = __this->___vrrManager_1;
+		RuntimeObject* L_3 = __this->___vrrManager_1;
+		NullCheck(L_3);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4;
+		L_4 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_3);
 		NullCheck(L_4);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5;
-		L_5 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_4);
-		NullCheck(L_5);
-		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_5)->max_length)), 1));
+		V_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_4)->max_length)), 1));
 		// if (Application.targetFrameRate > 0)
-		int32_t L_6;
-		L_6 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
-		V_2 = (bool)((((int32_t)L_6) > ((int32_t)0))? 1 : 0);
-		bool L_7 = V_2;
-		if (!L_7)
+		int32_t L_5;
+		L_5 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
+		if ((((int32_t)L_5) <= ((int32_t)0)))
 		{
-			goto IL_0095;
+			goto IL_0072;
 		}
 	}
 	{
 		// for (int i = 0; i < vrrManager.SupportedRefreshRates.Length; ++i)
-		V_3 = 0;
-		goto IL_007e;
+		V_1 = 0;
+		goto IL_0062;
 	}
 
-IL_0057:
+IL_0046:
 	{
 		// if (Application.targetFrameRate > vrrManager.SupportedRefreshRates[i])
-		int32_t L_8;
-		L_8 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
-		RuntimeObject* L_9 = __this->___vrrManager_1;
-		NullCheck(L_9);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10;
-		L_10 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_9);
-		int32_t L_11 = V_3;
-		NullCheck(L_10);
-		int32_t L_12 = L_11;
-		int32_t L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
-		V_4 = (bool)((((int32_t)L_8) > ((int32_t)L_13))? 1 : 0);
-		bool L_14 = V_4;
-		if (!L_14)
+		int32_t L_6;
+		L_6 = Application_get_targetFrameRate_mB9877E89AFCF1CF0651D9471D5152490BF66BE5E(NULL);
+		RuntimeObject* L_7 = __this->___vrrManager_1;
+		NullCheck(L_7);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8;
+		L_8 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_7);
+		int32_t L_9 = V_1;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		int32_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		if ((((int32_t)L_6) > ((int32_t)L_11)))
 		{
-			goto IL_0075;
+			goto IL_005e;
 		}
 	}
-	{
-		// continue;
-		goto IL_007a;
-	}
-
-IL_0075:
 	{
 		// refreshRateIndex = i;
-		int32_t L_15 = V_3;
-		V_1 = L_15;
+		int32_t L_12 = V_1;
+		V_0 = L_12;
 		// break;
-		goto IL_0094;
+		goto IL_0072;
 	}
 
-IL_007a:
+IL_005e:
 	{
 		// for (int i = 0; i < vrrManager.SupportedRefreshRates.Length; ++i)
-		int32_t L_16 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+		int32_t L_13 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
-IL_007e:
+IL_0062:
 	{
 		// for (int i = 0; i < vrrManager.SupportedRefreshRates.Length; ++i)
-		int32_t L_17 = V_3;
-		RuntimeObject* L_18 = __this->___vrrManager_1;
-		NullCheck(L_18);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19;
-		L_19 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_18);
-		NullCheck(L_19);
-		V_5 = (bool)((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))? 1 : 0);
-		bool L_20 = V_5;
-		if (L_20)
+		int32_t L_14 = V_1;
+		RuntimeObject* L_15 = __this->___vrrManager_1;
+		NullCheck(L_15);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16;
+		L_16 = InterfaceFuncInvoker0< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_15);
+		NullCheck(L_16);
+		if ((((int32_t)L_14) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
 		{
-			goto IL_0057;
+			goto IL_0046;
 		}
 	}
 
-IL_0094:
-	{
-	}
-
-IL_0095:
+IL_0072:
 	{
 		// if (lastRefreshRateIndex != refreshRateIndex)
-		int32_t L_21 = __this->___lastRefreshRateIndex_3;
-		int32_t L_22 = V_1;
-		V_6 = (bool)((((int32_t)((((int32_t)L_21) == ((int32_t)L_22))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_23 = V_6;
-		if (!L_23)
+		int32_t L_17 = __this->___lastRefreshRateIndex_3;
+		int32_t L_18 = V_0;
+		if ((((int32_t)L_17) == ((int32_t)L_18)))
 		{
-			goto IL_00ca;
+			goto IL_009b;
 		}
 	}
 	{
 		// lastRefreshRateIndex = refreshRateIndex;
-		int32_t L_24 = V_1;
-		__this->___lastRefreshRateIndex_3 = L_24;
+		int32_t L_19 = V_0;
+		__this->___lastRefreshRateIndex_3 = L_19;
 		// vrrManager.SetRefreshRateByIndex(refreshRateIndex);
-		RuntimeObject* L_25 = __this->___vrrManager_1;
-		int32_t L_26 = V_1;
-		NullCheck(L_25);
-		bool L_27;
-		L_27 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_25, L_26);
+		RuntimeObject* L_20 = __this->___vrrManager_1;
+		int32_t L_21 = V_0;
+		NullCheck(L_20);
+		bool L_22;
+		L_22 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85_il2cpp_TypeInfo_var, L_20, L_21);
 		// settings.automaticVRR = true;
-		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_28 = __this->___settings_0;
-		NullCheck(L_28);
-		SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639(L_28, (bool)1, NULL);
+		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_23 = __this->___settings_0;
+		NullCheck(L_23);
+		SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639_inline(L_23, (bool)1, NULL);
 	}
 
-IL_00ca:
-	{
-	}
-
-IL_00cb:
+IL_009b:
 	{
 		// }
 		return;
@@ -10961,21 +9283,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__26_0_m5B1E90197167
 		if (L_1)
 		{
 			G_B2_0 = L_1;
-			goto IL_0010;
+			goto IL_000f;
 		}
 	}
 	{
-		goto IL_0016;
+		return;
 	}
 
-IL_0010:
+IL_000f:
 	{
 		NullCheck(G_B2_0);
 		VRRManager_OnRefreshRateChanged_mC7B94DF25479D1DEA7BFD4286412271E28CD1169(G_B2_0, NULL);
-	}
-
-IL_0016:
-	{
 		return;
 	}
 }
@@ -11133,11 +9451,34 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* VariableRefreshRat
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* SamsungAndroidProviderSettings_GetSettings_mAFADC8F0A6AE54BE4D54AEC67D91019DE82F24C2_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// settings = s_RuntimeInstance;
+		SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* L_0 = ((SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC_StaticFields*)il2cpp_codegen_static_fields_for(SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC_il2cpp_TypeInfo_var))->___s_RuntimeInstance_15;
+		// return settings;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AdaptivePerformanceSubsystemBase_get_initialized_mD8CA1B7504E7C565ADE1B49E8DB08232A66FA631_inline (AdaptivePerformanceSubsystemBase_t056A2AE227166A477FC9F9536AD7B0F891D32CD9* __this, const RuntimeMethod* method) 
 {
 	{
 		// public bool initialized { get; protected set; }
 		bool L_0 = __this->___U3CinitializedU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_samsungProviderLogging_mE70D42A6A1439E3DB2406B298C2AF4F30811DA9C_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_SamsungProviderLogging; }
+		bool L_0 = __this->___m_SamsungProviderLogging_12;
 		return L_0;
 	}
 }
@@ -11338,6 +9679,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_Cl
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_automaticVRR_mA4EC43A6755953623F7A5F1B3C365A3A9CE25C3B_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AutomaticVRR; }
+		bool L_0 = __this->___m_AutomaticVRR_14;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_GpuFrameTime_mB779C484C185DB05F985A295EA7242EB8DA37299_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, float ___value0, const RuntimeMethod* method) 
 {
 	{
@@ -11399,10 +9748,36 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemImplement
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_highSpeedVRR_mF7D7A276D6AC87D624429E128A5B36155ABCE4A1_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_HighSpeedVRR; }
+		bool L_0 = __this->___m_HighSpeedVRR_13;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableRefreshRateEventHandler_Invoke_mA665080591D6EA72C7EC12CFC0CAFAC8E5FF37EC_inline (VariableRefreshRateEventHandler_tD8795E551E080C52C1A7AFDB0BF044F17749EB95* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_automaticVRR_m10FAA3C18EF7EF58166BB3D9A572B5D249584639_inline (SamsungAndroidProviderSettings_tB080FCD43F6D764EE547C8748FA7DAFC02505FBC* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_AutomaticVRR = value; }
+		bool L_0 = ___value0;
+		__this->___m_AutomaticVRR_14 = L_0;
+		// set { m_AutomaticVRR = value; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* VRRManager_get_SupportedRefreshRates_m2E19C96EE046A2767D0534C3FAF4E7A20D07A259_inline (VRRManager_t72B06FC7051365C9A258D97C6E189C2A4D0CDEDA* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int[] SupportedRefreshRates { get { return m_SupportedRefreshRates; } }
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___m_SupportedRefreshRates_3;
+		return L_0;
+	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
@@ -11456,6 +9831,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double AsyncValue_1_get_value_m57
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, int32_t ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline (const RuntimeMethod* method) 
 {
 	{
@@ -11463,11 +9843,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 0)))->___Value_0;
 		return L_0;
 	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, int32_t ___obj0, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method) 
 {

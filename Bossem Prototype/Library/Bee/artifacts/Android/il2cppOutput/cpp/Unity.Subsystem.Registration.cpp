@@ -363,7 +363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SubsystemRegistration_CreateDescriptor_m
 	memset((&V_0), 0, sizeof(V_0));
 	SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* V_1 = NULL;
 	bool V_2 = false;
-	bool V_3 = false;
 	{
 		// foreach (var declaration in k_SubsystemDescriptors)
 		il2cpp_codegen_runtime_class_init_inline(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_il2cpp_TypeInfo_var);
@@ -377,7 +376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SubsystemRegistration_CreateDescriptor_m
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_003d:
+FINALLY_0037:
 			{// begin finally (depth: 1)
 				Enumerator_Dispose_m9C2B9C77EAE3242F8866EE0253B1B0D3E586ECAD((&V_0), Enumerator_Dispose_m9C2B9C77EAE3242F8866EE0253B1B0D3E586ECAD_RuntimeMethod_var);
 				return;
@@ -386,10 +385,10 @@ FINALLY_003d:
 		try
 		{// begin try (depth: 1)
 			{
-				goto IL_0032_1;
+				goto IL_002c_1;
 			}
 
-IL_000f_1:
+IL_000d_1:
 			{
 				// foreach (var declaration in k_SubsystemDescriptors)
 				SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* L_2;
@@ -407,35 +406,29 @@ IL_000f_1:
 				il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 				bool L_7;
 				L_7 = Type_op_Equality_mE6EDDDC900C50B222CF32BCD2AD027595F2D74B7(L_4, L_6, NULL);
-				V_2 = L_7;
-				bool L_8 = V_2;
-				if (!L_8)
+				if (!L_7)
 				{
-					goto IL_0031_1;
+					goto IL_002c_1;
 				}
 			}
 			{
 				// return false;
-				V_3 = (bool)0;
-				goto IL_0063;
+				V_2 = (bool)0;
+				goto IL_0058;
 			}
 
-IL_0031_1:
-			{
-			}
-
-IL_0032_1:
+IL_002c_1:
 			{
 				// foreach (var declaration in k_SubsystemDescriptors)
-				bool L_9;
-				L_9 = Enumerator_MoveNext_mF957FE1F33D5E0DC55F8336C509F237F76A391A7((&V_0), Enumerator_MoveNext_mF957FE1F33D5E0DC55F8336C509F237F76A391A7_RuntimeMethod_var);
-				if (L_9)
+				bool L_8;
+				L_8 = Enumerator_MoveNext_mF957FE1F33D5E0DC55F8336C509F237F76A391A7((&V_0), Enumerator_MoveNext_mF957FE1F33D5E0DC55F8336C509F237F76A391A7_RuntimeMethod_var);
+				if (L_8)
 				{
-					goto IL_000f_1;
+					goto IL_000d_1;
 				}
 			}
 			{
-				goto IL_004c;
+				goto IL_0045;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -444,27 +437,26 @@ IL_0032_1:
 		}
 	}
 
-IL_004c:
+IL_0045:
 	{
 		// Internal_SubsystemDescriptors.Internal_AddDescriptor(descriptor);
-		SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* L_10 = ___descriptor0;
-		Internal_SubsystemDescriptors_Internal_AddDescriptor_m99EBEE69393C7750E62FAF53BAB050D553BFF5AD(L_10, NULL);
+		SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* L_9 = ___descriptor0;
+		Internal_SubsystemDescriptors_Internal_AddDescriptor_m99EBEE69393C7750E62FAF53BAB050D553BFF5AD(L_9, NULL);
 		// k_SubsystemDescriptors.Add(descriptor);
 		il2cpp_codegen_runtime_class_init_inline(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_il2cpp_TypeInfo_var);
-		List_1_t15AD773D34D3739AFB67421B6DFFACEA7638F64E* L_11 = ((SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_il2cpp_TypeInfo_var))->___k_SubsystemDescriptors_0;
-		SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* L_12 = ___descriptor0;
-		NullCheck(L_11);
-		List_1_Add_m6225DC8FE1ED990ECCCE059CF9B5301E766D0ED9_inline(L_11, L_12, List_1_Add_m6225DC8FE1ED990ECCCE059CF9B5301E766D0ED9_RuntimeMethod_var);
+		List_1_t15AD773D34D3739AFB67421B6DFFACEA7638F64E* L_10 = ((SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_il2cpp_TypeInfo_var))->___k_SubsystemDescriptors_0;
+		SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* L_11 = ___descriptor0;
+		NullCheck(L_10);
+		List_1_Add_m6225DC8FE1ED990ECCCE059CF9B5301E766D0ED9_inline(L_10, L_11, List_1_Add_m6225DC8FE1ED990ECCCE059CF9B5301E766D0ED9_RuntimeMethod_var);
 		// return true;
-		V_3 = (bool)1;
-		goto IL_0063;
+		return (bool)1;
 	}
 
-IL_0063:
+IL_0058:
 	{
 		// }
-		bool L_13 = V_3;
-		return L_13;
+		bool L_12 = V_2;
+		return L_12;
 	}
 }
 // System.Void UnityEngine.SubsystemRegistration::.cctor()
