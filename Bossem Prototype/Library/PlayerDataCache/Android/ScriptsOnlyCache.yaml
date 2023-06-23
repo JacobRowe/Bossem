@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    ARDK-Editor.dll:
-    - Niantic.ARDK.VirtualStudio.Editor.VirtualStudioConfigurationEditor
     ARDK-Examples.dll:
     - Niantic.ARDKExamples.Helpers.ARCursorRenderer
     ARDK.dll:
@@ -44,10 +42,10 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationBlendTree.Node
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
@@ -88,6 +86,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
@@ -110,11 +109,26 @@ ScriptsOnlyBuild:
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: OnValueChangedRotate
   - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: TogglePlayspaceGood
   - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: TogglePlayspaceGood
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
   - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: OnValueChangedRotate
@@ -207,6 +221,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7344}
     - Class: 114
+      Script: {instanceID: 7536}
+    - Class: 114
       Script: {instanceID: 7618}
     - Class: 114
       Script: {instanceID: 8000}
@@ -215,7 +231,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9278}
     - Class: 114
-      Script: {instanceID: 56142}
+      Script: {instanceID: 9452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1555,7 +1571,7 @@ ScriptsOnlyBuild:
     className: AdaptiveShadowCascade
   - hash:
       serializedVersion: 2
-      Hash: aa6d04f664306a4f0d158512c3eb8094
+      Hash: c76a5f58a7387ce430714e12377842d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterNavMesh
@@ -1639,7 +1655,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 0e4382bd14e2752bc9f4d678f9ddcbdb
+      Hash: d78acf274481f55f1f37a1ff66d70f3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARPlayspaceController
@@ -2156,6 +2172,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshAgentAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Meshing
     className: MeshObjSaver
@@ -2351,12 +2373,6 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NavMeshAgentAnimator
   platform: 13
   scenePathNames:
   - Assets/Scenes/ObjectPlacementPlayspacetest.unity

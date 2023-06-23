@@ -10307,17 +10307,15 @@ struct U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8  : pub
 	CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* ___conditions_0;
 };
 
-// CharacterNavMesh/<RandomWalk>d__5
-struct U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0  : public RuntimeObject
+// CharacterNavMesh/<RandomWalk>d__6
+struct U3CRandomWalkU3Ed__6_t9E79CDF3E50C48918EF01CE79F294E6B43EBEB00  : public RuntimeObject
 {
-	// System.Int32 CharacterNavMesh/<RandomWalk>d__5::<>1__state
+	// System.Int32 CharacterNavMesh/<RandomWalk>d__6::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object CharacterNavMesh/<RandomWalk>d__5::<>2__current
+	// System.Object CharacterNavMesh/<RandomWalk>d__6::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// CharacterNavMesh CharacterNavMesh/<RandomWalk>d__5::<>4__this
+	// CharacterNavMesh CharacterNavMesh/<RandomWalk>d__6::<>4__this
 	CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* ___U3CU3E4__this_2;
-	// System.Int32 CharacterNavMesh/<RandomWalk>d__5::<i>5__2
-	int32_t ___U3CiU3E5__2_3;
 };
 
 // Niantic.Platform.Analytics.Telemetry.ClientEnvironmentProto/<>c
@@ -36908,10 +36906,8 @@ struct ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3  : public
 	CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* ___character_7;
 	// UnityEngine.GameObject ARPlayspaceController::characterObj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___characterObj_8;
-	// System.Boolean ARPlayspaceController::IsSpawned
-	bool ___IsSpawned_9;
 	// UnityEngine.Transform ARPlayspaceController::PointParent
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PointParent_10;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PointParent_9;
 };
 
 // UnityEngine.AdaptivePerformance.AdaptivePerformanceManager
@@ -37108,8 +37104,10 @@ struct CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B  : public Mono
 {
 	// UnityEngine.AI.NavMeshAgent CharacterNavMesh::navMeshAgent
 	NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* ___navMeshAgent_4;
+	// UnityEngine.Animator CharacterNavMesh::animator
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator_5;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> CharacterNavMesh::Points
-	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Points_5;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Points_6;
 };
 
 // ClickToMove
@@ -46124,7 +46122,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize7663 = { sizeof(ARMeshSelect
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7664;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7664 = { sizeof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7665;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7665 = { sizeof(U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7665 = { sizeof(U3CRandomWalkU3Ed__6_t9E79CDF3E50C48918EF01CE79F294E6B43EBEB00), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7666;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7666 = { sizeof(CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7667;

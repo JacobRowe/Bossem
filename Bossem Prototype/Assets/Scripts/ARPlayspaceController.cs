@@ -14,11 +14,10 @@ public class ARPlayspaceController : MonoBehaviour
 	public NavMeshSurface surface;
 
 	public GameObject testCharacterPrefab;
-	private CharacterNavMesh character;
+	[HideInInspector]
+	public CharacterNavMesh character;
 	private GameObject characterObj;
 
-
-	private bool IsSpawned = false;
 
 	//test
 	public Transform PointParent;
@@ -28,7 +27,7 @@ public class ARPlayspaceController : MonoBehaviour
 	{
 
 		PlacementController.onPlayspaceCreate += Spawn;
-		IsSpawned = false;
+
 		//test
 
 	}
@@ -54,6 +53,10 @@ public class ARPlayspaceController : MonoBehaviour
 	}
 	
 	
+	public void DemoAnim(string AnimPlay)
+	{
+		character.animator.Play(AnimPlay);
+	}
 
 	// Update is called once per frame
 	void Update()

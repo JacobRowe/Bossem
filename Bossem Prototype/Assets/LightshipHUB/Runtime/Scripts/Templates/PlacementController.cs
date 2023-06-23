@@ -85,7 +85,6 @@ namespace Niantic.LightshipHub.Templates
 			//TO DO - Change to align with plane and/or camera, not to random
 	  StartCoroutine(RotatePlayspace(PlaySpaceObj));
       //PlaySpaceObj.transform.Rotate(0.0f, Random.Range(0.0f, 360.0f), 0.0f);
-	  onPlayspaceCreate?.Invoke();
     }
 
 	IEnumerator RotatePlayspace(GameObject playspace)
@@ -99,12 +98,14 @@ namespace Niantic.LightshipHub.Templates
 		Debug.Log("Rotated");
 		RotateUI.SetActive(false);
 		TogglePlayspaceGood();
-		
-
-	}
+		onPlayspaceCreate?.Invoke();
 
 
-	public void TogglePlayspaceGood()
+
+		}
+
+
+		public void TogglePlayspaceGood()
 	{
 		isPlayspaceGood = !isPlayspaceGood;
 	}

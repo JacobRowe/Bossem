@@ -7,10 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1986773558, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-      propertyPath: m_AngularSpeed
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -33,15 +29,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4949917844413530137, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -59,46 +55,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossemDummy Agent
       objectReference: {fileID: 0}
-    - target: {fileID: 6018188207344819737, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c5573725f1002c54c9f6a89c64d6fb56, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
---- !u!1 &2015269533659848047 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5763046908634503843, guid: cf31b1b6a7009da4081e37fcb53a1da2, type: 3}
-  m_PrefabInstance: {fileID: 6056734944429131724}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &2643374236717604348
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015269533659848047}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 56e095c0faca80945ac50ba273fb030b, type: 3}
-  m_Controller: {fileID: 9100000, guid: b8a336aab6a57564892e8e2bea5b0e48, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &674583242908168619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015269533659848047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a62ce6aa8eb9b147b3381976603329c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

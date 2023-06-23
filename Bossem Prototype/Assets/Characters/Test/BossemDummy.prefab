@@ -2442,7 +2442,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6684157616175350891, guid: 1e1d260a2626a78468a9af6ac67a4e26, type: 3}
+  - {fileID: 2100000, guid: c5573725f1002c54c9f6a89c64d6fb56, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3194,7 +3194,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4949917844413530137}
   - component: {fileID: 1986773558}
+  - component: {fileID: 2643374236717604348}
   - component: {fileID: 1986773559}
+  - component: {fileID: 674583242908168619}
   m_Layer: 0
   m_Name: BossemDummy
   m_TagString: Untagged
@@ -3231,10 +3233,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2.39
-  m_Speed: 1
-  m_Acceleration: 1
+  m_Speed: 0.8
+  m_Acceleration: 0.5
   avoidancePriority: 50
-  m_AngularSpeed: 60
+  m_AngularSpeed: 90
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -3243,6 +3245,26 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &2643374236717604348
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763046908634503843}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 56e095c0faca80945ac50ba273fb030b, type: 3}
+  m_Controller: {fileID: 9100000, guid: b8a336aab6a57564892e8e2bea5b0e48, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1986773559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3256,7 +3278,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 0}
+  animator: {fileID: 0}
   Points: []
+--- !u!114 &674583242908168619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763046908634503843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a62ce6aa8eb9b147b3381976603329c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5827370411676199596
 GameObject:
   m_ObjectHideFlags: 0

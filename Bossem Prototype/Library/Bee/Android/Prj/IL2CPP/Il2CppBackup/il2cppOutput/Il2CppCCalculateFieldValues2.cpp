@@ -8489,17 +8489,15 @@ struct U3CU3Ec__DisplayClass4_0_t45165408BC468BADC6D039103B3B03FD245069C8  : pub
 	CallConditionU5BU5D_t6324814E56AAA60FABF41A9554F948F2DE5FAC49* ___conditions_0;
 };
 
-// CharacterNavMesh/<RandomWalk>d__5
-struct U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0  : public RuntimeObject
+// CharacterNavMesh/<RandomWalk>d__6
+struct U3CRandomWalkU3Ed__6_t9E79CDF3E50C48918EF01CE79F294E6B43EBEB00  : public RuntimeObject
 {
-	// System.Int32 CharacterNavMesh/<RandomWalk>d__5::<>1__state
+	// System.Int32 CharacterNavMesh/<RandomWalk>d__6::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object CharacterNavMesh/<RandomWalk>d__5::<>2__current
+	// System.Object CharacterNavMesh/<RandomWalk>d__6::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// CharacterNavMesh CharacterNavMesh/<RandomWalk>d__5::<>4__this
+	// CharacterNavMesh CharacterNavMesh/<RandomWalk>d__6::<>4__this
 	CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* ___U3CU3E4__this_2;
-	// System.Int32 CharacterNavMesh/<RandomWalk>d__5::<i>5__2
-	int32_t ___U3CiU3E5__2_3;
 };
 
 // Niantic.Platform.Analytics.Telemetry.ClientEnvironmentProto/<>c
@@ -26729,10 +26727,8 @@ struct ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3  : public
 	CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* ___character_7;
 	// UnityEngine.GameObject ARPlayspaceController::characterObj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___characterObj_8;
-	// System.Boolean ARPlayspaceController::IsSpawned
-	bool ___IsSpawned_9;
 	// UnityEngine.Transform ARPlayspaceController::PointParent
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PointParent_10;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PointParent_9;
 };
 
 // UnityEngine.AdaptivePerformance.AdaptivePerformanceManager
@@ -26919,8 +26915,10 @@ struct CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B  : public Mono
 {
 	// UnityEngine.AI.NavMeshAgent CharacterNavMesh::navMeshAgent
 	NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* ___navMeshAgent_4;
+	// UnityEngine.Animator CharacterNavMesh::animator
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator_5;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> CharacterNavMesh::Points
-	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Points_5;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Points_6;
 };
 
 // ClickToMove
@@ -34136,15 +34134,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7662[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7663[12] = 
 {
 	static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____arCamera_4)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____arMeshMananger_5)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____gameBoardManager_6)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____gameboard_7)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____currentMeshText_8)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____selectMeshButton_9)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____acceptMeshButton_10)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____rejectMeshButton_11)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____playspaceArea_12)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ___testPlane_13)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ____isPlayspaceGood_14)),static_cast<int32_t>(offsetof(ARMeshSelect_t59BBF3D53BE7A4F0250166358ADD54050E398C7C, ___ARMeshLayer_15)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7664[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7664[6] = 
 {
-	static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___PlayspaceParent_4)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___surface_5)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___testCharacterPrefab_6)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___character_7)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___characterObj_8)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___IsSpawned_9)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___PointParent_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7665[4] = 
+	static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___PlayspaceParent_4)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___surface_5)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___testCharacterPrefab_6)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___character_7)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___characterObj_8)),static_cast<int32_t>(offsetof(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3, ___PointParent_9)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7665[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__5_t16BDBD9AFCA026222A8DD03CED40BD32FB4384D0, ___U3CiU3E5__2_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7666[2] = 
+	static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__6_t9E79CDF3E50C48918EF01CE79F294E6B43EBEB00, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__6_t9E79CDF3E50C48918EF01CE79F294E6B43EBEB00, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CRandomWalkU3Ed__6_t9E79CDF3E50C48918EF01CE79F294E6B43EBEB00, ___U3CU3E4__this_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7666[3] = 
 {
-	static_cast<int32_t>(offsetof(CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B, ___navMeshAgent_4)),static_cast<int32_t>(offsetof(CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B, ___Points_5)),};
+	static_cast<int32_t>(offsetof(CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B, ___navMeshAgent_4)),static_cast<int32_t>(offsetof(CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B, ___animator_5)),static_cast<int32_t>(offsetof(CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B, ___Points_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7667[4] = 
 {
 	static_cast<int32_t>(offsetof(MeshManagerOutput_t9C8F9B10BCB3394EE3BC5D340FC7182FF92BDED7, ____meshManager_4)),static_cast<int32_t>(offsetof(MeshManagerOutput_t9C8F9B10BCB3394EE3BC5D340FC7182FF92BDED7, ___ScrollText_5)),static_cast<int32_t>(offsetof(MeshManagerOutput_t9C8F9B10BCB3394EE3BC5D340FC7182FF92BDED7, ___GetMeshButton_6)),static_cast<int32_t>(offsetof(MeshManagerOutput_t9C8F9B10BCB3394EE3BC5D340FC7182FF92BDED7, ___CurrentMeshes_7)),};
