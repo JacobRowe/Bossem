@@ -63,5 +63,14 @@ public class ARPlayspaceController : MonoBehaviour
 	public void TogglePlayspaceLock()
 	{
 		PlaySpaceLocked = !PlaySpaceLocked;
+		ToggleDisableCharacter();
+	}
+
+	public void ToggleDisableCharacter()
+	{
+		if (characterObj != null)
+		{
+			characterObj.SetActive(!characterObj.activeSelf);
+		}
 	}
 }

@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    ARDK-Examples.dll:
-    - Niantic.ARDKExamples.Helpers.ARCursorRenderer
     ARDK.dll:
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
@@ -16,10 +14,12 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ARPlayspaceController
     - CharacterNavMesh
+    - EnviromentScript
     - NavMeshAgentAnimator
     - Niantic.LightshipHub.Templates.ObjectAnimation
     - Niantic.LightshipHub.Templates.ObjectHolderController
     - Niantic.LightshipHub.Templates.PlacementController
+    - PlayspaceCursor
     NavMeshComponents.dll:
     - UnityEngine.AI.NavMeshSurface
     NavMeshComponentsEditor.dll:
@@ -42,6 +42,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -106,6 +107,15 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: TogglePlayspaceLock
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: OnValueChangedRotate
   - assembly: Assembly-CSharp
@@ -123,6 +133,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: TogglePlayspaceGood
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayspaceCursor
+    methodName: DestroySpawnedCursor
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: TogglePlayspaceGood
@@ -175,63 +194,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1686}
+      Script: {instanceID: 1694}
     - Class: 114
-      Script: {instanceID: 1688}
-    - Class: 114
-      Script: {instanceID: 1690}
+      Script: {instanceID: 1696}
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2544}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 1862}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 2554}
     - Class: 114
-      Script: {instanceID: 3788}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 4676}
+      Script: {instanceID: 3116}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 3798}
     - Class: 114
-      Script: {instanceID: 5186}
+      Script: {instanceID: 4412}
     - Class: 114
-      Script: {instanceID: 5210}
+      Script: {instanceID: 4686}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 4766}
     - Class: 114
-      Script: {instanceID: 5534}
+      Script: {instanceID: 5196}
     - Class: 114
-      Script: {instanceID: 5772}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 6382}
+      Script: {instanceID: 5432}
     - Class: 114
-      Script: {instanceID: 6430}
+      Script: {instanceID: 5544}
     - Class: 114
-      Script: {instanceID: 6460}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 6546}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 6754}
+      Script: {instanceID: 6440}
     - Class: 114
-      Script: {instanceID: 6822}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 7156}
+      Script: {instanceID: 6556}
     - Class: 114
-      Script: {instanceID: 7344}
+      Script: {instanceID: 6764}
     - Class: 114
-      Script: {instanceID: 7536}
+      Script: {instanceID: 6832}
     - Class: 114
-      Script: {instanceID: 7618}
+      Script: {instanceID: 7166}
     - Class: 114
-      Script: {instanceID: 8000}
+      Script: {instanceID: 7354}
     - Class: 114
-      Script: {instanceID: 9268}
+      Script: {instanceID: 7546}
+    - Class: 114
+      Script: {instanceID: 8010}
     - Class: 114
       Script: {instanceID: 9278}
     - Class: 114
-      Script: {instanceID: 9452}
+      Script: {instanceID: 9288}
+    - Class: 114
+      Script: {instanceID: 9462}
+    - Class: 114
+      Script: {instanceID: 32392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -339,6 +362,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio.AR.Mock
     className: MockWayspot
+  - hash:
+      serializedVersion: 2
+      Hash: d85fc2d1e9cec1f769c231d77fd4c0ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayspaceCursor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1829,7 +1858,7 @@ ScriptsOnlyBuild:
     className: WayspotAnchorExampleManager
   - hash:
       serializedVersion: 2
-      Hash: 4786029fc1c1c2fcb96871dfb557069e
+      Hash: 448277af6a107b3e62d22e295febd120
     assemblyName: Assembly-CSharp.dll
     namespaceName: Niantic.LightshipHub.Templates
     className: PlacementController
@@ -2373,6 +2402,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: a4ebc301d2b0cf459fc2f1873ac81aa8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnviromentScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/ObjectPlacementPlayspacetest.unity

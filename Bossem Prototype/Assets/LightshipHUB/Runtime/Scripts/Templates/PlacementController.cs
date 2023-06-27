@@ -80,9 +80,14 @@ namespace Niantic.LightshipHub.Templates
       PlaySpaceObj.SetActive(true);
 
       PlaySpaceObj.transform.position = position;
-			//TO DO - Change to align with plane and/or camera, not to random
+
+	  //test fix to flip towards player
+	  //TO DO - Align to player look direction
+	  PlaySpaceObj.transform.Rotate(0.0f, 180, 0.0f);
+
 	  StartCoroutine(RotatePlayspace(PlaySpaceObj));
-      //PlaySpaceObj.transform.Rotate(0.0f, Random.Range(0.0f, 360.0f), 0.0f);
+
+	  
     }
 
 	IEnumerator RotatePlayspace(GameObject playspace)
@@ -108,8 +113,13 @@ namespace Niantic.LightshipHub.Templates
 		isPlayspaceGood = !isPlayspaceGood;
 	}
 
-	
+	public void OnValueChangedRotate(float RotVal)
+	{
 
-	
-  }
+
+		PlaySpaceObj.transform.Rotate(0.0f, PlaySpaceObj.transform.rotation.y + RotVal, 0.0f);
+	}
+
+
+	}
 }

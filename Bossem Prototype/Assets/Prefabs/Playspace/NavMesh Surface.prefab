@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 5615264884923145755}
   - component: {fileID: 5615264884923145752}
   m_Layer: 3
-  m_Name: Playspace
+  m_Name: PlayspaceMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

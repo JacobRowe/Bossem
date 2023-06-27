@@ -1433,7 +1433,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9728212, b: 0.8443396, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2624,6 +2624,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1733818453}
+        m_TargetAssemblyTypeName: PlayspaceCursor, Assembly-CSharp
+        m_MethodName: DestroySpawnedCursor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1733818453}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -2838,6 +2850,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Camera: {fileID: 1733818446}
   CursorObject: {fileID: 3264476094848527823}
+--- !u!4 &1737307944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5615264883078910135, guid: a101346503559384caae22d52a91e6c9, type: 3}
+  m_PrefabInstance: {fileID: 5615264883047015485}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1786201356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5615264884826136881, guid: a101346503559384caae22d52a91e6c9, type: 3}
@@ -3475,6 +3492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240586152758383169}
   - component: {fileID: 6979351323144555186}
+  - component: {fileID: 6979351323144555187}
   - component: {fileID: 2332084325514022850}
   - component: {fileID: 3180516246627726789}
   - component: {fileID: 3180516246627726788}
@@ -3904,3 +3922,23 @@ MonoBehaviour:
   _isLightEstimationEnabled: 1
   _isAutoFocusEnabled: 0
   _worldAlignment: 0
+--- !u!114 &6979351323144555187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3180516246627726787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb810157c377ae4492826877809e5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridBasic: {fileID: 4977449952069020344, guid: d9693128ef89eef4a8b6d9108bf1a70f, type: 3}
+  playSpace: {fileID: 1492039374}
+  columnLength: 7
+  rowLength: 7
+  x_Space: 0.05
+  z_Space: 0.05
+  x_Start: {fileID: 1737307944}
+  z_Start: {fileID: 1737307944}
