@@ -18,6 +18,7 @@ public class ARPlayspaceController : MonoBehaviour
 	public CharacterNavMesh character;
 	private GameObject characterObj;
 
+	public static bool PlaySpaceLocked;
 
 	//test
 	public Transform PointParent;
@@ -49,6 +50,7 @@ public class ARPlayspaceController : MonoBehaviour
 			Debug.Log(i);
 			character.Points.Add(PointParent.GetChild(i));
 		}
+		PlaySpaceLocked = true;
 		Debug.Log("Spawned");
 	}
 	
@@ -58,11 +60,8 @@ public class ARPlayspaceController : MonoBehaviour
 		character.animator.Play(AnimPlay);
 	}
 
-	// Update is called once per frame
-	void Update()
+	public void TogglePlayspaceLock()
 	{
-		
-		
-		
+		PlaySpaceLocked = !PlaySpaceLocked;
 	}
 }

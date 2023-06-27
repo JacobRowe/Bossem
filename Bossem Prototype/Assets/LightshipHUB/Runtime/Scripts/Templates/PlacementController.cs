@@ -23,7 +23,6 @@ namespace Niantic.LightshipHub.Templates
 
 	private bool isPlayspaceGood = false;
 	public GameObject RotateUI;
-	public Slider RotateUISlider;
 
 
 	private	GameObject PlaySpaceObj;
@@ -31,13 +30,12 @@ namespace Niantic.LightshipHub.Templates
 
 	private void OnEnable()
 	{
-			RotateUISlider.onValueChanged.AddListener(delegate { OnValueChangedRotate(RotateUISlider.value); });
 
 	}
 
 	void Update()
     {
-      if (PlatformAgnosticInput.touchCount <= 0) return;
+      if (PlatformAgnosticInput.touchCount <= 0 || ARPlayspaceController.PlaySpaceLocked) return;
 
       var touch = PlatformAgnosticInput.GetTouch(0);
       if (touch.phase == TouchPhase.Began)
@@ -102,20 +100,15 @@ namespace Niantic.LightshipHub.Templates
 
 
 
-		}
+	}
 
 
-		public void TogglePlayspaceGood()
+	public void TogglePlayspaceGood()
 	{
 		isPlayspaceGood = !isPlayspaceGood;
 	}
 
-	public void OnValueChangedRotate(float RotVal)
-	{
-
-		
-		PlaySpaceObj.transform.Rotate(0.0f, PlaySpaceObj.transform.rotation.y + RotVal, 0.0f);
-	}
+	
 
 	
   }

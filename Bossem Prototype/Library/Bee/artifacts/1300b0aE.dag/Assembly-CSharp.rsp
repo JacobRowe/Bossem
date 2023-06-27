@@ -436,6 +436,7 @@
 "Assets/Scripts/Debug/MeshManagerOutput.cs"
 "Assets/Scripts/GameboardSpaceManager.cs"
 "Assets/Scripts/NavMeshManager.cs"
+"Assets/Scripts/PlayspaceCursor.cs"
 "Assets/Scripts/RecognitionListener.cs"
 "Assets/Scripts/SceneManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

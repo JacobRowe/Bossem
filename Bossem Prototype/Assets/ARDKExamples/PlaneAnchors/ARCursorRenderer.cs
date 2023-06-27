@@ -4,7 +4,7 @@ using Niantic.ARDK.AR;
 using Niantic.ARDK.AR.ARSessionEventArgs;
 using Niantic.ARDK.AR.HitTest;
 using Niantic.ARDK.Utilities;
-//using Niantic.LightshipHub.Templates;
+
 using UnityEngine;
 
 namespace Niantic.ARDKExamples.Helpers
@@ -29,11 +29,15 @@ namespace Niantic.ARDKExamples.Helpers
 
     private IARSession _session;
 
-    private void Start()
+
+	
+	private void Start()
     {
       ARSessionFactory.SessionInitialized += _SessionInitialized;
-	  
-    }
+	 
+
+
+	}
 
     private void OnDestroy()
     {
@@ -46,7 +50,7 @@ namespace Niantic.ARDKExamples.Helpers
       DestroySpawnedCursor();
     }
 
-    private void DestroySpawnedCursor()
+    public void DestroySpawnedCursor()
     {
       if (_spawnedCursorObject == null)
         return;
