@@ -10,7 +10,16 @@ public class EnviromentScript : MonoBehaviour
 	private GameObject gridBasic;
 
 	[SerializeField]
+	private GameObject gridRed;
+
+	[SerializeField]
 	private GameObject playSpace;
+
+	[SerializeField]
+	private GameObject AlphaNumGrid;
+
+	public delegate void OnEnviromentChange();
+	public static OnEnviromentChange onEnviromentChange;
 
 	public int columnLength = 7;
 	public int rowLength = 7;
@@ -39,26 +48,46 @@ public class EnviromentScript : MonoBehaviour
 
 	public void GenerateGrid()
 	{
-		GameObject AlphaNumGrid = new GameObject("AlphaNumGrid");
-		AlphaNumGrid.transform.SetParent(playSpace.transform, true);
+		if (AlphaNumGrid != null)
+		{
+			return;
+		}
+		Destroy(AlphaNumGrid);
+		AlphaNumGrid = new GameObject("AlphaNumGrid" + AlphaNumGrid.GetHashCode());
+		//AlphaNumGrid.transform.SetParent(playSpace.transform, false);
 
 		for (int i = 0; i < columnLength * rowLength; i++)
 		{
-			Instantiate(gridBasic, new Vector3(x_Space * (i % columnLength), 0, z_Space * (i / columnLength)), Quaternion.identity, AlphaNumGrid.transform);
+			if (Random.Range(0, 15) < 3)
+			{
+				Instantiate(gridRed, new Vector3(x_Space * (i % columnLength), -0.053f, z_Space * (i / columnLength)), Quaternion.identity, AlphaNumGrid.transform);
+
+			}
+			else
+			{
+				Instantiate(gridBasic, new Vector3(x_Space * (i % columnLength), -0.053f, z_Space * (i / columnLength)), Quaternion.identity, AlphaNumGrid.transform);
+
+			}
 
 			//Instantiate(gridBasic, AlphaNumGrid.transform, false);
 		}
 
 		int GenLength = StringGen.Length;
+
 		for (int i = 0; i < AlphaNumGrid.transform.childCount; i++)
 		{
 			//AlphaNumGrid.transform.GetChild(i).gameObject.transform.GetChild(0).GetComponent<Text>().text = 
-				//StringGen[Random.Range(1, 1)].ToString();
+			//StringGen[Random.Range(1, 1)].ToString();
+			
 
 			AlphaNumGrid.transform.GetChild(i).gameObject.GetComponentInChildren<TextMeshPro>().text = StringGen[Random.Range(0, GenLength)].ToString();
 
 		}
-		AlphaNumGrid.transform.position = AlphaNumGrid.transform.parent.position;
 
+		AlphaNumGrid.transform.localPosition = playSpace.transform.position;
+		AlphaNumGrid.transform.SetParent(playSpace.transform, true);
+
+		//enviroment has changed
+		onEnviromentChange?.Invoke();
 	}
 }

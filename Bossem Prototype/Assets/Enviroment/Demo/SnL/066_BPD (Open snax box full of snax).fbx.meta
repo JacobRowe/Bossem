@@ -1,23 +1,8 @@
 fileFormatVersion: 2
-guid: fbd1dd97c23b1ca449863e35698106c2
+guid: 0484022ea433470479f6c4e1a76aca2f
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      74: 3344951136912504019
-    second: single square|Action
-  - first:
-      74: 8436764841817487723
-    second: single square|Action.001
-  - first:
-      74: 8246182035664548182
-    second: single square|Dogg.003Action
-  - first:
-      74: -3187317943832724757
-    second: single square|Dogg.004Action
-  - first:
-      74: -5673699364575489806
-    second: single square|GREEN SQUARE.001Action
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -50,7 +35,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.1
+    globalScale: 0.3
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -103,7 +88,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.1
+    globalScale: 0.003
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
