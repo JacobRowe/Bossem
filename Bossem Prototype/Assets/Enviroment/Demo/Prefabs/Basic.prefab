@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 7423653629755933561}
   - component: {fileID: 5812394710658665692}
   - component: {fileID: 8596581656481740822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7423653629755933561
 Transform:
@@ -25,14 +25,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7804119165619673539}
-  m_LocalRotation: {x: -0.7070687, y: 0.0031933005, z: -0.007343527, w: 0.70709956}
+  m_LocalRotation: {x: -0.7070686, y: 0.0031963293, z: -0.0073429355, w: 0.70709956}
   m_LocalPosition: {x: 0.36809286, y: 0.29498962, z: -0.24239421}
   m_LocalScale: {x: 157.35, y: 50.420246, z: 2.2374887}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.146, y: 89.664, z: -90}
 --- !u!33 &5812394710658665692
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -139,12 +139,12 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Behaviour
     methodName: set_enabled
-  - assembly: Assembly-CSharp
-    fullTypeName: EnviromentScript
-    methodName: GenerateGrid
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: EnviromentScript
+    methodName: GenerateGrid
   - assembly: Assembly-CSharp
     fullTypeName: Niantic.LightshipHub.Templates.PlacementController
     methodName: TogglePlayspaceGood
@@ -231,33 +231,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6262}
     - Class: 114
-      Script: {instanceID: 6440}
+      Script: {instanceID: 6394}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6442}
     - Class: 114
-      Script: {instanceID: 6556}
+      Script: {instanceID: 6472}
     - Class: 114
-      Script: {instanceID: 6764}
+      Script: {instanceID: 6558}
     - Class: 114
-      Script: {instanceID: 6832}
+      Script: {instanceID: 6766}
     - Class: 114
-      Script: {instanceID: 7166}
+      Script: {instanceID: 6834}
     - Class: 114
-      Script: {instanceID: 7354}
+      Script: {instanceID: 7168}
     - Class: 114
-      Script: {instanceID: 7546}
+      Script: {instanceID: 7356}
     - Class: 114
-      Script: {instanceID: 8010}
+      Script: {instanceID: 7548}
     - Class: 114
-      Script: {instanceID: 9278}
+      Script: {instanceID: 8012}
     - Class: 114
-      Script: {instanceID: 9288}
+      Script: {instanceID: 9280}
     - Class: 114
-      Script: {instanceID: 9462}
+      Script: {instanceID: 9290}
     - Class: 114
-      Script: {instanceID: 32392}
+      Script: {instanceID: 9464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1459,6 +1459,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: e2694631c0b51dff44f287c1c1252517
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnviromentScript
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -2405,12 +2411,6 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: a4ebc301d2b0cf459fc2f1873ac81aa8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnviromentScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/ObjectPlacementPlayspacetest.unity

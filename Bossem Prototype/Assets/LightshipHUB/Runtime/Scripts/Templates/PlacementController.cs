@@ -78,6 +78,7 @@ namespace Niantic.LightshipHub.Templates
       }
 
       PlaySpaceObj.SetActive(true);
+	  
 
       PlaySpaceObj.transform.position = position;
 
@@ -94,7 +95,7 @@ namespace Niantic.LightshipHub.Templates
 	{
 			//buttons left and right to rotate  object
 		RotateUI.SetActive(true);
-			//set rotation of ghost object -> placed obj
+
 			//wait until user selects okay to place object
 		Debug.Log("Rotating");
 		yield return new WaitUntil(() => isPlayspaceGood == true);
@@ -115,11 +116,14 @@ namespace Niantic.LightshipHub.Templates
 
 	public void OnValueChangedRotate(float RotVal)
 	{
-
-
 		PlaySpaceObj.transform.Rotate(0.0f, PlaySpaceObj.transform.rotation.y + RotVal, 0.0f);
 	}
 
 
+
+
+
 	}
+
+
 }

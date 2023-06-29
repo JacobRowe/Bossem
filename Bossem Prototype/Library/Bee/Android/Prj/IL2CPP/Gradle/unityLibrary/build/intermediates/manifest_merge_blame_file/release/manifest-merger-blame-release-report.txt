@@ -145,136 +145,166 @@
 75-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:20-61
 76        android:required="false" />
 76-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:62-86
-77
-78    <application android:extractNativeLibs="true" >
-78-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-27:17
-78-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
-79        <activity
-79-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
-80            android:name="com.unity3d.player.UnityPlayerActivity"
-80-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
-81            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-81-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
-82            android:exported="true"
-82-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
-83            android:hardwareAccelerated="false"
-83-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
-84            android:launchMode="singleTask"
-84-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
-85            android:resizeableActivity="false"
-85-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
-86            android:screenOrientation="fullUser"
-86-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
-87            android:theme="@style/UnityThemeSelector" >
-87-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
-88            <intent-filter>
-88-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
-89                <action android:name="android.intent.action.MAIN" />
-89-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
-89-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
-90
-91                <category android:name="android.intent.category.LAUNCHER" />
-91-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
-91-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
-92            </intent-filter>
-93
-94            <meta-data
-94-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
-95                android:name="unityplayer.UnityActivity"
-95-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
-96                android:value="true" />
-96-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
-97            <meta-data
-97-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
-98                android:name="android.notch_support"
-98-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
-99                android:value="true" />
-99-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
-100        </activity>
-101
-102        <meta-data
-102-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
-103            android:name="unity.splash-mode"
-103-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
-104            android:value="0" />
-104-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
-105        <meta-data
-105-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
-106            android:name="unity.splash-enable"
-106-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
-107            android:value="True" />
-107-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
-108        <meta-data
-108-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
-109            android:name="unity.launch-fullscreen"
-109-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
-110            android:value="True" />
-110-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
-111        <meta-data
-111-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
-112            android:name="unity.allow-resizable-window"
-112-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
-113            android:value="False" />
-113-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
-114        <meta-data
-114-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
-115            android:name="notch.config"
-115-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
-116            android:value="portrait|landscape" />
-116-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
-117
-118        <receiver
-118-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-113
-119            android:name="com.unity.androidnotifications.UnityNotificationManager"
-119-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-85
-120            android:exported="false" />
-120-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:86-110
-121        <receiver
-121-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-22:16
-122            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
-122-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-99
-123            android:enabled="false"
-123-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:100-123
-124            android:exported="false" >
-124-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:124-148
-125            <intent-filter>
-125-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-21:23
-126                <action android:name="android.intent.action.BOOT_COMPLETED" />
-126-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-71
-126-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-68
-127            </intent-filter>
-128        </receiver>
-129
-130        <uses-native-library
-130-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-87
-131            android:name="libOpenCL-pixel.so"
-131-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:26-59
-132            android:required="false" />
-132-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:60-84
-133        <uses-native-library
-133-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-87
-134            android:name="libOpenCL.so"
-134-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:26-59
-135            android:required="false" />
-135-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:60-84
-136
-137        <activity
-137-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-194
-138            android:name="com.google.ar.core.InstallActivity"
-138-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:15-64
-139            android:configChanges="keyboardHidden|orientation|screenSize"
-139-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:65-126
-140            android:excludeFromRecents="true"
-140-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:127-160
-141            android:launchMode="singleTop" />
-141-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:161-191
-142
-143        <meta-data
-143-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-77
-144            android:name="com.google.ar.core"
-144-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:16-49
-145            android:value="optional" />
-145-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:50-74
-146    </application>
-147
-148</manifest>
+77    <uses-permission
+77-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:3-89
+78        android:name="android.hardware.camera.ar"
+78-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:20-61
+79        android:required="false" />
+79-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:62-86
+80    <uses-permission
+80-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:3-89
+81        android:name="android.hardware.camera.ar"
+81-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:20-61
+82        android:required="false" />
+82-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:62-86
+83    <uses-permission
+83-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:3-89
+84        android:name="android.hardware.camera.ar"
+84-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:20-61
+85        android:required="false" />
+85-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:62-86
+86    <uses-permission
+86-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:3-89
+87        android:name="android.hardware.camera.ar"
+87-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:20-61
+88        android:required="false" />
+88-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:62-86
+89    <uses-permission
+89-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:3-89
+90        android:name="android.hardware.camera.ar"
+90-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:20-61
+91        android:required="false" />
+91-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:46:62-86
+92
+93    <application android:extractNativeLibs="true" >
+93-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-27:17
+93-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+94        <activity
+94-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+95            android:name="com.unity3d.player.UnityPlayerActivity"
+95-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+96            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+96-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+97            android:exported="true"
+97-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+98            android:hardwareAccelerated="false"
+98-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+99            android:launchMode="singleTask"
+99-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+100            android:resizeableActivity="false"
+100-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+101            android:screenOrientation="fullUser"
+101-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+102            android:theme="@style/UnityThemeSelector" >
+102-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+103            <intent-filter>
+103-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+104                <action android:name="android.intent.action.MAIN" />
+104-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+104-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+106-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+107            </intent-filter>
+108
+109            <meta-data
+109-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+110                android:name="unityplayer.UnityActivity"
+110-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+111                android:value="true" />
+111-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+112            <meta-data
+112-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+113                android:name="android.notch_support"
+113-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+114                android:value="true" />
+114-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+115        </activity>
+116
+117        <meta-data
+117-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+118            android:name="unity.splash-mode"
+118-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+119            android:value="0" />
+119-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+120        <meta-data
+120-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+121            android:name="unity.splash-enable"
+121-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+122            android:value="True" />
+122-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+123        <meta-data
+123-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+124            android:name="unity.launch-fullscreen"
+124-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+125            android:value="True" />
+125-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+126        <meta-data
+126-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+127            android:name="unity.allow-resizable-window"
+127-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+128            android:value="False" />
+128-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+129        <meta-data
+129-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+130            android:name="notch.config"
+130-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+131            android:value="portrait|landscape" />
+131-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+132
+133        <receiver
+133-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-113
+134            android:name="com.unity.androidnotifications.UnityNotificationManager"
+134-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-85
+135            android:exported="false" />
+135-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:86-110
+136        <receiver
+136-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-22:16
+137            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+137-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-99
+138            android:enabled="false"
+138-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:100-123
+139            android:exported="false" >
+139-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:124-148
+140            <intent-filter>
+140-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-21:23
+141                <action android:name="android.intent.action.BOOT_COMPLETED" />
+141-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-71
+141-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-68
+142            </intent-filter>
+143        </receiver>
+144
+145        <uses-native-library
+145-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-87
+146            android:name="libOpenCL-pixel.so"
+146-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:26-59
+147            android:required="false" />
+147-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:60-84
+148        <uses-native-library
+148-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-87
+149            android:name="libOpenCL.so"
+149-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:26-59
+150            android:required="false" />
+150-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:60-84
+151
+152        <activity
+152-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-194
+153            android:name="com.google.ar.core.InstallActivity"
+153-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:15-64
+154            android:configChanges="keyboardHidden|orientation|screenSize"
+154-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:65-126
+155            android:excludeFromRecents="true"
+155-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:127-160
+156            android:launchMode="singleTop" />
+156-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:161-191
+157
+158        <meta-data
+158-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-77
+159            android:name="com.google.ar.core"
+159-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:16-49
+160            android:value="optional" />
+160-->E:\Bossem\REPO-FIX\Bossem\Bossem Prototype\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:50-74
+161    </application>
+162
+163</manifest>

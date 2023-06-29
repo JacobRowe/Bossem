@@ -43,6 +43,7 @@ public class ARPlayspaceController : MonoBehaviour
 		surface.BuildNavMesh();
 		characterObj = Instantiate(testCharacterPrefab, PlayspaceParent);
 		character = characterObj.GetComponent<CharacterNavMesh>();
+
 		//test
 		character.Points.Clear();
 		for (int i = 0; i < PointParent.gameObject.transform.childCount; i++)

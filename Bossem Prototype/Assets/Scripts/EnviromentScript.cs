@@ -13,19 +13,21 @@ public class EnviromentScript : MonoBehaviour
 	private GameObject gridRed;
 
 	[SerializeField]
-	private GameObject playSpace;
+	private Transform PlayspaceParent;
 
-	[SerializeField]
-	private GameObject AlphaNumGrid;
+
+
 
 	public delegate void OnEnviromentChange();
 	public static OnEnviromentChange onEnviromentChange;
+
+
+	private GameObject AlphaNumGrid;
 
 	public int columnLength = 7;
 	public int rowLength = 7;
 
 	public float x_Space, z_Space;
-	public Transform x_Start, z_Start;
 
 	//AlphaNum grid
 	private const string StringGen = "abcdefghijklmnopqrstuvwxyz0123456789";
@@ -48,7 +50,7 @@ public class EnviromentScript : MonoBehaviour
 
 	public void GenerateGrid()
 	{
-		if (AlphaNumGrid != null)
+		/*if (AlphaNumGrid != null)
 		{
 			return;
 		}
@@ -70,24 +72,19 @@ public class EnviromentScript : MonoBehaviour
 			}
 
 			//Instantiate(gridBasic, AlphaNumGrid.transform, false);
-		}
-
+		}*/
+		PlayspaceParent.gameObject.SetActive(true);
 		int GenLength = StringGen.Length;
 
-		for (int i = 0; i < AlphaNumGrid.transform.childCount; i++)
+		for (int i = 0; i < PlayspaceParent.transform.childCount; i++)
 		{
-			//AlphaNumGrid.transform.GetChild(i).gameObject.transform.GetChild(0).GetComponent<Text>().text = 
-			//StringGen[Random.Range(1, 1)].ToString();
-			
-
-			AlphaNumGrid.transform.GetChild(i).gameObject.GetComponentInChildren<TextMeshPro>().text = StringGen[Random.Range(0, GenLength)].ToString();
-
+			PlayspaceParent.transform.GetChild(i).gameObject.GetComponentInChildren<TextMeshPro>().text = StringGen[Random.Range(0, GenLength)].ToString();
 		}
-
-		AlphaNumGrid.transform.localPosition = playSpace.transform.position;
-		AlphaNumGrid.transform.SetParent(playSpace.transform, true);
+		
+		//AlphaNumGrid.transform.localPosition = PlayspaceParent.transform.position;
+		//AlphaNumGrid.transform.SetParent(PlayspaceParent.transform, true);
 
 		//enviroment has changed
-		onEnviromentChange?.Invoke();
+		
 	}
 }
