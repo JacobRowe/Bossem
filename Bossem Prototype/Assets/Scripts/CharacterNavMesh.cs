@@ -37,14 +37,21 @@ public class CharacterNavMesh : MonoBehaviour
 		Debug.Log("Agent on");
 		//StartCoroutine(RandomWalk());
 		
-	}	
+	}
+	
+	public void GoTo(Transform ToGo)
+	{
+		navMeshAgent.destination = ToGo.position;
+	}
 
-	IEnumerator RandomWalk()
+	public IEnumerator RandomWalk()
 	{
 		while (Points != null)
 		{
-			navMeshAgent.destination = Points[Random.Range(0, 3)].position;
-			yield return new WaitForSeconds(10);
+			Vector3 point = Points[Random.Range(0, 3)].position;
+			navMeshAgent.transform.LookAt(point);
+			navMeshAgent.destination = point;
+			yield return new WaitForSeconds(6);
 		}
 	}
 	

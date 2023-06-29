@@ -377,6 +377,7 @@
 "Assets/Scripts/BossemGameboardManager.cs"
 "Assets/Scripts/CharacterNavMesh.cs"
 "Assets/Scripts/Debug/MeshManagerOutput.cs"
+"Assets/Scripts/DiceScript.cs"
 "Assets/Scripts/EnviromentScript.cs"
 "Assets/Scripts/GameboardSpaceManager.cs"
 "Assets/Scripts/NavMeshManager.cs"

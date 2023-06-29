@@ -15,6 +15,10 @@ public class EnviromentScript : MonoBehaviour
 	[SerializeField]
 	private Transform PlayspaceParent;
 
+	//demo
+	[SerializeField]
+	private Transform Grid;
+
 
 
 
@@ -76,9 +80,9 @@ public class EnviromentScript : MonoBehaviour
 		PlayspaceParent.gameObject.SetActive(true);
 		int GenLength = StringGen.Length;
 
-		for (int i = 0; i < PlayspaceParent.transform.childCount; i++)
+		for (int i = 0; i < Grid.transform.childCount; i++)
 		{
-			PlayspaceParent.transform.GetChild(i).gameObject.GetComponentInChildren<TextMeshPro>().text = StringGen[Random.Range(0, GenLength)].ToString();
+			Grid.transform.GetChild(i).gameObject.GetComponentInChildren<TextMeshPro>().text = StringGen[Random.Range(0, GenLength)].ToString();
 		}
 		
 		//AlphaNumGrid.transform.localPosition = PlayspaceParent.transform.position;

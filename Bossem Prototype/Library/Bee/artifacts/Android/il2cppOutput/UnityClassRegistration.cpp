@@ -161,12 +161,14 @@ class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 class ParticleSystem; template <> void RegisterUnityClass<ParticleSystem>(const char*);
 class ParticleSystemRenderer; template <> void RegisterUnityClass<ParticleSystemRenderer>(const char*);
 class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
+class CapsuleCollider; template <> void RegisterUnityClass<CapsuleCollider>(const char*);
 class CharacterController; template <> void RegisterUnityClass<CharacterController>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicMaterial; template <> void RegisterUnityClass<PhysicMaterial>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
+class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
 class Collider2D; template <> void RegisterUnityClass<Collider2D>(const char*);
 class Joint2D; template <> void RegisterUnityClass<Joint2D>(const char*);
 class Physics2DSettings; template <> void RegisterUnityClass<Physics2DSettings>(const char*);
@@ -183,7 +185,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 93 non stripped classes
+	//Total: 95 non stripped classes
 	//0. NavMeshAgent
 	RegisterUnityClass<NavMeshAgent>("AI");
 	//1. NavMeshData
@@ -336,39 +338,43 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
 	//75. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//76. CharacterController
+	//76. CapsuleCollider
+	RegisterUnityClass<CapsuleCollider>("Physics");
+	//77. CharacterController
 	RegisterUnityClass<CharacterController>("Physics");
-	//77. Collider
+	//78. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//78. MeshCollider
+	//79. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//79. PhysicMaterial
+	//80. PhysicMaterial
 	RegisterUnityClass<PhysicMaterial>("Physics");
-	//80. PhysicsManager
+	//81. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//81. Rigidbody
+	//82. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//82. Collider2D
+	//83. SphereCollider
+	RegisterUnityClass<SphereCollider>("Physics");
+	//84. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//83. Joint2D
+	//85. Joint2D
 	RegisterUnityClass<Joint2D>("Physics2D");
-	//84. Physics2DSettings
+	//86. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//85. Rigidbody2D
+	//87. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//86. Terrain
+	//88. Terrain
 	RegisterUnityClass<Terrain>("Terrain");
-	//87. TerrainData
+	//89. TerrainData
 	RegisterUnityClass<TerrainData>("Terrain");
-	//88. Font
+	//90. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//89. TextMesh
+	//91. TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//90. Canvas
+	//92. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//91. CanvasGroup
+	//93. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//92. CanvasRenderer
+	//94. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

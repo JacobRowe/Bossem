@@ -53,10 +53,20 @@ using UnityEngine;
 
 		private void OnPlayspaceCreate()
 		{
-			if (_spawnedCursorObject != null)
+			if (_spawnedCursorObject == true)
 			{
 				_session.FrameUpdated -= _FrameUpdated;
-				DestroySpawnedCursor();
+			//DestroySpawnedCursor();
+
+			//demo
+			 _spawnedCursorObject.SetActive(false);
+
+			
+			}
+			else if (_spawnedCursorObject == false)
+			{
+			_spawnedCursorObject.SetActive(true);
+	
 			}
 			else
 			{
