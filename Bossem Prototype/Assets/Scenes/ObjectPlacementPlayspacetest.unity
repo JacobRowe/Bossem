@@ -5324,23 +5324,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3338475374528133174, guid: a101346503559384caae22d52a91e6c9, type: 3}
       propertyPath: m_LocalScale.x
-      value: -0.01
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3338475374528133174, guid: a101346503559384caae22d52a91e6c9, type: 3}
       propertyPath: m_LocalScale.y
-      value: -0.01
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3338475374528133174, guid: a101346503559384caae22d52a91e6c9, type: 3}
       propertyPath: m_LocalScale.z
-      value: -0.01
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3338475374528133174, guid: a101346503559384caae22d52a91e6c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.481
+      value: -0.0026
       objectReference: {fileID: 0}
     - target: {fileID: 3338475374528133174, guid: a101346503559384caae22d52a91e6c9, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338475374528133174, guid: a101346503559384caae22d52a91e6c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4769
       objectReference: {fileID: 0}
     - target: {fileID: 5615264883223644689, guid: a101346503559384caae22d52a91e6c9, type: 3}
       propertyPath: m_RootOrder
@@ -5421,7 +5425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayspaceParent: {fileID: 234581548}
   surface: {fileID: 234581549}
-  testCharacterPrefab: {fileID: 2015269533659848047, guid: 484ec6960806e8b47aa00c08a56dcf5c, type: 3}
+  testCharacterPrefab: {fileID: -4281292267238848422, guid: a429107c4ce3ce047a7c22ad78346fc5, type: 3}
   character: {fileID: 0}
   PointParent: {fileID: 1786201356}
   AiyuSpawn: {fileID: 8808044779739701361}
