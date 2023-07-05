@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Gameboard 2.unity
     guid: 8c324fe56b19dca448d0e9606edf2beb
+  - enabled: 0
+    path: Assets/Recognissimo/Samples/SpeechRecognizerExample/SpeechRecognizerExample.unity
+    guid: b3e96f1cf9f5047e5a9c184d0e31c210
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 10364b2b0b72b4a448a7c43de84c748b, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: d0633734a2c0df342ae375396a60f75e, type: 2}

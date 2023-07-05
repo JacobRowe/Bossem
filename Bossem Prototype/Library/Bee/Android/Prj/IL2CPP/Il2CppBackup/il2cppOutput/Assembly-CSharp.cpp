@@ -1013,8 +1013,8 @@ struct _TypeDeserializationContext_tC96C9598090EBDD64977D7368D25182A219E53DE;
 struct _TypeSerializationContext_t4B72B95994C3FEFA286B8E05E75B1A23D4E42208;
 // ARMeshSelect/<SelectMesh>d__18
 struct U3CSelectMeshU3Ed__18_t52E943EC64B42660FB2FE0E1A3C73EC14D9037A1;
-// ARPlayspaceController/<DemoAnimDelay>d__13
-struct U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52;
+// ARPlayspaceController/<DemoAnimDelay>d__14
+struct U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397;
 // UnityEngine.Application/LogCallback
 struct LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413;
 // Niantic.LightshipHub.Templates.BalloonAnimation/<MoveToTargetSmooth>d__4
@@ -1213,7 +1213,7 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CChangeMeshMaterialU3Ed__8_t9F8968F783E6D6E076A6B02ED3CCDA3928751DA8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CCoolDownSpawnU3Ed__11_tF15605EC18162FB1DFA275963F474E28B21FDED4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CDeactivateObjectU3Ed__10_t1307B454F705774183EF9931F382F58A9FA4F92F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGrowElementsU3Ed__12_tCBA258B0BAD54BAAE90FB876810C34E30232BF14_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CHighlightCoroutineU3Ed__9_t9E33944BDFB6FC962CDD3AD4D94907F88615028E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CMoveToTargetSmoothU3Ed__4_tE93C3DC908FB0E048BFAB0160CF85EAFDC02A6D3_il2cpp_TypeInfo_var;
@@ -1547,7 +1547,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* SyncStateHelpText_OnPeerStateReceived_m7303
 IL2CPP_EXTERN_C const RuntimeMethod* U3CChangeMeshMaterialU3Ed__8_System_Collections_IEnumerator_Reset_m31089034BC2BAABEF4FE8AF62B056B806675D3B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCoolDownSpawnU3Ed__11_System_Collections_IEnumerator_Reset_m9B79BB71C82F85164C95C952F69CF3BCFF3AF07B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDeactivateObjectU3Ed__10_System_Collections_IEnumerator_Reset_mF6607E8D04A432FCC2FA5756F959EE67E75DE5BA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CDemoAnimDelayU3Ed__13_System_Collections_IEnumerator_Reset_m54B31B6E35741BAA61A5181DA067F69B06A054CC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDemoAnimDelayU3Ed__14_System_Collections_IEnumerator_Reset_m052B04EB2D45EC33C451893F4417DD0D8DDE6D94_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGrowElementsU3Ed__12_System_Collections_IEnumerator_Reset_mCD134F2089B627D5CA3DC666A1ACE74438CBA8B8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CHighlightCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_mBDC7DED1B9629586B725FC6FB47E9E1F2DB4E187_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CMoveToTargetSmoothU3Ed__4_System_Collections_IEnumerator_Reset_mC306FBD8BA3748558CF7CA7D19D2A459C28AA30E_RuntimeMethod_var;
@@ -2252,18 +2252,18 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// ARPlayspaceController/<DemoAnimDelay>d__13
-struct U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52  : public RuntimeObject
+// ARPlayspaceController/<DemoAnimDelay>d__14
+struct U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397  : public RuntimeObject
 {
-	// System.Int32 ARPlayspaceController/<DemoAnimDelay>d__13::<>1__state
+	// System.Int32 ARPlayspaceController/<DemoAnimDelay>d__14::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object ARPlayspaceController/<DemoAnimDelay>d__13::<>2__current
+	// System.Object ARPlayspaceController/<DemoAnimDelay>d__14::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Single ARPlayspaceController/<DemoAnimDelay>d__13::delay
+	// System.Single ARPlayspaceController/<DemoAnimDelay>d__14::delay
 	float ___delay_2;
-	// ARPlayspaceController ARPlayspaceController/<DemoAnimDelay>d__13::<>4__this
+	// ARPlayspaceController ARPlayspaceController/<DemoAnimDelay>d__14::<>4__this
 	ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3* ___U3CU3E4__this_3;
-	// System.String ARPlayspaceController/<DemoAnimDelay>d__13::anim
+	// System.String ARPlayspaceController/<DemoAnimDelay>d__14::anim
 	String_t* ___anim_4;
 };
 
@@ -5549,12 +5549,14 @@ struct ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3  : public
 	CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* ___character_7;
 	// UnityEngine.GameObject ARPlayspaceController::characterObj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___characterObj_8;
+	// System.Boolean ARPlayspaceController::AiyuActive
+	bool ___AiyuActive_10;
 	// UnityEngine.Transform ARPlayspaceController::PointParent
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PointParent_10;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PointParent_11;
 	// UnityEngine.Transform ARPlayspaceController::AiyuSpawn
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___AiyuSpawn_11;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___AiyuSpawn_12;
 	// UnityEngine.Transform ARPlayspaceController::ObjectToGo
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ObjectToGo_12;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ObjectToGo_13;
 };
 
 struct ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields
@@ -5562,7 +5564,7 @@ struct ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFie
 	// System.Boolean ARPlayspaceController::PlaySpaceLocked
 	bool ___PlaySpaceLocked_9;
 	// UnityEngine.Rigidbody ARPlayspaceController::rb
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb_13;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb_14;
 };
 
 // Niantic.LightshipHub.Templates.BalloonAnimation
@@ -8736,8 +8738,8 @@ inline void List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline (List_
 }
 // System.Collections.IEnumerator ARPlayspaceController::DemoAnimDelay(System.String,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ARPlayspaceController_DemoAnimDelay_m29369EA1D0C07E07C805398CE6B4CD94C2566D74 (ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3* __this, String_t* ___anim0, float ___delay1, const RuntimeMethod* method) ;
-// System.Void ARPlayspaceController/<DemoAnimDelay>d__13::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__13__ctor_m9E1358F0D3D85FD7A528F85AF34285D29B157507 (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void ARPlayspaceController/<DemoAnimDelay>d__14::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__14__ctor_mAEC0A0C98295DDBDAD55CFCEE358FBD31C34E94C (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void CharacterNavMesh::GoTo(UnityEngine.Transform)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterNavMesh_GoTo_mD9CA08C467400239A294ACC2ABC8850D6CD0F53A (CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ToGo0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator CharacterNavMesh::RandomWalk()
@@ -11984,12 +11986,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_OnEnable_m7D155B70
 		((PlacementController_t6D593476A415725C26BAF9E428F0492A5E506B05_StaticFields*)il2cpp_codegen_static_fields_for(PlacementController_t6D593476A415725C26BAF9E428F0492A5E506B05_il2cpp_TypeInfo_var))->___onPlayspaceCreate_6 = ((OnPlayspaceCreate_t76B9D1A1C2D17C0B6698FD53193EDA47E2795B9B*)CastclassSealed((RuntimeObject*)L_2, OnPlayspaceCreate_t76B9D1A1C2D17C0B6698FD53193EDA47E2795B9B_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((PlacementController_t6D593476A415725C26BAF9E428F0492A5E506B05_StaticFields*)il2cpp_codegen_static_fields_for(PlacementController_t6D593476A415725C26BAF9E428F0492A5E506B05_il2cpp_TypeInfo_var))->___onPlayspaceCreate_6), (void*)((OnPlayspaceCreate_t76B9D1A1C2D17C0B6698FD53193EDA47E2795B9B*)CastclassSealed((RuntimeObject*)L_2, OnPlayspaceCreate_t76B9D1A1C2D17C0B6698FD53193EDA47E2795B9B_il2cpp_TypeInfo_var)));
 		// rb = ObjectToGo.GetComponent<Rigidbody>();
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___ObjectToGo_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___ObjectToGo_13;
 		NullCheck(L_3);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4;
 		L_4 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(L_3, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
-		((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_13 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_13), (void*)L_4);
+		((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_14 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_14), (void*)L_4);
 		// }
 		return;
 	}
@@ -12037,7 +12039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_Spawn_mB580AA99183
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___AiyuSpawn_11;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___AiyuSpawn_12;
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
@@ -12073,7 +12075,7 @@ IL_0078:
 		CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* L_17 = __this->___character_7;
 		NullCheck(L_17);
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_18 = L_17->___Points_6;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___PointParent_10;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___PointParent_11;
 		int32_t L_20 = V_0;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -12089,7 +12091,7 @@ IL_00a3:
 	{
 		// for (int i = 0; i < PointParent.gameObject.transform.childCount; i++)
 		int32_t L_23 = V_0;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = __this->___PointParent_10;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = __this->___PointParent_11;
 		NullCheck(L_24);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
 		L_25 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_24, NULL);
@@ -12118,10 +12120,10 @@ IL_00a3:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_DemoAnim_mC4368389289C883E6CB27012321F37CBD1D0ECC3 (ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3* __this, String_t* ___anim0, const RuntimeMethod* method) 
 {
 	{
-		// StartCoroutine(DemoAnimDelay(anim, 3f));
+		// StartCoroutine(DemoAnimDelay(anim, .5f));
 		String_t* L_0 = ___anim0;
 		RuntimeObject* L_1;
-		L_1 = ARPlayspaceController_DemoAnimDelay_m29369EA1D0C07E07C805398CE6B4CD94C2566D74(__this, L_0, (3.0f), NULL);
+		L_1 = ARPlayspaceController_DemoAnimDelay_m29369EA1D0C07E07C805398CE6B4CD94C2566D74(__this, L_0, (0.5f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
 		// }
@@ -12134,23 +12136,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ARPlayspaceController_DemoAnim
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* L_0 = (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52*)il2cpp_codegen_object_new(U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52_il2cpp_TypeInfo_var);
+		U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* L_0 = (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397*)il2cpp_codegen_object_new(U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CDemoAnimDelayU3Ed__13__ctor_m9E1358F0D3D85FD7A528F85AF34285D29B157507(L_0, 0, NULL);
-		U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* L_1 = L_0;
+		U3CDemoAnimDelayU3Ed__14__ctor_mAEC0A0C98295DDBDAD55CFCEE358FBD31C34E94C(L_0, 0, NULL);
+		U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
-		U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* L_2 = L_1;
+		U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* L_2 = L_1;
 		String_t* L_3 = ___anim0;
 		NullCheck(L_2);
 		L_2->___anim_4 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___anim_4), (void*)L_3);
-		U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* L_4 = L_2;
+		U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* L_4 = L_2;
 		float L_5 = ___delay1;
 		NullCheck(L_4);
 		L_4->___delay_2 = L_5;
@@ -12163,7 +12165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_AgentGoTo_m5172353
 	{
 		// character.GoTo(ObjectToGo);
 		CharacterNavMesh_t22ABAD310AED7CB4994C535294AEFC4318409B6B* L_0 = __this->___character_7;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___ObjectToGo_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___ObjectToGo_13;
 		NullCheck(L_0);
 		CharacterNavMesh_GoTo_mD9CA08C467400239A294ACC2ABC8850D6CD0F53A(L_0, L_1, NULL);
 		// }
@@ -12282,7 +12284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_DemoRoll_mDF14BFD9
 		L_2 = Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8(0, ((int32_t)300), NULL);
 		V_2 = ((float)L_2);
 		// rb.AddForce(transform.up * 300);
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_13;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_14;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
@@ -12293,7 +12295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController_DemoRoll_mDF14BFD9
 		NullCheck(L_3);
 		Rigidbody_AddForce_m7A3EEEED21F986917107CBA6CC0106DCBC212198(L_3, L_6, NULL);
 		// rb.AddTorque(x, y, z);
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_13;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_14;
 		float L_8 = V_0;
 		float L_9 = V_1;
 		float L_10 = V_2;
@@ -12319,8 +12321,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlayspaceController__ctor_mE9EC2FC6E3A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void ARPlayspaceController/<DemoAnimDelay>d__13::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__13__ctor_m9E1358F0D3D85FD7A528F85AF34285D29B157507 (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void ARPlayspaceController/<DemoAnimDelay>d__14::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__14__ctor_mAEC0A0C98295DDBDAD55CFCEE358FBD31C34E94C (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -12329,15 +12331,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__13__ctor_m9E1358F0
 		return;
 	}
 }
-// System.Void ARPlayspaceController/<DemoAnimDelay>d__13::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__13_System_IDisposable_Dispose_m671C6280A5BED55F7811F48BF816CFFCA7B98CBE (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, const RuntimeMethod* method) 
+// System.Void ARPlayspaceController/<DemoAnimDelay>d__14::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__14_System_IDisposable_Dispose_m32484C80D3F9BCF489D7C47E96853188D8741E4A (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean ARPlayspaceController/<DemoAnimDelay>d__13::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDemoAnimDelayU3Ed__13_MoveNext_mAE963E987E3FCF19AF4CA392D5AFDA85C99373E4 (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, const RuntimeMethod* method) 
+// System.Boolean ARPlayspaceController/<DemoAnimDelay>d__14::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDemoAnimDelayU3Ed__14_MoveNext_m8FDF27804FB23F6C8B2F5E90BC1827B7B28DEA8E (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12414,7 +12416,7 @@ IL_0043:
 		}
 	}
 	{
-		// yield return new WaitForSeconds(.5f);
+		// yield return new WaitForSeconds(0.5f);
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_11 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_11, (0.5f), NULL);
@@ -12440,7 +12442,7 @@ IL_008b:
 		L_14 = Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8(0, ((int32_t)300), NULL);
 		V_4 = ((float)L_14);
 		// rb.AddForce(transform.up * 300);
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_13;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_14;
 		ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3* L_16 = V_1;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -12453,7 +12455,7 @@ IL_008b:
 		NullCheck(L_15);
 		Rigidbody_AddForce_m7A3EEEED21F986917107CBA6CC0106DCBC212198(L_15, L_19, NULL);
 		// rb.AddTorque(x, y, z);
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_20 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_13;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_20 = ((ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_StaticFields*)il2cpp_codegen_static_fields_for(ARPlayspaceController_t4710B15E1860BFD1F02B8E2CCCE5DBB8CB066CE3_il2cpp_TypeInfo_var))->___rb_14;
 		float L_21 = V_2;
 		float L_22 = V_3;
 		float L_23 = V_4;
@@ -12467,26 +12469,26 @@ IL_00e7:
 		return (bool)0;
 	}
 }
-// System.Object ARPlayspaceController/<DemoAnimDelay>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDemoAnimDelayU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m319C2A96CF0C9233694ED56D01C930180D6E4665 (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, const RuntimeMethod* method) 
+// System.Object ARPlayspaceController/<DemoAnimDelay>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDemoAnimDelayU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB96DDC50ABDEB80EB27FFAA11F6F30B6B9DB4FEE (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void ARPlayspaceController/<DemoAnimDelay>d__13::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__13_System_Collections_IEnumerator_Reset_m54B31B6E35741BAA61A5181DA067F69B06A054CC (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, const RuntimeMethod* method) 
+// System.Void ARPlayspaceController/<DemoAnimDelay>d__14::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDemoAnimDelayU3Ed__14_System_Collections_IEnumerator_Reset_m052B04EB2D45EC33C451893F4417DD0D8DDE6D94 (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDemoAnimDelayU3Ed__13_System_Collections_IEnumerator_Reset_m54B31B6E35741BAA61A5181DA067F69B06A054CC_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDemoAnimDelayU3Ed__14_System_Collections_IEnumerator_Reset_m052B04EB2D45EC33C451893F4417DD0D8DDE6D94_RuntimeMethod_var)));
 	}
 }
-// System.Object ARPlayspaceController/<DemoAnimDelay>d__13::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDemoAnimDelayU3Ed__13_System_Collections_IEnumerator_get_Current_mCAF264E50FBA6D7F835F7FB27699B4B89ADE82AC (U3CDemoAnimDelayU3Ed__13_t90F00B93B7AA8220DC4FC39C3DE1E28BDF332D52* __this, const RuntimeMethod* method) 
+// System.Object ARPlayspaceController/<DemoAnimDelay>d__14::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDemoAnimDelayU3Ed__14_System_Collections_IEnumerator_get_Current_m427CF1881C9926305A0F31C34297D0E3023725D4 (U3CDemoAnimDelayU3Ed__14_t070DF216FF9F691F98E91966876A062E677EA397* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;

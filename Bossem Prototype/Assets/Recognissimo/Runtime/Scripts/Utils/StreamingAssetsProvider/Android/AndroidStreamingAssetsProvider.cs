@@ -37,10 +37,12 @@ namespace Recognissimo.Utils.StreamingAssetsProvider.Android
 
         public IEnumerator Initialize()
         {
-            if (_mode == ProvisionMode.Mount)
+            yield return _mode switch
             {
-                yield return PrepareForMount();
-            }
+                ProvisionMode.Unpack => PrepareForExtraction(),
+                ProvisionMode.Mount => PrepareForMount(),
+                _ => throw new ArgumentOutOfRangeException(nameof(_mode))
+            };
         }
 
         public IEnumerator Populate(string streamingAssetsRelativePath, StreamingAssetsProvisionFailedCallback callback)
@@ -67,6 +69,11 @@ namespace Recognissimo.Utils.StreamingAssetsProvider.Android
             };
         }
 
+        private IEnumerator PrepareForExtraction()
+        {
+            yield return _packedStreamingAssetsProvider.Initialize();
+        }
+    
         private IEnumerator PrepareForMount()
         {
             // if (!AndroidAssetPacks.coreUnityAssetPacksDownloaded && !File.Exists(_containerPath))
@@ -92,6 +99,8 @@ namespace Recognissimo.Utils.StreamingAssetsProvider.Android
             Debug.LogWarning("Cannot mount OBB, entries will be extracted to persistent storage");
 
             _mode = ProvisionMode.Unpack;
+            
+            yield return PrepareForExtraction();
         }
 
         private static Container ResolveContainer(string streamingAssetsPath)

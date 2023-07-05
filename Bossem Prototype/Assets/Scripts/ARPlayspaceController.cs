@@ -21,6 +21,9 @@ public class ARPlayspaceController : MonoBehaviour
 
 	public static bool PlaySpaceLocked;
 
+	//voice control
+	private bool AiyuActive = false;
+
 	//test
 	public Transform PointParent;
 
@@ -67,7 +70,7 @@ public class ARPlayspaceController : MonoBehaviour
 	
 	public void DemoAnim(string anim)
 	{
-		StartCoroutine(DemoAnimDelay(anim, 3f));
+		StartCoroutine(DemoAnimDelay(anim, .5f));
 	}
 
 	public IEnumerator DemoAnimDelay(string anim, float delay)
@@ -77,13 +80,15 @@ public class ARPlayspaceController : MonoBehaviour
 
 		if (anim == "Kick")
 		{
-			yield return new WaitForSeconds(.5f);
+
+			yield return new WaitForSeconds(0.5f);
 			float x = Random.Range(0, 300);
 			float y = Random.Range(0, 300);
 			float z = Random.Range(0, 300);
 
 			rb.AddForce(transform.up * 300);
 			rb.AddTorque(x, y, z);
+
 		}
 
 	}

@@ -268,8 +268,10 @@ struct ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4;
 struct U3CInitializeU3Ed__5_t33C98160FCD87652DF3C8029C8C9C797FA9889A3;
 // Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6
 struct U3CPopulateU3Ed__6_t70CDB99F183E445DD4B655CE84BE80076C278984;
-// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8
-struct U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F;
+// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8
+struct U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE;
+// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9
+struct U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA;
 // Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter
 struct ObbMounter_t81246872CF5572E641248CC8776352CA932E6809;
 // Recognissimo.Utils.Network.DownloadManager/<>c
@@ -361,7 +363,8 @@ IL2CPP_EXTERN_C RuntimeClass* U3CInitializeU3Ed__5_t33C98160FCD87652DF3C8029C8C9
 IL2CPP_EXTERN_C RuntimeClass* U3CInitializeU3Ed__8_t446D627C77E684909057CEA1A98F41009446D5EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CPopulateU3Ed__6_t70CDB99F183E445DD4B655CE84BE80076C278984_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CPopulateU3Ed__9_tD3737D8AE8B5DF188CDDFC1B8935C625262B7BFA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass11_0_t5829FA875D98FBFFDD09C9FB1A564CD78922EA29_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass12_0_tE547EDD25CEC46AC0D67CF3A003EBCFD8F0E0B4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass1_0_t2400AAE213E08DBC05270BD903793F9D95664866_il2cpp_TypeInfo_var;
@@ -445,12 +448,14 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadU3Ed__13_MoveNext_mE114115F6F8C6
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadU3Ed__13_System_Collections_IEnumerator_Reset_mB97EE642D980BC4184A42A612579D829A5BD9185_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CExtractEntriesU3Ed__1_System_Collections_IEnumerator_Reset_mA6981E7C73ECF9BD3F82DB180B4A311501860183_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CExtractU3Ed__0_System_Collections_IEnumerator_Reset_mD6CA86B53EA0CA34CD636D15AB44C9DDCEB9CDAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__5_MoveNext_mB8450B30FF6DC70E8EE12CBE10D3619EE2987046_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__5_System_Collections_IEnumerator_Reset_m562EE2762B055235D3F6FE7204B9AF4C05A3990E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CInitializeU3Ed__8_System_Collections_IEnumerator_Reset_mD03D11E595052AF1B12006E1B333FABD019BB32F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CPopulateU3Ed__6_MoveNext_m2826B5622F90BB570E606271FB0AC5577F91BCF8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CPopulateU3Ed__6_System_Collections_IEnumerator_Reset_mA3E9133EA9F26E6FE228F3216F32D3CEDC352266_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CPopulateU3Ed__9_System_Collections_IEnumerator_Reset_mDFA58E4F30D2AFA8459A5D9D3ED12B12314C2EB2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_Reset_m159CD9E946F0955628F55577146579F2C83FCCE1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_Reset_m9BBC089DFBD388152A44E2311653F6C0D0468702_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_Reset_mBF49C5CFB5C3A387A883AAA9BF6E417EF25802B5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetDownloadsU3Eb__9_0_m1BF4DC252FC9F30EE6BB79F0D0CBDA8CA8886DBC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass11_0_U3CRemoveDownloadU3Eb__0_m6D2869BB627C4837223BC023598D4366526EE31D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass12_0_U3CRemoveDownloadsExceptU3Eb__0_mD88E53D7CC66B20AE72CC7200D1C7DD9E014673D_RuntimeMethod_var;
@@ -760,14 +765,25 @@ struct U3CPopulateU3Ed__6_t70CDB99F183E445DD4B655CE84BE80076C278984  : public Ru
 	StreamingAssetsProvisionFailedCallback_t36D428A249209F1EBAB35DBA95DC249F218AC8CF* ___callback_4;
 };
 
-// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8
-struct U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F  : public RuntimeObject
+// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8
+struct U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE  : public RuntimeObject
 {
-	// System.Int32 Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::<>1__state
+	// System.Int32 Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::<>2__current
+	// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::<>4__this
+	// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::<>4__this
+	AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* ___U3CU3E4__this_2;
+};
+
+// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9
+struct U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA  : public RuntimeObject
+{
+	// System.Int32 Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::<>4__this
 	AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* ___U3CU3E4__this_2;
 };
 
@@ -2327,8 +2343,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPopulateU3Ed__6__ctor_m4DA75FC49A5821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ObbMounter_MountedObbPath_mCA3FDCF56F7B35B96D36F017207066B4A7F0DDF3 (ObbMounter_t81246872CF5572E641248CC8776352CA932E6809* __this, const RuntimeMethod* method) ;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
-// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__8__ctor_m6D9266F9520677EE1D61F74A1A947CBD2E757399 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForExtractionU3Ed__8__ctor_m529B3B22FE8417B693866428CCA19E30C69CBB8A (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__9__ctor_mFC999C7C817FE93A348B0512747B16D04C622591 (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Boolean System.String::Contains(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3 (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
@@ -2355,6 +2373,8 @@ inline String_t* AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F2590083141
 {
 	return ((  String_t* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared)(__this, ___methodName0, ___args1, method);
 }
+// System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForExtraction()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidStreamingAssetsProvider_PrepareForExtraction_m947F42466072600418E25EBD6E7BFA01F9BA1BE5 (AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForMount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidStreamingAssetsProvider_PrepareForMount_m3B9F18AEB964ADD80E1DC1853F62C550A92DD872 (AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Android.AndroidAssetPacks::get_coreUnityAssetPacksDownloaded()
@@ -5027,20 +5047,40 @@ IL_003f:
 		return L_12;
 	}
 }
+// System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForExtraction()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidStreamingAssetsProvider_PrepareForExtraction_m947F42466072600418E25EBD6E7BFA01F9BA1BE5 (AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* L_0 = (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE*)il2cpp_codegen_object_new(U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CPrepareForExtractionU3Ed__8__ctor_m529B3B22FE8417B693866428CCA19E30C69CBB8A(L_0, 0, NULL);
+		U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
 // System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForMount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidStreamingAssetsProvider_PrepareForMount_m3B9F18AEB964ADD80E1DC1853F62C550A92DD872 (AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* L_0 = (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F*)il2cpp_codegen_object_new(U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F_il2cpp_TypeInfo_var);
+		U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* L_0 = (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA*)il2cpp_codegen_object_new(U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CPrepareForMountU3Ed__8__ctor_m6D9266F9520677EE1D61F74A1A947CBD2E757399(L_0, 0, NULL);
-		U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* L_1 = L_0;
+		U3CPrepareForMountU3Ed__9__ctor_mFC999C7C817FE93A348B0512747B16D04C622591(L_0, 0, NULL);
+		U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -5330,6 +5370,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__5_MoveNext_mB8450B30F
 {
 	int32_t V_0 = 0;
 	AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	int32_t V_3 = 0;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
@@ -5345,7 +5387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__5_MoveNext_mB8450B30F
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)1)))
 		{
-			goto IL_003c;
+			goto IL_005b;
 		}
 	}
 	{
@@ -5355,34 +5397,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__5_MoveNext_mB8450B30F
 IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		// if (_mode == ProvisionMode.Mount)
+		// yield return _mode switch
+		// {
+		//     ProvisionMode.Unpack => PrepareForExtraction(),
+		//     ProvisionMode.Mount => PrepareForMount(),
+		//     _ => throw new ArgumentOutOfRangeException(nameof(_mode))
+		// };
 		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_4 = V_1;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->____mode_3;
-		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		V_3 = L_5;
+		int32_t L_6 = V_3;
+		if (!L_6)
 		{
-			goto IL_0043;
+			goto IL_002e;
 		}
 	}
 	{
-		// yield return PrepareForMount();
-		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_6 = V_1;
-		NullCheck(L_6);
-		RuntimeObject* L_7;
-		L_7 = AndroidStreamingAssetsProvider_PrepareForMount_m3B9F18AEB964ADD80E1DC1853F62C550A92DD872(L_6, NULL);
-		__this->___U3CU3E2__current_1 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_7);
+		int32_t L_7 = V_3;
+		if ((((int32_t)L_7) == ((int32_t)1)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		goto IL_0040;
+	}
+
+IL_002e:
+	{
+		// ProvisionMode.Unpack => PrepareForExtraction(),
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_8 = V_1;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = AndroidStreamingAssetsProvider_PrepareForExtraction_m947F42466072600418E25EBD6E7BFA01F9BA1BE5(L_8, NULL);
+		V_2 = L_9;
+		goto IL_004b;
+	}
+
+IL_0037:
+	{
+		// ProvisionMode.Mount => PrepareForMount(),
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_10 = V_1;
+		NullCheck(L_10);
+		RuntimeObject* L_11;
+		L_11 = AndroidStreamingAssetsProvider_PrepareForMount_m3B9F18AEB964ADD80E1DC1853F62C550A92DD872(L_10, NULL);
+		V_2 = L_11;
+		goto IL_004b;
+	}
+
+IL_0040:
+	{
+		// _ => throw new ArgumentOutOfRangeException(nameof(_mode))
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_12 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_12);
+		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_12, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4BB733D3D97DFDD6EA9B75F383721A280139519C)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeU3Ed__5_MoveNext_mB8450B30FF6DC70E8EE12CBE10D3619EE2987046_RuntimeMethod_var)));
+	}
+
+IL_004b:
+	{
+		RuntimeObject* L_13 = V_2;
+		__this->___U3CU3E2__current_1 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_13);
 		__this->___U3CU3E1__state_0 = 1;
 		return (bool)1;
 	}
 
-IL_003c:
+IL_005b:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-	}
-
-IL_0043:
-	{
 		// }
 		return (bool)0;
 	}
@@ -5576,8 +5660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPopulateU3Ed__6_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__8__ctor_m6D9266F9520677EE1D61F74A1A947CBD2E757399 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForExtractionU3Ed__8__ctor_m529B3B22FE8417B693866428CCA19E30C69CBB8A (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -5586,15 +5670,122 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__8__ctor_m6D9266F
 		return;
 	}
 }
-// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__8_System_IDisposable_Dispose_mC863AEDAB953E973B6E662ED6486E4C717CD5492 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, const RuntimeMethod* method) 
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForExtractionU3Ed__8_System_IDisposable_Dispose_mD7343C580B0535B6C2D24999653B4584D39FD67E (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPrepareForMountU3Ed__8_MoveNext_m3413BB0995D4B0805E54476002BD9D96B8C3CBE3 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, const RuntimeMethod* method) 
+// System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPrepareForExtractionU3Ed__8_MoveNext_mB3D4C48AAE3D5E1FF50B04815F6F418A2456BA93 (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// yield return _packedStreamingAssetsProvider.Initialize();
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_4 = V_1;
+		NullCheck(L_4);
+		RuntimeObject* L_5 = L_4->____packedStreamingAssetsProvider_2;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.IStreamingAssetsProvider::Initialize() */, IStreamingAssetsProvider_tF1C9594467A93213951CF657BF0A126D5D44165E_il2cpp_TypeInfo_var, L_5);
+		__this->___U3CU3E2__current_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_6);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPrepareForExtractionU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m04A01931B5BD8CD7EAAF41BE8B2FA7B252B7AFD2 (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_Reset_m9BBC089DFBD388152A44E2311653F6C0D0468702 (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_Reset_m9BBC089DFBD388152A44E2311653F6C0D0468702_RuntimeMethod_var)));
+	}
+}
+// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_get_Current_m021CD269C3420366CE75B09513D32515BDC3087A (U3CPrepareForExtractionU3Ed__8_t6472F6C8B2BC9DFEB4A2BBB916DFBD26BA89D5AE* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__9__ctor_mFC999C7C817FE93A348B0512747B16D04C622591 (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__9_System_IDisposable_Dispose_m7F31B7AFCD4141F2F66E0601C3F7D0ED893FB972 (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPrepareForMountU3Ed__9_MoveNext_m8ED393B25316BC21E07F28A814CBB77A7C06F7ED (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5615,31 +5806,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPrepareForMountU3Ed__8_MoveNext_m3413
 		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_1 = __this->___U3CU3E4__this_2;
 		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if (!L_2)
+		switch (L_2)
 		{
-			goto IL_0017;
-		}
-	}
-	{
-		int32_t L_3 = V_0;
-		if ((((int32_t)L_3) == ((int32_t)1)))
-		{
-			goto IL_0054;
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_005f;
+			}
+			case 2:
+			{
+				goto IL_009b;
+			}
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_0017:
+IL_0022:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// if (!AndroidAssetPacks.coreUnityAssetPacksDownloaded)
-		bool L_4;
-		L_4 = AndroidAssetPacks_get_coreUnityAssetPacksDownloaded_mE84622BAEC057E092821B81F8F5755E67B6E6068(NULL);
-		if (L_4)
+		bool L_3;
+		L_3 = AndroidAssetPacks_get_coreUnityAssetPacksDownloaded_mE84622BAEC057E092821B81F8F5755E67B6E6068(NULL);
+		if (L_3)
 		{
-			goto IL_002f;
+			goto IL_003a;
 		}
 	}
 	{
@@ -5648,37 +5843,37 @@ IL_0017:
 		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(_stringLiteral8CB8A72A7FF317BEE8E87BC01E4AEF13DDE1B3BA, NULL);
 	}
 
-IL_002f:
+IL_003a:
 	{
 		// yield return new WaitWhile(_obbMounter.IsLoading);
-		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_5 = V_1;
-		NullCheck(L_5);
-		ObbMounter_t81246872CF5572E641248CC8776352CA932E6809* L_6 = L_5->____obbMounter_1;
-		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_7 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_4 = V_1;
+		NullCheck(L_4);
+		ObbMounter_t81246872CF5572E641248CC8776352CA932E6809* L_5 = L_4->____obbMounter_1;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_6 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_6, L_5, (intptr_t)((void*)ObbMounter_IsLoading_mB633974E4EE6F7A6A7C92A558951BBBFD90E5259_RuntimeMethod_var), NULL);
+		WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_7 = (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967*)il2cpp_codegen_object_new(WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
 		NullCheck(L_7);
-		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_7, L_6, (intptr_t)((void*)ObbMounter_IsLoading_mB633974E4EE6F7A6A7C92A558951BBBFD90E5259_RuntimeMethod_var), NULL);
-		WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_8 = (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967*)il2cpp_codegen_object_new(WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
-		NullCheck(L_8);
-		WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C(L_8, L_7, NULL);
-		__this->___U3CU3E2__current_1 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_8);
+		WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C(L_7, L_6, NULL);
+		__this->___U3CU3E2__current_1 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_7);
 		__this->___U3CU3E1__state_0 = 1;
 		return (bool)1;
 	}
 
-IL_0054:
+IL_005f:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// if (_obbMounter.IsMounted())
-		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_9 = V_1;
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_8 = V_1;
+		NullCheck(L_8);
+		ObbMounter_t81246872CF5572E641248CC8776352CA932E6809* L_9 = L_8->____obbMounter_1;
 		NullCheck(L_9);
-		ObbMounter_t81246872CF5572E641248CC8776352CA932E6809* L_10 = L_9->____obbMounter_1;
-		NullCheck(L_10);
-		bool L_11;
-		L_11 = ObbMounter_IsMounted_mB9CFEACD906E4599C9A82F67BB40789B388885E4(L_10, NULL);
-		if (!L_11)
+		bool L_10;
+		L_10 = ObbMounter_IsMounted_mB9CFEACD906E4599C9A82F67BB40789B388885E4(L_9, NULL);
+		if (!L_10)
 		{
-			goto IL_006a;
+			goto IL_0075;
 		}
 	}
 	{
@@ -5686,39 +5881,53 @@ IL_0054:
 		return (bool)0;
 	}
 
-IL_006a:
+IL_0075:
 	{
 		// Debug.LogWarning("Cannot mount OBB, entries will be extracted to persistent storage");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(_stringLiteral26BCFE548F96D464C62F4ED551AF19A7008A3D87, NULL);
 		// _mode = ProvisionMode.Unpack;
+		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_11 = V_1;
+		NullCheck(L_11);
+		L_11->____mode_3 = 0;
+		// yield return PrepareForExtraction();
 		AndroidStreamingAssetsProvider_t759A007110F2B54238BCDD9AD5CB8269B21F439A* L_12 = V_1;
 		NullCheck(L_12);
-		L_12->____mode_3 = 0;
+		RuntimeObject* L_13;
+		L_13 = AndroidStreamingAssetsProvider_PrepareForExtraction_m947F42466072600418E25EBD6E7BFA01F9BA1BE5(L_12, NULL);
+		__this->___U3CU3E2__current_1 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_13);
+		__this->___U3CU3E1__state_0 = 2;
+		return (bool)1;
+	}
+
+IL_009b:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
 		// }
 		return (bool)0;
 	}
 }
-// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPrepareForMountU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEECEADF0A707166E3EDADA7791FF3EDD4E19D027 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, const RuntimeMethod* method) 
+// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPrepareForMountU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m06C2934C331101D2370A4E0FD0A276C0330F50B3 (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_Reset_m159CD9E946F0955628F55577146579F2C83FCCE1 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, const RuntimeMethod* method) 
+// System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_Reset_mBF49C5CFB5C3A387A883AAA9BF6E417EF25802B5 (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_Reset_m159CD9E946F0955628F55577146579F2C83FCCE1_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_Reset_mBF49C5CFB5C3A387A883AAA9BF6E417EF25802B5_RuntimeMethod_var)));
 	}
 }
-// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_get_Current_m13E670AACACF3F0B0BF77447C4D39C009BBDFDB2 (U3CPrepareForMountU3Ed__8_t661D6BB3BD2EA4033F4ACDF0907E1D8BEE4D236F* __this, const RuntimeMethod* method) 
+// System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_get_Current_m616404ADA1067018B3A34BF5BE069556B4571E58 (U3CPrepareForMountU3Ed__9_tFCD6464E66CE23323C1F700AED9322E848EBCFEA* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;

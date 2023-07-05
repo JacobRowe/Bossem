@@ -145,185 +145,199 @@ extern void AndroidStreamingAssetsProvider_Initialize_mD5A5272C731A14ACB84F40067
 extern void AndroidStreamingAssetsProvider_Populate_m7A2D9705B4A0FC0DDBE025C7B55DE4108EFC60F1 (void);
 // 0x00000045 System.String Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::Provide(System.String,Recognissimo.Utils.StreamingAssetsProvider.StreamingAssetsProvisionFailedCallback)
 extern void AndroidStreamingAssetsProvider_Provide_mB7BB0E3C2C2B1A9063824F1D29E5FCB869F34001 (void);
-// 0x00000046 System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForMount()
+// 0x00000046 System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForExtraction()
+extern void AndroidStreamingAssetsProvider_PrepareForExtraction_m947F42466072600418E25EBD6E7BFA01F9BA1BE5 (void);
+// 0x00000047 System.Collections.IEnumerator Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::PrepareForMount()
 extern void AndroidStreamingAssetsProvider_PrepareForMount_m3B9F18AEB964ADD80E1DC1853F62C550A92DD872 (void);
-// 0x00000047 Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/Container Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::ResolveContainer(System.String)
+// 0x00000048 Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/Container Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider::ResolveContainer(System.String)
 extern void AndroidStreamingAssetsProvider_ResolveContainer_mB4BCF22AB530A3AE54B2391D2F119294EAACE7E7 (void);
-// 0x00000048 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::.ctor(System.String)
+// 0x00000049 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::.ctor(System.String)
 extern void ObbMounter__ctor_mE60A35719C41928CC8FD5F4B81E137836036A91B (void);
-// 0x00000049 System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::IsLoading()
+// 0x0000004A System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::IsLoading()
 extern void ObbMounter_IsLoading_mB633974E4EE6F7A6A7C92A558951BBBFD90E5259 (void);
-// 0x0000004A System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::IsMounted()
+// 0x0000004B System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::IsMounted()
 extern void ObbMounter_IsMounted_mB9CFEACD906E4599C9A82F67BB40789B388885E4 (void);
-// 0x0000004B System.String Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::MountedObbPath()
+// 0x0000004C System.String Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/ObbMounter::MountedObbPath()
 extern void ObbMounter_MountedObbPath_mCA3FDCF56F7B35B96D36F017207066B4A7F0DDF3 (void);
-// 0x0000004C System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::.ctor(System.Int32)
+// 0x0000004D System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::.ctor(System.Int32)
 extern void U3CInitializeU3Ed__5__ctor_m6F4AF89A8683128BD50E7087AA2BF2EEB3EF7774 (void);
-// 0x0000004D System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.IDisposable.Dispose()
+// 0x0000004E System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.IDisposable.Dispose()
 extern void U3CInitializeU3Ed__5_System_IDisposable_Dispose_mA2297253286029CC56F6013CADB503EECDFF4D97 (void);
-// 0x0000004E System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::MoveNext()
+// 0x0000004F System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::MoveNext()
 extern void U3CInitializeU3Ed__5_MoveNext_mB8450B30FF6DC70E8EE12CBE10D3619EE2987046 (void);
-// 0x0000004F System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000050 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CInitializeU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m022C5B54AAD8217A5406ED02BE4332646586F4E5 (void);
-// 0x00000050 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000051 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CInitializeU3Ed__5_System_Collections_IEnumerator_Reset_m562EE2762B055235D3F6FE7204B9AF4C05A3990E (void);
-// 0x00000051 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000052 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Initialize>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CInitializeU3Ed__5_System_Collections_IEnumerator_get_Current_m3D7188A18CD555FC87D370C7F8F3161561989DA1 (void);
-// 0x00000052 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::.ctor(System.Int32)
+// 0x00000053 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::.ctor(System.Int32)
 extern void U3CPopulateU3Ed__6__ctor_m4DA75FC49A5821DDF641A8E8067EF491165E489A (void);
-// 0x00000053 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.IDisposable.Dispose()
+// 0x00000054 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.IDisposable.Dispose()
 extern void U3CPopulateU3Ed__6_System_IDisposable_Dispose_m8B30FDDF73EB99357B0CD6E15FC51BACCB9C9D19 (void);
-// 0x00000054 System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::MoveNext()
+// 0x00000055 System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::MoveNext()
 extern void U3CPopulateU3Ed__6_MoveNext_m2826B5622F90BB570E606271FB0AC5577F91BCF8 (void);
-// 0x00000055 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000056 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPopulateU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1BC3D0C793CCBD29EC81AB9A6E270CA264055104 (void);
-// 0x00000056 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.Collections.IEnumerator.Reset()
+// 0x00000057 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CPopulateU3Ed__6_System_Collections_IEnumerator_Reset_mA3E9133EA9F26E6FE228F3216F32D3CEDC352266 (void);
-// 0x00000057 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.Collections.IEnumerator.get_Current()
+// 0x00000058 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<Populate>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CPopulateU3Ed__6_System_Collections_IEnumerator_get_Current_mBB20077452386BE02762861307A294FDC01B06E6 (void);
-// 0x00000058 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::.ctor(System.Int32)
-extern void U3CPrepareForMountU3Ed__8__ctor_m6D9266F9520677EE1D61F74A1A947CBD2E757399 (void);
-// 0x00000059 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.IDisposable.Dispose()
-extern void U3CPrepareForMountU3Ed__8_System_IDisposable_Dispose_mC863AEDAB953E973B6E662ED6486E4C717CD5492 (void);
-// 0x0000005A System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::MoveNext()
-extern void U3CPrepareForMountU3Ed__8_MoveNext_m3413BB0995D4B0805E54476002BD9D96B8C3CBE3 (void);
-// 0x0000005B System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CPrepareForMountU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEECEADF0A707166E3EDADA7791FF3EDD4E19D027 (void);
-// 0x0000005C System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.Collections.IEnumerator.Reset()
-extern void U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_Reset_m159CD9E946F0955628F55577146579F2C83FCCE1 (void);
-// 0x0000005D System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__8::System.Collections.IEnumerator.get_Current()
-extern void U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_get_Current_m13E670AACACF3F0B0BF77447C4D39C009BBDFDB2 (void);
-// 0x0000005E System.Void Recognissimo.Utils.Network.DownloadFailedCallback::.ctor(System.Object,System.IntPtr)
+// 0x00000059 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::.ctor(System.Int32)
+extern void U3CPrepareForExtractionU3Ed__8__ctor_m529B3B22FE8417B693866428CCA19E30C69CBB8A (void);
+// 0x0000005A System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.IDisposable.Dispose()
+extern void U3CPrepareForExtractionU3Ed__8_System_IDisposable_Dispose_mD7343C580B0535B6C2D24999653B4584D39FD67E (void);
+// 0x0000005B System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::MoveNext()
+extern void U3CPrepareForExtractionU3Ed__8_MoveNext_mB3D4C48AAE3D5E1FF50B04815F6F418A2456BA93 (void);
+// 0x0000005C System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPrepareForExtractionU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m04A01931B5BD8CD7EAAF41BE8B2FA7B252B7AFD2 (void);
+// 0x0000005D System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_Reset_m9BBC089DFBD388152A44E2311653F6C0D0468702 (void);
+// 0x0000005E System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForExtraction>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_get_Current_m021CD269C3420366CE75B09513D32515BDC3087A (void);
+// 0x0000005F System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::.ctor(System.Int32)
+extern void U3CPrepareForMountU3Ed__9__ctor_mFC999C7C817FE93A348B0512747B16D04C622591 (void);
+// 0x00000060 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.IDisposable.Dispose()
+extern void U3CPrepareForMountU3Ed__9_System_IDisposable_Dispose_m7F31B7AFCD4141F2F66E0601C3F7D0ED893FB972 (void);
+// 0x00000061 System.Boolean Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::MoveNext()
+extern void U3CPrepareForMountU3Ed__9_MoveNext_m8ED393B25316BC21E07F28A814CBB77A7C06F7ED (void);
+// 0x00000062 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPrepareForMountU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m06C2934C331101D2370A4E0FD0A276C0330F50B3 (void);
+// 0x00000063 System.Void Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_Reset_mBF49C5CFB5C3A387A883AAA9BF6E417EF25802B5 (void);
+// 0x00000064 System.Object Recognissimo.Utils.StreamingAssetsProvider.Android.AndroidStreamingAssetsProvider/<PrepareForMount>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_get_Current_m616404ADA1067018B3A34BF5BE069556B4571E58 (void);
+// 0x00000065 System.Void Recognissimo.Utils.Network.DownloadFailedCallback::.ctor(System.Object,System.IntPtr)
 extern void DownloadFailedCallback__ctor_mF38E0B91CA7ADCACF26E709F8CF9F5CDD21E1829 (void);
-// 0x0000005F System.Void Recognissimo.Utils.Network.DownloadFailedCallback::Invoke(System.String)
+// 0x00000066 System.Void Recognissimo.Utils.Network.DownloadFailedCallback::Invoke(System.String)
 extern void DownloadFailedCallback_Invoke_m492D4AE9AA47AF9AA983D7280CDD2B41BF393A1B (void);
-// 0x00000060 System.IAsyncResult Recognissimo.Utils.Network.DownloadFailedCallback::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+// 0x00000067 System.IAsyncResult Recognissimo.Utils.Network.DownloadFailedCallback::BeginInvoke(System.String,System.AsyncCallback,System.Object)
 extern void DownloadFailedCallback_BeginInvoke_m661C509F474D617B1D5DDF6792DCF93863C2A7F5 (void);
-// 0x00000061 System.Void Recognissimo.Utils.Network.DownloadFailedCallback::EndInvoke(System.IAsyncResult)
+// 0x00000068 System.Void Recognissimo.Utils.Network.DownloadFailedCallback::EndInvoke(System.IAsyncResult)
 extern void DownloadFailedCallback_EndInvoke_mC7A21BC59A9BE3494AF6E9208FA6042A41544D65 (void);
-// 0x00000062 System.Void Recognissimo.Utils.Network.DownloadManager::.ctor(System.String)
+// 0x00000069 System.Void Recognissimo.Utils.Network.DownloadManager::.ctor(System.String)
 extern void DownloadManager__ctor_m9B80EB11A9F22F1BB98262792F49681F62A27C61 (void);
-// 0x00000063 System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::DownloadFile(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadFailedCallback,System.String)
+// 0x0000006A System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::DownloadFile(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadFailedCallback,System.String)
 extern void DownloadManager_DownloadFile_m022FC2944635DD6945F608F99778F8CA27FC71C4 (void);
-// 0x00000064 System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::DownloadAndExtractZip(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadFailedCallback)
+// 0x0000006B System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::DownloadAndExtractZip(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadFailedCallback)
 extern void DownloadManager_DownloadAndExtractZip_m1EB8B0B605A8E6091AB91EB74498A7A7204AD10A (void);
-// 0x00000065 System.Boolean Recognissimo.Utils.Network.DownloadManager::IsDownloaded(Recognissimo.Utils.Network.RemoteFile,System.Boolean)
+// 0x0000006C System.Boolean Recognissimo.Utils.Network.DownloadManager::IsDownloaded(Recognissimo.Utils.Network.RemoteFile,System.Boolean)
 extern void DownloadManager_IsDownloaded_m5D27E387E4D43D6AEED981A0E5E278154B099814 (void);
-// 0x00000066 System.String Recognissimo.Utils.Network.DownloadManager::GetDownloadedItemPath(Recognissimo.Utils.Network.RemoteFile)
+// 0x0000006D System.String Recognissimo.Utils.Network.DownloadManager::GetDownloadedItemPath(Recognissimo.Utils.Network.RemoteFile)
 extern void DownloadManager_GetDownloadedItemPath_mB407C08FDAE016E5165812FF27BE5835DB8AC282 (void);
-// 0x00000067 System.Collections.Generic.IEnumerable`1<Recognissimo.Utils.Network.RemoteFile> Recognissimo.Utils.Network.DownloadManager::GetDownloads()
+// 0x0000006E System.Collections.Generic.IEnumerable`1<Recognissimo.Utils.Network.RemoteFile> Recognissimo.Utils.Network.DownloadManager::GetDownloads()
 extern void DownloadManager_GetDownloads_m16B0344408981EF63D34CE3936074F8E0D0A6AB4 (void);
-// 0x00000068 System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownloads()
+// 0x0000006F System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownloads()
 extern void DownloadManager_RemoveDownloads_mAB7401E4AC4A27896CD1CDF49B56854036114DC2 (void);
-// 0x00000069 System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownload(Recognissimo.Utils.Network.RemoteFile)
+// 0x00000070 System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownload(Recognissimo.Utils.Network.RemoteFile)
 extern void DownloadManager_RemoveDownload_m88ACC685B377FA6FFD619A378D1570FCFC71F25D (void);
-// 0x0000006A System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownloadsExcept(System.Collections.Generic.IEnumerable`1<Recognissimo.Utils.Network.RemoteFile>)
+// 0x00000071 System.Void Recognissimo.Utils.Network.DownloadManager::RemoveDownloadsExcept(System.Collections.Generic.IEnumerable`1<Recognissimo.Utils.Network.RemoteFile>)
 extern void DownloadManager_RemoveDownloadsExcept_m847BB6160A02BC339ED847E127CAE39CC37AADF2 (void);
-// 0x0000006B System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::Download(Recognissimo.Utils.Network.RemoteFile,UnityEngine.Networking.DownloadHandler,Recognissimo.Utils.Network.DownloadFailedCallback)
+// 0x00000072 System.Collections.IEnumerator Recognissimo.Utils.Network.DownloadManager::Download(Recognissimo.Utils.Network.RemoteFile,UnityEngine.Networking.DownloadHandler,Recognissimo.Utils.Network.DownloadFailedCallback)
 extern void DownloadManager_Download_m59FB06A0B453A89A2846FD0F2DBC0F32C3A746E7 (void);
-// 0x0000006C System.Void Recognissimo.Utils.Network.DownloadManager::AddToCache(Recognissimo.Utils.Network.RemoteFile,System.String)
+// 0x00000073 System.Void Recognissimo.Utils.Network.DownloadManager::AddToCache(Recognissimo.Utils.Network.RemoteFile,System.String)
 extern void DownloadManager_AddToCache_m15B296DAE04A69765E77479B69D0FE77F723CE60 (void);
-// 0x0000006D Recognissimo.Utils.Network.DownloadManager/DownloadsCache Recognissimo.Utils.Network.DownloadManager::LoadCacheFromFile(System.String)
+// 0x00000074 Recognissimo.Utils.Network.DownloadManager/DownloadsCache Recognissimo.Utils.Network.DownloadManager::LoadCacheFromFile(System.String)
 extern void DownloadManager_LoadCacheFromFile_mA07B7B65028AC946FD4D69B589D5F47B013A5652 (void);
-// 0x0000006E System.Void Recognissimo.Utils.Network.DownloadManager::SaveCacheToFile(System.String,Recognissimo.Utils.Network.DownloadManager/DownloadsCache)
+// 0x00000075 System.Void Recognissimo.Utils.Network.DownloadManager::SaveCacheToFile(System.String,Recognissimo.Utils.Network.DownloadManager/DownloadsCache)
 extern void DownloadManager_SaveCacheToFile_m18B6A84792D30C0004453DC3EE32E7AFF59B2119 (void);
-// 0x0000006F System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription::Equals(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
+// 0x00000076 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription::Equals(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
 extern void DownloadedFileDescription_Equals_m495A3D09AFC87EFC09D5FFFFDE1D7E73270A9646 (void);
-// 0x00000070 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache::Contains(Recognissimo.Utils.Network.RemoteFile)
+// 0x00000077 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache::Contains(Recognissimo.Utils.Network.RemoteFile)
 extern void DownloadsCache_Contains_mA42B8086AB3495D57286A3093BE59089ACB4414C (void);
-// 0x00000071 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache::TryGetByRemote(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription&)
+// 0x00000078 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache::TryGetByRemote(Recognissimo.Utils.Network.RemoteFile,Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription&)
 extern void DownloadsCache_TryGetByRemote_m5D1843F7548F9B870D738715C83FCE4E0B4D014E (void);
-// 0x00000072 System.Void Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass1_0::.ctor()
+// 0x00000079 System.Void Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass1_0::.ctor()
 extern void U3CU3Ec__DisplayClass1_0__ctor_mE119B625E9DEBDD037B5E8BDF43219F25C020494 (void);
-// 0x00000073 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass1_0::<Contains>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
+// 0x0000007A System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass1_0::<Contains>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
 extern void U3CU3Ec__DisplayClass1_0_U3CContainsU3Eb__0_m92ED308C097C5D8C73B45B19B313E084C6AFF0E3 (void);
-// 0x00000074 System.Void Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass2_0::.ctor()
+// 0x0000007B System.Void Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_m000F6AF552285F7FA4A9ECC2A27D1E8F9080A6B9 (void);
-// 0x00000075 System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass2_0::<TryGetByRemote>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
+// 0x0000007C System.Boolean Recognissimo.Utils.Network.DownloadManager/DownloadsCache/<>c__DisplayClass2_0::<TryGetByRemote>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
 extern void U3CU3Ec__DisplayClass2_0_U3CTryGetByRemoteU3Eb__0_m8845D33F8A6786EAE7233E66695039E6B9A4849F (void);
-// 0x00000076 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass5_0::.ctor()
+// 0x0000007D System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_mA8651DDBF02F5CDE6C7D0E8100C0181220D78D86 (void);
-// 0x00000077 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass5_0::<DownloadFile>b__0(System.String)
+// 0x0000007E System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass5_0::<DownloadFile>b__0(System.String)
 extern void U3CU3Ec__DisplayClass5_0_U3CDownloadFileU3Eb__0_m24F3E4DA7C2FA7AD382AC84D77390FCF7328BEB5 (void);
-// 0x00000078 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::.ctor(System.Int32)
+// 0x0000007F System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::.ctor(System.Int32)
 extern void U3CDownloadFileU3Ed__5__ctor_mC2AB9091686D85A173406AA2C49D401372E125C3 (void);
-// 0x00000079 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.IDisposable.Dispose()
+// 0x00000080 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.IDisposable.Dispose()
 extern void U3CDownloadFileU3Ed__5_System_IDisposable_Dispose_mE2E0DFEE4BDCA23E62085C43AA1A60ED2ED1E557 (void);
-// 0x0000007A System.Boolean Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::MoveNext()
+// 0x00000081 System.Boolean Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::MoveNext()
 extern void U3CDownloadFileU3Ed__5_MoveNext_m91BD6D95D74F2D49CB5F0713B1889622923B13A0 (void);
-// 0x0000007B System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::<>m__Finally1()
+// 0x00000082 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::<>m__Finally1()
 extern void U3CDownloadFileU3Ed__5_U3CU3Em__Finally1_m54CCFBEDE43AED7ED2D1A5C74DFA6A1AE0E1674B (void);
-// 0x0000007C System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000083 System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDownloadFileU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1FAF8B4F7219A842C99F5996AF88E2E853FF5BDE (void);
-// 0x0000007D System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000084 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CDownloadFileU3Ed__5_System_Collections_IEnumerator_Reset_m84994E72E0A41E87573D1B3631F2C48D12EC368F (void);
-// 0x0000007E System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000085 System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadFile>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CDownloadFileU3Ed__5_System_Collections_IEnumerator_get_Current_mF1E9CA1070BE070657AA0EE787C666780DDDFDAE (void);
-// 0x0000007F System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass6_0::.ctor()
+// 0x00000086 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_m610A7D01A847DE749F5037E0FE1B29A554251280 (void);
-// 0x00000080 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass6_0::<DownloadAndExtractZip>b__0(System.String)
+// 0x00000087 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass6_0::<DownloadAndExtractZip>b__0(System.String)
 extern void U3CU3Ec__DisplayClass6_0_U3CDownloadAndExtractZipU3Eb__0_m88D9B4CC91102C5013AEE2E3D48DEB5FB4AA0717 (void);
-// 0x00000081 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::.ctor(System.Int32)
+// 0x00000088 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::.ctor(System.Int32)
 extern void U3CDownloadAndExtractZipU3Ed__6__ctor_m3C4E85A0D956E432B980AD32863AAAC4A7669A89 (void);
-// 0x00000082 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.IDisposable.Dispose()
+// 0x00000089 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.IDisposable.Dispose()
 extern void U3CDownloadAndExtractZipU3Ed__6_System_IDisposable_Dispose_m00EF681ABF1B6BADC791964B0934D5598CEA15C8 (void);
-// 0x00000083 System.Boolean Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::MoveNext()
+// 0x0000008A System.Boolean Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::MoveNext()
 extern void U3CDownloadAndExtractZipU3Ed__6_MoveNext_m88FBB1DFBFD3FE966FF20FC17B041FF7F588F9D4 (void);
-// 0x00000084 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::<>m__Finally1()
+// 0x0000008B System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::<>m__Finally1()
 extern void U3CDownloadAndExtractZipU3Ed__6_U3CU3Em__Finally1_mF0F891912E1E072228C1AD8F5E0EC06424C5EC5C (void);
-// 0x00000085 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::<>m__Finally2()
+// 0x0000008C System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::<>m__Finally2()
 extern void U3CDownloadAndExtractZipU3Ed__6_U3CU3Em__Finally2_m2D653911AAA64F92E1F03A48402456B79B399F0D (void);
-// 0x00000086 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::<>m__Finally3()
+// 0x0000008D System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::<>m__Finally3()
 extern void U3CDownloadAndExtractZipU3Ed__6_U3CU3Em__Finally3_mE8D1E5D4C96610BF7D99464850D837B163030CD7 (void);
-// 0x00000087 System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000008E System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDownloadAndExtractZipU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m279DDC0FA22C66B9B8E1278E0F2A68D659D4BAA8 (void);
-// 0x00000088 System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.Collections.IEnumerator.Reset()
+// 0x0000008F System.Void Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CDownloadAndExtractZipU3Ed__6_System_Collections_IEnumerator_Reset_m46BC6113E9BEF92BD3DFD1D6780596D0797A7B5B (void);
-// 0x00000089 System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.Collections.IEnumerator.get_Current()
+// 0x00000090 System.Object Recognissimo.Utils.Network.DownloadManager/<DownloadAndExtractZip>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CDownloadAndExtractZipU3Ed__6_System_Collections_IEnumerator_get_Current_m76D0AB8576E1EAD0E546A33C047C85AC3EBF21C5 (void);
-// 0x0000008A System.Void Recognissimo.Utils.Network.DownloadManager/<>c::.cctor()
+// 0x00000091 System.Void Recognissimo.Utils.Network.DownloadManager/<>c::.cctor()
 extern void U3CU3Ec__cctor_mD3EE0B1DE82D1D26166D30EAF551474B486B5AF1 (void);
-// 0x0000008B System.Void Recognissimo.Utils.Network.DownloadManager/<>c::.ctor()
+// 0x00000092 System.Void Recognissimo.Utils.Network.DownloadManager/<>c::.ctor()
 extern void U3CU3Ec__ctor_mFBDB0B1E39751485CFB3257E8439FC4196A5DF51 (void);
-// 0x0000008C Recognissimo.Utils.Network.RemoteFile Recognissimo.Utils.Network.DownloadManager/<>c::<GetDownloads>b__9_0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
+// 0x00000093 Recognissimo.Utils.Network.RemoteFile Recognissimo.Utils.Network.DownloadManager/<>c::<GetDownloads>b__9_0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
 extern void U3CU3Ec_U3CGetDownloadsU3Eb__9_0_m1BF4DC252FC9F30EE6BB79F0D0CBDA8CA8886DBC (void);
-// 0x0000008D System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass11_0::.ctor()
+// 0x00000094 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass11_0::.ctor()
 extern void U3CU3Ec__DisplayClass11_0__ctor_mE7D6F4AB0E8111174D586FDFED5B9EE2FDB40B13 (void);
-// 0x0000008E System.Boolean Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass11_0::<RemoveDownload>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
+// 0x00000095 System.Boolean Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass11_0::<RemoveDownload>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
 extern void U3CU3Ec__DisplayClass11_0_U3CRemoveDownloadU3Eb__0_m6D2869BB627C4837223BC023598D4366526EE31D (void);
-// 0x0000008F System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass12_0::.ctor()
+// 0x00000096 System.Void Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass12_0::.ctor()
 extern void U3CU3Ec__DisplayClass12_0__ctor_m2168DF90E7C3D9DA2E595CFC839BC14C83DF323B (void);
-// 0x00000090 System.Boolean Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass12_0::<RemoveDownloadsExcept>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
+// 0x00000097 System.Boolean Recognissimo.Utils.Network.DownloadManager/<>c__DisplayClass12_0::<RemoveDownloadsExcept>b__0(Recognissimo.Utils.Network.DownloadManager/DownloadedFileDescription)
 extern void U3CU3Ec__DisplayClass12_0_U3CRemoveDownloadsExceptU3Eb__0_mD88E53D7CC66B20AE72CC7200D1C7DD9E014673D (void);
-// 0x00000091 System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::.ctor(System.Int32)
+// 0x00000098 System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::.ctor(System.Int32)
 extern void U3CDownloadU3Ed__13__ctor_m69EFB7D07D0CFA6F3CFBB3838B48BCC716B17F9A (void);
-// 0x00000092 System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.IDisposable.Dispose()
+// 0x00000099 System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.IDisposable.Dispose()
 extern void U3CDownloadU3Ed__13_System_IDisposable_Dispose_m13A8340FD24521169760505F208E1132C4866F27 (void);
-// 0x00000093 System.Boolean Recognissimo.Utils.Network.DownloadManager/<Download>d__13::MoveNext()
+// 0x0000009A System.Boolean Recognissimo.Utils.Network.DownloadManager/<Download>d__13::MoveNext()
 extern void U3CDownloadU3Ed__13_MoveNext_mE114115F6F8C6A9AAA977DF331048B49018F2D0F (void);
-// 0x00000094 System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::<>m__Finally1()
+// 0x0000009B System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::<>m__Finally1()
 extern void U3CDownloadU3Ed__13_U3CU3Em__Finally1_m7E181D2ADBFC5F6AF3D6173BE5F618086A5A8A37 (void);
-// 0x00000095 System.Object Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000009C System.Object Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDownloadU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m37C587398E5004D6D3E81B392309AA710128DEAD (void);
-// 0x00000096 System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.Collections.IEnumerator.Reset()
+// 0x0000009D System.Void Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.Collections.IEnumerator.Reset()
 extern void U3CDownloadU3Ed__13_System_Collections_IEnumerator_Reset_mB97EE642D980BC4184A42A612579D829A5BD9185 (void);
-// 0x00000097 System.Object Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.Collections.IEnumerator.get_Current()
+// 0x0000009E System.Object Recognissimo.Utils.Network.DownloadManager/<Download>d__13::System.Collections.IEnumerator.get_Current()
 extern void U3CDownloadU3Ed__13_System_Collections_IEnumerator_get_Current_m5E2FFA38BE776C1A563EFDAE0DF1683A325BF8DD (void);
-// 0x00000098 System.Void Recognissimo.Utils.Network.RemoteFile::.ctor(System.String)
+// 0x0000009F System.Void Recognissimo.Utils.Network.RemoteFile::.ctor(System.String)
 extern void RemoteFile__ctor_m6B264239939E07B715E4968D74E633E069A9F045 (void);
-// 0x00000099 System.Void Recognissimo.Utils.Network.RemoteFile::.ctor(System.String,System.String)
+// 0x000000A0 System.Void Recognissimo.Utils.Network.RemoteFile::.ctor(System.String,System.String)
 extern void RemoteFile__ctor_m36BFA1551C07986961109A832065BC6B8B91B039 (void);
-// 0x0000009A System.Boolean Recognissimo.Utils.Network.RemoteFile::Equals(Recognissimo.Utils.Network.RemoteFile)
+// 0x000000A1 System.Boolean Recognissimo.Utils.Network.RemoteFile::Equals(Recognissimo.Utils.Network.RemoteFile)
 extern void RemoteFile_Equals_mBEA250619262923AE88D47DCDD82981BE92E17E7 (void);
-// 0x0000009B System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest::Equals(Recognissimo.Utils.Network.RemoteFilesManifest)
+// 0x000000A2 System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest::Equals(Recognissimo.Utils.Network.RemoteFilesManifest)
 extern void RemoteFilesManifest_Equals_m802D1D8619D3ED4C8804143BC50C90B2167F2D89 (void);
-// 0x0000009C System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest::TryFindByUrl(System.String,Recognissimo.Utils.Network.RemoteFile&)
+// 0x000000A3 System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest::TryFindByUrl(System.String,Recognissimo.Utils.Network.RemoteFile&)
 extern void RemoteFilesManifest_TryFindByUrl_m4D8B7CC302C276E2CA288395A9E2C77BFC752B32 (void);
-// 0x0000009D System.Void Recognissimo.Utils.Network.RemoteFilesManifest/<>c__DisplayClass2_0::.ctor()
+// 0x000000A4 System.Void Recognissimo.Utils.Network.RemoteFilesManifest/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_mF5E0F7E73B85822F440B539BB134D69C4459CB9A (void);
-// 0x0000009E System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest/<>c__DisplayClass2_0::<TryFindByUrl>b__0(Recognissimo.Utils.Network.RemoteFile)
+// 0x000000A5 System.Boolean Recognissimo.Utils.Network.RemoteFilesManifest/<>c__DisplayClass2_0::<TryFindByUrl>b__0(Recognissimo.Utils.Network.RemoteFile)
 extern void U3CU3Ec__DisplayClass2_0_U3CTryFindByUrlU3Eb__0_m3A6433F52C50FD4FBE830668C755AD90F131287C (void);
-static Il2CppMethodPointer s_methodPointers[158] = 
+static Il2CppMethodPointer s_methodPointers[165] = 
 {
 	Filesystem_RequiresSyncing_m7E72268FAB5B97CC17D17B98CDB939D9E58EC044,
 	Filesystem_Commit_mA3183351FFF99525699344A7F012ED35A11F5FAB,
@@ -394,6 +408,7 @@ static Il2CppMethodPointer s_methodPointers[158] =
 	AndroidStreamingAssetsProvider_Initialize_mD5A5272C731A14ACB84F40067D12308D830623C6,
 	AndroidStreamingAssetsProvider_Populate_m7A2D9705B4A0FC0DDBE025C7B55DE4108EFC60F1,
 	AndroidStreamingAssetsProvider_Provide_mB7BB0E3C2C2B1A9063824F1D29E5FCB869F34001,
+	AndroidStreamingAssetsProvider_PrepareForExtraction_m947F42466072600418E25EBD6E7BFA01F9BA1BE5,
 	AndroidStreamingAssetsProvider_PrepareForMount_m3B9F18AEB964ADD80E1DC1853F62C550A92DD872,
 	AndroidStreamingAssetsProvider_ResolveContainer_mB4BCF22AB530A3AE54B2391D2F119294EAACE7E7,
 	ObbMounter__ctor_mE60A35719C41928CC8FD5F4B81E137836036A91B,
@@ -412,12 +427,18 @@ static Il2CppMethodPointer s_methodPointers[158] =
 	U3CPopulateU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1BC3D0C793CCBD29EC81AB9A6E270CA264055104,
 	U3CPopulateU3Ed__6_System_Collections_IEnumerator_Reset_mA3E9133EA9F26E6FE228F3216F32D3CEDC352266,
 	U3CPopulateU3Ed__6_System_Collections_IEnumerator_get_Current_mBB20077452386BE02762861307A294FDC01B06E6,
-	U3CPrepareForMountU3Ed__8__ctor_m6D9266F9520677EE1D61F74A1A947CBD2E757399,
-	U3CPrepareForMountU3Ed__8_System_IDisposable_Dispose_mC863AEDAB953E973B6E662ED6486E4C717CD5492,
-	U3CPrepareForMountU3Ed__8_MoveNext_m3413BB0995D4B0805E54476002BD9D96B8C3CBE3,
-	U3CPrepareForMountU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEECEADF0A707166E3EDADA7791FF3EDD4E19D027,
-	U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_Reset_m159CD9E946F0955628F55577146579F2C83FCCE1,
-	U3CPrepareForMountU3Ed__8_System_Collections_IEnumerator_get_Current_m13E670AACACF3F0B0BF77447C4D39C009BBDFDB2,
+	U3CPrepareForExtractionU3Ed__8__ctor_m529B3B22FE8417B693866428CCA19E30C69CBB8A,
+	U3CPrepareForExtractionU3Ed__8_System_IDisposable_Dispose_mD7343C580B0535B6C2D24999653B4584D39FD67E,
+	U3CPrepareForExtractionU3Ed__8_MoveNext_mB3D4C48AAE3D5E1FF50B04815F6F418A2456BA93,
+	U3CPrepareForExtractionU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m04A01931B5BD8CD7EAAF41BE8B2FA7B252B7AFD2,
+	U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_Reset_m9BBC089DFBD388152A44E2311653F6C0D0468702,
+	U3CPrepareForExtractionU3Ed__8_System_Collections_IEnumerator_get_Current_m021CD269C3420366CE75B09513D32515BDC3087A,
+	U3CPrepareForMountU3Ed__9__ctor_mFC999C7C817FE93A348B0512747B16D04C622591,
+	U3CPrepareForMountU3Ed__9_System_IDisposable_Dispose_m7F31B7AFCD4141F2F66E0601C3F7D0ED893FB972,
+	U3CPrepareForMountU3Ed__9_MoveNext_m8ED393B25316BC21E07F28A814CBB77A7C06F7ED,
+	U3CPrepareForMountU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m06C2934C331101D2370A4E0FD0A276C0330F50B3,
+	U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_Reset_mBF49C5CFB5C3A387A883AAA9BF6E417EF25802B5,
+	U3CPrepareForMountU3Ed__9_System_Collections_IEnumerator_get_Current_m616404ADA1067018B3A34BF5BE069556B4571E58,
 	DownloadFailedCallback__ctor_mF38E0B91CA7ADCACF26E709F8CF9F5CDD21E1829,
 	DownloadFailedCallback_Invoke_m492D4AE9AA47AF9AA983D7280CDD2B41BF393A1B,
 	DownloadFailedCallback_BeginInvoke_m661C509F474D617B1D5DDF6792DCF93863C2A7F5,
@@ -494,16 +515,16 @@ extern void RemoteFilesManifest_Equals_m802D1D8619D3ED4C8804143BC50C90B2167F2D89
 extern void RemoteFilesManifest_TryFindByUrl_m4D8B7CC302C276E2CA288395A9E2C77BFC752B32_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] = 
 {
-	{ 0x0600006F, DownloadedFileDescription_Equals_m495A3D09AFC87EFC09D5FFFFDE1D7E73270A9646_AdjustorThunk },
-	{ 0x06000070, DownloadsCache_Contains_mA42B8086AB3495D57286A3093BE59089ACB4414C_AdjustorThunk },
-	{ 0x06000071, DownloadsCache_TryGetByRemote_m5D1843F7548F9B870D738715C83FCE4E0B4D014E_AdjustorThunk },
-	{ 0x06000098, RemoteFile__ctor_m6B264239939E07B715E4968D74E633E069A9F045_AdjustorThunk },
-	{ 0x06000099, RemoteFile__ctor_m36BFA1551C07986961109A832065BC6B8B91B039_AdjustorThunk },
-	{ 0x0600009A, RemoteFile_Equals_mBEA250619262923AE88D47DCDD82981BE92E17E7_AdjustorThunk },
-	{ 0x0600009B, RemoteFilesManifest_Equals_m802D1D8619D3ED4C8804143BC50C90B2167F2D89_AdjustorThunk },
-	{ 0x0600009C, RemoteFilesManifest_TryFindByUrl_m4D8B7CC302C276E2CA288395A9E2C77BFC752B32_AdjustorThunk },
+	{ 0x06000076, DownloadedFileDescription_Equals_m495A3D09AFC87EFC09D5FFFFDE1D7E73270A9646_AdjustorThunk },
+	{ 0x06000077, DownloadsCache_Contains_mA42B8086AB3495D57286A3093BE59089ACB4414C_AdjustorThunk },
+	{ 0x06000078, DownloadsCache_TryGetByRemote_m5D1843F7548F9B870D738715C83FCE4E0B4D014E_AdjustorThunk },
+	{ 0x0600009F, RemoteFile__ctor_m6B264239939E07B715E4968D74E633E069A9F045_AdjustorThunk },
+	{ 0x060000A0, RemoteFile__ctor_m36BFA1551C07986961109A832065BC6B8B91B039_AdjustorThunk },
+	{ 0x060000A1, RemoteFile_Equals_mBEA250619262923AE88D47DCDD82981BE92E17E7_AdjustorThunk },
+	{ 0x060000A2, RemoteFilesManifest_Equals_m802D1D8619D3ED4C8804143BC50C90B2167F2D89_AdjustorThunk },
+	{ 0x060000A3, RemoteFilesManifest_TryFindByUrl_m4D8B7CC302C276E2CA288395A9E2C77BFC752B32_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[158] = 
+static const int32_t s_InvokerIndices[165] = 
 {
 	9093,
 	9118,
@@ -575,10 +596,17 @@ static const int32_t s_InvokerIndices[158] =
 	2283,
 	2283,
 	6103,
+	6103,
 	8711,
 	5070,
 	6008,
 	6008,
+	6103,
+	5035,
+	6221,
+	6008,
+	6103,
+	6221,
 	6103,
 	5035,
 	6221,
@@ -680,7 +708,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Recognissimo_Utils_CodeGenModule;
 const Il2CppCodeGenModule g_Recognissimo_Utils_CodeGenModule = 
 {
 	"Recognissimo.Utils.dll",
-	158,
+	165,
 	s_methodPointers,
 	8,
 	s_adjustorThunks,

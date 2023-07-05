@@ -2794,6 +2794,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.IntegratedSubsystem
 
+		//System.Boolean UnityEngine.IntegratedSubsystem::IsRunning()
+		void Register_UnityEngine_IntegratedSubsystem_IsRunning();
+		Register_UnityEngine_IntegratedSubsystem_IsRunning();
+
 		//System.Void UnityEngine.IntegratedSubsystem::SetHandle(UnityEngine.IntegratedSubsystem)
 		void Register_UnityEngine_IntegratedSubsystem_SetHandle();
 		Register_UnityEngine_IntegratedSubsystem_SetHandle();

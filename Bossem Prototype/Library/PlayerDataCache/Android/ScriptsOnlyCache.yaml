@@ -21,15 +21,25 @@ ScriptsOnlyBuild:
     - Niantic.LightshipHub.Templates.ObjectHolderController
     - Niantic.LightshipHub.Templates.PlacementController
     - PlayspaceCursor
+    - Recognissimo.Samples.VoiceControlExample.VoiceControlExample
     NavMeshComponents.dll:
     - UnityEngine.AI.NavMeshSurface
     NavMeshComponentsEditor.dll:
     - UnityEditor.AI.NavMeshAssetManager
+    Recognissimo.dll:
+    - Recognissimo.Components.MicrophoneSpeechSource
+    - Recognissimo.Components.StreamingAssetsLanguageModelProvider
+    - Recognissimo.Components.VoiceControl
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
+    Unity.AdaptivePerformance.Samsung.Android.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.SamsungAndroidProviderSettingsEditor
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -62,13 +72,30 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     ARDK:
     - Niantic.ARDK.Extensions.CapabilityChecker/FailureEvent
     - Niantic.ARDK.Extensions.CapabilityChecker/SuccessEvent
+    Recognissimo:
+    - Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings
+    - Recognissimo.Components.StreamingAssetsLanguageModel
+    - Recognissimo.Components.VoiceControl/VoiceControlSettings
+    - Recognissimo.Components.VoiceControlCommand
+    - Recognissimo.SpeechProcessor/LifecycleEvents
+    - Recognissimo.SpeechProcessor/Settings
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
@@ -93,6 +120,10 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]
+    - UnityEngine.Events.UnityEvent`1[Recognissimo.RuntimeException]
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -102,11 +133,44 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: AgentGoTo
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
+  - assembly: Assembly-CSharp
+    fullTypeName: ARPlayspaceController
+    methodName: DemoAnim
   - assembly: Assembly-CSharp
     fullTypeName: ARPlayspaceController
     methodName: TogglePlayspaceLock
@@ -233,15 +297,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1692}
+    - Class: 114
       Script: {instanceID: 1694}
     - Class: 114
       Script: {instanceID: 1696}
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
+      Script: {instanceID: 1700}
+    - Class: 114
+      Script: {instanceID: 1702}
+    - Class: 114
       Script: {instanceID: 1706}
     - Class: 114
+      Script: {instanceID: 1776}
+    - Class: 114
       Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 1932}
+    - Class: 114
+      Script: {instanceID: 1978}
     - Class: 114
       Script: {instanceID: 2554}
     - Class: 114
@@ -249,53 +325,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3116}
     - Class: 114
-      Script: {instanceID: 3798}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 4412}
+      Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 4686}
+      Script: {instanceID: 3800}
     - Class: 114
-      Script: {instanceID: 4766}
+      Script: {instanceID: 4414}
     - Class: 114
-      Script: {instanceID: 5196}
+      Script: {instanceID: 4688}
     - Class: 114
-      Script: {instanceID: 5220}
+      Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 4874}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5198}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5222}
     - Class: 114
-      Script: {instanceID: 6262}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 6394}
+      Script: {instanceID: 5436}
     - Class: 114
-      Script: {instanceID: 6442}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 6558}
+      Script: {instanceID: 6264}
     - Class: 114
-      Script: {instanceID: 6766}
+      Script: {instanceID: 6396}
     - Class: 114
-      Script: {instanceID: 6834}
+      Script: {instanceID: 6444}
     - Class: 114
-      Script: {instanceID: 7168}
+      Script: {instanceID: 6462}
     - Class: 114
-      Script: {instanceID: 7356}
+      Script: {instanceID: 6474}
     - Class: 114
-      Script: {instanceID: 7548}
+      Script: {instanceID: 6560}
     - Class: 114
-      Script: {instanceID: 8012}
+      Script: {instanceID: 6768}
     - Class: 114
-      Script: {instanceID: 9280}
+      Script: {instanceID: 6836}
     - Class: 114
-      Script: {instanceID: 9290}
+      Script: {instanceID: 7170}
     - Class: 114
-      Script: {instanceID: 9464}
+      Script: {instanceID: 7358}
     - Class: 114
-      Script: {instanceID: 31600}
+      Script: {instanceID: 7550}
+    - Class: 114
+      Script: {instanceID: 8014}
+    - Class: 114
+      Script: {instanceID: 8040}
+    - Class: 114
+      Script: {instanceID: 8064}
+    - Class: 114
+      Script: {instanceID: 9066}
+    - Class: 114
+      Script: {instanceID: 9282}
+    - Class: 114
+      Script: {instanceID: 9292}
+    - Class: 114
+      Script: {instanceID: 9466}
+    - Class: 114
+      Script: {instanceID: 9474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -687,6 +779,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DiceScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2457,13 +2555,7 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DiceScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/ObjectPlacementPlayspacetest.unity
-  playerPath: E:/Bossem/Builds/BossemTest.apk
+  playerPath: F:/Bossem/Builds/Bossem2.apk

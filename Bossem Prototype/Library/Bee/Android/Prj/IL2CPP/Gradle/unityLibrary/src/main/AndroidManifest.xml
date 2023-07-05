@@ -45,26 +45,4 @@
   </queries>
   <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
   <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
-  <uses-permission android:name="android.hardware.camera.ar" android:required="false" />
 </manifest>
